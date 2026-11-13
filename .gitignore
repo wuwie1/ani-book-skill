@@ -32,8 +32,6 @@ id_ed25519
 *.bak
 *.bak.*
 
-# Private author work: publish only explicitly curated, authorized examples.
-novels/**
 !novels/.gitkeep
 analyses/**
 !analyses/.gitkeep
@@ -62,9 +60,6 @@ libraries/**
 # Private reusable writing-style cards.
 styles/**
 **/continuity/graph/asset-graph-index.sqlite3
-
-# Generated exports
-novels/**/exports/
 
 # Rebuildable continuity caches
 **/continuity/index.sqlite3
