@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-12T19:28:11.488298Z",
+  "totals": {
+    "events": 508,
+    "succeeded": 508,
+    "failed": 0,
+    "partial": 0,
+    "exact_events": 0,
+    "exact_tokens": 0,
+    "estimated_events": 0,
+    "estimated_tokens": 0,
+    "unavailable_events": 508
+  },
+  "by_step": {
+    "analysis.analysis_lens": {
+      "events": 2,
+      "succeeded": 2,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 2
+    },
+    "analysis.analysis_overview": {
+      "events": 2,
+      "succeeded": 2,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 2
+    },
+    "analysis.analysis_section": {
+      "events": 112,
+      "succeeded": 112,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 112
+    },
+    "analysis.analysis_segment_notes": {
+      "events": 390,
+      "succeeded": 390,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 390
+    },
+    "analysis.pattern_cards": {
+      "events": 2,
+      "succeeded": 2,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 2
+    }
+  },
+  "by_model": {
+    "gpt-6.1-sol": {
+      "events": 508,
+      "succeeded": 508,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 508
+    }
+  }
+}

@@ -1,0 +1,757 @@
+{"id": "segment-001", "type": "chapter", "label": "segment-001", "attributes": {"start": 0, "end": 8614}, "confidence": "high", "source_refs": ["segment-001"]}
+{"id": "PROM-001", "type": "promise", "label": "寻找雅典娜", "confidence": "high", "source_refs": ["segment-001", "第一节"]}
+{"id": "KNOW-001", "type": "resource", "label": "旧有道术魔法兵学知识", "confidence": "high", "source_refs": ["segment-001"]}
+{"id": "segment-002", "type": "chapter", "label": "segment-002", "attributes": {"start": 8614, "end": 19434}, "confidence": "high", "source_refs": ["segment-002"]}
+{"id": "ITEM-RADAR", "type": "item", "label": "雷达鹰与水晶球", "confidence": "high", "source_refs": ["segment-002", "第三节", "第五节"]}
+{"id": "RULE-SEAL", "type": "world_rule", "label": "魔力封印与三级施法通道", "confidence": "high", "source_refs": ["segment-002", "第四节"]}
+{"id": "segment-003", "type": "chapter", "label": "segment-003", "attributes": {"start": 19434, "end": 31004}, "confidence": "high", "source_refs": ["segment-003"]}
+{"id": "CHAR-GAICI", "type": "character", "label": "盖次·皮尔", "aliases": ["盖次"], "confidence": "high", "source_refs": ["segment-003"]}
+{"id": "RES-CORPSE", "type": "resource", "label": "九头蛇尸体与巢穴遗物", "confidence": "high", "source_refs": ["segment-003"]}
+{"id": "PROM-ALCHEMY", "type": "promise", "label": "炼金笔记与三法术剑的研究", "confidence": "high", "source_refs": ["segment-003"]}
+{"id": "segment-004", "type": "chapter", "label": "segment-004", "attributes": {"start": 31004, "end": 42270}, "confidence": "high", "source_refs": ["segment-004"]}
+{"id": "CHAR-DRAGON", "type": "character", "label": "克丽丝提娜", "confidence": "high", "source_refs": ["segment-004"]}
+{"id": "RULE-PORTAL", "type": "world_rule", "label": "空间门需坐标与魔力恢复", "confidence": "high", "source_refs": ["segment-004"]}
+{"id": "PROM-STAFF", "type": "promise", "label": "寻找魔法神的祝福", "confidence": "high", "source_refs": ["segment-004"]}
+{"id": "segment-005", "type": "chapter", "label": "segment-005", "attributes": {"start": 42270, "end": 53794}, "confidence": "high", "source_refs": ["segment-005"]}
+{"id": "ITEM-STAFF", "type": "item", "label": "魔法神的祝福", "confidence": "high", "source_refs": ["segment-005"]}
+{"id": "RES-REWARD", "type": "resource", "label": "万军十年及女皇三事的未调用权利", "confidence": "high", "source_refs": ["segment-005"]}
+{"id": "CHAR-WEINA", "type": "character", "label": "威娜", "confidence": "high", "source_refs": ["segment-005"]}
+{"id": "segment-006", "type": "chapter", "label": "segment-006", "attributes": {"start": 53794, "end": 64841}, "confidence": "high", "source_refs": ["segment-006"]}
+{"id": "RULE-ANTI", "type": "world_rule", "label": "威娜供能的十米数分钟大封魔域", "confidence": "high", "source_refs": ["segment-006"]}
+{"id": "PROM-BLADE", "type": "promise", "label": "九天玄铁巨刀与巨龙遗骨来源", "confidence": "high", "source_refs": ["segment-006"]}
+{"id": "ITEM-PRIZE", "type": "item", "label": "斗宝奖得纯秘银光明晶剑", "confidence": "high", "source_refs": ["segment-006"]}
+{"id": "segment-007", "type": "chapter", "label": "segment-007", "attributes": {"start": 64841, "end": 76244}, "confidence": "high", "source_refs": ["segment-007"]}
+{"id": "ITEM-DARKRING", "type": "item", "label": "赌得墨玉暗系戒指", "confidence": "high", "source_refs": ["segment-007", "第二十四节"]}
+{"id": "EVENT-BRIDGE", "type": "event", "label": "窄桥拖护盾后用药粉反击", "confidence": "high", "source_refs": ["segment-007", "第二十五节"]}
+{"id": "segment-008", "type": "chapter", "label": "segment-008", "attributes": {"start": 76244, "end": 87662}, "confidence": "high", "source_refs": ["segment-008"]}
+{"id": "EVENT-COURT", "type": "event", "label": "伪伤叙事与宫廷家族战", "confidence": "high", "source_refs": ["segment-008"]}
+{"id": "PROM-DUEL", "type": "promise", "label": "与石原二狼公开决斗", "confidence": "high", "source_refs": ["segment-008"]}
+{"id": "ITEM-CROSSBOW", "type": "item", "label": "怒龙之咆哮及赛前实射", "confidence": "high", "source_refs": ["segment-005", "segment-008"]}
+{"id": "segment-009", "type": "chapter", "label": "segment-009", "attributes": {"start": 87662, "end": 99035}, "confidence": "high", "source_refs": ["segment-009"]}
+{"id": "EVENT-DUELWIN", "type": "event", "label": "闪光土墙胜重骑二狼", "confidence": "high", "source_refs": ["segment-009"]}
+{"id": "EVENT-ANTIDUEL", "type": "event", "label": "封魔域制服魔导师", "confidence": "high", "source_refs": ["segment-009"]}
+{"id": "segment-010", "type": "chapter", "label": "segment-010", "attributes": {"start": 99035, "end": 109985}, "confidence": "high", "source_refs": ["segment-010"]}
+{"id": "RES-MILFUNDS", "type": "resource", "label": "主角每年600万军费约定", "confidence": "high", "source_refs": ["segment-010"]}
+{"id": "ORG-MOTHER", "type": "character", "label": "伊丽雅的商会与军团后勤职责", "confidence": "high", "source_refs": ["segment-002", "segment-010"]}
+{"id": "segment-011", "type": "chapter", "label": "segment-011", "attributes": {"start": 109985, "end": 121406}, "confidence": "high", "source_refs": ["segment-011"]}
+{"id": "RES-BORROWEDRINGS", "type": "resource", "label": "一月准备借来的三十高阶存术戒", "confidence": "high", "source_refs": ["segment-011"]}
+{"id": "EVENT-AIRWAIT", "type": "event", "label": "迷雾诱声升空等狂化到期", "confidence": "high", "source_refs": ["segment-011"]}
+{"id": "segment-012", "type": "chapter", "label": "segment-012", "attributes": {"start": 121406, "end": 133136}, "confidence": "high", "source_refs": ["segment-012"]}
+{"id": "EVENT-ASSASSIN", "type": "event", "label": "三狼伪令引军弩刺杀仙雅挡箭", "confidence": "high", "source_refs": ["segment-012"]}
+{"id": "PROM-RESCUE", "type": "promise", "label": "龙灵草修身体并还魂救仙雅", "confidence": "high", "source_refs": ["segment-012"]}
+{"id": "segment-013", "type": "chapter", "label": "segment-013", "attributes": {"start": 133136, "end": 143533}, "confidence": "high", "source_refs": ["segment-013"]}
+{"id": "EVENT-SIEGE", "type": "event", "label": "总部剿杀与藏宝楼调停", "confidence": "high", "source_refs": ["segment-013"]}
+{"id": "FACT-FORGED", "type": "event", "label": "卡拉确认三狼伪令调查", "confidence": "high", "source_refs": ["segment-013"]}
+{"id": "segment-014", "type": "chapter", "label": "segment-014", "attributes": {"start": 143533, "end": 153934}, "confidence": "high", "source_refs": ["segment-014"]}
+{"id": "EVENT-REVIVE", "type": "event", "label": "龙灵草修身还魂仙雅复生", "confidence": "high", "source_refs": ["segment-014"]}
+{"id": "RES-DRAGONFRIEND", "type": "resource", "label": "龙族友谊号角与限定救援", "confidence": "high", "source_refs": ["segment-014"]}
+{"id": "EVENT-DRAGONAUCTION", "type": "event", "label": "丹药经龙友渠道竞物", "confidence": "high", "source_refs": ["segment-014"]}
+{"id": "segment-015", "type": "chapter", "label": "segment-015", "attributes": {"start": 153934, "end": 164458}, "confidence": "high", "source_refs": ["segment-015"]}
+{"id": "PLACE-BORAZI", "type": "location", "label": "博拉姿封地与免税自付薪", "confidence": "high", "source_refs": ["segment-015"]}
+{"id": "ITEM-FLOATCARRIAGE", "type": "item", "label": "九头蛇骨风核漂浮防护车", "confidence": "high", "source_refs": ["segment-015"]}
+{"id": "PROM-REFUGEES", "type": "promise", "label": "清风峡拟降流民补领地人口", "confidence": "high", "source_refs": ["segment-015"]}
+{"id": "segment-016", "type": "chapter", "label": "segment-016", "attributes": {"start": 164458, "end": 175974}, "confidence": "high", "source_refs": ["segment-016"]}
+{"id": "EVENT-GRAINRAID", "type": "event", "label": "清风峡夜渡与后勤毁粮", "confidence": "high", "source_refs": ["segment-016"]}
+{"id": "PROM-COMMANDERS", "type": "promise", "label": "三日破敌换三千夫长家将认可", "confidence": "high", "source_refs": ["segment-016"]}
+{"id": "segment-017", "type": "chapter", "label": "segment-017", "attributes": {"start": 175974, "end": 186340}, "confidence": "high", "source_refs": ["segment-017"]}
+{"id": "EVENT-RECRUIT", "type": "event", "label": "清风峡反叛歼骑与收家臣农人", "confidence": "high", "source_refs": ["segment-017"]}
+{"id": "segment-018", "type": "chapter", "label": "segment-018", "attributes": {"start": 186340, "end": 196295}, "confidence": "high", "source_refs": ["segment-018"]}
+{"id": "CHAR-KALUO", "type": "character", "label": "卡洛及狂战合作城主", "confidence": "high", "source_refs": ["segment-018"]}
+{"id": "RULE-EQUALITY", "type": "world_rule", "label": "领地众生平等与禁捕奴令", "confidence": "high", "source_refs": ["segment-018"]}
+{"id": "segment-019", "type": "chapter", "label": "segment-019", "attributes": {"start": 196295, "end": 207653}, "confidence": "high", "source_refs": ["segment-019"]}
+{"id": "ORG-CRAZYDRAGON", "type": "faction", "label": "1500余狂龙骑与3000狂战步兵", "confidence": "high", "source_refs": ["segment-019"]}
+{"id": "RES-WOLFCUBS", "type": "resource", "label": "怀孕三首魔狼与未生幼崽名额", "confidence": "high", "source_refs": ["segment-019"]}
+{"id": "segment-020", "type": "chapter", "label": "segment-020", "attributes": {"start": 207653, "end": 218702}, "confidence": "high", "source_refs": ["segment-020"]}
+{"id": "CONFLICT-TAX", "type": "conflict", "label": "撤永久免税与派税官争端", "confidence": "high", "source_refs": ["segment-020"]}
+{"id": "segment-021", "type": "chapter", "label": "segment-021", "attributes": {"start": 218702, "end": 227713}, "confidence": "high", "source_refs": ["segment-021"]}
+{"id": "EVENT-RETURNWAR", "type": "event", "label": "贵族流血月与追税退却", "confidence": "high", "source_refs": ["segment-021"]}
+{"id": "EVENT-POISONDRAGON", "type": "event", "label": "合击赖思与偷取头材", "confidence": "high", "source_refs": ["segment-021"]}
+{"id": "segment-022", "type": "chapter", "label": "segment-022", "attributes": {"start": 227713, "end": 237152}, "confidence": "high", "source_refs": ["segment-022"]}
+{"id": "ITEM-FATHERARMOR", "type": "item", "label": "龙鳞光明阵甲与龙角剑", "confidence": "high", "source_refs": ["segment-022"]}
+{"id": "PROM-HONEY", "type": "promise", "label": "紫晶蜂蜜治祖父经脉", "confidence": "high", "source_refs": ["segment-022"]}
+{"id": "segment-023", "type": "chapter", "label": "segment-023", "attributes": {"start": 237152, "end": 246572}, "confidence": "high", "source_refs": ["segment-023"]}
+{"id": "EVENT-BEEWAR", "type": "event", "label": "伤蜂王诱群毁敌军与巢空取蜜", "confidence": "high", "source_refs": ["segment-023"]}
+{"id": "CHAR-NICHOLAS", "type": "character", "label": "尼古拉斯·凯奇被俘礼遇", "confidence": "high", "source_refs": ["segment-023"]}
+{"id": "segment-024", "type": "chapter", "label": "segment-024", "attributes": {"start": 246572, "end": 257127}, "confidence": "high", "source_refs": ["segment-024"]}
+{"id": "PROM-MARSHALORDER", "type": "promise", "label": "1000万求原王命转元帅效忠", "confidence": "high", "source_refs": ["segment-024"]}
+{"id": "RES-HONEYMARKET", "type": "resource", "label": "蜂蜜青春功效的贵族需求", "confidence": "high", "source_refs": ["segment-024"]}
+{"id": "segment-025", "type": "chapter", "label": "segment-025", "attributes": {"start": 257127, "end": 268942}, "confidence": "high", "source_refs": ["segment-025"]}
+{"id": "segment-026", "type": "chapter", "label": "segment-026", "attributes": {"start": 268942, "end": 281013}, "confidence": "high", "source_refs": ["segment-026"]}
+{"id": "segment-027", "type": "chapter", "label": "segment-027", "attributes": {"start": 281013, "end": 290084}, "confidence": "high", "source_refs": ["segment-027"]}
+{"id": "segment-028", "type": "chapter", "label": "segment-028", "attributes": {"start": 290084, "end": 299590}, "confidence": "high", "source_refs": ["segment-028"]}
+{"id": "segment-029", "type": "chapter", "label": "segment-029", "attributes": {"start": 299590, "end": 309205}, "confidence": "high", "source_refs": ["segment-029"]}
+{"id": "segment-030", "type": "chapter", "label": "segment-030", "attributes": {"start": 309205, "end": 318540}, "confidence": "high", "source_refs": ["segment-030"]}
+{"id": "EVENT-MARSHALJOIN", "type": "event", "label": "元帅宣誓且1000万足付", "confidence": "high", "source_refs": ["segment-026"]}
+{"id": "EVENT-WARGAME", "type": "event", "label": "工程与隐兵焚粮赢元帅推演", "confidence": "high", "source_refs": ["segment-027"]}
+{"id": "ITEM-DRAGONDRUG", "type": "resource", "label": "龙血药首次现场止狂化", "confidence": "high", "source_refs": ["segment-028"]}
+{"id": "ORG-HOLYTRADE", "type": "faction", "label": "圣光商会的供货互利与护航依赖", "confidence": "high", "source_refs": ["segment-029", "segment-030"]}
+{"id": "ITEM-PHANTOMGOLD", "type": "resource", "label": "500万成交幻金", "confidence": "high", "source_refs": ["segment-030"]}
+{"id": "PROM-SEVENDUEL", "type": "promise", "label": "塞文兄弟手套决斗待议细则", "confidence": "high", "source_refs": ["segment-030"]}
+{"id": "segment-031", "type": "chapter", "label": "segment-031", "attributes": {"start": 318540, "end": 327648}, "confidence": "high", "source_refs": ["segment-031"]}
+{"id": "segment-032", "type": "chapter", "label": "segment-032", "attributes": {"start": 327648, "end": 336916}, "confidence": "high", "source_refs": ["segment-032"]}
+{"id": "segment-033", "type": "chapter", "label": "segment-033", "attributes": {"start": 336916, "end": 346460}, "confidence": "high", "source_refs": ["segment-033"]}
+{"id": "segment-034", "type": "chapter", "label": "segment-034", "attributes": {"start": 346460, "end": 358696}, "confidence": "high", "source_refs": ["segment-034"]}
+{"id": "segment-035", "type": "chapter", "label": "segment-035", "attributes": {"start": 358696, "end": 368199}, "confidence": "high", "source_refs": ["segment-035"]}
+{"id": "segment-036", "type": "chapter", "label": "segment-036", "attributes": {"start": 368199, "end": 379904}, "confidence": "high", "source_refs": ["segment-036"]}
+{"id": "EVENT-INAIER", "type": "event", "label": "老将致死药惨胜又遭鞭尸要求", "confidence": "high", "source_refs": ["segment-031"]}
+{"id": "LIMIT-FATHERBURST", "type": "rule", "label": "剑神技勉强催动需三月恢复", "confidence": "high", "source_refs": ["segment-032"]}
+{"id": "RES-DARKBOOK", "type": "resource", "label": "暗黑圣典危险知识载体", "confidence": "high", "source_refs": ["segment-033"]}
+{"id": "CHAR-KELI", "type": "character", "label": "不赖尔塑躯后伪装首席克里", "confidence": "high", "source_refs": ["segment-034"]}
+{"id": "RES-SCROLLSTOCK", "type": "resource", "label": "有限高阶卷轴库存与制造条件", "confidence": "high", "source_refs": ["segment-035"]}
+{"id": "EVENT-PALACERUIN", "type": "event", "label": "仙雅遇袭后主动毁前宫", "confidence": "high", "source_refs": ["segment-035"]}
+{"id": "PROM-XIANYASAINT", "type": "promise", "label": "仙雅拜师/圣女遴选与三年接回", "confidence": "high", "source_refs": ["segment-036"]}
+{"id": "RES-BET3500", "type": "resource", "label": "马赫赌局净利3500万已公证兑现", "confidence": "high", "source_refs": ["segment-035"]}
+{"id": "segment-037", "type": "chapter", "label": "segment-037", "attributes": {"start": 379904, "end": 389176}, "confidence": "high", "source_refs": ["segment-037"]}
+{"id": "segment-038", "type": "chapter", "label": "segment-038", "attributes": {"start": 389176, "end": 401032}, "confidence": "high", "source_refs": ["segment-038"]}
+{"id": "segment-039", "type": "chapter", "label": "segment-039", "attributes": {"start": 401032, "end": 412499}, "confidence": "high", "source_refs": ["segment-039"]}
+{"id": "segment-040", "type": "chapter", "label": "segment-040", "attributes": {"start": 412499, "end": 424294}, "confidence": "high", "source_refs": ["segment-040"]}
+{"id": "segment-041", "type": "chapter", "label": "segment-041", "attributes": {"start": 424294, "end": 436285}, "confidence": "high", "source_refs": ["segment-041"]}
+{"id": "segment-042", "type": "chapter", "label": "segment-042", "attributes": {"start": 436285, "end": 445337}, "confidence": "high", "source_refs": ["segment-042"]}
+{"id": "segment-043", "type": "chapter", "label": "segment-043", "attributes": {"start": 445337, "end": 454798}, "confidence": "high", "source_refs": ["segment-043"]}
+{"id": "segment-044", "type": "chapter", "label": "segment-044", "attributes": {"start": 454798, "end": 464750}, "confidence": "high", "source_refs": ["segment-044"]}
+{"id": "segment-045", "type": "chapter", "label": "segment-045", "attributes": {"start": 464750, "end": 474626}, "confidence": "high", "source_refs": ["segment-045"]}
+{"id": "segment-046", "type": "chapter", "label": "segment-046", "attributes": {"start": 474626, "end": 484379}, "confidence": "high", "source_refs": ["segment-046"]}
+{"id": "EVENT-WHISTLEWIN", "type": "event", "label": "仿哨错令加标枪零损胜狼骑", "confidence": "high", "source_refs": ["segment-045"]}
+{"id": "RES-RESEARCHLAB", "type": "resource", "label": "首席炼金3000万预算与仿丹失败", "confidence": "high", "source_refs": ["segment-041"]}
+{"id": "CHAR-MEIER", "type": "character", "label": "涅槃卵孵魔公主悠丽雅/玫儿", "confidence": "high", "source_refs": ["segment-044"]}
+{"id": "EVENT-EGGHATCH", "type": "event", "label": "多源供魔与隐阵孵卵", "confidence": "high", "source_refs": ["segment-043"]}
+{"id": "CHAR-XIRUINA", "type": "character", "label": "失忆金翼西芮娜被认雅典娜", "confidence": "high", "source_refs": ["segment-046"]}
+{"id": "ITEM-TREERARE", "type": "resource", "label": "返盾三物：种子暗卵圣羽", "confidence": "high", "source_refs": ["segment-041"]}
+{"id": "segment-047", "type": "chapter", "label": "segment-047", "attributes": {"start": 484379, "end": 494386}, "confidence": "high", "source_refs": ["segment-047"]}
+{"id": "segment-048", "type": "chapter", "label": "segment-048", "attributes": {"start": 494386, "end": 504238}, "confidence": "high", "source_refs": ["segment-048"]}
+{"id": "segment-049", "type": "chapter", "label": "segment-049", "attributes": {"start": 504238, "end": 513920}, "confidence": "high", "source_refs": ["segment-049"]}
+{"id": "segment-050", "type": "chapter", "label": "segment-050", "attributes": {"start": 513920, "end": 523705}, "confidence": "high", "source_refs": ["segment-050"]}
+{"id": "segment-051", "type": "chapter", "label": "segment-051", "attributes": {"start": 523705, "end": 533099}, "confidence": "high", "source_refs": ["segment-051"]}
+{"id": "segment-052", "type": "chapter", "label": "segment-052", "attributes": {"start": 533099, "end": 542987}, "confidence": "high", "source_refs": ["segment-052"]}
+{"id": "segment-053", "type": "chapter", "label": "segment-053", "attributes": {"start": 542987, "end": 552495}, "confidence": "high", "source_refs": ["segment-053"]}
+{"id": "segment-054", "type": "chapter", "label": "segment-054", "attributes": {"start": 552495, "end": 561862}, "confidence": "high", "source_refs": ["segment-054"]}
+{"id": "segment-055", "type": "chapter", "label": "segment-055", "attributes": {"start": 561862, "end": 571426}, "confidence": "high", "source_refs": ["segment-055"]}
+{"id": "segment-056", "type": "chapter", "label": "segment-056", "attributes": {"start": 571426, "end": 580993}, "confidence": "high", "source_refs": ["segment-056"]}
+{"id": "ORG-MULTIRACECORPS", "type": "faction", "label": "多族军筹建与家族教官/玫儿参谋", "confidence": "high", "source_refs": ["segment-049"]}
+{"id": "ORG-CHURCHLAND", "type": "faction", "label": "斯提姆主教与郊外教堂势力入口", "confidence": "high", "source_refs": ["segment-050"]}
+{"id": "EVENT-POLITICALSPLIT", "type": "event", "label": "诱二王子夺七公主军功换防", "confidence": "high", "source_refs": ["segment-052"]}
+{"id": "EVENT-PINGANRESCUE", "type": "event", "label": "平安夜援救5000但自身失血", "confidence": "high", "source_refs": ["segment-055"]}
+{"id": "RES-NIGHTELVES", "type": "faction", "label": "地下失势暗夜安置与专业刺官", "confidence": "high", "source_refs": ["segment-053"]}
+{"id": "EVENT-ROYALDEFEAT", "type": "event", "label": "败兵控时/假回营声破王近卫", "confidence": "high", "source_refs": ["segment-056"]}
+{"id": "PROM-RANSOMWOUNDED", "type": "promise", "label": "朱雀遗伤俘十倍赎金未定", "confidence": "high", "source_refs": ["segment-056"]}
+{"id": "segment-057", "type": "chapter", "label": "segment-057", "attributes": {"start": 580993, "end": 590414}, "confidence": "high", "source_refs": ["segment-057"]}
+{"id": "segment-058", "type": "chapter", "label": "segment-058", "attributes": {"start": 590414, "end": 599819}, "confidence": "high", "source_refs": ["segment-058"]}
+{"id": "segment-059", "type": "chapter", "label": "segment-059", "attributes": {"start": 599819, "end": 609358}, "confidence": "high", "source_refs": ["segment-059"]}
+{"id": "segment-060", "type": "chapter", "label": "segment-060", "attributes": {"start": 609358, "end": 618638}, "confidence": "high", "source_refs": ["segment-060"]}
+{"id": "segment-061", "type": "chapter", "label": "segment-061", "attributes": {"start": 618638, "end": 627932}, "confidence": "high", "source_refs": ["segment-061"]}
+{"id": "segment-062", "type": "chapter", "label": "segment-062", "attributes": {"start": 627932, "end": 637258}, "confidence": "high", "source_refs": ["segment-062"]}
+{"id": "segment-063", "type": "chapter", "label": "segment-063", "attributes": {"start": 637258, "end": 646560}, "confidence": "high", "source_refs": ["segment-063"]}
+{"id": "segment-064", "type": "chapter", "label": "segment-064", "attributes": {"start": 646560, "end": 655907}, "confidence": "high", "source_refs": ["segment-064"]}
+{"id": "segment-065", "type": "chapter", "label": "segment-065", "attributes": {"start": 655907, "end": 665184}, "confidence": "high", "source_refs": ["segment-065"]}
+{"id": "segment-066", "type": "chapter", "label": "segment-066", "attributes": {"start": 665184, "end": 674692}, "confidence": "high", "source_refs": ["segment-066"]}
+{"id": "ITEM-FLYSWORD", "type": "item", "label": "幻金龙晶女妖飞剑", "confidence": "high", "source_refs": ["segment-057", "segment-058", "segment-059"]}
+{"id": "CHAR-HELEN", "type": "character", "label": "卡西亚海伦公主", "confidence": "high", "source_refs": ["segment-058"]}
+{"id": "ORG-ELDERCOUNCIL", "type": "organization", "label": "五大家族王族元老圈", "confidence": "high", "source_refs": ["segment-061", "segment-062"]}
+{"id": "PROM-TIANSHA", "type": "promise", "label": "三月寻天杀换狂龙正规编制", "confidence": "high", "source_refs": ["segment-062"]}
+{"id": "ITEM-GOBLINCROSSBOW", "type": "item", "label": "狂风连环弩/祖母赔得再赠爱莲娜", "confidence": "high", "source_refs": ["segment-063", "segment-064"]}
+{"id": "EVENT-BAKERYCLASH", "type": "event", "label": "护店冲突与圣山两军团争端", "confidence": "high", "source_refs": ["segment-062", "segment-063"]}
+{"id": "EVENT-ELENASHELTER", "type": "event", "label": "爱莲娜出逃与领地庇护", "confidence": "high", "source_refs": ["segment-064"]}
+{"id": "ITEM-BEASTRING", "type": "item", "label": "炼化奴兽环", "confidence": "high", "source_refs": ["segment-066"]}
+{"id": "RES-FIREMINE", "type": "resource", "label": "狮巢火系魔晶矿/未开采", "confidence": "high", "source_refs": ["segment-066"]}
+{"id": "EVENT-BOUNTY500K", "type": "event", "label": "五十万佣兵结算激励", "confidence": "high", "source_refs": ["segment-066"]}
+{"id": "PROM-HELENPLAN", "type": "promise", "label": "隐兵游击与六月夺堡计划", "confidence": "high", "source_refs": ["segment-058", "segment-059"]}
+{"id": "segment-067", "type": "chapter", "label": "segment-067", "attributes": {"start": 674692, "end": 683976}, "confidence": "high", "source_refs": ["segment-067"]}
+{"id": "segment-068", "type": "chapter", "label": "segment-068", "attributes": {"start": 683976, "end": 693475}, "confidence": "high", "source_refs": ["segment-068"]}
+{"id": "segment-069", "type": "chapter", "label": "segment-069", "attributes": {"start": 693475, "end": 702734}, "confidence": "high", "source_refs": ["segment-069"]}
+{"id": "segment-070", "type": "chapter", "label": "segment-070", "attributes": {"start": 702734, "end": 711961}, "confidence": "high", "source_refs": ["segment-070"]}
+{"id": "segment-071", "type": "chapter", "label": "segment-071", "attributes": {"start": 711961, "end": 721453}, "confidence": "high", "source_refs": ["segment-071"]}
+{"id": "segment-072", "type": "chapter", "label": "segment-072", "attributes": {"start": 721453, "end": 730768}, "confidence": "high", "source_refs": ["segment-072"]}
+{"id": "segment-073", "type": "chapter", "label": "segment-073", "attributes": {"start": 730768, "end": 740021}, "confidence": "high", "source_refs": ["segment-073"]}
+{"id": "segment-074", "type": "chapter", "label": "segment-074", "attributes": {"start": 740021, "end": 749625}, "confidence": "high", "source_refs": ["segment-074"]}
+{"id": "segment-075", "type": "chapter", "label": "segment-075", "attributes": {"start": 749625, "end": 759416}, "confidence": "high", "source_refs": ["segment-075"]}
+{"id": "segment-076", "type": "chapter", "label": "segment-076", "attributes": {"start": 759416, "end": 769821}, "confidence": "high", "source_refs": ["segment-076"]}
+{"id": "CHAR-TIANSHA", "type": "character", "label": "叔祖天杀/临时保镖永久管家未兑", "confidence": "high", "source_refs": ["segment-071", "segment-072"]}
+{"id": "CHAR-LIFUNI", "type": "character", "label": "丽芙倪/亡国公主", "confidence": "high", "source_refs": ["segment-070"]}
+{"id": "ORG-QINGLONG", "type": "organization", "label": "青龙军团/金龙令统辖", "confidence": "high", "source_refs": ["segment-074"]}
+{"id": "ITEM-GOLDORDER", "type": "item", "label": "金龙家主令", "confidence": "high", "source_refs": ["segment-074"]}
+{"id": "PROM-REUNIONSONS", "type": "promise", "label": "天杀两儿获族长准入族", "confidence": "high", "source_refs": ["segment-074"]}
+{"id": "EVENT-COURTGATE", "type": "event", "label": "城门对峙/爱莲娜部分赦免永逐", "confidence": "high", "source_refs": ["segment-073"]}
+{"id": "ITEM-PHOENIXTOKEN", "type": "item", "label": "仙雅家传召唤法牌/首次实召", "confidence": "high", "source_refs": ["segment-076"]}
+{"id": "EVENT-QINGLONGRESCUE", "type": "event", "label": "青龙残军突围/父咒未解", "confidence": "high", "source_refs": ["segment-076"]}
+{"id": "EVENT-CARTERSPY", "type": "event", "label": "龙格亚及百余暗线魂审秘抓", "confidence": "high", "source_refs": ["segment-075"]}
+{"id": "PROM-ATLANT", "type": "promise", "label": "亚特蓝红区寻城取消/耳环定位假设", "confidence": "high", "source_refs": ["segment-068"]}
+{"id": "EVENT-FOGAMBUSH", "type": "event", "label": "玫儿雾战重败王子归国军", "confidence": "high", "source_refs": ["segment-075"]}
+{"id": "segment-077", "type": "chapter", "label": "segment-077", "attributes": {"start": 769821, "end": 779972}, "confidence": "high", "source_refs": ["segment-077"]}
+{"id": "segment-078", "type": "chapter", "label": "segment-078", "attributes": {"start": 779972, "end": 789903}, "confidence": "high", "source_refs": ["segment-078"]}
+{"id": "segment-079", "type": "chapter", "label": "segment-079", "attributes": {"start": 789903, "end": 799916}, "confidence": "high", "source_refs": ["segment-079"]}
+{"id": "segment-080", "type": "chapter", "label": "segment-080", "attributes": {"start": 799916, "end": 809389}, "confidence": "high", "source_refs": ["segment-080"]}
+{"id": "EVENT-FENGCAPTURE", "type": "event", "label": "夺体亲王冯修斯活俘/使用盖次", "confidence": "high", "source_refs": ["segment-078"]}
+{"id": "EVENT-VALLEYSURRENDER", "type": "event", "label": "龙鳞换谷军降/保甲马", "confidence": "high", "source_refs": ["segment-079"]}
+{"id": "EVENT-FORESTFIRE", "type": "event", "label": "三日林火毁蛇吻后援/格西里逃", "confidence": "high", "source_refs": ["segment-079"]}
+{"id": "PLACE-IKA", "type": "place", "label": "伊卡城/实占与缴资源", "confidence": "high", "source_refs": ["segment-080"]}
+{"id": "PROM-WEST13", "type": "promise", "label": "五路闪击西部十三省/尚出发", "confidence": "high", "source_refs": ["segment-080"]}
+{"id": "PROM-FATHERCURE", "type": "promise", "label": "万毒血咒羽玉暂压/未完全恢复", "confidence": "high", "source_refs": ["segment-077"]}
+{"id": "segment-081", "type": "chapter", "label": "segment-081", "attributes": {"start": 809389, "end": 819081}, "confidence": "high", "source_refs": ["segment-081"]}
+{"id": "segment-082", "type": "chapter", "label": "segment-082", "attributes": {"start": 819081, "end": 829562}, "confidence": "high", "source_refs": ["segment-082"]}
+{"id": "segment-083", "type": "chapter", "label": "segment-083", "attributes": {"start": 829562, "end": 840244}, "confidence": "high", "source_refs": ["segment-083"]}
+{"id": "segment-084", "type": "chapter", "label": "segment-084", "attributes": {"start": 840244, "end": 850647}, "confidence": "high", "source_refs": ["segment-084"]}
+{"id": "segment-085", "type": "chapter", "label": "segment-085", "attributes": {"start": 850647, "end": 861314}, "confidence": "high", "source_refs": ["segment-085"]}
+{"id": "segment-086", "type": "chapter", "label": "segment-086", "attributes": {"start": 861314, "end": 872200}, "confidence": "high", "source_refs": ["segment-086"]}
+{"id": "EVENT-FATHERCURED", "type": "event", "label": "万毒净醒/光明体与斗气增", "confidence": "high", "source_refs": ["segment-081"]}
+{"id": "PLACE-KATAER", "type": "place", "label": "卡踏尔和平接防/流花河核心", "confidence": "high", "source_refs": ["segment-082"]}
+{"id": "CHAR-XISIER", "type": "character", "label": "西思尔辉煌虎王/卡特统军", "confidence": "high", "source_refs": ["segment-082"]}
+{"id": "CHAR-GUER", "type": "character", "label": "古尔提/银狐少帅/一次不围", "confidence": "high", "source_refs": ["segment-086"]}
+{"id": "EVENT-SHIPSREBUILD", "type": "event", "label": "沉船封河被拆舰陆运重组反制", "confidence": "high", "source_refs": ["segment-085"]}
+{"id": "EVENT-NIGHTRAIDTRAP", "type": "event", "label": "七万夜袭后遭虎煌围/未脱", "confidence": "high", "source_refs": ["segment-085", "segment-086"]}
+{"id": "EVENT-DECOYBOLT", "type": "event", "label": "替身引神器弩后群雷/双方损", "confidence": "high", "source_refs": ["segment-086"]}
+{"id": "segment-087", "type": "chapter", "label": "segment-087", "attributes": {"start": 872200, "end": 882677}, "confidence": "high", "source_refs": ["segment-087"]}
+{"id": "segment-088", "type": "chapter", "label": "segment-088", "attributes": {"start": 882677, "end": 893277}, "confidence": "high", "source_refs": ["segment-088"]}
+{"id": "segment-089", "type": "chapter", "label": "segment-089", "attributes": {"start": 893277, "end": 903954}, "confidence": "high", "source_refs": ["segment-089"]}
+{"id": "segment-090", "type": "chapter", "label": "segment-090", "attributes": {"start": 903954, "end": 914276}, "confidence": "high", "source_refs": ["segment-090"]}
+{"id": "segment-091", "type": "chapter", "label": "segment-091", "attributes": {"start": 914276, "end": 924568}, "confidence": "high", "source_refs": ["segment-091"]}
+{"id": "segment-092", "type": "chapter", "label": "segment-092", "attributes": {"start": 924568, "end": 935108}, "confidence": "high", "source_refs": ["segment-092"]}
+{"id": "segment-093", "type": "chapter", "label": "segment-093", "attributes": {"start": 935108, "end": 945537}, "confidence": "high", "source_refs": ["segment-093"]}
+{"id": "segment-094", "type": "chapter", "label": "segment-094", "attributes": {"start": 945537, "end": 955844}, "confidence": "high", "source_refs": ["segment-094"]}
+{"id": "segment-095", "type": "chapter", "label": "segment-095", "attributes": {"start": 955844, "end": 966499}, "confidence": "high", "source_refs": ["segment-095"]}
+{"id": "segment-096", "type": "chapter", "label": "segment-096", "attributes": {"start": 966499, "end": 976991}, "confidence": "high", "source_refs": ["segment-096"]}
+{"id": "EVENT-DUELTHREE", "type": "event", "label": "三战两胜/赌约被否", "confidence": "high", "source_refs": ["segment-089", "segment-090", "segment-093"]}
+{"id": "CHAR-JIFULUOFU", "type": "character", "label": "基脯洛夫/冥神骑士", "confidence": "high", "source_refs": ["segment-091", "segment-092", "segment-093"]}
+{"id": "ITEM-METALSLIME", "type": "item", "label": "重金属史莱姆赎命转契约", "confidence": "high", "source_refs": ["segment-093"]}
+{"id": "PROM-NETHERCOORD", "type": "promise", "label": "冥界坐标/未来切磋", "confidence": "high", "source_refs": ["segment-093"]}
+{"id": "EVENT-SILVERFOXFEUD", "type": "event", "label": "供女诱祸/银狐少主夫妇被杀/证人揭真", "confidence": "high", "source_refs": ["segment-089", "segment-090", "segment-091"]}
+{"id": "EVENT-XIANGMARRIAGE", "type": "event", "label": "送女押质婚约/坦白与囚禁威胁", "confidence": "high", "source_refs": ["segment-093", "segment-094"]}
+{"id": "EVENT-RIVERFIRE", "type": "event", "label": "两万翼人油卷焚舰/风增意外", "confidence": "high", "source_refs": ["segment-094"]}
+{"id": "EVENT-OFFICIALCOERCION", "type": "event", "label": "军威与供词胁官/容矿贪暂稳", "confidence": "high", "source_refs": ["segment-095", "segment-096"]}
+{"id": "EVENT-EASTCITYNIGHT", "type": "event", "label": "八塔/屋战/升级兽守东城夜战未结", "confidence": "high", "source_refs": ["segment-096"]}
+{"id": "ITEM-BIKONG", "type": "item", "label": "碧空血影飞剑/真火破邪", "confidence": "high", "source_refs": ["segment-092"]}
+{"id": "segment-097", "type": "chapter", "label": "segment-097", "attributes": {"start": 976991, "end": 987875}, "confidence": "high", "source_refs": ["segment-097"]}
+{"id": "segment-098", "type": "chapter", "label": "segment-098", "attributes": {"start": 987875, "end": 998707}, "confidence": "high", "source_refs": ["segment-098"]}
+{"id": "segment-099", "type": "chapter", "label": "segment-099", "attributes": {"start": 998707, "end": 1010229}, "confidence": "high", "source_refs": ["segment-099"]}
+{"id": "segment-100", "type": "chapter", "label": "segment-100", "attributes": {"start": 1010229, "end": 1020630}, "confidence": "high", "source_refs": ["segment-100"]}
+{"id": "segment-101", "type": "chapter", "label": "segment-101", "attributes": {"start": 1020630, "end": 1031158}, "confidence": "high", "source_refs": ["segment-101"]}
+{"id": "segment-102", "type": "chapter", "label": "segment-102", "attributes": {"start": 1031158, "end": 1041607}, "confidence": "high", "source_refs": ["segment-102"]}
+{"id": "segment-103", "type": "chapter", "label": "segment-103", "attributes": {"start": 1041607, "end": 1053077}, "confidence": "high", "source_refs": ["segment-103"]}
+{"id": "segment-104", "type": "chapter", "label": "segment-104", "attributes": {"start": 1053077, "end": 1064597}, "confidence": "high", "source_refs": ["segment-104"]}
+{"id": "segment-105", "type": "chapter", "label": "segment-105", "attributes": {"start": 1064597, "end": 1074962}, "confidence": "high", "source_refs": ["segment-105"]}
+{"id": "segment-106", "type": "chapter", "label": "segment-106", "attributes": {"start": 1074962, "end": 1085685}, "confidence": "high", "source_refs": ["segment-106"]}
+{"id": "EVENT-EASTCITYVICTORY", "type": "event", "label": "午夜守城胜/己真伤亡与回魔窗", "confidence": "high", "source_refs": ["segment-097", "segment-098"]}
+{"id": "EVENT-KUCLANRUSE", "type": "event", "label": "表面撤权反投/秘密封地与伯里父系回揭", "confidence": "high", "source_refs": ["segment-099", "segment-100", "segment-101"]}
+{"id": "EVENT-XISIERSDEATH", "type": "event", "label": "虎王拒降/父剑后死亡与托孤", "confidence": "high", "source_refs": ["segment-101"]}
+{"id": "EVENT-DAWOLFKILL", "type": "event", "label": "玄武重骑杀友/主角越权斩三人", "confidence": "high", "source_refs": ["segment-102", "segment-103"]}
+{"id": "EVENT-TWOBEASTSETTLE", "type": "event", "label": "双八兽转让换和解/奖延", "confidence": "high", "source_refs": ["segment-105"]}
+{"id": "EVENT-STARFORTRETURN", "type": "event", "label": "海伦铁石以修路时限谈回星若堡", "confidence": "high", "source_refs": ["segment-105"]}
+{"id": "ORG-HUMANCOALITION", "type": "organization", "label": "联军高级兵分包/教廷战损保护承诺", "confidence": "high", "source_refs": ["segment-105", "segment-106"]}
+{"id": "PROM-BEASTCAUSE", "type": "promise", "label": "兽族合流因/虎末计未明", "confidence": "high", "source_refs": ["segment-104", "segment-106"]}
+{"id": "segment-107", "type": "chapter", "label": "segment-107", "attributes": {"start": 1085685, "end": 1096054}, "confidence": "high", "source_refs": ["segment-107"]}
+{"id": "segment-108", "type": "chapter", "label": "segment-108", "attributes": {"start": 1096054, "end": 1106414}, "confidence": "high", "source_refs": ["segment-108"]}
+{"id": "segment-109", "type": "chapter", "label": "segment-109", "attributes": {"start": 1106414, "end": 1116990}, "confidence": "high", "source_refs": ["segment-109"]}
+{"id": "segment-110", "type": "chapter", "label": "segment-110", "attributes": {"start": 1116990, "end": 1127458}, "confidence": "high", "source_refs": ["segment-110"]}
+{"id": "segment-111", "type": "chapter", "label": "segment-111", "attributes": {"start": 1127458, "end": 1137906}, "confidence": "high", "source_refs": ["segment-111"]}
+{"id": "segment-112", "type": "chapter", "label": "segment-112", "attributes": {"start": 1137906, "end": 1148515}, "confidence": "high", "source_refs": ["segment-112"]}
+{"id": "segment-113", "type": "chapter", "label": "segment-113", "attributes": {"start": 1148515, "end": 1159005}, "confidence": "high", "source_refs": ["segment-113"]}
+{"id": "segment-114", "type": "chapter", "label": "segment-114", "attributes": {"start": 1159005, "end": 1170489}, "confidence": "high", "source_refs": ["segment-114"]}
+{"id": "segment-115", "type": "chapter", "label": "segment-115", "attributes": {"start": 1170489, "end": 1181057}, "confidence": "high", "source_refs": ["segment-115"]}
+{"id": "segment-116", "type": "chapter", "label": "segment-116", "attributes": {"start": 1181057, "end": 1191564}, "confidence": "high", "source_refs": ["segment-116"]}
+{"id": "CHAR-TUOKETAN", "type": "character", "label": "拖克坛/恩债破中立后归附", "confidence": "high", "source_refs": ["segment-107", "segment-108"]}
+{"id": "EVENT-NIGHTEAGLEMAP", "type": "event", "label": "夜鹰侦察/三女绘警/向主母披雷达", "confidence": "high", "source_refs": ["segment-108"]}
+{"id": "EVENT-DONGTIAODEATH", "type": "event", "label": "东条剑神被接控熊弹杀/灵尽留痕", "confidence": "high", "source_refs": ["segment-109", "segment-110", "segment-111"]}
+{"id": "EVENT-WINGREFUSAL", "type": "event", "label": "拒调翼人炮灰/族群承诺实选择", "confidence": "high", "source_refs": ["segment-109"]}
+{"id": "EVENT-BIRDSLAUGHTER", "type": "event", "label": "焚周林留一/地下门阵/多法灭鹰", "confidence": "high", "source_refs": ["segment-112", "segment-113"]}
+{"id": "EVENT-HELENMARRIAGENAME", "type": "event", "label": "海伦求名分/高层宣布以防再侵", "confidence": "high", "source_refs": ["segment-113", "segment-115"]}
+{"id": "EVENT-FOURFORTLOSS", "type": "event", "label": "四卫被飞龙运毒破/薄门窄墙腐败", "confidence": "high", "source_refs": ["segment-113", "segment-114"]}
+{"id": "EVENT-WATERDEFENSE", "type": "event", "label": "卡拉百水法洪流断蔓/平原杀伤有限", "confidence": "high", "source_refs": ["segment-116"]}
+{"id": "PROM-WARSTOMP", "type": "promise", "label": "牛头践踏两波裂墙/余八波待阻", "confidence": "high", "source_refs": ["segment-116"]}
+{"id": "segment-117", "type": "chapter", "label": "segment-117", "attributes": {"start": 1191564, "end": 1202128}, "confidence": "high", "source_refs": ["segment-117"]}
+{"id": "segment-118", "type": "chapter", "label": "segment-118", "attributes": {"start": 1202128, "end": 1212423}, "confidence": "high", "source_refs": ["segment-118"]}
+{"id": "segment-119", "type": "chapter", "label": "segment-119", "attributes": {"start": 1212423, "end": 1222976}, "confidence": "high", "source_refs": ["segment-119"]}
+{"id": "segment-120", "type": "chapter", "label": "segment-120", "attributes": {"start": 1222976, "end": 1235469}, "confidence": "high", "source_refs": ["segment-120"]}
+{"id": "segment-121", "type": "chapter", "label": "segment-121", "attributes": {"start": 1235469, "end": 1247792}, "confidence": "high", "source_refs": ["segment-121"]}
+{"id": "segment-122", "type": "chapter", "label": "segment-122", "attributes": {"start": 1247792, "end": 1259058}, "confidence": "high", "source_refs": ["segment-122"]}
+{"id": "segment-123", "type": "chapter", "label": "segment-123", "attributes": {"start": 1259058, "end": 1269239}, "confidence": "high", "source_refs": ["segment-123"]}
+{"id": "segment-124", "type": "chapter", "label": "segment-124", "attributes": {"start": 1269239, "end": 1279750}, "confidence": "high", "source_refs": ["segment-124"]}
+{"id": "segment-125", "type": "chapter", "label": "segment-125", "attributes": {"start": 1279750, "end": 1290107}, "confidence": "high", "source_refs": ["segment-125"]}
+{"id": "segment-126", "type": "chapter", "label": "segment-126", "attributes": {"start": 1290107, "end": 1300523}, "confidence": "high", "source_refs": ["segment-126"]}
+{"id": "EVENT-THUNDERFALL", "type": "event", "label": "拆雷兽配合/双方自伤/灵魂柱", "confidence": "high", "source_refs": ["segment-118", "segment-119"]}
+{"id": "EVENT-ANGELDESCENT", "type": "event", "label": "限时天使援军/六翼私人超预期", "confidence": "high", "source_refs": ["segment-119", "segment-120"]}
+{"id": "EVENT-BEHEMOTHTAMED", "type": "event", "label": "救活再压服比蒙/半城毁/仙雅契", "confidence": "high", "source_refs": ["segment-120", "segment-121"]}
+{"id": "EVENT-CRUSADEQUOTA", "type": "event", "label": "战功出兵份额/汉内换未来三成", "confidence": "high", "source_refs": ["segment-122", "segment-125"]}
+{"id": "EVENT-WIZARDFLOWER", "type": "event", "label": "苍梦龙草利用幼龙与店授权", "confidence": "high", "source_refs": ["segment-123", "segment-124"]}
+{"id": "EVENT-LIQUIDBIRD", "type": "event", "label": "克里液骨鸟原型/自动爆未成", "confidence": "high", "source_refs": ["segment-125", "segment-126"]}
+{"id": "EVENT-GIANTMOVE", "type": "event", "label": "粮灾/全族条件/首巨人部落迁居", "confidence": "high", "source_refs": ["segment-126"]}
+{"id": "EVENT-THUNDERHORNGIFT", "type": "event", "label": "雷角赠拖/明确誓忠/成器待", "confidence": "high", "source_refs": ["segment-126"]}
+{"id": "segment-127", "type": "chapter", "label": "segment-127", "attributes": {"start": 1300523, "end": 1310911}, "confidence": "high", "source_refs": ["segment-127"]}
+{"id": "segment-128", "type": "chapter", "label": "segment-128", "attributes": {"start": 1310911, "end": 1321420}, "confidence": "high", "source_refs": ["segment-128"]}
+{"id": "segment-129", "type": "chapter", "label": "segment-129", "attributes": {"start": 1321420, "end": 1332013}, "confidence": "high", "source_refs": ["segment-129"]}
+{"id": "segment-130", "type": "chapter", "label": "segment-130", "attributes": {"start": 1332013, "end": 1342581}, "confidence": "high", "source_refs": ["segment-130"]}
+{"id": "segment-131", "type": "chapter", "label": "segment-131", "attributes": {"start": 1342581, "end": 1353005}, "confidence": "high", "source_refs": ["segment-131"]}
+{"id": "segment-132", "type": "chapter", "label": "segment-132", "attributes": {"start": 1353005, "end": 1363503}, "confidence": "high", "source_refs": ["segment-132"]}
+{"id": "segment-133", "type": "chapter", "label": "segment-133", "attributes": {"start": 1363503, "end": 1373737}, "confidence": "high", "source_refs": ["segment-133"]}
+{"id": "segment-134", "type": "chapter", "label": "segment-134", "attributes": {"start": 1373737, "end": 1383937}, "confidence": "high", "source_refs": ["segment-134"]}
+{"id": "segment-135", "type": "chapter", "label": "segment-135", "attributes": {"start": 1383937, "end": 1394364}, "confidence": "high", "source_refs": ["segment-135"]}
+{"id": "segment-136", "type": "chapter", "label": "segment-136", "attributes": {"start": 1394364, "end": 1404884}, "confidence": "high", "source_refs": ["segment-136"]}
+{"id": "CHAR-CANGLONG", "type": "character", "label": "苍龙角/德鲁依身份本人认", "confidence": "high", "source_refs": ["segment-127"]}
+{"id": "ORG-NATUREFAITH", "type": "faction", "label": "自然教隐迁与全族誓忠", "confidence": "high", "source_refs": ["segment-127", "segment-130"]}
+{"id": "EVENT-NATUREPUNISH", "type": "event", "label": "千里失生/树袭圣山/教实迁", "confidence": "high", "source_refs": ["segment-131", "segment-132", "segment-133"]}
+{"id": "EVENT-MEIERSEA", "type": "event", "label": "玫翼隐侦跟七抢十三城/教舰护归", "confidence": "high", "source_refs": ["segment-134"]}
+{"id": "EVENT-TRUEINVITE", "type": "event", "label": "教发起兽按礼真邀/暗谋仍推", "confidence": "high", "source_refs": ["segment-135"]}
+{"id": "EVENT-NINECAPTURE", "type": "event", "label": "九公主护童追沼网俘/救援未启", "confidence": "high", "source_refs": ["segment-136"]}
+{"id": "segment-137", "type": "chapter", "label": "segment-137", "attributes": {"start": 1404884, "end": 1415320}, "confidence": "high", "source_refs": ["segment-137"]}
+{"id": "segment-138", "type": "chapter", "label": "segment-138", "attributes": {"start": 1415320, "end": 1425879}, "confidence": "high", "source_refs": ["segment-138"]}
+{"id": "segment-139", "type": "chapter", "label": "segment-139", "attributes": {"start": 1425879, "end": 1436235}, "confidence": "high", "source_refs": ["segment-139"]}
+{"id": "segment-140", "type": "chapter", "label": "segment-140", "attributes": {"start": 1436235, "end": 1446931}, "confidence": "high", "source_refs": ["segment-140"]}
+{"id": "segment-141", "type": "chapter", "label": "segment-141", "attributes": {"start": 1446931, "end": 1455312}, "confidence": "high", "source_refs": ["segment-141"]}
+{"id": "segment-142", "type": "chapter", "label": "segment-142", "attributes": {"start": 1455312, "end": 1467985}, "confidence": "high", "source_refs": ["segment-142"]}
+{"id": "segment-143", "type": "chapter", "label": "segment-143", "attributes": {"start": 1467985, "end": 1478478}, "confidence": "high", "source_refs": ["segment-143"]}
+{"id": "segment-144", "type": "chapter", "label": "segment-144", "attributes": {"start": 1478478, "end": 1488938}, "confidence": "high", "source_refs": ["segment-144"]}
+{"id": "segment-145", "type": "chapter", "label": "segment-145", "attributes": {"start": 1488938, "end": 1500673}, "confidence": "high", "source_refs": ["segment-145"]}
+{"id": "segment-146", "type": "chapter", "label": "segment-146", "attributes": {"start": 1500673, "end": 1510082}, "confidence": "high", "source_refs": ["segment-146"]}
+{"id": "EVENT-LIWASAVED", "type": "event", "label": "丽娃自脱/八残童与比蒙救回/后返援", "confidence": "high", "source_refs": ["segment-137", "segment-142"]}
+{"id": "EVENT-HONORRESTORED", "type": "event", "label": "断柱认输/归先知遗物/勇士名认", "confidence": "high", "source_refs": ["segment-138", "segment-139"]}
+{"id": "ORG-CAVEDWELLERS", "type": "faction", "label": "穴居粮建筑与兽防共生", "confidence": "high", "source_refs": ["segment-140"]}
+{"id": "EVENT-BEASTSIEGE", "type": "event", "label": "裂门怪潮/自爆毁城/二十万战死", "confidence": "high", "source_refs": ["segment-140", "segment-141", "segment-142"]}
+{"id": "EVENT-FOURGENERALS", "type": "event", "label": "四将分战/新剑风双契/主君退门", "confidence": "high", "source_refs": ["segment-142", "segment-143", "segment-144"]}
+{"id": "ITEM-FROSTMOURNE", "type": "resource", "label": "霜之哀伤/附魂道标/秘银阵暂封", "confidence": "high", "source_refs": ["segment-144", "segment-145"]}
+{"id": "EVENT-ANTIHAN", "type": "event", "label": "联姻船技反汉/若兰合军舆商压", "confidence": "high", "source_refs": ["segment-145", "segment-146"]}
+{"id": "EVENT-COUNTERPROPFAIL", "type": "event", "label": "军前性别挑拨被若兰认亲反制", "confidence": "high", "source_refs": ["segment-146"]}
+{"id": "segment-147", "type": "chapter", "label": "segment-147", "attributes": {"start": 1510082, "end": 1520571}, "confidence": "high", "source_refs": ["segment-147"]}
+{"id": "segment-148", "type": "chapter", "label": "segment-148", "attributes": {"start": 1520571, "end": 1529999}, "confidence": "high", "source_refs": ["segment-148"]}
+{"id": "segment-149", "type": "chapter", "label": "segment-149", "attributes": {"start": 1529999, "end": 1539592}, "confidence": "high", "source_refs": ["segment-149"]}
+{"id": "segment-150", "type": "chapter", "label": "segment-150", "attributes": {"start": 1539592, "end": 1550233}, "confidence": "high", "source_refs": ["segment-150"]}
+{"id": "segment-151", "type": "chapter", "label": "segment-151", "attributes": {"start": 1550233, "end": 1560614}, "confidence": "high", "source_refs": ["segment-151"]}
+{"id": "segment-152", "type": "chapter", "label": "segment-152", "attributes": {"start": 1560614, "end": 1571010}, "confidence": "high", "source_refs": ["segment-152"]}
+{"id": "segment-153", "type": "chapter", "label": "segment-153", "attributes": {"start": 1571010, "end": 1580666}, "confidence": "high", "source_refs": ["segment-153"]}
+{"id": "segment-154", "type": "chapter", "label": "segment-154", "attributes": {"start": 1580666, "end": 1592063}, "confidence": "high", "source_refs": ["segment-154"]}
+{"id": "segment-155", "type": "chapter", "label": "segment-155", "attributes": {"start": 1592063, "end": 1603711}, "confidence": "high", "source_refs": ["segment-155"]}
+{"id": "segment-156", "type": "chapter", "label": "segment-156", "attributes": {"start": 1603711, "end": 1614424}, "confidence": "high", "source_refs": ["segment-156"]}
+{"id": "EVENT-RETURNDUEL", "type": "event", "label": "爷夺龙纹/新怨伤身", "confidence": "high", "source_refs": ["segment-147"]}
+{"id": "EVENT-FIREARRAY", "type": "event", "label": "升空击阵/三百火法尽损", "confidence": "high", "source_refs": ["segment-148", "segment-149"]}
+{"id": "EVENT-HOSTAGESWAP", "type": "event", "label": "双公主人质/先换人后围斗", "confidence": "high", "source_refs": ["segment-149", "segment-150", "segment-151"]}
+{"id": "EVENT-HORSEPOISON", "type": "event", "label": "巫师德鲁依翼人马毒投送/未结算", "confidence": "high", "source_refs": ["segment-151", "segment-156"]}
+{"id": "EVENT-BEARRETURN", "type": "event", "label": "困熊十分钟/阵甲定身/冰师死熊返", "confidence": "high", "source_refs": ["segment-152", "segment-153"]}
+{"id": "CHAR-NIKE", "type": "character", "label": "尼科/旧继承者/领域透支失魔", "confidence": "high", "source_refs": ["segment-152", "segment-153", "segment-154"]}
+{"id": "CHAR-MINUOYA", "type": "character", "label": "米诺亚/狂信者/一年约未改信", "confidence": "high", "source_refs": ["segment-152", "segment-154", "segment-156"]}
+{"id": "CHAR-FULUOTA", "type": "character", "label": "福罗塔/胁迫眼线待验", "confidence": "high", "source_refs": ["segment-155"]}
+{"id": "ITEM-DIVINEDOMAIN", "type": "resource", "label": "神之领域戒/独立空间助预言", "confidence": "high", "source_refs": ["segment-154", "segment-155"]}
+{"id": "EVENT-CHURCHINQUIRY", "type": "event", "label": "清耳目/罗案/米主持调查仍疑", "confidence": "high", "source_refs": ["segment-156"]}
+{"id": "segment-157", "type": "chapter", "label": "segment-157", "attributes": {"start": 1614424, "end": 1624865}, "confidence": "high", "source_refs": ["segment-157"]}
+{"id": "segment-158", "type": "chapter", "label": "segment-158", "attributes": {"start": 1624865, "end": 1635479}, "confidence": "high", "source_refs": ["segment-158"]}
+{"id": "segment-159", "type": "chapter", "label": "segment-159", "attributes": {"start": 1635479, "end": 1645882}, "confidence": "high", "source_refs": ["segment-159"]}
+{"id": "segment-160", "type": "chapter", "label": "segment-160", "attributes": {"start": 1645882, "end": 1656300}, "confidence": "high", "source_refs": ["segment-160"]}
+{"id": "segment-161", "type": "chapter", "label": "segment-161", "attributes": {"start": 1656300, "end": 1666858}, "confidence": "high", "source_refs": ["segment-161"]}
+{"id": "segment-162", "type": "chapter", "label": "segment-162", "attributes": {"start": 1666858, "end": 1677192}, "confidence": "high", "source_refs": ["segment-162"]}
+{"id": "segment-163", "type": "chapter", "label": "segment-163", "attributes": {"start": 1677192, "end": 1687624}, "confidence": "high", "source_refs": ["segment-163"]}
+{"id": "segment-164", "type": "chapter", "label": "segment-164", "attributes": {"start": 1687624, "end": 1697997}, "confidence": "high", "source_refs": ["segment-164"]}
+{"id": "segment-165", "type": "chapter", "label": "segment-165", "attributes": {"start": 1697997, "end": 1708485}, "confidence": "high", "source_refs": ["segment-165"]}
+{"id": "segment-166", "type": "chapter", "label": "segment-166", "attributes": {"start": 1708485, "end": 1719074}, "confidence": "high", "source_refs": ["segment-166"]}
+{"id": "EVENT-UNNAMEDHILL", "type": "event", "label": "无名丘复合火网/五万俘/己零死", "confidence": "high", "source_refs": ["segment-157", "segment-158", "segment-159"]}
+{"id": "EVENT-LANLULING", "type": "event", "label": "拦路岭精灵矮人截退/水艇封退", "confidence": "high", "source_refs": ["segment-159", "segment-160"]}
+{"id": "EVENT-PEACEANNEX", "type": "event", "label": "解盟和约/分批退/王都接收", "confidence": "high", "source_refs": ["segment-160", "segment-161"]}
+{"id": "RESOURCE-GOBLINSCROLL", "type": "resource", "label": "提提压卡古制造稿/分割工艺/成本限", "confidence": "high", "source_refs": ["segment-162"]}
+{"id": "EVENT-MINUOYAASCEND", "type": "event", "label": "独查承真/传功/备忆/死亡入门", "confidence": "high", "source_refs": ["segment-163", "segment-164", "segment-165"]}
+{"id": "EVENT-NATURESERVICES", "type": "event", "label": "清教后医疗补位/近十万浅入", "confidence": "high", "source_refs": ["segment-164"]}
+{"id": "EVENT-DRAGONBOWUPGRADE", "type": "event", "label": "怒龙修成隐藏二连/十五储箭/充月", "confidence": "high", "source_refs": ["segment-166"]}
+{"id": "EVENT-WESTRETREATPACT", "type": "event", "label": "福底线/祖母教退西协议待执行", "confidence": "high", "source_refs": ["segment-166"]}
+{"id": "segment-167", "type": "chapter", "label": "segment-167", "attributes": {"start": 1719074, "end": 1729770}, "confidence": "high", "source_refs": ["segment-167"]}
+{"id": "segment-168", "type": "chapter", "label": "segment-168", "attributes": {"start": 1729770, "end": 1740101}, "confidence": "high", "source_refs": ["segment-168"]}
+{"id": "segment-169", "type": "chapter", "label": "segment-169", "attributes": {"start": 1740101, "end": 1750516}, "confidence": "high", "source_refs": ["segment-169"]}
+{"id": "segment-170", "type": "chapter", "label": "segment-170", "attributes": {"start": 1750516, "end": 1761046}, "confidence": "high", "source_refs": ["segment-170"]}
+{"id": "segment-171", "type": "chapter", "label": "segment-171", "attributes": {"start": 1761046, "end": 1771563}, "confidence": "high", "source_refs": ["segment-171"]}
+{"id": "segment-172", "type": "chapter", "label": "segment-172", "attributes": {"start": 1771563, "end": 1781967}, "confidence": "high", "source_refs": ["segment-172"]}
+{"id": "segment-173", "type": "chapter", "label": "segment-173", "attributes": {"start": 1781967, "end": 1792409}, "confidence": "high", "source_refs": ["segment-173"]}
+{"id": "segment-174", "type": "chapter", "label": "segment-174", "attributes": {"start": 1792409, "end": 1801787}, "confidence": "high", "source_refs": ["segment-174"]}
+{"id": "segment-175", "type": "chapter", "label": "segment-175", "attributes": {"start": 1801787, "end": 1812090}, "confidence": "high", "source_refs": ["segment-175"]}
+{"id": "segment-176", "type": "chapter", "label": "segment-176", "attributes": {"start": 1812090, "end": 1822601}, "confidence": "high", "source_refs": ["segment-176"]}
+{"id": "EVENT-DILIAMBUSH", "type": "event", "label": "抵里教刺/七挡箭/己护死过半", "confidence": "high", "source_refs": ["segment-168", "segment-169", "segment-170"]}
+{"id": "EVENT-COREHEAL", "type": "event", "label": "末堕羽/外丹吸怨救七/黑丹待炼", "confidence": "high", "source_refs": ["segment-169"]}
+{"id": "EVENT-ISHIHARAPURGE", "type": "event", "label": "主教死/雷毁黑龙小犬死/王令抓族未审完", "confidence": "high", "source_refs": ["segment-171", "segment-172", "segment-173"]}
+{"id": "EVENT-SPIDERGIFT", "type": "event", "label": "潜蛛晕契老马/爱疗", "confidence": "high", "source_refs": ["segment-173"]}
+{"id": "EVENT-SIEGEARROWTEST", "type": "event", "label": "攻城箭纯水超稿险友伤/材料贵", "confidence": "high", "source_refs": ["segment-174"]}
+{"id": "EVENT-BATTEETH", "type": "event", "label": "三强驱蝠/专业采囊百万牙", "confidence": "high", "source_refs": ["segment-175"]}
+{"id": "CHAR-SEAMONSTER", "type": "character", "label": "帕帕尼奥章鱼/失水主场被强签", "confidence": "high", "source_refs": ["segment-175", "segment-176"]}
+{"id": "RESOURCE-TURTLESHELL", "type": "resource", "label": "一米半神背龟壳重锤检真/盾未制", "confidence": "high", "source_refs": ["segment-176"]}
+{"id": "segment-177", "type": "chapter", "label": "segment-177", "attributes": {"start": 1822601, "end": 1833004}, "confidence": "high", "source_refs": ["segment-177"]}
+{"id": "segment-178", "type": "chapter", "label": "segment-178", "attributes": {"start": 1833004, "end": 1843481}, "confidence": "high", "source_refs": ["segment-178"]}
+{"id": "segment-179", "type": "chapter", "label": "segment-179", "attributes": {"start": 1843481, "end": 1853742}, "confidence": "high", "source_refs": ["segment-179"]}
+{"id": "segment-180", "type": "chapter", "label": "segment-180", "attributes": {"start": 1853742, "end": 1864108}, "confidence": "high", "source_refs": ["segment-180"]}
+{"id": "segment-181", "type": "chapter", "label": "segment-181", "attributes": {"start": 1864108, "end": 1873539}, "confidence": "high", "source_refs": ["segment-181"]}
+{"id": "segment-182", "type": "chapter", "label": "segment-182", "attributes": {"start": 1873539, "end": 1883982}, "confidence": "high", "source_refs": ["segment-182"]}
+{"id": "segment-183", "type": "chapter", "label": "segment-183", "attributes": {"start": 1883982, "end": 1894566}, "confidence": "high", "source_refs": ["segment-183"]}
+{"id": "segment-184", "type": "chapter", "label": "segment-184", "attributes": {"start": 1894566, "end": 1904917}, "confidence": "high", "source_refs": ["segment-184"]}
+{"id": "segment-185", "type": "chapter", "label": "segment-185", "attributes": {"start": 1904917, "end": 1914520}, "confidence": "high", "source_refs": ["segment-185"]}
+{"id": "segment-186", "type": "chapter", "label": "segment-186", "attributes": {"start": 1914520, "end": 1925100}, "confidence": "high", "source_refs": ["segment-186"]}
+{"id": "EVENT-WANGYOUREVEAL", "type": "event", "label": "忘忧智慧格相认/西芮娜独格不可强合", "confidence": "high", "source_refs": ["segment-177", "segment-181"]}
+{"id": "EVENT-DARKNIGHTCOUP", "type": "event", "label": "火门耗战杀大祭/内线杀七祭", "confidence": "high", "source_refs": ["segment-179", "segment-180"]}
+{"id": "RESOURCE-FIVEELEMENTPEARL", "type": "resource", "label": "五行珠适配杂灵防御但耗能", "confidence": "high", "source_refs": ["segment-181"]}
+{"id": "EVENT-WEINATRANSFER", "type": "event", "label": "威娜主动改签全系师与外出条件", "confidence": "high", "source_refs": ["segment-182"]}
+{"id": "EVENT-DARKCASTLETAKE", "type": "event", "label": "真令假军报调守军/里牙围缴", "confidence": "high", "source_refs": ["segment-182", "segment-185"]}
+{"id": "EVENT-SPIDERDEATH", "type": "event", "label": "至宝先空/积丝放海怪吞虚敌解封", "confidence": "high", "source_refs": ["segment-184", "segment-185"]}
+{"id": "EVENT-EYEFIRSTVICTORY", "type": "event", "label": "双反控前排牵/隐链破魔刺解十几万", "confidence": "high", "source_refs": ["segment-186"]}
+{"id": "EVENT-EYEADAPTATION", "type": "event", "label": "精神报讯/微光足迹/密卫编组反刺", "confidence": "high", "source_refs": ["segment-186"]}
+{"id": "segment-187", "type": "chapter", "label": "segment-187", "attributes": {"start": 1925100, "end": 1934900}, "confidence": "high", "source_refs": ["segment-187"]}
+{"id": "segment-188", "type": "chapter", "label": "segment-188", "attributes": {"start": 1934900, "end": 1944425}, "confidence": "high", "source_refs": ["segment-188"]}
+{"id": "segment-189", "type": "chapter", "label": "segment-189", "attributes": {"start": 1944425, "end": 1952972}, "confidence": "high", "source_refs": ["segment-189"]}
+{"id": "segment-190", "type": "chapter", "label": "segment-190", "attributes": {"start": 1952972, "end": 1963656}, "confidence": "high", "source_refs": ["segment-190"]}
+{"id": "segment-191", "type": "chapter", "label": "segment-191", "attributes": {"start": 1963656, "end": 1973280}, "confidence": "high", "source_refs": ["segment-191"]}
+{"id": "segment-192", "type": "chapter", "label": "segment-192", "attributes": {"start": 1973280, "end": 1982803}, "confidence": "high", "source_refs": ["segment-192"]}
+{"id": "segment-193", "type": "chapter", "label": "segment-193", "attributes": {"start": 1982803, "end": 1992149}, "confidence": "high", "source_refs": ["segment-193"]}
+{"id": "segment-194", "type": "chapter", "label": "segment-194", "attributes": {"start": 1992149, "end": 2000756}, "confidence": "high", "source_refs": ["segment-194"]}
+{"id": "segment-195", "type": "chapter", "label": "segment-195", "attributes": {"start": 2000756, "end": 2013117}, "confidence": "high", "source_refs": ["segment-195"]}
+{"id": "segment-196", "type": "chapter", "label": "segment-196", "attributes": {"start": 2013117, "end": 2023734}, "confidence": "high", "source_refs": ["segment-196"]}
+{"id": "EVENT-WAKENINGLIGHT", "type": "event", "label": "多族晶阵/林雾拖时群解控", "confidence": "high", "source_refs": ["segment-187"]}
+{"id": "EVENT-XIAOHEIDEATH", "type": "event", "label": "主角授熊送狼焚死并瞒爱换龙", "confidence": "high", "source_refs": ["segment-187"]}
+{"id": "RESOURCE-EYEMINES", "type": "resource", "label": "邪眼十余矿/粮雇工/旧铁交兽", "confidence": "high", "source_refs": ["segment-188"]}
+{"id": "EVENT-CHAOSCONTROL", "type": "event", "label": "族领担保/控魂口供/十三城共教后台被占", "confidence": "high", "source_refs": ["segment-190"]}
+{"id": "EVENT-MIKASUOFIGHT", "type": "event", "label": "碎丹催昊天杀米身魂逃/保小丹", "confidence": "high", "source_refs": ["segment-191"]}
+{"id": "EVENT-DIVINESERVANTS", "type": "event", "label": "光暗神侍/份额风险/主神权限共享", "confidence": "high", "source_refs": ["segment-192", "segment-193"]}
+{"id": "EVENT-NATALUODEATH", "type": "event", "label": "地火阵耗三日后储箭杀那身魂", "confidence": "high", "source_refs": ["segment-193", "segment-194"]}
+{"id": "EVENT-BAPUKAESCAPE", "type": "event", "label": "追逃/教堂战/七储箭断咒巴活返", "confidence": "high", "source_refs": ["segment-194", "segment-195", "segment-196"]}
+{"id": "EVENT-PRIESTDISGUISE", "type": "event", "label": "虚报重赏迫乔老牧/跨体系治病", "confidence": "high", "source_refs": ["segment-196"]}
+{"id": "segment-197", "type": "chapter", "label": "segment-197", "attributes": {"start": 2023734, "end": 2033233}, "confidence": "high", "source_refs": ["segment-197"]}
+{"id": "segment-198", "type": "chapter", "label": "segment-198", "attributes": {"start": 2033233, "end": 2044643}, "confidence": "high", "source_refs": ["segment-198"]}
+{"id": "segment-199", "type": "chapter", "label": "segment-199", "attributes": {"start": 2044643, "end": 2055142}, "confidence": "high", "source_refs": ["segment-199"]}
+{"id": "segment-200", "type": "chapter", "label": "segment-200", "attributes": {"start": 2055142, "end": 2065523}, "confidence": "high", "source_refs": ["segment-200"]}
+{"id": "segment-201", "type": "chapter", "label": "segment-201", "attributes": {"start": 2065523, "end": 2075948}, "confidence": "high", "source_refs": ["segment-201"]}
+{"id": "segment-202", "type": "chapter", "label": "segment-202", "attributes": {"start": 2075948, "end": 2084428}, "confidence": "high", "source_refs": ["segment-202"]}
+{"id": "segment-203", "type": "chapter", "label": "segment-203", "attributes": {"start": 2084428, "end": 2093780}, "confidence": "high", "source_refs": ["segment-203"]}
+{"id": "segment-204", "type": "chapter", "label": "segment-204", "attributes": {"start": 2093780, "end": 2103130}, "confidence": "high", "source_refs": ["segment-204"]}
+{"id": "segment-205", "type": "chapter", "label": "segment-205", "attributes": {"start": 2103130, "end": 2112705}, "confidence": "high", "source_refs": ["segment-205"]}
+{"id": "segment-206", "type": "chapter", "label": "segment-206", "attributes": {"start": 2112705, "end": 2123147}, "confidence": "high", "source_refs": ["segment-206"]}
+{"id": "EVENT-MEDICALPUBLICITY", "type": "event", "label": "诊疗撒币稀缺名额/教代圆谎宣传", "confidence": "high", "source_refs": ["segment-197", "segment-198"]}
+{"id": "EVENT-WEDDINGREVEAL", "type": "event", "label": "揭面/若兰自愿父证逼婚/帝受压仍攻", "confidence": "high", "source_refs": ["segment-199", "segment-200"]}
+{"id": "ITEM-GOSISHIP", "type": "item", "label": "半年铁甲样舰初战速盾撞", "confidence": "high", "source_refs": ["segment-197"]}
+{"id": "EVENT-REVERSEDALCHEMY", "type": "event", "label": "金苹果反炼损半十二丹/一服后期", "confidence": "high", "source_refs": ["segment-201"]}
+{"id": "EVENT-LIRUOYACAPTURE", "type": "event", "label": "爆翼越锁/窄洞反杀/环止爆清醒受命", "confidence": "high", "source_refs": ["segment-201", "segment-202", "segment-203"]}
+{"id": "EVENT-WARGODINFILTRATION", "type": "event", "label": "两格复忆后战格返潜/杖归防暴露", "confidence": "high", "source_refs": ["segment-204"]}
+{"id": "EVENT-SLIMEEVOLUTION", "type": "event", "label": "金苹果壳再料/史莱姆进化未醒", "confidence": "high", "source_refs": ["segment-204"]}
+{"id": "EVENT-MERMAIDCONTACT", "type": "event", "label": "空藏宝/人质跟踪/海族旧殿", "confidence": "high", "source_refs": ["segment-205"]}
+{"id": "EVENT-MERMAIDBET", "type": "event", "label": "接球誓约/大珠价差赔债未签", "confidence": "high", "source_refs": ["segment-206"]}
+{"id": "segment-207", "type": "chapter", "label": "segment-207", "attributes": {"start": 2123147, "end": 2133504}, "confidence": "high", "source_refs": ["segment-207"]}
+{"id": "segment-208", "type": "chapter", "label": "segment-208", "attributes": {"start": 2133504, "end": 2144018}, "confidence": "high", "source_refs": ["segment-208"]}
+{"id": "segment-209", "type": "chapter", "label": "segment-209", "attributes": {"start": 2144018, "end": 2153515}, "confidence": "high", "source_refs": ["segment-209"]}
+{"id": "segment-210", "type": "chapter", "label": "segment-210", "attributes": {"start": 2153515, "end": 2163006}, "confidence": "high", "source_refs": ["segment-210"]}
+{"id": "segment-211", "type": "chapter", "label": "segment-211", "attributes": {"start": 2163006, "end": 2173481}, "confidence": "high", "source_refs": ["segment-211"]}
+{"id": "segment-212", "type": "chapter", "label": "segment-212", "attributes": {"start": 2173481, "end": 2183774}, "confidence": "high", "source_refs": ["segment-212"]}
+{"id": "segment-213", "type": "chapter", "label": "segment-213", "attributes": {"start": 2183774, "end": 2194261}, "confidence": "high", "source_refs": ["segment-213"]}
+{"id": "segment-214", "type": "chapter", "label": "segment-214", "attributes": {"start": 2194261, "end": 2204673}, "confidence": "high", "source_refs": ["segment-214"]}
+{"id": "segment-215", "type": "chapter", "label": "segment-215", "attributes": {"start": 2204673, "end": 2215011}, "confidence": "high", "source_refs": ["segment-215"]}
+{"id": "segment-216", "type": "chapter", "label": "segment-216", "attributes": {"start": 2215011, "end": 2225451}, "confidence": "high", "source_refs": ["segment-216"]}
+{"id": "EVENT-FIREANCESTORGIFT", "type": "event", "label": "火祖传承精血/仍受囚/有自身成本", "source_refs": ["segment-207", "segment-208"], "confidence": "high"}
+{"id": "EVENT-NEWINFANT", "type": "event", "label": "紫凤元婴实成/肉身承载仍限", "source_refs": ["segment-208", "segment-213"], "confidence": "high"}
+{"id": "EVENT-DOUBLEGATE", "type": "event", "label": "两侧协作传来两六翼推翻旧约束", "source_refs": ["segment-210"], "confidence": "high"}
+{"id": "EVENT-DEMONWAR", "type": "event", "label": "献祭开门/雅提前救援/三魔屠港", "source_refs": ["segment-209", "segment-211", "segment-212"], "confidence": "high"}
+{"id": "EVENT-THREEDEMONDEATHS", "type": "event", "label": "三路阻逃斩身留魂/四小伤未死", "source_refs": ["segment-213"], "confidence": "high"}
+{"id": "EVENT-TERRITORYTRADE", "type": "event", "label": "地下持续贸易及代印行政/倭接管仍行进", "source_refs": ["segment-214", "segment-215"], "confidence": "high"}
+{"id": "RESOURCE-SOULPOISON", "type": "resource", "label": "识毒后葫芦收湖/污池仅设想", "source_refs": ["segment-215", "segment-216"], "confidence": "high"}
+{"id": "EVENT-BEEHARVEST", "type": "event", "label": "先试声术/控王/保活取半按需分蜜", "source_refs": ["segment-216"], "confidence": "high"}
+{"id": "segment-217", "type": "chapter", "label": "segment-217", "attributes": {"start": 2225451, "end": 2235804}, "confidence": "high", "source_refs": ["segment-217"]}
+{"id": "segment-218", "type": "chapter", "label": "segment-218", "attributes": {"start": 2235804, "end": 2246181}, "confidence": "high", "source_refs": ["segment-218"]}
+{"id": "segment-219", "type": "chapter", "label": "segment-219", "attributes": {"start": 2246181, "end": 2257795}, "confidence": "high", "source_refs": ["segment-219"]}
+{"id": "segment-220", "type": "chapter", "label": "segment-220", "attributes": {"start": 2257795, "end": 2266256}, "confidence": "high", "source_refs": ["segment-220"]}
+{"id": "segment-221", "type": "chapter", "label": "segment-221", "attributes": {"start": 2266256, "end": 2275645}, "confidence": "high", "source_refs": ["segment-221"]}
+{"id": "segment-222", "type": "chapter", "label": "segment-222", "attributes": {"start": 2275645, "end": 2285976}, "confidence": "high", "source_refs": ["segment-222"]}
+{"id": "segment-223", "type": "chapter", "label": "segment-223", "attributes": {"start": 2285976, "end": 2296257}, "confidence": "high", "source_refs": ["segment-223"]}
+{"id": "segment-224", "type": "chapter", "label": "segment-224", "attributes": {"start": 2296257, "end": 2305694}, "confidence": "high", "source_refs": ["segment-224"]}
+{"id": "segment-225", "type": "chapter", "label": "segment-225", "attributes": {"start": 2305694, "end": 2316203}, "confidence": "high", "source_refs": ["segment-225"]}
+{"id": "segment-226", "type": "chapter", "label": "segment-226", "attributes": {"start": 2316203, "end": 2325663}, "confidence": "high", "source_refs": ["segment-226"]}
+{"id": "ITEM-SKYCITY", "type": "item", "label": "思托尼亚现址/档案控制/迁训未实施", "source_refs": ["segment-217", "segment-220", "segment-221"], "confidence": "high"}
+{"id": "RESOURCE-WINGARCHIVES", "type": "resource", "label": "黄金箭技书与建造操控记录石实得", "source_refs": ["segment-220"], "confidence": "high"}
+{"id": "EVENT-GAOSENCONTRACT", "type": "event", "label": "诅咒体压制/酷刑服奴约/保魂许诺未证", "source_refs": ["segment-219"], "confidence": "high"}
+{"id": "EVENT-TAJIKCONTRACT", "type": "event", "label": "雷魔灵属性克制/切离核心奴约献魂", "source_refs": ["segment-220", "segment-221"], "confidence": "high"}
+{"id": "EVENT-EMERALDCAPTURE", "type": "event", "label": "植物可拒征/土遁寻核/毁核威迫接受", "source_refs": ["segment-222", "segment-223"], "confidence": "high"}
+{"id": "EVENT-PANDAFOLLOW", "type": "event", "label": "熊家自选同行无契约/与强俘对照", "source_refs": ["segment-223"], "confidence": "high"}
+{"id": "EVENT-ILLUSIONMONKEY", "type": "event", "label": "幻群远供/控心阈值/撤敌后伤治得金猴", "source_refs": ["segment-224"], "confidence": "high"}
+{"id": "EVENT-NAVALREPLACEMENT", "type": "event", "label": "七以待汰舰耗换敌稀舰/魔阵舰补充", "source_refs": ["segment-225"], "confidence": "high"}
+{"id": "EVENT-SHIPYARDSABOTAGE", "type": "event", "label": "控乱海兽毁大场/重点灭经验工匠链", "source_refs": ["segment-225"], "confidence": "high"}
+{"id": "EVENT-XIANYACOREACCESS", "type": "event", "label": "教国防守清醒光/送功使仙雅入核心", "source_refs": ["segment-225"], "confidence": "high"}
+{"id": "EVENT-ELEMENTBARGAIN", "type": "event", "label": "再生井危机/113条件许诺/盖次神力仍待另谈", "source_refs": ["segment-226"], "confidence": "high"}
+{"id": "segment-227", "type": "chapter", "label": "segment-227", "attributes": {"start": 2325663, "end": 2335064}, "confidence": "high", "source_refs": ["segment-227"]}
+{"id": "segment-228", "type": "chapter", "label": "segment-228", "attributes": {"start": 2335064, "end": 2343451}, "confidence": "high", "source_refs": ["segment-228"]}
+{"id": "segment-229", "type": "chapter", "label": "segment-229", "attributes": {"start": 2343451, "end": 2353032}, "confidence": "high", "source_refs": ["segment-229"]}
+{"id": "segment-230", "type": "chapter", "label": "segment-230", "attributes": {"start": 2353032, "end": 2361382}, "confidence": "high", "source_refs": ["segment-230"]}
+{"id": "segment-231", "type": "chapter", "label": "segment-231", "attributes": {"start": 2361382, "end": 2370903}, "confidence": "high", "source_refs": ["segment-231"]}
+{"id": "segment-232", "type": "chapter", "label": "segment-232", "attributes": {"start": 2370903, "end": 2381258}, "confidence": "high", "source_refs": ["segment-232"]}
+{"id": "segment-233", "type": "chapter", "label": "segment-233", "attributes": {"start": 2381258, "end": 2390782}, "confidence": "high", "source_refs": ["segment-233"]}
+{"id": "segment-234", "type": "chapter", "label": "segment-234", "attributes": {"start": 2390782, "end": 2400125}, "confidence": "high", "source_refs": ["segment-234"]}
+{"id": "segment-235", "type": "chapter", "label": "segment-235", "attributes": {"start": 2400125, "end": 2408465}, "confidence": "high", "source_refs": ["segment-235"]}
+{"id": "segment-236", "type": "chapter", "label": "segment-236", "attributes": {"start": 2408465, "end": 2418728}, "confidence": "high", "source_refs": ["segment-236"]}
+{"id": "EVENT-LIFETREEGROWTH", "type": "event", "label": "盖次神力合阵催树/新孕影/熊王境界未破", "source_refs": ["segment-227", "segment-234"], "confidence": "high"}
+{"id": "EVENT-UNDEADPRODUCTION", "type": "event", "label": "矿炼加工物流链/实骨烟补/技术瓶颈", "source_refs": ["segment-227", "segment-228", "segment-232"], "confidence": "high"}
+{"id": "EVENT-UNDEADCITYDEFENSE", "type": "event", "label": "人偶塔群协同/偏箭破局/塔聚能反制", "source_refs": ["segment-228", "segment-229", "segment-230"], "confidence": "high"}
+{"id": "EVENT-ATLANREVEAL", "type": "event", "label": "旧地下城笔记/保自主魂/骨铁贸易研发", "source_refs": ["segment-231", "segment-232"], "confidence": "high"}
+{"id": "EVENT-GOBLINDEPENDENCE", "type": "event", "label": "年供材料换附庸/工资教育保护留器合同", "source_refs": ["segment-233"], "confidence": "high"}
+{"id": "EVENT-MULTISITEMIGRATION", "type": "event", "label": "六千先遣分工已走/整城半年迁未完成", "source_refs": ["segment-234"], "confidence": "high"}
+{"id": "EVENT-SKYCITYOPERATIONS", "type": "event", "label": "若兰最高指挥/分批迁翼/塔恢复有限需补", "source_refs": ["segment-234", "segment-235"], "confidence": "high"}
+{"id": "EVENT-KELIPASTREVEAL", "type": "event", "label": "兄不赖尔亦受骗/叛教书封后揭/祖母夸张限定", "source_refs": ["segment-235"], "confidence": "high"}
+{"id": "EVENT-AMPHIBIANALLIANCE", "type": "event", "label": "达佳招两栖族败七/敌跨族重组", "source_refs": ["segment-235", "segment-236"], "confidence": "high"}
+{"id": "EVENT-REGICIDEBACKFIRE", "type": "event", "label": "刺三皇便两继承/霍福七分教得六省", "source_refs": ["segment-236"], "confidence": "high"}
+{"id": "EVENT-JUTLANDBEGIN", "type": "event", "label": "四铁甲炮/雷法神投入/首轮成后敌光龙魔导反制", "source_refs": ["segment-236"], "confidence": "high"}
+{"id": "segment-237", "type": "chapter", "label": "segment-237", "attributes": {"start": 2418728, "end": 2428010}, "confidence": "high", "source_refs": ["segment-237"]}
+{"id": "segment-238", "type": "chapter", "label": "segment-238", "attributes": {"start": 2428010, "end": 2437442}, "confidence": "high", "source_refs": ["segment-238"]}
+{"id": "segment-239", "type": "chapter", "label": "segment-239", "attributes": {"start": 2437442, "end": 2446755}, "confidence": "high", "source_refs": ["segment-239"]}
+{"id": "segment-240", "type": "chapter", "label": "segment-240", "attributes": {"start": 2446755, "end": 2456120}, "confidence": "high", "source_refs": ["segment-240"]}
+{"id": "segment-241", "type": "chapter", "label": "segment-241", "attributes": {"start": 2456120, "end": 2466446}, "confidence": "high", "source_refs": ["segment-241"]}
+{"id": "segment-242", "type": "chapter", "label": "segment-242", "attributes": {"start": 2466446, "end": 2475015}, "confidence": "high", "source_refs": ["segment-242"]}
+{"id": "segment-243", "type": "chapter", "label": "segment-243", "attributes": {"start": 2475015, "end": 2484591}, "confidence": "high", "source_refs": ["segment-243"]}
+{"id": "segment-244", "type": "chapter", "label": "segment-244", "attributes": {"start": 2484591, "end": 2493939}, "confidence": "high", "source_refs": ["segment-244"]}
+{"id": "segment-245", "type": "chapter", "label": "segment-245", "attributes": {"start": 2493939, "end": 2503428}, "confidence": "high", "source_refs": ["segment-245"]}
+{"id": "segment-246", "type": "chapter", "label": "segment-246", "attributes": {"start": 2503428, "end": 2512760}, "confidence": "high", "source_refs": ["segment-246"]}
+{"id": "EVENT-JUTLANDRESULT", "type": "event", "label": "八天九夜惨胜/己伤死十三万/强兽养半年", "source_refs": ["segment-237", "segment-238", "segment-239"], "confidence": "high"}
+{"id": "EVENT-NAVALGUERRILLA", "type": "event", "label": "十铁甲混编法师幻猴/两年多游击", "source_refs": ["segment-239", "segment-240"], "confidence": "high"}
+{"id": "EVENT-XIYAREVEAL", "type": "event", "label": "新统帅西亚/西思尔子/新对阵未读", "source_refs": ["segment-240"], "confidence": "high"}
+{"id": "ITEM-METALBONEPROTOTYPE", "type": "item", "label": "首金属骨龙样飞成/贵材真骨短续航", "source_refs": ["segment-240"], "confidence": "high"}
+{"id": "EVENT-NETHERPROCUREMENT", "type": "event", "label": "骨铁器合同与神金月拍承诺/货未收", "source_refs": ["segment-241", "segment-242"], "confidence": "high"}
+{"id": "EVENT-XISIERPACT", "type": "event", "label": "旧敌稳位护子暂合作/私仍复国意", "source_refs": ["segment-241", "segment-242"], "confidence": "high"}
+{"id": "EVENT-NETHERHUNT", "type": "event", "label": "传门付费到边/遮魂协同/七八龙俘", "source_refs": ["segment-243"], "confidence": "high"}
+{"id": "EVENT-BEARKING", "type": "event", "label": "伤战暗疗/冥土祝福/熊王湮灭正式成", "source_refs": ["segment-244"], "confidence": "high"}
+{"id": "EVENT-ANNACONTRACT", "type": "event", "label": "百年保镖期满自由/种火疗毒未明全愈", "source_refs": ["segment-245", "segment-246"], "confidence": "high"}
+{"id": "EVENT-LAKASDEATH", "type": "event", "label": "入体克火/绫防逃/三月吸炼/外护成本", "source_refs": ["segment-245", "segment-246"], "confidence": "high"}
+{"id": "EVENT-ANNAPASTPARTIAL", "type": "event", "label": "银公主随军后厌杀/死权遭赠枪刺心/后史未完", "source_refs": ["segment-246"], "confidence": "high"}
+{"id": "segment-247", "type": "chapter", "label": "segment-247", "attributes": {"start": 2512760, "end": 2522084}, "confidence": "high", "source_refs": ["segment-247"]}
+{"id": "segment-248", "type": "chapter", "label": "segment-248", "attributes": {"start": 2522084, "end": 2531629}, "confidence": "high", "source_refs": ["segment-248"]}
+{"id": "segment-249", "type": "chapter", "label": "segment-249", "attributes": {"start": 2531629, "end": 2540005}, "confidence": "high", "source_refs": ["segment-249"]}
+{"id": "segment-250", "type": "chapter", "label": "segment-250", "attributes": {"start": 2540005, "end": 2548456}, "confidence": "high", "source_refs": ["segment-250"]}
+{"id": "segment-251", "type": "chapter", "label": "segment-251", "attributes": {"start": 2548456, "end": 2557780}, "confidence": "high", "source_refs": ["segment-251"]}
+{"id": "segment-252", "type": "chapter", "label": "segment-252", "attributes": {"start": 2557780, "end": 2567230}, "confidence": "high", "source_refs": ["segment-252"]}
+{"id": "segment-253", "type": "chapter", "label": "segment-253", "attributes": {"start": 2567230, "end": 2576658}, "confidence": "high", "source_refs": ["segment-253"]}
+{"id": "segment-254", "type": "chapter", "label": "segment-254", "attributes": {"start": 2576658, "end": 2587088}, "confidence": "high", "source_refs": ["segment-254"]}
+{"id": "segment-255", "type": "chapter", "label": "segment-255", "attributes": {"start": 2587088, "end": 2596447}, "confidence": "high", "source_refs": ["segment-255"]}
+{"id": "segment-256", "type": "chapter", "label": "segment-256", "attributes": {"start": 2596447, "end": 2605815}, "confidence": "high", "source_refs": ["segment-256"]}
+{"id": "EVENT-ANNAPASTFULL", "type": "event", "label": "比特/龙魂咒/逆反枪解释光骨龙", "source_refs": ["segment-247"], "confidence": "high"}
+{"id": "EVENT-JESNEWFAITH", "type": "event", "label": "一岛新教启宗教内部分裂候选", "source_refs": ["segment-248"], "confidence": "high"}
+{"id": "EVENT-ISLANDMINING", "type": "event", "label": "停马强劳采矿/亡灵协作备万龙", "source_refs": ["segment-247", "segment-248"], "confidence": "high"}
+{"id": "EVENT-XIYANAVAL", "type": "event", "label": "磁板/卷轴/冻海与水鬼反制、主队逃", "source_refs": ["segment-248", "segment-249", "segment-250", "segment-251", "segment-252"], "confidence": "high"}
+{"id": "EVENT-AIDUALDESCENT", "type": "event", "label": "双神降/教程/白火解冰/昏睡", "source_refs": ["segment-251"], "confidence": "high"}
+{"id": "EVENT-SEACOALITION", "type": "event", "label": "海族暂盟围蛤蟆/约十七万死三万逃", "source_refs": ["segment-252"], "confidence": "high"}
+{"id": "EVENT-PROPAGANDARESULT", "type": "event", "label": "西亚抵达成名/爱称号补舆论", "source_refs": ["segment-253"], "confidence": "high"}
+{"id": "EVENT-TWOYEARPRODUCTION", "type": "event", "label": "万五千龙/百万骨法/抹魂巫妖/耗储", "source_refs": ["segment-253"], "confidence": "high"}
+{"id": "EVENT-ENEMYRECRUITMENT", "type": "event", "label": "敌招七十万野蛮军/工快材料财税枯", "source_refs": ["segment-253"], "confidence": "high"}
+{"id": "EVENT-ATHENAINTEL", "type": "event", "label": "雅六翼神将权限/最高敌计划未明", "source_refs": ["segment-254"], "confidence": "high"}
+{"id": "EVENT-NATUREMEETING", "type": "event", "label": "自然本界会/敌两外战转述无坐标", "source_refs": ["segment-255"], "confidence": "high"}
+{"id": "EVENT-NATUREPACT", "type": "event", "label": "许庇护给神印/代师授全木诀", "source_refs": ["segment-256"], "confidence": "high"}
+{"id": "EVENT-PEACEOFFER", "type": "event", "label": "反战压力/香提和谈七撤/敌仍集军", "source_refs": ["segment-256"], "confidence": "high"}
+{"id": "segment-257", "type": "chapter", "label": "segment-257", "attributes": {"start": 2605815, "end": 2615159}, "confidence": "high", "source_refs": ["segment-257"]}
+{"id": "segment-258", "type": "chapter", "label": "segment-258", "attributes": {"start": 2615159, "end": 2624512}, "confidence": "high", "source_refs": ["segment-258"]}
+{"id": "segment-259", "type": "chapter", "label": "segment-259", "attributes": {"start": 2624512, "end": 2633902}, "confidence": "high", "source_refs": ["segment-259"]}
+{"id": "segment-260", "type": "chapter", "label": "segment-260", "attributes": {"start": 2633902, "end": 2643396}, "confidence": "high", "source_refs": ["segment-260"]}
+{"id": "segment-261", "type": "chapter", "label": "segment-261", "attributes": {"start": 2643396, "end": 2652952}, "confidence": "high", "source_refs": ["segment-261"]}
+{"id": "segment-262", "type": "chapter", "label": "segment-262", "attributes": {"start": 2652952, "end": 2663640}, "confidence": "high", "source_refs": ["segment-262"]}
+{"id": "segment-263", "type": "chapter", "label": "segment-263", "attributes": {"start": 2663640, "end": 2674371}, "confidence": "high", "source_refs": ["segment-263"]}
+{"id": "segment-264", "type": "chapter", "label": "segment-264", "attributes": {"start": 2674371, "end": 2686009}, "confidence": "high", "source_refs": ["segment-264"]}
+{"id": "segment-265", "type": "chapter", "label": "segment-265", "attributes": {"start": 2686009, "end": 2695458}, "confidence": "high", "source_refs": ["segment-265"]}
+{"id": "segment-266", "type": "chapter", "label": "segment-266", "attributes": {"start": 2695458, "end": 2704885}, "confidence": "high", "source_refs": ["segment-266"]}
+{"id": "EVENT-DOMESTICSETTLEMENT", "type": "event", "label": "皇室分封六省各子/母谈同意叔执行", "source_refs": ["segment-257"], "confidence": "high"}
+{"id": "EVENT-FIREPACT", "type": "event", "label": "七火强助战承诺/运输门槛", "source_refs": ["segment-257", "segment-258"], "confidence": "high"}
+{"id": "ITEM-FIRERING", "type": "item", "label": "火精戒取炼/实个人开门未传军", "source_refs": ["segment-258", "segment-259"], "confidence": "high"}
+{"id": "RESOURCE-FIREWELLWATER", "type": "resource", "label": "结石瓶取井水/各千斤换情/抽蓄代价", "source_refs": ["segment-258"], "confidence": "high"}
+{"id": "EVENT-NETHERAMBUSH", "type": "event", "label": "冥劫神器换俘/破禁逃非胜顶神", "source_refs": ["segment-259", "segment-260"], "confidence": "high"}
+{"id": "EVENT-NETHERPACT", "type": "event", "label": "引灾威胁/人情保险/冥口答助", "source_refs": ["segment-261"], "confidence": "high"}
+{"id": "EVENT-SEDANTRADE", "type": "event", "label": "含被炼侍女旧轿/战后两万龙魂约攻物未交", "source_refs": ["segment-261"], "confidence": "high"}
+{"id": "EVENT-FANATICBRANCH", "type": "event", "label": "十五万遇败见爱才投/半传承分流", "source_refs": ["segment-262", "segment-263"], "confidence": "high"}
+{"id": "EVENT-MEIYINFIRE", "type": "event", "label": "玫第二层阴火出/未明六翼测试", "source_refs": ["segment-263"], "confidence": "high"}
+{"id": "EVENT-FULUODEATH", "type": "event", "label": "谈判木矛死/魂接走/查案推断未独证", "source_refs": ["segment-263"], "confidence": "high"}
+{"id": "EVENT-FULUOSCAPegoat", "type": "event", "label": "主角早设仙雅马甲/外悲内喜后揭", "source_refs": ["segment-264"], "confidence": "high"}
+{"id": "EVENT-KASIAMASSACRE", "type": "event", "label": "卡西亚登陆屠城/十几万平民死", "source_refs": ["segment-264"], "confidence": "high"}
+{"id": "ITEM-SUPERCARRIER", "type": "item", "label": "三年仅一超舰/多接口/六百炮万弹", "source_refs": ["segment-264", "segment-265"], "confidence": "high"}
+{"id": "EVENT-TRIPLEGENERALBODYDEATH", "type": "event", "label": "史莱姆假黑龙裂球杀三肉身/魂回池", "source_refs": ["segment-265", "segment-266"], "confidence": "high"}
+{"id": "ITEM-ENEMYSUBMARINE", "type": "item", "label": "三阵廉潜舰/65目标7到/本战未带", "source_refs": ["segment-266"], "confidence": "high"}
+{"id": "segment-267", "type": "chapter", "label": "segment-267", "attributes": {"start": 2704885, "end": 2714368}, "confidence": "high", "source_refs": ["segment-267"]}
+{"id": "segment-268", "type": "chapter", "label": "segment-268", "attributes": {"start": 2714368, "end": 2723836}, "confidence": "high", "source_refs": ["segment-268"]}
+{"id": "segment-269", "type": "chapter", "label": "segment-269", "attributes": {"start": 2723836, "end": 2732316}, "confidence": "high", "source_refs": ["segment-269"]}
+{"id": "segment-270", "type": "chapter", "label": "segment-270", "attributes": {"start": 2732316, "end": 2741831}, "confidence": "high", "source_refs": ["segment-270"]}
+{"id": "segment-271", "type": "chapter", "label": "segment-271", "attributes": {"start": 2741831, "end": 2752288}, "confidence": "high", "source_refs": ["segment-271"]}
+{"id": "segment-272", "type": "chapter", "label": "segment-272", "attributes": {"start": 2752288, "end": 2762718}, "confidence": "high", "source_refs": ["segment-272"]}
+{"id": "segment-273", "type": "chapter", "label": "segment-273", "attributes": {"start": 2762718, "end": 2773154}, "confidence": "high", "source_refs": ["segment-273"]}
+{"id": "segment-274", "type": "chapter", "label": "segment-274", "attributes": {"start": 2773154, "end": 2781604}, "confidence": "high", "source_refs": ["segment-274"]}
+{"id": "segment-275", "type": "chapter", "label": "segment-275", "attributes": {"start": 2781604, "end": 2790897}, "confidence": "high", "source_refs": ["segment-275"]}
+{"id": "segment-276", "type": "chapter", "label": "segment-276", "attributes": {"start": 2790897, "end": 2801373}, "confidence": "high", "source_refs": ["segment-276"]}
+{"id": "EVENT-ATHENAREFUSAL", "type": "event", "label": "雅拒撤潜伏/获数千直属/受军令性胁迫", "source_refs": ["segment-267", "segment-268"], "confidence": "high"}
+{"id": "EVENT-IRONWALLDUELS", "type": "event", "label": "未知情真对练/技巧长与挫信/盾重铸", "source_refs": ["segment-269", "segment-270"], "confidence": "high"}
+{"id": "EVENT-FERCONTRACT", "type": "event", "label": "信息差火界赌/威死立奴约/双莲交", "source_refs": ["segment-270", "segment-271"], "confidence": "high"}
+{"id": "EVENT-TWINCULTIVATION", "type": "event", "label": "双莲缓释/元素王契/法本/实际法神", "source_refs": ["segment-271"], "confidence": "high"}
+{"id": "EVENT-INSECTREPORT", "type": "event", "label": "高手半损/小虫慢长/晶食被采/需联军", "source_refs": ["segment-271"], "confidence": "high"}
+{"id": "EVENT-TRIPARTITEPACT", "type": "event", "label": "岛七人三方攻守盟正式签/新案未揭", "source_refs": ["segment-272"], "confidence": "high"}
+{"id": "EVENT-IRONWALLQUAKE", "type": "event", "label": "多地对练破脉引震/守军巨大伤亡", "source_refs": ["segment-272"], "confidence": "high"}
+{"id": "EVENT-IRONWALLRETREAT", "type": "event", "label": "苍林熊断后/敌占残关/撤数未详", "source_refs": ["segment-272", "segment-273"], "confidence": "high"}
+{"id": "EVENT-350WINGDEPLOY", "type": "event", "label": "350万分海100南50中200出门/数差保留", "source_refs": ["segment-273"], "confidence": "high"}
+{"id": "EVENT-VOLCANODEFENSE", "type": "event", "label": "火山互保阵/敌适应/真耗/伏龙迟上", "source_refs": ["segment-273", "segment-274", "segment-275"], "confidence": "high"}
+{"id": "EVENT-VOLCANOTRAP", "type": "event", "label": "八塔自毁灭16将/万余龙伪石反击", "source_refs": ["segment-275"], "confidence": "high"}
+{"id": "EVENT-VOLCANORESULT", "type": "event", "label": "三日天使150万余30万/人军退/己真损", "source_refs": ["segment-275"], "confidence": "high"}
+{"id": "EVENT-SKYCITYSTRIKE", "type": "event", "label": "借五万法/塔吉克操/上打阵低防/30将魂灭", "source_refs": ["segment-276"], "confidence": "high"}
+{"id": "EVENT-LIYARELEASE", "type": "event", "label": "实际碎奴环/丽仍信光/原誓逼证未决", "source_refs": ["segment-276"], "confidence": "high"}
+{"id": "segment-277", "type": "chapter", "label": "segment-277", "attributes": {"start": 2801373, "end": 2811926}, "confidence": "high", "source_refs": ["segment-277"]}
+{"id": "segment-278", "type": "chapter", "label": "segment-278", "attributes": {"start": 2811926, "end": 2822446}, "confidence": "high", "source_refs": ["segment-278"]}
+{"id": "segment-279", "type": "chapter", "label": "segment-279", "attributes": {"start": 2822446, "end": 2831732}, "confidence": "high", "source_refs": ["segment-279"]}
+{"id": "segment-280", "type": "chapter", "label": "segment-280", "attributes": {"start": 2831732, "end": 2842073}, "confidence": "high", "source_refs": ["segment-280"]}
+{"id": "segment-281", "type": "chapter", "label": "segment-281", "attributes": {"start": 2842073, "end": 2852332}, "confidence": "high", "source_refs": ["segment-281"]}
+{"id": "segment-282", "type": "chapter", "label": "segment-282", "attributes": {"start": 2852332, "end": 2862707}, "confidence": "high", "source_refs": ["segment-282"]}
+{"id": "segment-283", "type": "chapter", "label": "segment-283", "attributes": {"start": 2862707, "end": 2873098}, "confidence": "high", "source_refs": ["segment-283"]}
+{"id": "segment-284", "type": "chapter", "label": "segment-284", "attributes": {"start": 2873098, "end": 2882491}, "confidence": "high", "source_refs": ["segment-284"]}
+{"id": "segment-285", "type": "chapter", "label": "segment-285", "attributes": {"start": 2882491, "end": 2893024}, "confidence": "high", "source_refs": ["segment-285"]}
+{"id": "segment-286", "type": "chapter", "label": "segment-286", "attributes": {"start": 2893024, "end": 2903413}, "confidence": "high", "source_refs": ["segment-286"]}
+{"id": "EVENT-BITCONFESSION", "type": "event", "label": "比特自认参与魔侵/丽脱光军", "source_refs": ["segment-277"], "confidence": "high"}
+{"id": "EVENT-SKYCITYINTERIOR", "type": "event", "label": "诱蜂/幻猴毒弩/六翼破道/轮休耗材", "source_refs": ["segment-280"], "confidence": "high"}
+{"id": "EVENT-BITDEFEAT", "type": "event", "label": "比特枪碎核/安娜食身黑晶拘魂", "source_refs": ["segment-282"], "confidence": "high"}
+{"id": "EVENT-SHAREDASCENSION", "type": "event", "label": "生死契/封灵符/30分钟保护后龙皇", "source_refs": ["segment-283"], "confidence": "high"}
+{"id": "EVENT-BABACAPTURE", "type": "event", "label": "待混天绫空出擒八臂/梅勒封能活俘", "source_refs": ["segment-283"], "confidence": "high"}
+{"id": "EVENT-GODAMBUSH", "type": "event", "label": "三十翼诱囚自然/顶级反伏/赤雪反禁", "source_refs": ["segment-284"], "confidence": "high"}
+{"id": "EVENT-FIREDETERRENCE", "type": "event", "label": "数亿火军门内展示/热害植物/收军", "source_refs": ["segment-284"], "confidence": "high"}
+{"id": "EVENT-GAOSENRELEASE", "type": "event", "label": "冥神亲改契约/不需百玉解咒", "source_refs": ["segment-285"], "confidence": "high"}
+{"id": "EVENT-BABASURVIVAL", "type": "event", "label": "核在脑/巴再生存活/若兰受控照料", "source_refs": ["segment-285"], "confidence": "high"}
+{"id": "EVENT-HELLROUTES", "type": "event", "label": "梅勒三条间接地狱路/神界详图待交", "source_refs": ["segment-286"], "confidence": "high"}
+{"id": "EVENT-WOLFNIGHT", "type": "event", "label": "魔狼旧棋夜袭/三十多万伤亡", "source_refs": ["segment-286"], "confidence": "high"}
+{"id": "EVENT-COALITIONBLOCKADE", "type": "event", "label": "一铜币兽军雇守/精灵边界联合封退路", "source_refs": ["segment-286"], "confidence": "high"}
+{"id": "segment-287", "type": "chapter", "label": "segment-287", "attributes": {"start": 2903413, "end": 2913940}, "confidence": "high", "source_refs": ["segment-287"]}
+{"id": "segment-288", "type": "chapter", "label": "segment-288", "attributes": {"start": 2913940, "end": 2925602}, "confidence": "high", "source_refs": ["segment-288"]}
+{"id": "segment-289", "type": "chapter", "label": "segment-289", "attributes": {"start": 2925602, "end": 2935027}, "confidence": "high", "source_refs": ["segment-289"]}
+{"id": "segment-290", "type": "chapter", "label": "segment-290", "attributes": {"start": 2935027, "end": 2945352}, "confidence": "high", "source_refs": ["segment-290"]}
+{"id": "segment-291", "type": "chapter", "label": "segment-291", "attributes": {"start": 2945352, "end": 2955728}, "confidence": "high", "source_refs": ["segment-291"]}
+{"id": "segment-292", "type": "chapter", "label": "segment-292", "attributes": {"start": 2955728, "end": 2968212}, "confidence": "high", "source_refs": ["segment-292"]}
+{"id": "segment-293", "type": "chapter", "label": "segment-293", "attributes": {"start": 2968212, "end": 2976843}, "confidence": "high", "source_refs": ["segment-293"]}
+{"id": "segment-294", "type": "chapter", "label": "segment-294", "attributes": {"start": 2976843, "end": 2986107}, "confidence": "high", "source_refs": ["segment-294"]}
+{"id": "segment-295", "type": "chapter", "label": "segment-295", "attributes": {"start": 2986107, "end": 2995520}, "confidence": "high", "source_refs": ["segment-295"]}
+{"id": "segment-296", "type": "chapter", "label": "segment-296", "attributes": {"start": 2995520, "end": 3004920}, "confidence": "high", "source_refs": ["segment-296"]}
+{"id": "EVENT-FIRELIBERATION", "type": "event", "label": "弱点合击火祖实脱困/香车交骨龙未到", "source_refs": ["segment-288"], "confidence": "high"}
+{"id": "EVENT-REALBEASTPAY", "type": "event", "label": "额外两倍粮铁/非一铜币/制止杀降", "source_refs": ["segment-288"], "confidence": "high"}
+{"id": "EVENT-FOURFRONTWAR", "type": "event", "label": "四路推进/环境造军与补能轮换", "source_refs": ["segment-289"], "confidence": "high"}
+{"id": "EVENT-PRIVATELOOT", "type": "event", "label": "公开军事私藏宝图/土遁灭魂抢库", "source_refs": ["segment-290"], "confidence": "high"}
+{"id": "EVENT-AIRBAGUA", "type": "event", "label": "立体八阵/首次八万局部胜仍损三万", "source_refs": ["segment-290"], "confidence": "high"}
+{"id": "EVENT-ATHENAWESTCOMMAND", "type": "event", "label": "金剑统西/四百万/露天池恢复网络", "source_refs": ["segment-291"], "confidence": "high"}
+{"id": "EVENT-SEVENWINGGODS", "type": "event", "label": "总七顶级来/忘忧稳盟/分组神战", "source_refs": ["segment-291"], "confidence": "high"}
+{"id": "EVENT-INNERVAULT", "type": "event", "label": "金球空间/七万飞虫/失策受伤", "source_refs": ["segment-292"], "confidence": "high"}
+{"id": "EVENT-THREEARTIFACTS", "type": "event", "label": "如意本人七百/沙漏/日记实得", "source_refs": ["segment-293"], "confidence": "high"}
+{"id": "EVENT-YAHADEBODYKILL", "type": "event", "label": "沙漏伤神/耗宝超载剑斩身/魂被吞", "source_refs": ["segment-294"], "confidence": "high"}
+{"id": "EVENT-GODHOODSEIZURE", "type": "event", "label": "绫入魂迫退本源/顶格精神非战力", "source_refs": ["segment-295"], "confidence": "high"}
+{"id": "EVENT-STAGEDSUCCESSION", "type": "event", "label": "操尸传位/雅十翼两金翼/雷雨诬囚", "source_refs": ["segment-296"], "confidence": "high"}
+{"id": "EVENT-POISONSCAPEGOAT", "type": "event", "label": "毒皇受伤背主谋锅/报复风险转嫁", "source_refs": ["segment-296"], "confidence": "high"}
+{"id": "segment-297", "type": "chapter", "label": "segment-297", "attributes": {"start": 3004920, "end": 3014570}, "confidence": "high", "source_refs": ["segment-297"]}
+{"id": "segment-298", "type": "chapter", "label": "segment-298", "attributes": {"start": 3014570, "end": 3023058}, "confidence": "high", "source_refs": ["segment-298"]}
+{"id": "segment-299", "type": "chapter", "label": "segment-299", "attributes": {"start": 3023058, "end": 3032448}, "confidence": "high", "source_refs": ["segment-299"]}
+{"id": "segment-300", "type": "chapter", "label": "segment-300", "attributes": {"start": 3032448, "end": 3041820}, "confidence": "high", "source_refs": ["segment-300"]}
+{"id": "segment-301", "type": "chapter", "label": "segment-301", "attributes": {"start": 3041820, "end": 3051200}, "confidence": "high", "source_refs": ["segment-301"]}
+{"id": "segment-302", "type": "chapter", "label": "segment-302", "attributes": {"start": 3051200, "end": 3061752}, "confidence": "high", "source_refs": ["segment-302"]}
+{"id": "segment-303", "type": "chapter", "label": "segment-303", "attributes": {"start": 3061752, "end": 3072354}, "confidence": "high", "source_refs": ["segment-303"]}
+{"id": "segment-304", "type": "chapter", "label": "segment-304", "attributes": {"start": 3072354, "end": 3083209}, "confidence": "high", "source_refs": ["segment-304"]}
+{"id": "segment-305", "type": "chapter", "label": "segment-305", "attributes": {"start": 3083209, "end": 3092783}, "confidence": "high", "source_refs": ["segment-305"]}
+{"id": "segment-306", "type": "chapter", "label": "segment-306", "attributes": {"start": 3092783, "end": 3102393}, "confidence": "high", "source_refs": ["segment-306"]}
+{"id": "EVENT-REALMPEACE", "type": "event", "label": "母神隔战/万年和约/天界权利市场条件", "source_refs": ["segment-302"], "confidence": "high"}
+{"id": "EVENT-UPPERHAMO", "type": "event", "label": "哈墨扫百万/借能转界/火境重伤逃", "source_refs": ["segment-300"], "confidence": "high"}
+{"id": "EVENT-WORRYEGG", "type": "event", "label": "魂附威娜后哈墨术复卵/十年精华养", "source_refs": ["segment-303"], "confidence": "high"}
+{"id": "EVENT-GREENLEAF", "type": "event", "label": "小绿叶监控/供魔/城市十年债", "source_refs": ["segment-303"], "confidence": "high"}
+{"id": "EVENT-FOURTRIBULATIONS", "type": "event", "label": "四劫连续/叶供能/千宝毁/顶级稳定", "source_refs": ["segment-305"], "confidence": "high"}
+{"id": "EVENT-NEWCITYDESIGN", "type": "event", "label": "若兰地精七图/耶配方/高材缺口", "source_refs": ["segment-306"], "confidence": "high"}
+{"id": "EVENT-PLANARMARKET", "type": "event", "label": "天界采矿实启/分城拍卖/小绿护场待", "source_refs": ["segment-306"], "confidence": "high"}
+{"id": "EVENT-BABATITAN", "type": "event", "label": "赤雪斩身拘魂供泰坦后裔/救后屠村", "source_refs": ["segment-306"], "confidence": "high"}
+{"id": "segment-307", "type": "chapter", "label": "segment-307", "attributes": {"start": 3102393, "end": 3111743}, "confidence": "high", "source_refs": ["segment-307"]}
+{"id": "segment-308", "type": "chapter", "label": "segment-308", "attributes": {"start": 3111743, "end": 3121345}, "confidence": "high", "source_refs": ["segment-308"]}
+{"id": "segment-309", "type": "chapter", "label": "segment-309", "attributes": {"start": 3121345, "end": 3130942}, "confidence": "high", "source_refs": ["segment-309"]}
+{"id": "segment-310", "type": "chapter", "label": "segment-310", "attributes": {"start": 3130942, "end": 3140287}, "confidence": "high", "source_refs": ["segment-310"]}
+{"id": "segment-311", "type": "chapter", "label": "segment-311", "attributes": {"start": 3140287, "end": 3149833}, "confidence": "high", "source_refs": ["segment-311"]}
+{"id": "segment-312", "type": "chapter", "label": "segment-312", "attributes": {"start": 3149833, "end": 3160330}, "confidence": "high", "source_refs": ["segment-312"]}
+{"id": "segment-313", "type": "chapter", "label": "segment-313", "attributes": {"start": 3160330, "end": 3168704}, "confidence": "high", "source_refs": ["segment-313"]}
+{"id": "segment-314", "type": "chapter", "label": "segment-314", "attributes": {"start": 3168704, "end": 3178128}, "confidence": "high", "source_refs": ["segment-314"]}
+{"id": "segment-315", "type": "chapter", "label": "segment-315", "attributes": {"start": 3178128, "end": 3187510}, "confidence": "high", "source_refs": ["segment-315"]}
+{"id": "segment-316", "type": "chapter", "label": "segment-316", "attributes": {"start": 3187510, "end": 3195894}, "confidence": "high", "source_refs": ["segment-316"]}
+{"id": "EVENT-TITANINDUSTRY", "type": "event", "label": "泰坦图/骨工/附件五年军工与扩界", "source_refs": ["segment-314"], "confidence": "high"}
+{"id": "EVENT-GHOSTLEASE", "type": "event", "label": "十年骨工租赁转移生产", "source_refs": ["segment-315"], "confidence": "high"}
+{"id": "EVENT-WORRYRETURN", "type": "event", "label": "忘忧十年出关接经济与回收", "source_refs": ["segment-315"], "confidence": "high"}
+{"id": "EVENT-MOBILECITY", "type": "event", "label": "十余年城成/纯矿偶得/小绿实际跨界", "source_refs": ["segment-316"], "confidence": "high"}
+{"id": "EVENT-LEIFRAME", "type": "event", "label": "操雷尸假越狱/真魂保留", "source_refs": ["segment-313"], "confidence": "high"}
+{"id": "segment-317", "type": "chapter", "label": "segment-317", "attributes": {"start": 3195894, "end": 3205289}, "confidence": "high", "source_refs": ["segment-317"]}
+{"id": "segment-318", "type": "chapter", "label": "segment-318", "attributes": {"start": 3205289, "end": 3214744}, "confidence": "high", "source_refs": ["segment-318"]}
+{"id": "segment-319", "type": "chapter", "label": "segment-319", "attributes": {"start": 3214744, "end": 3223199}, "confidence": "high", "source_refs": ["segment-319"]}
+{"id": "segment-320", "type": "chapter", "label": "segment-320", "attributes": {"start": 3223199, "end": 3231696}, "confidence": "high", "source_refs": ["segment-320"]}
+{"id": "segment-321", "type": "chapter", "label": "segment-321", "attributes": {"start": 3231696, "end": 3240210}, "confidence": "high", "source_refs": ["segment-321"]}
+{"id": "segment-322", "type": "chapter", "label": "segment-322", "attributes": {"start": 3240210, "end": 3248681}, "confidence": "high", "source_refs": ["segment-322"]}
+{"id": "segment-323", "type": "chapter", "label": "segment-323", "attributes": {"start": 3248681, "end": 3257216}, "confidence": "high", "source_refs": ["segment-323"]}
+{"id": "segment-324", "type": "chapter", "label": "segment-324", "attributes": {"start": 3257216, "end": 3265694}, "confidence": "high", "source_refs": ["segment-324"]}
+{"id": "segment-325", "type": "chapter", "label": "segment-325", "attributes": {"start": 3265694, "end": 3274221}, "confidence": "high", "source_refs": ["segment-325"]}
+{"id": "segment-326", "type": "chapter", "label": "segment-326", "attributes": {"start": 3274221, "end": 3282533}, "confidence": "high", "source_refs": ["segment-326"]}
+{"id": "EVENT-ASSETEXIT", "type": "event", "label": "侦敌宫资产威胁换解封与即死术", "source_refs": ["segment-320"], "confidence": "high"}
+{"id": "EVENT-ORIGINRETURN", "type": "event", "label": "真名归来/198年断层/旧交借路", "source_refs": ["segment-321"], "confidence": "high"}
+{"id": "EVENT-TIANZHAOCAPTURE", "type": "event", "label": "须左魂灭天照生擒供内奸", "source_refs": ["segment-324"], "confidence": "high"}
+{"id": "EVENT-SCHOOLRELIEF", "type": "event", "label": "天空城独立救宫/跨界外联待", "source_refs": ["segment-325"], "confidence": "high"}
+{"id": "EVENT-FATHERSONDEATH", "type": "event", "label": "主角灭耶稣魂/猴灭耶和华魂", "source_refs": ["segment-326"], "confidence": "high"}
+{"id": "EVENT-LEAFSWORD", "type": "event", "label": "叶转剑供树能/三成出招待果", "source_refs": ["segment-326"], "confidence": "high"}
+{"id": "segment-327", "type": "chapter", "label": "segment-327", "attributes": {"start": 3282533, "end": 3290907}, "confidence": "high", "source_refs": ["segment-327"]}
+{"id": "segment-328", "type": "chapter", "label": "segment-328", "attributes": {"start": 3290907, "end": 3299320}, "confidence": "high", "source_refs": ["segment-328"]}
+{"id": "segment-329", "type": "chapter", "label": "segment-329", "attributes": {"start": 3299320, "end": 3308075}, "confidence": "high", "source_refs": ["segment-329"]}
+{"id": "segment-330", "type": "chapter", "label": "segment-330", "attributes": {"start": 3308075, "end": 3316422}, "confidence": "high", "source_refs": ["segment-330"]}
+{"id": "segment-331", "type": "chapter", "label": "segment-331", "attributes": {"start": 3316422, "end": 3324840}, "confidence": "high", "source_refs": ["segment-331"]}
+{"id": "segment-332", "type": "chapter", "label": "segment-332", "attributes": {"start": 3324840, "end": 3333364}, "confidence": "high", "source_refs": ["segment-332"]}
+{"id": "segment-333", "type": "chapter", "label": "segment-333", "attributes": {"start": 3333364, "end": 3341795}, "confidence": "high", "source_refs": ["segment-333"]}
+{"id": "segment-334", "type": "chapter", "label": "segment-334", "attributes": {"start": 3341795, "end": 3350156}, "confidence": "high", "source_refs": ["segment-334"]}
+{"id": "segment-335", "type": "chapter", "label": "segment-335", "attributes": {"start": 3350156, "end": 3358629}, "confidence": "high", "source_refs": ["segment-335"]}
+{"id": "segment-336", "type": "chapter", "label": "segment-336", "attributes": {"start": 3358629, "end": 3367197}, "confidence": "high", "source_refs": ["segment-336"]}
+{"id": "EVENT-ELEMENTWATERRESCUE", "type": "event", "label": "元素水绕封神印/雷分配救二师", "source_refs": ["segment-328"], "confidence": "high"}
+{"id": "EVENT-FORMATIONCITY", "type": "event", "label": "永久九九阵实布/困五容量", "source_refs": ["segment-330"], "confidence": "high"}
+{"id": "EVENT-TIMESTOP", "type": "event", "label": "献祭停时维持被外师打断", "source_refs": ["segment-332"], "confidence": "high"}
+{"id": "EVENT-BUDDHISTUPGRADE", "type": "event", "label": "佛援与金莲护城改造同意", "source_refs": ["segment-332"], "confidence": "high"}
+{"id": "EVENT-TITANALLIANCE", "type": "event", "label": "师祖旧缘/贸易内报转正式盟", "source_refs": ["segment-334"], "confidence": "high"}
+{"id": "EVENT-MOTHERJOINS", "type": "event", "label": "母神先拒后允/宝材最后符书", "source_refs": ["segment-335"], "confidence": "high"}
+{"id": "EVENT-STANLEYCONTRACT", "type": "event", "label": "史签约换向导宣传/条件天堂", "source_refs": ["segment-336"], "confidence": "high"}
+{"id": "EVENT-HEADQUARTERSRAID", "type": "event", "label": "抽军假伤入天堂/锁界断池", "source_refs": ["segment-336"], "confidence": "high"}
+{"id": "segment-337", "type": "chapter", "label": "segment-337", "attributes": {"start": 3367197, "end": 3375733}, "confidence": "high", "source_refs": ["segment-337"]}
+{"id": "segment-338", "type": "chapter", "label": "segment-338", "attributes": {"start": 3375733, "end": 3384168}, "confidence": "high", "source_refs": ["segment-338"]}
+{"id": "segment-339", "type": "chapter", "label": "segment-339", "attributes": {"start": 3384168, "end": 3392617}, "confidence": "high", "source_refs": ["segment-339"]}
+{"id": "segment-340", "type": "chapter", "label": "segment-340", "attributes": {"start": 3392617, "end": 3401242}, "confidence": "high", "source_refs": ["segment-340"]}
+{"id": "segment-341", "type": "chapter", "label": "segment-341", "attributes": {"start": 3401242, "end": 3409800}, "confidence": "high", "source_refs": ["segment-341"]}
+{"id": "segment-342", "type": "chapter", "label": "segment-342", "attributes": {"start": 3409800, "end": 3420347}, "confidence": "high", "source_refs": ["segment-342"]}
+{"id": "segment-343", "type": "chapter", "label": "segment-343", "attributes": {"start": 3420347, "end": 3432123}, "confidence": "high", "source_refs": ["segment-343"]}
+{"id": "segment-344", "type": "chapter", "label": "segment-344", "attributes": {"start": 3432123, "end": 3440481}, "confidence": "high", "source_refs": ["segment-344"]}
+{"id": "segment-345", "type": "chapter", "label": "segment-345", "attributes": {"start": 3440481, "end": 3449034}, "confidence": "high", "source_refs": ["segment-345"]}
+{"id": "segment-346", "type": "chapter", "label": "segment-346", "attributes": {"start": 3449034, "end": 3457314}, "confidence": "high", "source_refs": ["segment-346"]}
+{"id": "EVENT-SUPPLYDENIAL", "type": "event", "label": "围二清池光晶/迁民后五小时双杀", "source_refs": ["segment-338"], "confidence": "high"}
+{"id": "EVENT-NEWREALMGOVERN", "type": "event", "label": "文官适配/四亿军十亿工归但高阶少", "source_refs": ["segment-339"], "confidence": "high"}
+{"id": "EVENT-BARKSWORD", "type": "event", "label": "树皮套改持续三成供剑/口诀阻绳", "source_refs": ["segment-343"], "confidence": "high"}
+{"id": "EVENT-YUDISURVIVOR", "type": "event", "label": "帝仅损两身/余身游击后被天使接", "source_refs": ["segment-346"], "confidence": "high"}
+{"id": "EVENT-CHIYOUKINSHIP", "type": "event", "label": "蚩羽咒/道门口信/四兽与定星盘", "source_refs": ["segment-345"], "confidence": "high"}
+{"id": "EVENT-SHAMWARTRADE", "type": "event", "label": "假战真耗附属/战争外衣资源互换", "source_refs": ["segment-346"], "confidence": "high"}
+{"id": "EVENT-LONGCREDIBILITY", "type": "event", "label": "二十年内报真损建信/古封印图待揭", "source_refs": ["segment-346"], "confidence": "high"}
+{"id": "segment-347", "type": "chapter", "label": "segment-347", "attributes": {"start": 3457314, "end": 3465807}, "confidence": "high", "source_refs": ["segment-347"]}
+{"id": "segment-348", "type": "chapter", "label": "segment-348", "attributes": {"start": 3465807, "end": 3474338}, "confidence": "high", "source_refs": ["segment-348"]}
+{"id": "segment-349", "type": "chapter", "label": "segment-349", "attributes": {"start": 3474338, "end": 3482864}, "confidence": "high", "source_refs": ["segment-349"]}
+{"id": "segment-350", "type": "chapter", "label": "segment-350", "attributes": {"start": 3482864, "end": 3491321}, "confidence": "high", "source_refs": ["segment-350"]}
+{"id": "segment-351", "type": "chapter", "label": "segment-351", "attributes": {"start": 3491321, "end": 3499724}, "confidence": "high", "source_refs": ["segment-351"]}
+{"id": "segment-352", "type": "chapter", "label": "segment-352", "attributes": {"start": 3499724, "end": 3510322}, "confidence": "high", "source_refs": ["segment-352"]}
+{"id": "segment-353", "type": "chapter", "label": "segment-353", "attributes": {"start": 3510322, "end": 3522165}, "confidence": "high", "source_refs": ["segment-353"]}
+{"id": "segment-354", "type": "chapter", "label": "segment-354", "attributes": {"start": 3522165, "end": 3530624}, "confidence": "high", "source_refs": ["segment-354"]}
+{"id": "segment-355", "type": "chapter", "label": "segment-355", "attributes": {"start": 3530624, "end": 3539056}, "confidence": "high", "source_refs": ["segment-355"]}
+{"id": "segment-356", "type": "chapter", "label": "segment-356", "attributes": {"start": 3539056, "end": 3547538}, "confidence": "high", "source_refs": ["segment-356"]}
+{"id": "EVENT-SECONDREADMEMORY", "type": "event", "label": "迟报眼线致二查破密", "source_refs": ["segment-351"], "confidence": "high"}
+{"id": "EVENT-MEMORYBACKUPS", "type": "event", "label": "多份备份补忆及地精暗号", "source_refs": ["segment-352"], "confidence": "high"}
+{"id": "EVENT-COERCEDSEEDS", "type": "event", "label": "亲属抵押远域采种任务", "source_refs": ["segment-352"], "confidence": "high"}
+{"id": "EVENT-LIMITEDTECHSHARING", "type": "event", "label": "高阶授权与有条件实演仍待交易", "source_refs": ["segment-354"], "confidence": "high"}
+{"id": "segment-357", "type": "chapter", "label": "segment-357", "attributes": {"start": 3547538, "end": 3555965}, "confidence": "high", "source_refs": ["segment-357"]}
+{"id": "segment-358", "type": "chapter", "label": "segment-358", "attributes": {"start": 3555965, "end": 3564648}, "confidence": "high", "source_refs": ["segment-358"]}
+{"id": "segment-359", "type": "chapter", "label": "segment-359", "attributes": {"start": 3564648, "end": 3573149}, "confidence": "high", "source_refs": ["segment-359"]}
+{"id": "segment-360", "type": "chapter", "label": "segment-360", "attributes": {"start": 3573149, "end": 3581495}, "confidence": "high", "source_refs": ["segment-360"]}
+{"id": "segment-361", "type": "chapter", "label": "segment-361", "attributes": {"start": 3581495, "end": 3593206}, "confidence": "high", "source_refs": ["segment-361"]}
+{"id": "segment-362", "type": "chapter", "label": "segment-362", "attributes": {"start": 3593206, "end": 3604785}, "confidence": "high", "source_refs": ["segment-362"]}
+{"id": "segment-363", "type": "chapter", "label": "segment-363", "attributes": {"start": 3604785, "end": 3615402}, "confidence": "high", "source_refs": ["segment-363"]}
+{"id": "segment-364", "type": "chapter", "label": "segment-364", "attributes": {"start": 3615402, "end": 3627072}, "confidence": "high", "source_refs": ["segment-364"]}
+{"id": "segment-365", "type": "chapter", "label": "segment-365", "attributes": {"start": 3627072, "end": 3635664}, "confidence": "high", "source_refs": ["segment-365"]}
+{"id": "segment-366", "type": "chapter", "label": "segment-366", "attributes": {"start": 3635664, "end": 3648338}, "confidence": "high", "source_refs": ["segment-366"]}
+{"id": "segment-367", "type": "chapter", "label": "segment-367", "attributes": {"start": 3648338, "end": 3656777}, "confidence": "high", "source_refs": ["segment-367"]}
+{"id": "segment-368", "type": "chapter", "label": "segment-368", "attributes": {"start": 3656777, "end": 3665287}, "confidence": "high", "source_refs": ["segment-368"]}
+{"id": "segment-369", "type": "chapter", "label": "segment-369", "attributes": {"start": 3665287, "end": 3673686}, "confidence": "high", "source_refs": ["segment-369"]}
+{"id": "segment-370", "type": "chapter", "label": "segment-370", "attributes": {"start": 3673686, "end": 3684327}, "confidence": "high", "source_refs": ["segment-370"]}
+{"id": "segment-371", "type": "chapter", "label": "segment-371", "attributes": {"start": 3684327, "end": 3696002}, "confidence": "high", "source_refs": ["segment-371"]}
+{"id": "segment-372", "type": "chapter", "label": "segment-372", "attributes": {"start": 3696002, "end": 3704450}, "confidence": "high", "source_refs": ["segment-372"]}
+{"id": "segment-373", "type": "chapter", "label": "segment-373", "attributes": {"start": 3704450, "end": 3712995}, "confidence": "high", "source_refs": ["segment-373"]}
+{"id": "segment-374", "type": "chapter", "label": "segment-374", "attributes": {"start": 3712995, "end": 3721358}, "confidence": "high", "source_refs": ["segment-374"]}
+{"id": "segment-375", "type": "chapter", "label": "segment-375", "attributes": {"start": 3721358, "end": 3731742}, "confidence": "high", "source_refs": ["segment-375"]}
+{"id": "segment-376", "type": "chapter", "label": "segment-376", "attributes": {"start": 3731742, "end": 3743158}, "confidence": "high", "source_refs": ["segment-376"]}
+{"id": "segment-377", "type": "chapter", "label": "segment-377", "attributes": {"start": 3743158, "end": 3751576}, "confidence": "high", "source_refs": ["segment-377"]}
+{"id": "segment-378", "type": "chapter", "label": "segment-378", "attributes": {"start": 3751576, "end": 3762206}, "confidence": "high", "source_refs": ["segment-378"]}
+{"id": "segment-379", "type": "chapter", "label": "segment-379", "attributes": {"start": 3762206, "end": 3773702}, "confidence": "high", "source_refs": ["segment-379"]}
+{"id": "segment-380", "type": "chapter", "label": "segment-380", "attributes": {"start": 3773702, "end": 3784273}, "confidence": "high", "source_refs": ["segment-380"]}
+{"id": "segment-381", "type": "chapter", "label": "segment-381", "attributes": {"start": 3784273, "end": 3795792}, "confidence": "high", "source_refs": ["segment-381"]}
+{"id": "segment-382", "type": "chapter", "label": "segment-382", "attributes": {"start": 3795792, "end": 3804287}, "confidence": "high", "source_refs": ["segment-382"]}
+{"id": "segment-383", "type": "chapter", "label": "segment-383", "attributes": {"start": 3804287, "end": 3817043}, "confidence": "high", "source_refs": ["segment-383"]}
+{"id": "segment-384", "type": "chapter", "label": "segment-384", "attributes": {"start": 3817043, "end": 3827454}, "confidence": "high", "source_refs": ["segment-384"]}
+{"id": "segment-385", "type": "chapter", "label": "segment-385", "attributes": {"start": 3827454, "end": 3837785}, "confidence": "high", "source_refs": ["segment-385"]}
+{"id": "segment-386", "type": "chapter", "label": "segment-386", "attributes": {"start": 3837785, "end": 3849407}, "confidence": "high", "source_refs": ["segment-386"]}
+{"id": "segment-387", "type": "chapter", "label": "segment-387", "attributes": {"start": 3849407, "end": 3857742}, "confidence": "high", "source_refs": ["segment-387"]}
+{"id": "segment-388", "type": "chapter", "label": "segment-388", "attributes": {"start": 3857742, "end": 3863071}, "confidence": "high", "source_refs": ["segment-388"]}
+{"id": "segment-389", "type": "chapter", "label": "segment-389", "attributes": {"start": 3863071, "end": 3875804}, "confidence": "high", "source_refs": ["segment-389"]}
+{"id": "segment-390", "type": "chapter", "label": "segment-390", "attributes": {"start": 3875804, "end": 3877521}, "confidence": "high", "source_refs": ["segment-390"]}
+{"id": "FINAL-INTERFACES", "type": "mechanism", "label": "知识转化的资源组织接口", "confidence": "high", "source_refs": ["CLAIM-1395", "CLAIM-1402"]}
+{"id": "FINAL-COST", "type": "mechanism", "label": "经营扩张的代价与上限", "confidence": "high", "source_refs": ["CLAIM-1397", "CLAIM-1401"]}
+{"id": "FINAL-RELATIONS", "type": "mechanism", "label": "关系与自主选择", "confidence": "high", "source_refs": ["CLAIM-1398", "CLAIM-1403"]}
+{"id": "FINAL-NVWA", "type": "mechanism", "label": "女娲与失联第三分身明确后揭", "confidence": "high", "source_refs": ["CLAIM-1389", "CLAIM-1391"]}
+{"id": "FINAL-ANGELS", "type": "mechanism", "label": "神圣预置印记转生", "confidence": "high", "source_refs": ["CLAIM-1393"]}

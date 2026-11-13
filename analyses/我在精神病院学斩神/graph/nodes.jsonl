@@ -1,0 +1,19 @@
+{"id": "PROMISE-A", "type": "core_promise", "label": "具体关照与并肩行动产生归属", "attributes": {"status": "user_confirmed_analysis_lens_not_whole_book_fact"}, "confidence": "medium", "source_refs": ["segment-001"]}
+{"id": "EVENT-EGGS", "type": "event", "label": "姨妈送鸡蛋并请求照顾", "confidence": "high", "source_refs": ["segment-001"]}
+{"id": "PAYOFF-WELCOME", "type": "payoff", "label": "接纳被重新理解为有人预先付出", "confidence": "medium", "source_refs": ["segment-001"]}
+{"id": "EVENT-SCHOOL-FAIL", "type": "event", "label": "护送承诺在生存压力下失效", "confidence": "high", "source_refs": ["segment-002"]}
+{"id": "EVENT-RETURN", "type": "event", "label": "沈青竹返身救受伤同伴", "confidence": "high", "source_refs": ["segment-003"]}
+{"id": "PAYOFF-COST", "type": "payoff", "label": "支持由可见成本证明", "confidence": "medium", "source_refs": ["segment-003"]}
+{"id": "RULE-SENSE", "type": "world_rule", "label": "感知范围不等于身体强度", "confidence": "high", "source_refs": ["segment-002"]}
+{"id": "EVENT-ACTION", "type": "event", "label": "局部反制仍受惯性与耗空限制", "confidence": "high", "source_refs": ["segment-002"]}
+{"id": "EVENT-SAFE-EXIT", "type": "event", "label": "曹渊基于失控风险退出", "confidence": "high", "source_refs": ["segment-003"]}
+{"id": "PAYOFF-BOUNDARY", "type": "payoff", "label": "同伴尊重安全边界并在营地回应", "confidence": "medium", "source_refs": ["segment-003"]}
+{"id": "B02-COOP", "type": "event", "label": "秘密协作改变局部行动条件", "confidence": "medium", "source_refs": ["segment-004"]}
+{"id": "B02-GATE", "type": "event", "label": "门禁通行检验梦中暗语", "confidence": "medium", "source_refs": ["segment-005"]}
+{"id": "B02-MISREAD", "type": "viewing_position", "label": "读者拼合接应者与潜伏者误认", "confidence": "medium", "source_refs": ["segment-006"]}
+{"id": "B03-WATCH", "type": "event", "label": "失控时隔离干扰并留下陪伴", "confidence": "medium", "source_refs": ["segment-007"]}
+{"id": "B03-AGENCY", "type": "event", "label": "让受助者亲手完成因果", "confidence": "medium", "source_refs": ["segment-008"]}
+{"id": "B03-RESOURCE", "type": "event", "label": "让出队伍资源并分担压力", "confidence": "medium", "source_refs": ["segment-009"]}
+{"id": "B04-RESPONSE", "type": "event", "label": "伙伴在各地选择回应召唤", "confidence": "medium", "source_refs": ["segment-010"]}
+{"id": "B04-RESCUE", "type": "event", "label": "受困者自救与外部救援共同破笼", "confidence": "medium", "source_refs": ["segment-011"]}
+{"id": "B04-RETURN", "type": "payoff", "label": "巨大危机后回到家人与旧友", "confidence": "medium", "source_refs": ["segment-012"]}

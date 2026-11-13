@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-11-12T19:28:10.233449+00:00",
+  "corrections": [
+    {
+      "event_id": "07f1ec07-6c38-4616-b579-6fd9ac805f31",
+      "disposition": "exclude_from_model_call_count",
+      "reason": "pure_file_history_copy_misrecorded_by_artifact_saver"
+    }
+  ],
+  "raw_events": 508,
+  "effective_creative_events": 507,
+  "measurement": "unavailable",
+  "reason": "runtime_usage_not_exposed",
+  "token_totals": null
+}

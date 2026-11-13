@@ -37,6 +37,22 @@ novels/**
 !novels/.gitkeep
 analyses/**
 !analyses/.gitkeep
+
+# Explicitly authorized analysis results; raw books and caches stay local.
+!analyses/README.md
+!analyses/张三丰异界游/
+!analyses/张三丰异界游/**/
+!analyses/张三丰异界游/**/*.md
+!analyses/张三丰异界游/**/*.yaml
+!analyses/张三丰异界游/**/*.json
+!analyses/张三丰异界游/**/*.jsonl
+!analyses/我在精神病院学斩神/
+!analyses/我在精神病院学斩神/**/
+!analyses/我在精神病院学斩神/**/*.md
+!analyses/我在精神病院学斩神/**/*.yaml
+!analyses/我在精神病院学斩神/**/*.json
+!analyses/我在精神病院学斩神/**/*.jsonl
+
 trends/**
 !trends/.gitkeep
 

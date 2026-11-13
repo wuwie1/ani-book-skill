@@ -1,0 +1,54 @@
+schema_version: 1
+analysis:
+  title: "张三丰异界游"
+  profile: standard
+  status: in_progress
+core_model:
+  status: ready
+  reader_promise: "跨体系知识与异质资源不断转化、组织，积累成可扩张的战力与势力"
+  subject_matter_or_fantasy: "跨体系优势转译、资源经营与势力积累"
+  psychological_progression: "识别差异—验证用途—转换资源—组织合作—扩展行动范围"
+  relationship_structure: "家族庇护与制度入口；伙伴和交易方自主选择；亲密关系保留为动机与成本"
+  gates_and_costs: [肉身修为, 法宝调用, 知识保密, 材料货币, 人力工序, 身份许可, 交易信任]
+source:
+  kind: local_file
+  ref: "/Users/likai/go/src/write/assistant/novels/张三丰异界游.txt"
+  snapshot: "source/张三丰异界游.txt"
+  fingerprint: "sha256:97b73749544e3029028de13d4c489e60b0a2bbfd1711427cb2da63f7768fa115"
+  coverage: sampled
+  scope: "以本文件全文为目标，分批分析结构、设定与重要伏笔"
+  read_scope: "正式notes [0,64841)；离散预读[1781967,1796614)、[3228595,3240210)、[3875804,3877521)；并集87003非空字符"
+  remaining_scope: "语义未读[64841,1781967)、[1796614,3228595)、[3240210,3875804)；正式notes尚需[64841,3877521)"
+artifacts:
+  overview:
+    path: sections/overview.md
+    status: ready
+character_sync:
+  status: off
+  targets: []
+analysis_lens:
+  path: analysis-lens.md
+  status: ready
+execution_request:
+  delegated_model: gpt-6.1-sol
+  service_tier_permission: priority_authorized_for_this_delegation
+  phase: first_batch_A01
+  future_original_design_owner: parent_current_model
+next_action:
+  type: review_first_batch
+  target: batch-A01-review.md
+
+confirmation:
+  date: "2026-11-12"
+  lens_choice: B
+  character_cards: off
+  first_batch: A01
+
+first_batch:
+  id: A01
+  status: ready
+  review_status: pending_user_review
+  formal_notes: 6
+  formal_non_whitespace_chars: 60468
+  semantic_union_non_whitespace_chars: 87003
+  review_path: batch-A01-review.md

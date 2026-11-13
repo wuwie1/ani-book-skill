@@ -1,0 +1,88 @@
+schema_version: 1
+analysis:
+  title: 我在精神病院学斩神
+  profile: standard
+  status: complete
+  completion_scope: approved_cross_stage_sampled_analysis_not_full_book
+core_model:
+  status: ready
+  reader_promise: 用户确认的分析透镜A：异常者通过具体照顾与并肩行动获得归属，并把关系变为危机中的支点；不是全书事实定论
+  subject_matter_or_fantasy: 日常与神异交叠中受困者获得承认、参与抵抗；限样本推断
+  psychological_progression: 疏离/好奇—看见照顾—担心失去—行动回应；检查反例，不强套每场景
+  relationship_structure: 主角、家人、同伴、外部观看者与敌方；追踪各方知情位置和实际付出
+  gates_and_costs:
+  - 公共误读
+  - 身份隐瞒
+  - 生存压力
+  - 能力边界
+  - 记忆与生命损失
+source:
+  kind: local_file
+  ref: /Users/likai/go/src/write/assistant/novels/我在精神病院学斩神.txt
+  snapshot: source/我在精神病院学斩神.txt
+  fingerprint: sha256:7657e4a174a1a8e6382e739ce3b4c4464cd486d9e9419371bce10d46cc10a9bc
+  coverage: sampled
+  scope: 跨阶段代表性场景抽样，初始目标约10–20万非空字符
+  read_scope: 累计唯一已读125812非空字符；正式notes覆盖125812字符；逐窗映射见sample-plan.md
+  remaining_scope: '[0,173)、[31793,262378)、[276073,764050)、[773773,1252365)、[1272764,1750275)、[1759792,2977476)、[2987490,3463307)、[3472756,3954600)、[3964127,4443803)、[4453384,4924928)、[4934577,4968921)'
+artifacts:
+  overview:
+    path: sections/overview.md
+    status: ready
+  style_technique:
+    path: sections/style-technique.md
+    status: ready
+  pattern_candidates:
+    path: pattern-cards.md
+    status: ready
+character_sync:
+  status: 'off'
+  targets: []
+analysis_lens:
+  path: analysis-lens.md
+  status: ready
+execution_request:
+  delegated_model: gpt-6.1-sol
+  service_tier_permission: priority_authorized_for_this_delegation
+  phase: sampled_analysis_complete
+  future_original_design_owner: parent_current_model
+next_action:
+  type: review_completed_analysis
+  target: book-analysis-review.md
+batch_B01:
+  status: accepted_by_user
+  notes:
+  - notes/segment-001.md
+  - notes/segment-002.md
+  - notes/segment-003.md
+  formal_non_whitespace_chars: 37306
+  newly_read_non_whitespace_chars: 27058
+  cumulative_unique_non_whitespace_chars: 62499
+  total_budget_remaining: 37501–137501非空字符
+  other_batches_formal_status: completed_in_later_authorized_run
+sampled_progress:
+  unique_non_whitespace_chars: 125812
+  formal_non_whitespace_chars: 125812
+  budget_remaining_to_upper: 74188
+  completion_scope: 12_windows_56_chapter_units_not_full_text
+batch_B02:
+  status: complete
+  formal_non_whitespace_chars: 33457
+  samples:
+  - B02-W01
+  - B02-W02
+  - B02-W03
+batch_B03:
+  status: complete
+  formal_non_whitespace_chars: 24850
+  samples:
+  - B03-W01
+  - B03-W02
+  - B03-W03
+batch_B04:
+  status: complete
+  formal_non_whitespace_chars: 30199
+  samples:
+  - B04-W01
+  - B04-W02
+  - B04-W03

@@ -1,0 +1,15 @@
+{"id": "EDGE-001", "source": "EVENT-EGGS", "relation": "enables", "target": "PAYOFF-WELCOME", "confidence": "medium", "evidence": ["CLAIM-002"], "attributes": {"scope": "第4章"}}
+{"id": "EDGE-002", "source": "PAYOFF-WELCOME", "relation": "pays_off", "target": "PROMISE-A", "confidence": "medium", "evidence": ["CLAIM-002"], "attributes": {"scope": "第1–4章局部"}}
+{"id": "EDGE-003", "source": "EVENT-SCHOOL-FAIL", "relation": "contradicts", "target": "PAYOFF-WELCOME", "confidence": "medium", "evidence": ["CLAIM-004"], "attributes": {"scope": "第5–7章：接纳不代表可靠"}}
+{"id": "EDGE-004", "source": "EVENT-RETURN", "relation": "enables", "target": "PAYOFF-COST", "confidence": "medium", "evidence": ["CLAIM-009"], "attributes": {"scope": "第100章"}}
+{"id": "EDGE-005", "source": "PAYOFF-COST", "relation": "pays_off", "target": "PROMISE-A", "confidence": "medium", "evidence": ["CLAIM-009"], "attributes": {"scope": "第100章局部"}}
+{"id": "EDGE-006", "source": "RULE-SENSE", "relation": "blocks", "target": "EVENT-ACTION", "confidence": "medium", "evidence": ["CLAIM-006"], "attributes": {"scope": "第7–10章：强感知不消除肉体限制"}}
+{"id": "EDGE-007", "source": "EVENT-SAFE-EXIT", "relation": "enables", "target": "PAYOFF-BOUNDARY", "confidence": "medium", "evidence": ["CLAIM-010"], "attributes": {"scope": "第102–104章"}}
+{"id": "EDGE-008", "source": "PAYOFF-BOUNDARY", "relation": "pays_off", "target": "PROMISE-A", "confidence": "medium", "evidence": ["CLAIM-010"], "attributes": {"scope": "第102–104章局部"}}
+{"id": "EDGE-B02-001", "source": "B02-COOP", "relation": "pays_off", "target": "PROMISE-A", "confidence": "medium", "evidence": ["CLAIM-015"], "attributes": {"scope": "第500–507章局部协作，不等于全部悬疑都属归属"}}
+{"id": "EDGE-B03-WATCH", "source": "B03-WATCH", "relation": "pays_off", "target": "PROMISE-A", "confidence": "medium", "evidence": ["CLAIM-022"], "attributes": {"scope": "B03对应样本局部支持，不等于全书事实"}}
+{"id": "EDGE-B03-AGENCY", "source": "B03-AGENCY", "relation": "pays_off", "target": "PROMISE-A", "confidence": "medium", "evidence": ["CLAIM-024"], "attributes": {"scope": "B03对应样本局部支持，不等于全书事实"}}
+{"id": "EDGE-B03-RESOURCE", "source": "B03-RESOURCE", "relation": "pays_off", "target": "PROMISE-A", "confidence": "medium", "evidence": ["CLAIM-026"], "attributes": {"scope": "B03对应样本局部支持，不等于全书事实"}}
+{"id": "EDGE-B04-RESPONSE", "source": "B04-RESPONSE", "relation": "pays_off", "target": "PROMISE-A", "confidence": "medium", "evidence": ["CLAIM-029"], "attributes": {"scope": "B04对应样本局部支持，不等于全书事实"}}
+{"id": "EDGE-B04-RESCUE", "source": "B04-RESCUE", "relation": "pays_off", "target": "PROMISE-A", "confidence": "medium", "evidence": ["CLAIM-032"], "attributes": {"scope": "B04对应样本局部支持，不等于全书事实"}}
+{"id": "EDGE-B04-RETURN", "source": "B04-RETURN", "relation": "pays_off", "target": "PROMISE-A", "confidence": "medium", "evidence": ["CLAIM-034"], "attributes": {"scope": "B04对应样本局部支持，不等于全书事实"}}
