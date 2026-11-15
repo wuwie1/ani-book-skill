@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-14T14:58:24.691713Z",
+  "totals": {
+    "events": 10,
+    "succeeded": 10,
+    "failed": 0,
+    "partial": 0,
+    "exact_events": 0,
+    "exact_tokens": 0,
+    "estimated_events": 0,
+    "estimated_tokens": 0,
+    "unavailable_events": 10
+  },
+  "by_step": {
+    "novel.beat_sheet": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
+    },
+    "novel.character_roster": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
+    },
+    "novel.design_package": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
+    },
+    "novel.novel_brief": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
+    },
+    "novel.story_bible": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
+    },
+    "novel.volume_chapter_outline": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
+    },
+    "novel.volume_skeleton": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
+    },
+    "novel.volume_strategy": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
+    },
+    "novel.world_bible": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
+    },
+    "novel.writing_style": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
+    }
+  },
+  "by_model": {
+    "unknown": {
+      "events": 10,
+      "succeeded": 10,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 10
+    }
+  }
+}
