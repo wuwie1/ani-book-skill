@@ -1,18 +1,205 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T14:58:24.691713Z",
+  "generated_at": "2026-11-17T01:47:16.142584Z",
   "totals": {
-    "events": 10,
-    "succeeded": 10,
+    "events": 47,
+    "succeeded": 44,
     "failed": 0,
-    "partial": 0,
-    "exact_events": 0,
-    "exact_tokens": 0,
+    "partial": 3,
+    "exact_events": 32,
+    "exact_tokens": 287638,
     "estimated_events": 0,
     "estimated_tokens": 0,
-    "unavailable_events": 10
+    "unavailable_events": 15
   },
   "by_step": {
+    "assistant_system_trial.chapter_acceptance": {
+      "events": 2,
+      "succeeded": 2,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 2,
+      "exact_tokens": 25757,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 0
+    },
+    "assistant_system_trial.chapter_artifact_delta": {
+      "events": 2,
+      "succeeded": 2,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 2,
+      "exact_tokens": 21709,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 0
+    },
+    "assistant_system_trial.chapter_batch": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 1,
+      "exact_tokens": 8723,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 0
+    },
+    "assistant_system_trial.chapter_execution_contract": {
+      "events": 2,
+      "succeeded": 2,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 2,
+      "exact_tokens": 9746,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 0
+    },
+    "assistant_system_trial.chapter_patch": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 1,
+      "exact_tokens": 12626,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 0
+    },
+    "assistant_system_trial.chapter_task_sheet_quality": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 1,
+      "exact_tokens": 4123,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 0
+    },
+    "assistant_system_trial.planner_replan_window_decision": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 1,
+      "exact_tokens": 19776,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 0
+    },
+    "assistant_system_trial.trial_review": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
+    },
+    "assistant_system_trial.writer_draft": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 1,
+      "exact_tokens": 9955,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 0
+    },
+    "assistant_system_trial.writer_extend": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 1,
+      "exact_tokens": 9747,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 0
+    },
+    "assistant_trial.chapter_draft": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 1,
+      "exact_tokens": 7129,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 0
+    },
+    "assistant_trial.chapter_plan": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 1,
+      "exact_tokens": 5289,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 0
+    },
+    "assistant_trial.chapter_review": {
+      "events": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "partial": 1,
+      "exact_events": 1,
+      "exact_tokens": 8863,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 0
+    },
+    "assistant_trial.contract_review": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 1,
+      "exact_tokens": 4317,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 0
+    },
+    "assistant_trial.execution_contract": {
+      "events": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "partial": 1,
+      "exact_events": 1,
+      "exact_tokens": 4715,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 0
+    },
+    "assistant_trial.interrupted_draft": {
+      "events": 1,
+      "succeeded": 0,
+      "failed": 0,
+      "partial": 1,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
+    },
+    "novel.artifact_extraction": {
+      "events": 4,
+      "succeeded": 4,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 4,
+      "exact_tokens": 33036,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 0
+    },
     "novel.beat_sheet": {
       "events": 1,
       "succeeded": 1,
@@ -20,6 +207,61 @@
       "partial": 0,
       "exact_events": 0,
       "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
+    },
+    "novel.chapter_draft": {
+      "events": 2,
+      "succeeded": 2,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 2,
+      "exact_tokens": 18655,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 0
+    },
+    "novel.chapter_extension": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 1,
+      "exact_tokens": 8361,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 0
+    },
+    "novel.chapter_plan": {
+      "events": 2,
+      "succeeded": 2,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 2,
+      "exact_tokens": 17270,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 0
+    },
+    "novel.chapter_repair": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 1,
+      "exact_tokens": 10758,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 0
+    },
+    "novel.chapter_review": {
+      "events": 5,
+      "succeeded": 5,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 4,
+      "exact_tokens": 42841,
       "estimated_events": 0,
       "estimated_tokens": 0,
       "unavailable_events": 1
@@ -67,6 +309,17 @@
       "estimated_events": 0,
       "estimated_tokens": 0,
       "unavailable_events": 1
+    },
+    "novel.timeline_extraction": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 1,
+      "exact_tokens": 4242,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 0
     },
     "novel.volume_chapter_outline": {
       "events": 1,
@@ -122,19 +375,63 @@
       "estimated_events": 0,
       "estimated_tokens": 0,
       "unavailable_events": 1
-    }
-  },
-  "by_model": {
-    "unknown": {
-      "events": 10,
-      "succeeded": 10,
+    },
+    "original.humanization_revision": {
+      "events": 1,
+      "succeeded": 1,
       "failed": 0,
       "partial": 0,
       "exact_events": 0,
       "exact_tokens": 0,
       "estimated_events": 0,
       "estimated_tokens": 0,
-      "unavailable_events": 10
+      "unavailable_events": 1
+    },
+    "original.opening_revision": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
+    }
+  },
+  "by_model": {
+    "codex": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
+    },
+    "qwen/qwen3.8-max": {
+      "events": 32,
+      "succeeded": 30,
+      "failed": 0,
+      "partial": 2,
+      "exact_events": 32,
+      "exact_tokens": 287638,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 0
+    },
+    "unknown": {
+      "events": 14,
+      "succeeded": 13,
+      "failed": 0,
+      "partial": 1,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 14
     }
   }
 }

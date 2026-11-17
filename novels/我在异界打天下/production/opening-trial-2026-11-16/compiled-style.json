@@ -1,0 +1,134 @@
+{
+  "context": "",
+  "style": "Writing style requirements:\n\nNarrative contract\n1. narrative.summary: must keep 第三人称贴近陆昊；行动先于设定，短心理推动选择，身份与知情边界优先。\n2. narrative.STYLE-01: must keep 开场出现具体麻烦与一次尝试，专名随用途进入。\n3. narrative.STYLE-04: must keep 允许短促、有个人偏见的心理反应；随后改变行动，成人判断经明确场景转入。\n\nLanguage contract\n1. language.summary: must keep 清楚、具体、有动作位置；句段随压力变化，关心通过照护动作落地。\n2. language.STYLE-07-09: must keep 用改变行动的细节承载情绪；保留短心理，删重复体感和已被动作证明的解释，不排队抒情。\n3. language.AAI-01-03: must keep 用实际后果支持聪明与温情判断；区分人物声音，收尾按本章责任，不强造震惊。\n\nRhythm contract\n1. rhythm.summary: must keep 一章完成一个主事件；每段有净变化，先兑现可见回报，再引出下一步行动期待。\n2. rhythm.STYLE-02-08: must keep 前三章连续兑现：出生脱险、童年修炉、十二岁验出坏晶；禁止把本章承诺推给下章，不靠悬停填字数。\n3. rhythm.STYLE-10: must keep 快节奏仍保留动作因果与限制，危急段不插笑话，不堆全书设定。",
+  "character": "Character contract\n1. character.summary: must keep 家人与专业者各有任务，主角保留一个影响结果的选择；笑意来自年龄与关系反差。\n2. character.STYLE-03: must keep 主角的有限选择产生可见作用，成人完成专业职责，功劳各自清楚。\n3. character.STYLE-05-06: must keep 危险结束后用一次家常误解或接话松气；陆昊好胜直白，母亲温和有界限，祖母利落，父亲抱娃生疏，哥哥认真。",
+  "antiAi": "Anti-AI contract",
+  "output": "Output requirements:\nReturn only the final novel prose.\nDo not explain the rules, do not output outlines, and do not add meta commentary.\nWhen constraints compete, obey the active style contract and anti-AI rules first.",
+  "selfCheck": "Self-check\n- Keep brief inner reactions that motivate choices; replace repeated explanations already conveyed by action or tone.\n- Check whether paragraph endings summarize, elevate, or moralize.\n- Check whether repeated sentence openings, metaphors, or bodily reactions add new information instead of repeating the same emotion.\n- Remove static action loops that change neither choices nor information; do not fill the length target by repeating a scene.\n- If AI flavor remains, revise before returning the final draft.",
+  "contract": {
+    "narrative": {
+      "key": "narrative",
+      "title": "Narrative contract",
+      "summary": "第三人称贴近陆昊；行动先于设定，短心理推动选择，身份与知情边界优先。",
+      "lines": [
+        "1. narrative.summary: must keep 第三人称贴近陆昊；行动先于设定，短心理推动选择，身份与知情边界优先。",
+        "2. narrative.STYLE-01: must keep 开场出现具体麻烦与一次尝试，专名随用途进入。",
+        "3. narrative.STYLE-04: must keep 允许短促、有个人偏见的心理反应；随后改变行动，成人判断经明确场景转入。"
+      ],
+      "text": "Narrative contract\n1. narrative.summary: must keep 第三人称贴近陆昊；行动先于设定，短心理推动选择，身份与知情边界优先。\n2. narrative.STYLE-01: must keep 开场出现具体麻烦与一次尝试，专名随用途进入。\n3. narrative.STYLE-04: must keep 允许短促、有个人偏见的心理反应；随后改变行动，成人判断经明确场景转入。",
+      "hasContent": true
+    },
+    "character": {
+      "key": "character",
+      "title": "Character contract",
+      "summary": "家人与专业者各有任务，主角保留一个影响结果的选择；笑意来自年龄与关系反差。",
+      "lines": [
+        "1. character.summary: must keep 家人与专业者各有任务，主角保留一个影响结果的选择；笑意来自年龄与关系反差。",
+        "2. character.STYLE-03: must keep 主角的有限选择产生可见作用，成人完成专业职责，功劳各自清楚。",
+        "3. character.STYLE-05-06: must keep 危险结束后用一次家常误解或接话松气；陆昊好胜直白，母亲温和有界限，祖母利落，父亲抱娃生疏，哥哥认真。"
+      ],
+      "text": "Character contract\n1. character.summary: must keep 家人与专业者各有任务，主角保留一个影响结果的选择；笑意来自年龄与关系反差。\n2. character.STYLE-03: must keep 主角的有限选择产生可见作用，成人完成专业职责，功劳各自清楚。\n3. character.STYLE-05-06: must keep 危险结束后用一次家常误解或接话松气；陆昊好胜直白，母亲温和有界限，祖母利落，父亲抱娃生疏，哥哥认真。",
+      "hasContent": true
+    },
+    "language": {
+      "key": "language",
+      "title": "Language contract",
+      "summary": "清楚、具体、有动作位置；句段随压力变化，关心通过照护动作落地。",
+      "lines": [
+        "1. language.summary: must keep 清楚、具体、有动作位置；句段随压力变化，关心通过照护动作落地。",
+        "2. language.STYLE-07-09: must keep 用改变行动的细节承载情绪；保留短心理，删重复体感和已被动作证明的解释，不排队抒情。",
+        "3. language.AAI-01-03: must keep 用实际后果支持聪明与温情判断；区分人物声音，收尾按本章责任，不强造震惊。"
+      ],
+      "text": "Language contract\n1. language.summary: must keep 清楚、具体、有动作位置；句段随压力变化，关心通过照护动作落地。\n2. language.STYLE-07-09: must keep 用改变行动的细节承载情绪；保留短心理，删重复体感和已被动作证明的解释，不排队抒情。\n3. language.AAI-01-03: must keep 用实际后果支持聪明与温情判断；区分人物声音，收尾按本章责任，不强造震惊。",
+      "hasContent": true
+    },
+    "rhythm": {
+      "key": "rhythm",
+      "title": "Rhythm contract",
+      "summary": "一章完成一个主事件；每段有净变化，先兑现可见回报，再引出下一步行动期待。",
+      "lines": [
+        "1. rhythm.summary: must keep 一章完成一个主事件；每段有净变化，先兑现可见回报，再引出下一步行动期待。",
+        "2. rhythm.STYLE-02-08: must keep 前三章连续兑现：出生脱险、童年修炉、十二岁验出坏晶；禁止把本章承诺推给下章，不靠悬停填字数。",
+        "3. rhythm.STYLE-10: must keep 快节奏仍保留动作因果与限制，危急段不插笑话，不堆全书设定。"
+      ],
+      "text": "Rhythm contract\n1. rhythm.summary: must keep 一章完成一个主事件；每段有净变化，先兑现可见回报，再引出下一步行动期待。\n2. rhythm.STYLE-02-08: must keep 前三章连续兑现：出生脱险、童年修炉、十二岁验出坏晶；禁止把本章承诺推给下章，不靠悬停填字数。\n3. rhythm.STYLE-10: must keep 快节奏仍保留动作因果与限制，危急段不插笑话，不堆全书设定。",
+      "hasContent": true
+    },
+    "antiAi": {
+      "key": "antiAi",
+      "title": "Anti-AI contract",
+      "summary": null,
+      "lines": [],
+      "text": "Anti-AI contract",
+      "hasContent": false
+    },
+    "selfCheck": {
+      "key": "selfCheck",
+      "title": "Self-check",
+      "summary": null,
+      "lines": [
+        "- Keep brief inner reactions that motivate choices; replace repeated explanations already conveyed by action or tone.",
+        "- Check whether paragraph endings summarize, elevate, or moralize.",
+        "- Check whether repeated sentence openings, metaphors, or bodily reactions add new information instead of repeating the same emotion.",
+        "- Remove static action loops that change neither choices nor information; do not fill the length target by repeating a scene.",
+        "- If AI flavor remains, revise before returning the final draft."
+      ],
+      "text": "Self-check\n- Keep brief inner reactions that motivate choices; replace repeated explanations already conveyed by action or tone.\n- Check whether paragraph endings summarize, elevate, or moralize.\n- Check whether repeated sentence openings, metaphors, or bodily reactions add new information instead of repeating the same emotion.\n- Remove static action loops that change neither choices nor information; do not fill the length target by repeating a scene.\n- If AI flavor remains, revise before returning the final draft.",
+      "hasContent": true
+    },
+    "meta": {
+      "effectiveStyleProfileId": "opening-v2",
+      "taskStyleProfileId": null,
+      "activeSourceTargets": [
+        "novel"
+      ],
+      "activeSourceLabels": [
+        "本书v2写法合同"
+      ],
+      "writerIncludedSections": [
+        "narrative",
+        "character",
+        "language",
+        "rhythm",
+        "antiAi",
+        "selfCheck"
+      ],
+      "plannerIncludedSections": [
+        "narrative",
+        "character",
+        "language",
+        "rhythm",
+        "antiAi"
+      ],
+      "droppedSections": [],
+      "maturity": "structured",
+      "usesGlobalAntiAiBaseline": false,
+      "globalAntiAiRuleIds": [],
+      "styleAntiAiRuleIds": [],
+      "antiAiRulePolicies": []
+    }
+  },
+  "mergedRules": {
+    "narrativeRules": {
+      "summary": "第三人称贴近陆昊；行动先于设定，短心理推动选择，身份与知情边界优先。",
+      "STYLE-01": "开场出现具体麻烦与一次尝试，专名随用途进入。",
+      "STYLE-04": "允许短促、有个人偏见的心理反应；随后改变行动，成人判断经明确场景转入。"
+    },
+    "characterRules": {
+      "summary": "家人与专业者各有任务，主角保留一个影响结果的选择；笑意来自年龄与关系反差。",
+      "STYLE-03": "主角的有限选择产生可见作用，成人完成专业职责，功劳各自清楚。",
+      "STYLE-05-06": "危险结束后用一次家常误解或接话松气；陆昊好胜直白，母亲温和有界限，祖母利落，父亲抱娃生疏，哥哥认真。"
+    },
+    "languageRules": {
+      "summary": "清楚、具体、有动作位置；句段随压力变化，关心通过照护动作落地。",
+      "STYLE-07-09": "用改变行动的细节承载情绪；保留短心理，删重复体感和已被动作证明的解释，不排队抒情。",
+      "AAI-01-03": "用实际后果支持聪明与温情判断；区分人物声音，收尾按本章责任，不强造震惊。"
+    },
+    "rhythmRules": {
+      "summary": "一章完成一个主事件；每段有净变化，先兑现可见回报，再引出下一步行动期待。",
+      "STYLE-02-08": "前三章连续兑现：出生脱险、童年修炉、十二岁验出坏晶；禁止把本章承诺推给下章，不靠悬停填字数。",
+      "STYLE-10": "快节奏仍保留动作因果与限制，危急段不插笑话，不堆全书设定。"
+    }
+  },
+  "appliedRuleIds": []
+}

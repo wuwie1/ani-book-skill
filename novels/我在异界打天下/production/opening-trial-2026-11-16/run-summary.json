@@ -1,0 +1,12 @@
+{
+  "startedAt": "2026-11-16T10:40:10.259Z",
+  "completedAt": "2026-11-16T10:41:08.871Z",
+  "provider": "qwen",
+  "model": "qwen3.8-max",
+  "draftTemperature": 0.7,
+  "reasoningEnabled": false,
+  "characters": 2735,
+  "mode": "registered prompt chain; no manuscript or continuity writes",
+  "productionNovelUnchanged": true,
+  "interruptedAttempt": "04 writer used provider-default reasoning=true; terminated before completion to match original chapterWritingGraph reasoning=false"
+}

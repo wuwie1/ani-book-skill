@@ -1,0 +1,38 @@
+[
+  {
+    "stage": "chapter_batch",
+    "invocationId": "153276a2-9f46-41ee-81f6-fde57fc59477",
+    "oldSourceFragments": {
+      "旧刻痕": 0,
+      "塌胸一寸": 0,
+      "决战与封镇": 0
+    },
+    "conflictingRuleCount": 0,
+    "positiveShortThoughtRuleCount": 0,
+    "originalExpectationUsed": true
+  },
+  {
+    "stage": "chapter_acceptance",
+    "invocationId": "54dface1-d28f-435f-bcde-d9514f107715",
+    "oldSourceFragments": {
+      "旧刻痕": 0,
+      "塌胸一寸": 0,
+      "决战与封镇": 0
+    },
+    "conflictingRuleCount": 0,
+    "positiveShortThoughtRuleCount": 1,
+    "originalExpectationUsed": true
+  },
+  {
+    "stage": "writer_draft",
+    "invocationId": "662f475a-b33d-47b8-9dca-4ffb44c1a9e5",
+    "oldSourceFragments": {
+      "旧刻痕": 0,
+      "塌胸一寸": 0,
+      "决战与封镇": 0
+    },
+    "conflictingRuleCount": 0,
+    "positiveShortThoughtRuleCount": 2,
+    "originalExpectationUsed": true
+  }
+]

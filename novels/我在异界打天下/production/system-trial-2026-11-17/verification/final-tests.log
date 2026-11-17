@@ -1,0 +1,1117 @@
+TAP version 13
+# Subtest: artifact summary passes the original chapter text to the content-version fence
+ok 1 - artifact summary passes the original chapter text to the content-version fence
+  ---
+  duration_ms: 1.762417
+  type: 'test'
+  ...
+# Subtest: artifact delta only applies active dialogue influences that are valid in this chapter
+ok 2 - artifact delta only applies active dialogue influences that are valid in this chapter
+  ---
+  duration_ms: 0.990708
+  type: 'test'
+  ...
+# Subtest: artifact delta expires active dialogue influences once their window has passed
+ok 3 - artifact delta expires active dialogue influences once their window has passed
+  ---
+  duration_ms: 0.183875
+  type: 'test'
+  ...
+# Subtest: artifact delta only applies active dialogue influences that are active in this chapter
+ok 4 - artifact delta only applies active dialogue influences that are active in this chapter
+  ---
+  duration_ms: 3.126041
+  type: 'test'
+  ...
+# Subtest: artifact delta expires active dialogue influences once their window has passed
+ok 5 - artifact delta expires active dialogue influences once their window has passed
+  ---
+  duration_ms: 0.272125
+  type: 'test'
+  ...
+# Subtest: chapter layered context summaries prefer canonical state when present
+ok 6 - chapter layered context summaries prefer canonical state when present
+  ---
+  duration_ms: 3.717792
+  type: 'test'
+  ...
+# Subtest: world summary prefers story world slice over canonical world continuity record
+ok 7 - world summary prefers story world slice over canonical world continuity record
+  ---
+  duration_ms: 0.158583
+  type: 'test'
+  ...
+# prisma:error 
+# Invalid `prisma_1.prisma.promptSlotOverride.findMany()` invocation in
+# /private/tmp/assistant-rewrite-repair-20261117/server/dist/prompting/slots/PromptSlotOverrideService.js:77:67
+#   74 }
+#   75 async getOverrideMaps(input) {
+#   76     try {
+# → 77         const rows = await prisma_1.prisma.promptSlotOverride.findMany(
+# The table `main.PromptSlotOverride` does not exist in the current database.
+# [prompt.runner] promptId=novel.review.repair promptVersion=v4 taskType=repair novelId=novel-1 chapterId=chapter-1 stage=chapter_repair   triggerReason="heavy_repair" contextBlockIds=none droppedContextBlockIds=none summarizedContextBlockIds=none estimatedInputTokens=0 repairUsed=false repairAttempts=0 semanticRetryUsed=false semanticRetryAttempts=0 provider=default model=default latencyMs=3
+# Subtest: patches locate against original prose even when another replacement introduces the same target
+ok 8 - patches locate against original prose even when another replacement introduces the same target
+  ---
+  duration_ms: 4.46725
+  type: 'test'
+  ...
+# Subtest: overlapping patches are reported as conflicts and leave all original prose intact
+ok 9 - overlapping patches are reported as conflicts and leave all original prose intact
+  ---
+  duration_ms: 1.379541
+  type: 'test'
+  ...
+# Subtest: a missing patch target rejects the whole plan rather than returning partially edited prose
+ok 10 - a missing patch target rejects the whole plan rather than returning partially edited prose
+  ---
+  duration_ms: 0.239
+  type: 'test'
+  ...
+# Subtest: applyChapterPatchRepairPlan applies exact single-location patches
+ok 11 - applyChapterPatchRepairPlan applies exact single-location patches
+  ---
+  duration_ms: 0.125375
+  type: 'test'
+  ...
+# Subtest: applyChapterPatchRepairPlan allows deleting unique target excerpts
+ok 12 - applyChapterPatchRepairPlan allows deleting unique target excerpts
+  ---
+  duration_ms: 0.121958
+  type: 'test'
+  ...
+# Subtest: applyChapterPatchRepairPlan rejects ambiguous target excerpts
+ok 13 - applyChapterPatchRepairPlan rejects ambiguous target excerpts
+  ---
+  duration_ms: 0.136125
+  type: 'test'
+  ...
+# Subtest: applyChapterPatchRepairPlan applies unique whitespace-normalized patches
+ok 14 - applyChapterPatchRepairPlan applies unique whitespace-normalized patches
+  ---
+  duration_ms: 0.14075
+  type: 'test'
+  ...
+# Subtest: applyChapterPatchRepairPlan rejects ambiguous whitespace-normalized matches
+ok 15 - applyChapterPatchRepairPlan rejects ambiguous whitespace-normalized matches
+  ---
+  duration_ms: 0.063041
+  type: 'test'
+  ...
+# Subtest: applyChapterPatchRepairPlan reports no_effect when replacement keeps content unchanged
+ok 16 - applyChapterPatchRepairPlan reports no_effect when replacement keeps content unchanged
+  ---
+  duration_ms: 0.248375
+  type: 'test'
+  ...
+# Subtest: applyChapterPatchRepairPlan rejects full rewrite plans
+ok 17 - applyChapterPatchRepairPlan rejects full rewrite plans
+  ---
+  duration_ms: 0.306208
+  type: 'test'
+  ...
+# Subtest: ChapterPatchRepairService does not run local repair in rewrite-only modes
+ok 18 - ChapterPatchRepairService does not run local repair in rewrite-only modes
+  ---
+  duration_ms: 0.4815
+  type: 'test'
+  ...
+# Subtest: runChapterRepairText performs a full rewrite only when heavy repair is explicit
+ok 19 - runChapterRepairText performs a full rewrite only when heavy repair is explicit
+  ---
+  duration_ms: 1304.88
+  type: 'test'
+  ...
+# Subtest: ChapterPatchRepairService reports structured patch schema failures as recoverable
+ok 20 - ChapterPatchRepairService reports structured patch schema failures as recoverable
+  ---
+  duration_ms: 0.344666
+  type: 'test'
+  ...
+# Subtest: ChapterPatchRepairService converts unsafe apply-stage patch validation into recoverable failure
+ok 21 - ChapterPatchRepairService converts unsafe apply-stage patch validation into recoverable failure
+  ---
+  duration_ms: 0.924
+  type: 'test'
+  ...
+# Subtest: runChapterRepairText preserves AI directive modes in the patch request instead of only flattened advice
+ok 22 - runChapterRepairText preserves AI directive modes in the patch request instead of only flattened advice
+  ---
+  duration_ms: 0.791792
+  type: 'test'
+  ...
+# Subtest: explicit ordinal deletes only the selected repeated passage
+ok 23 - explicit ordinal deletes only the selected repeated passage
+  ---
+  duration_ms: 1.007916
+  type: 'test'
+  ...
+# Subtest: stale occurrence count rejects the entire plan without touching source
+ok 24 - stale occurrence count rejects the entire plan without touching source
+  ---
+  duration_ms: 0.573417
+  type: 'test'
+  ...
+# Subtest: repeated normalized whitespace anchors accept an explicit location only
+ok 25 - repeated normalized whitespace anchors accept an explicit location only
+  ---
+  duration_ms: 0.451875
+  type: 'test'
+  ...
+# Subtest: all patch locations refer to original text and overlapping selections remain atomic
+ok 26 - all patch locations refer to original text and overlapping selections remain atomic
+  ---
+  duration_ms: 0.520334
+  type: 'test'
+  ...
+# Subtest: takeover protects saved content, preserves chapter scopes and never invents missing assets
+ok 27 - takeover protects saved content, preserves chapter scopes and never invents missing assets
+  ---
+  duration_ms: 2.393792
+  type: 'test'
+  ...
+# Subtest: takeover does not confirm an existing skeleton without a strategy or skip its prerequisite
+ok 28 - takeover does not confirm an existing skeleton without a strategy or skip its prerequisite
+  ---
+  duration_ms: 8.433542
+  type: 'test'
+  ...
+# Subtest: a cleared chapter supersedes old protected completion facts and reaches writing in the same scope
+ok 29 - a cleared chapter supersedes old protected completion facts and reaches writing in the same scope
+  ---
+  duration_ms: 0.867583
+  type: 'test'
+  ...
+# Subtest: chapter 17 continuation gets only the remaining character and output allowance
+ok 30 - chapter 17 continuation gets only the remaining character and output allowance
+  ---
+  duration_ms: 49.133541
+  type: 'test'
+  ...
+# Subtest: adequate drafts and unspecified or invalid ranges need no paid extension
+ok 31 - adequate drafts and unspecified or invalid ranges need no paid extension
+  ---
+  duration_ms: 7.491625
+  type: 'test'
+  ...
+# Subtest: bounded extension appends to the draft and receives a small output allowance
+ok 32 - bounded extension appends to the draft and receives a small output allowance
+  ---
+  duration_ms: 94.090333
+  type: 'test'
+  ...
+# Subtest: chapter 17 overshoot is rejected without truncating, saving or calling another model
+ok 33 - chapter 17 overshoot is rejected without truncating, saving or calling another model
+  ---
+  duration_ms: 138.741209
+  type: 'test'
+  ...
+# Subtest: already adequate drafts skip continuation completely
+ok 34 - already adequate drafts skip continuation completely
+  ---
+  duration_ms: 55.416459
+  type: 'test'
+  ...
+# Subtest: initial Writer request uses the resolved mission target even when chapter metadata is empty
+ok 35 - initial Writer request uses the resolved mission target even when chapter metadata is empty
+  ---
+  duration_ms: 77.445041
+  type: 'test'
+  ...
+# Subtest: replayed suffix is rejected before save/review without another request; streaming=false
+ok 36 - replayed suffix is rejected before save/review without another request; streaming=false
+  ---
+  duration_ms: 49.996209
+  type: 'test'
+  ...
+# Subtest: replayed suffix is rejected before save/review without another request; streaming=true
+ok 37 - replayed suffix is rejected before save/review without another request; streaming=true
+  ---
+  duration_ms: 33.99275
+  type: 'test'
+  ...
+# Subtest: overlap guard catches whitespace-only replay and long repeated paragraphs but allows brief echoes
+ok 38 - overlap guard catches whitespace-only replay and long repeated paragraphs but allows brief echoes
+  ---
+  duration_ms: 5.863417
+  type: 'test'
+  ...
+# Subtest: new introductory words cannot disguise a replay inside the same continuation paragraph
+ok 39 - new introductory words cannot disguise a replay inside the same continuation paragraph
+  ---
+  duration_ms: 2.277416
+  type: 'test'
+  ...
+# Subtest: opening excludes old body knowledge and projected future relationships without deleting history
+ok 40 - opening excludes old body knowledge and projected future relationships without deleting history
+  ---
+  duration_ms: 2429.017334
+  type: 'test'
+  ...
+# Subtest: only a prior synchronized source with a matching snapshot revision enters chapter context
+ok 41 - only a prior synchronized source with a matching snapshot revision enters chapter context
+  ---
+  duration_ms: 343.415375
+  type: 'test'
+  ...
+# Subtest: extraction projects prior snapshot over clean baseline and scopes resource/payoff changes
+ok 42 - extraction projects prior snapshot over clean baseline and scopes resource/payoff changes
+  ---
+  duration_ms: 0.26925
+  type: 'test'
+  ...
+# Subtest: native production receipts establish the same state boundary without legacy checkpoints
+ok 43 - native production receipts establish the same state boundary without legacy checkpoints
+  ---
+  duration_ms: 171.029459
+  type: 'test'
+  ...
+# Subtest: proposal, applied character state, snapshot and version link commit or roll back together
+ok 44 - proposal, applied character state, snapshot and version link commit or roll back together
+  ---
+  duration_ms: 1876.813375
+  type: 'test'
+  ...
+# Subtest: normalizePlannerOutput coerces object-like planner fields into safe strings
+ok 45 - normalizePlannerOutput coerces object-like planner fields into safe strings
+  ---
+  duration_ms: 2.894
+  type: 'test'
+  ...
+# Subtest: normalizePlannerOutput maps common planner goal aliases to objective
+ok 46 - normalizePlannerOutput maps common planner goal aliases to objective
+  ---
+  duration_ms: 0.163042
+  type: 'test'
+  ...
+# Subtest: planner invocations retain novel and chapter attribution without assigning a chapter to book planning
+ok 47 - planner invocations retain novel and chapter attribution without assigning a chapter to book planning
+  ---
+  duration_ms: 3.196416
+  type: 'test'
+  ...
+# Subtest: compileIntentToPlan uses chapter order tools for chapter content
+ok 48 - compileIntentToPlan uses chapter order tools for chapter content
+  ---
+  duration_ms: 1.563458
+  type: 'test'
+  ...
+# Subtest: compileIntentToPlan keeps social opening as no-op
+ok 49 - compileIntentToPlan keeps social opening as no-op
+  ---
+  duration_ms: 0.133083
+  type: 'test'
+  ...
+# Subtest: compileIntentToPlan uses list_novels for global novel listing
+ok 50 - compileIntentToPlan uses list_novels for global novel listing
+  ---
+  duration_ms: 0.402208
+  type: 'test'
+  ...
+# Subtest: compileIntentToPlan uses list_base_characters for base character library queries
+ok 51 - compileIntentToPlan uses list_base_characters for base character library queries
+  ---
+  duration_ms: 0.108708
+  type: 'test'
+  ...
+# Subtest: compileIntentToPlan uses list_worlds for global world listing
+ok 52 - compileIntentToPlan uses list_worlds for global world listing
+  ---
+  duration_ms: 0.090917
+  type: 'test'
+  ...
+# Subtest: compileIntentToPlan uses list_tasks for system task status queries
+ok 53 - compileIntentToPlan uses list_tasks for system task status queries
+  ---
+  duration_ms: 0.165208
+  type: 'test'
+  ...
+# Subtest: compileIntentToPlan uses create_novel for explicit novel creation
+ok 54 - compileIntentToPlan uses create_novel for explicit novel creation
+  ---
+  duration_ms: 0.362375
+  type: 'test'
+  ...
+# Subtest: compileIntentToPlan uses select_novel_workspace for workspace switching
+ok 55 - compileIntentToPlan uses select_novel_workspace for workspace switching
+  ---
+  duration_ms: 0.320959
+  type: 'test'
+  ...
+# Subtest: compileIntentToPlan uses bind_world_to_novel for current novel world binding
+ok 56 - compileIntentToPlan uses bind_world_to_novel for current novel world binding
+  ---
+  duration_ms: 3.819333
+  type: 'test'
+  ...
+# Subtest: compileIntentToPlan uses unbind_world_from_novel for current novel world removal
+ok 57 - compileIntentToPlan uses unbind_world_from_novel for current novel world removal
+  ---
+  duration_ms: 0.380042
+  type: 'test'
+  ...
+# Subtest: compileIntentToPlan expands produce_novel into fixed production chain
+ok 58 - compileIntentToPlan expands produce_novel into fixed production chain
+  ---
+  duration_ms: 0.469416
+  type: 'test'
+  ...
+# Subtest: compileIntentToPlan holds production execution when collaboration is needed first
+ok 59 - compileIntentToPlan holds production execution when collaboration is needed first
+  ---
+  duration_ms: 0.0735
+  type: 'test'
+  ...
+# Subtest: compileIntentToPlan carries production preferences into create_novel
+ok 60 - compileIntentToPlan carries production preferences into create_novel
+  ---
+  duration_ms: 0.184292
+  type: 'test'
+  ...
+# Subtest: compileIntentToPlan uses production status tool for whole-book progress questions
+ok 61 - compileIntentToPlan uses production status tool for whole-book progress questions
+  ---
+  duration_ms: 0.258959
+  type: 'test'
+  ...
+# Subtest: compileIntentToPlan uses production status tool for generic progress questions
+ok 62 - compileIntentToPlan uses production status tool for generic progress questions
+  ---
+  duration_ms: 0.239625
+  type: 'test'
+  ...
+# Subtest: compileIntentToPlan uses search_knowledge for similar-setting reference queries
+ok 63 - compileIntentToPlan uses search_knowledge for similar-setting reference queries
+  ---
+  duration_ms: 0.248791
+  type: 'test'
+  ...
+# Subtest: compileIntentToPlan reads novel context for setup ideation requests
+ok 64 - compileIntentToPlan reads novel context for setup ideation requests
+  ---
+  duration_ms: 0.087
+  type: 'test'
+  ...
+# Subtest: compileIntentToPlan compiles rewrite into read plus pipeline approval path
+ok 65 - compileIntentToPlan compiles rewrite into read plus pipeline approval path
+  ---
+  duration_ms: 0.185208
+  type: 'test'
+  ...
+# Subtest: compileIntentToPlan uses failure diagnostics for failed chapter generation question
+ok 66 - compileIntentToPlan uses failure diagnostics for failed chapter generation question
+  ---
+  duration_ms: 0.128209
+  type: 'test'
+  ...
+# Subtest: normalizeIntentPayload fills missing goal and chapterSelectors from AI partial output
+ok 67 - normalizeIntentPayload fills missing goal and chapterSelectors from AI partial output
+  ---
+  duration_ms: 0.773708
+  type: 'test'
+  ...
+# Subtest: normalizeIntentPayload sets default chapter target for produce_novel
+ok 68 - normalizeIntentPayload sets default chapter target for produce_novel
+  ---
+  duration_ms: 0.091917
+  type: 'test'
+  ...
+# Subtest: normalizeIntentPayload normalizes production preference fields
+ok 69 - normalizeIntentPayload normalizes production preference fields
+  ---
+  duration_ms: 0.470166
+  type: 'test'
+  ...
+# Subtest: normalizeIntentPayload maps finish-style AI intents to produce_novel
+ok 70 - normalizeIntentPayload maps finish-style AI intents to produce_novel
+  ---
+  duration_ms: 0.2355
+  type: 'test'
+  ...
+# Subtest: normalizeIntentPayload maps internal production tool names back to canonical workflow intents
+ok 71 - normalizeIntentPayload maps internal production tool names back to canonical workflow intents
+  ---
+  duration_ms: 0.259958
+  type: 'test'
+  ...
+# Subtest: normalizeIntentPayload maps task list style AI intents to query_task_status
+ok 72 - normalizeIntentPayload maps task list style AI intents to query_task_status
+  ---
+  duration_ms: 0.161417
+  type: 'test'
+  ...
+# Subtest: normalizeIntentPayload maps similar-setting search aliases to search_knowledge
+ok 73 - normalizeIntentPayload maps similar-setting search aliases to search_knowledge
+  ---
+  duration_ms: 0.156583
+  type: 'test'
+  ...
+# Subtest: normalizeIntentPayload maps world unbind aliases to unbind_world_from_novel
+ok 74 - normalizeIntentPayload maps world unbind aliases to unbind_world_from_novel
+  ---
+  duration_ms: 0.508583
+  type: 'test'
+  ...
+# Subtest: normalizeIntentPayload maps setup option aliases to ideate_novel_setup
+ok 75 - normalizeIntentPayload maps setup option aliases to ideate_novel_setup
+  ---
+  duration_ms: 0.174459
+  type: 'test'
+  ...
+# Subtest: normalizeIntentPayload maps character library aliases to list_base_characters
+ok 76 - normalizeIntentPayload maps character library aliases to list_base_characters
+  ---
+  duration_ms: 0.205583
+  type: 'test'
+  ...
+# Subtest: normalizeIntentPayload maps character count style AI intents to inspect_characters
+ok 77 - normalizeIntentPayload maps character count style AI intents to inspect_characters
+  ---
+  duration_ms: 0.090042
+  type: 'test'
+  ...
+# Subtest: normalizeIntentPayload maps current novel character count style AI intents to inspect_characters
+ok 78 - normalizeIntentPayload maps current novel character count style AI intents to inspect_characters
+  ---
+  duration_ms: 0.149125
+  type: 'test'
+  ...
+# Subtest: normalizeIntentPayload preserves AI clarification for current novel requests
+ok 79 - normalizeIntentPayload preserves AI clarification for current novel requests
+  ---
+  duration_ms: 0.323417
+  type: 'test'
+  ...
+# Subtest: summarizeIntentValidationFailure returns readable intent validation details
+ok 80 - summarizeIntentValidationFailure returns readable intent validation details
+  ---
+  duration_ms: 0.197
+  type: 'test'
+  ...
+# Subtest: chapter planner context prioritizes framing, story macro and current volume window over legacy outline
+ok 81 - chapter planner context prioritizes framing, story macro and current volume window over legacy outline
+  ---
+  duration_ms: 2.214333
+  type: 'test'
+  ...
+# Subtest: chapter planner declares only book sources reusable and refreshes them from current inputs
+ok 82 - chapter planner declares only book sources reusable and refreshes them from current inputs
+  ---
+  duration_ms: 0.782875
+  type: 'test'
+  ...
+# Subtest: planner participant resolver augments AI output with high-priority dynamic roles
+ok 83 - planner participant resolver augments AI output with high-priority dynamic roles
+  ---
+  duration_ms: 2.3345
+  type: 'test'
+  ...
+# Subtest: planner participant resolver blocks pending candidate names from entering the plan
+ok 84 - planner participant resolver blocks pending candidate names from entering the plan
+  ---
+  duration_ms: 0.436708
+  type: 'test'
+  ...
+# Subtest: planner participant resolver falls back to dynamic core roles instead of raw roster order
+ok 85 - planner participant resolver falls back to dynamic core roles instead of raw roster order
+  ---
+  duration_ms: 0.189083
+  type: 'test'
+  ...
+# Subtest: persistStoryPlan uses an explicit timeout for planning writes
+ok 86 - persistStoryPlan uses an explicit timeout for planning writes
+  ---
+  duration_ms: 6.36825
+  type: 'test'
+  ...
+# Subtest: chapter execution contract hash is stable and readable from plan metadata
+ok 87 - chapter execution contract hash is stable and readable from plan metadata
+  ---
+  duration_ms: 1.401375
+  type: 'test'
+  ...
+# Subtest: persistStoryPlan syncs chapter assets and promotes empty chapters to pending_generation
+ok 88 - persistStoryPlan syncs chapter assets and promotes empty chapters to pending_generation
+  ---
+  duration_ms: 13.577625
+  type: 'test'
+  ...
+# Subtest: persistStoryPlan skips sceneCards sync when planner scenes cannot form a canonical contract
+ok 89 - persistStoryPlan skips sceneCards sync when planner scenes cannot form a canonical contract
+  ---
+  duration_ms: 1.014292
+  type: 'test'
+  ...
+# Subtest: persistStoryPlan keeps chapter status unchanged when正文 already exists
+ok 90 - persistStoryPlan keeps chapter status unchanged when正文 already exists
+  ---
+  duration_ms: 0.885208
+  type: 'test'
+  ...
+# Subtest: artifact source reader assembles actual ledger, previous state and active influence inputs
+ok 91 - artifact source reader assembles actual ledger, previous state and active influence inputs
+  ---
+  duration_ms: 5.771875
+  type: 'test'
+  ...
+# Subtest: artifact source reader propagates incomplete reads and rejects a changed chapter identity
+ok 92 - artifact source reader propagates incomplete reads and rejects a changed chapter identity
+  ---
+  duration_ms: 0.770625
+  type: 'test'
+  ...
+# Subtest: artifact source reader derives location capability only from the frozen profile
+ok 93 - artifact source reader derives location capability only from the frozen profile
+  ---
+  duration_ms: 0.417917
+  type: 'test'
+  ...
+# Subtest: recovery distinguishes an unstarted model checkpoint from an unknown dispatched claim without creating rows
+ok 94 - recovery distinguishes an unstarted model checkpoint from an unknown dispatched claim without creating rows
+  ---
+  duration_ms: 2665.824625
+  type: 'test'
+  ...
+# Subtest: consumer write and claim receipt commit together and a repeated acknowledgement is idempotent
+ok 95 - consumer write and claim receipt commit together and a repeated acknowledgement is idempotent
+  ---
+  duration_ms: 258.739083
+  type: 'test'
+  ...
+# Subtest: timeline writes, legacy checkpoint and kernel receipt share a guarded transaction
+ok 96 - timeline writes, legacy checkpoint and kernel receipt share a guarded transaction
+  ---
+  duration_ms: 536.628042
+  type: 'test'
+  ...
+# Subtest: revoking ownership after the outer claim prevents the actual consumer transaction
+ok 97 - revoking ownership after the outer claim prevents the actual consumer transaction
+  ---
+  duration_ms: 118.084292
+  type: 'test'
+  ...
+# Subtest: a failed consumer transaction rolls back every business row and leaves no success receipt
+ok 98 - a failed consumer transaction rolls back every business row and leaves no success receipt
+  ---
+  duration_ms: 122.295708
+  type: 'test'
+  ...
+# Subtest: an in-transaction manuscript change rolls back business writes and the success receipt
+ok 99 - an in-transaction manuscript change rolls back business writes and the success receipt
+  ---
+  duration_ms: 102.527333
+  type: 'test'
+  ...
+# Subtest: an in-transaction stage change rolls back business writes and the success receipt
+ok 100 - an in-transaction stage change rolls back business writes and the success receipt
+  ---
+  duration_ms: 136.427208
+  type: 'test'
+  ...
+# Subtest: a failed timeline check commits a degraded anchor under the same guarded receipt
+ok 101 - a failed timeline check commits a degraded anchor under the same guarded receipt
+  ---
+  duration_ms: 182.47075
+  type: 'test'
+  ...
+# Subtest: real summary, state, payoff, dynamics, knowledge, mind and projections persist with per-consumer receipts
+ok 102 - real summary, state, payoff, dynamics, knowledge, mind and projections persist with per-consumer receipts
+  ---
+  duration_ms: 229.398
+  type: 'test'
+  ...
+# Subtest: all real consumers reject a revoked lease even when the manuscript is unchanged
+ok 103 - all real consumers reject a revoked lease even when the manuscript is unchanged
+  ---
+  duration_ms: 128.155083
+  type: 'test'
+  ...
+# Subtest: foreign structured identities cannot become this novel character state or appearance
+ok 104 - foreign structured identities cannot become this novel character state or appearance
+  ---
+  duration_ms: 150.944791
+  type: 'test'
+  ...
+# Subtest: approved resource writes create a real full canonical version and are not repeated on recovery
+ok 105 - approved resource writes create a real full canonical version and are not repeated on recovery
+  ---
+  duration_ms: 184.758041
+  type: 'test'
+  ...
+# Subtest: resource hold, unsupported evidence, unresolved identities and high risk remain pending
+ok 106 - resource hold, unsupported evidence, unresolved identities and high risk remain pending
+  ---
+  duration_ms: 116.824209
+  type: 'test'
+  ...
+# Subtest: resource version failure rolls back ledger, proposals, events and receipt together
+ok 107 - resource version failure rolls back ledger, proposals, events and receipt together
+  ---
+  duration_ms: 86.864417
+  type: 'test'
+  ...
+# Subtest: two jobs using the same manuscript and supplied step key never share a consumer receipt
+ok 108 - two jobs using the same manuscript and supplied step key never share a consumer receipt
+  ---
+  duration_ms: 87.638334
+  type: 'test'
+  ...
+# Subtest: full payoff reconciliation applies saved model items, keeps omitted debts and guards its receipt
+ok 109 - full payoff reconciliation applies saved model items, keeps omitted debts and guards its receipt
+  ---
+  duration_ms: 88.810958
+  type: 'test'
+  ...
+# Subtest: an empty chapter completes all real consumers and recovers after their durable writes without another model
+ok 110 - an empty chapter completes all real consumers and recovers after their durable writes without another model
+  ---
+  duration_ms: 259.01875
+  type: 'test'
+  ...
+# Subtest: native runtime captures the contract and installs all production stages with durable physical accounting
+ok 111 - native runtime captures the contract and installs all production stages with durable physical accounting
+  ---
+  duration_ms: 1607.753416
+  type: 'test'
+  ...
+# Subtest: native request fences reject a changed durable unit claim before another physical dispatch
+ok 112 - native request fences reject a changed durable unit claim before another physical dispatch
+  ---
+  duration_ms: 216.052333
+  type: 'test'
+  ...
+# Subtest: native composition retains the captured contract and worker when its caller object changes
+ok 113 - native composition retains the captured contract and worker when its caller object changes
+  ---
+  duration_ms: 157.861459
+  type: 'test'
+  ...
+# Subtest: resume retains a previously saved output profile instead of adopting new defaults
+ok 114 - resume retains a previously saved output profile instead of adopting new defaults
+  ---
+  duration_ms: 152.134166
+  type: 'test'
+  ...
+# Subtest: native preparation uses persisted contract and planner results across normal execution
+ok 115 - native preparation uses persisted contract and planner results across normal execution
+  ---
+  duration_ms: 3186.627209
+  type: 'test'
+  ...
+# Subtest: native preparation uses persisted contract and planner results across after_models
+ok 116 - native preparation uses persisted contract and planner results across after_models
+  ---
+  duration_ms: 253.845708
+  type: 'test'
+  ...
+# Subtest: native preparation uses persisted contract and planner results across assembly
+ok 117 - native preparation uses persisted contract and planner results across assembly
+  ---
+  duration_ms: 248.438333
+  type: 'test'
+  ...
+# Subtest: preparation reuses a current native chapter plan without another model call or planning overwrite
+ok 118 - preparation reuses a current native chapter plan without another model call or planning overwrite
+  ---
+  duration_ms: 212.112875
+  type: 'test'
+  ...
+# Subtest: a manual workspace edit after contract commit stops before another paid planning request
+ok 119 - a manual workspace edit after contract commit stops before another paid planning request
+  ---
+  duration_ms: 183.271542
+  type: 'test'
+  ...
+# Subtest: a manual workspace edit after chapter plan commit prevents publishing the outer preparation receipt
+ok 120 - a manual workspace edit after chapter plan commit prevents publishing the outer preparation receipt
+  ---
+  duration_ms: 224.815291
+  type: 'test'
+  ...
+# Subtest: native chapter planning commits its plan, scenes and chapter metadata in the caller transaction
+ok 121 - native chapter planning commits its plan, scenes and chapter metadata in the caller transaction
+  ---
+  duration_ms: 1727.505208
+  type: 'test'
+  ...
+# Subtest: a replaced worker cannot commit native planning records or chapter metadata
+ok 122 - a replaced worker cannot commit native planning records or chapter metadata
+  ---
+  duration_ms: 148.577833
+  type: 'test'
+  ...
+# Subtest: a failed post-write transaction fence rolls back native planning and every scene
+ok 123 - a failed post-write transaction fence rolls back native planning and every scene
+  ---
+  duration_ms: 151.721417
+  type: 'test'
+  ...
+# Subtest: editing the chapter after request preparation preserves the human content and rejects stale planning
+ok 124 - editing the chapter after request preparation preserves the human content and rejects stale planning
+  ---
+  duration_ms: 128.016708
+  type: 'test'
+  ...
+# Subtest: native contract commit and receipt share the caller transaction across volume, chapter and compatibility rows
+ok 125 - native contract commit and receipt share the caller transaction across volume, chapter and compatibility rows
+  ---
+  duration_ms: 142.119208
+  type: 'test'
+  ...
+# Subtest: contract transaction rejects lease drift and preserves all source rows
+ok 126 - contract transaction rejects lease drift and preserves all source rows
+  ---
+  duration_ms: 206.55075
+  type: 'test'
+  ...
+# Subtest: contract transaction rejects epoch drift and preserves all source rows
+ok 127 - contract transaction rejects epoch drift and preserves all source rows
+  ---
+  duration_ms: 105.9865
+  type: 'test'
+  ...
+# Subtest: contract transaction rejects chapter drift and preserves all source rows
+ok 128 - contract transaction rejects chapter drift and preserves all source rows
+  ---
+  duration_ms: 113.809375
+  type: 'test'
+  ...
+# Subtest: contract transaction rejects document drift and preserves all source rows
+ok 129 - contract transaction rejects document drift and preserves all source rows
+  ---
+  duration_ms: 108.866416
+  type: 'test'
+  ...
+# Subtest: contract transaction rejects canonical drift and preserves all source rows
+ok 130 - contract transaction rejects canonical drift and preserves all source rows
+  ---
+  duration_ms: 94.008209
+  type: 'test'
+  ...
+# Subtest: contract transaction rejects after drift and preserves all source rows
+ok 131 - contract transaction rejects after drift and preserves all source rows
+  ---
+  duration_ms: 94.025542
+  type: 'test'
+  ...
+# Subtest: readonly workspace preparation refuses missing canonical rows without rebuilding them
+ok 132 - readonly workspace preparation refuses missing canonical rows without rebuilding them
+  ---
+  duration_ms: 74.832542
+  type: 'test'
+  ...
+# Subtest: preparation returns a source route for missing earlier timeline and never repairs out of range content
+ok 133 - preparation returns a source route for missing earlier timeline and never repairs out of range content
+  ---
+  duration_ms: 83.623708
+  type: 'test'
+  ...
+# Subtest: resolveSnapshotChapterReference maps chapter order text to a real chapter id
+ok 134 - resolveSnapshotChapterReference maps chapter order text to a real chapter id
+  ---
+  duration_ms: 0.758458
+  type: 'test'
+  ...
+# Subtest: resolveSnapshotChapterReference falls back to current chapter for invalid setup refs
+ok 135 - resolveSnapshotChapterReference falls back to current chapter for invalid setup refs
+  ---
+  duration_ms: 0.069458
+  type: 'test'
+  ...
+# Subtest: resolveSnapshotChapterReference treats chapter_1 placeholders as missing refs
+ok 136 - resolveSnapshotChapterReference treats chapter_1 placeholders as missing refs
+  ---
+  duration_ms: 0.073334
+  type: 'test'
+  ...
+# Subtest: resolveSnapshotChapterReference drops invalid payoff refs instead of returning placeholders
+ok 137 - resolveSnapshotChapterReference drops invalid payoff refs instead of returning placeholders
+  ---
+  duration_ms: 0.049792
+  type: 'test'
+  ...
+# Subtest: chapter patch permission is bound to the real structured style issue and forwards fact comparison
+ok 138 - chapter patch permission is bound to the real structured style issue and forwards fact comparison
+  ---
+  duration_ms: 100.332959
+  type: 'test'
+  ...
+# Subtest: report-only narrative and arbitrary issue IDs fail before candidate selection
+ok 139 - report-only narrative and arbitrary issue IDs fail before candidate selection
+  ---
+  duration_ms: 27.704666
+  type: 'test'
+  ...
+# Subtest: known character names cannot be changed by a pure expression patch
+ok 140 - known character names cannot be changed by a pure expression patch
+  ---
+  duration_ms: 15.552625
+  type: 'test'
+  ...
+# Subtest: manual rewrite accepts a direct request without invented issues and preserves original whitespace
+ok 141 - manual rewrite accepts a direct request without invented issues and preserves original whitespace
+  ---
+  duration_ms: 221.095834
+  type: 'test'
+  ...
+# Subtest: detection preserves source coordinates and rejects a whitespace-only manuscript
+ok 142 - detection preserves source coordinates and rejects a whitespace-only manuscript
+  ---
+  duration_ms: 97.902542
+  type: 'test'
+  ...
+# Subtest: manual service recomputes authority, uses structured patches and never copies client instructions
+ok 143 - manual service recomputes authority, uses structured patches and never copies client instructions
+  ---
+  duration_ms: 72.78625
+  type: 'test'
+  ...
+# Subtest: manual request cannot bypass narrative, legacy or instance rewrite refusals
+ok 144 - manual request cannot bypass narrative, legacy or instance rewrite refusals
+  ---
+  duration_ms: 93.17075
+  type: 'test'
+  ...
+# Subtest: unselected diagnoses do not expand the requested editing scope
+ok 145 - unselected diagnoses do not expand the requested editing scope
+  ---
+  duration_ms: 22.187666
+  type: 'test'
+  ...
+# Subtest: first direct preview detects once and selects only authoritative automatic issues
+ok 146 - first direct preview detects once and selects only authoritative automatic issues
+  ---
+  duration_ms: 8.85975
+  type: 'test'
+  ...
+# Subtest: preview preserves whitespace outside patch scope
+ok 147 - preview preserves whitespace outside patch scope
+  ---
+  duration_ms: 15.329667
+  type: 'test'
+  ...
+# Subtest: invalid issue ID and oversized patch fall back to the exact original
+ok 148 - invalid issue ID and oversized patch fall back to the exact original
+  ---
+  duration_ms: 37.529667
+  type: 'test'
+  ...
+# Subtest: perspective evidence survives runtime serialization while legacy reports remain readable
+ok 149 - perspective evidence survives runtime serialization while legacy reports remain readable
+  ---
+  duration_ms: 24.258083
+  type: 'test'
+  ...
+# Subtest: style prompts require information gain before excusing repeated structures or bodily action loops
+ok 150 - style prompts require information gain before excusing repeated structures or bodily action loops
+  ---
+  duration_ms: 6.722708
+  type: 'test'
+  ...
+# Subtest: ordinary contract findings accept null rule IDs without schema repair
+ok 151 - ordinary contract findings accept null rule IDs without schema repair
+  ---
+  duration_ms: 1.201084
+  type: 'test'
+  ...
+# Subtest: model evidence uses a distinct statistical label while stored scanner IDs stay intact
+ok 152 - model evidence uses a distinct statistical label while stored scanner IDs stay intact
+  ---
+  duration_ms: 3.304916
+  type: 'test'
+  ...
+# Subtest: model signal examples are bounded without changing stored evidence or policy
+ok 153 - model signal examples are bounded without changing stored evidence or policy
+  ---
+  duration_ms: 0.421041
+  type: 'test'
+  ...
+# Subtest: compressed or stitched excerpts are rejected instead of accepted as current prose
+ok 154 - compressed or stitched excerpts are rejected instead of accepted as current prose
+  ---
+  duration_ms: 0.180125
+  type: 'test'
+  ...
+# Subtest: automatic permission intersects instance, layer and rule permission; legacy cannot authorize
+ok 155 - automatic permission intersects instance, layer and rule permission; legacy cannot authorize
+  ---
+  duration_ms: 0.758958
+  type: 'test'
+  ...
+# Subtest: local expression edit preserves source and candidate identities and marks semantic comparison pending
+ok 156 - local expression edit preserves source and candidate identities and marks semantic comparison pending
+  ---
+  duration_ms: 2.207875
+  type: 'test'
+  ...
+# Subtest: unknown and report-only issue ids cannot grant an edit permission
+ok 157 - unknown and report-only issue ids cannot grant an edit permission
+  ---
+  duration_ms: 22.201667
+  type: 'test'
+  ...
+# Subtest: pure style cannot change numbers or protected names
+ok 158 - pure style cannot change numbers or protected names
+  ---
+  duration_ms: 0.366083
+  type: 'test'
+  ...
+# Subtest: authorized factual correction is separate from literal style protection and requires semantic reacceptance
+ok 159 - authorized factual correction is separate from literal style protection and requires semantic reacceptance
+  ---
+  duration_ms: 0.395875
+  type: 'test'
+  ...
+# Subtest: whole chapter touching over 30%, excessive addition and deletion are rejected
+ok 160 - whole chapter touching over 30%, excessive addition and deletion are rejected
+  ---
+  duration_ms: 0.404209
+  type: 'test'
+  ...
+# Subtest: ambiguous and overlapping targets retain the complete original
+ok 161 - ambiguous and overlapping targets retain the complete original
+  ---
+  duration_ms: 0.305708
+  type: 'test'
+  ...
+# Subtest: rewrite protection survives runtime schema round trip with the legacy report
+ok 162 - rewrite protection survives runtime schema round trip with the legacy report
+  ---
+  duration_ms: 0.688459
+  type: 'test'
+  ...
+# Subtest: explicit rule choices inherit by scope and never disable the global rule for another book
+ok 163 - explicit rule choices inherit by scope and never disable the global rule for another book
+  ---
+  duration_ms: 1533.682416
+  type: 'test'
+  ...
+# Subtest: ordinary profile save preserves disabled exceptions, unknown and duplicate policy writes are atomic
+ok 164 - ordinary profile save preserves disabled exceptions, unknown and duplicate policy writes are atomic
+  ---
+  duration_ms: 194.862208
+  type: 'test'
+  ...
+# Subtest: transition evidence starts at the repeated occurrence, never grants a verdict for first use
+ok 165 - transition evidence starts at the repeated occurrence, never grants a verdict for first use
+  ---
+  duration_ms: 2.455542
+  type: 'test'
+  ...
+# Subtest: one transition and two distinct first-use transitions have no repetition evidence
+ok 166 - one transition and two distinct first-use transitions have no repetition evidence
+  ---
+  duration_ms: 4.911917
+  type: 'test'
+  ...
+# Subtest: chapter repetition crosses short sentences and paragraphs, with a configurable threshold
+ok 167 - chapter repetition crosses short sentences and paragraphs, with a configurable threshold
+  ---
+  duration_ms: 0.93875
+  type: 'test'
+  ...
+# Subtest: a bounded repeated-expression excerpt still contains the occurrence it identifies
+ok 168 - a bounded repeated-expression excerpt still contains the occurrence it identifies
+  ---
+  duration_ms: 0.989041
+  type: 'test'
+  ...
+# Subtest: comma density finds an 80-character sentence with four commas
+ok 169 - comma density finds an 80-character sentence with four commas
+  ---
+  duration_ms: 0.496
+  type: 'test'
+  ...
+# Subtest: comma density does not combine distinct sentences or paragraphs
+ok 170 - comma density does not combine distinct sentences or paragraphs
+  ---
+  duration_ms: 0.479417
+  type: 'test'
+  ...
+# Subtest: comma density respects 79/80 characters and 3/4 commas, including ASCII commas
+ok 171 - comma density respects 79/80 characters and 3/4 commas, including ASCII commas
+  ---
+  duration_ms: 0.677625
+  type: 'test'
+  ...
+# Subtest: softener clustering counts different terms in the same sentence
+ok 172 - softener clustering counts different terms in the same sentence
+  ---
+  duration_ms: 0.2925
+  type: 'test'
+  ...
+# Subtest: softener signals skip short sentences and meaningful evidence remains for AI to decide
+ok 173 - softener signals skip short sentences and meaningful evidence remains for AI to decide
+  ---
+  duration_ms: 0.600875
+  type: 'test'
+  ...
+# Subtest: softener 2/3 boundary applies only within each sentence, including ellipses
+ok 174 - softener 2/3 boundary applies only within each sentence, including ellipses
+  ---
+  duration_ms: 0.429041
+  type: 'test'
+  ...
+# Subtest: action adverb clustering finds three occurrences without requiring the same adverb
+ok 175 - action adverb clustering finds three occurrences without requiring the same adverb
+  ---
+  duration_ms: 0.145417
+  type: 'test'
+  ...
+# Subtest: action signals leave two occurrences and short sentences alone
+ok 176 - action signals leave two occurrences and short sentences alone
+  ---
+  duration_ms: 0.107208
+  type: 'test'
+  ...
+# Subtest: action 2/3 boundary is versioned and quotation is preserved rather than exempted by a verdict
+ok 177 - action 2/3 boundary is versioned and quotation is preserved rather than exempted by a verdict
+  ---
+  duration_ms: 0.154166
+  type: 'test'
+  ...
+# Subtest: Unicode character counts and UTF-16 normalized offsets use different units
+ok 178 - Unicode character counts and UTF-16 normalized offsets use different units
+  ---
+  duration_ms: 0.101542
+  type: 'test'
+  ...
+# Subtest: evidence is bounded per rule and in total without trimming source whitespace
+ok 179 - evidence is bounded per rule and in total without trimming source whitespace
+  ---
+  duration_ms: 0.97925
+  type: 'test'
+  ...
+# Subtest: policy words and thresholds are copied into each scan result and do not mutate caller state
+ok 180 - policy words and thresholds are copied into each scan result and do not mutate caller state
+  ---
+  duration_ms: 0.46625
+  type: 'test'
+  ...
+# Subtest: job payload preserves full scanner policy through recovery serialization
+ok 181 - job payload preserves full scanner policy through recovery serialization
+  ---
+  duration_ms: 3.090167
+  type: 'test'
+  ...
+# Subtest: historical missing or unknown scanner policy cannot silently acquire new defaults
+ok 182 - historical missing or unknown scanner policy cannot silently acquire new defaults
+  ---
+  duration_ms: 0.2645
+  type: 'test'
+  ...
+# Subtest: invalid runtime policy cannot be persisted as a valid snapshot
+ok 183 - invalid runtime policy cannot be persisted as a valid snapshot
+  ---
+  duration_ms: 0.419666
+  type: 'test'
+  ...
+1..183
+# tests 183
+# suites 0
+# pass 183
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 7050.65725

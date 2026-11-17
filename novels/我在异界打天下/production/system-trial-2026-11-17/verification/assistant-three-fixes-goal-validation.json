@@ -1,0 +1,10 @@
+{
+  "sha": "72c2f5762eb7f4129a733da8acffcfbfd72c9197",
+  "ref": "origin/ai",
+  "passed": [
+    "server-build",
+    "client-build",
+    "targeted-tests"
+  ],
+  "evidence": "Isolated archive of 64d7b6f1020004ee566a4216de5b09d307541a10 plus exact manifest-matched patch; Node v22 shared tsc, server tsc and client tsc+vite passed. 183 targeted tests passed, 0 failed/skipped. Logs /tmp/assistant-three-fixes-server-build.log, /tmp/assistant-three-fixes-client-build.log, /tmp/assistant-three-fixes-final-tests.log; inputs /tmp/assistant-three-fixes-manifest.json and /tmp/assistant-three-fixes-test-files.json. Final follow-up changes only server runtime, regression test and wiki. Recompiled complete server after those edits (/tmp/assistant-three-fixes-rewrite-build.log); 21 focused state/clear/editor regressions pass (/tmp/assistant-three-fixes-rewrite-tests.log). Shared, client and their dependency/toolchain inputs byte-identical to validated 9edf6d1a, so reuse their completed builds. Additional summary/planning isolation touches server source and tests only; complete server rebuild passed (/tmp/assistant-three-fixes-goal-build.log), 36 targeted tests passed with 0 failures/skips (/tmp/assistant-three-fixes-goal-tests.log). Exact tested file hashes match committed originals in /tmp/assistant-three-fixes-goal-manifest.json. Shared and client inputs remain unchanged from 9edf6d1a; their successful builds are reused."
+}

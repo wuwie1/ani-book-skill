@@ -1,0 +1,729 @@
+TAP version 13
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 2 }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c1', order: 1, hasDraft: false }
+# [pipeline] 章节最终未达标 {
+#   jobId: 'new-job',
+#   order: 1,
+#   score: {
+#     coherence: 70,
+#     repetition: 80,
+#     pacing: 70,
+#     voice: 80,
+#     engagement: 70,
+#     overall: 74
+#   }
+# }
+# [pipeline] 任务已按问题策略收束 {
+#   jobId: 'new-job',
+#   novelId: 'book',
+#   action: 'pause_for_manual',
+#   message: '第1章累计 AI 用量达到 100000 Tokens，本章上限 100000，正文已保存，请从导演台调整本章额度后继续。'
+# }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 2 }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c1', order: 1, hasDraft: true }
+# [pipeline] 章节最终未达标 {
+#   jobId: 'new-job',
+#   order: 1,
+#   score: {
+#     coherence: 70,
+#     pacing: 70,
+#     repetition: 80,
+#     engagement: 70,
+#     voice: 80,
+#     overall: 74
+#   }
+# }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 1,
+#   total: 2,
+#   progress: 0.5,
+#   retryCount: 0
+# }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c2', order: 2, hasDraft: false }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 2,
+#   total: 2,
+#   progress: 1,
+#   retryCount: 0
+# }
+# [pipeline] 任务执行结束 { jobId: 'new-job', status: 'succeeded', qualityAlertCount: 2 }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 2 }
+# [pipeline] 任务已按问题策略收束 {
+#   jobId: 'new-job',
+#   novelId: 'book',
+#   action: 'pause_for_manual',
+#   message: '本章缺少与保存正文对应的检查结果，请核对章节内容后继续。'
+# }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 2 }
+# [pipeline] 任务已按问题策略收束 {
+#   jobId: 'new-job',
+#   novelId: 'book',
+#   action: 'pause_for_manual',
+#   message: '本章正文或状态同步记录与保存进度不一致，请核对章节内容后继续。'
+# }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 2 }
+# [pipeline] 任务已按问题策略收束 {
+#   jobId: 'new-job',
+#   novelId: 'book',
+#   action: 'pause_for_manual',
+#   message: '本章检查要求调整规划或人工处理，请核对检查结果后继续。'
+# }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 2 }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c1', order: 1, hasDraft: true }
+# [pipeline] 章节最终未达标 {
+#   jobId: 'new-job',
+#   order: 1,
+#   score: {
+#     coherence: 70,
+#     pacing: 70,
+#     repetition: 80,
+#     engagement: 70,
+#     voice: 80,
+#     overall: 74
+#   }
+# }
+# [pipeline] 章节需要人工处理，已暂停后续章节流水线 { jobId: 'new-job', order: 1, remaining: 1 }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 1,
+#   total: 2,
+#   progress: 0.5,
+#   retryCount: 0
+# }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 2 }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c1', order: 1, hasDraft: false }
+# [pipeline] 任务已按问题策略收束 {
+#   jobId: 'new-job',
+#   novelId: 'book',
+#   action: 'pause_for_manual',
+#   message: '第1章累计 AI 用量达到 100000 Tokens，本章上限 100000，正文已保存，请从导演台调整本章额度后继续。'
+# }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 2 }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c1', order: 1, hasDraft: false }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 1,
+#   total: 2,
+#   progress: 0.5,
+#   retryCount: 0
+# }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c2', order: 2, hasDraft: false }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 2,
+#   total: 2,
+#   progress: 1,
+#   retryCount: 0
+# }
+# [pipeline] 任务执行结束 { jobId: 'new-job', status: 'succeeded', qualityAlertCount: 0 }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 2 }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c1', order: 1, hasDraft: false }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 1,
+#   total: 2,
+#   progress: 0.5,
+#   retryCount: 0
+# }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c2', order: 2, hasDraft: false }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 2,
+#   total: 2,
+#   progress: 1,
+#   retryCount: 0
+# }
+# [pipeline] 任务执行结束 { jobId: 'new-job', status: 'succeeded', qualityAlertCount: 2 }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 2 }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c1', order: 1, hasDraft: false }
+# [pipeline] 任务已按问题策略收束 {
+#   jobId: 'new-job',
+#   novelId: 'book',
+#   action: 'pause_for_manual',
+#   message: '第1章累计 AI 用量达到 100000 Tokens，本章上限 100000，正文已保存，请从导演台调整本章额度后继续。'
+# }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 2 }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c1', order: 1, hasDraft: false }
+# [pipeline] 任务已按问题策略收束 {
+#   jobId: 'new-job',
+#   novelId: 'book',
+#   action: 'pause_for_manual',
+#   message: '第1章当前已用 90000 Tokens，下一步预留 16000 Tokens 后将接近本章上限 100000，请从导演台调整本章额度后继续。'
+# }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 2 }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c1', order: 1, hasDraft: false }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 1,
+#   total: 2,
+#   progress: 0.5,
+#   retryCount: 0
+# }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c2', order: 2, hasDraft: false }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 2,
+#   total: 2,
+#   progress: 1,
+#   retryCount: 0
+# }
+# [pipeline] 任务执行结束 { jobId: 'new-job', status: 'succeeded', qualityAlertCount: 0 }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 2 }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c1', order: 1, hasDraft: false }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 1,
+#   total: 2,
+#   progress: 0.5,
+#   retryCount: 0
+# }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c2', order: 2, hasDraft: false }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 2,
+#   total: 2,
+#   progress: 1,
+#   retryCount: 0
+# }
+# [pipeline] 任务执行结束 { jobId: 'new-job', status: 'succeeded', qualityAlertCount: 0 }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 2 }
+# [pipeline] 任务已按问题策略收束 {
+#   jobId: 'new-job',
+#   novelId: 'book',
+#   action: 'pause_for_manual',
+#   message: '第1章累计 AI 用量达到 100000 Tokens，本章上限 100000，请从导演台调整本章额度后继续。'
+# }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 2 }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c1', order: 1, hasDraft: false }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 1,
+#   total: 2,
+#   progress: 0.5,
+#   retryCount: 0
+# }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c2', order: 2, hasDraft: false }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 2,
+#   total: 2,
+#   progress: 1,
+#   retryCount: 0
+# }
+# [pipeline] 任务执行结束 { jobId: 'new-job', status: 'succeeded', qualityAlertCount: 0 }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 2 }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c1', order: 1, hasDraft: false }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 1,
+#   total: 2,
+#   progress: 0.5,
+#   retryCount: 0
+# }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c2', order: 2, hasDraft: false }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 2,
+#   total: 2,
+#   progress: 1,
+#   retryCount: 0
+# }
+# [pipeline] 任务执行结束 { jobId: 'new-job', status: 'succeeded', qualityAlertCount: 0 }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 2 }
+# [pipeline] 任务已按问题策略收束 {
+#   jobId: 'new-job',
+#   novelId: 'book',
+#   action: 'pause_for_manual',
+#   message: '章节用量计数无效，不能继续生成。'
+# }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 2 }
+# [pipeline] 任务已按问题策略收束 {
+#   jobId: 'new-job',
+#   novelId: 'book',
+#   action: 'fail_task',
+#   message: '章节用量检查点无法确认已保存，生成已停止。'
+# }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 1 }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c1', order: 1, hasDraft: false }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 1,
+#   total: 2,
+#   progress: 0.5,
+#   retryCount: 0
+# }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c2', order: 2, hasDraft: false }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 2,
+#   total: 2,
+#   progress: 1,
+#   retryCount: 0
+# }
+# [pipeline] 任务执行结束 { jobId: 'new-job', status: 'succeeded', qualityAlertCount: 0 }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 1 }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c1', order: 1, hasDraft: false }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 1,
+#   total: 2,
+#   progress: 0.5,
+#   retryCount: 0
+# }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c2', order: 2, hasDraft: false }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 2,
+#   total: 2,
+#   progress: 1,
+#   retryCount: 0
+# }
+# [pipeline] 任务执行结束 { jobId: 'new-job', status: 'succeeded', qualityAlertCount: 0 }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 0 }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c2', order: 2, hasDraft: false }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 2,
+#   total: 2,
+#   progress: 1,
+#   retryCount: 0
+# }
+# [pipeline] 任务执行结束 { jobId: 'new-job', status: 'succeeded', qualityAlertCount: 0 }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 1 }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c1', order: 1, hasDraft: false }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 2,
+#   total: 2,
+#   progress: 1,
+#   retryCount: 0
+# }
+# [pipeline] 任务执行结束 { jobId: 'new-job', status: 'succeeded', qualityAlertCount: 0 }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 1 }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c1', order: 1, hasDraft: false }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 1,
+#   total: 2,
+#   progress: 0.5,
+#   retryCount: 0
+# }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c2', order: 2, hasDraft: false }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 2,
+#   total: 2,
+#   progress: 1,
+#   retryCount: 0
+# }
+# [pipeline] 任务执行结束 { jobId: 'new-job', status: 'succeeded', qualityAlertCount: 0 }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 2 }
+# [pipeline] 任务已按问题策略收束 {
+#   jobId: 'new-job',
+#   novelId: 'book',
+#   action: 'pause_for_manual',
+#   message: '本章正文或状态同步记录与保存进度不一致，请核对章节内容后继续。'
+# }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 2 }
+# [pipeline] 任务已按问题策略收束 {
+#   jobId: 'new-job',
+#   novelId: 'book',
+#   action: 'pause_for_manual',
+#   message: '本章正文或状态同步记录与保存进度不一致，请核对章节内容后继续。'
+# }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 2 }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c1', order: 1, hasDraft: true }
+# [pipeline] 章节最终未达标 {
+#   jobId: 'new-job',
+#   order: 1,
+#   score: {
+#     coherence: 70,
+#     repetition: 80,
+#     pacing: 70,
+#     voice: 80,
+#     engagement: 70,
+#     overall: 74
+#   }
+# }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 1,
+#   total: 2,
+#   progress: 0.5,
+#   retryCount: 0
+# }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c2', order: 2, hasDraft: false }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 2,
+#   total: 2,
+#   progress: 1,
+#   retryCount: 0
+# }
+# [pipeline] 任务执行结束 { jobId: 'new-job', status: 'succeeded', qualityAlertCount: 2 }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 2 }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c1', order: 1, hasDraft: true }
+# [pipeline] 章节最终未达标 {
+#   jobId: 'new-job',
+#   order: 1,
+#   score: {
+#     coherence: 70,
+#     repetition: 80,
+#     pacing: 70,
+#     voice: 80,
+#     engagement: 70,
+#     overall: 74
+#   }
+# }
+# [pipeline] 章节需要人工处理，已暂停后续章节流水线 { jobId: 'new-job', order: 1, remaining: 1 }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 1,
+#   total: 2,
+#   progress: 0.5,
+#   retryCount: 0
+# }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 2 }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c1', order: 1, hasDraft: true }
+# [pipeline] 章节最终未达标 {
+#   jobId: 'new-job',
+#   order: 1,
+#   score: {
+#     coherence: 70,
+#     pacing: 70,
+#     repetition: 80,
+#     engagement: 70,
+#     voice: 80,
+#     overall: 74
+#   }
+# }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 1,
+#   total: 2,
+#   progress: 0.5,
+#   retryCount: 0
+# }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c2', order: 2, hasDraft: false }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 2,
+#   total: 2,
+#   progress: 1,
+#   retryCount: 0
+# }
+# [pipeline] 任务执行结束 { jobId: 'new-job', status: 'succeeded', qualityAlertCount: 2 }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 2 }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c1', order: 1, hasDraft: true }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 1,
+#   total: 2,
+#   progress: 0.5,
+#   retryCount: 0
+# }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c2', order: 2, hasDraft: false }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 2,
+#   total: 2,
+#   progress: 1,
+#   retryCount: 0
+# }
+# [pipeline] 任务执行结束 { jobId: 'new-job', status: 'succeeded', qualityAlertCount: 2 }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 2 }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c1', order: 1, hasDraft: true }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 1,
+#   total: 2,
+#   progress: 0.5,
+#   retryCount: 0
+# }
+# [pipeline] 章节需要人工处理，已暂停后续章节流水线 { jobId: 'new-job', order: 1, remaining: 1 }
+# [pipeline] 任务开始执行 { jobId: 'new-job', novelId: 'book', range: '1-2', maxRetries: 1 }
+# [pipeline] 任务加载完成 { jobId: 'new-job', novelId: 'book', title: '测试小说', chapterCount: 1 }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c1', order: 1, hasDraft: false }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 1,
+#   total: 2,
+#   progress: 0.5,
+#   retryCount: 0
+# }
+# [pipeline] 开始处理章节 { jobId: 'new-job', chapterId: 'c2', order: 2, hasDraft: false }
+# [pipeline] 任务进度更新 {
+#   jobId: 'new-job',
+#   completed: 2,
+#   total: 2,
+#   progress: 1,
+#   retryCount: 0
+# }
+# [pipeline] 任务执行结束 { jobId: 'new-job', status: 'succeeded', qualityAlertCount: 0 }
+# Subtest: budget pause records local quality debt before stopping so saved prose remains skippable
+ok 1 - budget pause records local quality debt before stopping so saved prose remains skippable
+  ---
+  duration_ms: 15.031791
+  type: 'test'
+  ...
+# Subtest: explicit recovery closes legacy saved quality debt without rerunning the saved chapter
+ok 2 - explicit recovery closes legacy saved quality debt without rerunning the saved chapter
+  ---
+  duration_ms: 4.404833
+  type: 'test'
+  ...
+# Subtest: closed usage recovery refuses staleAcceptance without invoking generation
+ok 3 - closed usage recovery refuses staleAcceptance without invoking generation
+  ---
+  duration_ms: 1.26725
+  type: 'test'
+  ...
+# Subtest: closed usage recovery refuses missingBoundary without invoking generation
+ok 4 - closed usage recovery refuses missingBoundary without invoking generation
+  ---
+  duration_ms: 0.783625
+  type: 'test'
+  ...
+# Subtest: closed usage recovery refuses acceptancePause without invoking generation
+ok 5 - closed usage recovery refuses acceptancePause without invoking generation
+  ---
+  duration_ms: 1.188125
+  type: 'test'
+  ...
+# Subtest: recovering closed usage preserves the quality-first manual pause
+ok 6 - recovering closed usage preserves the quality-first manual pause
+  ---
+  duration_ms: 1.072291
+  type: 'test'
+  ...
+# Subtest: new director pauses at the saved chapter boundary on the 100000-token ceiling
+ok 7 - new director pauses at the saved chapter boundary on the 100000-token ceiling
+  ---
+  duration_ms: 1.562708
+  type: 'test'
+  ...
+# Subtest: the observed 86009-token chapter can close and proceed without a budget pause
+ok 8 - the observed 86009-token chapter can close and proceed without a budget pause
+  ---
+  duration_ms: 1.33275
+  type: 'test'
+  ...
+# Subtest: future planning does not exhaust the saved chapter budget and its boundary survives serialization
+ok 9 - future planning does not exhaust the saved chapter budget and its boundary survives serialization
+  ---
+  duration_ms: 1.853833
+  type: 'test'
+  ...
+# Subtest: a truly exhausted chapter stops before spending more tokens on future planning
+ok 10 - a truly exhausted chapter stops before spending more tokens on future planning
+  ---
+  duration_ms: 1.135917
+  type: 'test'
+  ...
+# Subtest: chapter preflight reserves room before starting another AI stage
+ok 11 - chapter preflight reserves room before starting another AI stage
+  ---
+  duration_ms: 1.140458
+  type: 'test'
+  ...
+# Subtest: new effective budgets use cache from the invocation ledger and single-weight output across chapters
+ok 12 - new effective budgets use cache from the invocation ledger and single-weight output across chapters
+  ---
+  duration_ms: 3.655416
+  type: 'test'
+  ...
+# Subtest: a granted legacy chapter resumes with its saved baseline and cumulative usage
+ok 13 - a granted legacy chapter resumes with its saved baseline and cumulative usage
+  ---
+  duration_ms: 1.274459
+  type: 'test'
+  ...
+# Subtest: recovery keeps the original chapter baseline and refuses another generation after exhaustion
+ok 14 - recovery keeps the original chapter baseline and refuses another generation after exhaustion
+  ---
+  duration_ms: 0.815875
+  type: 'test'
+  ...
+# Subtest: valid per-chapter usage continues across chapters while manual pipelines retain their behavior
+ok 15 - valid per-chapter usage continues across chapters while manual pipelines retain their behavior
+  ---
+  duration_ms: 1.528417
+  type: 'test'
+  ...
+# Subtest: invalid usage counters stop with a structured integrity decision without invoking AI
+ok 16 - invalid usage counters stop with a structured integrity decision without invoking AI
+  ---
+  duration_ms: 0.667625
+  type: 'test'
+  ...
+# Subtest: a failed baseline write never starts the chapter and reports a persistence failure
+ok 17 - a failed baseline write never starts the chapter and reports a persistence failure
+  ---
+  duration_ms: 0.684
+  type: 'test'
+  ...
+# Subtest: rolling production counts saved chapters rather than treating uncreated future chapters as completed
+ok 18 - rolling production counts saved chapters rather than treating uncreated future chapters as completed
+  ---
+  duration_ms: 1.138792
+  type: 'test'
+  ...
+# Subtest: a new director recovery cannot skip empty chapters using an inflated historical progress counter
+ok 19 - a new director recovery cannot skip empty chapters using an inflated historical progress counter
+  ---
+  duration_ms: 1.092292
+  type: 'test'
+  ...
+# Subtest: recovery between chapter closure and rolling planning prepares the next chapter without rewriting saved prose
+ok 20 - recovery between chapter closure and rolling planning prepares the next chapter without rewriting saved prose
+  ---
+  duration_ms: 0.8
+  type: 'test'
+  ...
+# Subtest: rolling a missing earlier chapter never regenerates an already closed later chapter
+ok 21 - rolling a missing earlier chapter never regenerates an already closed later chapter
+  ---
+  duration_ms: 0.713333
+  type: 'test'
+  ...
+# Subtest: a limited director range also prepares missing chapters without extending to the full book
+ok 22 - a limited director range also prepares missing chapters without extending to the full book
+  ---
+  duration_ms: 1.104083
+  type: 'test'
+  ...
+# Subtest: clearing an old draft starts generation instead of recovering a nonexistent author revision; qualityFirst=false
+not ok 23 - clearing an old draft starts generation instead of recovering a nonexistent author revision; qualityFirst=false
+  ---
+  duration_ms: 1.504834
+  type: 'test'
+  location: '/private/tmp/assistant-opening-repair/server/tests/directorNext/steps/chapterUsagePipeline.test.js:318:3'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+    + []
+    - [
+    -   'c1',
+    -   'c2'
+    - ]
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: 'c1'
+    1: 'c2'
+  actual:
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (/private/tmp/assistant-opening-repair/server/tests/directorNext/steps/chapterUsagePipeline.test.js:320:12)
+    async Test.run (node:internal/test_runner/test:1054:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: clearing an old draft starts generation instead of recovering a nonexistent author revision; qualityFirst=true
+not ok 24 - clearing an old draft starts generation instead of recovering a nonexistent author revision; qualityFirst=true
+  ---
+  duration_ms: 0.831125
+  type: 'test'
+  location: '/private/tmp/assistant-opening-repair/server/tests/directorNext/steps/chapterUsagePipeline.test.js:318:3'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+    + []
+    - [
+    -   'c1',
+    -   'c2'
+    - ]
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: 'c1'
+    1: 'c2'
+  actual:
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (/private/tmp/assistant-opening-repair/server/tests/directorNext/steps/chapterUsagePipeline.test.js:320:12)
+    async Test.run (node:internal/test_runner/test:1054:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: author edit with no closed usage is reassessed without writing or repairing; qualityFirst=false
+ok 25 - author edit with no closed usage is reassessed without writing or repairing; qualityFirst=false
+  ---
+  duration_ms: 1.954375
+  type: 'test'
+  ...
+# Subtest: author edit with no closed usage is reassessed without writing or repairing; qualityFirst=true
+ok 26 - author edit with no closed usage is reassessed without writing or repairing; qualityFirst=true
+  ---
+  duration_ms: 0.932708
+  type: 'test'
+  ...
+# Subtest: current schema v3 acceptance is recoverable with the original closed usage checkpoint
+ok 27 - current schema v3 acceptance is recoverable with the original closed usage checkpoint
+  ---
+  duration_ms: 1.713542
+  type: 'test'
+  ...
+# Subtest: unavailable acceptance retains author prose as quality debt; qualityFirst=false
+ok 28 - unavailable acceptance retains author prose as quality debt; qualityFirst=false
+  ---
+  duration_ms: 2.534625
+  type: 'test'
+  ...
+# Subtest: unavailable acceptance retains author prose as quality debt; qualityFirst=true
+ok 29 - unavailable acceptance retains author prose as quality debt; qualityFirst=true
+  ---
+  duration_ms: 1.068167
+  type: 'test'
+  ...
+# Subtest: a partial long-book batch keeps the full-book ending target without extending authorized prose
+ok 30 - a partial long-book batch keeps the full-book ending target without extending authorized prose
+  ---
+  duration_ms: 1.329875
+  type: 'test'
+  ...
+1..30
+# tests 30
+# suites 0
+# pass 28
+# fail 2
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 878.313292

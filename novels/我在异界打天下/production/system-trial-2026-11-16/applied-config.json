@@ -1,0 +1,18 @@
+{
+  "novelId": "cmwgjl1x30007bowjeu3684pv",
+  "snapshotId": "cmwj5qdtf00009fwjq1ni6m7r",
+  "styleProfileId": "cmwj5qzbn00019fwjddbnowvj",
+  "bindingId": "cmwj5qzcg00029fwjo6sy357r",
+  "chapterIds": [
+    "cmwgjo6s4002lbowjkeuvqbzi",
+    "cmwgjo6s5002mbowjgzh0aua9",
+    "cmwgjo6sa002nbowjtqbbrwnv"
+  ],
+  "oldHashes": {
+    "cmwgjo6s4002lbowjkeuvqbzi": "a600f5754938c9e9748ce2faa63a1fec3daa48e1c40fc40f6e160761c7c7ec3b",
+    "cmwgjo6s5002mbowjgzh0aua9": "5464e6afc5ed438004e83e466cc04e721b4a40e329fbefe2f044a738717630c2",
+    "cmwgjo6sa002nbowjtqbbrwnv": "18345fecc76e7996fcfcd4720ab055e60261ad5fd5f987543c534066a33cbdc7"
+  },
+  "appliedAt": "2026-11-16T11:07:11.900291+00:00",
+  "scope": "first three detailed outlines and book writing contract; runtime must generate and validate scene cards before prose"
+}

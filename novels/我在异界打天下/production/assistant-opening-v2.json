@@ -1,0 +1,82 @@
+{
+  "schema": "manual-opening-transfer-v2",
+  "sourceNovelId": "cmwgjl1x30007bowjeu3684pv",
+  "scope": "前三章规划与本书写法配置；不含正文覆盖指令",
+  "styleProfile": {
+    "narrativeRules": {
+      "summary": "第三人称贴近陆昊；行动先于设定，短心理推动选择，身份与知情边界优先。",
+      "STYLE-01": "开场出现具体麻烦与一次尝试，专名随用途进入。",
+      "STYLE-04": "允许短促、有个人偏见的心理反应；随后改变行动，成人判断经明确场景转入。"
+    },
+    "characterRules": {
+      "summary": "家人与专业者各有任务，主角保留一个影响结果的选择；笑意来自年龄与关系反差。",
+      "STYLE-03": "主角的有限选择产生可见作用，成人完成专业职责，功劳各自清楚。",
+      "STYLE-05-06": "危险结束后用一次家常误解或接话松气；陆昊好胜直白，母亲温和有界限，祖母利落，父亲抱娃生疏，哥哥认真。"
+    },
+    "languageRules": {
+      "summary": "清楚、具体、有动作位置；句段随压力变化，关心通过照护动作落地。",
+      "STYLE-07-09": "用改变行动的细节承载情绪；保留短心理，删重复体感和已被动作证明的解释，不排队抒情。",
+      "AAI-01-03": "用实际后果支持聪明与温情判断；区分人物声音，收尾按本章责任，不强造震惊。"
+    },
+    "rhythmRules": {
+      "summary": "一章完成一个主事件；每段有净变化，先兑现可见回报，再引出下一步行动期待。",
+      "STYLE-02-08": "前三章连续兑现：出生脱险、童年修炉、十二岁验出坏晶；禁止把本章承诺推给下章，不靠悬停填字数。",
+      "STYLE-10": "快节奏仍保留动作因果与限制，危急段不插笑话，不堆全书设定。"
+    }
+  },
+  "chapters": [
+    {
+      "id": "cmwgjo6s4002lbowjkeuvqbzi",
+      "chapterOrder": 1,
+      "title": "这福气，先撤一半",
+      "summary": "新生儿陆昊受护生回流压迫，主动微调一次内息，成人据反应泄压救治；当章脱险，家人探视产生轻微反差，收尾再次感到可学习的微小路径。",
+      "purpose": "完成出生救治，让微小主动选择产生效果，并交付脱险后的关系温度。",
+      "exclusiveEvent": "陆昊微调一次气息，许文瑛与医者撤开局部防护完成救治，呼吸持续稳定。",
+      "endingState": "危机解除，陆昊被家人照护；安全状态下短暂找回微小气息方向后疲倦睡去。",
+      "nextChapterEntryState": "七岁时已有学语与基础启蒙，以暖药炉事件兑现方法的实际用途。",
+      "conflictLevel": 65,
+      "revealLevel": 20,
+      "targetWordCount": 2600,
+      "mustAvoid": "普通高考毕业生，无前世修为或军旅经历；年龄能力与知情边界不能回填；出生不涉及终身神契；不得把本章成果推迟到下一章。",
+      "payoffRefs": [
+        "PAY-01"
+      ],
+      "taskSheet": null,
+      "sceneCards": null
+    },
+    {
+      "id": "cmwgjo6s5002mbowjgzh0aua9",
+      "chapterOrder": 2,
+      "title": "小爷只修一处",
+      "summary": "七岁陆昊提出暖药炉热态复验，修正一次误判，与陶守诚协作修复器物，获得固定器坊见习位置。",
+      "purpose": "通过一次实物成果兑现童年学习，换来新的行动机会。",
+      "exclusiveEvent": "暖药炉热态卡滞被复现并修好，药工实际用一轮保持稳定。",
+      "endingState": "取得每旬一次受监督器坊见习位置，对军用器物有具体目标。",
+      "nextChapterEntryState": "十二岁时进入正式军需核验，接受真实负荷考验。",
+      "conflictLevel": 40,
+      "revealLevel": 25,
+      "targetWordCount": 2600,
+      "mustAvoid": "普通高考毕业生，无前世修为或军旅经历；年龄能力与知情边界不能回填；出生不涉及终身神契；不得把本章成果推迟到下一章。",
+      "payoffRefs": [],
+      "taskSheet": null,
+      "sceneCards": null
+    },
+    {
+      "id": "cmwgjo6sa002nbowjtqbbrwnv",
+      "chapterOrder": 3,
+      "title": "合格的坏料",
+      "summary": "十二岁陆昊在军需核验中发现合格军晶持续负荷异常，成人执行对照并安全切断，坏料被证实、批次停用，货单显示另一份已经运出。",
+      "purpose": "当章兑现观察优势与正式行动资格，把调查导向货路。",
+      "exclusiveEvent": "对照试验复现坏晶异常，成人停用封存待验，留下可验证证据。",
+      "endingState": "坏料已证实并停用，本地风险受控，陆昊获准随成人查货。",
+      "nextChapterEntryState": "追查已运走同批晶料的使用者与货路，不再重复台架核验。",
+      "conflictLevel": 60,
+      "revealLevel": 35,
+      "targetWordCount": 2600,
+      "mustAvoid": "普通高考毕业生，无前世修为或军旅经历；年龄能力与知情边界不能回填；出生不涉及终身神契；不得把本章成果推迟到下一章。",
+      "payoffRefs": [],
+      "taskSheet": null,
+      "sceneCards": null
+    }
+  ]
+}

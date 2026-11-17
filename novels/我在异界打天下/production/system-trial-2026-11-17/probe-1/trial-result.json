@@ -1,0 +1,11 @@
+{
+  "runId": "bc2cf965-b380-4ec7-b6a8-fdfd076412a4",
+  "snapshotId": "cmwk0oveo002oq9wji9uslbka",
+  "commit": "f82c9e0de175912d9fcc2c3a1454537c1ca2926d",
+  "manualProseEdits": false,
+  "purpose": "diagnostic probe; goal still contaminated by previous summary",
+  "characters": 2352,
+  "sha256": "57a46ec92bc3dcf7a927e53aea71f379e1663ac69abd61e4e4058b78e55e0141",
+  "calls": 9,
+  "totalTokens": 88423
+}

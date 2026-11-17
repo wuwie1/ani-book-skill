@@ -1,0 +1,51 @@
+{
+  "versions": {
+    "old": {
+      "path": "chapters/chapter-001/draft-system.md",
+      "sha256": "e1baca1ecdddbd7f91a44d1c0d0c272fef26a04d1f63473693032edd10612fdb",
+      "nonWhitespaceCharacters": 2477,
+      "exactRepeatedRunsAtLeast80": true
+    },
+    "probe": {
+      "path": "production/system-trial-2026-11-17/probe-1/final-chapter-001.txt",
+      "sha256": "57a46ec92bc3dcf7a927e53aea71f379e1663ac69abd61e4e4058b78e55e0141",
+      "nonWhitespaceCharacters": 2352,
+      "exactRepeatedRunsAtLeast80": false
+    },
+    "final": {
+      "path": "chapters/chapter-001/draft-system-2026-11-17.md",
+      "sha256": "a459d1bc0e6cbf93027ffeb994c3b3424aee9e722343dcaf64aee2bf9b5eb761",
+      "nonWhitespaceCharacters": 2383,
+      "exactRepeatedRunsAtLeast80": false
+    }
+  },
+  "neighborsUnchanged": {
+    "2": {
+      "content": true,
+      "title": true,
+      "expectation": true,
+      "targetWordCount": true,
+      "conflictLevel": true,
+      "revealLevel": true,
+      "mustAvoid": true,
+      "taskSheet": true,
+      "sceneCards": true
+    },
+    "3": {
+      "content": true,
+      "title": true,
+      "expectation": true,
+      "targetWordCount": true,
+      "conflictLevel": true,
+      "revealLevel": true,
+      "mustAvoid": true,
+      "taskSheet": true,
+      "sceneCards": true
+    }
+  },
+  "loggingRestored": {
+    "enabled": false,
+    "retentionDays": 7,
+    "maxMb": 100
+  }
+}

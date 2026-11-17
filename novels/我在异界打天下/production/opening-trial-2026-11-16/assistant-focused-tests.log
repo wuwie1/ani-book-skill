@@ -1,0 +1,1172 @@
+TAP version 13
+# Subtest: chapter payoff directives never turn overdue pressure into direct payoff
+ok 1 - chapter payoff directives never turn overdue pressure into direct payoff
+  ---
+  duration_ms: 1.464333
+  type: 'test'
+  ...
+# Subtest: chapter payoff directives forbid protected reveals instead of advancing them
+ok 2 - chapter payoff directives forbid protected reveals instead of advancing them
+  ---
+  duration_ms: 0.148166
+  type: 'test'
+  ...
+# Subtest: chapter execution contract shares one in-flight generation per chapter
+ok 3 - chapter execution contract shares one in-flight generation per chapter
+  ---
+  duration_ms: 1.4685
+  type: 'test'
+  ...
+# Subtest: review and repair retain the last saved chapter facts even when the optional budget is exhausted
+ok 4 - review and repair retain the last saved chapter facts even when the optional budget is exhausted
+  ---
+  duration_ms: 17.181125
+  type: 'test'
+  ...
+# Subtest: historical facts cannot grow mandatory context or displace the current task
+ok 5 - historical facts cannot grow mandatory context or displace the current task
+  ---
+  duration_ms: 16.147083
+  type: 'test'
+  ...
+# Subtest: review budgets background payoff reminders without dropping explicit payoff obligations
+ok 6 - review budgets background payoff reminders without dropping explicit payoff obligations
+  ---
+  duration_ms: 1.961708
+  type: 'test'
+  ...
+# Subtest: identical payoff reminders share one body while distinct versions keep their facts
+ok 7 - identical payoff reminders share one body while distinct versions keep their facts
+  ---
+  duration_ms: 0.868916
+  type: 'test'
+  ...
+# Subtest: writer, acceptance and repair inherit book perspective without modifying the reference asset
+ok 8 - writer, acceptance and repair inherit book perspective without modifying the reference asset
+  ---
+  duration_ms: 1.402208
+  type: 'test'
+  ...
+# Subtest: acceptance keeps the complete effective style contract when required facts exhaust the budget
+ok 9 - acceptance keeps the complete effective style contract when required facts exhaust the budget
+  ---
+  duration_ms: 444.612208
+  type: 'test'
+  ...
+# Subtest: chapter layered context keeps full book promise and volume reader rewards
+ok 10 - chapter layered context keeps full book promise and volume reader rewards
+  ---
+  duration_ms: 0.194583
+  type: 'test'
+  ...
+# Subtest: writer, acceptance and repair retain chapter-sourced positions in live context rather than the cache prefix
+ok 11 - writer, acceptance and repair retain chapter-sourced positions in live context rather than the cache prefix
+  ---
+  duration_ms: 1.438833
+  type: 'test'
+  ...
+# Subtest: canonical scene-card length reaches mission, budget, writing and review when chapter metadata is empty
+ok 12 - canonical scene-card length reaches mission, budget, writing and review when chapter metadata is empty
+  ---
+  duration_ms: 0.713334
+  type: 'test'
+  ...
+# Subtest: explicit chapter length takes precedence over scene-card length
+ok 13 - explicit chapter length takes precedence over scene-card length
+  ---
+  duration_ms: 1.027583
+  type: 'test'
+  ...
+# Subtest: malformed scene cards cannot invent a chapter target
+ok 14 - malformed scene cards cannot invent a chapter target
+  ---
+  duration_ms: 6.993375
+  type: 'test'
+  ...
+# Subtest: genre and story-mode foundation precedes changing chapter state in writing, review and repair without freezing edits
+ok 15 - genre and story-mode foundation precedes changing chapter state in writing, review and repair without freezing edits
+  ---
+  duration_ms: 8.068
+  type: 'test'
+  ...
+# Subtest: chapter layered contexts carry volume mission, character duties and repair guardrails
+ok 16 - chapter layered contexts carry volume mission, character duties and repair guardrails
+  ---
+  duration_ms: 1.553375
+  type: 'test'
+  ...
+# Subtest: chapter layered character hard facts soften pending review state and goal only
+ok 17 - chapter layered character hard facts soften pending review state and goal only
+  ---
+  duration_ms: 0.37125
+  type: 'test'
+  ...
+# Subtest: chapter writer blocks enforce enabled critical context contracts
+ok 18 - chapter writer blocks enforce enabled critical context contracts
+  ---
+  duration_ms: 0.755708
+  type: 'test'
+  ...
+# Subtest: chapter prose receives the resolved genre and progression foundation as a required contract
+ok 19 - chapter prose receives the resolved genre and progression foundation as a required contract
+  ---
+  duration_ms: 0.316
+  type: 'test'
+  ...
+# Subtest: chapter context only supplies mind and active dialogue guidance to actual participants
+ok 20 - chapter context only supplies mind and active dialogue guidance to actual participants
+  ---
+  duration_ms: 0.442917
+  type: 'test'
+  ...
+# Subtest: chapter purpose rejects an output that duplicates the chapter summary
+ok 21 - chapter purpose rejects an output that duplicates the chapter summary
+  ---
+  duration_ms: 4.380458
+  type: 'test'
+  ...
+# Subtest: buildFailureClassification keeps local quality issues out of replan_required
+ok 22 - buildFailureClassification keeps local quality issues out of replan_required
+  ---
+  duration_ms: 0.708167
+  type: 'test'
+  ...
+# Subtest: ledger window reminders remain planning context without inventing post-acceptance chapter defects
+ok 23 - ledger window reminders remain planning context without inventing post-acceptance chapter defects
+  ---
+  duration_ms: 1.627583
+  type: 'test'
+  ...
+# Subtest: real chapter audit evidence remains repairable even when it concerns the same ledger promise
+ok 24 - real chapter audit evidence remains repairable even when it concerns the same ledger promise
+  ---
+  duration_ms: 0.200666
+  type: 'test'
+  ...
+# Subtest: overdue ledger reminders do not create blocking keys or override an accepted chapter
+ok 25 - overdue ledger reminders do not create blocking keys or override an accepted chapter
+  ---
+  duration_ms: 0.114583
+  type: 'test'
+  ...
+# Subtest: buildFailureClassification preserves explicit plan misalignment as replan_required
+ok 26 - buildFailureClassification preserves explicit plan misalignment as replan_required
+  ---
+  duration_ms: 0.053416
+  type: 'test'
+  ...
+# Subtest: quality observer retains the structured AI assessment without changing the legacy gate result
+ok 27 - quality observer retains the structured AI assessment without changing the legacy gate result
+  ---
+  duration_ms: 4.678292
+  type: 'test'
+  ...
+# Subtest: task-sheet generation forwards the assessment once while preserving legacy return and rejection behavior
+ok 28 - task-sheet generation forwards the assessment once while preserving legacy return and rejection behavior
+  ---
+  duration_ms: 21.559333
+  type: 'test'
+  ...
+# Subtest: a saved JSON scene plan is reused without falsely reporting missing scenes
+ok 29 - a saved JSON scene plan is reused without falsely reporting missing scenes
+  ---
+  duration_ms: 0.589959
+  type: 'test'
+  ...
+# Subtest: autopilot repairs a local plan once and only publishes the final assessment and guidance
+ok 30 - autopilot repairs a local plan once and only publishes the final assessment and guidance
+  ---
+  duration_ms: 6.558709
+  type: 'test'
+  ...
+# Subtest: explicit regeneration bypasses a complete saved contract with or without guidance
+ok 31 - explicit regeneration bypasses a complete saved contract with or without guidance
+  ---
+  duration_ms: 0.77275
+  type: 'test'
+  ...
+# Subtest: incomplete persisted contracts are regenerated instead of reused
+ok 32 - incomplete persisted contracts are regenerated instead of reused
+  ---
+  duration_ms: 0.272125
+  type: 'test'
+  ...
+# Subtest: contract readiness distinguishes structural completeness from current requirement compatibility
+ok 33 - contract readiness distinguishes structural completeness from current requirement compatibility
+  ---
+  duration_ms: 1.077083
+  type: 'test'
+  ...
+# Subtest: chapter execution contract does not retry a semantic quality warning
+ok 34 - chapter execution contract does not retry a semantic quality warning
+  ---
+  duration_ms: 0.165125
+  type: 'test'
+  ...
+# Subtest: chapter execution contract shape gate blocks invalid task sheet artifacts
+ok 35 - chapter execution contract shape gate blocks invalid task sheet artifacts
+  ---
+  duration_ms: 0.418875
+  type: 'test'
+  ...
+# Subtest: chapter task sheet quality service lets full book mode continue with semantic warnings
+ok 36 - chapter task sheet quality service lets full book mode continue with semantic warnings
+  ---
+  duration_ms: 0.482834
+  type: 'test'
+  ...
+# Subtest: chapter task sheet quality schema normalizes common assessment enum drift
+ok 37 - chapter task sheet quality schema normalizes common assessment enum drift
+  ---
+  duration_ms: 0.634417
+  type: 'test'
+  ...
+# Subtest: chapter task sheet quality prompt declares strict JSON contract
+ok 38 - chapter task sheet quality prompt declares strict JSON contract
+  ---
+  duration_ms: 0.336167
+  type: 'test'
+  ...
+# Subtest: semantic review receives the same parsed scene plan as the writer, with array obligations and a sibling reader contract
+ok 39 - semantic review receives the same parsed scene plan as the writer, with array obligations and a sibling reader contract
+  ---
+  duration_ms: 0.1905
+  type: 'test'
+  ...
+# Subtest: review preview preserves malformed scene evidence while the structural gate prevents semantic calls
+ok 40 - review preview preserves malformed scene evidence while the structural gate prevents semantic calls
+  ---
+  duration_ms: 0.100417
+  type: 'test'
+  ...
+# Subtest: chapter task sheet quality service marks overloaded contracts for window replan
+ok 41 - chapter task sheet quality service marks overloaded contracts for window replan
+  ---
+  duration_ms: 0.182584
+  type: 'test'
+  ...
+# Subtest: chapter task sheet quality service passes usable semantic assessments
+ok 42 - chapter task sheet quality service passes usable semantic assessments
+  ---
+  duration_ms: 0.132084
+  type: 'test'
+  ...
+# Subtest: chapter task sheet quality prompt is registered as a product prompt asset
+ok 43 - chapter task sheet quality prompt is registered as a product prompt asset
+  ---
+  duration_ms: 0.155959
+  type: 'test'
+  ...
+# Subtest: chapter planner context prioritizes framing, story macro and current volume window over legacy outline
+ok 44 - chapter planner context prioritizes framing, story macro and current volume window over legacy outline
+  ---
+  duration_ms: 1.1965
+  type: 'test'
+  ...
+# Subtest: chapter planner declares only book sources reusable and refreshes them from current inputs
+ok 45 - chapter planner declares only book sources reusable and refreshes them from current inputs
+  ---
+  duration_ms: 0.302083
+  type: 'test'
+  ...
+# Subtest: persistStoryPlan uses an explicit timeout for planning writes
+ok 46 - persistStoryPlan uses an explicit timeout for planning writes
+  ---
+  duration_ms: 1.516
+  type: 'test'
+  ...
+# Subtest: chapter execution contract hash is stable and readable from plan metadata
+ok 47 - chapter execution contract hash is stable and readable from plan metadata
+  ---
+  duration_ms: 0.596875
+  type: 'test'
+  ...
+# Subtest: persistStoryPlan syncs chapter assets and promotes empty chapters to pending_generation
+ok 48 - persistStoryPlan syncs chapter assets and promotes empty chapters to pending_generation
+  ---
+  duration_ms: 5.366167
+  type: 'test'
+  ...
+# Subtest: persistStoryPlan skips sceneCards sync when planner scenes cannot form a canonical contract
+ok 49 - persistStoryPlan skips sceneCards sync when planner scenes cannot form a canonical contract
+  ---
+  duration_ms: 4.379875
+  type: 'test'
+  ...
+# Subtest: persistStoryPlan keeps chapter status unchanged when正文 already exists
+ok 50 - persistStoryPlan keeps chapter status unchanged when正文 already exists
+  ---
+  duration_ms: 0.724542
+  type: 'test'
+  ...
+# Subtest: chapter planning prepares complete native input without dispatch or persistence and projects its normalized result
+ok 51 - chapter planning prepares complete native input without dispatch or persistence and projects its normalized result
+  ---
+  duration_ms: 6.011458
+  type: 'test'
+  ...
+# Subtest: the existing chapter facade preserves the captured native request and committed payload after extraction
+ok 52 - the existing chapter facade preserves the captured native request and committed payload after extraction
+  ---
+  duration_ms: 104.796375
+  type: 'test'
+  ...
+# Subtest: strict chapter preparation propagates unavailable source context before dispatch or persistence
+ok 53 - strict chapter preparation propagates unavailable source context before dispatch or persistence
+  ---
+  duration_ms: 0.356334
+  type: 'test'
+  ...
+# Subtest: single chapter generation prepares full native input without invoking models or repairing workspace rows
+ok 54 - single chapter generation prepares full native input without invoking models or repairing workspace rows
+  ---
+  duration_ms: 9.666791
+  type: 'test'
+  ...
+# Subtest: strict generation source failure propagates before a model can run
+ok 55 - strict generation source failure propagates before a model can run
+  ---
+  duration_ms: 0.66375
+  type: 'test'
+  ...
+# Subtest: quality request preparation exactly matches the native executed request
+ok 56 - quality request preparation exactly matches the native executed request
+  ---
+  duration_ms: 4.237958
+  type: 'test'
+  ...
+# Subtest: contract generation routes each actual generation and quality request through injected ports
+ok 57 - contract generation routes each actual generation and quality request through injected ports
+  ---
+  duration_ms: 24.602833
+  type: 'test'
+  ...
+# Subtest: injected continuity assessment uses full preceding prose without legacy model resolution or cache writes
+ok 58 - injected continuity assessment uses full preceding prose without legacy model resolution or cache writes
+  ---
+  duration_ms: 6.992708
+  type: 'test'
+  ...
+# Subtest: the native execution contract facade preserves generation and transaction projection
+ok 59 - the native execution contract facade preserves generation and transaction projection
+  ---
+  duration_ms: 11.76625
+  type: 'test'
+  ...
+# Subtest: contract preparation and evaluation are read only and preserve native publication input
+ok 60 - contract preparation and evaluation are read only and preserve native publication input
+  ---
+  duration_ms: 2.25625
+  type: 'test'
+  ...
+# Subtest: chapter planner retains rhythm under a crowded context budget
+ok 61 - chapter planner retains rhythm under a crowded context budget
+  ---
+  duration_ms: 3.81525
+  type: 'test'
+  ...
+# Subtest: planner persistence preserves rich execution scenes, reward and canonical hash
+ok 62 - planner persistence preserves rich execution scenes, reward and canonical hash
+  ---
+  duration_ms: 1.163708
+  type: 'test'
+  ...
+# Subtest: contract refinement retries drift against independent source and preserves milestones
+ok 63 - contract refinement retries drift against independent source and preserves milestones
+  ---
+  duration_ms: 10.993958
+  type: 'test'
+  ...
+# Subtest: persistent source drift cannot be downgraded into an autopilot warning
+ok 64 - persistent source drift cannot be downgraded into an autopilot warning
+  ---
+  duration_ms: 4.045958
+  type: 'test'
+  ...
+# Subtest: semantic review must explicitly compare a provided source contract
+ok 65 - semantic review must explicitly compare a provided source contract
+  ---
+  duration_ms: 0.543916
+  type: 'test'
+  ...
+# Subtest: compiled summaries do not consume the planner slot reserved for a concrete rule
+ok 66 - compiled summaries do not consume the planner slot reserved for a concrete rule
+  ---
+  duration_ms: 12.511875
+  type: 'test'
+  ...
+# Subtest: writer mission keeps execution outcomes when a supplemental plan narrows them
+ok 67 - writer mission keeps execution outcomes when a supplemental plan narrows them
+  ---
+  duration_ms: 2.553208
+  type: 'test'
+  ...
+# Subtest: native preparation uses persisted contract and planner results across normal execution
+ok 68 - native preparation uses persisted contract and planner results across normal execution
+  ---
+  duration_ms: 2158.104708
+  type: 'test'
+  ...
+# Subtest: native preparation uses persisted contract and planner results across after_models
+ok 69 - native preparation uses persisted contract and planner results across after_models
+  ---
+  duration_ms: 192.264792
+  type: 'test'
+  ...
+# Subtest: native preparation uses persisted contract and planner results across assembly
+ok 70 - native preparation uses persisted contract and planner results across assembly
+  ---
+  duration_ms: 161.926875
+  type: 'test'
+  ...
+# Subtest: preparation reuses a current native chapter plan without another model call or planning overwrite
+ok 71 - preparation reuses a current native chapter plan without another model call or planning overwrite
+  ---
+  duration_ms: 120.408
+  type: 'test'
+  ...
+# Subtest: a manual workspace edit after contract commit stops before another paid planning request
+ok 72 - a manual workspace edit after contract commit stops before another paid planning request
+  ---
+  duration_ms: 111.983625
+  type: 'test'
+  ...
+# Subtest: a manual workspace edit after chapter plan commit prevents publishing the outer preparation receipt
+ok 73 - a manual workspace edit after chapter plan commit prevents publishing the outer preparation receipt
+  ---
+  duration_ms: 166.44075
+  type: 'test'
+  ...
+# [prompt.runner] event=started promptId=genre.tree.generate promptVersion=v1 taskType=planner contextBlockIds=core-1 estimatedInputTokens=8 provider=default model=default
+# [memory] event=structured_invoke_done component=runStructuredPrompt rssMb=274.5 heapUsedMb=181.8 heapTotalMb=204.8 externalMb=3.7 arrayBuffersMb=0.1 promptId="genre.tree.generate" promptVersion="v1" renderedPromptChars=1351
+# [memory] event=before_prompt_result_return component=runStructuredPrompt rssMb=274.5 heapUsedMb=181.9 heapTotalMb=205.1 externalMb=3.7 arrayBuffersMb=0.1 promptId="genre.tree.generate" promptVersion="v1" renderedPromptChars=1351
+# [prompt.runner] promptId=genre.tree.generate promptVersion=v1 taskType=planner       contextBlockIds=core-1 droppedContextBlockIds=overflow-1 summarizedContextBlockIds=core-1 estimatedInputTokens=8 repairUsed=true repairAttempts=2 semanticRetryUsed=false semanticRetryAttempts=0 provider=default model=default latencyMs=0
+# [prompt.runner] event=started promptId=planner.chapter.plan promptVersion=v4 taskType=planner contextBlockIds=none estimatedInputTokens=0 provider=default model=default
+# [memory] event=structured_invoke_done component=runStructuredPrompt rssMb=274.5 heapUsedMb=182 heapTotalMb=205.1 externalMb=3.7 arrayBuffersMb=0.1 promptId="planner.chapter.plan" promptVersion="v4" renderedPromptChars=2181
+# [prompt.runner] event=semantic_retry_start promptId=planner.chapter.plan promptVersion=v4 taskType=planner contextBlockIds=none estimatedInputTokens=0 provider=default model=default attempt=1 validationError="Planner output is missing objective."
+# [prompt.runner] event=semantic_retry_done promptId=planner.chapter.plan promptVersion=v4 taskType=planner contextBlockIds=none estimatedInputTokens=0 provider=default model=default attempt=1
+# [memory] event=before_prompt_result_return component=runStructuredPrompt rssMb=274.6 heapUsedMb=182 heapTotalMb=205.1 externalMb=3.7 arrayBuffersMb=0.1 promptId="planner.chapter.plan" promptVersion="v4" renderedPromptChars=2181
+# [prompt.runner] promptId=planner.chapter.plan promptVersion=v4 taskType=planner       contextBlockIds=none droppedContextBlockIds=none summarizedContextBlockIds=none estimatedInputTokens=0 repairUsed=true repairAttempts=1 semanticRetryUsed=true semanticRetryAttempts=1 provider=default model=default latencyMs=0
+# [prompt.runner] promptId=style.generate promptVersion=v1 taskType=writer       contextBlockIds=core-1 droppedContextBlockIds=overflow-1 summarizedContextBlockIds=core-1 estimatedInputTokens=8 repairUsed=false repairAttempts=0 semanticRetryUsed=false semanticRetryAttempts=0 provider=default model=default latencyMs=2
+# [prompt.runner] promptId=style.generate promptVersion=v1 taskType=writer       contextBlockIds=none droppedContextBlockIds=none summarizedContextBlockIds=none estimatedInputTokens=0 repairUsed=false repairAttempts=0 semanticRetryUsed=false semanticRetryAttempts=0 provider=default model=default latencyMs=0
+# [prompt.runner] promptId=novel.chapter.writer promptVersion=v10 taskType=writer novelId=novel-1      contextBlockIds=custom_slot:global:test,custom_slot:novel:test droppedContextBlockIds=none summarizedContextBlockIds=none estimatedInputTokens=11 repairUsed=false repairAttempts=0 semanticRetryUsed=false semanticRetryAttempts=0 provider=default model=default latencyMs=90
+# [prompt.runner] promptId=style.generate promptVersion=v1 taskType=writer novelId=novel-1      contextBlockIds=none droppedContextBlockIds=none summarizedContextBlockIds=none estimatedInputTokens=0 repairUsed=false repairAttempts=0 semanticRetryUsed=false semanticRetryAttempts=0 provider=default model=default latencyMs=0
+# [prompt.runner] promptId=novel.chapter.writer promptVersion=v10 taskType=writer novelId=novel-advanced      contextBlockIds=writing_platform-test,book_contract-test,chapter_mission-test,reader_experience-test,character_hard_facts-test,obligation_contract-test,volume_window-test,participant_subset-test,local_state-test,style_contract-test droppedContextBlockIds=none summarizedContextBlockIds=none estimatedInputTokens=55 repairUsed=false repairAttempts=0 semanticRetryUsed=false semanticRetryAttempts=0 provider=default model=default latencyMs=1
+# [prompt.runner] promptId=genre.tree.generate promptVersion=v1 taskType=planner       contextBlockIds=core-1 droppedContextBlockIds=overflow-1 summarizedContextBlockIds=core-1 estimatedInputTokens=8 repairUsed=false repairAttempts=0 semanticRetryUsed=false semanticRetryAttempts=0 provider=default model=default latencyMs=2
+# [prompt.runner] promptId=genre.tree.generate promptVersion=v1 taskType=planner       contextBlockIds=none droppedContextBlockIds=none summarizedContextBlockIds=none estimatedInputTokens=0 repairUsed=false repairAttempts=0 semanticRetryUsed=false semanticRetryAttempts=0 provider=deepseek model=deepseek-v4-flash latencyMs=1
+# [prompt.runner] promptId=storyMode.child.generate promptVersion=v1 taskType=planner       contextBlockIds=none droppedContextBlockIds=none summarizedContextBlockIds=none estimatedInputTokens=0 repairUsed=false repairAttempts=0 semanticRetryUsed=false semanticRetryAttempts=0 provider=default model=default latencyMs=2
+# [prompt.runner] event=semantic_retry_start promptId=planner.chapter.plan promptVersion=v4 taskType=planner contextBlockIds=none estimatedInputTokens=0 provider=default model=default attempt=1 validationError="Planner output is missing objective."
+# [prompt.runner] event=semantic_retry_done promptId=planner.chapter.plan promptVersion=v4 taskType=planner contextBlockIds=none estimatedInputTokens=0 provider=default model=default attempt=1
+# [prompt.runner] promptId=planner.chapter.plan promptVersion=v4 taskType=planner       contextBlockIds=none droppedContextBlockIds=none summarizedContextBlockIds=none estimatedInputTokens=0 repairUsed=false repairAttempts=0 semanticRetryUsed=true semanticRetryAttempts=1 provider=default model=default latencyMs=1
+# Subtest: prompt registry exposes versioned planning assets
+ok 74 - prompt registry exposes versioned planning assets
+  ---
+  duration_ms: 759.712458
+  type: 'test'
+  ...
+# Subtest: chapter artifact delta prompt captures summary facts and knowledge boundaries
+ok 75 - chapter artifact delta prompt captures summary facts and knowledge boundaries
+  ---
+  duration_ms: 2.865834
+  type: 'test'
+  ...
+# Subtest: chapter artifact delta prompt normalizes payoff evidence missing summary (\#201)
+ok 76 - chapter artifact delta prompt normalizes payoff evidence missing summary (\#201)
+  ---
+  duration_ms: 1.25675
+  type: 'test'
+  ...
+# Subtest: character mind snapshot prompt keeps subjective reasoning evidence-backed
+ok 77 - character mind snapshot prompt keeps subjective reasoning evidence-backed
+  ---
+  duration_ms: 0.898
+  type: 'test'
+  ...
+# Subtest: character influence prompt produces evidence-backed soft guidance
+ok 78 - character influence prompt produces evidence-backed soft guidance
+  ---
+  duration_ms: 0.543125
+  type: 'test'
+  ...
+# Subtest: character dialogue prompt preserves character agency and only extracts evidenced soft influence
+ok 79 - character dialogue prompt preserves character agency and only extracts evidenced soft influence
+  ---
+  duration_ms: 0.4385
+  type: 'test'
+  ...
+# Subtest: prompt registry resolves style prompts by their declared asset versions
+ok 80 - prompt registry resolves style prompts by their declared asset versions
+  ---
+  duration_ms: 0.05725
+  type: 'test'
+  ...
+# Subtest: character cast prompt hardens real-name constraints and required gender output
+ok 81 - character cast prompt hardens real-name constraints and required gender output
+  ---
+  duration_ms: 0.1365
+  type: 'test'
+  ...
+# Subtest: volume strategy prompt renders volume count guidance and fixed-count constraints
+ok 82 - volume strategy prompt renders volume count guidance and fixed-count constraints
+  ---
+  duration_ms: 1.554833
+  type: 'test'
+  ...
+# Subtest: registered volume strategy prompt uses the shared 24-volume ceiling
+ok 83 - registered volume strategy prompt uses the shared 24-volume ceiling
+  ---
+  duration_ms: 0.367125
+  type: 'test'
+  ...
+# Subtest: volume skeleton prompt protects compact and long-form volume structures
+ok 84 - volume skeleton prompt protects compact and long-form volume structures
+  ---
+  duration_ms: 0.305542
+  type: 'test'
+  ...
+# Subtest: workspace diagnosis prompt requires english recommendedAction enum values
+ok 85 - workspace diagnosis prompt requires english recommendedAction enum values
+  ---
+  duration_ms: 0.413375
+  type: 'test'
+  ...
+# Subtest: character dynamics prompts harden plannedChapterOrders and confidence output contracts
+ok 86 - character dynamics prompts harden plannedChapterOrders and confidence output contracts
+  ---
+  duration_ms: 0.218167
+  type: 'test'
+  ...
+# Subtest: chapter writer prompt does not expose scene contract controls
+ok 87 - chapter writer prompt does not expose scene contract controls
+  ---
+  duration_ms: 2.031292
+  type: 'test'
+  ...
+# Subtest: novel main-chain prompt assets declare explicit non-zero context budgets
+ok 88 - novel main-chain prompt assets declare explicit non-zero context budgets
+  ---
+  duration_ms: 0.990625
+  type: 'test'
+  ...
+# Subtest: writer guard strips forbidden context groups before prompt execution
+ok 89 - writer guard strips forbidden context groups before prompt execution
+  ---
+  duration_ms: 0.148208
+  type: 'test'
+  ...
+# Subtest: chapter writer prompt carries explicit target length and continuation instructions
+ok 90 - chapter writer prompt carries explicit target length and continuation instructions
+  ---
+  duration_ms: 0.182709
+  type: 'test'
+  ...
+# Subtest: director blueprint schema accepts chapter shells without scenes
+ok 91 - director blueprint schema accepts chapter shells without scenes
+  ---
+  duration_ms: 0.729833
+  type: 'test'
+  ...
+# Subtest: context selection keeps the freshest structural source while preserving required status
+ok 92 - context selection keeps the freshest structural source while preserving required status
+  ---
+  duration_ms: 0.328375
+  type: 'test'
+  ...
+# Subtest: compression log separates summarized blocks from dropped blocks
+ok 93 - compression log separates summarized blocks from dropped blocks
+  ---
+  duration_ms: 0.133417
+  type: 'test'
+  ...
+# Subtest: workflow registry holds execution-first intents when collaboration is still required
+ok 94 - workflow registry holds execution-first intents when collaboration is still required
+  ---
+  duration_ms: 0.116709
+  type: 'test'
+  ...
+# Subtest: workflow registry expands produce_novel into the fixed production chain
+ok 95 - workflow registry expands produce_novel into the fixed production chain
+  ---
+  duration_ms: 0.135292
+  type: 'test'
+  ...
+# Subtest: workflow registry split keeps key workflow domains registered
+ok 96 - workflow registry split keeps key workflow domains registered
+  ---
+  duration_ms: 0.061125
+  type: 'test'
+  ...
+# Subtest: planner chapter prompt post validator rejects structurally unusable chapter plans
+ok 97 - planner chapter prompt post validator rejects structurally unusable chapter plans
+  ---
+  duration_ms: 0.180459
+  type: 'test'
+  ...
+# Subtest: genre prompt render hardens retry instructions and forced JSON mode
+ok 98 - genre prompt render hardens retry instructions and forced JSON mode
+  ---
+  duration_ms: 0.087167
+  type: 'test'
+  ...
+# Subtest: title prompt render includes retry reason for regeneration attempts
+ok 99 - title prompt render includes retry reason for regeneration attempts
+  ---
+  duration_ms: 0.166792
+  type: 'test'
+  ...
+# Subtest: story mode child prompt render includes parent and sibling grounding
+ok 100 - story mode child prompt render includes parent and sibling grounding
+  ---
+  duration_ms: 0.155541
+  type: 'test'
+  ...
+# Subtest: story mode child prompt post validator rejects duplicate sibling names and grandchildren
+ok 101 - story mode child prompt post validator rejects duplicate sibling names and grandchildren
+  ---
+  duration_ms: 0.165208
+  type: 'test'
+  ...
+# Subtest: story mode expansion prompt uses the library summary to find distinct additions
+ok 102 - story mode expansion prompt uses the library summary to find distinct additions
+  ---
+  duration_ms: 0.187833
+  type: 'test'
+  ...
+# Subtest: book analysis source note prompt enforces grounded Chinese extraction
+ok 103 - book analysis source note prompt enforces grounded Chinese extraction # SKIP
+  ---
+  duration_ms: 0.025792
+  type: 'test'
+  ...
+# Subtest: book analysis section prompt includes section-specific structuredData contract
+ok 104 - book analysis section prompt includes section-specific structuredData contract # SKIP
+  ---
+  duration_ms: 0.021667
+  type: 'test'
+  ...
+# Subtest: book analysis source note prompt exposes reader and weakness signal extraction
+ok 105 - book analysis source note prompt exposes reader and weakness signal extraction
+  ---
+  duration_ms: 0.081834
+  type: 'test'
+  ...
+# Subtest: book analysis overview prompt encourages low-risk synthesis with direct section structure
+ok 106 - book analysis overview prompt encourages low-risk synthesis with direct section structure
+  ---
+  duration_ms: 0.219792
+  type: 'test'
+  ...
+# Subtest: world draft generation post validator requires requested dimension coverage
+ok 107 - world draft generation post validator requires requested dimension coverage
+  ---
+  duration_ms: 0.088167
+  type: 'test'
+  ...
+# Subtest: world skeleton prompt keeps large world output within a recoverable one-shot budget
+ok 108 - world skeleton prompt keeps large world output within a recoverable one-shot budget
+  ---
+  duration_ms: 0.207417
+  type: 'test'
+  ...
+# Subtest: world draft refine alternatives post validator enforces exact alternative count
+ok 109 - world draft refine alternatives post validator enforces exact alternative count
+  ---
+  duration_ms: 0.054792
+  type: 'test'
+  ...
+# Subtest: runStructuredPrompt forwards repair policy and context telemetry
+ok 110 - runStructuredPrompt forwards repair policy and context telemetry
+  ---
+  duration_ms: 1.993541
+  type: 'test'
+  ...
+# Subtest: runStructuredPrompt retries semantically after postValidate failure
+ok 111 - runStructuredPrompt retries semantically after postValidate failure
+  ---
+  duration_ms: 0.866709
+  type: 'test'
+  ...
+# Subtest: streamTextPrompt buffers streamed output and resolves completion metadata
+ok 112 - streamTextPrompt buffers streamed output and resolves completion metadata
+  ---
+  duration_ms: 2.591417
+  type: 'test'
+  ...
+# Subtest: runTextPrompt records empty outputs without changing return behavior
+ok 113 - runTextPrompt records empty outputs without changing return behavior
+  ---
+  duration_ms: 0.524625
+  type: 'test'
+  ...
+# Subtest: prompt runner records failed executions without swallowing the original error
+ok 114 - prompt runner records failed executions without swallowing the original error
+  ---
+  duration_ms: 0.524708
+  type: 'test'
+  ...
+# Subtest: prompt runner injects enabled custom slot blocks for supported prompts
+ok 115 - prompt runner injects enabled custom slot blocks for supported prompts
+  ---
+  duration_ms: 90.896625
+  type: 'test'
+  ...
+# Subtest: prompt runner skips custom slot overlays for prompts without editable slots
+ok 116 - prompt runner skips custom slot overlays for prompts without editable slots
+  ---
+  duration_ms: 0.903542
+  type: 'test'
+  ...
+# Subtest: advanced prompt template expands referenced context and appends required fallback groups
+ok 117 - advanced prompt template expands referenced context and appends required fallback groups
+  ---
+  duration_ms: 1.305375
+  type: 'test'
+  ...
+# Subtest: chapter writer context text uses reader-facing labels instead of raw machine fields
+ok 118 - chapter writer context text uses reader-facing labels instead of raw machine fields
+  ---
+  duration_ms: 0.649709
+  type: 'test'
+  ...
+# Subtest: writer style contract text omits debug metadata
+ok 119 - writer style contract text omits debug metadata
+  ---
+  duration_ms: 0.124042
+  type: 'test'
+  ...
+# Subtest: advanced prompt template reports unknown tokens
+ok 120 - advanced prompt template reports unknown tokens
+  ---
+  duration_ms: 0.197709
+  type: 'test'
+  ...
+# Subtest: runTextPrompt uses active book-scoped advanced template for chapter writer
+ok 121 - runTextPrompt uses active book-scoped advanced template for chapter writer
+  ---
+  duration_ms: 83.86525
+  type: 'test'
+  ...
+# Subtest: streamStructuredPrompt parses streamed JSON and preserves telemetry
+ok 122 - streamStructuredPrompt parses streamed JSON and preserves telemetry
+  ---
+  duration_ms: 2.636625
+  type: 'test'
+  ...
+# Subtest: streamStructuredPrompt falls back to prompt JSON when native structured streaming is empty
+ok 123 - streamStructuredPrompt falls back to prompt JSON when native structured streaming is empty
+  ---
+  duration_ms: 1.305542
+  type: 'test'
+  ...
+# Subtest: streamStructuredPrompt parses top-level array outputs and ignores trailing text
+ok 124 - streamStructuredPrompt parses top-level array outputs and ignores trailing text
+  ---
+  duration_ms: 1.67375
+  type: 'test'
+  ...
+# Subtest: streamStructuredPrompt can recover with semantic retry after streamed output fails post validation
+ok 125 - streamStructuredPrompt can recover with semantic retry after streamed output fails post validation
+  ---
+  duration_ms: 1.175333
+  type: 'test'
+  ...
+# [prompt.runner] event=started promptId=style.anti_ai_rule.draft promptVersion=v1 taskType=planner contextBlockIds=none estimatedInputTokens=0 provider=deepseek model=default
+# [memory] event=structured_invoke_done component=runStructuredPrompt rssMb=443.5 heapUsedMb=294.7 heapTotalMb=317.1 externalMb=11.6 arrayBuffersMb=3.5 promptId="style.anti_ai_rule.draft" promptVersion="v1" provider="deepseek" renderedPromptChars=1264
+# [memory] event=before_prompt_result_return component=runStructuredPrompt rssMb=443.5 heapUsedMb=294.7 heapTotalMb=317.1 externalMb=11.6 arrayBuffersMb=3.5 promptId="style.anti_ai_rule.draft" promptVersion="v1" provider="deepseek" renderedPromptChars=1264
+# [prompt.runner] promptId=style.anti_ai_rule.draft promptVersion=v1 taskType=planner       contextBlockIds=none droppedContextBlockIds=none summarizedContextBlockIds=none estimatedInputTokens=0 repairUsed=false repairAttempts=0 semanticRetryUsed=false semanticRetryAttempts=0 provider=deepseek model=default latencyMs=0
+# [prompt.runner] event=started promptId=style.anti_ai_rule.draft promptVersion=v1 taskType=planner contextBlockIds=none estimatedInputTokens=0 provider=deepseek model=default
+# [memory] event=structured_invoke_done component=runStructuredPrompt rssMb=443.9 heapUsedMb=294.8 heapTotalMb=317.4 externalMb=11.6 arrayBuffersMb=3.5 promptId="style.anti_ai_rule.draft" promptVersion="v1" provider="deepseek" renderedPromptChars=1474
+# [memory] event=before_prompt_result_return component=runStructuredPrompt rssMb=443.9 heapUsedMb=294.9 heapTotalMb=317.4 externalMb=11.6 arrayBuffersMb=3.5 promptId="style.anti_ai_rule.draft" promptVersion="v1" provider="deepseek" renderedPromptChars=1474
+# [prompt.runner] promptId=style.anti_ai_rule.draft promptVersion=v1 taskType=planner       contextBlockIds=none droppedContextBlockIds=none summarizedContextBlockIds=none estimatedInputTokens=0 repairUsed=false repairAttempts=0 semanticRetryUsed=false semanticRetryAttempts=0 provider=deepseek model=default latencyMs=0
+# [prompt.runner] event=started promptId=style.detection promptVersion=v10 taskType=planner contextBlockIds=none estimatedInputTokens=0 provider=default model=default
+# [memory] event=structured_invoke_done component=runStructuredPrompt rssMb=444.4 heapUsedMb=295.2 heapTotalMb=317.9 externalMb=11.6 arrayBuffersMb=3.5 promptId="style.detection" promptVersion="v10" renderedPromptChars=3775
+# [memory] event=before_prompt_result_return component=runStructuredPrompt rssMb=444.4 heapUsedMb=295.2 heapTotalMb=317.9 externalMb=11.6 arrayBuffersMb=3.5 promptId="style.detection" promptVersion="v10" renderedPromptChars=3775
+# [prompt.runner] promptId=style.detection promptVersion=v10 taskType=planner       contextBlockIds=none droppedContextBlockIds=none summarizedContextBlockIds=none estimatedInputTokens=0 repairUsed=false repairAttempts=0 semanticRetryUsed=false semanticRetryAttempts=0 provider=default model=default latencyMs=0
+# [prompt.runner] event=started promptId=style.detection promptVersion=v10 taskType=planner contextBlockIds=none estimatedInputTokens=0 provider=default model=default
+# [memory] event=structured_invoke_done component=runStructuredPrompt rssMb=444.4 heapUsedMb=295.4 heapTotalMb=317.9 externalMb=11.6 arrayBuffersMb=3.5 promptId="style.detection" promptVersion="v10" renderedPromptChars=3789
+# [memory] event=before_prompt_result_return component=runStructuredPrompt rssMb=444.5 heapUsedMb=295.4 heapTotalMb=317.9 externalMb=11.6 arrayBuffersMb=3.5 promptId="style.detection" promptVersion="v10" renderedPromptChars=3789
+# [prompt.runner] promptId=style.detection promptVersion=v10 taskType=planner       contextBlockIds=none droppedContextBlockIds=none summarizedContextBlockIds=none estimatedInputTokens=0 repairUsed=false repairAttempts=0 semanticRetryUsed=false semanticRetryAttempts=0 provider=default model=default latencyMs=0
+# [prompt.runner] event=started promptId=style.rewrite promptVersion=v4 taskType=repair contextBlockIds=none estimatedInputTokens=0 provider=deepseek model=default
+# [memory] event=structured_invoke_done component=runStructuredPrompt rssMb=444.5 heapUsedMb=295.5 heapTotalMb=317.9 externalMb=11.6 arrayBuffersMb=3.5 promptId="style.rewrite" promptVersion="v4" provider="deepseek" renderedPromptChars=2497
+# [memory] event=before_prompt_result_return component=runStructuredPrompt rssMb=444.5 heapUsedMb=295.5 heapTotalMb=317.9 externalMb=11.6 arrayBuffersMb=3.5 promptId="style.rewrite" promptVersion="v4" provider="deepseek" renderedPromptChars=2497
+# [prompt.runner] promptId=style.rewrite promptVersion=v4 taskType=repair       contextBlockIds=none droppedContextBlockIds=none summarizedContextBlockIds=none estimatedInputTokens=0 repairUsed=false repairAttempts=0 semanticRetryUsed=false semanticRetryAttempts=0 provider=deepseek model=default latencyMs=0
+# Subtest: StyleCompiler changes anti-ai tone by weight
+ok 126 - StyleCompiler changes anti-ai tone by weight
+  ---
+  duration_ms: 3.240875
+  type: 'test'
+  ...
+# Subtest: StyleCompiler emits layered binding context and section-level strength
+ok 127 - StyleCompiler emits layered binding context and section-level strength
+  ---
+  duration_ms: 0.188541
+  type: 'test'
+  ...
+# Subtest: StyleBindingService uses explicit global anti-ai baseline flag
+ok 128 - StyleBindingService uses explicit global anti-ai baseline flag
+  ---
+  duration_ms: 1.699083
+  type: 'test'
+  ...
+# Subtest: StyleBindingService keeps style-bound anti-ai rules outside global baseline
+ok 129 - StyleBindingService keeps style-bound anti-ai rules outside global baseline
+  ---
+  duration_ms: 86.71525
+  type: 'test'
+  ...
+# Subtest: AntiAiRuleService defaults new custom rules outside global baseline
+ok 130 - AntiAiRuleService defaults new custom rules outside global baseline
+  ---
+  duration_ms: 0.300458
+  type: 'test'
+  ...
+# Subtest: StyleProfileService updateProfile preserves explicit manual rule JSON over extracted feature compilation
+ok 131 - StyleProfileService updateProfile preserves explicit manual rule JSON over extracted feature compilation
+  ---
+  duration_ms: 0.629417
+  type: 'test'
+  ...
+# Subtest: StyleProfileService updateProfile falls back to compiled rules when explicit rule JSON is omitted
+ok 132 - StyleProfileService updateProfile falls back to compiled rules when explicit rule JSON is omitted
+  ---
+  duration_ms: 0.162084
+  type: 'test'
+  ...
+# Subtest: AntiAiPolicyResolver separates global baseline and style-specific sources
+ok 133 - AntiAiPolicyResolver separates global baseline and style-specific sources
+  ---
+  duration_ms: 0.837667
+  type: 'test'
+  ...
+# Subtest: AntiAiRuleService generates safe AI drafts for new rules
+ok 134 - AntiAiRuleService generates safe AI drafts for new rules
+  ---
+  duration_ms: 2.837958
+  type: 'test'
+  ...
+# Subtest: AntiAiRuleService preserves rule switches when improving AI drafts
+ok 135 - AntiAiRuleService preserves rule switches when improving AI drafts
+  ---
+  duration_ms: 0.686292
+  type: 'test'
+  ...
+# Subtest: StyleDetectionService can test preview anti-ai rules without a style profile
+ok 136 - StyleDetectionService can test preview anti-ai rules without a style profile
+  ---
+  duration_ms: 3.520125
+  type: 'test'
+  ...
+# Subtest: StyleRewriteService includes preview anti-ai rules in the repair prompt
+ok 137 - StyleRewriteService includes preview anti-ai rules in the repair prompt
+  ---
+  duration_ms: 2.048416
+  type: 'test'
+  ...
+# Subtest: style detection prompt requires broad anti-ai recall and non-copyable suggestions
+ok 138 - style detection prompt requires broad anti-ai recall and non-copyable suggestions
+  ---
+  duration_ms: 3.224417
+  type: 'test'
+  ...
+# Subtest: style rewrite prompt avoids suggestion copying and factual hook injection
+ok 139 - style rewrite prompt avoids suggestion copying and factual hook injection
+  ---
+  duration_ms: 0.187
+  type: 'test'
+  ...
+# Subtest: knowledge document style extraction uses representative sample by default
+ok 140 - knowledge document style extraction uses representative sample by default
+  ---
+  duration_ms: 0.337375
+  type: 'test'
+  ...
+# GET /api/style-profiles 200 1.387 ms - 506
+# POST /api/style-profiles/from-book-analysis 201 11.123 ms - 501
+# POST /api/style-extractions/from-text 200 1.016 ms - 895
+# POST /api/style-extraction-tasks/from-knowledge-document 202 1.310 ms - 822
+# POST /api/style-profiles/from-text 201 0.450 ms - 933
+# POST /api/style-profiles/from-extraction 201 2.000 ms - 510
+# POST /api/style-bindings 201 0.554 ms - 722
+# GET /api/anti-ai-rules/effective?styleProfileId=style-1 200 1.049 ms - 2614
+# POST /api/anti-ai-rules/ai-draft 200 0.921 ms - 471
+# POST /api/style-detection/check 200 0.836 ms - 407
+# POST /api/style-detection/rewrite 200 0.937 ms - 114
+# Subtest: style engine routes return mocked payloads
+ok 141 - style engine routes return mocked payloads
+  ---
+  duration_ms: 81.708084
+  type: 'test'
+  ...
+# Subtest: chapter patch permission is bound to the real structured style issue and forwards fact comparison
+ok 142 - chapter patch permission is bound to the real structured style issue and forwards fact comparison
+  ---
+  duration_ms: 93.13425
+  type: 'test'
+  ...
+# Subtest: report-only narrative and arbitrary issue IDs fail before candidate selection
+ok 143 - report-only narrative and arbitrary issue IDs fail before candidate selection
+  ---
+  duration_ms: 101.4325
+  type: 'test'
+  ...
+# Subtest: known character names cannot be changed by a pure expression patch
+ok 144 - known character names cannot be changed by a pure expression patch
+  ---
+  duration_ms: 38.855583
+  type: 'test'
+  ...
+# Subtest: manual rewrite accepts a direct request without invented issues and preserves original whitespace
+ok 145 - manual rewrite accepts a direct request without invented issues and preserves original whitespace
+  ---
+  duration_ms: 296.133791
+  type: 'test'
+  ...
+# Subtest: detection preserves source coordinates and rejects a whitespace-only manuscript
+ok 146 - detection preserves source coordinates and rejects a whitespace-only manuscript
+  ---
+  duration_ms: 68.92975
+  type: 'test'
+  ...
+# Subtest: manual service recomputes authority, uses structured patches and never copies client instructions
+ok 147 - manual service recomputes authority, uses structured patches and never copies client instructions
+  ---
+  duration_ms: 94.200292
+  type: 'test'
+  ...
+# Subtest: manual request cannot bypass narrative, legacy or instance rewrite refusals
+ok 148 - manual request cannot bypass narrative, legacy or instance rewrite refusals
+  ---
+  duration_ms: 38.755083
+  type: 'test'
+  ...
+# Subtest: unselected diagnoses do not expand the requested editing scope
+ok 149 - unselected diagnoses do not expand the requested editing scope
+  ---
+  duration_ms: 21.564334
+  type: 'test'
+  ...
+# Subtest: first direct preview detects once and selects only authoritative automatic issues
+ok 150 - first direct preview detects once and selects only authoritative automatic issues
+  ---
+  duration_ms: 14.946542
+  type: 'test'
+  ...
+# Subtest: preview preserves whitespace outside patch scope
+ok 151 - preview preserves whitespace outside patch scope
+  ---
+  duration_ms: 9.03025
+  type: 'test'
+  ...
+# Subtest: invalid issue ID and oversized patch fall back to the exact original
+ok 152 - invalid issue ID and oversized patch fall back to the exact original
+  ---
+  duration_ms: 36.475125
+  type: 'test'
+  ...
+# Subtest: perspective evidence survives runtime serialization while legacy reports remain readable
+ok 153 - perspective evidence survives runtime serialization while legacy reports remain readable
+  ---
+  duration_ms: 14.939667
+  type: 'test'
+  ...
+# Subtest: style prompts require information gain before excusing repeated structures or bodily action loops
+ok 154 - style prompts require information gain before excusing repeated structures or bodily action loops
+  ---
+  duration_ms: 13.443083
+  type: 'test'
+  ...
+# Subtest: ordinary contract findings accept null rule IDs without schema repair
+ok 155 - ordinary contract findings accept null rule IDs without schema repair
+  ---
+  duration_ms: 4.097042
+  type: 'test'
+  ...
+# Subtest: model evidence uses a distinct statistical label while stored scanner IDs stay intact
+ok 156 - model evidence uses a distinct statistical label while stored scanner IDs stay intact
+  ---
+  duration_ms: 2.586833
+  type: 'test'
+  ...
+# Subtest: model signal examples are bounded without changing stored evidence or policy
+ok 157 - model signal examples are bounded without changing stored evidence or policy
+  ---
+  duration_ms: 2.616458
+  type: 'test'
+  ...
+# Subtest: compressed or stitched excerpts are rejected instead of accepted as current prose
+ok 158 - compressed or stitched excerpts are rejected instead of accepted as current prose
+  ---
+  duration_ms: 3.155208
+  type: 'test'
+  ...
+# Subtest: automatic permission intersects instance, layer and rule permission; legacy cannot authorize
+ok 159 - automatic permission intersects instance, layer and rule permission; legacy cannot authorize
+  ---
+  duration_ms: 1.626792
+  type: 'test'
+  ...
+# Subtest: local expression edit preserves source and candidate identities and marks semantic comparison pending
+ok 160 - local expression edit preserves source and candidate identities and marks semantic comparison pending
+  ---
+  duration_ms: 7.473458
+  type: 'test'
+  ...
+# Subtest: unknown and report-only issue ids cannot grant an edit permission
+ok 161 - unknown and report-only issue ids cannot grant an edit permission
+  ---
+  duration_ms: 0.773292
+  type: 'test'
+  ...
+# Subtest: pure style cannot change numbers or protected names
+ok 162 - pure style cannot change numbers or protected names
+  ---
+  duration_ms: 0.559167
+  type: 'test'
+  ...
+# Subtest: authorized factual correction is separate from literal style protection and requires semantic reacceptance
+ok 163 - authorized factual correction is separate from literal style protection and requires semantic reacceptance
+  ---
+  duration_ms: 0.850167
+  type: 'test'
+  ...
+# Subtest: whole chapter touching over 30%, excessive addition and deletion are rejected
+ok 164 - whole chapter touching over 30%, excessive addition and deletion are rejected
+  ---
+  duration_ms: 0.768042
+  type: 'test'
+  ...
+# Subtest: ambiguous and overlapping targets retain the complete original
+ok 165 - ambiguous and overlapping targets retain the complete original
+  ---
+  duration_ms: 0.521417
+  type: 'test'
+  ...
+# Subtest: rewrite protection survives runtime schema round trip with the legacy report
+ok 166 - rewrite protection survives runtime schema round trip with the legacy report
+  ---
+  duration_ms: 1.436375
+  type: 'test'
+  ...
+# Subtest: transition evidence starts at the repeated occurrence, never grants a verdict for first use
+ok 167 - transition evidence starts at the repeated occurrence, never grants a verdict for first use
+  ---
+  duration_ms: 2.905333
+  type: 'test'
+  ...
+# Subtest: one transition and two distinct first-use transitions have no repetition evidence
+ok 168 - one transition and two distinct first-use transitions have no repetition evidence
+  ---
+  duration_ms: 2.557875
+  type: 'test'
+  ...
+# Subtest: chapter repetition crosses short sentences and paragraphs, with a configurable threshold
+ok 169 - chapter repetition crosses short sentences and paragraphs, with a configurable threshold
+  ---
+  duration_ms: 0.950958
+  type: 'test'
+  ...
+# Subtest: a bounded repeated-expression excerpt still contains the occurrence it identifies
+ok 170 - a bounded repeated-expression excerpt still contains the occurrence it identifies
+  ---
+  duration_ms: 0.773042
+  type: 'test'
+  ...
+# Subtest: comma density finds an 80-character sentence with four commas
+ok 171 - comma density finds an 80-character sentence with four commas
+  ---
+  duration_ms: 0.354417
+  type: 'test'
+  ...
+# Subtest: comma density does not combine distinct sentences or paragraphs
+ok 172 - comma density does not combine distinct sentences or paragraphs
+  ---
+  duration_ms: 0.253292
+  type: 'test'
+  ...
+# Subtest: comma density respects 79/80 characters and 3/4 commas, including ASCII commas
+ok 173 - comma density respects 79/80 characters and 3/4 commas, including ASCII commas
+  ---
+  duration_ms: 0.264125
+  type: 'test'
+  ...
+# Subtest: softener clustering counts different terms in the same sentence
+ok 174 - softener clustering counts different terms in the same sentence
+  ---
+  duration_ms: 0.123375
+  type: 'test'
+  ...
+# Subtest: softener signals skip short sentences and meaningful evidence remains for AI to decide
+ok 175 - softener signals skip short sentences and meaningful evidence remains for AI to decide
+  ---
+  duration_ms: 0.510375
+  type: 'test'
+  ...
+# Subtest: softener 2/3 boundary applies only within each sentence, including ellipses
+ok 176 - softener 2/3 boundary applies only within each sentence, including ellipses
+  ---
+  duration_ms: 0.630666
+  type: 'test'
+  ...
+# Subtest: action adverb clustering finds three occurrences without requiring the same adverb
+ok 177 - action adverb clustering finds three occurrences without requiring the same adverb
+  ---
+  duration_ms: 0.320125
+  type: 'test'
+  ...
+# Subtest: action signals leave two occurrences and short sentences alone
+ok 178 - action signals leave two occurrences and short sentences alone
+  ---
+  duration_ms: 0.385958
+  type: 'test'
+  ...
+# Subtest: action 2/3 boundary is versioned and quotation is preserved rather than exempted by a verdict
+ok 179 - action 2/3 boundary is versioned and quotation is preserved rather than exempted by a verdict
+  ---
+  duration_ms: 0.415584
+  type: 'test'
+  ...
+# Subtest: Unicode character counts and UTF-16 normalized offsets use different units
+ok 180 - Unicode character counts and UTF-16 normalized offsets use different units
+  ---
+  duration_ms: 0.2325
+  type: 'test'
+  ...
+# Subtest: evidence is bounded per rule and in total without trimming source whitespace
+ok 181 - evidence is bounded per rule and in total without trimming source whitespace
+  ---
+  duration_ms: 2.200458
+  type: 'test'
+  ...
+# Subtest: policy words and thresholds are copied into each scan result and do not mutate caller state
+ok 182 - policy words and thresholds are copied into each scan result and do not mutate caller state
+  ---
+  duration_ms: 1.057
+  type: 'test'
+  ...
+# Subtest: job payload preserves full scanner policy through recovery serialization
+ok 183 - job payload preserves full scanner policy through recovery serialization
+  ---
+  duration_ms: 6.09175
+  type: 'test'
+  ...
+# Subtest: historical missing or unknown scanner policy cannot silently acquire new defaults
+ok 184 - historical missing or unknown scanner policy cannot silently acquire new defaults
+  ---
+  duration_ms: 0.580667
+  type: 'test'
+  ...
+# Subtest: invalid runtime policy cannot be persisted as a valid snapshot
+ok 185 - invalid runtime policy cannot be persisted as a valid snapshot
+  ---
+  duration_ms: 0.523917
+  type: 'test'
+  ...
+1..185
+# tests 185
+# suites 0
+# pass 183
+# fail 0
+# cancelled 0
+# skipped 2
+# todo 0
+# duration_ms 3721.198417

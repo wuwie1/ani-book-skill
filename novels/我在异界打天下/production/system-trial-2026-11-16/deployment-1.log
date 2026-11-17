@@ -1,0 +1,43 @@
+[server_update] 部署 root@152.136.155.200:/data/write/AI-Novel-Writing-Assistant · origin/ai
+{"stage": "inspection", "current": "46d6737acebffb8f6bbf3336a3ba6c731cb36123", "candidate": "1cd58f02a0f6cab9e8c49223e2519880ee4ffbd8", "known": false, "differences": [], "checks": ["服务器缺少本地候选提交，需在导入 Git bundle 后校验兼容性"], "artifacts": ["node_modules", "server/node_modules", "client/node_modules", "shared/node_modules", "shared/dist", "server/dist", "client/dist"], "protected": [".git", "server/.env", "data", "server/storage", ".runtime", "logs", ".logs"], "database": "/data/write/AI-Novel-Writing-Assistant/data/novel.db", "assets": ["/data/write/AI-Novel-Writing-Assistant/server/storage", "/data/write/AI-Novel-Writing-Assistant/server/storage/generated-images"]}
+{"stage": "dry_run", "candidate": "1cd58f02a0f6cab9e8c49223e2519880ee4ffbd8", "verified": false, "steps": ["核对提交、任务状态与产物", "同版本校验通过后重启", "版本变化时按构建输入准备候选，留存上一版并备份数据", "重启并验收网页、健康接口和小说读取", "成功后校验并保留当前与上一版本备份，清理无引用的历史部署产物"]}
+{"stage":"local_timing","name":"preview","seconds":0.53}
+{"stage":"local_timing","name":"package-bundle","seconds":0.058,"bytes":21566}
+{"stage": "timing", "name": "inspect-import", "seconds": 0.284, "result": "passed"}
+{"stage": "timing", "name": "verify-live", "seconds": 40.224, "result": "passed"}
+{"stage": "deployment_plan", "mode": "full", "slots": ["node_modules", "server/node_modules", "client/node_modules", "shared/node_modules", "shared/dist", "server/dist", "client/dist"], "tests": true, "reason": "按两个提交之间的构建输入计算"}
+{"stage": "timing", "name": "prepare-workspace", "seconds": 1.823, "result": "passed"}
+{"stage": "candidate_build", "name": "install", "log": "/data/write/AI-Novel-Writing-Assistant/.runtime/desktop_mac-deploy/20261116T105908-1cd58f02a0f6-seipzzy0/build.log"}
+{"stage": "timing", "name": "install", "seconds": 15.134, "result": "passed"}
+{"stage": "candidate_build", "name": "shared-build", "log": "/data/write/AI-Novel-Writing-Assistant/.runtime/desktop_mac-deploy/20261116T105908-1cd58f02a0f6-seipzzy0/build.log"}
+{"stage": "timing", "name": "shared-build", "seconds": 4.255, "result": "passed"}
+{"stage": "candidate_build", "name": "sync-dependencies", "log": "/data/write/AI-Novel-Writing-Assistant/.runtime/desktop_mac-deploy/20261116T105908-1cd58f02a0f6-seipzzy0/build.log"}
+{"stage": "timing", "name": "sync-dependencies", "seconds": 1.923, "result": "passed"}
+{"stage": "candidate_build", "name": "prisma-generate", "log": "/data/write/AI-Novel-Writing-Assistant/.runtime/desktop_mac-deploy/20261116T105908-1cd58f02a0f6-seipzzy0/build.log"}
+{"stage": "timing", "name": "prisma-generate", "seconds": 5.897, "result": "passed"}
+{"stage": "candidate_build", "name": "server-emit", "log": "/data/write/AI-Novel-Writing-Assistant/.runtime/desktop_mac-deploy/20261116T105908-1cd58f02a0f6-seipzzy0/build.log"}
+{"stage": "timing", "name": "server-emit", "seconds": 44.786, "result": "passed"}
+{"stage": "candidate_build", "name": "client-build", "log": "/data/write/AI-Novel-Writing-Assistant/.runtime/desktop_mac-deploy/20261116T105908-1cd58f02a0f6-seipzzy0/build.log"}
+{"stage": "timing", "name": "client-build", "seconds": 56.745, "result": "passed"}
+{"stage": "candidate_build", "name": "targeted-tests", "log": "/data/write/AI-Novel-Writing-Assistant/.runtime/desktop_mac-deploy/20261116T105908-1cd58f02a0f6-seipzzy0/build.log"}
+{"stage": "timing", "name": "targeted-tests", "seconds": 2.831, "result": "passed"}
+{"stage": "timing", "name": "verify-candidate", "seconds": 41.632, "result": "passed"}
+{"stage": "candidate_validated", "sha": "1cd58f02a0f6cab9e8c49223e2519880ee4ffbd8", "record": "/data/write/AI-Novel-Writing-Assistant/.runtime/desktop_mac-deploy/20261116T105908-1cd58f02a0f6-seipzzy0/validation.json", "evidence": "/data/write/AI-Novel-Writing-Assistant/.runtime/desktop_mac-deploy/20261116T105908-1cd58f02a0f6-seipzzy0/build.log"}
+{"stage": "timing", "name": "candidate-total", "seconds": 175.523, "result": "passed"}
+{"stage": "timing", "name": "retain-previous", "seconds": 42.306, "result": "passed"}
+{"stage": "backup_verified", "path": "/data/write/AI-Novel-Writing-Assistant/.runtime/desktop_mac-deploy/20261116T105908-1cd58f02a0f6-seipzzy0/backups/preflight"}
+{"stage": "timing", "name": "preflight-backup", "seconds": 5.432, "result": "passed"}
+{"stage": "timing", "name": "recheck", "seconds": 20.205, "result": "passed"}
+{"stage": "observer_drain", "expiresInSeconds": 90}
+{"stage": "waiting_for_connections", "seconds": 30}
+{"stage": "timing", "name": "drain", "seconds": 10.802, "result": "passed"}
+{"stage": "timing", "name": "stop", "seconds": 0.153, "result": "passed"}
+{"stage": "backup_verified", "path": "/data/write/AI-Novel-Writing-Assistant/.runtime/desktop_mac-deploy/20261116T105908-1cd58f02a0f6-seipzzy0/backups/quiesced"}
+{"stage": "timing", "name": "final-backup", "seconds": 3.173, "result": "passed"}
+{"stage": "timing", "name": "switch", "seconds": 0.194, "result": "passed"}
+{"stage": "timing", "name": "start-health", "seconds": 6.387, "result": "passed"}
+{"stage": "deployed", "sha": "1cd58f02a0f6cab9e8c49223e2519880ee4ffbd8", "mode": "full", "artifacts": ["node_modules", "server/node_modules", "client/node_modules", "shared/node_modules", "shared/dist", "server/dist", "client/dist"], "backup": "/data/write/AI-Novel-Writing-Assistant/.runtime/desktop_mac-deploy/20261116T105908-1cd58f02a0f6-seipzzy0/backups", "backupReused": false, "timings": "/data/write/AI-Novel-Writing-Assistant/.runtime/desktop_mac-deploy/20261116T105908-1cd58f02a0f6-seipzzy0/timings.json"}
+{"stage": "timing", "name": "cleanup", "seconds": 42.223, "result": "passed"}
+{"stage": "cleanup_complete", "deletedBatches": 1, "deletedPayloads": 2, "deletedArtifactVersions": 1, "reclaimedBytes": 552329216, "record": "/data/write/AI-Novel-Writing-Assistant/.runtime/desktop_mac-deploy/20261116T105908-1cd58f02a0f6-seipzzy0/cleanup.json", "backups": ["/data/write/AI-Novel-Writing-Assistant/.runtime/desktop_mac-deploy/20261116T082605-46d6737acebf-mvizfo34/backups/preflight", "/data/write/AI-Novel-Writing-Assistant/.runtime/desktop_mac-deploy/20261116T082605-46d6737acebf-mvizfo34/backups/quiesced", "/data/write/AI-Novel-Writing-Assistant/.runtime/desktop_mac-deploy/20261116T105908-1cd58f02a0f6-seipzzy0/backups/preflight", "/data/write/AI-Novel-Writing-Assistant/.runtime/desktop_mac-deploy/20261116T105908-1cd58f02a0f6-seipzzy0/backups/quiesced"]}
+{"stage": "remote_total", "seconds": 347.165, "log": "/data/write/AI-Novel-Writing-Assistant/.runtime/desktop_mac-deploy/20261116T105908-1cd58f02a0f6-seipzzy0/timings.json"}
+{"stage":"local_timing","name":"total","seconds":348.424,"mode":"full"}

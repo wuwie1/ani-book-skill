@@ -1,0 +1,196 @@
+{
+  "output": {
+    "status": "continue_with_risk",
+    "score": {
+      "coherence": 90,
+      "pacing": 88,
+      "repetition": 86,
+      "engagement": 89,
+      "voice": 87,
+      "overall": 88
+    },
+    "summary": "出生救治当章完成，主角微小选择引发成人泄压，家人探视交付关系温度，结尾气息确认形成期待，所有硬合同均已兑现。",
+    "blockingIssues": [
+      {
+        "category": "mode_fit",
+        "severity": "medium",
+        "code": "style_review_unavailable",
+        "evidence": "写法提醒必须引用有效规则与当前正文原句。",
+        "fixSuggestion": "正文已保留，请从章节页面重新检查写法。"
+      }
+    ],
+    "repairDirectives": [],
+    "missingObligations": [],
+    "repairability": "none",
+    "decisionReason": "本章义务全部通过正文动作与感知兑现，无连续性断裂或保密泄漏，可直接保存推进。",
+    "riskTags": [
+      "第二章需承接气息感应作为童年修炉的前置能力萌芽，注意不提前升级为完整功法",
+      "style_review_unavailable",
+      "style_review_observation_invalid"
+    ],
+    "assetSyncRecommendation": {
+      "priority": "normal",
+      "reason": "同步陆昊气息感应状态、许文瑛护生阵操作记录及家庭成员初始关系定位。",
+      "requiresFullPayoffReconcile": false
+    },
+    "continuePolicy": "continue",
+    "styleReview": null,
+    "styleReviewFailure": {
+      "code": "observation_invalid",
+      "message": "写法提醒必须引用有效规则与当前正文原句。"
+    }
+  },
+  "meta": {
+    "provider": "qwen",
+    "model": "qwen3.8-max",
+    "latencyMs": 17994,
+    "invocation": {
+      "promptId": "novel.chapter.acceptance_assessment",
+      "promptVersion": "v24",
+      "taskType": "review",
+      "novelId": "cmwgjl1x30007bowjeu3684pv",
+      "chapterId": "cmwgjo6s4002lbowjkeuvqbzi",
+      "entrypoint": "opening_v2_isolated_trial",
+      "contextBlockIds": [
+        "writing_platform",
+        "book_contract",
+        "chapter_mission",
+        "reader_experience",
+        "character_hard_facts",
+        "obligation_contract",
+        "volume_window",
+        "participant_subset",
+        "local_state",
+        "style_contract"
+      ],
+      "droppedContextBlockIds": [],
+      "summarizedContextBlockIds": [],
+      "customAddendumBlockIds": [],
+      "estimatedInputTokens": 1935,
+      "repairUsed": false,
+      "repairAttempts": 0,
+      "semanticRetryUsed": true,
+      "semanticRetryAttempts": 1
+    },
+    "tokenUsage": {
+      "promptTokens": 8383,
+      "completionTokens": 480,
+      "totalTokens": 8863,
+      "inputCache": {
+        "cacheHitTokens": 0,
+        "cacheMissTokens": 8383,
+        "cacheWriteTokens": null,
+        "cacheUsageStatus": "reported"
+      }
+    }
+  },
+  "context": {
+    "blocks": [
+      {
+        "id": "writing_platform",
+        "group": "writing_platform",
+        "priority": 100,
+        "required": true,
+        "content": "男频长篇连载，具体动作与回报驱动阅读；本轮只试写首章。",
+        "estimatedTokens": 7,
+        "allowSummary": false
+      },
+      {
+        "id": "book_contract",
+        "group": "book_contract",
+        "priority": 100,
+        "required": true,
+        "content": "普通十八岁高考毕业生陆昊胎穿淮北王府，靠有限观察与本地专业者合作，把个人优势转为伙伴、产业与更大的事业。\n第三人称。第一章完成出生救治，不展开神籍、军晶案、家谱和修行境界。",
+        "estimatedTokens": 22,
+        "allowSummary": false
+      },
+      {
+        "id": "chapter_mission",
+        "group": "chapter_mission",
+        "priority": 100,
+        "required": true,
+        "content": "# 第001章｜这福气，先撤一半\n\n开篇v2试写合同，2026-11-16。来源：新开篇窗口、writing-style.md及本章列出的硬事实。作者授权重做；正文尚待试写与选择。\n\n## 即时目标与硬边界\n\n出生当天，陆昊要争到下一口气。护生防护与自身护魂残印不适配，输入越强越难受；他只有身体感知及偶然闪现的一点内息方向，能尝试一次极小调整。许文瑛与医者据此减弱输入、撤开局部阵片，完成实际救治。结束时呼吸稳定、产室危机解除，绝不能停在“祖母抬手，还没动阵”。\n\n第三人称贴近陆昊；出生当天不能听懂当地语言。成人判断需要一小段明确转入产室外部的叙述；随后通过触觉、声音、照护回到婴儿感知，不能让他解读阵名、王府政治或对白笑点。前世只记得高考结束后的普通生活和父母牵挂，没有确认死亡原因，更没有作战、查防、修仙经验。家人不知道前世记忆。\n\n## 人物与规则\n\n- 陆昊（CHAR-LU-HAO）：新生儿，无法坐起、说话或看清远处；无成熟第二视野、阶位、术式。身体疲惫是真限制。\n- 沈令仪（CHAR-SHEN-LINGYI）：刚生产的母亲，疲惫、有医学判断，要求调整照护；不独自托起整阵。\n- 许文瑛（CHAR-XU-WENYING）：祖母，能复核阵路并指挥泄压。由她完成专业操作；不识破残印来源。\n- 陆峥（CHAR-LU-ZHENG）：先在外间让出空间，脱险后进来；行动可靠，抱婴儿时显得生疏。\n- 陆景珩（CHAR-LU-JINGHENG）：八岁哥哥，获准后短暂探视；认真模仿大人照顾弟弟，产生一次轻微反差。\n- 调用 RULE-BIRTH 与 STAGE-HOME：普通护生措施的适配问题；本章不涉及神籍签约、夺舍、终身神力追杀。PAY-01只埋“不适配与细微内息感应”。\n\n## 读者体验合同\n\n- readerQuestion：成年记忆困在婴儿身体里，他能不能自己争取一点生机？\n- protagonistWant：吸进下一口气，停止越救越难受的刺激。\n- primaryResistance：身体无法执行成年人的指令，也说不出自己的感觉。\n- keyTurn：放弃强行维持完整呼吸，只在回流间隙缩短一次接续；成人捕捉到反应，改变救治方式。\n- promisedReward / rewardLevel：一次微小主动选择产生实际作用，救治当章完成；partial。\n- emotionalShift：窒息与陌生 → 有办法可试 → 脱险后的虚脱 → 被笨拙小心地接住。\n- informationReveal：保护也有适配限制；那一点方法不是一次性的幻觉，尚不知是什么。\n- netChange：危急新生儿变成稳定受照护的孩子；陆昊知道自己能尝试一个极小动作。\n- inheritedHookResponsibilities：首章，无旧钩子。\n- endingHook：休息片刻后，他在安全状态下主动找回一点同样的气息走向，来不及进一步尝试便睡去。把“偶然救命”变成“以后能学会什么”的期待，不再制造同一窒息危机。\n\n## 节奏段与场景预算\n\n目标2600字，允许2300—3000。出生救治占约前六成，余下交付放松、家人关系与方法萌芽；预算为指导，不机械凑字。\n\n| 段/场景 | 进入 → 动作与阻力 → 转折 | 回报与离场 | 预算 |\n| --- | --- | --- | ---: |\n| 1 产室：身体不听使唤 | 想吸气却做不到；试图挥手只动了指尖，外来的暖意令胸口更紧。短促联想到自己刚考完试，立即回求生。 | 明确危险与成人记忆/婴儿身体反差；发现暖意有间隙。 | 550 |\n| 2 同场：少接一口 | 强撑失败后放弃争满一口气，顺着一闪而过的方向缩短接续；力竭但出现一个稳定瞬间。成人切入，祖母据反应调整输入、移开阵片，医者复核。 | 看见主角选择有用，也看见成人能力；呼吸持续稳定，危机结束。 | 1000 |\n| 3 稍后探视：大手小人 | 父亲怕碰疼孩子，抱姿僵硬；哥哥一本正经纠正父亲，母亲一句家常接话收住。孩子从抱持与温度感到安全，并短暂想起前世母亲。 | 紧张落地，亲情靠动作成立；幽默至多一组来回，不解释笑点。 | 650 |\n| 4 同场收尾：再找一下 | 吃力地找回极轻的气息方向，不碰防护、不主动憋气；随后疲倦睡去。 | 微小能力期待，问题从能否活变成能否学；不揭道书来历。 | 400 |\n\n实际场景为救治、探视、安静收尾三场。低于下限仍须完成选择、泄压、稳定呼吸与家人互动；超长先删重复体感、两轮相似试错和解释性总结。\n\n## 本章有效写法与禁区\n\n执行 STYLE-01—10、AAI-01—04。STYLE-05在脱险后落实；危急段仅保留一处学生记忆与身体能力的反差，不连说笑话。心理允许短句，不替人物总结人生。成人一段对白由外部叙述呈现，不写成婴儿已经听懂。\n\n可延后：姓名确认、王府家谱、修行阶位、《源天》名称、穿越原因。禁止：身怀前世修为、神明选定、从阵纹读出成套原理、主动破掉整阵、父兄争继承权、以“还未救完”做章末钩子。",
+        "estimatedTokens": 521,
+        "allowSummary": false
+      },
+      {
+        "id": "reader_experience",
+        "group": "reader_experience",
+        "priority": 100,
+        "required": true,
+        "content": "{\"readerQuestion\":\"成年记忆困在婴儿身体里，他能不能自己争取一点生机？\",\"promisedReward\":\"一次微小主动选择产生实际作用，救治当章完成。\",\"rewardLevel\":\"partial\",\"protagonistWant\":\"吸进下一口气，停止越救越难受的刺激。\",\"primaryResistance\":\"身体无法执行成年人的指令，也说不出自己的感觉。\",\"keyTurn\":\"放弃强行维持完整呼吸，只在回流间隙缩短一次接续；成人捕捉到反应改变救治。\",\"emotionalShift\":\"窒息与陌生→有办法可试→脱险后的虚脱→被笨拙小心地接住。\",\"informationReveal\":\"保护也有适配限制；那一点方法不是一次性的幻觉，尚不知是什么。\",\"netChange\":\"危急新生儿变成稳定受照护的孩子；陆昊知道自己能尝试一个极小动作。\",\"inheritedHookResponsibilities\":[],\"endingHook\":\"休息片刻后在安全状态下主动找回一点同样的气息走向，来不及进一步尝试便睡去。\"}",
+        "estimatedTokens": 121,
+        "allowSummary": false
+      },
+      {
+        "id": "character_hard_facts",
+        "group": "character_hard_facts",
+        "priority": 100,
+        "required": true,
+        "content": "# 第001章试写上下文装配\n\n采用 plan.md 的v2合同及 writing-style.md v2；前文为空，线上旧三章仅作对照，不是本次试写的连续性历史。\n\n| 权威来源 | 本章用途 |\n| --- | --- |\n| novel-brief.md | 普通十八岁学生、单向胎穿、第三人称、2600字预算 |\n| world-bible.md 的 RULE-BIRTH | 护生不适配；最小调整与成人泄压；不引入神籍合同 |\n| characters/profiles/lu-hao.md | 新生儿呈现限制，十二岁档案不得回填 |\n| characters/profiles/shen-lingyi.md、xu-wenying.md、lu-zheng.md、lu-jingheng.md | 产后母亲、祖母阵术、父亲照护、八岁哥哥的知识与行动边界 |\n| volumes/volume-01-opening-outline.md | 救治必须本章完成，第二章才童年实物成果 |\n| writing-style.md | STYLE-01—10、AAI-01—04；危急段暂停幽默，成人对白不经婴儿理解 |\n\n必要事实：双方同名陆昊，但出生当天尚未听懂本地语言；无前世修为、军旅、科研或已知死亡经过；无成熟第二视野；家人不知记忆和残印来历。章末仅有极轻的重复感应，不修炼新法、不重新制造窒息。\n\n裁掉：十二岁全部装备、远期势力档案、终局界潮真相、其余卷纲、原始参考书文本、线上旧章摘要及既有连续性账本。原60章细纲stale；本次仅按新的1—3章窗口执行。\n\n缺失项：无需新增关键世界事实；出生的细小物件和对白可按本章动作合理创作，不能让这些细节变成新增设定。",
+        "estimatedTokens": 183,
+        "allowSummary": false
+      },
+      {
+        "id": "obligation_contract",
+        "group": "obligation_contract",
+        "priority": 100,
+        "required": true,
+        "content": "第三人称贴近新生儿陆昊，不懂当地语言。开场即窒息压迫，仅允许一处高考结束联想。放弃争满气，顺一闪方向缩短接续；成人据此撤阵片泄压，当章呼吸稳定。转外部叙述交代许文瑛与医者操作，再回婴儿触觉。探视段父亲抱姿僵硬，哥哥纠正，母亲家常收束。收尾在安全中找回极轻气息走向，随即睡去。不排队抒情，不解释笑点。\n{\"targetWordCount\":2600,\"lengthBudget\":{\"targetWordCount\":2600,\"softMinWordCount\":2210,\"softMaxWordCount\":2990,\"hardMaxWordCount\":3250},\"scenes\":[{\"key\":\"S1\",\"title\":\"窒息与微光\",\"purpose\":\"建立出生窒息的压迫感，引出唯一一次高考结束的联想，并让主角做出微小的气息调整。\",\"mustAdvance\":[\"窒息危机\",\"微小主动选择\"],\"mustPreserve\":[\"新生儿视角\",\"不懂当地语言\"],\"entryState\":\"刚出生，无法呼吸，意识混乱。\",\"exitState\":\"放弃争满气，顺着回流间隙缩短一次接续。\",\"forbiddenExpansion\":[\"前世详细回忆\",\"超自然力量展示\"],\"targetWordCount\":800,\"resistance\":\"身体不受控制，外界刺激反而加重窒息。\",\"turn\":\"意识到不能硬撑，只做一个极小的顺应动作。\",\"emotionalShift\":\"恐慌与压迫→短暂的清明→决断。\",\"readerValue\":\"体验被困的绝望与一丝求生的智慧。\"},{\"key\":\"S2\",\"title\":\"撤阵与稳定\",\"purpose\":\"成人捕捉到婴儿的反应变化，调整救治手法，呼吸趋于稳定。\",\"mustAdvance\":[\"救治过程\",\"呼吸稳定\"],\"mustPreserve\":[\"医者操作\",\"许文瑛配合\"],\"entryState\":\"婴儿做出微小气息调整，成人尚未察觉。\",\"exitState\":\"呼吸持续稳定，危机解除。\",\"forbiddenExpansion\":[\"过度医学解释\",\"神契设定\"],\"targetWordCount\":900,\"resistance\":\"原有防护阵法可能阻碍呼吸，需要精准撤除。\",\"turn\":\"医者注意到气息变化，果断撤开局部防护。\",\"emotionalShift\":\"紧张焦灼→屏息观察→如释重负。\",\"readerValue\":\"看到微小努力如何引发外界的连锁救援。\"},{\"key\":\"S3\",\"title\":\"笨拙的拥抱\",\"purpose\":\"转入家庭探视，通过父亲的僵硬、哥哥的纠正和母亲的家常收束，交付关系温度。\",\"mustAdvance\":[\"家庭关系\",\"情感落地\"],\"mustPreserve\":[\"父亲抱姿僵硬\",\"哥哥纠正\",\"母亲家常\"],\"entryState\":\"婴儿脱离危险，被包裹好准备探视。\",\"exitState\":\"在家人环绕中感到安全与疲倦。\",\"forbiddenExpansion\":[\"长篇对话\",\"未来剧透\"],\"targetWordCount\":600,\"resistance\":\"成年人面对新生儿的生疏与小心翼翼。\",\"turn\":\"哥哥出声纠正父亲的姿势，气氛松弛下来。\",\"emotionalShift\":\"虚弱与陌生→被触碰的惊异→温暖与安心。\",\"readerValue\":\"感受劫后余生的家庭温情。\"},{\"key\":\"S4\",\"title\":\"睡前的回响\",\"purpose\":\"在安全状态下，主角尝试找回刚才的气息走向，但迅速疲倦入睡，留下悬念。\",\"mustAdvance\":[\"气息方法验证\",\"章节收尾\"],\"mustPreserve\":[\"极轻气息走向\",\"随即睡去\"],\"entryState\":\"安静躺在襁褓中，周围是家人的气息。\",\"exitState\":\"来不及进一步尝试便沉沉睡去。\",\"forbiddenExpansion\":[\"修炼功法详解\",\"内心独白过长\"],\"targetWordCount\":300,\"resistance\":\"新生儿体力的极度匮乏。\",\"turn\":\"主动找回那一点气息走向，确认它不是幻觉。\",\"emotionalShift\":\"平静→微弱的好奇与试探→不可抗拒的困倦。\",\"readerValue\":\"确认主角掌握了一丝主动权，同时期待后续发展。\"}],\"readerExperience\":{\"readerQuestion\":\"成年记忆困在婴儿身体里，他能不能自己争取一点生机？\",\"promisedReward\":\"一次微小主动选择产生实际作用，救治当章完成。\",\"rewardLevel\":\"partial\",\"protagonistWant\":\"吸进下一口气，停止越救越难受的刺激。\",\"primaryResistance\":\"身体无法执行成年人的指令，也说不出自己的感觉。\",\"keyTurn\":\"放弃强行维持完整呼吸，只在回流间隙缩短一次接续；成人捕捉到反应改变救治。\",\"emotionalShift\":\"窒息与陌生→有办法可试→脱险后的虚脱→被笨拙小心地接住。\",\"informationReveal\":\"保护也有适配限制；那一点方法不是一次性的幻觉，尚不知是什么。\",\"netChange\":\"危急新生儿变成稳定受照护的孩子；陆昊知道自己能尝试一个极小动作。\",\"inheritedHookResponsibilities\":[],\"endingHook\":\"休息片刻后在安全状态下主动找回一点同样的气息走向，来不及进一步尝试便睡去。\"}}",
+        "estimatedTokens": 599,
+        "allowSummary": false
+      },
+      {
+        "id": "volume_window",
+        "group": "volume_window",
+        "priority": 100,
+        "required": true,
+        "content": "第一章出生脱险；第二章七岁修炉；第三章十二岁军需核验。",
+        "estimatedTokens": 7,
+        "allowSummary": false
+      },
+      {
+        "id": "participant_subset",
+        "group": "participant_subset",
+        "priority": 100,
+        "required": true,
+        "content": "[{\"id\":\"luhao\",\"name\":\"陆昊\",\"role\":\"新生儿，普通学生记忆，无已知死亡经过，不懂当地语言，无前世修为。\"},{\"id\":\"shen\",\"name\":\"沈令仪\",\"role\":\"产后母亲，有医学判断，疲惫但可靠。\"},{\"id\":\"xu\",\"name\":\"许文瑛\",\"role\":\"祖母，阵法专业者，负责泄压。\"},{\"id\":\"luzheng\",\"name\":\"陆峥\",\"role\":\"父亲，淮北王，脱险后进入探视。\"},{\"id\":\"brother\",\"name\":\"陆景珩\",\"role\":\"八岁哥哥，世子，认真照料弟弟。\"}]",
+        "estimatedTokens": 71,
+        "allowSummary": false
+      },
+      {
+        "id": "local_state",
+        "group": "local_state",
+        "priority": 100,
+        "required": true,
+        "content": "开篇，无稳定前文；不得使用线上旧三章当作历史。",
+        "estimatedTokens": 6,
+        "allowSummary": false
+      },
+      {
+        "id": "style_contract",
+        "group": "style_contract",
+        "priority": 100,
+        "required": true,
+        "content": "【本书执行优先级】叙事视角采用第三人称（third_person）。本书设置、章节义务、事实与保密边界优先于参考写法。\n\n下列写法是参考技法；其中的人称、题材或节奏要求与本书合同冲突时，由你转化为适合本书的表达，不照搬参考书设定，不改变本书视角。限知范围和叙述人称分别核对，第三人称限知不能称为第一人称。\n\nNarrative contract\n1. narrative.summary: must keep 第三人称贴近陆昊；行动先于设定，短心理推动选择，身份与知情边界优先。\n2. narrative.STYLE-01: must keep 开场出现具体麻烦与一次尝试，专名随用途进入。\n3. narrative.STYLE-04: must keep 允许短促、有个人偏见的心理反应；随后改变行动，成人判断经明确场景转入。\n\nCharacter contract\n1. character.summary: must keep 家人与专业者各有任务，主角保留一个影响结果的选择；笑意来自年龄与关系反差。\n2. character.STYLE-03: must keep 主角的有限选择产生可见作用，成人完成专业职责，功劳各自清楚。\n3. character.STYLE-05-06: must keep 危险结束后用一次家常误解或接话松气；陆昊好胜直白，母亲温和有界限，祖母利落，父亲抱娃生疏，哥哥认真。\n\nLanguage contract\n1. language.summary: must keep 清楚、具体、有动作位置；句段随压力变化，关心通过照护动作落地。\n2. language.STYLE-07-09: must keep 用改变行动的细节承载情绪；保留短心理，删重复体感和已被动作证明的解释，不排队抒情。\n3. language.AAI-01-03: must keep 用实际后果支持聪明与温情判断；区分人物声音，收尾按本章责任，不强造震惊。\n\nRhythm contract\n1. rhythm.summary: must keep 一章完成一个主事件；每段有净变化，先兑现可见回报，再引出下一步行动期待。\n2. rhythm.STYLE-02-08: must keep 前三章连续兑现：出生脱险、童年修炉、十二岁验出坏晶；禁止把本章承诺推给下章，不靠悬停填字数。\n3. rhythm.STYLE-10: must keep 快节奏仍保留动作因果与限制，危急段不插笑话，不堆全书设定。\n\nAnti-AI contract\n\nSelf-check\n- Keep brief inner reactions that motivate choices; replace repeated explanations already conveyed by action or tone.\n- Check whether paragraph endings summarize, elevate, or moralize.\n- Check whether repeated sentence openings, metaphors, or bodily reactions add new information instead of repeating the same emotion.\n- Remove static action loops that change neither choices nor information; do not fill the length target by repeating a scene.\n- If AI flavor remains, revise before returning the final draft.",
+        "estimatedTokens": 398,
+        "allowSummary": false
+      }
+    ],
+    "selectedBlockIds": [
+      "writing_platform",
+      "book_contract",
+      "chapter_mission",
+      "reader_experience",
+      "character_hard_facts",
+      "obligation_contract",
+      "volume_window",
+      "participant_subset",
+      "local_state",
+      "style_contract"
+    ],
+    "droppedBlockIds": [],
+    "summarizedBlockIds": [],
+    "estimatedInputTokens": 1935
+  }
+}

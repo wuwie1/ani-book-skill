@@ -1,0 +1,8 @@
+narrative.summary: 第三人称贴近陆昊；行动先于设定，短心理推动选择，身份与知情边界优先。
+1. narrative.summary: must keep 第三人称贴近陆昊；行动先于设定，短心理推动选择，身份与知情边界优先。
+character.summary: 家人与专业者各有任务，主角保留一个影响结果的选择；笑意来自年龄与关系反差。
+1. character.summary: must keep 家人与专业者各有任务，主角保留一个影响结果的选择；笑意来自年龄与关系反差。
+language.summary: 清楚、具体、有动作位置；句段随压力变化，关心通过照护动作落地。
+1. language.summary: must keep 清楚、具体、有动作位置；句段随压力变化，关心通过照护动作落地。
+rhythm.summary: 一章完成一个主事件；每段有净变化，先兑现可见回报，再引出下一步行动期待。
+1. rhythm.summary: must keep 一章完成一个主事件；每段有净变化，先兑现可见回报，再引出下一步行动期待。

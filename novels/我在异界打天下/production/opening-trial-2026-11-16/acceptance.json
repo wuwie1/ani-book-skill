@@ -1,0 +1,41 @@
+{
+  "status": "continue_with_risk",
+  "score": {
+    "coherence": 90,
+    "pacing": 88,
+    "repetition": 86,
+    "engagement": 89,
+    "voice": 87,
+    "overall": 88
+  },
+  "summary": "出生救治当章完成，主角微小选择引发成人泄压，家人探视交付关系温度，结尾气息确认形成期待，所有硬合同均已兑现。",
+  "blockingIssues": [
+    {
+      "category": "mode_fit",
+      "severity": "medium",
+      "code": "style_review_unavailable",
+      "evidence": "写法提醒必须引用有效规则与当前正文原句。",
+      "fixSuggestion": "正文已保留，请从章节页面重新检查写法。"
+    }
+  ],
+  "repairDirectives": [],
+  "missingObligations": [],
+  "repairability": "none",
+  "decisionReason": "本章义务全部通过正文动作与感知兑现，无连续性断裂或保密泄漏，可直接保存推进。",
+  "riskTags": [
+    "第二章需承接气息感应作为童年修炉的前置能力萌芽，注意不提前升级为完整功法",
+    "style_review_unavailable",
+    "style_review_observation_invalid"
+  ],
+  "assetSyncRecommendation": {
+    "priority": "normal",
+    "reason": "同步陆昊气息感应状态、许文瑛护生阵操作记录及家庭成员初始关系定位。",
+    "requiresFullPayoffReconcile": false
+  },
+  "continuePolicy": "continue",
+  "styleReview": null,
+  "styleReviewFailure": {
+    "code": "observation_invalid",
+    "message": "写法提醒必须引用有效规则与当前正文原句。"
+  }
+}

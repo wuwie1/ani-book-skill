@@ -1,0 +1,10 @@
+{
+  "sha": "64d7b6f1020004ee566a4216de5b09d307541a10",
+  "ref": "origin/ai",
+  "passed": [
+    "server-build",
+    "client-build",
+    "targeted-tests"
+  ],
+  "evidence": "Full server TypeScript build passed on exact tested source: /tmp/assistant-opening-empty-build.log. 53 pipeline recovery/manual sync tests passed without skips: /tmp/assistant-opening-empty-tests.log. New regression tests failed before the change and pass after it. Exact changed source/test bytes match /tmp/assistant-opening-repair. Only NovelPipelineExecutor.ts runtime changed from deployed 6e2002ef; client/shared/dependency/toolchain inputs unchanged. Reuse validated client typecheck+Vite build /tmp/assistant-opening-client-build.log and deployed Linux build from 20261116T105908-1cd58f02a0f6-seipzzy0. Earlier 28 planning tests and 183 broader targeted passes remain applicable to unchanged paths."
+}

@@ -1,0 +1,86 @@
+{
+  "runId": "bc2cf965-b380-4ec7-b6a8-fdfd076412a4",
+  "novelId": "cmwgjl1x30007bowjeu3684pv",
+  "mode": "completed",
+  "driver": "auto",
+  "headline": "第 1—1 章已完成",
+  "detail": null,
+  "nextActionGuidance": "下一步可写第 2—4 章。核对下方章节范围，点击提交后，AI 才会开始本次创作。",
+  "chapterProgress": {
+    "from": 1,
+    "to": 1,
+    "total": 1,
+    "done": 1,
+    "current": null
+  },
+  "nextLaunchRange": {
+    "from": 2,
+    "to": 4
+  },
+  "workspaceActivity": {
+    "novelId": "cmwgjl1x30007bowjeu3684pv",
+    "runId": "bc2cf965-b380-4ec7-b6a8-fdfd076412a4",
+    "revision": "[\"bc2cf965-b380-4ec7-b6a8-fdfd076412a4\",4,[\"[\\\"book_contract\\\",\\\"chapters:1-1\\\",1,\\\"confirmed\\\"]\",\"[\\\"book_contract\\\",\\\"chapters:1-1\\\",2,\\\"confirmed\\\"]\",\"[\\\"book_contract\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",1,\\\"confirmed\\\"]\",\"[\\\"book_contract\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",2,\\\"confirmed\\\"]\",\"[\\\"book_contract\\\",\\\"chapters:2-3\\\",1,\\\"confirmed\\\"]\",\"[\\\"chapter_batch_closed\\\",\\\"chapters:1-1\\\",1,\\\"draft\\\"]\",\"[\\\"chapter_batch_closed\\\",\\\"chapters:1-1\\\",2,\\\"user_edited\\\"]\",\"[\\\"chapter_batch_closed\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",1,\\\"draft\\\"]\",\"[\\\"chapter_batch_closed\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",2,\\\"stale\\\"]\",\"[\\\"chapter_batch_closed\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",3,\\\"draft\\\"]\",\"[\\\"chapter_batch_closed\\\",\\\"chapters:2-3\\\",1,\\\"confirmed\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:1\\\",1,\\\"confirmed\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:1\\\",2,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:10\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:11\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:12\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:13\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:14\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:15\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:16\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:17\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:18\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:19\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:2\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:20\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:21\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:22\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:23\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:24\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:25\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:26\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:27\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:28\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:29\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:3\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:30\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:31\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:32\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:33\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:34\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:35\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:36\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:37\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:38\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:39\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:4\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:40\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:41\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:42\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:43\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:44\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:45\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:46\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:47\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:48\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:49\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:5\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:50\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:51\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:52\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:53\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:54\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:55\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:56\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:57\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:58\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:59\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:6\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:60\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:7\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:8\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:9\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_execution_contract\\\",\\\"chapters:1-1\\\",1,\\\"confirmed\\\"]\",\"[\\\"chapter_execution_contract\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",1,\\\"draft\\\"]\",\"[\\\"chapter_execution_contract\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",2,\\\"confirmed\\\"]\",\"[\\\"chapter_execution_contract\\\",\\\"chapters:2-3\\\",1,\\\"confirmed\\\"]\",\"[\\\"chapter_task_sheet\\\",\\\"chapters:1-1\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_task_sheet\\\",\\\"chapters:1-1\\\",2,\\\"confirmed\\\"]\",\"[\\\"chapter_task_sheet\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",1,\\\"draft\\\"]\",\"[\\\"chapter_task_sheet\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",2,\\\"confirmed\\\"]\",\"[\\\"chapter_task_sheet\\\",\\\"chapters:2-3\\\",1,\\\"confirmed\\\"]\",\"[\\\"character_cast\\\",\\\"chapters:1-1\\\",1,\\\"confirmed\\\"]\",\"[\\\"character_cast\\\",\\\"chapters:1-1\\\",2,\\\"confirmed\\\"]\",\"[\\\"character_cast\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",1,\\\"confirmed\\\"]\",\"[\\\"character_cast\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",2,\\\"confirmed\\\"]\",\"[\\\"character_cast\\\",\\\"chapters:2-3\\\",1,\\\"confirmed\\\"]\",\"[\\\"novel_seed\\\",\\\"chapters:1-1\\\",1,\\\"confirmed\\\"]\",\"[\\\"novel_seed\\\",\\\"chapters:1-1\\\",2,\\\"confirmed\\\"]\",\"[\\\"novel_seed\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",1,\\\"confirmed\\\"]\",\"[\\\"novel_seed\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",2,\\\"confirmed\\\"]\",\"[\\\"novel_seed\\\",\\\"chapters:2-3\\\",1,\\\"confirmed\\\"]\",\"[\\\"story_macro\\\",\\\"chapters:1-1\\\",1,\\\"confirmed\\\"]\",\"[\\\"story_macro\\\",\\\"chapters:1-1\\\",2,\\\"confirmed\\\"]\",\"[\\\"story_macro\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",1,\\\"confirmed\\\"]\",\"[\\\"story_macro\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",2,\\\"confirmed\\\"]\",\"[\\\"story_macro\\\",\\\"chapters:2-3\\\",1,\\\"confirmed\\\"]\",\"[\\\"volume_beat_sheet\\\",\\\"chapters:1-1\\\",1,\\\"confirmed\\\"]\",\"[\\\"volume_beat_sheet\\\",\\\"chapters:1-1\\\",2,\\\"confirmed\\\"]\",\"[\\\"volume_beat_sheet\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",1,\\\"confirmed\\\"]\",\"[\\\"volume_beat_sheet\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",2,\\\"confirmed\\\"]\",\"[\\\"volume_beat_sheet\\\",\\\"chapters:2-3\\\",1,\\\"confirmed\\\"]\",\"[\\\"volume_chapter_list\\\",\\\"chapters:1-1\\\",1,\\\"confirmed\\\"]\",\"[\\\"volume_chapter_list\\\",\\\"chapters:1-1\\\",2,\\\"confirmed\\\"]\",\"[\\\"volume_chapter_list\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",1,\\\"confirmed\\\"]\",\"[\\\"volume_chapter_list\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",2,\\\"confirmed\\\"]\",\"[\\\"volume_chapter_list\\\",\\\"chapters:2-3\\\",1,\\\"confirmed\\\"]\",\"[\\\"volume_strategy\\\",\\\"chapters:1-1\\\",1,\\\"confirmed\\\"]\",\"[\\\"volume_strategy\\\",\\\"chapters:1-1\\\",2,\\\"confirmed\\\"]\",\"[\\\"volume_strategy\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",1,\\\"confirmed\\\"]\",\"[\\\"volume_strategy\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",2,\\\"confirmed\\\"]\",\"[\\\"volume_strategy\\\",\\\"chapters:2-3\\\",1,\\\"confirmed\\\"]\",\"[\\\"world_skeleton\\\",\\\"chapters:1-1\\\",1,\\\"confirmed\\\"]\",\"[\\\"world_skeleton\\\",\\\"chapters:1-1\\\",2,\\\"confirmed\\\"]\",\"[\\\"world_skeleton\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",1,\\\"confirmed\\\"]\",\"[\\\"world_skeleton\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",2,\\\"confirmed\\\"]\",\"[\\\"world_skeleton\\\",\\\"chapters:2-3\\\",1,\\\"confirmed\\\"]\"]]",
+    "focus": null
+  },
+  "progress": {
+    "done": 3,
+    "total": 3,
+    "source": "artifact_ledger"
+  },
+  "debts": {
+    "count": 12,
+    "chapterOrders": [
+      1,
+      2
+    ]
+  },
+  "availableActions": [
+    {
+      "id": "open_run",
+      "label": "选择并继续写第 2—4 章",
+      "kind": "command",
+      "primary": true,
+      "command": "open_run"
+    }
+  ],
+  "sourceRoute": "/lab/director/cmwgjl1x30007bowjeu3684pv",
+  "sourceTrace": {
+    "controlStatus": "completed",
+    "controlVersion": 4,
+    "pauseKind": null,
+    "planVersion": "director-next-production-v1"
+  },
+  "timeline": [
+    {
+      "seq": 1,
+      "type": "production_batch_implementation",
+      "payload": {
+        "version": 1,
+        "implementation": "legacy",
+        "novelId": "cmwgjl1x30007bowjeu3684pv",
+        "scope": "chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01",
+        "from": 1,
+        "to": 1
+      },
+      "createdAt": "2026-11-17T01:23:35.654Z"
+    },
+    {
+      "seq": 2,
+      "type": "chapter_batch_job",
+      "payload": {
+        "jobId": "cmwk0dvgl0006q9wjakoenw04"
+      },
+      "createdAt": "2026-11-17T01:23:35.692Z"
+    },
+    {
+      "seq": 3,
+      "type": "step_finished",
+      "payload": {
+        "stepId": "chapter_batch",
+        "tokensUsed": 0
+      },
+      "createdAt": "2026-11-17T01:27:49.727Z"
+    }
+  ]
+}

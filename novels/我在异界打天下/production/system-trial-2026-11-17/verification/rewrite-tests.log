@@ -1,0 +1,232 @@
+TAP version 13
+# Subtest: takeover does not confirm an existing skeleton without a strategy or skip its prerequisite
+ok 1 - takeover does not confirm an existing skeleton without a strategy or skip its prerequisite
+  ---
+  duration_ms: 7.412292
+  type: 'test'
+  ...
+# Subtest: a cleared chapter supersedes old protected completion facts and reaches writing in the same scope
+ok 2 - a cleared chapter supersedes old protected completion facts and reaches writing in the same scope
+  ---
+  duration_ms: 0.37275
+  type: 'test'
+  ...
+# Subtest: opening excludes old body knowledge and projected future relationships without deleting history
+ok 3 - opening excludes old body knowledge and projected future relationships without deleting history
+  ---
+  duration_ms: 1415.52075
+  type: 'test'
+  ...
+# Subtest: only a prior synchronized source with a matching snapshot revision enters chapter context
+ok 4 - only a prior synchronized source with a matching snapshot revision enters chapter context
+  ---
+  duration_ms: 183.275125
+  type: 'test'
+  ...
+# Subtest: extraction projects prior snapshot over clean baseline and scopes resource/payoff changes
+ok 5 - extraction projects prior snapshot over clean baseline and scopes resource/payoff changes
+  ---
+  duration_ms: 0.286708
+  type: 'test'
+  ...
+# Subtest: native production receipts establish the same state boundary without legacy checkpoints
+ok 6 - native production receipts establish the same state boundary without legacy checkpoints
+  ---
+  duration_ms: 97.6015
+  type: 'test'
+  ...
+# Subtest: clearing a draft invalidates derived plans atomically while preserving written neighbors and author contracts
+ok 7 - clearing a draft invalidates derived plans atomically while preserving written neighbors and author contracts
+  ---
+  duration_ms: 1543.51375
+  type: 'test'
+  ...
+# Subtest: manual chapter saves fence concurrent writes and close durable, versioned timelines
+ok 8 - manual chapter saves fence concurrent writes and close durable, versioned timelines
+  ---
+  duration_ms: 2679.738625
+  type: 'test'
+  ...
+# Subtest: manual saves and timeline finalization roll back their entire persistence boundary
+ok 9 - manual saves and timeline finalization roll back their entire persistence boundary
+  ---
+  duration_ms: 1055.447791
+  type: 'test'
+  ...
+# Subtest: body compare-and-save tolerates summary updates, rejects real conflicts, and queues atomically
+ok 10 - body compare-and-save tolerates summary updates, rejects real conflicts, and queues atomically
+  ---
+  duration_ms: 155.382083
+  type: 'test'
+  ...
+# prisma:error 
+# Invalid `prisma_1.prisma.chapterArtifactSyncCheckpoint.create()` invocation in
+# /private/tmp/assistant-rewrite-repair-20261117/server/dist/services/novel/chapterEditor/synchronization/ManualChapterSyncLease.js:11:61
+#    8 const identity = { novelId, chapterId, contentHash: "chapter", artifactType: "manual_chapter_sync_lease:v1", syncMode: "manual" };
+#    9 const metadataJson = JSON.stringify({ owner: (0, node_crypto_1.randomUUID)() });
+#   10 try {
+# → 11     await prisma_1.prisma.chapterArtifactSyncCheckpoint.create(
+# Unique constraint failed on the fields: (`novelId`, `chapterId`, `contentHash`, `artifactType`, `syncMode`)
+# prisma:error 
+# Invalid `prisma_1.prisma.chapterArtifactSyncCheckpoint.create()` invocation in
+# /private/tmp/assistant-rewrite-repair-20261117/server/dist/services/novel/runtime/ChapterArtifactBackgroundSyncService.js:502:65
+#   499 };
+#   500 const metadataJson = JSON.stringify(input.metadata ?? {});
+#   501 try {
+# → 502     await prisma_1.prisma.chapterArtifactSyncCheckpoint.create(
+# Unique constraint failed on the fields: (`novelId`, `chapterId`, `contentHash`, `artifactType`, `syncMode`)
+# prisma:error 
+# Invalid `prisma_1.prisma.chapterArtifactSyncCheckpoint.create()` invocation in
+# /private/tmp/assistant-rewrite-repair-20261117/server/dist/services/novel/runtime/artifactSync/ChapterArtifactCheckpointStore.js:16:65
+#   13 }
+#   14 async claim(identity, metadata = {}) {
+#   15     try {
+# → 16         await prisma_1.prisma.chapterArtifactSyncCheckpoint.create(
+# Unique constraint failed on the fields: (`novelId`, `chapterId`, `contentHash`, `artifactType`, `syncMode`)
+# prisma:error 
+# Invalid `prisma_1.prisma.chapterArtifactSyncCheckpoint.create()` invocation in
+# /private/tmp/assistant-rewrite-repair-20261117/server/dist/services/novel/chapterEditor/synchronization/ManualChapterSyncLease.js:11:61
+#    8 const identity = { novelId, chapterId, contentHash: "chapter", artifactType: "manual_chapter_sync_lease:v1", syncMode: "manual" };
+#    9 const metadataJson = JSON.stringify({ owner: (0, node_crypto_1.randomUUID)() });
+#   10 try {
+# → 11     await prisma_1.prisma.chapterArtifactSyncCheckpoint.create(
+# Unique constraint failed on the fields: (`novelId`, `chapterId`, `contentHash`, `artifactType`, `syncMode`)
+# prisma:error 
+# Invalid `prisma_1.prisma.chapterArtifactSyncCheckpoint.create()` invocation in
+# /private/tmp/assistant-rewrite-repair-20261117/server/dist/services/novel/runtime/ChapterArtifactBackgroundSyncService.js:502:65
+#   499 };
+#   500 const metadataJson = JSON.stringify(input.metadata ?? {});
+#   501 try {
+# → 502     await prisma_1.prisma.chapterArtifactSyncCheckpoint.create(
+# Unique constraint failed on the fields: (`novelId`, `chapterId`, `contentHash`, `artifactType`, `syncMode`)
+# prisma:error 
+# Invalid `prisma_1.prisma.chapterArtifactSyncCheckpoint.create()` invocation in
+# /private/tmp/assistant-rewrite-repair-20261117/server/dist/services/novel/runtime/artifactSync/ChapterArtifactCheckpointStore.js:16:65
+#   13 }
+#   14 async claim(identity, metadata = {}) {
+#   15     try {
+# → 16         await prisma_1.prisma.chapterArtifactSyncCheckpoint.create(
+# Unique constraint failed on the fields: (`novelId`, `chapterId`, `contentHash`, `artifactType`, `syncMode`)
+# prisma:error 
+# Invalid `prisma_1.prisma.chapterArtifactSyncCheckpoint.create()` invocation in
+# /private/tmp/assistant-rewrite-repair-20261117/server/dist/services/novel/chapterEditor/synchronization/ManualChapterSyncLease.js:11:61
+#    8 const identity = { novelId, chapterId, contentHash: "chapter", artifactType: "manual_chapter_sync_lease:v1", syncMode: "manual" };
+#    9 const metadataJson = JSON.stringify({ owner: (0, node_crypto_1.randomUUID)() });
+#   10 try {
+# → 11     await prisma_1.prisma.chapterArtifactSyncCheckpoint.create(
+# Unique constraint failed on the fields: (`novelId`, `chapterId`, `contentHash`, `artifactType`, `syncMode`)
+# Subtest: failed synchronization preserves saved prose and retries only unfinished consumers across instances
+ok 11 - failed synchronization preserves saved prose and retries only unfinished consumers across instances
+  ---
+  duration_ms: 213.336166
+  type: 'test'
+  ...
+# Subtest: old-version terminal edits acquire a durable repair obligation on explicit continuation
+ok 12 - old-version terminal edits acquire a durable repair obligation on explicit continuation
+  ---
+  duration_ms: 44.490167
+  type: 'test'
+  ...
+# prisma:error 
+# Invalid `prisma_1.prisma.chapterArtifactSyncCheckpoint.create()` invocation in
+# /private/tmp/assistant-rewrite-repair-20261117/server/dist/services/novel/chapterEditor/synchronization/ManualChapterSyncLease.js:11:61
+#    8 const identity = { novelId, chapterId, contentHash: "chapter", artifactType: "manual_chapter_sync_lease:v1", syncMode: "manual" };
+#    9 const metadataJson = JSON.stringify({ owner: (0, node_crypto_1.randomUUID)() });
+#   10 try {
+# → 11     await prisma_1.prisma.chapterArtifactSyncCheckpoint.create(
+# Unique constraint failed on the fields: (`novelId`, `chapterId`, `contentHash`, `artifactType`, `syncMode`)
+# Subtest: a completed marker without a valid boundary is recoverable without another author edit
+ok 13 - a completed marker without a valid boundary is recoverable without another author edit
+  ---
+  duration_ms: 59.998166
+  type: 'test'
+  ...
+# prisma:error 
+# Invalid `prisma_1.prisma.chapterArtifactSyncCheckpoint.create()` invocation in
+# /private/tmp/assistant-rewrite-repair-20261117/server/dist/services/novel/chapterEditor/synchronization/ManualChapterSyncLease.js:11:61
+#    8 const identity = { novelId, chapterId, contentHash: "chapter", artifactType: "manual_chapter_sync_lease:v1", syncMode: "manual" };
+#    9 const metadataJson = JSON.stringify({ owner: (0, node_crypto_1.randomUUID)() });
+#   10 try {
+# → 11     await prisma_1.prisma.chapterArtifactSyncCheckpoint.create(
+# Unique constraint failed on the fields: (`novelId`, `chapterId`, `contentHash`, `artifactType`, `syncMode`)
+# prisma:error 
+# Invalid `prisma_1.prisma.chapterArtifactSyncCheckpoint.create()` invocation in
+# /private/tmp/assistant-rewrite-repair-20261117/server/dist/services/novel/chapterEditor/synchronization/ManualChapterSyncLease.js:11:61
+#    8 const identity = { novelId, chapterId, contentHash: "chapter", artifactType: "manual_chapter_sync_lease:v1", syncMode: "manual" };
+#    9 const metadataJson = JSON.stringify({ owner: (0, node_crypto_1.randomUUID)() });
+#   10 try {
+# → 11     await prisma_1.prisma.chapterArtifactSyncCheckpoint.create(
+# Unique constraint failed on the fields: (`novelId`, `chapterId`, `contentHash`, `artifactType`, `syncMode`)
+# prisma:error 
+# Invalid `prisma_1.prisma.chapterArtifactSyncCheckpoint.create()` invocation in
+# /private/tmp/assistant-rewrite-repair-20261117/server/dist/services/novel/chapterEditor/synchronization/ManualChapterSyncLease.js:11:61
+#    8 const identity = { novelId, chapterId, contentHash: "chapter", artifactType: "manual_chapter_sync_lease:v1", syncMode: "manual" };
+#    9 const metadataJson = JSON.stringify({ owner: (0, node_crypto_1.randomUUID)() });
+#   10 try {
+# → 11     await prisma_1.prisma.chapterArtifactSyncCheckpoint.create(
+# Unique constraint failed on the fields: (`novelId`, `chapterId`, `contentHash`, `artifactType`, `syncMode`)
+# Subtest: stale jobs and A-B-A edits cannot reuse an old revision or publish a stale boundary
+ok 14 - stale jobs and A-B-A edits cannot reuse an old revision or publish a stale boundary
+  ---
+  duration_ms: 45.071084
+  type: 'test'
+  ...
+# Subtest: V1 saves retain legacy summary/timeline work in the durable task without V2 ownership
+ok 15 - V1 saves retain legacy summary/timeline work in the durable task without V2 ownership
+  ---
+  duration_ms: 46.103208
+  type: 'test'
+  ...
+# Subtest: explicit continuation waits for edited predecessor chapters outside the new generation range
+ok 16 - explicit continuation waits for edited predecessor chapters outside the new generation range
+  ---
+  duration_ms: 51.879584
+  type: 'test'
+  ...
+# prisma:error 
+# Invalid `tx.chapter.update()` invocation in
+# /private/tmp/assistant-rewrite-repair-20261117/server/dist/services/novel/chapterEditor/persistence/ManualChapterStore.js:56:44
+#   53     throw new errorHandler_1.AppError("本章保存版本已变化。请先查看新内容，再合并你的修改。", 409);
+#   54 }
+#   55 const chapter = await prisma_1.prisma.$transaction(async (tx) => {
+# → 56     const saved = await tx.chapter.update(
+# An operation failed because it depends on one or more records that were required but not found. No record was found for an update.
+# Subtest: simultaneous saves cannot overwrite each other using the same base body
+ok 17 - simultaneous saves cannot overwrite each other using the same base body
+  ---
+  duration_ms: 4.728083
+  type: 'test'
+  ...
+# Subtest: paused V2 candidate synchronization requires proof of a current manual revision
+ok 18 - paused V2 candidate synchronization requires proof of a current manual revision
+  ---
+  duration_ms: 23.054875
+  type: 'test'
+  ...
+# Subtest: gate preparation completes the current edit before its short confirmation transaction
+ok 19 - gate preparation completes the current edit before its short confirmation transaction
+  ---
+  duration_ms: 89.448959
+  type: 'test'
+  ...
+# Subtest: manual reassessment uses the existing acceptance prompt without rewriting and detects concurrent edits
+ok 20 - manual reassessment uses the existing acceptance prompt without rewriting and detects concurrent edits
+  ---
+  duration_ms: 11.038458
+  type: 'test'
+  ...
+# Subtest: ordinary chapter confirmation validates synchronization and protects only real author revisions
+ok 21 - ordinary chapter confirmation validates synchronization and protects only real author revisions
+  ---
+  duration_ms: 20.979291
+  type: 'test'
+  ...
+1..21
+# tests 21
+# suites 0
+# pass 21
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3832.761583

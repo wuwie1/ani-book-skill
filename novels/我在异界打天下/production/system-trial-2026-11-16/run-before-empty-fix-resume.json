@@ -1,0 +1,122 @@
+{
+  "runId": "a48ad426-a316-41ea-9143-44a446838c9a",
+  "novelId": "cmwgjl1x30007bowjeu3684pv",
+  "mode": "paused",
+  "driver": "auto",
+  "headline": "暂停中，等待你从保存进度继续",
+  "detail": "本章正文或状态同步记录与保存进度不一致，请核对章节内容后继续。",
+  "nextActionGuidance": "请先查看下方暂停原因，处理后点击“从保存进度继续”；已有正文会保留。",
+  "chapterProgress": {
+    "from": 1,
+    "to": 1,
+    "total": 1,
+    "done": 0,
+    "current": null
+  },
+  "nextLaunchRange": {
+    "from": 1,
+    "to": 3
+  },
+  "workspaceActivity": {
+    "novelId": "cmwgjl1x30007bowjeu3684pv",
+    "runId": "a48ad426-a316-41ea-9143-44a446838c9a",
+    "revision": "[\"a48ad426-a316-41ea-9143-44a446838c9a\",8,[\"[\\\"book_contract\\\",\\\"chapters:1-1\\\",1,\\\"confirmed\\\"]\",\"[\\\"book_contract\\\",\\\"chapters:1-1\\\",2,\\\"confirmed\\\"]\",\"[\\\"book_contract\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",1,\\\"confirmed\\\"]\",\"[\\\"book_contract\\\",\\\"chapters:2-3\\\",1,\\\"confirmed\\\"]\",\"[\\\"chapter_batch_closed\\\",\\\"chapters:1-1\\\",1,\\\"draft\\\"]\",\"[\\\"chapter_batch_closed\\\",\\\"chapters:1-1\\\",2,\\\"user_edited\\\"]\",\"[\\\"chapter_batch_closed\\\",\\\"chapters:2-3\\\",1,\\\"confirmed\\\"]\",\"[\\\"chapter_draft\\\",\\\"chapter:1\\\",1,\\\"confirmed\\\"]\",\"[\\\"chapter_execution_contract\\\",\\\"chapters:1-1\\\",1,\\\"confirmed\\\"]\",\"[\\\"chapter_execution_contract\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",1,\\\"draft\\\"]\",\"[\\\"chapter_execution_contract\\\",\\\"chapters:2-3\\\",1,\\\"confirmed\\\"]\",\"[\\\"chapter_task_sheet\\\",\\\"chapters:1-1\\\",1,\\\"stale\\\"]\",\"[\\\"chapter_task_sheet\\\",\\\"chapters:1-1\\\",2,\\\"confirmed\\\"]\",\"[\\\"chapter_task_sheet\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",1,\\\"draft\\\"]\",\"[\\\"chapter_task_sheet\\\",\\\"chapters:2-3\\\",1,\\\"confirmed\\\"]\",\"[\\\"character_cast\\\",\\\"chapters:1-1\\\",1,\\\"confirmed\\\"]\",\"[\\\"character_cast\\\",\\\"chapters:1-1\\\",2,\\\"confirmed\\\"]\",\"[\\\"character_cast\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",1,\\\"confirmed\\\"]\",\"[\\\"character_cast\\\",\\\"chapters:2-3\\\",1,\\\"confirmed\\\"]\",\"[\\\"novel_seed\\\",\\\"chapters:1-1\\\",1,\\\"confirmed\\\"]\",\"[\\\"novel_seed\\\",\\\"chapters:1-1\\\",2,\\\"confirmed\\\"]\",\"[\\\"novel_seed\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",1,\\\"confirmed\\\"]\",\"[\\\"novel_seed\\\",\\\"chapters:2-3\\\",1,\\\"confirmed\\\"]\",\"[\\\"story_macro\\\",\\\"chapters:1-1\\\",1,\\\"confirmed\\\"]\",\"[\\\"story_macro\\\",\\\"chapters:1-1\\\",2,\\\"confirmed\\\"]\",\"[\\\"story_macro\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",1,\\\"confirmed\\\"]\",\"[\\\"story_macro\\\",\\\"chapters:2-3\\\",1,\\\"confirmed\\\"]\",\"[\\\"volume_beat_sheet\\\",\\\"chapters:1-1\\\",1,\\\"confirmed\\\"]\",\"[\\\"volume_beat_sheet\\\",\\\"chapters:1-1\\\",2,\\\"confirmed\\\"]\",\"[\\\"volume_beat_sheet\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",1,\\\"confirmed\\\"]\",\"[\\\"volume_beat_sheet\\\",\\\"chapters:2-3\\\",1,\\\"confirmed\\\"]\",\"[\\\"volume_chapter_list\\\",\\\"chapters:1-1\\\",1,\\\"confirmed\\\"]\",\"[\\\"volume_chapter_list\\\",\\\"chapters:1-1\\\",2,\\\"confirmed\\\"]\",\"[\\\"volume_chapter_list\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",1,\\\"confirmed\\\"]\",\"[\\\"volume_chapter_list\\\",\\\"chapters:2-3\\\",1,\\\"confirmed\\\"]\",\"[\\\"volume_strategy\\\",\\\"chapters:1-1\\\",1,\\\"confirmed\\\"]\",\"[\\\"volume_strategy\\\",\\\"chapters:1-1\\\",2,\\\"confirmed\\\"]\",\"[\\\"volume_strategy\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",1,\\\"confirmed\\\"]\",\"[\\\"volume_strategy\\\",\\\"chapters:2-3\\\",1,\\\"confirmed\\\"]\",\"[\\\"world_skeleton\\\",\\\"chapters:1-1\\\",1,\\\"confirmed\\\"]\",\"[\\\"world_skeleton\\\",\\\"chapters:1-1\\\",2,\\\"confirmed\\\"]\",\"[\\\"world_skeleton\\\",\\\"chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01\\\",1,\\\"confirmed\\\"]\",\"[\\\"world_skeleton\\\",\\\"chapters:2-3\\\",1,\\\"confirmed\\\"]\"]]",
+    "focus": null
+  },
+  "progress": {
+    "done": 2,
+    "total": 3,
+    "source": "artifact_ledger"
+  },
+  "debts": {
+    "count": 8,
+    "chapterOrders": [
+      1,
+      2
+    ]
+  },
+  "availableActions": [
+    {
+      "id": "resume",
+      "label": "从保存进度继续",
+      "kind": "command",
+      "primary": true,
+      "command": "resume"
+    },
+    {
+      "id": "cancel",
+      "label": "取消本次创作",
+      "kind": "command",
+      "primary": false,
+      "command": "cancel"
+    }
+  ],
+  "sourceRoute": "/lab/director/cmwgjl1x30007bowjeu3684pv",
+  "sourceTrace": {
+    "controlStatus": "paused",
+    "controlVersion": 8,
+    "pauseKind": "manual_recovery",
+    "planVersion": "director-next-production-v1"
+  },
+  "timeline": [
+    {
+      "seq": 1,
+      "type": "step_finished",
+      "payload": {
+        "stepId": "chapter_detail_bundle",
+        "tokensUsed": 0
+      },
+      "createdAt": "2026-11-16T11:15:54.889Z"
+    },
+    {
+      "seq": 2,
+      "type": "step_finished",
+      "payload": {
+        "stepId": "execution_contract_sync",
+        "tokensUsed": 0
+      },
+      "createdAt": "2026-11-16T11:15:55.013Z"
+    },
+    {
+      "seq": 3,
+      "type": "production_batch_implementation",
+      "payload": {
+        "version": 1,
+        "implementation": "legacy",
+        "novelId": "cmwgjl1x30007bowjeu3684pv",
+        "scope": "chapters:1-1:volume:cmwgjl1x30007bowjeu3684pv-vol-01",
+        "from": 1,
+        "to": 1
+      },
+      "createdAt": "2026-11-16T11:15:55.028Z"
+    },
+    {
+      "seq": 4,
+      "type": "chapter_batch_job",
+      "payload": {
+        "jobId": "cmwj63r530001rxwjybcczrfi"
+      },
+      "createdAt": "2026-11-16T11:15:55.055Z"
+    },
+    {
+      "seq": 5,
+      "type": "stop_signal",
+      "payload": {
+        "kind": "manual_recovery",
+        "action": "pause_for_manual",
+        "source": "runtime",
+        "reason": "本章正文或状态同步记录与保存进度不一致，请核对章节内容后继续。"
+      },
+      "createdAt": "2026-11-16T11:15:56.076Z"
+    },
+    {
+      "seq": 6,
+      "type": "step_finished",
+      "payload": {
+        "stepId": "chapter_batch",
+        "tokensUsed": 0
+      },
+      "createdAt": "2026-11-16T11:15:56.080Z"
+    }
+  ]
+}

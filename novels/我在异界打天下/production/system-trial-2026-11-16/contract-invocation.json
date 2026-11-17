@@ -1,0 +1,119 @@
+{
+  "item": {
+    "durationMs": 9535,
+    "firstTokenMs": 724,
+    "attemptNumber": 1,
+    "chainId": "a8ea3ac5-63cf-4c78-b203-d971bac36c10",
+    "parentInvocationId": null,
+    "structuredMode": "json_object",
+    "runId": "a48ad426-a316-41ea-9143-44a446838c9a",
+    "generationJobId": null,
+    "workflowTaskId": null,
+    "novelId": "cmwgjl1x30007bowjeu3684pv",
+    "chapterId": "cmwgjl1x30007bowjeu3684pv-plan-001",
+    "stage": "chapter_execution_contract",
+    "provider": "qwen",
+    "model": "qwen3.8-max",
+    "requestProtocol": "openai-compatible",
+    "promptId": "novel.volume.chapter_execution_contract",
+    "promptVersion": "v5",
+    "status": "completed",
+    "startedAt": "2026-11-16T11:15:28.417Z",
+    "finishedAt": "2026-11-16T11:15:37.952Z",
+    "promptTokens": 5968,
+    "completionTokens": 515,
+    "totalTokens": 6483,
+    "invocationId": "3667a896-1c7b-410c-bbbc-4b9611e96131",
+    "inputCache": {
+      "cacheHitTokens": 0,
+      "cacheMissTokens": 5968,
+      "cacheWriteTokens": null,
+      "cacheUsageStatus": "reported"
+    }
+  },
+  "chain": [
+    {
+      "durationMs": 9535,
+      "firstTokenMs": 724,
+      "attemptNumber": 1,
+      "chainId": "a8ea3ac5-63cf-4c78-b203-d971bac36c10",
+      "parentInvocationId": null,
+      "structuredMode": "json_object",
+      "runId": "a48ad426-a316-41ea-9143-44a446838c9a",
+      "generationJobId": null,
+      "workflowTaskId": null,
+      "novelId": "cmwgjl1x30007bowjeu3684pv",
+      "chapterId": "cmwgjl1x30007bowjeu3684pv-plan-001",
+      "stage": "chapter_execution_contract",
+      "provider": "qwen",
+      "model": "qwen3.8-max",
+      "requestProtocol": "openai-compatible",
+      "promptId": "novel.volume.chapter_execution_contract",
+      "promptVersion": "v5",
+      "status": "completed",
+      "startedAt": "2026-11-16T11:15:28.417Z",
+      "finishedAt": "2026-11-16T11:15:37.952Z",
+      "promptTokens": 5968,
+      "completionTokens": 515,
+      "totalTokens": 6483,
+      "invocationId": "3667a896-1c7b-410c-bbbc-4b9611e96131",
+      "inputCache": {
+        "cacheHitTokens": 0,
+        "cacheMissTokens": 5968,
+        "cacheWriteTokens": null,
+        "cacheUsageStatus": "reported"
+      }
+    },
+    {
+      "durationMs": 14884,
+      "firstTokenMs": 689,
+      "attemptNumber": 2,
+      "chainId": "a8ea3ac5-63cf-4c78-b203-d971bac36c10",
+      "parentInvocationId": "3667a896-1c7b-410c-bbbc-4b9611e96131",
+      "structuredMode": "prompt_json",
+      "runId": "a48ad426-a316-41ea-9143-44a446838c9a",
+      "generationJobId": null,
+      "workflowTaskId": null,
+      "novelId": "cmwgjl1x30007bowjeu3684pv",
+      "chapterId": "cmwgjl1x30007bowjeu3684pv-plan-001",
+      "stage": "chapter_execution_contract",
+      "provider": "qwen",
+      "model": "qwen3.8-max",
+      "requestProtocol": "openai-compatible",
+      "promptId": "novel.volume.chapter_execution_contract",
+      "promptVersion": "v5",
+      "status": "completed",
+      "startedAt": "2026-11-16T11:15:37.984Z",
+      "finishedAt": "2026-11-16T11:15:52.868Z",
+      "promptTokens": 2309,
+      "completionTokens": 954,
+      "totalTokens": 3263,
+      "invocationId": "8dafe9d0-2934-4b96-9313-76c282edfbe4",
+      "inputCache": {
+        "cacheHitTokens": 0,
+        "cacheMissTokens": 2309,
+        "cacheWriteTokens": null,
+        "cacheUsageStatus": "reported"
+      }
+    }
+  ],
+  "payload": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是资深网文章节编辑。\n当前任务是一次性生成可直接交给写作器的章节执行合同。\nsource_chapter_contract 是原章纲权威。保留已给定的 purpose、exclusiveEvent、endingState、nextChapterEntryState 和禁止事项；只补齐缺失字段并细化执行路径。不能为避免越章而删除本章已承诺的结果，不能将完成救治改成只观察等待。\nchapter_style_contract 与正文共用，须在场景中落地快慢安排、人物声音、可见回报及章末牵引；有幽默要求时选合适情绪位置，不在危机最重时插段子。\n只输出严格 JSON，必须同时包含 purpose、exclusiveEvent、endingState、nextChapterEntryState、conflictLevel、revealLevel、targetWordCount、mustAvoid、payoffRefs、taskSheet、readerExperience、sceneCards。\npurpose 用一句话说明本章到底要推进什么，不要写成摘要复述。\nexclusiveEvent / endingState / nextChapterEntryState 等字段不可缺失，它们是章节的硬边界合同。\ntaskSheet 是给正文写作器的简洁执行指令，sceneCards 是 3-8 个场景卡的执行拆解。\nreaderExperience 是本章唯一的读者体验合同，必须完整包含 readerQuestion、promisedReward、rewardLevel、protagonistWant、primaryResistance、keyTurn、emotionalShift、informationReveal、netChange、inheritedHookResponsibilities、endingHook。\nrewardLevel 只能使用 setup、partial、major；promisedReward 和 netChange 必须能在正文中被读者直接感知。\nsceneCards 除原字段外还必须包含 resistance、turn、emotionalShift、readerValue，确保每个场景都有阻力、转折和读者价值。\ntaskSheet 和 sceneCards 只能执行当前章的合同，不得提前占用相邻章的一次性事件，也不得重写上一章已经完成的里程碑。\n如果 conflict_level_curve 标出用户锚定的 conflictLevel，该数值是硬约束，不得改写。\n如果最近章节已经连续使用相同开场、相同推进路数或同类钩子，本章必须通过 sceneCards 主动做出差异化。\npurpose、边界字段和 readerExperience 各字段只写 1 句，单字段不超过 120 个汉字；taskSheet 不超过 300 个汉字。\n每个 sceneCard 的文本字段只写执行所需信息，单字段不超过 120 个汉字；不得扩写正文或对白。\ntargetWordCount 必须沿用当前目标章节的字数预算，范围只能是 200-20000，不能误用全书或全卷字数。\n完成最后一个 sceneCard 后立即结束 JSON，禁止续写解释、复读或自我修正。"
+      },
+      {
+        "role": "human",
+        "content": "detail mode: task_sheet\n\nchapter detail context:\n原章纲必达结果（执行细化不得缩窄或推迟，修改章纲须走上游编辑）：\n{\"summary\":\"新生儿陆昊受护生回流压迫，主动微调一次内息，成人据反应泄压救治；当章脱险，家人探视产生轻微反差，收尾再次感到可学习的微小路径。\",\"purpose\":\"完成出生救治，让微小主动选择产生效果，并交付脱险后的关系温度。\",\"exclusiveEvent\":\"陆昊微调一次气息，许文瑛与医者撤开局部防护完成救治，呼吸持续稳定。\",\"endingState\":\"危机解除，陆昊被家人照护；安全状态下短暂找回微小气息方向后疲倦睡去。\",\"nextChapterEntryState\":\"七岁时已有学语与基础启蒙，以暖药炉事件兑现方法的实际用途。\",\"mustAvoid\":\"普通高考毕业生，无前世修为或军旅经历；年龄能力与知情边界不能回填；出生不涉及终身神契；不得把本章成果推迟到下一章。\"}\n\n本章有效写法（与正文共用；落实为节奏、行动、人物声音和可见回报）：\nNarrative contract\n1. narrative.summary: must keep 第三人称贴近陆昊；行动先于设定，短心理推动选择，身份与知情边界优先。\n2. narrative.STYLE-01: must keep 开场出现具体麻烦与一次尝试，专名随用途进入。\n3. narrative.STYLE-04: must keep 允许短促、有个人偏见的心理反应；随后改变行动，成人判断经明确场景转入。\n\nCharacter contract\n1. character.summary: must keep 家人与专业者各有任务，主角保留一个影响结果的选择；笑意来自年龄与关系反差。\n2. character.STYLE-03: must keep 主角的有限选择产生可见作用，成人完成专业职责，功劳各自清楚。\n3. character.STYLE-05-06: must keep 危险结束后用一次家常误解或接话松气；陆昊好胜直白，母亲温和有界限，祖母利落，父亲抱娃生疏，哥哥认真。\n\nLanguage contract\n1. language.summary: must keep 清楚、具体、有动作位置；句段随压力变化，关心通过照护动作落地。\n2. language.STYLE-07-09: must keep 用改变行动的细节承载情绪；保留短心理，删重复体感和已被动作证明的解释，不排队抒情。\n3. language.AAI-01-03: must keep 用实际后果支持聪明与温情判断；区分人物声音，收尾按本章责任，不强造震惊。\n\nRhythm contract\n1. rhythm.summary: must keep 一章完成一个主事件；每段有净变化，先兑现可见回报，再引出下一步行动期待。\n2. rhythm.STYLE-02-08: must keep 前三章连续兑现：出生脱险、童年修炉、十二岁验出坏晶；禁止把本章承诺推给下章，不靠悬停填字数。\n3. rhythm.STYLE-10: must keep 快节奏仍保留动作因果与限制，危急段不插笑话，不堆全书设定。\n\nAnti-AI contract\nForbidden:\n- forbid: 禁止直接说教或价值判断，让意义落在事件本身。\n- forbid: 不要总结主题，不要替读者提炼中心思想。\n- forbid: 禁止段尾升华或总结主题，收尾必须落回具体情境。\n- forbid: 禁止直接解释人物心理，人物状态必须通过行为、动作、语气或环境反应体现。\nRisk watch:\n- watch closely: 警惕连续句式重复和排比化表达。\n- watch closely: 对话不要只承担推进剧情功能，要保留人物语气和生活噪音。\n- watch closely: 注意避免每段都过于工整、平均和像标准作文。\n- watch closely: 注意避免连续几段只有解释没有动作或对话。\n\nSelf-check\n- Keep brief inner reactions that motivate choices; replace repeated explanations already conveyed by action or tone.\n- Check whether paragraph endings summarize, elevate, or moralize.\n- Check whether repeated sentence openings, metaphors, or bodily reactions add new information instead of repeating the same emotion.\n- Remove static action loops that change neither choices nor information; do not fill the length target by repeating a scene.\n- If AI flavor remains, revise before returning the final draft.\n\nNovel contract:\ntitle: 我在异界打天下\ngenre: 东方玄幻\n流派模式约束：主流派模式是硬约束，副流派模式只能补充风味，不能覆盖主模式的冲突上限和禁止信号。\n\n主流派模式：升级成长\n说明：围绕角色能力、认知和阶段门槛突破构建阅读快感。\n补充模板：升级不只写结果，还要写门槛、代价和兑现。\n核心驱动：通过清晰可感的成长曲线和阶段突破持续拉动阅读。\n读者奖励：读者不断看到能力、地位或认知层级获得实质提升。\n章节推进单位：单章推进一次积累、一次卡点试探或一次成长兑现。\n卷末兑现：卷末完成一个清晰等级、境界或阶段跃迁。\n允许的冲突形式：瓶颈、试炼、资源不足、同层竞争\n禁止的冲突形式：成长全靠旁白略过、突破没有代价和铺垫、升级后没有任何兑现\n冲突上限：high\n化解方式：通过积累、训练、实战和关键顿悟完成成长突破。\n必须反复出现的信号：成长门槛、突破反馈、阶段变化\n必须避免的跑偏信号：升级像流水账、能力提升没有剧情后果\n剧情主要推进单位：积累条件、卡点受阻、完成突破、展示提升\n使用要求：后续规划与生成必须优先服从这一模式。\n\n副流派模式：领地建设\n说明：围绕据点、城镇、势力版图和秩序搭建持续推进。\n补充模板：重点写领地升级、人口汇聚、规则建立和防线稳固。\n核心驱动：通过把一块地、一座城或一个据点逐步经营成型，持续制造扩张与稳固的成就感。\n读者奖励：读者不断看到领地变强、秩序成型和安全感提升。\n章节推进单位：单章推进一个领地建设动作、治理问题或外部试探应对。\n卷末兑现：卷末让领地规模、秩序或影响力出现清晰跃升。\n允许的冲突形式：资源紧张、边界摩擦、管理压力、治安危机\n禁止的冲突形式：领地长期形同虚设、主线被纯个人恩怨彻底带走\n冲突上限：medium\n化解方式：优先通过建设、治理、组织和局部反制稳定局面。\n必须反复出现的信号：据点成长、治理动作、秩序成型\n必须避免的跑偏信号：只有战争没有建设、领地存在感越来越弱\n剧情主要推进单位：招募与安置、设施建设、规则落地、外部试探回击\n使用要求：只能作为补充风味，不得破坏主模式的边界。\ndescription: 高考结束的陆昊带着记忆和偶然获得的残缺道书，成为淮北王府幼子；他在神师与体修并立的山海世界中修习内炼之道，从临川封地起家，联合各族建立大昭，并在神朝收紧诸界控制时争得自己和盟友的生存与发展权。\ntarget audience: 番茄小说男频；原创长篇；东方山海玄幻、现代人胎穿、异界大陆、多族经营与战争、诸天争霸；12卷960章，平均2600字，249.6万字（作者范围200万—300万字）。\nselling point: 强者反差、主动破局；个人优势经真实修炼、试验与专业伙伴协作，转为封地、工坊、军队、国家及诸界通行与共同防御能力；保留家人信任、伙伴自主和共同生活。\nfirst 30 chapter promise: 第1章完成出生救治，第2章七岁修好暖药炉并获得器坊见习资格，第3章十二岁复现军晶异常、封存待验并追查已出库同批货；第4章以后按新时间线重排，后续案件与封地里程碑另行校准。\nserial structure: staged continuation; preserve the next-stage reading pull.\nnarrative pov: third_person\npace preference: fast\nemotion intensity: unset\ncommercial tags: 东方玄幻 | 山海 | 胎穿 | 领地经营 | 多族战争 | 诸天争霸\ncharacter context:\n陆昊 | 淮北王幼子 | goal=none | state=第1章起点：刚出生，身体脆弱；有十八岁前世记忆，只能感知和最小内息调整，无成熟第二视野、武技、领地或军队。\n【信息边界】已知：外部压迫推力已彻底消失；有新的轻温度层兜住散乱心跳；有人在接住他的后脑未知/不应超前知情：许文瑛确认波动来自旧阵纹残迹；陆峥决定记录送医署封存；陆景珩已完成探视并垫了棉帕\n沈令仪 | 王妃、医署主持者 | goal=none | state=第1章规划起点：陆昊母亲，产后疲惫；先保孩子。不知穿越、《源天》全貌，不能把十二岁基准六阶修为回填。\n【信息边界】已知：波动来自旧阵纹残迹而非灵印烙印问题；记录需送医署封存且回执照常报神宫未知/不应超前知情：陆昊凭自身控制力完成了两次泄压；陆昊的前世记忆与穿越身份\n许文瑛 | 退任太学神术院院正 | goal=none | state=第1章规划起点：陆昊祖母，被召来复核护生阵；不知道残印来源。十二岁基准八阶修为不回填开篇。\n【信息边界】已知：波动源头是阵盘边缘旧刻痕残留余波；残迹频率与新生儿心跳咬合造成稳定间隔；硬剥残迹会撕开内息通道未知/不应超前知情：陆昊曾主动用阵纹残片波动为锚点完成两次一寸泄压；陆昊拥有十八岁前世记忆\n陆峥 | 淮北王、北境统军者 | goal=none | state=开篇尚未叙写；十二岁档案为时间限定设定，不是第1章当前状态。\n【信息边界】已知：新印已重新亮起均匀微光；真实数据压在医署可保护也可备查未知/不应超前知情：陆昊体内曾有主动内息调整行为；波动曾与陆昊心跳咬合的具体机制\n陆景珩 | 世子 | goal=none | state=出生段八岁，为陆昊长兄、世子；十二岁主线时二十岁六阶体修及军职不能回填开篇。\n陆砚山 | 前任淮北王、裂岳武圣 | goal=none | state=开篇尚未叙写；十二岁档案为时间限定设定，不是第1章当前状态。\n\nTarget volume:\nvolume 1: 王府有个陆小爷\nsummary: 首卷出生至十四岁，保留王府争资格、军晶案、临川试治方向。新版开篇：第1章出生救治完成；第2章七岁修炉得到见习资格；第3章十二岁复现军晶异常并封存待验。每章交付实际结果，不延宕同一次危机。第4—60章保留为旧版待重排素材，不能视作新版已批准的执行顺序；本轮仅执行第一章。\nopening hook: 第1章在身体不受控制的危险中做出有效选择，当章救活，脱险后建立家庭关系。\nmain promise: 让读者确认主角确实有优势、家族确实有能力；陆昊争取一件可以由自己负责的事。不是先受辱几十章再证明天才。\nprimary pressure: none\ncore selling point: none\nescalation: 让读者确认主角确实有优势、家族确实有能力；陆昊争取一件可以由自己负责的事。不是先受辱几十章再证明天才。\nprotagonist change: 三阶神师／二阶体修起步；获得试治资格\nmid-volume risk: none\nclimax: none\npayoff type: none\nnext volume hook: **交付：**能力回报、家人认可、少年伙伴、可见资格。**代价：**一次判断失误、身体恢复与信用修复。**向后因果：**资格要去一处已有居民、旧债和维护责任的地方兑现。推进 PAY-01、05、06；不解释上界真相。\nopen payoffs: PAY-01\nchapter count: 60\n\nConflict level anchors and curve:\ntarget chapter 1: 这福气，先撤一半 | conflictLevel=65 | source=ai | fromPrevious=unknown | toNext=fall\nchapter 2: 小爷只修一处 | conflictLevel=40 | source=ai | fromPrevious=fall | toNext=rise\nchapter 3: 合格的坏料 | conflictLevel=60 | source=ai | fromPrevious=rise | toNext=unknown\nchapter 4: 先听懂 | conflictLevel=none | source=ai | fromPrevious=unknown | toNext=unknown\nchapter 5: 认错的药香 | conflictLevel=none | source=ai | fromPrevious=unknown | toNext=unknown\nchapter 6: 第一份练法 | conflictLevel=none | source=ai | fromPrevious=unknown | toNext=unknown\nchapter 7: 修好一个小东西 | conflictLevel=none | source=ai | fromPrevious=unknown | toNext=unknown\nchapter 8: 看见不等于做得到 | conflictLevel=none | source=ai | fromPrevious=unknown | toNext=unknown\nchapter 9: 再做一次 | conflictLevel=none | source=ai | fromPrevious=unknown | toNext=unknown\nchapter 10: 要一个机会 | conflictLevel=none | source=ai | fromPrevious=unknown | toNext=unknown\nchapter 11: 合格的坏料 | conflictLevel=none | source=ai | fromPrevious=unknown | toNext=unknown\nchapter 12: 先做对照 | conflictLevel=none | source=ai | fromPrevious=unknown | toNext=unknown\nchapter 13: 把话说清楚 | conflictLevel=none | source=ai | fromPrevious=unknown | toNext=unknown\n[context summarized]\n\nChapter neighbors:\ncurrent chapter: 1 这福气，先撤一半 | 新生儿陆昊受护生回流压迫，主动微调一次内息，成人据反应泄压救治；当章脱险，家人探视产生轻微反差，收尾再次感到可学习的微小路径。 | exclusiveEvent=陆昊微调一次气息，许文瑛与医者撤开局部防护完成救治，呼吸持续稳定。 | endingState=危机解除，陆昊被家人照护；安全状态下短暂找回微小气息方向后疲倦睡去。 | nextEntry=七岁时已有学语与基础启蒙，以暖药炉事件兑现方法的实际用途。\nnext chapter: 2 小爷只修一处 | 七岁陆昊提出暖药炉热态复验，修正一次误判，与陶守诚协作修复器物，获得固定器坊见习位置。 | exclusiveEvent=暖药炉热态卡滞被复现并修好，药工实际用一轮保持稳定。 | endingState=取得每旬一次受监督器坊见习位置，对军用器物有具体目标。 | nextEntry=十二岁时进入正式军需核验，接受真实负荷考验。\n\nExisting draft:\ncurrent chapter title: 这福气，先撤一半\ncurrent chapter summary: 新生儿陆昊受护生回流压迫，主动微调一次内息，成人据反应泄压救治；当章脱险，家人探视产生轻微反差，收尾再次感到可学习的微小路径。\ncurrent purpose draft: 完成出生救治，让微小主动选择产生效果，并交付脱险后的关系温度。\nexclusive event: 陆昊微调一次气息，许文瑛与医者撤开局部防护完成救治，呼吸持续稳定。\nending state: 危机解除，陆昊被家人照护；安全状态下短暂找回微小气息方向后疲倦睡去。\nnext chapter entry state: 七岁时已有学语与基础启蒙，以暖药炉事件兑现方法的实际用途。\nconflict level: 65\nreveal level: 20\ntarget word count: 2600\nmust avoid: 普通高考毕业生，无前世修为或军旅经历；年龄能力与知情边界不能回填；出生不涉及终身神契；不得把本章成果推迟到下一章。\npayoff refs: PAY-01\ncurrent task sheet draft: # 第001章｜这福气，先撤一半\n\n开篇v2试写合同，2026-11-16。来源：新开篇窗口、writing-style.md及本章列出的硬事实。作者授权重做；正文尚待试写与选择。\n\n## 即时目标与硬边界\n\n出生当天，陆昊要争到下一口气。护生防护与自身护魂残印不适配，输入越强越难受；他只有身体感知及偶然闪现的一点内息方向，能尝试一次极小调整。许文瑛与医者据此减弱输入、撤开局部阵片，完成实际救治。结束时呼吸稳定、产室危机解除，绝不能停在“祖母抬手，还没动阵”。\n\n第三人称贴近陆昊；出生当天不能听懂当地语言。成人判断需要一小段明确转入产室外部的叙述；随后通过触觉、声音、照护回到婴儿感知，不能让他解读阵名、王府政治或对白笑点。前世只记得高考结束后的普通生活和父母牵挂，没有确认死亡原因，更没有作战、查防、修仙经验。家人不知道前世记忆。\n\n## 人物与规则\n\n- 陆昊（CHAR-LU-HAO）：新生儿，无法坐起、说话或看清远处；无成熟第二视野、阶位、术式。身体疲惫是真限制。\n- 沈令仪（CHAR-SHEN-LINGYI）：刚生产的母亲，疲惫、有医学判断，要求调整照护；不独自托起整阵。\n- 许文瑛（CHAR-XU-WENYING）：祖母，能复核阵路并指挥泄压。由她完成专业操作；不识破残印来源。\n- 陆峥（CHAR-LU-ZHENG）：先在外间让出空间，脱险后进来；行动可靠，抱婴儿时显得生疏。\n- 陆景珩（CHAR-LU-JINGHENG）：八岁哥哥，获准后短暂探视；认真模仿大人照顾弟弟，产生一次轻微反差。\n- 调用 RULE-BIRTH 与 STAGE-HOME：普通护生措施的适配问题；本章不涉及神籍签约、夺舍、终身神力追杀。PAY-01只埋“不适配与细微内息感应”。\n\n## 读者体验合同\n\n- readerQuestion：成年记忆困在婴儿身体里，他能不能自己争取一点生机？\n- protagonistWant：吸进下一口气，停止越救越难受的刺激。\n- primaryResistance：身体无法执行成年人的指令，也说不出自己的感觉。\n- keyTurn：放弃强行维持完整呼吸，只在回流间隙缩短一次接续；成人捕捉到反应，改变救治方式。\n- promisedReward / rewardLevel：一次微小主动选择产生实际作用，救治当章完成；partial。\n- emotionalShift：窒息与陌生 → 有办法可试 → 脱险后的虚脱 → 被笨拙小心地接住。\n- informationReveal：保护也有适配限制；那一点方法不是一次性的幻觉，尚不知是什么。\n- netChange：危急新生儿变成稳定受照护的孩子；陆昊知道自己能尝试一个极小动作。\n- inheritedHookResponsibilities：首章，无旧钩子。\n- endingHook：休息片刻后，他在安全状态下主动找回一点同样的气息走向，来不及进一步尝试便睡去。把“偶然救命”变成“以后能学会什么”的期待，不再制造同一窒息危机。\n\n## 节奏段与场景预算\n\n目标2600字，允许2300—3000。出生救治占约前六成，余下交付放松、家人关系与方法萌芽；预算为指导，不机械凑字。\n\n| 段/场景 | 进入 → 动作与阻力 → 转折 | 回报与离场 | 预算 |\n| --- | --- | --- | ---: |\n| 1 产室：身体不听使唤 | 想吸气却做不到；试图挥手只动了指尖，外来的暖意令胸口更紧。短促联想到自己刚考完试，立即回求生。 | 明确危险与成人记忆/婴儿身体反差；发现暖意有间隙。 | 550 |\n| 2 同场：少接一口 | 强撑失败后放弃争满一口气，顺着一闪而过的方向缩短接续；力竭但出现一个稳定瞬间。成人切入，祖母据反应调整输入、移开阵片，医者复核。 | 看见主角选择有用，也看见成人能力；呼吸持续稳定，危机结束。 | 1000 |\n| 3 稍后探视：大手小人 | 父亲怕碰疼孩子，抱姿僵硬；哥哥一本正经纠正父亲，母亲一句家常接话收住。孩子从抱持与温度感到安全，并短暂想起前世母亲。 | 紧张落地，亲情靠动作成立；幽默至多一组来回，不解释笑点。 | 650 |\n| 4 同场收尾：再找一下 | 吃力地找回极轻的气息方向，不碰防护、不主动憋气；随后疲倦睡去。 | 微小能力期待，问题从能否活变成能否学；不揭道书来历。 | 400 |\n\n实际场景为救治、探视、安静收尾三场。低于下限仍须完成选择、泄压、稳定呼吸与家人互动；超长先删重复体感、两轮相似试错和解释性总结。\n\n## 本章有效写法与禁区\n\n执行 STYLE-01—10、AAI-01—04。STYLE-05在脱险后落实；危急段仅保留一处学生记忆与身体能力的反差，不连说笑话。心理允许短句，不替人物总结人生。成人一段对白由外部叙述呈现，不写成婴儿已经听懂。\n\n可延后：姓名确认、王府家谱、修行阶位、《源天》名称、穿越原因。禁止：身怀前世修为、神明选定、从阵纹读出成套原理、主动破掉整阵、父兄争继承权、以“还未救完”做章末钩子。"
+      },
+      {
+        "role": "human",
+        "content": "结构化输出骨架：\n- 下方 JSON 只用于演示字段名、层级、数组/对象位置与基础类型。\n- 所有占位内容都必须替换成符合当前任务的真实结果，不能原样照抄。\n- 如果任务正文里对数组数量、枚举取值、空数组、必填字段有更具体要求，以任务正文为准。\n示例：\n{\n  \"purpose\": \"示例文本\",\n  \"exclusiveEvent\": \"示例文本\",\n  \"endingState\": \"示例文本\",\n  \"nextChapterEntryState\": \"示例文本\",\n  \"conflictLevel\": 1,\n  \"revealLevel\": 1,\n  \"targetWordCount\": 1,\n  \"mustAvoid\": \"示例文本\",\n  \"payoffRefs\": [\n    \"示例文本\"\n  ],\n  \"taskSheet\": \"示例文本\",\n  \"readerExperience\": {\n    \"readerQuestion\": \"示例文本\",\n    \"promisedReward\": \"示例文本\",\n    \"rewardLevel\": \"setup\",\n    \"protagonistWant\": \"示例文本\",\n    \"primaryResistance\": \"示例文本\",\n    \"keyTurn\": \"示例文本\",\n    \"emotionalShift\": \"示例文本\",\n    \"informationReveal\": \"示例文本\",\n    \"netChange\": \"示例文本\",\n    \"inheritedHookResponsibilities\": [\n      \"示例文本\"\n    ],\n    \"endingHook\": \"示例文本\"\n  },\n  \"sceneCards\": [\n    {\n      \"key\": \"示例文本\",\n      \"title\": \"示例文本\",\n      \"purpose\": \"示例文本\",\n      \"mustAdvance\": [\n        \"示例文本\"\n      ],\n      \"mustPreserve\": [\n        \"示例文本\"\n      ],\n      \"entryState\": \"示例文本\",\n      \"exitState\": \"示例文本\",\n      \"forbiddenExpansion\": [\n        \"示例文本\"\n      ],\n      \"targetWordCount\": 1,\n      \"resistance\": \"示例文本\",\n      \"turn\": \"示例文本\",\n      \"emotionalShift\": \"示例文本\",\n      \"readerValue\": \"示例文本\"\n    }\n  ]\n}"
+      }
+    ],
+    "response": "{\"purpose\":\"完成出生救治，让微小主动选择产生效果，并交付脱险后的关系温度。\",\"exclusiveEvent\":\"陆昊微调一次气息，许文瑛与医者撤开局部防护完成救治，呼吸持续稳定。\",\"endingState\":\"危机解除，陆昊被家人照护；安全状态下短暂找回微小气息方向后疲倦睡去。\",\"nextChapterEntryState\":\"七岁时已有学语与基础启蒙，以暖药炉事件兑现方法的实际用途。\",\"conflictLevel\":65,\"revealLevel\":20,\"targetWordCount\":2600,\"mustAvoid\":\"普通高考毕业生，无前世修为或军旅经历；年龄能力与知情边界不能回填；出生不涉及终身神契；不得把本章成果推迟到下一章。\",\"payoffRefs\":[\"PAY-01\"],\"taskSheet\":\"第三人称贴近陆昊。开篇即入身体失控的窒息感，外来暖意反成压迫。放弃强撑满息，顺着间隙缩短一次接续；成人捕捉反应，许文瑛指挥撤阵片、减输入，当章完成泄压与稳定呼吸。转场写探视：父亲抱姿僵硬，哥哥纠正，母亲一句家常收住，用动作落地反差。收尾陆昊在安全中吃力找回极轻气息方向，未及尝试便睡去。禁止听懂语言、解读阵法、排队抒情、段尾升华。危急段不插笑话，只留一处学生记忆与婴儿身体的短促反差。\",\"readerExperience\":{\"readerQuestion\":\"成年记忆困在婴儿身体里，他能不能自己争取一点生机？\",\"promisedReward\":\"一次微小主动选择产生实际作用，救治当章完成。\",\"rewardLevel\":\"partial\",\"protagonistWant\":\"吸进下一口气，停止越救越难受的刺激。\",\"primaryResistance\":\"身体无法执行成年人的指令，也说不出自己的感觉。\",\"keyTurn\":\"放弃强行维持完整呼吸，只在回流间隙缩短一次接续；成人捕捉到反应，改变救治方式。\",\"emotionalShift\":\"窒息与陌生到有办法可试，再到脱险虚脱，最后被笨拙小心地接住。\",\"informationReveal\":\"保护也有适配限制；那一点方法不是一次性的幻觉，尚不知是什么。\",\"netChange\":\"危急新生儿变成稳定受照护的孩子；陆昊知道自己能尝试一个极小动作。\",\"inheritedHookResponsibilities\":[],\"endingHook\":\"休息片刻后在安全状态下主动找回一点同样的气息走向，来不及进一步尝试便睡去。\"}}",
+    "parsed": null,
+    "error": "- sceneCards: Invalid input: expected array, received undefined"
+  }
+}

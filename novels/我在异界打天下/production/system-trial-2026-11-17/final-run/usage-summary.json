@@ -1,0 +1,20 @@
+{
+  "runId": "d42e2f05-978e-479a-a0eb-f6d5749f6728",
+  "calls": 6,
+  "promptTokens": 38278,
+  "completionTokens": 8462,
+  "totalTokens": 46740,
+  "cacheHitTokens": 12288,
+  "recordedSummary": {
+    "inputCache": {
+      "cacheHitTokens": 12288,
+      "cacheMissTokens": 25990,
+      "cacheWriteTokens": null,
+      "cacheUsageStatus": "reported"
+    },
+    "recordedCallCount": 6,
+    "unknownCallCount": 0,
+    "invalidCallCount": 0,
+    "partialCallCount": 0
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "path": "README.md",
+    "old": "374c5e9514aa1f61e499f0d4766f8dc84bdbaf89094a13221f05fef41226a804",
+    "new": "289e552453a1f85ca6a3770eafdc827d4075bd1180ae86767cc3ec48a96d98ab"
+  },
+  {
+    "path": "docs/releases/release-notes.md",
+    "old": "7dcd8ab1b339a647478682a5d45d97f33eb163e2f7df3cae6a2d9ee4ff2b01ed",
+    "new": "2f958bf55c7cea6accd16fa9867a22d72fee97684cd54a92ea1c46554fd6bd46"
+  },
+  {
+    "path": "docs/wiki/workflows/chapter-rewrite-context.md",
+    "old": "84a4dd6897b33e98800ab48c6e457f73b6e242c508cf0ec9945a6f1d18caf5b5",
+    "new": "91e6e52f67417731571eb14d7b27f6123414d0920ac47b25d2abfa8db83ccc7f"
+  },
+  {
+    "path": "server/src/services/novel/NovelChapterSummaryService.ts",
+    "old": "81cc6cf748e83650ff31a089623f55557051da406da64debc0666bc82b403e72",
+    "new": "f1a6017ae417b3bc1f65cfe7b29d62385e98790340453ac31b8746b3a2f752a1"
+  },
+  {
+    "path": "server/src/services/novel/chapterEditor/application/ManualChapterService.ts",
+    "old": "0e3de393496fc7966224dcc26e2f896d1a75a7ae23337b712e6a8805e63f5f47",
+    "new": "020b3b671cc1dca9181f9dc07c920fb965bad277b013787325407f2700dd5685"
+  },
+  {
+    "path": "server/src/services/novel/runtime/artifactSync/facts/ChapterArtifactFactWriter.ts",
+    "old": "6b8fb0dc60606005ca0759b40723b32559a27819ae961fdf0d7dd35e3687d8e8",
+    "new": "9af1e8b3abe3997b99329e297d90b8329d22bad17b568c9bf67852539f764459"
+  },
+  {
+    "path": "server/src/modules/production/infrastructure/storyState/persistence/facts.ts",
+    "old": "2f9f6a2ad03eef8347130b4a03882bdb63db678e2899c1b2553551885b720352",
+    "new": "170803c52b76f6b2f343c20f60fc3162deb05bf4d380d64fe98500e55cdb89d0"
+  },
+  {
+    "path": "server/tests/novelProduction/artifactFactWrite.test.js",
+    "old": "501c3599f956851d9bd7a22fd63fa44271d030f6478c7c4b31146b49c1516fd0",
+    "new": "11ed33016234776b6075c81ff4bcf5943781be651cc40060dff2ed0b04b23acc"
+  },
+  {
+    "path": "server/tests/novelProduction/chapterPlanningOwnership.test.js",
+    "old": null,
+    "new": "da3f58a6d80a111566cc50e0d8748eb0e45140bdc9d80e8f18ac651aa093d293"
+  },
+  {
+    "path": "server/tests/production/productionKernelConsumersSqlite.test.js",
+    "old": "756f288d667ce9f81e0adf04859aa5a9c040090b69cd0fb37e71d31a18743742",
+    "new": "b5817d99324d7e6c9ed0ba73b7e0b3c8bcddaa47b7b876f634fec8e16e9cbccc"
+  }
+]

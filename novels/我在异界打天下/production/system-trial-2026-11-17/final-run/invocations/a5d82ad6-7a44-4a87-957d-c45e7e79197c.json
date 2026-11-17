@@ -1,0 +1,313 @@
+{
+  "item": {
+    "durationMs": 27595,
+    "firstTokenMs": 950,
+    "attemptNumber": 1,
+    "chainId": "9272441d-c987-46f1-a044-55dce552d960",
+    "parentInvocationId": null,
+    "structuredMode": "json_object",
+    "runId": "d42e2f05-978e-479a-a0eb-f6d5749f6728",
+    "generationJobId": "cmwk0wm5j0007v5wjhan7klwe",
+    "workflowTaskId": null,
+    "novelId": "cmwgjl1x30007bowjeu3684pv",
+    "chapterId": "cmwgjo6s4002lbowjkeuvqbzi",
+    "stage": "timeline_extraction",
+    "provider": "qwen",
+    "model": "qwen3.8-max",
+    "requestProtocol": "openai-compatible",
+    "promptId": "novel.timeline.extractor",
+    "promptVersion": "v1",
+    "status": "completed",
+    "startedAt": "2026-11-17T01:39:32.192Z",
+    "finishedAt": "2026-11-17T01:39:59.787Z",
+    "promptTokens": 3015,
+    "completionTokens": 1227,
+    "totalTokens": 4242,
+    "invocationId": "a5d82ad6-7a44-4a87-957d-c45e7e79197c",
+    "inputCache": {
+      "cacheHitTokens": 0,
+      "cacheMissTokens": 3015,
+      "cacheWriteTokens": null,
+      "cacheUsageStatus": "reported"
+    }
+  },
+  "chain": [
+    {
+      "durationMs": 27595,
+      "firstTokenMs": 950,
+      "attemptNumber": 1,
+      "chainId": "9272441d-c987-46f1-a044-55dce552d960",
+      "parentInvocationId": null,
+      "structuredMode": "json_object",
+      "runId": "d42e2f05-978e-479a-a0eb-f6d5749f6728",
+      "generationJobId": "cmwk0wm5j0007v5wjhan7klwe",
+      "workflowTaskId": null,
+      "novelId": "cmwgjl1x30007bowjeu3684pv",
+      "chapterId": "cmwgjo6s4002lbowjkeuvqbzi",
+      "stage": "timeline_extraction",
+      "provider": "qwen",
+      "model": "qwen3.8-max",
+      "requestProtocol": "openai-compatible",
+      "promptId": "novel.timeline.extractor",
+      "promptVersion": "v1",
+      "status": "completed",
+      "startedAt": "2026-11-17T01:39:32.192Z",
+      "finishedAt": "2026-11-17T01:39:59.787Z",
+      "promptTokens": 3015,
+      "completionTokens": 1227,
+      "totalTokens": 4242,
+      "invocationId": "a5d82ad6-7a44-4a87-957d-c45e7e79197c",
+      "inputCache": {
+        "cacheHitTokens": 0,
+        "cacheMissTokens": 3015,
+        "cacheWriteTokens": null,
+        "cacheUsageStatus": "reported"
+      }
+    }
+  ],
+  "payload": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是小说时间线事件抽取器。\n只抽取会影响后续连续性、时间顺序、角色状态、伏笔承接或读者认知的事件。\n不要抽取普通环境描写、情绪氛围、无后果动作或重复复述。\n必须输出严格 JSON，不能输出 Markdown 或解释。\n\n【抽取规则】\n1. events 只放正文中实际发生或被明确确认的关键事件。\n2. possibleHooks/hooks 只放本章结尾或正文中新制造、后续必须承接的钩子。\n3. 每个 hook 必须标注 resolveMode：immediate / short_arc / long_arc。\n4. 只有下一章必须立即承接、且不处理会破坏当前章节合同的 hook，才标记 blocking=true。\n5. stateChanges 记录角色、地点、势力、关系、道具或世界状态的明确变化。\n6. 如果正文提前写出时间线上下文中禁止提前发生的内容，也要如实抽取，后续 checker 会判断。\n7. matchedPlannedEventIds 只有在正文确实完成计划事件时填写，否则留空。\n8. 如果正文承接了时间线上下文中的 open/addressed hook，必须把对应 hook id 放入 addressedHookIds；如果该钩子已完整兑现并不应继续污染后续章节，放入 resolvedHookIds。\n9. hook id 必须来自时间线上下文，不能编造；判断承接关系以正文语义为准，不要依赖标题字面相同。\n10. stateChanges.before / stateChanges.after 是给后续连续性阅读的状态文本，必须输出字符串；即使正文状态是数值，也写成 JSON 字符串，例如 \"19\"、\"5\"、\"76\"。\n11. events.type 只能使用 plot、relationship、conflict、reveal、battle、decision、setup、payoff、transition、background、world_state；不要输出中文类型名。\n12. stateChanges.targetType 只能使用 character、location、faction、relationship、item、world；不要输出中文类型名。\n13. possibleHooks 和 hooks 必须是对象数组，每个对象必须包含 title、description、priority、resolveMode、blocking；不能输出字符串数组。\n14. hook.priority 只能使用 low、medium、high、critical。"
+      },
+      {
+        "role": "human",
+        "content": "小说：我在异界打天下\n章节：第 1 章《这福气，先撤一半》\n章节目标：新生儿陆昊受护生回流压迫，主动微调一次内息，成人据反应泄压救治；当章脱险，家人探视产生轻微反差，收尾再次感到可学习的微小路径。\n完成新生儿陆昊因护生回流压迫导致的窒息危机，通过他主动微调一次内息触发成人泄压救治，当章实现脱险、家人探视反差与收尾感知微小路径的完整闭环。\n\n【生成前时间线约束】\n【时间线约束】\n当前章节：第 1 章\n当前故事时间：第 1 章\n\n【已发生关键事件】\n- 无\n\n【本章必须推进】\n- 无\n\n【必须立即承接的钩子】\n- 无\n\n【可延后承接的钩子】\n- 无\n\n【已部分承接的钩子】\n- 无\n\n【禁止提前发生】\n- 无\n\n【连续性要求】\n- 无\n\n【关键状态变化】\n- 无\n\n【章节正文】\n暖意从四面八方压过来，像一块被烤热的湿布裹住了口鼻。\n\n陆昊想张嘴，下颌骨却只颤了一下。他想抬手推开那层东西，手指蜷在襁褓里，连指节都撑不开。十八岁的意识撞进这具刚出生的身体，第一反应是窒息。\n\n不对。不是没有空气，是进来的东西太多。\n\n那股暖意顺着皮肤往里钻，挤进胸腔，把肺叶撑得发疼。每一次回流都像有人拿手捏住他的气管往下按。他记得高考前熬夜背书时喝过一口太烫的水，食道烧得缩起来，但那种疼有边界，咽下去就过了。现在这股压迫没有尽头，它还在往骨头缝里塞。\n\n护生阵。\n\n这个词不是他想起来的，是身体本能给出的标签。那些不断涌进来的暖意带着固定的节奏，一圈一圈地转，每转完一圈就往回倒灌一次。倒灌的力道比输入时还重。\n\n他试着吸气。胸腔刚抬起一点，下一波回流正好砸下来，把他顶回去。喉咙深处发出一声极细的杂音，像漏气的风箱。\n\n视线里没有光，只有眼皮内侧暗红色的血影。听觉隔着一层水膜，外面有人在说话，声音全搅在一起，听不清字句。他只能感觉到那股暖意的流向：从左肩进，绕过后背，从胸口涌出，再被外力推回来。\n\n不能硬扛。\n\n这个判断很快。成年人的记忆在这具婴儿身体里毫无用处，他调动不了任何肌肉，也喊不出一个音节。唯一能动的，是胸腔里那一点跟着呼吸起伏的微弱内息。\n\n回流再次压下来的瞬间，他没有像前几次那样试图吸满一口气去顶住。他把注意力全部集中在那点内息上，在它即将被推散的间隙里，主动缩短了一次接续。\n\n不吸满。只在回流退去的半寸空隙里，让那点气息往下沉一丝，避开正面撞击。\n\n就这么一丝。\n\n外面的声音突然变了。原本混在一起的嘈杂被一道短促的女声切开。\n\n“停一下。”\n\n压在胸口的重量顿了一瞬。\n\n许文瑛站在榻侧，手里的折叠旧测图已经展开了一半。银发束得很紧，几缕碎发贴在额角。她没看榻上的婴儿，目光落在床尾三块嵌着纹路的玉片上。\n\n“回流冲得太急，他在躲。”她把测图卷起，用随身带的短尺敲了一下最左侧的玉片边缘，“撤掉这一片。输入减三成。”\n\n守在阵边的医侍迟疑了半息。\n\n沈令仪靠在枕上，脸色白得像洗过的粗布。她没睁眼，手指却准确地扣住了身侧药匣的搭扣。“照院正说的做。”声音很轻，没有多余的力气，但每个字都落得实。\n\n医侍伸手抽走了那块玉片。\n\n涌入体内的暖意立刻薄了一层。但回流还在继续，只是力道小了些。\n\n陆昊感觉到了变化。那股压迫从铁板变成了厚棉垫，还是闷，但不再往骨头里钉。他维持着刚才那个缩短的节奏，不去贪多吸进来的气息，只在每一次回流退去的缝隙里，让内息往下沉一点点。\n\n一次，两次。\n\n第三次下沉时，胸腔里的滞涩感松动了一丝。\n\n许文瑛的短尺又敲了一下第二块玉片。“再撤一片。留主路就行。”\n\n医侍这次没停顿，直接抽走。\n\n暖意骤降。回流的速度慢了下来，像一条原本湍急的河突然被拓宽了河道，水流散开，不再直冲堤岸。\n\n陆昊的喉咙里滚出一声极弱的响动。不是哭，是气流终于顺畅通过声带时的摩擦声。\n\n沈令仪睁开了眼。\n\n她没说话，先偏过头看了一眼许文瑛手里的短尺位置，又看了一眼剩下的那块玉片纹路。确认回路已经改变后，她才把视线挪到襁褓上。\n\n“呼吸稳了。”许文瑛收起短尺，把它插回腰侧的旧皮套里。她的语气像在记录一份实验数据，没有多余的情绪。“护生阵的输入量没算错，但这孩子的经络吃不下标准回流。以后用单片阵，每次不超过半个时辰。”\n\n沈令仪点了点头。她的手从药匣搭扣上松开，指尖还在微微发颤，但动作已经恢复了平时的熟练。\n\n“抱过来。”她说。\n\n门帘被人掀开。陆峥走进来，步子迈得很大，却在靠近床榻的最后两步突然收住。他穿着常服，左眉那道旧疤在烛火下显得很深。双手垂在身侧，指节攥了一下又松开。\n\n“我来。”他说。\n\n沈令仪没拦。\n\n陆峥弯腰，两只手伸向襁褓。左手托住了后颈，右手捞向腰侧，但手臂架得太高，整个姿势像端着一盆随时会洒的水。婴儿的身体在他掌心里僵成一条直线，脖子悬空，腿蜷着，无处安放。\n\n“爹，你托着他屁股。”\n\n八岁的陆景珩站在父亲手肘旁边。他没踮脚，因为陆峥弯着腰，两人刚好平齐。世子穿着件轻便的窄袖衫，头发束得一丝不苟，伸手指了一下陆峥右手的落点。\n\n陆峥低头看了一眼儿子的手指，又看了一眼自己僵硬的手臂。他把右手往下挪了两寸，掌心贴实了襁褓底部。婴儿的重量终于落进了臂弯里，不再是悬空的。\n\n“对，就这样。”陆景珩收回手，站直了身体。\n\n陆昊被挪动的过程中，视野晃过一片模糊的光影。他看不清人脸，只感觉到托着自己的那只手掌宽大、粗糙，热度很高，但动作笨拙得像在搬一块易碎的瓷片。另一只手纠正了位置后，那种悬空的失重感才消失。\n\n他被放进了沈令仪的臂弯里。\n\n母亲的接手没有任何多余的动作。一只手托住后脑，另一只手顺过脊背，把他整个人拢进怀里。药草的苦味混着汗气扑过来，不难闻。\n\n“手劲倒是大。”沈令仪低头看着怀里的襁褓，声音很平，“就是不知道往哪搁。”\n\n陆峥站在原地，搓了一下手指。“下次就知道了。”\n\n“下次让景珩教你。”沈令仪说。\n\n陆景珩没接话，只是把袖口往上推了推，露出手腕上一道刚结痂的擦痕。那是白天练枪留下的，他没提，也没人问。\n\n许文瑛已经走到窗边，正在把那块撤下来的玉片翻过来检查底部的刻纹。她用指甲刮了一下边缘的粉末，凑近看了看，没说话。\n\n屋子里安静下来。\n\n陆昊靠在那个温热的凹陷里。压迫感彻底消失了，取而代之的是一种被掏空后的虚脱。每一块骨头都在发软，连眨眼都要耗费力气。\n\n但他没有睡。\n\n那股被缩短的内息还在。它很微弱，像一根快要断掉的蛛丝，挂在胸腔最深处。刚才在回流的间隙里，他让它往下沉了一丝。那一丝移动带来了真实的改变，外面的大人捕捉到了，调整了阵法，救了他。\n\n这不是幻觉。\n\n他试着在安全的静止中，重新找回刚才那个方向。不吸气，不动肌肉，只是把意识放在那根蛛丝上，回忆它下沉时的轨迹。\n\n找到了。\n\n极轻的一点走向，像水流遇到石头时自然绕开的弧度。他知道自己可以顺着这个弧度再试一次，看看它能延伸到哪里。\n\n念头刚起，眼皮便合上了。\n\n黑暗盖下来，那点微弱的走向还没来得及被推动，就被拖进了无梦的睡眠里。\n\n请输出时间线抽取 JSON。"
+      },
+      {
+        "role": "human",
+        "content": "结构化输出骨架：\n- 下方 JSON 只用于演示字段名、层级、数组/对象位置与基础类型。\n- 所有占位内容都必须替换成符合当前任务的真实结果，不能原样照抄。\n- 如果任务正文里对数组数量、枚举取值、空数组、必填字段有更具体要求，以任务正文为准。\n- stateChanges.before / stateChanges.after 表示可读状态值，必须输出 JSON 字符串；差评值、评分、倒计时、数量等数值也写成 \"19\"、\"5\" 这类字符串。\n示例：\n{\n  \"timeAnchor\": {\n    \"storyDayIndex\": 1,\n    \"label\": \"第2章\"\n  },\n  \"addressedHookIds\": [\n    \"hook-id-from-context\"\n  ],\n  \"resolvedHookIds\": [],\n  \"events\": [\n    {\n      \"title\": \"主角完成一次状态推进\",\n      \"summary\": \"正文确认某个会影响后续连续性的关键变化。\",\n      \"type\": \"plot\",\n      \"participantNames\": [\n        \"角色名\"\n      ],\n      \"locationName\": \"地点名\",\n      \"stateChanges\": [\n        {\n          \"targetType\": \"item\",\n          \"targetId\": \"差评值\",\n          \"field\": \"value\",\n          \"before\": \"19\",\n          \"after\": \"5\",\n          \"certainty\": \"confirmed\"\n        }\n      ],\n      \"possibleHooks\": [\n        {\n          \"title\": \"敌方留下新的试探痕迹\",\n          \"description\": \"本章结尾确认敌方还会继续试探，后续章节需要承接这条压力。\",\n          \"priority\": \"medium\",\n          \"resolveMode\": \"short_arc\",\n          \"blocking\": false\n        }\n      ],\n      \"occurred\": true,\n      \"confidence\": 0.9,\n      \"matchedPlannedEventIds\": []\n    }\n  ],\n  \"hooks\": [\n    {\n      \"title\": \"主角下一步验证线索\",\n      \"description\": \"主角已经获得线索，但尚未验证真假，后续需要安排验证行动。\",\n      \"priority\": \"medium\",\n      \"resolveMode\": \"long_arc\",\n      \"blocking\": false\n    }\n  ],\n  \"stateChanges\": [\n    {\n      \"targetType\": \"item\",\n      \"targetId\": \"差评值\",\n      \"field\": \"value\",\n      \"before\": \"19\",\n      \"after\": \"5\",\n      \"certainty\": \"confirmed\"\n    }\n  ]\n}"
+      }
+    ],
+    "response": "{\"timeAnchor\":{\"storyDayIndex\":1,\"label\":\"第1章\"},\"addressedHookIds\":[],\"resolvedHookIds\":[],\"events\":[{\"title\":\"陆昊穿越至新生儿身体\",\"summary\":\"十八岁的意识撞进刚出生的婴儿身体，发现自己处于护生阵中并面临窒息危机。\",\"type\":\"plot\",\"participantNames\":[\"陆昊\"],\"locationName\":\"产房\",\"stateChanges\":[{\"targetType\":\"character\",\"targetId\":\"陆昊\",\"field\":\"consciousness_state\",\"before\":\"无\",\"after\":\"十八岁成人意识进入新生儿身体\",\"certainty\":\"confirmed\"}],\"possibleHooks\":[],\"occurred\":true,\"confidence\":1.0,\"matchedPlannedEventIds\":[]},{\"title\":\"陆昊主动微调内息避开回流压迫\",\"summary\":\"护生阵回流不断压迫胸腔导致窒息，陆昊在回流退去的间隙主动缩短一次内息接续，让气息下沉一丝避开正面撞击。\",\"type\":\"plot\",\"participantNames\":[\"陆昊\"],\"locationName\":\"产房\",\"stateChanges\":[{\"targetType\":\"character\",\"targetId\":\"陆昊\",\"field\":\"breathing_state\",\"before\":\"窒息、无法呼吸\",\"after\":\"找到下沉一丝的内息节奏，暂时缓解压迫\",\"certainty\":\"confirmed\"}],\"possibleHooks\":[],\"occurred\":true,\"confidence\":1.0,\"matchedPlannedEventIds\":[]},{\"title\":\"许文瑛察觉异常并下令撤玉片泄压\",\"summary\":\"许文瑛通过测图和短尺发现婴儿在躲避回流，下令医侍撤掉左侧玉片并将输入减三成，随后又撤掉第二块玉片只留主路。\",\"type\":\"decision\",\"participantNames\":[\"许文瑛\",\"医侍\",\"沈令仪\"],\"locationName\":\"产房\",\"stateChanges\":[{\"targetType\":\"item\",\"targetId\":\"护生阵玉片\",\"field\":\"active_count\",\"before\":\"3\",\"after\":\"1\",\"certainty\":\"confirmed\"},{\"targetType\":\"character\",\"targetId\":\"陆昊\",\"field\":\"array_pressure\",\"before\":\"标准回流量\",\"after\":\"输入减三成后进一步降至单片主路\",\"certainty\":\"confirmed\"}],\"possibleHooks\":[],\"occurred\":true,\"confidence\":1.0,\"matchedPlannedEventIds\":[]},{\"title\":\"陆昊脱离窒息危机\",\"summary\":\"阵法调整后回流速度放缓，陆昊喉咙里发出气流顺畅通过声带的摩擦声，呼吸稳定下来。\",\"type\":\"payoff\",\"participantNames\":[\"陆昊\",\"许文瑛\",\"沈令仪\"],\"locationName\":\"产房\",\"stateChanges\":[{\"targetType\":\"character\",\"targetId\":\"陆昊\",\"field\":\"life_status\",\"before\":\"窒息濒死\",\"after\":\"呼吸稳定、脱险\",\"certainty\":\"confirmed\"}],\"possibleHooks\":[],\"occurred\":true,\"confidence\":1.0,\"matchedPlannedEventIds\":[]},{\"title\":\"许文瑛制定后续护生阵方案\",\"summary\":\"许文瑛确认婴儿经络吃不下标准回流，规定以后用单片阵且每次不超过半个时辰。\",\"type\":\"setup\",\"participantNames\":[\"许文瑛\",\"沈令仪\"],\"locationName\":\"产房\",\"stateChanges\":[],\"possibleHooks\":[{\"title\":\"单片阵限时规则\",\"description\":\"许文瑛规定陆昊以后只能用单片阵且每次不超过半个时辰，后续修炼或治疗需遵循此限制。\",\"priority\":\"medium\",\"resolveMode\":\"long_arc\",\"blocking\":false}],\"occurred\":true,\"confidence\":1.0,\"matchedPlannedEventIds\":[]},{\"title\":\"家人探视与抱婴反差\",\"summary\":\"陆峥抱婴儿姿势笨拙僵硬，八岁的陆景珩指导父亲托住屁股；沈令仪接手动作熟练，形成反差。\",\"type\":\"relationship\",\"participantNames\":[\"陆峥\",\"陆景珩\",\"沈令仪\",\"陆昊\"],\"locationName\":\"产房\",\"stateChanges\":[],\"possibleHooks\":[],\"occurred\":true,\"confidence\":1.0,\"matchedPlannedEventIds\":[]},{\"title\":\"陆昊感知到可学习的微小路径\",\"summary\":\"脱险后陆昊在静止中重新找到那根下沉内息的走向，意识到可以顺着弧度再试一次，但随即陷入睡眠。\",\"type\":\"setup\",\"participantNames\":[\"陆昊\"],\"locationName\":\"产房\",\"stateChanges\":[{\"targetType\":\"character\",\"targetId\":\"陆昊\",\"field\":\"cultivation_awareness\",\"before\":\"无\",\"after\":\"感知到微弱内息走向的弧度\",\"certainty\":\"confirmed\"}],\"possibleHooks\":[{\"title\":\"内息路径的首次主动探索\",\"description\":\"陆昊在章末感知到了内息下沉的微小走向弧度，尚未推动便入睡，醒来后需要承接这条线索进行首次主动尝试。\",\"priority\":\"high\",\"resolveMode\":\"immediate\",\"blocking\":true}],\"occurred\":true,\"confidence\":1.0,\"matchedPlannedEventIds\":[]}],\"hooks\":[{\"title\":\"内息路径的首次主动探索\",\"description\":\"陆昊在章末感知到了内息下沉的微小走向弧度，尚未推动便入睡，醒来后需要承接这条线索进行首次主动尝试。\",\"priority\":\"high\",\"resolveMode\":\"immediate\",\"blocking\":true},{\"title\":\"单片阵限时规则\",\"description\":\"许文瑛规定陆昊以后只能用单片阵且每次不超过半个时辰，后续修炼或治疗需遵循此限制。\",\"priority\":\"medium\",\"resolveMode\":\"long_arc\",\"blocking\":false}],\"stateChanges\":[{\"targetType\":\"character\",\"targetId\":\"陆昊\",\"field\":\"life_status\",\"before\":\"未出生/窒息濒死\",\"after\":\"出生、脱险、呼吸稳定、入睡\",\"certainty\":\"confirmed\"},{\"targetType\":\"character\",\"targetId\":\"陆昊\",\"field\":\"consciousness_state\",\"before\":\"无\",\"after\":\"十八岁成人意识\",\"certainty\":\"confirmed\"},{\"targetType\":\"item\",\"targetId\":\"护生阵玉片\",\"field\":\"active_count\",\"before\":\"3\",\"after\":\"1\",\"certainty\":\"confirmed\"}]}",
+    "parsed": {
+      "timeAnchor": {
+        "storyDayIndex": 1,
+        "label": "第1章"
+      },
+      "addressedHookIds": [],
+      "resolvedHookIds": [],
+      "events": [
+        {
+          "title": "陆昊穿越至新生儿身体",
+          "summary": "十八岁的意识撞进刚出生的婴儿身体，发现自己处于护生阵中并面临窒息危机。",
+          "type": "plot",
+          "participantNames": [
+            "陆昊"
+          ],
+          "locationName": "产房",
+          "stateChanges": [
+            {
+              "targetType": "character",
+              "targetId": "陆昊",
+              "field": "consciousness_state",
+              "before": "无",
+              "after": "十八岁成人意识进入新生儿身体",
+              "certainty": "confirmed"
+            }
+          ],
+          "possibleHooks": [],
+          "occurred": true,
+          "confidence": 1,
+          "matchedPlannedEventIds": []
+        },
+        {
+          "title": "陆昊主动微调内息避开回流压迫",
+          "summary": "护生阵回流不断压迫胸腔导致窒息，陆昊在回流退去的间隙主动缩短一次内息接续，让气息下沉一丝避开正面撞击。",
+          "type": "plot",
+          "participantNames": [
+            "陆昊"
+          ],
+          "locationName": "产房",
+          "stateChanges": [
+            {
+              "targetType": "character",
+              "targetId": "陆昊",
+              "field": "breathing_state",
+              "before": "窒息、无法呼吸",
+              "after": "找到下沉一丝的内息节奏，暂时缓解压迫",
+              "certainty": "confirmed"
+            }
+          ],
+          "possibleHooks": [],
+          "occurred": true,
+          "confidence": 1,
+          "matchedPlannedEventIds": []
+        },
+        {
+          "title": "许文瑛察觉异常并下令撤玉片泄压",
+          "summary": "许文瑛通过测图和短尺发现婴儿在躲避回流，下令医侍撤掉左侧玉片并将输入减三成，随后又撤掉第二块玉片只留主路。",
+          "type": "decision",
+          "participantNames": [
+            "许文瑛",
+            "医侍",
+            "沈令仪"
+          ],
+          "locationName": "产房",
+          "stateChanges": [
+            {
+              "targetType": "item",
+              "targetId": "护生阵玉片",
+              "field": "active_count",
+              "before": "3",
+              "after": "1",
+              "certainty": "confirmed"
+            },
+            {
+              "targetType": "character",
+              "targetId": "陆昊",
+              "field": "array_pressure",
+              "before": "标准回流量",
+              "after": "输入减三成后进一步降至单片主路",
+              "certainty": "confirmed"
+            }
+          ],
+          "possibleHooks": [],
+          "occurred": true,
+          "confidence": 1,
+          "matchedPlannedEventIds": []
+        },
+        {
+          "title": "陆昊脱离窒息危机",
+          "summary": "阵法调整后回流速度放缓，陆昊喉咙里发出气流顺畅通过声带的摩擦声，呼吸稳定下来。",
+          "type": "payoff",
+          "participantNames": [
+            "陆昊",
+            "许文瑛",
+            "沈令仪"
+          ],
+          "locationName": "产房",
+          "stateChanges": [
+            {
+              "targetType": "character",
+              "targetId": "陆昊",
+              "field": "life_status",
+              "before": "窒息濒死",
+              "after": "呼吸稳定、脱险",
+              "certainty": "confirmed"
+            }
+          ],
+          "possibleHooks": [],
+          "occurred": true,
+          "confidence": 1,
+          "matchedPlannedEventIds": []
+        },
+        {
+          "title": "许文瑛制定后续护生阵方案",
+          "summary": "许文瑛确认婴儿经络吃不下标准回流，规定以后用单片阵且每次不超过半个时辰。",
+          "type": "setup",
+          "participantNames": [
+            "许文瑛",
+            "沈令仪"
+          ],
+          "locationName": "产房",
+          "stateChanges": [],
+          "possibleHooks": [
+            {
+              "title": "单片阵限时规则",
+              "description": "许文瑛规定陆昊以后只能用单片阵且每次不超过半个时辰，后续修炼或治疗需遵循此限制。",
+              "priority": "medium",
+              "resolveMode": "long_arc",
+              "blocking": false
+            }
+          ],
+          "occurred": true,
+          "confidence": 1,
+          "matchedPlannedEventIds": []
+        },
+        {
+          "title": "家人探视与抱婴反差",
+          "summary": "陆峥抱婴儿姿势笨拙僵硬，八岁的陆景珩指导父亲托住屁股；沈令仪接手动作熟练，形成反差。",
+          "type": "relationship",
+          "participantNames": [
+            "陆峥",
+            "陆景珩",
+            "沈令仪",
+            "陆昊"
+          ],
+          "locationName": "产房",
+          "stateChanges": [],
+          "possibleHooks": [],
+          "occurred": true,
+          "confidence": 1,
+          "matchedPlannedEventIds": []
+        },
+        {
+          "title": "陆昊感知到可学习的微小路径",
+          "summary": "脱险后陆昊在静止中重新找到那根下沉内息的走向，意识到可以顺着弧度再试一次，但随即陷入睡眠。",
+          "type": "setup",
+          "participantNames": [
+            "陆昊"
+          ],
+          "locationName": "产房",
+          "stateChanges": [
+            {
+              "targetType": "character",
+              "targetId": "陆昊",
+              "field": "cultivation_awareness",
+              "before": "无",
+              "after": "感知到微弱内息走向的弧度",
+              "certainty": "confirmed"
+            }
+          ],
+          "possibleHooks": [
+            {
+              "title": "内息路径的首次主动探索",
+              "description": "陆昊在章末感知到了内息下沉的微小走向弧度，尚未推动便入睡，醒来后需要承接这条线索进行首次主动尝试。",
+              "priority": "high",
+              "resolveMode": "immediate",
+              "blocking": true
+            }
+          ],
+          "occurred": true,
+          "confidence": 1,
+          "matchedPlannedEventIds": []
+        }
+      ],
+      "hooks": [
+        {
+          "title": "内息路径的首次主动探索",
+          "description": "陆昊在章末感知到了内息下沉的微小走向弧度，尚未推动便入睡，醒来后需要承接这条线索进行首次主动尝试。",
+          "priority": "high",
+          "resolveMode": "immediate",
+          "blocking": true
+        },
+        {
+          "title": "单片阵限时规则",
+          "description": "许文瑛规定陆昊以后只能用单片阵且每次不超过半个时辰，后续修炼或治疗需遵循此限制。",
+          "priority": "medium",
+          "resolveMode": "long_arc",
+          "blocking": false
+        }
+      ],
+      "stateChanges": [
+        {
+          "targetType": "character",
+          "targetId": "陆昊",
+          "field": "life_status",
+          "before": "未出生/窒息濒死",
+          "after": "出生、脱险、呼吸稳定、入睡",
+          "certainty": "confirmed"
+        },
+        {
+          "targetType": "character",
+          "targetId": "陆昊",
+          "field": "consciousness_state",
+          "before": "无",
+          "after": "十八岁成人意识",
+          "certainty": "confirmed"
+        },
+        {
+          "targetType": "item",
+          "targetId": "护生阵玉片",
+          "field": "active_count",
+          "before": "3",
+          "after": "1",
+          "certainty": "confirmed"
+        }
+      ]
+    },
+    "error": null
+  }
+}

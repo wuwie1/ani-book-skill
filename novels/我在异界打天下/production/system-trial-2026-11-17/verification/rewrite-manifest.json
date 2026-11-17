@@ -1,0 +1,22 @@
+[
+  {
+    "path": "server/src/services/novel/chapterEditor/synchronization/ManualChapterSyncStore.ts",
+    "before": "2cb9002cc3f27762a0fee681af286eff53cb0728fac2acc039d3f981db268c5d",
+    "after": "02ae97544e69377983525c3f02eb35d041b1d0c2bf80ab28aecc74e2ba440857"
+  },
+  {
+    "path": "server/src/services/novel/runtime/GenerationContextAssembler.ts",
+    "before": "dc963d7db8000d24da69c791bd3f797be1cb36ecd4f71bdf5ca5615d676578a6",
+    "after": "957c27002b38fb8cd030324201ccf1a6bed263a5045c7738cd6497a3a3c11d0b"
+  },
+  {
+    "path": "server/tests/novelProduction/clearedChapterPlanBoundary.test.js",
+    "before": null,
+    "after": "3210e7fd39d169964498bef89b695c21a1e60a1b0f135fc313cf5aaf80bbfb4e"
+  },
+  {
+    "path": "docs/wiki/workflows/chapter-rewrite-context.md",
+    "before": "a2fad4efa8f6551aa18bdfdc4a46b43658a5085e23a9e1ed1a52dedfdf95921a",
+    "after": "84a4dd6897b33e98800ab48c6e457f73b6e242c508cf0ec9945a6f1d18caf5b5"
+  }
+]

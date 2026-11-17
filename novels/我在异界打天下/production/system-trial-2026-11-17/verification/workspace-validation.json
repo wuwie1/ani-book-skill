@@ -1,0 +1,18 @@
+{
+  "compileall": "passed",
+  "unittest": {
+    "passed": 78,
+    "failed": 0
+  },
+  "skillQuickValidator": "passed",
+  "novelWorkspace": {
+    "valid": true,
+    "warnings": []
+  },
+  "tokenLedger": {
+    "valid": true,
+    "recordCount": 47
+  },
+  "functionalSkillChanges": false,
+  "rawProseEdited": false
+}
