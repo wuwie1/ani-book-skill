@@ -22,10 +22,10 @@
 | CHAR-CHENG-JIANQIU | 程见秋，程家船队运务学徒，主感情对象 | 13 | 第一卷起 | 常带潮尺与小账册，先问人和船能否回来；[完整档案](profiles/cheng-jianqiu.md) |
 | CHAR-HAN-JINGSHAN | 韩敬山，王府外仓军需承办 | 44 | 第一卷 | 衣物整洁，习惯把凭单摆在说话人面前；[完整档案](profiles/han-jingshan.md) |
 | CHAR-CHI-HENG | 赤衡，赤炉魔城炉师 | 61 | 第二卷起 | 前臂有旧灼痕，先看成品断口再谈价格；[完整档案](profiles/chi-heng.md) |
-| CHAR-TAO-SHOUCHENG | 陶守诚，王府器务匠师 | 50 | 首卷第7章起，童年段按年龄回退 | 指腹磨痕、短刻笔，先摸外壳再看刻纹；[完整档案](profiles/tao-shoucheng.md) |
-| CHAR-ZHOU-YOUNIAN | 周有年，外仓记簿吏 | 32 | 首卷第17章起 | 袖口墨迹、压平文书边角；[完整档案](profiles/zhou-younian.md) |
-| CHAR-SHI-CHANGGENG | 石长庚，程家船队领船、成年代理人 | 42 | 首卷第14章起 | 旧绳伤、木哨，指着水位谈路线；[完整档案](profiles/shi-changgeng.md) |
-| CHAR-DU-KUI | 杜魁，承包货栈押货头目 | 38 | 首卷第20章起 | 颈侧烫痕，先看退路再谈价；[完整档案](profiles/du-kui.md) |
+| CHAR-TAO-SHOUCHENG | 陶守诚，王府器务匠师 | 50 | 首卷第2章起，童年段按年龄回退 | 指腹磨痕、短刻笔，先摸外壳再看刻纹；[完整档案](profiles/tao-shoucheng.md) |
+| CHAR-ZHOU-YOUNIAN | 周有年，外仓记簿吏 | 32 | 首卷第9章起 | 袖口墨迹、压平文书边角；[完整档案](profiles/zhou-younian.md) |
+| CHAR-SHI-CHANGGENG | 石长庚，程家船队领船、成年代理人 | 42 | 首卷第4章起 | 旧绳伤、木哨，指着水位谈路线；[完整档案](profiles/shi-changgeng.md) |
+| CHAR-DU-KUI | 杜魁，承包货栈押货头目 | 38 | 首卷第12章起 | 颈侧烫痕，先看退路再谈价；[完整档案](profiles/du-kui.md) |
 
 ## 中远期储备人物
 

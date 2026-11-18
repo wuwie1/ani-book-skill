@@ -20,7 +20,7 @@
 | 每一卷写什么、多少章、为什么进入下一卷 | [十二卷战略](volumes/volume-strategy.md) |
 | 首卷60章如何推进 | [第一卷骨架](volumes/volume-01.md) |
 | 首卷节奏节点与分段职责 | [第一卷节奏板](volumes/volume-01-beat-sheet.md) |
-| 首卷60章逐章主要事件、人物变化、下一章推进点 | [第一卷逐章细纲](volumes/volume-01-chapter-outline.md) |
+| 首卷60章逐章主要事件、人物变化、下一章推进点 | [现行第一卷逐章细纲](../../../volumes/volume-01-chapter-outline.md) |
 | 本次细纲的时间、伤情、证据与章间衔接审查 | [首卷细纲审查](production/volume-01-outline-review.md) |
 | 叙事、对白、战斗与情绪表达方式 | [表达合同](writing-style.md) |
 | 发现了哪些风险、怎样处理 | [逻辑审查与修复](production/design-review.md) |
