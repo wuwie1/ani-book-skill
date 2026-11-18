@@ -26,9 +26,9 @@ artifacts:
     source: ai_generated
     protected: false
     depends_on: []
-    sha256: e1639ea449d2b75f27315685f5a8c96b38efa37b59511f9ef75a525eef884686
+    sha256: 277d8f0162ad522bc4c8eaa8f72411bcff536e301a34a8ffd64b83e4549049f8
     approval: delegated
-    updated_at: '2026-11-16T10:35:53.026390Z'
+    updated_at: '2026-11-18T03:11:54.001597+00:00'
   story_bible:
     path: story-bible.md
     status: ready
@@ -36,9 +36,9 @@ artifacts:
     protected: false
     depends_on:
     - novel_brief
-    sha256: cfe68e382e30f0cbad5f87be5ae6d0a96d2885f726f0784fd919882e345a5904
+    sha256: ab0b823a3f7e7b609b167370aec41fbe9f842f70a324f508fa27f2a681cb1429
     approval: delegated
-    updated_at: '2026-11-16T10:35:53.026494Z'
+    updated_at: '2026-11-18T03:11:54.002103+00:00'
   world_bible:
     path: world-bible.md
     status: ready
@@ -47,9 +47,9 @@ artifacts:
     depends_on:
     - novel_brief
     - story_bible
-    sha256: 2f0269ac7496b2c22f4285d08d07fbaf70fbc7a991a0362abad060b3528c12d7
+    sha256: 9ca1494c5b7822feab8840573e2cd5733a93e1bc9b2f789faebb05b89689e2a7
     approval: not_required
-    updated_at: '2026-11-16T10:35:53.026534Z'
+    updated_at: '2026-11-18T03:11:54.002482+00:00'
   character_roster:
     path: characters/character-roster.md
     status: ready
@@ -76,9 +76,9 @@ artifacts:
     - story_bible
     - world_bible
     - character_roster
-    sha256: 68d706185d35ef1496f6de31bd9f4553e6257aafbbd566f0abcf5f97540e5676
+    sha256: 224c87e96529d98e99f65f079d3d227cfe1ff77abe5ce00734899f977973c450
     approval: delegated
-    updated_at: '2026-11-16T10:35:53.027094Z'
+    updated_at: '2026-11-18T03:11:54.002987+00:00'
   volume_01_skeleton:
     path: volumes/volume-01.md
     status: stale
@@ -87,9 +87,9 @@ artifacts:
     depends_on:
     - volume_strategy
     - character_roster
-    sha256: c71a9c89192d846cbb49c9de55c7a2f1bc2b583f8b8224aa505889dea19d51ad
+    sha256: 95381e0473423451fb2e830f090ffd31b3dd546da848826e5735a4010b082a93
     approval: not_required
-    updated_at: '2026-11-16T10:35:53.027126Z'
+    updated_at: '2026-11-18T03:11:54.003447+00:00'
   volume_01_beat_sheet:
     path: volumes/volume-01-beat-sheet.md
     status: stale
@@ -146,9 +146,9 @@ artifacts:
     protected: false
     depends_on:
     - novel_brief
-    sha256: c7aa31261ba88f1edadbcafa2bfe62087be079510a3744cfa385b3a3fcf6eca0
+    sha256: 26900e8c80cf5980f9aecfa9c828ba1a7dbe91f17a376ea2795f2e1becb6f0c9
     approval: not_required
-    updated_at: '2026-11-16T10:35:53.026564Z'
+    updated_at: '2026-11-18T03:11:54.003779+00:00'
   world_combat:
     path: world-combat.md
     status: stale
@@ -158,9 +158,9 @@ artifacts:
     - world_bible
     - volume_strategy
     - character_roster
-    sha256: bc69e82879e440f390f38f02e436c242960a40ffd3223b4a915e457c734d0045
+    sha256: af7169e92f06673aa9f9c58f7525bd4e98356654248cd88e50545858e23b88d9
     approval: not_required
-    updated_at: '2026-11-16T10:35:53.027350Z'
+    updated_at: '2026-11-18T03:11:54.004043+00:00'
   package_index:
     path: README.md
     status: stale
@@ -172,9 +172,9 @@ artifacts:
     - design_package
     - volume_01_chapter_outline
     - volume_01_outline_review
-    sha256: 67059f9327979f99fd7ac8884ddd1c0f7f0e5a1990b61bd310d05849d2e89bd0
+    sha256: 0b32740beb7c78d5b6f9c30c210d2f7456ff22881ca5d07a57ef3362972205c7
     approval: not_required
-    updated_at: '2026-11-17T01:47:16.140489+00:00'
+    updated_at: '2026-11-18T03:11:54.004395+00:00'
   character_cheng_jianqiu:
     path: characters/profiles/cheng-jianqiu.md
     status: ready
@@ -196,9 +196,9 @@ artifacts:
     - novel_brief
     - story_bible
     - world_bible
-    sha256: 5d4603e5654212097bbf9112217b758adf1874c55d8c05eef065eec525e63909
+    sha256: 1fcac96c3e81a72674f8682b1a69eeb2b5bb0f1d764497c9d9907da665f63379
     approval: not_required
-    updated_at: '2026-11-16T10:35:53.026713Z'
+    updated_at: '2026-11-18T03:11:54.004857+00:00'
   character_han_jingshan:
     path: characters/profiles/han-jingshan.md
     status: ready
@@ -208,9 +208,9 @@ artifacts:
     - novel_brief
     - story_bible
     - world_bible
-    sha256: cbe240ef5d930853ad8404333a96889f6f5e7bf3b740f5ea6dccccea2dc2bfff
+    sha256: 8a6f4cc65a846169481a50a5785d70fbd607b4da93c34bf88326e379a49b76ef
     approval: not_required
-    updated_at: '2026-11-16T10:35:53.026739Z'
+    updated_at: '2026-11-18T03:11:54.005282+00:00'
   character_lu_hao:
     path: characters/profiles/lu-hao.md
     status: ready
@@ -220,9 +220,9 @@ artifacts:
     - novel_brief
     - story_bible
     - world_bible
-    sha256: 4da8772e45d1d206ed19476da97d7d39e186a8bf83d0bf00574ed90fc93f7f5f
+    sha256: ba53f91373933296e005d5aa95ab7c70bdc3db1f3a3c0151c65635de1c3bf547
     approval: not_required
-    updated_at: '2026-11-16T10:35:53.026775Z'
+    updated_at: '2026-11-18T03:11:54.005690+00:00'
   character_lu_jingheng:
     path: characters/profiles/lu-jingheng.md
     status: ready
@@ -232,9 +232,9 @@ artifacts:
     - novel_brief
     - story_bible
     - world_bible
-    sha256: 4273bc0ec1dedff26a67de38451bcf30853216dcca6ede222e0f5acc4dff6c82
+    sha256: 721b3708f3c59ac6c2e20d1c289d4483010fce6f578952845d6e6a179bb40813
     approval: not_required
-    updated_at: '2026-11-16T10:35:53.026807Z'
+    updated_at: '2026-11-18T03:11:54.005944+00:00'
   character_lu_yanshan:
     path: characters/profiles/lu-yanshan.md
     status: ready
@@ -244,9 +244,9 @@ artifacts:
     - novel_brief
     - story_bible
     - world_bible
-    sha256: f0401ed9408397ac83658da8d1abac8e0afaccc711c9fb1924dded48fb05074c
+    sha256: 838c4ea278d85f7152707c65e2038b93cc3e887a8192683f367b43e0b477fb56
     approval: not_required
-    updated_at: '2026-11-16T10:35:53.026834Z'
+    updated_at: '2026-11-18T03:11:54.006205+00:00'
   character_lu_zheng:
     path: characters/profiles/lu-zheng.md
     status: ready
@@ -256,9 +256,9 @@ artifacts:
     - novel_brief
     - story_bible
     - world_bible
-    sha256: 861d084e80a405d32cb075d0200c895c3bccbc747b41463c8f918401b13d0757
+    sha256: 9daa73b141ee1be095a00a48231b5a44f3244747dcaa7b8e2a58984b6718a07d
     approval: not_required
-    updated_at: '2026-11-16T10:35:53.026861Z'
+    updated_at: '2026-11-18T03:11:54.006432+00:00'
   character_qi_lie:
     path: characters/profiles/qi-lie.md
     status: ready
@@ -268,9 +268,9 @@ artifacts:
     - novel_brief
     - story_bible
     - world_bible
-    sha256: 12fe75b610e62d30e67be77749a4b6dec90ad07f62149529036bf70fe4844bd4
+    sha256: 884dfa81068d972bfcaf38b306b9d2dca34c7f3eaac93d1c6c3a56f5c467a9fe
     approval: not_required
-    updated_at: '2026-11-16T10:35:53.026888Z'
+    updated_at: '2026-11-18T03:11:54.006645+00:00'
   character_shen_lingyi:
     path: characters/profiles/shen-lingyi.md
     status: ready
@@ -322,9 +322,9 @@ artifacts:
     - character_zhou_younian
     - character_shi_changgeng
     - character_du_kui
-    sha256: 2c2897f17148bb7c5da049e941da89c4f1d3bca6af1a81496f789028a20ff945
+    sha256: c61dd9148a6cbedfde4259ad42b0f477a131c797a23ccca93207835a64671502
     approval: not_required
-    updated_at: '2026-11-16T10:35:53.027243Z'
+    updated_at: '2026-11-18T03:11:54.007205+00:00'
   character_tao_shoucheng:
     path: characters/profiles/tao-shoucheng.md
     status: ready
@@ -358,9 +358,9 @@ artifacts:
     - novel_brief
     - story_bible
     - world_bible
-    sha256: 2231ab63987e9efe362cccba2cd015583669eda590930ab082acef8990eb130c
+    sha256: e55d8af30a46730d19666d85b974ca77348c33e9a8e8775023e3d388b877f3fc
     approval: not_required
-    updated_at: '2026-11-16T10:35:53.027029Z'
+    updated_at: '2026-11-18T03:11:54.007498+00:00'
   character_du_kui:
     path: characters/profiles/du-kui.md
     status: ready
@@ -370,9 +370,9 @@ artifacts:
     - novel_brief
     - story_bible
     - world_bible
-    sha256: 6a90b8f0d8bd433d4e06f4e72c4ca54fa78efff40340878efc6b624d9cb6396a
+    sha256: e8d682de55ca8a837fe23d6334bf1fedd2c24fbbefe8bcb43c8149a15b879642
     approval: not_required
-    updated_at: '2026-11-16T10:35:53.027055Z'
+    updated_at: '2026-11-18T03:11:54.007918+00:00'
   volume_01_outline_review:
     path: production/volume-01-outline-review.md
     status: stale
@@ -382,9 +382,9 @@ artifacts:
     - volume_01_chapter_outline
     - character_roster
     - writing_style
-    sha256: 978c42611e4b6b2f08523b530664bc6d99f7b8b5c785bb819aec958111a40a55
+    sha256: ef24a717f35d6a424ee7995e62b2ae45b4903291426dce5ea21e715294fbc17c
     approval: not_required
-    updated_at: '2026-11-16T10:35:53.027281Z'
+    updated_at: '2026-11-18T03:11:54.008409+00:00'
   opening_window:
     path: volumes/volume-01-opening-outline.md
     status: ready
@@ -422,9 +422,9 @@ artifacts:
     - writing_style
     - world_bible
     - character_roster
-    sha256: 7627af0659fbd68f14087985ff88e652069c16d08b1a043939df0303d9d23ad5
+    sha256: 304c645d7f99b9298f778e171f50d39c81c8b660d47b3b77ced9805914f77ddd
     approval: delegated
-    updated_at: '2026-11-16T10:35:53.027497Z'
+    updated_at: '2026-11-18T03:11:54.008792+00:00'
   opening_plan_003:
     path: chapters/chapter-003/plan.md
     status: ready
@@ -435,9 +435,9 @@ artifacts:
     - writing_style
     - world_bible
     - character_roster
-    sha256: dcf3d689017fbaab154a26adcd9d49d0df1398b1304849b242ff8c51e3441640
+    sha256: 2be9cd174a3ec38c1b5d7a826f87e933fe670ff90efe41ba5220c56bc14384a5
     approval: delegated
-    updated_at: '2026-11-16T10:35:53.027535Z'
+    updated_at: '2026-11-18T03:11:54.009048+00:00'
   opening_context_001:
     path: chapters/chapter-001/context-package.md
     status: ready
