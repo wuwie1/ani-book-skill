@@ -26,7 +26,7 @@ Codex 是唯一生成与创作判断引擎。每个生成步骤必须消费权�
 | `volume_strategy` | 书级资产 | `volumes/volume-strategy.md` | 每卷职责、阶段回报和升级关系明确 | 等待卷级批准 |
 | `volume_skeleton` | 已批准卷战略 | `volumes/volume-XX.md` | 当前卷关键节点和边界可执行 | 只重做当前卷 |
 | `beat_sheet` | 当前卷骨架 | `volumes/volume-XX-beat-sheet.md` | 当前窗口节奏与回报分布明确 | 缩短规划窗口 |
-| `chapter_plan` | 当前窗口、上一稳定章 | `chapters/chapter-XXX/plan.md` | 章节义务和读者体验合同完整 | 补计划，不写正文 |
+| `chapter_plan` | 当前窗口、上一稳定章 | `chapters/chapter-XXX/plan.md` | 章节义务完整，所选场景能通过具体的行动或发现兑现读者期待 | 补计划，不写正文 |
 | `context_package` | 章节计划、权威事实、可选跨书资产选择 | `chapters/chapter-XXX/context-package.md` | 必需来源、裁剪项和缺口可解释；选中资产有固定快照和回读路径 | 缺硬约束或选中资产冲突时阻断 |
 | `chapter_draft` | 计划、上下文包 | `draft.md` | 有可读正文并完成主要义务 | 无可用正文时阻断 |
 | `humanization_revision` | 完整初稿、本章有效写法 | `draft-humanized.md` | 保留事实与合同，只修有证据的成簇表达问题 | 保留初稿并记录风险 |

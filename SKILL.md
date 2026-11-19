@@ -253,7 +253,7 @@ Apply this escalation order:
 
 1. Accept usable content.
 2. Record non-blocking quality debt.
-3. Apply a targeted patch when the problem is local.
+3. Patch local problems where they occur. When a reader loses interest, compare the passage with its planned turning point. Restore a turn the prose obscures, or try a different event within the author’s fixed facts, timeline, and chapter outcome if the plan itself offers little to anticipate.
 4. Rewrite the chapter only when local repair cannot satisfy the chapter contract.
 5. Recommend neighboring-plan or volume replanning only when the chapter responsibility itself is structurally impossible or misplaced.
 
@@ -267,7 +267,7 @@ Do not directly operate its database, task queue, HTTP routes, or production run
 
 ## Skill Maintenance
 
-For changes to analysis, adaptation, author corrections, or humanization, use the small [behavioral regression cases](references/behavioral-regressions.md) alongside deterministic tests. Check actual decisions and output evidence; field presence and successful scripts do not establish story quality. Honor the user's delegation preference when validating.
+For changes to analysis, adaptation, chapter planning, author corrections, or humanization, use the relevant [behavioral regression cases](references/behavioral-regressions.md) alongside deterministic tests. Evaluate story decisions against the resulting passage or plan. Honor the user's delegation preference when validating.
 
 When maintaining this skill, treat a user's explicit acceptance of a proposed workflow, artifact, directory, or constraint change as authorization to update the relevant skill instructions in the same task. Update `SKILL.md` and the directly affected reference contracts together, then run a focused consistency check for conflicting paths, duplicate authority, and stale terminology. Do not treat an unconfirmed recommendation as a specification change, and preserve unrelated user edits.
 
