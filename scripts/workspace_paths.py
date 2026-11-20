@@ -22,6 +22,7 @@ CHINESE_NAMES = {
     "volume-strategy.md": "分卷规划.md",
     "chapters": "章节",
     "plan.md": "章节计划.md",
+    "adopted-plan.md": "正式章节计划.md",
     "context-package.md": "上下文包.md",
     "context.md": "上下文包.md",
     "draft.md": "正文初稿.md",

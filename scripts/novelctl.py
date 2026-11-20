@@ -115,7 +115,7 @@ def require_v3(state: dict[str, Any]) -> None:
         raise ValueError("write operations require schema v3; run novelctl.py migrate first")
 
 
-def atomic_write_text(path: Path, content: str) -> None:
+def atomic_write_text(path: Path, content: str, *, replace: bool = True) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     handle, temporary_name = tempfile.mkstemp(prefix=f".{path.name}.", suffix=".tmp", dir=path.parent)
     try:
@@ -123,7 +123,10 @@ def atomic_write_text(path: Path, content: str) -> None:
             stream.write(content)
             stream.flush()
             os.fsync(stream.fileno())
-        os.replace(temporary_name, path)
+        if replace:
+            os.replace(temporary_name, path)
+        else:
+            os.link(temporary_name, path)
     finally:
         if os.path.exists(temporary_name):
             os.unlink(temporary_name)
@@ -339,6 +342,21 @@ def make_next(action_type: str, target: str, reason: str, requires_approval: boo
     }
 
 
+def missing_artifact_action(artifacts: dict[str, Any], key: str, reason: str) -> dict[str, Any]:
+    match = re.fullmatch(r"chapter_(\d+)_plan", key)
+    if match:
+        source = f"opening_plan_{match[1]}"
+        trial = artifacts.get(source)
+        if isinstance(trial, dict) and trial.get("status") == "ready" and trial.get("path"):
+            return {
+                **make_next("select_trial_plan", key,
+                            f"第 {int(match[1])} 章已有试写计划《{trial['path']}》。正式生产前选用此版或另拟计划。", True),
+                "candidate": source,
+                "path": trial["path"],
+            }
+    return make_next("produce_artifact", key, reason)
+
+
 def opening_choices_ready(state: dict[str, Any]) -> bool:
     choices = state.get("opening_choices")
     if not isinstance(choices, dict):
@@ -422,7 +440,7 @@ def next_chapter_action(state: dict[str, Any]) -> dict[str, Any]:
     )
     for key, step in chain:
         if key not in artifacts:
-            return make_next("produce_artifact", key, f"第 {number} 章下一生产步骤：{step}")
+            return missing_artifact_action(artifacts, key, f"第 {number} 章下一生产步骤：{step}")
     review = artifacts[f"{prefix}_review"]
     decision = review.get("review_decision")
     if decision == "repair_required" and f"{prefix}_repair" not in artifacts:
@@ -453,6 +471,8 @@ def decide_next(state: dict[str, Any]) -> dict[str, Any]:
     for desired, action in (("in_progress", "resume_step"), ("blocked", "resolve_blocker"), ("stale", "refresh_artifact"), ("missing", "produce_artifact")):
         for key, artifact in ordered_artifacts(state):
             if artifact.get("status") == desired:
+                if desired == "missing":
+                    return missing_artifact_action(state["artifacts"], key, f"首个 missing 产物：{key}")
                 return make_next(action, key, f"首个 {desired} 产物：{key}", desired == "blocked")
     return next_chapter_action(state)
 
@@ -632,8 +652,20 @@ def validation_report(workspace: Path, state: dict[str, Any]) -> tuple[list[str]
             errors.append(f"confirmation conflict: {key} is approved but its document still has pending choices")
         if state.get("schema_version") == 3 and approval not in APPROVALS:
             errors.append(f"artifact {key} has invalid approval: {approval}")
-    if state.get("schema_version") == SCHEMA_VERSION and state.get("next_action") != decide_next(state):
-        errors.append("persisted next_action drifted from deterministic next action")
+    if state.get("schema_version") == SCHEMA_VERSION:
+        expected = decide_next(state)
+        cached = state.get("next_action")
+        if cached != expected:
+            key = expected["target"]
+            legacy_reasons = [f"首个 missing 产物：{key}"]
+            if expected["type"] == "select_trial_plan":
+                legacy_reasons.append(f"第 {int(key.split('_')[1])} 章下一生产步骤：chapter_plan")
+            if expected["type"] == "select_trial_plan" and cached in [
+                make_next("produce_artifact", key, reason) for reason in legacy_reasons
+            ]:
+                warnings.append("旧版恢复提示未包含已有试写计划；next 已显示候选，reconcile 可刷新记录")
+            else:
+                errors.append("persisted next_action drifted from deterministic next action")
     if state.get("schema_version") == 3:
         director = state.get("director")
         if not isinstance(director, dict):
@@ -793,8 +825,9 @@ def command_reconcile(args: argparse.Namespace) -> int:
     return 0
 
 
-def dependency_list(args: argparse.Namespace, key: str, artifacts: dict[str, Any]) -> list[str]:
-    supplied = list(dict.fromkeys(args.depends_on or []))
+def dependency_list(args: argparse.Namespace, key: str, artifacts: dict[str, Any],
+                    inherited: Iterable[str] = ()) -> list[str]:
+    supplied = list(dict.fromkeys([*(args.depends_on or []), *inherited]))
     if args.step == "chapter_plan":
         volume = getattr(args, "volume", None)
         windows = [item for item in supplied if re.fullmatch(r"volume_\d+_beat_sheet", item)]
@@ -866,6 +899,7 @@ def invalidate_dependents(state: dict[str, Any], key: str, keep: Iterable[str] =
         if item.get("status") in {"ready", "in_progress"} and not item.get("protected"):
             item["status"] = "stale"
             item.pop("review_decision", None)
+            item.pop("quality_debt_ids", None)
             stale.append(dependent)
     # Review can consume a repaired candidate without a cyclic dependency edge.
     match = re.fullmatch(r"chapter_(\d+)_repair", key)
@@ -874,6 +908,7 @@ def invalidate_dependents(state: dict[str, Any], key: str, keep: Iterable[str] =
         if review:
             review["status"] = "stale"
             review.pop("review_decision", None)
+            review.pop("quality_debt_ids", None)
     return stale
 
 
@@ -977,6 +1012,69 @@ def validate_chapter_reference_preflight(workspace: Path, target: str) -> None:
             analysis_reference.render_context(workspace, number)
 
 
+def preserve_trial_file(artifacts: dict[str, Any], relative: str) -> None:
+    for key, item in artifacts.items():
+        if re.fullmatch(r"opening_(plan|context)_\d+", key) and item.get("path") == relative:
+            raise ValueError(f"{relative} 是已登记的试写文件；正式版本请另选路径")
+
+
+def command_adopt_plan(args: argparse.Namespace) -> int:
+    workspace = args.workspace.resolve()
+    state = read_state(workspace)
+    require_v3(state)
+    if args.chapter < 1:
+        raise ValueError("chapter must be positive")
+    target = chapter_target(args.chapter)
+    key = artifact_key("chapter_plan", target)
+    source_key = f"opening_plan_{args.chapter:03d}"
+    artifacts = state["artifacts"]
+    existing = artifacts.get(key, {})
+    if existing.get("status") == "ready" and existing.get("adopted_from") == source_key:
+        ensure_dependencies_ready(artifacts, [key], workspace)
+        if ((args.output and output_relative(workspace, args.output) != existing["path"])
+                or (args.volume is not None and args.volume != existing.get("volume"))):
+            raise ValueError("已有正式计划的路径或卷号与本次选择不同")
+        print(json.dumps({"adopted": key, "path": existing["path"], "already_adopted": True}, ensure_ascii=False))
+        return 0
+    action = decide_next(state)
+    if action["type"] != "select_trial_plan" or action["target"] != key or existing.get("protected"):
+        raise ValueError("当前正式步骤没有待采用的试写计划；请核对 next 和已有资产")
+    validate_chapter_progress(state, target, "chapter_plan")
+    validate_fanfic_source(state)
+    validate_style_preflight(workspace, state, require_registered=True)
+    validate_chapter_reference_preflight(workspace, target)
+    trial = artifacts[source_key]
+    dependencies = dependency_list(args, key, artifacts, trial.get("depends_on") or [])
+    ensure_dependencies_ready(artifacts, [source_key, *dependencies], workspace)
+    validate_confirmation_labels(workspace, artifacts, dependencies)
+    relative = output_relative(workspace, args.output or f"chapters/chapter-{args.chapter:03d}/adopted-plan.md")
+    destination = workspace / relative
+    if (destination.is_symlink() or not destination.resolve().is_relative_to(workspace)
+            or any(k != key and item.get("path") == relative for k, item in artifacts.items())):
+        raise ValueError("正式计划需要独立的本书文件，请用 --output 指定空闲路径")
+    data = artifact_location(workspace, trial).read_bytes()
+    if hashlib.sha256(data).hexdigest() != trial["sha256"]:
+        raise ValueError("试写计划已变化，请核对后再采用")
+    try:
+        atomic_write_text(destination, data.decode("utf-8"), replace=False)
+    except FileExistsError:
+        # A retry can reuse a complete snapshot left before the state was saved.
+        if not destination.is_file() or destination.read_bytes() != data:
+            raise ValueError(f"已有不同内容：{relative}；请用 --output 指定其他路径")
+    window = next(dep for dep in dependencies if re.fullmatch(r"volume_\d+_beat_sheet", dep))
+    artifacts[key] = {
+        "path": relative, "status": "ready", "source": trial.get("source", "imported"),
+        "protected": bool(trial.get("protected")), "depends_on": dependencies, "sha256": trial["sha256"],
+        "approval": "approved", "adopted_from": source_key, "volume": int(window.split("_")[1]),
+        "updated_at": now_utc(),
+    }
+    state["novel"]["current_stage"] = "chapter_plan"
+    state["next_action"] = decide_next(state)
+    atomic_write_state(workspace, state)
+    print(json.dumps({"adopted": key, "path": relative, "next_action": state["next_action"]}, ensure_ascii=False))
+    return 0
+
+
 def command_start_step(args: argparse.Namespace) -> int:
     workspace = args.workspace.resolve()
     state = read_state(workspace)
@@ -1017,9 +1115,13 @@ def command_start_step(args: argparse.Namespace) -> int:
     ensure_dependencies_ready(artifacts, dependencies, workspace)
     validate_confirmation_labels(workspace, artifacts, dependencies)
     relative = output_relative(workspace, args.artifact)
+    if args.step in CHAPTER_STEPS:
+        preserve_trial_file(artifacts, relative)
     run_id = args.run_id or str(uuid.uuid4())
     entry = existing if isinstance(existing, dict) else {}
     if args.step == "chapter_review":
+        entry.pop("review_decision", None)
+        entry.pop("quality_debt_ids", None)
         entry["review_inputs"] = review_snapshot(workspace, state, args.target)
     if args.step == "chapter_plan":
         window = next(item for item in dependencies if re.fullmatch(r"volume_\d+_beat_sheet", item))
@@ -1152,6 +1254,19 @@ def command_finish_step(args: argparse.Namespace) -> int:
         raise ValueError("chapter_review requires --review-decision")
     if args.step == "chapter_review" and args.status == "ready" and artifact.get("review_inputs") != review_snapshot(workspace, state, args.target):
         raise ValueError("review inputs changed during review; restart review")
+    debt_ids = list(dict.fromkeys(args.quality_debt_id))
+    decision = args.review_decision
+    if decision == "continue_with_warning":
+        if args.step != "chapter_review" or args.status != "ready" or not debt_ids:
+            raise ValueError("continue_with_warning requires a ready chapter_review and --quality-debt-id")
+        ledger = book_path(workspace, "production/quality-debt.md")
+        notes = ledger.read_text(encoding="utf-8") if ledger.is_file() else ""
+        for debt_id in debt_ids:
+            if not debt_id.strip() or not re.search(rf"(?<![\w-]){re.escape(debt_id)}(?![\w-])", notes):
+                raise ValueError(f"quality debt ID is missing from {ledger.name}: {debt_id}")
+        decision = "accepted"
+    elif debt_ids:
+        raise ValueError("--quality-debt-id requires --review-decision continue_with_warning")
     if args.status == "ready" and args.step in MILESTONE_STEPS and artifact.get("approval") in {"approved", "delegated"} and pending_confirmation(path):
         raise ValueError("confirmation conflict: resolve document pending choices before marking approved work ready")
     run_id = state["director"].get("run_id")
@@ -1160,9 +1275,13 @@ def command_finish_step(args: argparse.Namespace) -> int:
     if artifact.get("sha256") != current_sha:
         invalidate_dependents(state, key, artifact.get("review_inputs", {}) if args.step == "chapter_review" else ())
     artifact.update({"status": args.status, "sha256": current_sha, "updated_at": now_utc()})
-    if args.step == "chapter_review" and args.review_decision is not None:
-        artifact["review_decision"] = args.review_decision
-        if args.status == "ready" and args.review_decision == "accepted":
+    if args.step == "chapter_review" and decision is not None:
+        artifact["review_decision"] = decision
+        if debt_ids:
+            artifact["quality_debt_ids"] = debt_ids
+        else:
+            artifact.pop("quality_debt_ids", None)
+        if args.status == "ready" and decision == "accepted":
             for input_key in artifact["review_inputs"]:
                 if step_from_key(input_key) in {"chapter_draft", "humanization_revision", "chapter_repair"}:
                     state["artifacts"][input_key]["protected"] = True
@@ -1370,6 +1489,7 @@ def command_context(args: argparse.Namespace) -> int:
         rendered += "\n" + reference_context
     if args.output:
         output = output_relative(workspace, args.output)
+        preserve_trial_file(artifacts, output)
         atomic_write_text(workspace / output, rendered)
         print(json.dumps({"written": output, "sources": sources,
                           "omitted_missing_or_over_budget": omitted}, ensure_ascii=False, indent=2))
@@ -1443,6 +1563,13 @@ def build_parser() -> argparse.ArgumentParser:
     add_workspace(next_command)
     next_command.set_defaults(handler=command_next)
 
+    adopt = commands.add_parser("adopt-plan", help="use the author's selected trial plan as a separate formal plan")
+    add_workspace(adopt)
+    adopt.add_argument("--chapter", type=int, required=True)
+    adopt.add_argument("--volume", type=int, help="volume owning the plan when ambiguous")
+    adopt.add_argument("--output", help="new workspace-relative plan path")
+    adopt.set_defaults(handler=command_adopt_plan, step="chapter_plan", depends_on=[])
+
     validate = commands.add_parser("validate", help="validate state, paths, dependencies, and fingerprints")
     add_workspace(validate)
     validate.set_defaults(handler=command_validate)
@@ -1479,7 +1606,8 @@ def build_parser() -> argparse.ArgumentParser:
     finish.add_argument("--model")
     finish.add_argument("--request-id")
     finish.add_argument("--reason")
-    finish.add_argument("--review-decision", choices=("accepted", "repair_required", "stop_for_replan"))
+    finish.add_argument("--review-decision", choices=("accepted", "continue_with_warning", "repair_required", "stop_for_replan"))
+    finish.add_argument("--quality-debt-id", action="append", default=[], help="existing ledger entry for a non-blocking review issue")
     token_usage.add_token_arguments(finish)
     finish.set_defaults(handler=command_finish_step)
 

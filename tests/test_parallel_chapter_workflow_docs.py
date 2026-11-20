@@ -11,8 +11,8 @@ class SerialChapterWorkflowDocsTests(unittest.TestCase):
     def test_skill_keeps_multi_chapter_requests_serial(self) -> None:
         skill = (ROOT / "SKILL.md").read_text(encoding="utf-8")
         self.assertNotIn("[parallel-chapter-production.md]", skill)
-        self.assertIn("do not create child agents", skill)
-        self.assertIn("one chapter before planning the next", skill)
+        self.assertIn("子代理候选流程不进入生产", skill)
+        self.assertIn("一章验收且已提交连续性后才计划下一章", skill)
 
     def test_contract_keeps_candidates_transient_and_coordinator_owned(self) -> None:
         contract = (ROOT / "references" / "parallel-chapter-production.md").read_text(

@@ -76,8 +76,8 @@ class CodexNativeWorkflowDocsTests(unittest.TestCase):
         brief = (ROOT / "references" / "novel-brief.md").read_text(encoding="utf-8")
         seeds = (ROOT / "references" / "opening-seeds.md").read_text(encoding="utf-8")
         routing = (ROOT / "references" / "workflow-routing.md").read_text(encoding="utf-8")
-        self.assertIn("exactly five", skill)
-        self.assertIn("exactly two", skill)
+        self.assertIn("恰好五条", skill)
+        self.assertIn("恰好两份", skill)
         self.assertIn("references/opening-seeds.md", skill)
         for document in (brief, routing):
             self.assertIn("五条", document)

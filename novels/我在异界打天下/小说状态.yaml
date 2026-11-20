@@ -618,7 +618,9 @@ usage:
   estimated_tokens: 0
   unavailable_events: 16
 next_action:
-  type: produce_artifact
+  type: select_trial_plan
   target: chapter_001_plan
-  reason: 第 1 章下一生产步骤：chapter_plan
-  requires_approval: false
+  reason: 第 1 章已有试写计划《章节/第001章/章节计划.md》。正式生产前选用此版或另拟计划。
+  requires_approval: true
+  candidate: opening_plan_001
+  path: 章节/第001章/章节计划.md

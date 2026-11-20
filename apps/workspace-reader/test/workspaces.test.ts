@@ -8,9 +8,22 @@ import { loadDocument, searchWorkspace } from '../app/lib/content.server';
 import { rendererFromSerialized } from '@fumadocs/local-md/client';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { getAnalysisDetails, getNovelReferences } from '../app/lib/analysis.server';
-import { preferredChapters, referenceSelectionPath } from '../app/lib/model';
+import { preferredChapters, referenceSelectionPath, referenceSelectionRequest } from '../app/lib/model';
 import { createHash } from 'node:crypto';
 import { stringify } from 'yaml';
+
+test('a copied reference request scopes the selected cards and stops after validating the chosen chapter', () => {
+  for (const chineseFilenames of [true, false]) {
+    const request = referenceSelectionRequest({ root: '/参照书', registryFingerprint: 'locked-hash' },
+      { root: '/新书', chineseFilenames }, 8, ['PATTERN-007', 'PATTERN-012']);
+    assert.ok(request.includes(referenceSelectionPath(chineseFilenames, 8)));
+    for (const required of ['/参照书', '/新书', 'locked-hash', 'PATTERN-007、PATTERN-012',
+                            'analysis_reference.py validate', '到参考清单和校验结果为止']) {
+      assert.ok(request.includes(required));
+    }
+    assert.ok(!request.includes('novelctl context'));
+  }
+});
 
 test('Chinese filenames support direct discovery, chapter navigation and reference selections', async () => {
   const root = await mkdtemp(path.join(os.tmpdir(), 'ani-chinese-'));

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router';
 import { CheckCircle2, Circle, ArrowUpRight, Copy, Layers3 } from 'lucide-react';
 import type { AnalysisDetails, ReferenceUsage } from './lib/analysis.server';
-import { documentUrl, referenceSelectionPath, type Workspace } from './lib/model';
+import { documentUrl, referenceSelectionRequest, type Workspace } from './lib/model';
 
 export function AnalysisPanel({ workspace, analysis, targets }: {
   workspace: Omit<Workspace, 'root'>; analysis: AnalysisDetails; targets: Pick<Workspace, 'id' | 'title' | 'root' | 'chineseFilenames'>[];
@@ -26,7 +26,7 @@ export function AnalysisPanel({ workspace, analysis, targets }: {
   async function copyRequest(prepare: boolean) {
     const prompt = prepare
       ? `使用 $produce-long-form-novel 继续整理拆书工作区 ${JSON.stringify(analysis.root)}。先核对 analysis-state.yaml、coverage-map.md 和已完成笔记，仅对已读范围生成有证据、前提、失败方式及不可照搬元素的可复用机制。按 references/analysis-to-novel.md 整理 pattern-cards.md 和 pattern-cards.yaml，运行 analysis_reference.py inspect 校验。保留已有编辑，缺少材料时明确缺口。${target ? `\n随后结合目标小说 ${JSON.stringify(target.root)} 的简报和当前计划，提出适合使用的机制与原创改造方案。` : ''}`
-      : `使用 $produce-long-form-novel 将拆书 ${JSON.stringify(analysis.root)} 的 ${picked.map(card => card.id).join('、')} 用于小说 ${JSON.stringify(target!.root)} 的第 ${chapter} 章。\n先读取 references/analysis-to-novel.md、本书简报、章节计划和必要连续性资料，判断这些机制是否适合本章；不合适时说明原因，不强行采用。针对每个适用机制提出用途、原创改造、不采用的元素及可检验效果，写入 ${referenceSelectionPath(target!.chineseFilenames, chapter)}。当前机制清单指纹为 ${analysis.registryFingerprint}，仍须重新核对来源与证据。\n运行 analysis_reference.py validate 后，用 novelctl context 装配上下文，并按本书既有审批和保护规则推进。参考方法不得变成本书事实，审校中记录采用效果与过度相似风险。`;
+      : referenceSelectionRequest(analysis, target!, chapter, picked.map(card => card.id));
     setRequest(prompt); setCopied(false);
     try { await navigator.clipboard.writeText(prompt); setCopied(true); } catch { /* Read-only text remains selectable when clipboard access is unavailable. */ }
   }
@@ -45,7 +45,7 @@ export function AnalysisPanel({ workspace, analysis, targets }: {
         : <div className="mechanism-list">{analysis.cards.map((card, index) => <article className={`mechanism-card ${!card.usable ? 'unavailable' : ''}`} key={`${card.id}-${index}`}><label><input type="checkbox" disabled={!card.usable} checked={picked.some(item => item.id === card.id)} onChange={event => setSelected(event.target.checked ? [...selected, card.id] : selected.filter(id => id !== card.id))} /><span><small>{card.id} · {card.scope}</small><strong>{card.title || '待完善机制'}</strong></span></label><p>{card.problem}</p><dl><dt>运作方式</dt><dd>{card.mechanism}</dd><dt>读者回报</dt><dd>{card.payoff}</dd></dl><details><summary>适用条件、失败方式与证据</summary><p>前提：{card.prerequisites.join('；')}</p><p>失败方式：{card.failure_modes.join('；')}</p><p>不可照搬：{card.forbidden_elements.join('；')}</p>{card.evidence.map((item, index) => <Link key={index} to={documentUrl(workspace.id, item.path) + (item.anchor ? `#${encodeURIComponent(item.anchor)}` : '')}>{item.path} ↗</Link>)}</details>{card.issues.length > 0 && <p className="mechanism-issues">{card.issues.join('；')}</p>}</article>)}</div>}
     </section>
     <section className="analysis-transfer"><h3>用到我的小说</h3><p>选择目标作品与章节。Codex 会结合本书计划判断适用性，并给出具体改造；本页只准备接入请求。</p><div className="transfer-controls"><label>目标小说<select value={targetId} onChange={event => setTargetId(event.target.value)}><option value="">请选择作品</option>{targets.map(target => <option key={target.id} value={target.id}>{target.title}</option>)}</select></label><label>目标章节<input type="number" min={1} max={99999} step={1} value={chapter} onChange={event => setChapter(Math.max(1, Math.min(99999, Math.trunc(Number(event.target.value) || 1))))} /></label></div><p className="transfer-hint">{targets.length === 0 ? '当前阅读目录里没有小说工作区；加入后即可选择。' : `已选择 ${picked.length} 张机制，通常一章只需 1–3 张。`}</p><button className="analysis-action" disabled={!target || picked.length === 0} onClick={() => void copyRequest(false)}><Copy size={15} />复制接入请求</button></section>
-    {request && <aside className="transfer-request" aria-live="polite"><p>{copied ? '已复制，可粘贴到 Codex 继续。' : '请求已准备，可选中文本复制到 Codex。'}</p><textarea aria-label="拆书接入请求" readOnly value={request} rows={7} /><p>生成完成后，回到小说工作区查看章节参考与审校记录。</p></aside>}
+    {request && <aside className="transfer-request" aria-live="polite"><p>{copied ? '已复制，可粘贴到 Codex 继续。' : '请求已准备，可选中文本复制到 Codex。'}</p><textarea aria-label="拆书接入请求" readOnly value={request} rows={7} /><p>完成后，按返回的文件路径查看机制卡或章节参考清单。</p></aside>}
   </section>;
 }
 

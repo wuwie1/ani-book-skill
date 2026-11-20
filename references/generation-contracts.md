@@ -44,7 +44,12 @@ Codex 是唯一生成与创作判断引擎。每个生成步骤必须消费权�
 
 使用跨书资产时，Codex 先创建可编辑的 `context-packages/chapter-XXX.assets.yaml`，再装配正文上下文。脚本只校验稳定 ID、锁定版本、本书快照、预算和冲突；不得从计划文本猜测资产，也不得自动采用共享更新。选中的同步冲突会阻断 `context_package`、`chapter_draft` 和 `chapter_review`。
 
-通过 `novelctl finish-step` 完成 `chapter_review` 时，必须记录 `--review-decision accepted`、`repair_required` 或 `stop_for_replan`。`accepted` 直接进入连续性提交；`repair_required` 先进入修复并重新审校，只有取得 `accepted` 才提交；`stop_for_replan` 是结构性阻断。修复步骤默认第一次为局部修复、第二次为整章修复，超过两次不得继续重写，应记录质量债或进入明确重规划。
+通过 `novelctl finish-step` 完成 `chapter_review` 时，按本版正文给出 `--review-decision`：
+
+- `accepted` 允许进入连续性提交。
+- `continue_with_warning` 用于正文可稳定承接、仍有非阻塞问题的情况。先在本书的 `production/quality-debt.md`（中文工作区为 `创作记录/待修问题.md`）登记问题、正文版本与证据，传入 `--quality-debt-id QD-001` 等已有条目 ID，可重复传入。控制器把 ID 与本次审校锁定的正文版本一起保存，以 `accepted` 推进后续提交和导出。每次重新审校按当前版本判断。
+- `repair_required` 先修复并重新审校。默认第一次局部修复、第二次整章修复，超过两次应记录质量债或进入明确重规划。
+- `stop_for_replan` 用于结构性阻断，依已有授权处理重规划。
 
 连续性提交后，Codex 可以把可复用结论写为 `production/asset-candidates/chapter-XXX/` 下的候选 YAML。该候选必须绑定已提交章节、正文 SHA-256 和证据；发布前仍由 `asset_graph.py verify-candidate` 与既有作者批准/委托规则校验。
 
