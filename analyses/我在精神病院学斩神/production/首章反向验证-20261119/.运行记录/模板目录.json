@@ -1,0 +1,242 @@
+{
+  "key": "novel.chapter.writer@v11",
+  "id": "novel.chapter.writer",
+  "version": "v11",
+  "taskType": "writer",
+  "mode": "text",
+  "language": "zh",
+  "family": "novel",
+  "shortDescription": "章节正文生成",
+  "description": "根据章节任务、角色状态、世界规则和风格约束生成章节正文。",
+  "outputType": "text",
+  "contextPolicy": {
+    "maxTokensBudget": 2600,
+    "requiredGroups": [
+      "chapter_mission",
+      "reader_experience",
+      "character_hard_facts",
+      "obligation_contract",
+      "style_contract",
+      "volume_window",
+      "participant_subset",
+      "local_state"
+    ],
+    "preferredGroups": [
+      "obligation_contract",
+      "reader_experience",
+      "character_hard_facts",
+      "open_conflicts",
+      "recent_chapters",
+      "opening_constraints",
+      "rag_context"
+    ],
+    "dropOrder": [
+      "rag_context",
+      "continuation_constraints",
+      "opening_constraints"
+    ]
+  },
+  "contextRequirements": [
+    {
+      "group": "writing_platform",
+      "required": true,
+      "priority": 105
+    },
+    {
+      "group": "book_contract",
+      "required": true,
+      "priority": 104
+    },
+    {
+      "group": "chapter_mission",
+      "required": true,
+      "priority": 100
+    },
+    {
+      "group": "reader_experience",
+      "required": true,
+      "priority": 100
+    },
+    {
+      "group": "character_hard_facts",
+      "required": true,
+      "priority": 99
+    },
+    {
+      "group": "obligation_contract",
+      "required": true,
+      "priority": 99
+    },
+    {
+      "group": "payoff_directives",
+      "priority": 98
+    },
+    {
+      "group": "story_macro",
+      "priority": 98
+    },
+    {
+      "group": "volume_window",
+      "required": true,
+      "priority": 96
+    },
+    {
+      "group": "participant_subset",
+      "required": true,
+      "priority": 92
+    },
+    {
+      "group": "local_state",
+      "required": true,
+      "priority": 89
+    },
+    {
+      "group": "open_conflicts",
+      "priority": 88
+    },
+    {
+      "group": "recent_chapters",
+      "priority": 86
+    },
+    {
+      "group": "opening_constraints",
+      "priority": 80
+    },
+    {
+      "group": "style_contract",
+      "required": true,
+      "priority": 74
+    },
+    {
+      "group": "continuation_constraints",
+      "priority": 72
+    },
+    {
+      "group": "rag_context",
+      "priority": 60
+    }
+  ],
+  "slots": [
+    {
+      "kind": "replace",
+      "key": "writer.tonePreference",
+      "label": "语气与节奏",
+      "description": "调整正文语气、节奏和读感倾向。",
+      "default": "使用简体中文，语言自然流畅，适合网文阅读节奏。",
+      "maxLength": 600
+    },
+    {
+      "kind": "replace",
+      "key": "writer.antiAiRules",
+      "label": "反 AI 味规则",
+      "description": "控制空泛表达、重复回顾和模板化句式。",
+      "default": "控制无效修饰，避免长段空洞描写或「AI感」八股表达。",
+      "maxLength": 800
+    },
+    {
+      "kind": "replace",
+      "key": "writer.endingHookPreference",
+      "label": "章末钩子偏好",
+      "description": "调整章末悬念、决策点、突发变化或压力升级的表达偏好。",
+      "default": "结尾必须形成新的钩子（悬念、决策点、突发变化或压力升级），推动读者进入下一章。",
+      "maxLength": 500
+    },
+    {
+      "kind": "choice",
+      "key": "writer.pov",
+      "label": "叙事视角",
+      "description": "控制正文使用第几人称叙述。",
+      "default": "third_limited",
+      "options": [
+        {
+          "value": "third_limited",
+          "label": "第三人称有限视角",
+          "copy": "使用第三人称有限视角叙述，聚焦主角感知，不跳出其认知边界。"
+        },
+        {
+          "value": "third_omniscient",
+          "label": "第三人称全知视角",
+          "copy": "使用第三人称全知视角叙述，可在角色间切换描写内心与动机。"
+        },
+        {
+          "value": "first",
+          "label": "第一人称",
+          "copy": "使用第一人称「我」叙述，强化代入感，只展现「我」能知晓和感受的内容。"
+        }
+      ]
+    },
+    {
+      "kind": "toggle",
+      "key": "writer.antiCliché",
+      "label": "反套路提醒",
+      "description": "启用后，在约束区块追加一段明确避免网文常见套路的说明。",
+      "default": false,
+      "copy": "避免以下网文套路：秘境/新副本突然出现打断情节、角色当场进行长串系统介绍、主角出场必打脸、每章结尾靠「突破了」作为唯一高潮。"
+    },
+    {
+      "kind": "token",
+      "key": "writer.wordCountHint",
+      "label": "全局默认字数提示",
+      "description": "当章节任务未指定字数时，用作兜底提示（仅描述性文字，不强制限制）。",
+      "default": "3000 字左右",
+      "patternHint": "数字 + 单位（如 2000 字、5000 字左右）",
+      "maxLength": 30
+    },
+    {
+      "kind": "append",
+      "key": "writer.customConstraints",
+      "label": "自定义写法约束",
+      "description": "追加你对这个提示词的额外约束，作为上下文块注入到生成中。留空则不追加。",
+      "anchor": "chapter_mission",
+      "default": "",
+      "maxLength": 4000,
+      "placeholderHint": "例如：禁止主角在本书第一卷使用系统能力；每次出现「黑暗」一词时改用「深沉」……"
+    }
+  ],
+  "slotSupported": true,
+  "lockedFields": [
+    "outputSchema",
+    "postValidate",
+    "postValidateFailureRecovery",
+    "semanticRetryPolicy",
+    "taskType",
+    "mode",
+    "contextPolicy",
+    "toolCatalog",
+    "approvalBoundary"
+  ],
+  "managementStatus": "complete",
+  "management": {
+    "productPrompt": true,
+    "proseGeneration": true,
+    "editModes": [
+      "slots",
+      "advanced_template"
+    ],
+    "advancedTemplate": {
+      "scope": "novel",
+      "requiredContextGroups": [
+        "writing_platform",
+        "book_contract",
+        "chapter_mission",
+        "reader_experience",
+        "character_hard_facts",
+        "obligation_contract",
+        "volume_window",
+        "participant_subset",
+        "local_state",
+        "style_contract"
+      ]
+    }
+  },
+  "capabilities": {
+    "hasOutputSchema": false,
+    "hasPostValidate": false,
+    "hasSemanticRetryPolicy": false,
+    "hasRepairPolicy": false,
+    "hasStructuredOutputHint": false,
+    "supportsAdvancedTemplate": true,
+    "isProductPrompt": true,
+    "isProseGeneration": true
+  }
+}

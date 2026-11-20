@@ -1,0 +1,160 @@
+{
+  "id": "novel.chapter.writer",
+  "version": "v11",
+  "promptInput": {
+    "novelTitle": "都市长篇甲",
+    "chapterOrder": 1,
+    "chapterTitle": "第一场",
+    "mode": "draft",
+    "targetWordCount": 3330,
+    "minWordCount": 3000,
+    "maxWordCount": 3660
+  },
+  "executionContext": {
+    "entrypoint": "manual_test",
+    "metadata": {
+      "extraContextBlocks": [
+        {
+          "id": "writing_platform",
+          "group": "writing_platform",
+          "priority": 105,
+          "required": true,
+          "reuseScope": "book",
+          "estimatedTokens": 13,
+          "allowSummary": false,
+          "content": "阅读场景\n现代都市异能长篇，面向手机连载读者。普通人生活的质地和可追问的异常，都是开篇的阅读回报。"
+        },
+        {
+          "id": "book_contract",
+          "group": "book_contract",
+          "priority": 104,
+          "required": true,
+          "reuseScope": "book",
+          "estimatedTokens": 23,
+          "allowSummary": false,
+          "content": "本书方向\n一个曾失明且有住院史的少年在普通城市生活，他对世界的经验屡次超出身边人的解释。先让读者关心他和养育他的家人，再逐步扩大到与同伴一起面对外部威胁。开篇同时保有善意和怀疑。"
+        },
+        {
+          "id": "style_contract",
+          "group": "style_contract",
+          "priority": 74,
+          "required": true,
+          "reuseScope": "book",
+          "estimatedTokens": 22,
+          "allowSummary": false,
+          "content": "叙述和对白\n使用第三人称。街口由看热闹者发起观察，少年离开后仍可留在原地；回家后视线跟进屋内。人物可以说错、收口或岔开话题。对话的字句、小动作、笑点和场景转接由写作者决定。"
+        },
+        {
+          "id": "story_macro",
+          "group": "story_macro",
+          "priority": 98,
+          "required": false,
+          "reuseScope": "book",
+          "estimatedTokens": 18,
+          "allowSummary": false,
+          "content": "世界边界\n城市居民有日常工作、学校、医疗和补助制度。不可思议的经历有可能真实。首章维持普通人能知道的尺度，超自然力量的机制此时没有得到验证。"
+        },
+        {
+          "id": "volume_window",
+          "group": "volume_window",
+          "priority": 96,
+          "required": true,
+          "reuseScope": "volume",
+          "estimatedTokens": 20,
+          "allowSummary": false,
+          "content": "开局窗口\n开篇阶段先把少年写成一个有家可回、也不愿一直受照料的人，再让他的异常经验和外部危险相遇。本章止于一次复查谈话；后续校园、能力验证与冒险留待以后。"
+        },
+        {
+          "id": "chapter_mission",
+          "group": "chapter_mission",
+          "priority": 100,
+          "required": true,
+          "reuseScope": "request",
+          "estimatedTokens": 67,
+          "allowSummary": false,
+          "content": "章节任务与三场细纲\n同一天从街口到家中，再转到家中单独问诊。街口约1500字：几个等灯的人发现一个眼缠黑布、独自买菜的少年把盲杖用来挑一桶花生油。一个女孩领他过路，两人的表现让旁人对他是否看得见意见不一；他走后，本地人讲起十年前的旧闻，才让读者知道姓名。家中约600字：姨妈接下东西，为这桶油动用了残疾补贴而心疼。两人各有用钱的道理，少年含糊带过如何把东西弄回来。他得知复查医生在等。问诊约1230字：这次是新医生，必须了解旧病历，当事人有理由防备说真话的后果。他选择说起七岁时的一次观月，只在最后交代自己看见了什么。三段预算可调。"
+        },
+        {
+          "id": "reader_experience",
+          "group": "reader_experience",
+          "priority": 100,
+          "required": true,
+          "reuseScope": "request",
+          "estimatedTokens": 27,
+          "allowSummary": false,
+          "content": "读者要经历的变化\n开头邀请读者和路人一起判断少年是否需要帮助，女孩的实际经历让这个判断动摇。回家后同一桶油变成一家三口如何花钱的问题。最后让读者在新医生的位置听到与日常尺度冲突的具体证词，带着这份判断进入下一章。"
+        },
+        {
+          "id": "character_hard_facts",
+          "group": "character_hard_facts",
+          "priority": 99,
+          "required": true,
+          "reuseScope": "request",
+          "estimatedTokens": 28,
+          "allowSummary": false,
+          "content": "人物硬事实\n周七川是十七岁少年，七岁时失去正常视觉，有精神专科住院史，读过特殊学校。青禾精神病院例行回访，新来的乔医生以前没为他看过病。姨妈打工养家，希望把补贴留给他将来上大学；表弟陈砚与他们同住。小女孩与少年原不相识。"
+        },
+        {
+          "id": "obligation_contract",
+          "group": "obligation_contract",
+          "priority": 99,
+          "required": true,
+          "reuseScope": "request",
+          "estimatedTokens": 32,
+          "allowSummary": false,
+          "content": "必须兑现的事实\n过街确由女孩主动帮忙，少年走得比她稳；街坊讲病史只是转述。他带油回到家，认为补贴可贴补眼下，姨妈顾及以后。就诊发生在家里；医生不了解旧事，少年担心实话会让自己再次住院。最后由少年亲口描述儿时在月面见过发着金光、有六翼的天使；真伪仍可争论。"
+        },
+        {
+          "id": "participant_subset",
+          "group": "participant_subset",
+          "priority": 92,
+          "required": true,
+          "reuseScope": "request",
+          "estimatedTokens": 15,
+          "allowSummary": false,
+          "content": "出场边界\n街口以阿拓等年轻人和小女孩为主；家中以少年、姨妈和乔医生为主。陈砚只需被提及。杜医生是从前负责复查的人。"
+        },
+        {
+          "id": "local_state",
+          "group": "local_state",
+          "priority": 89,
+          "required": true,
+          "reuseScope": "request",
+          "estimatedTokens": 16,
+          "allowSummary": false,
+          "content": "开写时的局面\n第一章，无前章。夏日傍晚前后，少年带着菜和油在路口等灯，家里正做饭。街坊只零散听说过以前的事，医生只有一份旧记录。"
+        },
+        {
+          "id": "payoff_directives",
+          "group": "payoff_directives",
+          "priority": 98,
+          "required": false,
+          "reuseScope": "request",
+          "estimatedTokens": 14,
+          "allowSummary": false,
+          "content": "本章能揭到哪里\n给出本人所述的月面形象。医生的最终结论、少年现在究竟怎样感知、神异存在的身份与来历均保留。"
+        },
+        {
+          "id": "open_conflicts",
+          "group": "open_conflicts",
+          "priority": 88,
+          "required": false,
+          "reuseScope": "request",
+          "estimatedTokens": 14,
+          "allowSummary": false,
+          "content": "当前冲突\n帮忙和围观是两种不同的回应。家里两代人争的是哪一笔钱可以动。医生想把事情问清，少年需要衡量坦白的代价。"
+        }
+      ]
+    }
+  },
+  "slotOverrides": {
+    "writer.pov": "third_omniscient"
+  },
+  "llm": {
+    "provider": "qwen",
+    "model": "qwen3.8-max",
+    "temperature": 0.7,
+    "maxTokens": 8192,
+    "timeoutMs": 540000
+  }
+}

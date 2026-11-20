@@ -1,0 +1,76 @@
+{
+  "原文": {
+    "家": {
+      "offset": 1693,
+      "line": 131,
+      "remaining": 1638
+    },
+    "问": {
+      "offset": 2259,
+      "line": 165,
+      "remaining": 1072
+    },
+    "姓名": {
+      "offset": 1686,
+      "line": 127,
+      "remaining": 1645
+    },
+    "月亮": {
+      "offset": 3217,
+      "line": 229,
+      "remaining": 114
+    },
+    "天使": {
+      "offset": 3280,
+      "line": 235,
+      "remaining": 51
+    },
+    "答完": {
+      "offset": 3331,
+      "line": 237,
+      "remaining": 0
+    },
+    "scenes": [
+      1693,
+      566,
+      1072
+    ]
+  },
+  "试稿": {
+    "家": {
+      "offset": 2030,
+      "line": 123,
+      "remaining": 3196
+    },
+    "问": {
+      "offset": 2938,
+      "line": 187,
+      "remaining": 2288
+    },
+    "姓名": {
+      "offset": 1565,
+      "line": 95,
+      "remaining": 3661
+    },
+    "月亮": {
+      "offset": 1808,
+      "line": 113,
+      "remaining": 3418
+    },
+    "天使": {
+      "offset": 4061,
+      "line": 273,
+      "remaining": 1165
+    },
+    "答完": {
+      "offset": 4074,
+      "line": 273,
+      "remaining": 1152
+    },
+    "scenes": [
+      2030,
+      908,
+      2288
+    ]
+  }
+}

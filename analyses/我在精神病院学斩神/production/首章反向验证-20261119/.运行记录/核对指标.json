@@ -1,0 +1,64 @@
+{
+  "sourceFingerprint": "7657e4a174a1a8e6382e739ce3b4c4464cd486d9e9419371bce10d46cc10a9bc",
+  "draftServiceFingerprint": "906fbe7291f261837194a6cdc9b74794b5ded3cccd5e64ee34f84c75fe5b7850",
+  "deliveryFingerprint": "14d5b3dda3b6fa496d22c406661b90fc6798717bb257df6208a310b213db2d98",
+  "originalLength": 3331,
+  "rawBodyLength": 5226,
+  "restoredLength": 5226,
+  "inputVsOriginal": {
+    "longest": 5,
+    "example": "一桶花生油",
+    "threshold": 12,
+    "coveredCharacters": 0,
+    "targetNormalizedCharacters": 3315
+  },
+  "rawVsOriginal": {
+    "longest": 5,
+    "example": "他知道他没",
+    "threshold": 12,
+    "coveredCharacters": 0,
+    "targetNormalizedCharacters": 4331
+  },
+  "restoredVsOriginal": {
+    "longest": 6,
+    "example": "阿诺注意到他",
+    "threshold": 12,
+    "coveredCharacters": 0,
+    "targetNormalizedCharacters": 4331
+  },
+  "titleStripped": null,
+  "nameReplacements": {
+    "青禾精神病院": 1,
+    "周七川": 35,
+    "乔医生": 27,
+    "杜医生": 8,
+    "阿拓": 11,
+    "陈砚": 4,
+    "阿砚": 0,
+    "青禾": 5,
+    "姓乔": 1,
+    "乔桉": 1
+  },
+  "renderedMessageLengths": [
+    2642,
+    389,
+    900
+  ],
+  "meta": {
+    "provider": "qwen",
+    "model": "qwen3.8-max",
+    "latencyMs": 287819,
+    "tokenUsage": {
+      "promptTokens": 2274,
+      "completionTokens": 10319,
+      "totalTokens": 12593,
+      "reasoningTokens": 6762,
+      "inputCache": {
+        "cacheHitTokens": 0,
+        "cacheMissTokens": 2274,
+        "cacheWriteTokens": null,
+        "cacheUsageStatus": "reported"
+      }
+    }
+  }
+}
