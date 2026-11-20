@@ -9,7 +9,7 @@ import { ArrowLeft, ArrowRight, FileText, FolderTree, List, BookOpen } from 'luc
 import { getCatalog } from '../lib/workspaces.server';
 import { getAnalysisDetails, getNovelReferences } from '../lib/analysis.server';
 import { AnalysisPanel, NovelReferencePanel } from '../analysis-panel';
-import { documentUrl, type Workspace } from '../lib/model';
+import { documentUrl, isChapterProse, preferredChapters, type Workspace } from '../lib/model';
 import { loadDocument } from '../lib/content.server';
 import { Brand, LiveRefresh, StatusBadge, DocumentLink } from '../components';
 
@@ -23,7 +23,7 @@ export async function loader({ params }: LoaderFunctionArgs) {
   const render = current ? await loadDocument(workspace, current) : undefined;
   const { root: _root, ...publicWorkspace } = workspace;
   const analysis = workspace.kind === 'analysis' && !current ? await getAnalysisDetails(workspace) : undefined;
-  const targets = analysis ? catalog.workspaces.filter(workspace => workspace.kind === 'novel').map(({ id, title, root }) => ({ id, title, root })) : [];
+  const targets = analysis ? catalog.workspaces.filter(workspace => workspace.kind === 'novel').map(({ id, title, root, chineseFilenames }) => ({ id, title, root, chineseFilenames })) : [];
   const analysisSources = catalog.workspaces.filter(workspace => workspace.kind === 'analysis');
   const references = workspace.kind === 'novel' && !current ? await getNovelReferences(workspace, analysisSources) : undefined;
   return { workspace: publicWorkspace, current, render, analysis, targets, references, sources: analysisSources.map(({ id, title }) => ({ id, title })) };
@@ -54,9 +54,8 @@ export default function WorkspacePage() {
   const parsed = useMemo(() => render ? rendererFromSerialized(render).renderSync(defaultMdxComponents) : undefined, [render]);
   const [fontSize, setFontSize] = useState(18);
   const [showSource, setShowSource] = useState(false);
-  const prose = !!current && /(?:^|\/)draft(?:-humanized)?\.md$/i.test(current.path);
-  const chapters = workspace.documents.filter(document => /chapters\/chapter-\d+\/draft(?:-humanized)?\.md$/i.test(document.path));
-  const preferred = chapters.filter(document => document.path.endsWith('draft-humanized.md') || !chapters.some(other => other.path === document.path.replace(/draft\.md$/, 'draft-humanized.md')));
+  const prose = !!current && isChapterProse(current.path);
+  const preferred = preferredChapters(workspace.documents);
   const navigation = prose ? preferred : workspace.documents;
   const chapterDir = current?.path.slice(0, current.path.lastIndexOf('/'));
   const index = navigation.findIndex(document => prose ? document.path.slice(0, document.path.lastIndexOf('/')) === chapterDir : document.path === current?.path);

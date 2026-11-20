@@ -11,6 +11,7 @@
 
 ## Data Safety
 
+- Use Chinese directory and file names for all future work in `novels/我在异界打天下/`. Follow the examples in its `作品导览.md` and the paths in `小说状态.yaml`. Keep chapter numbers, stable IDs and standard file extensions.
 - Treat user-edited artifacts and accepted prose as protected. Mark dependent unwritten artifacts `stale`; never rewrite protected content to repair state.
 - Keep YAML and accepted Markdown authoritative. SQLite, summaries, rendered ledgers, and exports are rebuildable derivatives.
 - Back up `novel-state.yaml` before schema migration and use atomic replacement for state writes.

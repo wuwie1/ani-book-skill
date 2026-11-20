@@ -1,0 +1,10 @@
+{
+  "endUtc": "2026-11-19T02:56:14.459433+00:00",
+  "requestedModel": "qwen3.8-max",
+  "requestSha256": "a90ff29823b005dc455ef1cb8f6223a7a9abcdefa6c6b4d1fb6cff9159d052db",
+  "sha256": "e2b6d4a0b5831ad4f3e006b30f113474a981a9b8f9db6555384cf706d810bb3f",
+  "characters": 786,
+  "chunkCount": 149,
+  "usage": "unavailable",
+  "source": "assistant standard chat done.fullContent matched chunk content"
+}

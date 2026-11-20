@@ -1,0 +1,16 @@
+{
+  "startUtc": "2026-11-18T09:08:30.289569+00:00",
+  "requestSha256": "ab09f7b123ac5d3d78b20f8bd2a6397fb05a693811610d8db2ee343392fd5a2d",
+  "requestedModel": "qwen3.8-max",
+  "path": "/api/chat",
+  "measurement": "unavailable",
+  "reason": "assistant_standard_chat_stream_does_not_report_token_usage",
+  "httpStatus": 200,
+  "contentType": "text/event-stream",
+  "endUtc": "2026-11-18T09:11:47.483374+00:00",
+  "complete": true,
+  "characters": 2771,
+  "responseSha256": "65f1d42cff559eb9c0c7c2f4411685e00f4cce1559dc89c1998ca50e0e99bbbb",
+  "frameCount": 508,
+  "withinLength": true
+}

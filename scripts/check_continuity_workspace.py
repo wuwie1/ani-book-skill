@@ -9,13 +9,14 @@ import re
 from pathlib import Path
 
 from continuity_store import validate_workspace
+from workspace_paths import book_path
 
 
 SOURCE_HASH = re.compile(
     r"<!--\s*source-hash:\s*([^|]+?)\s*\|\s*([0-9A-Fa-f]{64})\s*-->",
 )
 SCHEMA_VERSION = re.compile(r"^schema_version:\s*(\d+)\s*$", re.MULTILINE)
-GENERATED_FROM = re.compile(r"<!--\s*generated-from:\s*continuity/data revision\s+(\d+);", re.IGNORECASE)
+GENERATED_FROM = re.compile(r"<!--\s*generated-from:\s*(?:continuity/data|连续性/数据) revision\s+(\d+);", re.IGNORECASE)
 
 REQUIRED_FILES = (
     "continuity/baseline.md",
@@ -43,9 +44,9 @@ def sha256(path: Path) -> str:
 
 def markdown_files(workspace: Path) -> list[Path]:
     roots = (
-        workspace / "continuity",
-        workspace / "context-packages",
-        workspace / "production",
+        book_path(workspace, "continuity"),
+        book_path(workspace, "context-packages"),
+        book_path(workspace, "production"),
     )
     files: list[Path] = []
     for root in roots:
@@ -64,8 +65,8 @@ def main() -> int:
     workspace = args.workspace.resolve()
     errors: list[str] = []
     stale: list[str] = []
-    state_path = workspace / "novel-state.yaml"
-    structured_store = (workspace / "continuity" / "data").is_dir()
+    state_path = book_path(workspace, "novel-state.yaml")
+    structured_store = book_path(workspace, "continuity/data").is_dir()
 
     if not state_path.is_file():
         errors.append("missing novel-state.yaml")
@@ -81,10 +82,10 @@ def main() -> int:
             errors.append("novel-state.yaml is missing continuity.structured_store")
 
     for relative in REQUIRED_FILES:
-        if not (workspace / relative).is_file():
+        if not (book_path(workspace, relative)).is_file():
             errors.append(f"missing {relative}")
 
-    baseline = workspace / "continuity/baseline.md"
+    baseline = book_path(workspace, "continuity/baseline.md")
     if baseline.is_file() and "基线章节" not in baseline.read_text(encoding="utf-8"):
         errors.append("baseline.md must name its baseline chapter")
 
@@ -112,7 +113,7 @@ def main() -> int:
 
             revision = load_store(workspace)["manifest"]["revision"]
             for relative in ("continuity/baseline.md", "continuity/fact-ledger.md", "continuity/payoff-ledger.md", "continuity/resource-ledger.md"):
-                path = workspace / relative
+                path = book_path(workspace, relative)
                 if not path.is_file():
                     continue
                 match = GENERATED_FROM.search(path.read_text(encoding="utf-8"))

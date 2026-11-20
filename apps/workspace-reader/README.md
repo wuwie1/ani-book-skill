@@ -19,7 +19,7 @@ cd apps/workspace-reader
 ./start-local.ps1 -Roots 'C:/writing', 'D:/research'
 ```
 
-目录可以是包含 `novels/`、`analyses/` 的父目录，这两个目录本身，或者带 `novel-state.yaml` / `analysis-state.yaml` / `analysis-manifest.yaml` / `source-manifest.md` 的单个工作区。路径仅在本机使用，不需要移动稿件。
+目录可以是包含 `novels/`、`analyses/` 的父目录，这两个目录本身，或者带 `小说状态.yaml` / `novel-state.yaml` / `analysis-state.yaml` / `analysis-manifest.yaml` / `source-manifest.md` 的单个工作区。路径仅在本机使用，不需要移动稿件。
 
 其他系统或手动启动：
 
@@ -47,7 +47,7 @@ npm start
 
 ## 拆书如何进入生成
 
-只有分段笔记时，先用工作台的“复制整理请求”交给 Codex，将可复用原理、前提、失败方式和证据整理成机制卡。有机制卡后，选择适合本章的卡与目标小说，复制接入请求。Codex 依据本书定位、计划和连续性提出原创改造，再创建 `context-packages/chapter-XXX.references.yaml`，校验后装入生成上下文；审校检查机制实际效果。
+只有分段笔记时，先用工作台的“复制整理请求”交给 Codex，将可复用原理、前提、失败方式和证据整理成机制卡。有机制卡后，选择适合本章的卡与目标小说，复制接入请求。Codex 依据本书定位、计划和连续性提出原创改造，再按本书命名创建 `上下文/第XXX章-拆书参考.yaml` 或 `context-packages/chapter-XXX.references.yaml`，校验后装入生成上下文；审校检查机制实际效果。
 
 底层脚本与 Skill 合同见 [拆书接入小说](../../references/analysis-to-novel.md)。阅读台负责选择和展示，创作仍在 Codex 中进行；复制请求不会直接修改任何稿件。
 

@@ -60,10 +60,13 @@ libraries/**
 # Private reusable writing-style cards.
 styles/**
 **/continuity/graph/asset-graph-index.sqlite3
+**/连续性/关系图/素材关系索引.sqlite3
 
 # Rebuildable continuity caches
 **/continuity/index.sqlite3
 **/continuity/index.sqlite3-*
+**/连续性/索引.sqlite3
+**/连续性/索引.sqlite3-*
 
 # Optional local workspace reader: dependencies and generated/private outputs.
 apps/workspace-reader/node_modules/

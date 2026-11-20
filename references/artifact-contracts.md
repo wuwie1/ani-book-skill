@@ -22,6 +22,23 @@
 
 ## 推荐目录
 
+### 中文文件命名
+
+每本书沿用自己的目录与文件名。以 `小说状态.yaml` 为状态文件的小说使用中文命名，已登记资料从 `artifacts.*.path` 读取。新建采用这项约定的工作区可运行 `python scripts/novelctl.py init <workspace> --title <书名> --filename-language zh`。
+
+| 用途 | 中文路径示例 | 英文布局中的对应路径 |
+| --- | --- | --- |
+| 书级资料 | `作品导览.md`、`新书简报.md`、`故事主线.md`、`世界设定.md`、`写作风格.md` | `README.md`、`novel-brief.md`、`story-bible.md`、`world-bible.md`、`writing-style.md` |
+| 人物 | `人物/人物总览.md`、`人物/档案/<姓名>.md` | `characters/character-roster.md`、`characters/profiles/<stable-id>.md` |
+| 分卷 | `分卷/第01卷-卷纲.md`、`分卷/第01卷-节奏表.md` | `volumes/volume-01.md`、`volumes/volume-01-beat-sheet.md` |
+| 章内资料 | `章节/第001章/` 下的 `章节计划.md`、`上下文包.md`、`正文初稿.md`、`正文修订稿.md`、`审校记录.md` | `chapters/chapter-001/` 下的 `plan.md`、`context-package.md`、`draft.md`、`draft-humanized.md`、`review.md` |
+| 章节参考 | `上下文/第001章-拆书参考.yaml`、`上下文/第001章-素材选择.yaml` | `context-packages/chapter-001.references.yaml`、`context-packages/chapter-001.assets.yaml` |
+| 创作记录 | `创作记录/恢复记录.md`、`创作记录/用量明细.jsonl`、`创作记录/用量汇总.json` | `production/recovery.md`、`production/token-usage.jsonl`、`production/token-summary.json` |
+
+试写、审校与自定义资料用中文说明用途，按需要附日期、版本或调用编号。人物同名时加称号或稳定 ID 区分。产物与人物的内部 ID、状态枚举、标准扩展名沿用原格式。下文的英文路径示例按本书的命名约定使用。
+
+### 英文目录示例
+
 ```text
 <novel-workspace>/
 ├── novel-state.yaml

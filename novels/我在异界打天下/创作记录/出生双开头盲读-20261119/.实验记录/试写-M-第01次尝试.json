@@ -1,0 +1,6 @@
+{
+  "startUtc": "2026-11-19T02:53:32.340024+00:00",
+  "requestSha256": "b5c59d53596f7251ca7dc022a37928313c233088f7a6b1cc29577ddb96297335",
+  "endpoint": "http://127.0.0.1:15173/api/chat",
+  "model": "qwen3.8-max"
+}

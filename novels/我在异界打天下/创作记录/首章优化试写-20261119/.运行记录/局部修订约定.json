@@ -1,0 +1,22 @@
+{
+  "requestSha256": "19f7ae087d3e269dfb90c1058d0b4788885bbb3add0ea137853baa9b0b8fad9a",
+  "sourceRanges": {
+    "opening": [
+      1,
+      7
+    ],
+    "mother": [
+      14,
+      14
+    ],
+    "brother": [
+      19,
+      19
+    ],
+    "quiet": [
+      27,
+      34
+    ]
+  },
+  "scope": "原始正文按非空段落计数。第二次系统调用只提供这些位置的替换，其余段保留；相邻重复允许删句并记录。"
+}

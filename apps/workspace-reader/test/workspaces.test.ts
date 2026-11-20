@@ -8,8 +8,41 @@ import { loadDocument, searchWorkspace } from '../app/lib/content.server';
 import { rendererFromSerialized } from '@fumadocs/local-md/client';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { getAnalysisDetails, getNovelReferences } from '../app/lib/analysis.server';
+import { preferredChapters, referenceSelectionPath } from '../app/lib/model';
 import { createHash } from 'node:crypto';
 import { stringify } from 'yaml';
+
+test('Chinese filenames support direct discovery, chapter navigation and reference selections', async () => {
+  const root = await mkdtemp(path.join(os.tmpdir(), 'ani-chinese-'));
+  try {
+    await writeFile(path.join(root, '小说状态.yaml'), stringify({ novel: { title: '山河' }, artifacts: {
+      plan: { path: '章节/第002章/章节计划.md', status: 'ready' },
+    } }));
+    for (const chapter of ['第002章', '第010章']) {
+      const directory = path.join(root, '章节', chapter);
+      await mkdir(directory, { recursive: true });
+      await writeFile(path.join(directory, '正文初稿.md'), '# 初稿');
+    }
+    await writeFile(path.join(root, '章节/第002章/正文修订稿.md'), '# 修订稿');
+    await writeFile(path.join(root, '章节/第002章/章节计划.md'), '# 一章计划');
+    await mkdir(path.join(root, '上下文'));
+    const selection = referenceSelectionPath(true, 2);
+    assert.equal(selection, '上下文/第002章-拆书参考.yaml');
+    await writeFile(path.join(root, selection), stringify({ schema_version: 1, chapter: 2, items: [{ pattern_id: 'P01' }] }));
+    const [book] = (await getCatalog([root])).workspaces;
+    assert.equal(book.title, '山河');
+    assert.equal(book.chineseFilenames, true);
+    const plan = book.documents.find(doc => doc.path.endsWith('章节计划.md'))!;
+    assert.equal(plan.title, '第 2 章 · 章节计划');
+    assert.equal(plan.group, '章节');
+    assert.equal(plan.status, 'ready');
+    assert.deepEqual(preferredChapters(book.documents).map(doc => doc.path),
+      ['章节/第002章/正文修订稿.md', '章节/第010章/正文初稿.md']);
+    assert.equal((await getNovelReferences(book, []))[0].chapter, 2);
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});
 
 test('real workspace reading, updates, Markdown rendering, links and Chinese search', async () => {
   const root = await mkdtemp(path.join(os.tmpdir(), 'ani-reader-'));
@@ -111,8 +144,9 @@ test('analysis coverage stays honest and evidence changes disable reusable mecha
     assert.ok(details.registryFingerprint);
     const novelRoot = path.join(temporary, 'novels', '原创故事');
     await mkdir(path.join(novelRoot, 'context-packages'), { recursive: true });
-    const novel = { ...workspace, id: 'novel-fixture', root: novelRoot, kind: 'novel' as const };
-    await writeFile(path.join(novelRoot, 'context-packages/chapter-001.references.yaml'), stringify({ schema_version: 1, chapter: 1, items: [{ analysis_workspace: root, pattern_id: card.id, registry_sha256: details.registryFingerprint, use_for: '本章揭示', adaptation: '调查证据引出新代价', success_check: '选择是否推进目标' }] }));
+    await writeFile(path.join(novelRoot, 'novel-state.yaml'), stringify({ novel: { title: '原创故事' } }));
+    const [novel] = (await getCatalog([novelRoot])).workspaces;
+    await writeFile(path.join(novelRoot, 'context-packages/chapter-001.references.yaml'), stringify({ schema_version: 1, chapter: 1, items: [{ analysis_workspace: workspace.root, pattern_id: card.id, registry_sha256: details.registryFingerprint, use_for: '本章揭示', adaptation: '调查证据引出新代价', success_check: '选择是否推进目标' }] }));
     assert.equal((await getNovelReferences(novel, [workspace]))[0].matched, true);
     assert.equal((await getNovelReferences(novel, []))[0].sourceTitle, '来源未加入当前书架');
     assert.equal((await getNovelReferences(novel, []))[0].matched, false);

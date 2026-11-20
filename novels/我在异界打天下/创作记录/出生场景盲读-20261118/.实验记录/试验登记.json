@@ -1,0 +1,83 @@
+{
+  "registeredUtc": "2026-11-18T09:01:41.741897+00:00",
+  "route": "assistant /api/chat",
+  "bookId": "cmwgjl1x30007bowjeu3684pv",
+  "chapterId": "cmwgjo6s4002lbowjkeuvqbzi",
+  "settings": {
+    "provider": "qwen",
+    "model": "qwen3.8-max",
+    "temperature": 0.7,
+    "maxTokens": 8192,
+    "chatMode": "standard",
+    "agentMode": false,
+    "contextMode": "global",
+    "enableSearch": false,
+    "enableRag": false
+  },
+  "archiveInvocation": "662f475a-b33d-47b8-9dca-4ffb44c1a9e5",
+  "archiveBytesSha256": "aadfcc6ff73d571ec19de1de8ad5c43acdaa2154265393558f44e446fe259b4d",
+  "promptSha256": {
+    "short": "ab09f7b123ac5d3d78b20f8bd2a6397fb05a693811610d8db2ee343392fd5a2d",
+    "board": "32947a8a558788bde300985141827746071ce832e4b11624e301a96485fd4702",
+    "full": "1a02c3354a6945996a8506d5506aa6923b539c89a2c783ef13c079a450621ce1"
+  },
+  "fixedLength": {
+    "target": 2600,
+    "min": 2210,
+    "max": 2990,
+    "count": "正文非空字符含标点"
+  },
+  "procedure": "全部条件使用同一应用标准对话、独立消息、同一明确模型；完整输入使用正式首章 writer 请求的全部三条消息，外加共同任务和逐字摘录的分镜表。顺序与展示号独立随机，均在生成前固定。按每个席位最先完整且达到统一篇幅的返回交付；不按文采挑选或改写。系统若出现中断，技术错误单独记录。实体设定偏差另外核对，不靠编辑正文掩盖。",
+  "slotsInRequestOrder": [
+    {
+      "id": "93408c38c6f4",
+      "condition": "full",
+      "replicate": 1,
+      "blind": 1
+    },
+    {
+      "id": "c0f75edd8f42",
+      "condition": "short",
+      "replicate": 1,
+      "blind": 6
+    },
+    {
+      "id": "5cf5c9306398",
+      "condition": "short",
+      "replicate": 2,
+      "blind": 5
+    },
+    {
+      "id": "8441c720b879",
+      "condition": "full",
+      "replicate": 2,
+      "blind": 3
+    },
+    {
+      "id": "1344e7b4e294",
+      "condition": "board",
+      "replicate": 2,
+      "blind": 4
+    },
+    {
+      "id": "abba30a22987",
+      "condition": "board",
+      "replicate": 1,
+      "blind": 2
+    }
+  ],
+  "protectedLocal": {
+    "chapters/.DS_Store": "f6128375529fff55b09a34cb120a3d47b3906a910582d9110b999697a663ce08",
+    "chapters/chapter-001/context-package.md": "4ab51351745f1093b28b46677de5a1ebc9b8c3242d05334d6f5f910d19ff9542",
+    "chapters/chapter-001/draft-humanized.md": "4dac466ba264cb9eeab4d81f5abdc918311d9d32c1dad18e341f6e5cce410601",
+    "chapters/chapter-001/draft-system-2026-11-17-initial.md": "a459d1bc0e6cbf93027ffeb994c3b3424aee9e722343dcaf64aee2bf9b5eb761",
+    "chapters/chapter-001/draft-system-2026-11-17.md": "a459d1bc0e6cbf93027ffeb994c3b3424aee9e722343dcaf64aee2bf9b5eb761",
+    "chapters/chapter-001/draft-system-initial.md": "28a4f442ab2e7cf88b5d44a8b7a02cf5b2da4b27ed213c525049a2834443b1dc",
+    "chapters/chapter-001/draft-system.md": "e1baca1ecdddbd7f91a44d1c0d0c272fef26a04d1f63473693032edd10612fdb",
+    "chapters/chapter-001/draft.md": "ec59f6d4aa12896ba8dc45d5a5c013c7ffff36c8fd56e73b91479fc1a791976e",
+    "chapters/chapter-001/plan.md": "9ebf7650fc8c8c55e528282873a9a56bf98f55ca101ea0fb3e4ee31f180475c0",
+    "chapters/chapter-001/review.md": "9473a1eb3953b2830b2311881ac6e8fa87c505c202d0746301200f6088f92516",
+    "chapters/chapter-002/plan.md": "304c645d7f99b9298f778e171f50d39c81c8b660d47b3b77ced9805914f77ddd",
+    "chapters/chapter-003/plan.md": "8e2b5c44dd14a7193d2cbaf185a807623229b91a47a050e1f477cc5da9385180"
+  }
+}

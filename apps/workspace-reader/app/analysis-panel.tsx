@@ -2,10 +2,10 @@ import { useState } from 'react';
 import { Link } from 'react-router';
 import { CheckCircle2, Circle, ArrowUpRight, Copy, Layers3 } from 'lucide-react';
 import type { AnalysisDetails, ReferenceUsage } from './lib/analysis.server';
-import { documentUrl, type Workspace } from './lib/model';
+import { documentUrl, referenceSelectionPath, type Workspace } from './lib/model';
 
 export function AnalysisPanel({ workspace, analysis, targets }: {
-  workspace: Omit<Workspace, 'root'>; analysis: AnalysisDetails; targets: { id: string; title: string; root: string }[];
+  workspace: Omit<Workspace, 'root'>; analysis: AnalysisDetails; targets: Pick<Workspace, 'id' | 'title' | 'root' | 'chineseFilenames'>[];
 }) {
   const [selected, setSelected] = useState<string[]>([]);
   const [targetId, setTargetId] = useState('');
@@ -26,7 +26,7 @@ export function AnalysisPanel({ workspace, analysis, targets }: {
   async function copyRequest(prepare: boolean) {
     const prompt = prepare
       ? `使用 $produce-long-form-novel 继续整理拆书工作区 ${JSON.stringify(analysis.root)}。先核对 analysis-state.yaml、coverage-map.md 和已完成笔记，仅对已读范围生成有证据、前提、失败方式及不可照搬元素的可复用机制。按 references/analysis-to-novel.md 整理 pattern-cards.md 和 pattern-cards.yaml，运行 analysis_reference.py inspect 校验。保留已有编辑，缺少材料时明确缺口。${target ? `\n随后结合目标小说 ${JSON.stringify(target.root)} 的简报和当前计划，提出适合使用的机制与原创改造方案。` : ''}`
-      : `使用 $produce-long-form-novel 将拆书 ${JSON.stringify(analysis.root)} 的 ${picked.map(card => card.id).join('、')} 用于小说 ${JSON.stringify(target!.root)} 的第 ${chapter} 章。\n先读取 references/analysis-to-novel.md、本书简报、章节计划和必要连续性资料，判断这些机制是否适合本章；不合适时说明原因，不强行采用。针对每个适用机制提出用途、原创改造、不采用的元素及可检验效果，写入 context-packages/chapter-${String(chapter).padStart(3, '0')}.references.yaml。当前机制清单指纹为 ${analysis.registryFingerprint}，仍须重新核对来源与证据。\n运行 analysis_reference.py validate 后，用 novelctl context 装配上下文，并按本书既有审批和保护规则推进。参考方法不得变成本书事实，审校中记录采用效果与过度相似风险。`;
+      : `使用 $produce-long-form-novel 将拆书 ${JSON.stringify(analysis.root)} 的 ${picked.map(card => card.id).join('、')} 用于小说 ${JSON.stringify(target!.root)} 的第 ${chapter} 章。\n先读取 references/analysis-to-novel.md、本书简报、章节计划和必要连续性资料，判断这些机制是否适合本章；不合适时说明原因，不强行采用。针对每个适用机制提出用途、原创改造、不采用的元素及可检验效果，写入 ${referenceSelectionPath(target!.chineseFilenames, chapter)}。当前机制清单指纹为 ${analysis.registryFingerprint}，仍须重新核对来源与证据。\n运行 analysis_reference.py validate 后，用 novelctl context 装配上下文，并按本书既有审批和保护规则推进。参考方法不得变成本书事实，审校中记录采用效果与过度相似风险。`;
     setRequest(prompt); setCopied(false);
     try { await navigator.clipboard.writeText(prompt); setCopied(true); } catch { /* Read-only text remains selectable when clipboard access is unavailable. */ }
   }

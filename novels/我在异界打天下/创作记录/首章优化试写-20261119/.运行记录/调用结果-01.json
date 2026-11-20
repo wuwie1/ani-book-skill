@@ -1,0 +1,9 @@
+{
+  "endUtc": "2026-11-19T01:43:06.284176+00:00",
+  "complete": true,
+  "characters": 2588,
+  "sha256": "fc73dfcea3105de2887999d3aa0ce454dc1a4d235e84dc026c5633b47f55fc58",
+  "chunkCount": 472,
+  "usage": "unavailable",
+  "usageReason": "该应用标准对话流未返回逐次 token 统计。"
+}

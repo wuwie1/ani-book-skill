@@ -7,8 +7,11 @@ from pathlib import Path
 
 import yaml
 
+from workspace_paths import book_path, uses_chinese_names
+
 
 CHAPTER_PATTERN = re.compile(r"^chapter-(\d+)$")
+CHINESE_CHAPTER_PATTERN = re.compile(r"^第(\d+)章$")
 INVALID_FILENAME = re.compile(r'[<>:"/\\|?*]')
 
 
@@ -33,7 +36,7 @@ def parse_args() -> argparse.Namespace:
 
 
 def read_book_title(workspace: Path) -> str:
-    state_file = workspace / "novel-state.yaml"
+    state_file = book_path(workspace, "novel-state.yaml")
     if state_file.exists():
         text = state_file.read_text(encoding="utf-8")
         match = re.search(r'^\s*title:\s*["\']?(.+?)["\']?\s*$', text, re.MULTILINE)
@@ -53,8 +56,9 @@ def choose_draft(chapter_dir: Path, source: str) -> Path | None:
         "humanized": ("draft-humanized.md",),
         "draft": ("draft.md",),
     }
+    workspace = chapter_dir.parent.parent
     for filename in choices[source]:
-        candidate = chapter_dir / filename
+        candidate = book_path(workspace, chapter_dir.relative_to(workspace) / filename)
         if candidate.is_file():
             return candidate
     return None
@@ -62,7 +66,7 @@ def choose_draft(chapter_dir: Path, source: str) -> Path | None:
 
 def stable_export_projection(workspace: Path) -> tuple[set[int], set[str]]:
     from novelctl import review_snapshot, step_from_key, chapter_number
-    state_file = workspace / "novel-state.yaml"
+    state_file = book_path(workspace, "novel-state.yaml")
     if not state_file.is_file():
         raise ValueError("稳定导出需要 novel-state.yaml")
     state = yaml.safe_load(state_file.read_text(encoding="utf-8")) or {}
@@ -104,7 +108,8 @@ def chapter_content(chapter_number: int, draft_file: Path) -> tuple[str, str]:
 
 
 def collect_chapters(args: argparse.Namespace) -> tuple[list[tuple[int, Path, str, str]], list[str]]:
-    chapters_root = args.workspace / "chapters"
+    chapters_root = book_path(args.workspace, "chapters")
+    chapter_pattern = CHINESE_CHAPTER_PATTERN if uses_chinese_names(args.workspace) else CHAPTER_PATTERN
     if not chapters_root.is_dir():
         raise ValueError(f"未找到章节目录：{chapters_root}")
     if args.start is not None and args.start < 1:
@@ -123,7 +128,7 @@ def collect_chapters(args: argparse.Namespace) -> tuple[list[tuple[int, Path, st
     for chapter_dir in chapters_root.iterdir():
         if not chapter_dir.is_dir():
             continue
-        match = CHAPTER_PATTERN.match(chapter_dir.name)
+        match = chapter_pattern.match(chapter_dir.name)
         if not match:
             continue
         number = int(match.group(1))
@@ -158,7 +163,7 @@ def default_output(workspace: Path, title: str, chapters: list[tuple[int, Path, 
     first = chapters[0][0]
     last = chapters[-1][0]
     filename = f"{safe_filename(title)}-已生成章节-{first:03d}至{last:03d}.txt"
-    return workspace / "exports" / filename
+    return book_path(workspace, "exports") / filename
 
 
 def run() -> int:

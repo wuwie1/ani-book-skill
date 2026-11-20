@@ -23,6 +23,7 @@ import asset_graph
 import analysis_reference
 import continuity_store
 import token_usage
+from workspace_paths import book_path, chinese_relative, uses_chinese_names
 
 
 SCHEMA_VERSION = 3
@@ -83,7 +84,17 @@ def safe_relative_path(value: str) -> str:
 
 
 def state_path(workspace: Path) -> Path:
-    return workspace / "novel-state.yaml"
+    return book_path(workspace, "novel-state.yaml")
+
+
+def output_relative(workspace: Path, value: str) -> str:
+    relative = safe_relative_path(value)
+    if uses_chinese_names(workspace):
+        path = chinese_relative(relative)
+        if not re.search(r"[\u3400-\u9fff]", path.stem):
+            raise ValueError(f"请为本书的文件使用中文名称：{relative}")
+        return path.as_posix()
+    return relative
 
 
 def read_state(workspace: Path) -> dict[str, Any]:
@@ -92,7 +103,7 @@ def read_state(workspace: Path) -> dict[str, Any]:
         raise ValueError(f"missing state file: {path}")
     loaded = yaml.safe_load(path.read_text(encoding="utf-8"))
     if not isinstance(loaded, dict):
-        raise ValueError("novel-state.yaml must contain a mapping")
+        raise ValueError(f"{path.name} must contain a mapping")
     version = loaded.get("schema_version")
     if version not in SUPPORTED_READ_VERSIONS:
         raise ValueError(f"unsupported schema_version: {version}")
@@ -118,20 +129,20 @@ def atomic_write_text(path: Path, content: str) -> None:
             os.unlink(temporary_name)
 
 
-def atomic_write_state(workspace: Path, state: dict[str, Any]) -> None:
+def atomic_write_state(workspace: Path, state: dict[str, Any], *, destination: Path | None = None) -> None:
     rendered = yaml.safe_dump(state, allow_unicode=True, sort_keys=False, width=120)
-    atomic_write_text(state_path(workspace), rendered)
+    atomic_write_text(destination or state_path(workspace), rendered)
     refresh_recovery(workspace, state)
 
 
-def recovery_snapshot(state: dict[str, Any]) -> str:
+def recovery_snapshot(state: dict[str, Any], state_filename: str = "novel-state.yaml") -> str:
     artifacts = state.get("artifacts", {})
     director = state.get("director", {})
     action = decide_next(state)
     protected = [key for key, item in artifacts.items() if isinstance(item, dict) and item.get("protected")]
     stale = [key for key, item in artifacts.items() if isinstance(item, dict) and item.get("status") == "stale"]
     return "\n".join([
-        "<!-- novelctl:recovery:start -->", "## 当前状态（由 novel-state.yaml 生成）", "",
+        "<!-- novelctl:recovery:start -->", f"## 当前状态（由 {state_filename} 生成）", "",
         f"- 连续性已提交至：{state.get('continuity', {}).get('last_committed_chapter') or '无'}",
         f"- 当前步骤：{director.get('current_step') or '无'}",
         f"- 当前阻断：{director.get('stop_reason') or '无'}",
@@ -143,9 +154,9 @@ def recovery_snapshot(state: dict[str, Any]) -> str:
 
 
 def refresh_recovery(workspace: Path, state: dict[str, Any]) -> None:
-    path = workspace / "production/recovery.md"
+    path = book_path(workspace, "production/recovery.md")
     existing = path.read_text(encoding="utf-8") if path.is_file() else ""
-    snapshot = recovery_snapshot(state)
+    snapshot = recovery_snapshot(state, state_path(workspace).name)
     pattern = r"<!-- novelctl:recovery:start -->.*?<!-- novelctl:recovery:end -->"
     if re.search(pattern, existing, re.S):
         rendered = re.sub(pattern, lambda _: snapshot, existing, count=1, flags=re.S)
@@ -446,7 +457,7 @@ def decide_next(state: dict[str, Any]) -> dict[str, Any]:
     return next_chapter_action(state)
 
 
-def ensure_workspace_directories(workspace: Path) -> None:
+def ensure_workspace_directories(workspace: Path, *, chinese_names: bool = False) -> None:
     for relative in (
         "characters/profiles",
         "volumes",
@@ -456,7 +467,7 @@ def ensure_workspace_directories(workspace: Path) -> None:
         "production",
         "exports",
     ):
-        (workspace / relative).mkdir(parents=True, exist_ok=True)
+        (workspace / (chinese_relative(relative) if chinese_names else relative)).mkdir(parents=True, exist_ok=True)
 
 
 def command_init(args: argparse.Namespace) -> int:
@@ -479,12 +490,19 @@ def command_init(args: argparse.Namespace) -> int:
     if workspace.exists() and any(workspace.iterdir()):
         raise ValueError(f"workspace is not empty: {workspace}")
     workspace.mkdir(parents=True, exist_ok=True)
-    ensure_workspace_directories(workspace)
+    chinese_names = args.filename_language == "zh"
+    relative_name = chinese_relative if chinese_names else Path
+    ensure_workspace_directories(workspace, chinese_names=chinese_names)
     template = Path(__file__).resolve().parents[1] / "assets" / "workspace-template" / "production"
     for name in ("recovery.md", "quality-debt.md"):
-        shutil.copy2(template / name, workspace / "production" / name)
-    (workspace / "production" / "token-usage.jsonl").touch(exist_ok=True)
-    atomic_write_state(workspace, initial_state(args.title, args.mode, args.novel_mode, source_analysis, args.fanfic_mode))
+        shutil.copy2(template / name, workspace / relative_name(Path("production") / name))
+    state = initial_state(args.title, args.mode, args.novel_mode, source_analysis, args.fanfic_mode)
+    for entry in state["artifacts"].values():
+        entry["path"] = relative_name(entry["path"]).as_posix()
+    for section, key in (("continuity", "recovery_path"), ("usage", "ledger_path"), ("usage", "summary_path")):
+        state[section][key] = relative_name(state[section][key]).as_posix()
+    (workspace / state["usage"]["ledger_path"]).touch(exist_ok=True)
+    atomic_write_state(workspace, state, destination=workspace / relative_name("novel-state.yaml"))
     print(json.dumps({"created": str(workspace), "schema_version": SCHEMA_VERSION, "mode": args.mode}, ensure_ascii=False, indent=2))
     return 0
 
@@ -520,7 +538,7 @@ def command_migrate(args: argparse.Namespace) -> int:
         return 0
     original = state_path(workspace)
     stamp = datetime.now().strftime("%Y%m%d-%H%M%S-%f")
-    backup = original.with_name(f"novel-state.yaml.bak.{stamp}")
+    backup = original.with_name(f"{original.name}.bak.{stamp}")
     if not args.dry_run:
         shutil.copy2(original, backup)
     mode = state.get("director", {}).get("mode", args.mode)
@@ -541,8 +559,8 @@ def command_migrate(args: argparse.Namespace) -> int:
             "primary_reader_reward": None,
         },
     )
-    state.setdefault("continuity", {"baseline_chapter": None, "last_committed_chapter": None, "recovery_path": "production/recovery.md", "quality_debt_open_count": 0})
-    state.setdefault("usage", {"ledger_path": "production/token-usage.jsonl", "summary_path": "production/token-summary.json", "exact_tokens": 0, "estimated_tokens": 0, "unavailable_events": 0})
+    state.setdefault("continuity", {"baseline_chapter": None, "last_committed_chapter": None, "recovery_path": book_path(workspace, "production/recovery.md").relative_to(workspace).as_posix(), "quality_debt_open_count": 0})
+    state.setdefault("usage", {"ledger_path": token_usage.usage_path(workspace).relative_to(workspace).as_posix(), "summary_path": token_usage.summary_path(workspace).relative_to(workspace).as_posix(), "exact_tokens": 0, "estimated_tokens": 0, "unavailable_events": 0})
     state["next_action"] = decide_next(state)
     if args.dry_run:
         print(yaml.safe_dump(state, allow_unicode=True, sort_keys=False, width=120), end="")
@@ -628,12 +646,12 @@ def validation_report(workspace: Path, state: dict[str, Any]) -> tuple[list[str]
         action = state.get("next_action")
         if not isinstance(action, dict) or not all(field in action for field in ("type", "target", "reason", "requires_approval")):
             errors.append("next_action must contain type, target, reason, and requires_approval")
-    recovery = workspace / "production/recovery.md"
-    if not recovery.is_file() or recovery_snapshot(state) not in recovery.read_text(encoding="utf-8"):
+    recovery = book_path(workspace, "production/recovery.md")
+    if not recovery.is_file() or recovery_snapshot(state, state_path(workspace).name) not in recovery.read_text(encoding="utf-8"):
         warnings.append("recovery snapshot is missing or outdated; run reconcile")
-    style = workspace / "writing-style.md"
+    style = book_path(workspace, "writing-style.md")
     if style.is_file() and "writing_style" not in artifacts:
-        warnings.append("writing-style.md is not tracked; run reconcile before chapter production")
+        warnings.append(f"{style.name} is not tracked; run reconcile before chapter production")
     return errors, warnings
 
 
@@ -658,7 +676,7 @@ def command_status(args: argparse.Namespace) -> int:
             if artifact.get("protected"):
                 protected.append(key)
     cross_book_assets: dict[str, int] = {}
-    if (workspace / "continuity" / "data").is_dir():
+    if book_path(workspace, "continuity/data").is_dir():
         try:
             links = continuity_store.load_store(workspace).get("asset_links", [])
             for link in links:
@@ -728,11 +746,11 @@ def command_reconcile(args: argparse.Namespace) -> int:
     changed: list[str] = []
     stale: list[str] = []
     protected_conflicts: list[str] = []
-    style = workspace / "writing-style.md"
+    style = book_path(workspace, "writing-style.md")
     if style.is_symlink():
-        raise ValueError("writing-style.md must be a local book snapshot")
+        raise ValueError(f"{style.name} must be a local book snapshot")
     if style.is_file() and "writing_style" not in artifacts:
-        artifacts["writing_style"] = {"path": "writing-style.md", "status": "ready", "source": "user_edited",
+        artifacts["writing_style"] = {"path": style.relative_to(workspace).as_posix(), "status": "ready", "source": "user_edited",
                                       "protected": True, "depends_on": [], "sha256": None,
                                       "approval": "not_required", "updated_at": now_utc()}
     last = chapter_number(state.get("continuity", {}).get("last_committed_chapter")) or 0
@@ -934,12 +952,12 @@ def validate_continuity_preflight(workspace: Path, state: dict[str, Any], target
 
 def validate_style_preflight(workspace: Path, state: dict[str, Any], require_registered: bool = False) -> None:
     style = state.get("artifacts", {}).get("writing_style")
-    if require_registered and not style and (workspace / "writing-style.md").exists():
-        raise ValueError("writing-style.md is not tracked; run reconcile before production")
+    path = artifact_location(workspace, style) if style else book_path(workspace, "writing-style.md")
+    if require_registered and not style and path.exists():
+        raise ValueError(f"{path.name} is not tracked; run reconcile before production")
     if style:
-        path = workspace / "writing-style.md"
         if not path.is_file() or style.get("status") != "ready" or file_sha256(path) != style.get("sha256"):
-            raise ValueError("writing-style.md changed or is missing; run reconcile before production")
+            raise ValueError(f"{path.name} changed or is missing; run reconcile before production")
 
 
 def validate_chapter_asset_preflight(workspace: Path, target: str) -> None:
@@ -998,7 +1016,7 @@ def command_start_step(args: argparse.Namespace) -> int:
     dependencies = dependency_list(args, key, artifacts)
     ensure_dependencies_ready(artifacts, dependencies, workspace)
     validate_confirmation_labels(workspace, artifacts, dependencies)
-    relative = safe_relative_path(args.artifact)
+    relative = output_relative(workspace, args.artifact)
     run_id = args.run_id or str(uuid.uuid4())
     entry = existing if isinstance(existing, dict) else {}
     if args.step == "chapter_review":
@@ -1009,7 +1027,10 @@ def command_start_step(args: argparse.Namespace) -> int:
     if existing and (existing.get("protected") or accepted_source) and existing.get("overwrite_approved"):
         old_path = artifact_location(workspace, existing)
         if old_path.is_file():
-            backup = workspace / "production/revisions" / key / (file_sha256(old_path) + old_path.suffix)
+            digest = file_sha256(old_path)
+            revisions = book_path(workspace, "production/revisions")
+            backup = (revisions / f"产物-{key}" / f"{old_path.stem}-{digest}{old_path.suffix}" if uses_chinese_names(workspace)
+                      else revisions / key / (digest + old_path.suffix))
             backup.parent.mkdir(parents=True, exist_ok=True)
             if not backup.exists():
                 shutil.copy2(old_path, backup)
@@ -1067,11 +1088,11 @@ def refresh_usage_projection(workspace: Path, state: dict[str, Any]) -> None:
     if errors:
         raise ValueError("token ledger invalid after record: " + "; ".join(errors))
     summary = token_usage.build_summary(records)
-    token_usage.atomic_write_json(workspace / "production" / "token-summary.json", summary)
+    token_usage.atomic_write_json(token_usage.summary_path(workspace), summary)
     totals = summary["totals"]
     state["usage"] = {
-        "ledger_path": "production/token-usage.jsonl",
-        "summary_path": "production/token-summary.json",
+        "ledger_path": token_usage.usage_path(workspace).relative_to(workspace).as_posix(),
+        "summary_path": token_usage.summary_path(workspace).relative_to(workspace).as_posix(),
         "exact_tokens": totals["exact_tokens"],
         "estimated_tokens": totals["estimated_tokens"],
         "unavailable_events": totals["unavailable_events"],
@@ -1121,7 +1142,7 @@ def command_finish_step(args: argparse.Namespace) -> int:
         validate_chapter_progress(state, args.target, args.step)
     ensure_dependencies_ready(state["artifacts"], artifact.get("depends_on") or [], workspace)
     validate_confirmation_labels(workspace, state["artifacts"], artifact.get("depends_on") or [])
-    relative = safe_relative_path(args.artifact)
+    relative = output_relative(workspace, args.artifact)
     if artifact.get("path") != relative:
         raise ValueError("artifact path differs from start-step")
     path = workspace / relative
@@ -1247,12 +1268,17 @@ def command_context(args: argparse.Namespace) -> int:
     if number < 1 or args.max_chars < 1:
         raise ValueError("chapter and context budget must be positive")
     validate_chapter_progress(state, chapter_target(number), "context_package")
-    structured = (workspace / "continuity/data").is_dir()
+    structured = book_path(workspace, "continuity/data").is_dir()
     sources: list[str] = []
     parts = [f"# 第{number:03d}章上下文包"]
+    artifacts = state.get("artifacts", {})
+
+    def source_path(key: str, default: str) -> str:
+        return safe_relative_path(artifacts.get(key, {}).get("path") or default)
 
     def append_file(relative: str, tail: bool = False, required: bool = True) -> bool:
-        path = workspace / relative
+        path = book_path(workspace, relative)
+        relative = path.relative_to(workspace).as_posix()
         if not path.is_file():
             return False
         content = path.read_text(encoding="utf-8").strip()
@@ -1268,8 +1294,7 @@ def command_context(args: argparse.Namespace) -> int:
         return True
 
     # These sources have the same priority with Markdown and structured stores.
-    plan = state.get("artifacts", {}).get(f"chapter_{number:03d}_plan", {})
-    plan_path = safe_relative_path(plan.get("path", f"chapters/chapter-{number:03d}/plan.md"))
+    plan_path = source_path(f"chapter_{number:03d}_plan", f"chapters/chapter-{number:03d}/plan.md")
     if not append_file(plan_path):
         raise ValueError("required chapter plan is missing")
     if number > 1:
@@ -1288,16 +1313,17 @@ def command_context(args: argparse.Namespace) -> int:
                 break
         if not found_tail:
             raise ValueError("required previous chapter prose is missing")
-    if not append_file("novel-brief.md"):
-        raise ValueError("required novel-brief.md is missing")
-    style_path = workspace / "writing-style.md"
+    brief = source_path("novel_brief", "novel-brief.md")
+    if not append_file(brief):
+        raise ValueError(f"required {book_path(workspace, brief).name} is missing")
+    style_path = book_path(workspace, source_path("writing_style", "writing-style.md"))
     if style_path.is_symlink():
-        raise ValueError("writing-style.md must be a local book snapshot")
+        raise ValueError(f"{style_path.name} must be a local book snapshot")
     if style_path.is_file():
         style = style_path.read_text(encoding="utf-8").strip()
         if not style or len(style) > 2200:
-            raise ValueError("writing-style.md must contain a concise, non-empty style contract (up to 2200 characters)")
-        append_file("writing-style.md")
+            raise ValueError(f"{style_path.name} must contain a concise, non-empty style contract (up to 2200 characters)")
+        append_file(style_path.relative_to(workspace).as_posix())
     if state.get("novel", {}).get("mode") == "fanfic":
         handoff = state.get("artifacts", {}).get("fanfic_handoff", {})
         if handoff.get("status") != "ready":
@@ -1314,19 +1340,19 @@ def command_context(args: argparse.Namespace) -> int:
     if args.asset_library:
         if not structured:
             raise ValueError("cross-book context requires a migrated structured continuity store")
-        selection = workspace / safe_relative_path(args.asset_selection)
+        selection = book_path(workspace, safe_relative_path(args.asset_selection))
         parts.append(asset_graph.render_selection_context(args.asset_library.resolve(), workspace, selection,
                                                          min(2500, args.max_chars * 35 // 100)).strip())
-        sources.append(safe_relative_path(args.asset_selection))
+        sources.append(selection.relative_to(workspace).as_posix())
     remaining = args.max_chars - len("\n\n".join(parts)) - 3
     if remaining < 0:
         raise ValueError("context budget is too small for required sources and selected references")
     if structured:
         characters = {item.strip() for item in args.characters.split(",") if item.strip()}
         parts.append(continuity_store.assemble_context(workspace, number, characters, remaining).strip())
-        sources.append("continuity/data/*.yaml")
-    optional = ["story-bible.md", "world-bible.md", "characters/character-roster.md"]
-    artifacts = state.get("artifacts", {})
+        sources.append(book_path(workspace, "continuity/data/*.yaml").relative_to(workspace).as_posix())
+    optional = [source_path("story_bible", "story-bible.md"), source_path("world_bible", "world-bible.md"),
+                source_path("character_roster", "characters/character-roster.md")]
     plan = artifacts.get(f"chapter_{number:03d}_plan", {})
     windows = [artifacts[key]["path"] for key in plan.get("depends_on", [])
                if key in artifacts and step_from_key(key) == "beat_sheet" and artifacts[key].get("path")]
@@ -1336,15 +1362,16 @@ def command_context(args: argparse.Namespace) -> int:
     omitted = []
     for relative in optional:
         if not append_file(relative, required=False):
-            omitted.append(relative)
+            omitted.append(book_path(workspace, relative).relative_to(workspace).as_posix())
     rendered = "\n\n".join(parts).strip() + "\n"
     if len(rendered) > args.max_chars:
         raise ValueError("context exceeds --max-chars; increase the budget for required sources")
     if reference_context:
         rendered += "\n" + reference_context
     if args.output:
-        atomic_write_text(workspace / safe_relative_path(args.output), rendered)
-        print(json.dumps({"written": safe_relative_path(args.output), "sources": sources,
+        output = output_relative(workspace, args.output)
+        atomic_write_text(workspace / output, rendered)
+        print(json.dumps({"written": output, "sources": sources,
                           "omitted_missing_or_over_budget": omitted}, ensure_ascii=False, indent=2))
     else:
         print(rendered, end="")
@@ -1392,6 +1419,7 @@ def build_parser() -> argparse.ArgumentParser:
     init = commands.add_parser("init", help="create a schema-v3 novel workspace")
     add_workspace(init)
     init.add_argument("--title", required=True)
+    init.add_argument("--filename-language", choices=("en", "zh"), default="en", help="language for workspace filenames")
     init.add_argument("--mode", choices=sorted(DIRECTOR_MODES), default="milestone_approval")
     init.add_argument("--novel-mode", choices=("original", "fanfic"), default="original")
     init.add_argument("--source-analysis")

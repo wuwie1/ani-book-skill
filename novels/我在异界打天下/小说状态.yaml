@@ -1,0 +1,624 @@
+schema_version: 3
+workspace:
+  persistence_mode: workspace
+  promoted_from_preview: true
+novel:
+  title: 我在异界打天下
+  mode: original
+  current_stage: opening_trial
+opening_choices:
+  status: confirmed
+  channel: 男频
+  publication_format: 番茄小说；连载创作，具体发布与合同另行办理
+  primary_reader_reward: 强者反差、主动破局，个人优势转化为势力与诸天争霸
+director:
+  mode: milestone_approval
+  status: idle
+  run_id: 65ecb8a9-f9af-4b7a-a02e-118ff70203bc
+  current_step: null
+  current_target: null
+  requested_range: null
+  stop_reason: null
+artifacts:
+  novel_brief:
+    path: 新书简报.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on: []
+    sha256: 7db08deb3bdfafcb2afb20846594d7951a24226439fa0ab27d71878e3c3323da
+    approval: delegated
+    updated_at: '2026-11-18T03:58:31.727294+00:00'
+  story_bible:
+    path: 故事主线.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - novel_brief
+    sha256: 367ea16b61365bab5e035f2491b64d4f5623b219815b9f7d1b07c2c5c8fd866b
+    approval: delegated
+    updated_at: '2026-11-18T03:11:54.002103+00:00'
+  world_bible:
+    path: 世界设定.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - novel_brief
+    - story_bible
+    sha256: 9ca1494c5b7822feab8840573e2cd5733a93e1bc9b2f789faebb05b89689e2a7
+    approval: not_required
+    updated_at: '2026-11-18T03:11:54.002482+00:00'
+  character_roster:
+    path: 人物/人物总览.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - novel_brief
+    - story_bible
+    - world_bible
+    - character_tao_shoucheng
+    - character_zhou_younian
+    - character_shi_changgeng
+    - character_du_kui
+    sha256: f1e7da49b079f58872a063957c0981498041acf3997303dae8ade1a9f27a040d
+    approval: not_required
+    updated_at: '2026-11-18T03:58:31.727294+00:00'
+  volume_strategy:
+    path: 分卷/分卷规划.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - novel_brief
+    - story_bible
+    - world_bible
+    - character_roster
+    sha256: 89180c2525b24f3a6cb73586713f99c4374615512e8aeab8944597fac749c7f8
+    approval: delegated
+    updated_at: '2026-11-18T03:58:31.727294+00:00'
+  volume_01_skeleton:
+    path: 分卷/第01卷-卷纲.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - volume_strategy
+    - character_roster
+    sha256: a13c4673a2dbdb6ce28fe3a4878fdd16f1c492c4f925b86a02b7859d93dc9068
+    approval: not_required
+    updated_at: '2026-11-18T03:58:31.727294+00:00'
+  volume_01_beat_sheet:
+    path: 分卷/第01卷-节奏表.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - volume_01_skeleton
+    sha256: 31cec85a0b319a514a49311a58dbabe62f262ef0db0556f077de0619b2a21675
+    approval: not_required
+    updated_at: '2026-11-18T03:58:31.727294+00:00'
+  writing_style:
+    path: 写作风格.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - novel_brief
+    - story_bible
+    - reference_use
+    sha256: 148daafb58ed6cbb9c2c732391ddf3bed03d04ef5101267e59e6216a22cccf81
+    approval: not_required
+    updated_at: '2026-11-16T10:35:53.026600Z'
+  design_package:
+    path: 创作记录/设定审查.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - volume_strategy
+    - volume_01_skeleton
+    - volume_01_beat_sheet
+    - writing_style
+    - world_bible
+    - world_combat
+    - character_roster
+    - reference_use
+    - character_cheng_jianqiu
+    - character_chi_heng
+    - character_han_jingshan
+    - character_lu_hao
+    - character_lu_jingheng
+    - character_lu_yanshan
+    - character_lu_zheng
+    - character_qi_lie
+    - character_shen_lingyi
+    - character_xu_wenying
+    sha256: f1d9f441f87a1aecb8cf9eedfa2ad6036fcc2f1f0afddd6558e29f58ea2d57c4
+    approval: not_required
+    updated_at: '2026-11-18T03:58:31.727294+00:00'
+  reference_use:
+    path: 创作记录/参考机制使用说明.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - novel_brief
+    sha256: d6c824dd7b6a7ace7874b834ff611d62bd8e1e6b2e49b7dc756be11a4eb491ae
+    approval: not_required
+    updated_at: '2026-11-18T03:11:54.003779+00:00'
+  world_combat:
+    path: 修行与战斗.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - world_bible
+    - volume_strategy
+    - character_roster
+    sha256: 9c5b6e5d273bc6e930bce39cc5845e9c60c06be945fd54e4c23b51562bf052ca
+    approval: not_required
+    updated_at: '2026-11-18T03:58:31.727294+00:00'
+  package_index:
+    path: 作品导览.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - novel_brief
+    - volume_strategy
+    - design_package
+    - volume_01_chapter_outline
+    - volume_01_outline_review
+    sha256: c1d3765dcbe5494d979adac91f96eaf462cc4036e0350e8040aa434d9bd3de6c
+    approval: not_required
+    updated_at: '2026-11-18T03:58:31.727294+00:00'
+  character_cheng_jianqiu:
+    path: 人物/档案/程见秋.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - novel_brief
+    - story_bible
+    - world_bible
+    sha256: 1216aa1a56eb9b1859058546dac3e0c34076c0732cba3976772f1eb6896171ff
+    approval: not_required
+    updated_at: '2026-11-16T10:35:53.026687Z'
+  character_chi_heng:
+    path: 人物/档案/赤衡.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - novel_brief
+    - story_bible
+    - world_bible
+    sha256: 1fcac96c3e81a72674f8682b1a69eeb2b5bb0f1d764497c9d9907da665f63379
+    approval: not_required
+    updated_at: '2026-11-18T03:11:54.004857+00:00'
+  character_han_jingshan:
+    path: 人物/档案/韩敬山.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - novel_brief
+    - story_bible
+    - world_bible
+    sha256: 8a6f4cc65a846169481a50a5785d70fbd607b4da93c34bf88326e379a49b76ef
+    approval: not_required
+    updated_at: '2026-11-18T03:11:54.005282+00:00'
+  character_lu_hao:
+    path: 人物/档案/陆昊.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - novel_brief
+    - story_bible
+    - world_bible
+    sha256: ba53f91373933296e005d5aa95ab7c70bdc3db1f3a3c0151c65635de1c3bf547
+    approval: not_required
+    updated_at: '2026-11-18T03:11:54.005690+00:00'
+  character_lu_jingheng:
+    path: 人物/档案/陆景珩.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - novel_brief
+    - story_bible
+    - world_bible
+    sha256: 721b3708f3c59ac6c2e20d1c289d4483010fce6f578952845d6e6a179bb40813
+    approval: not_required
+    updated_at: '2026-11-18T03:11:54.005944+00:00'
+  character_lu_yanshan:
+    path: 人物/档案/陆砚山.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - novel_brief
+    - story_bible
+    - world_bible
+    sha256: 838c4ea278d85f7152707c65e2038b93cc3e887a8192683f367b43e0b477fb56
+    approval: not_required
+    updated_at: '2026-11-18T03:11:54.006205+00:00'
+  character_lu_zheng:
+    path: 人物/档案/陆峥.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - novel_brief
+    - story_bible
+    - world_bible
+    sha256: 9daa73b141ee1be095a00a48231b5a44f3244747dcaa7b8e2a58984b6718a07d
+    approval: not_required
+    updated_at: '2026-11-18T03:11:54.006432+00:00'
+  character_qi_lie:
+    path: 人物/档案/祁烈.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - novel_brief
+    - story_bible
+    - world_bible
+    sha256: 884dfa81068d972bfcaf38b306b9d2dca34c7f3eaac93d1c6c3a56f5c467a9fe
+    approval: not_required
+    updated_at: '2026-11-18T03:11:54.006645+00:00'
+  character_shen_lingyi:
+    path: 人物/档案/沈令仪.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - novel_brief
+    - story_bible
+    - world_bible
+    sha256: 419c07375661fb97266ddd0c4b4128a0b2d8b988a4d44459c596316a0d78b7a8
+    approval: not_required
+    updated_at: '2026-11-16T10:35:53.026915Z'
+  character_xu_wenying:
+    path: 人物/档案/许文瑛.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - novel_brief
+    - story_bible
+    - world_bible
+    sha256: 281205b70078fac9ce93dfe812ecf9d7363914fff350d88a2050eec8d7ca16a2
+    approval: not_required
+    updated_at: '2026-11-16T10:35:53.026950Z'
+  volume_01_chapter_outline:
+    path: 分卷/第01卷-逐章细纲.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - novel_brief
+    - story_bible
+    - world_bible
+    - character_roster
+    - volume_strategy
+    - volume_01_skeleton
+    - volume_01_beat_sheet
+    - writing_style
+    - character_cheng_jianqiu
+    - character_han_jingshan
+    - character_lu_hao
+    - character_lu_jingheng
+    - character_lu_yanshan
+    - character_lu_zheng
+    - character_qi_lie
+    - character_shen_lingyi
+    - character_xu_wenying
+    - character_tao_shoucheng
+    - character_zhou_younian
+    - character_shi_changgeng
+    - character_du_kui
+    - opening_window
+    - opening_plan_001
+    - opening_plan_002
+    - opening_plan_003
+    sha256: 1b909b33fc349018b32c1c623826d25a96ff413c1990b1fa4d8188213744d0dd
+    approval: not_required
+    updated_at: '2026-11-18T03:58:31.727294+00:00'
+  character_tao_shoucheng:
+    path: 人物/档案/陶守诚.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - novel_brief
+    - story_bible
+    - world_bible
+    sha256: 7c4919b60fc7f8be78f72dfe0984e2edcd8bbfb57758cd52e9a1b312f5f8982b
+    approval: not_required
+    updated_at: '2026-11-18T03:58:31.727294+00:00'
+  character_zhou_younian:
+    path: 人物/档案/周有年.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - novel_brief
+    - story_bible
+    - world_bible
+    sha256: a5eef54e0540b1118d31333014a8c17e23f2966e02a1ce6cc3a2f47c150e7e8e
+    approval: not_required
+    updated_at: '2026-11-18T03:58:31.727294+00:00'
+  character_shi_changgeng:
+    path: 人物/档案/石长庚.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - novel_brief
+    - story_bible
+    - world_bible
+    sha256: 79c6e0696b0455c2d28e857f5695708002e716ef6dd6c4a85ae16686bfb62797
+    approval: not_required
+    updated_at: '2026-11-18T03:58:31.727294+00:00'
+  character_du_kui:
+    path: 人物/档案/杜魁.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - novel_brief
+    - story_bible
+    - world_bible
+    sha256: 0a5f7e47283998ab16aca3a2be273971b61db9907ca4e6a3f3807b55f28a03e9
+    approval: not_required
+    updated_at: '2026-11-18T03:58:31.727294+00:00'
+  volume_01_outline_review:
+    path: 创作记录/第01卷-细纲审查.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - volume_01_chapter_outline
+    - character_roster
+    - writing_style
+    sha256: c2a551202015f340f9b91b6a03a0305374fadb64bfd064b2cf055e00777a1845
+    approval: not_required
+    updated_at: '2026-11-18T03:58:31.727294+00:00'
+  opening_window:
+    path: 分卷/第01卷-开篇细纲.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - novel_brief
+    - story_bible
+    - world_bible
+    - character_roster
+    - writing_style
+    sha256: 1b9ce753f8903f0a4b26f3376161d551df0d3240364893ae10fb2d1151c2ac51
+    approval: delegated
+    updated_at: '2026-11-18T03:58:31.727294+00:00'
+  opening_plan_001:
+    path: 章节/第001章/章节计划.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - opening_window
+    - writing_style
+    - world_bible
+    - character_roster
+    sha256: 7eca0313151d341a4f4da12f3e20f5ce73ee853e538c416c178bc65b67aab147
+    approval: delegated
+    updated_at: '2026-11-16T10:35:53.027459Z'
+  opening_plan_002:
+    path: 章节/第002章/章节计划.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - opening_window
+    - writing_style
+    - world_bible
+    - character_roster
+    sha256: 7b343f70766ef59a5dc3e9ed89f22e6511796c99019dd5db912bae9e2498a950
+    approval: delegated
+    updated_at: '2026-11-18T03:11:54.008792+00:00'
+  opening_plan_003:
+    path: 章节/第003章/章节计划.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - opening_window
+    - writing_style
+    - world_bible
+    - character_roster
+    sha256: 2a01f5766bde602a3c4749c4839afee083a3f05f8b45b5cc0ddca7494ac7a540
+    approval: delegated
+    updated_at: '2026-11-18T03:58:31.727294+00:00'
+  opening_context_001:
+    path: 章节/第001章/上下文包.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - opening_plan_001
+    - writing_style
+    - world_bible
+    - character_roster
+    sha256: ea9547cfb8f8d13f5a3132aaacdbb4b4835552367f7052c62072103c8e82d4b8
+    approval: delegated
+    updated_at: '2026-11-18T03:58:31.727294+00:00'
+  assistant_opening_transfer:
+    path: 创作记录/写作助手开篇配置-第2版.json
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - opening_window
+    - writing_style
+    sha256: 5a0372a1aed6171d5816f04d29204b7db1af46e6279ad708e8592b0f0b0665ab
+    approval: delegated
+    updated_at: '2026-11-16T10:35:53.027602Z'
+  opening_draft_001:
+    path: 章节/第001章/正文初稿.md
+    status: ready
+    source: imported
+    protected: false
+    depends_on:
+    - opening_plan_001
+    - opening_context_001
+    - writing_style
+    sha256: ec59f6d4aa12896ba8dc45d5a5c013c7ffff36c8fd56e73b91479fc1a791976e
+    approval: not_required
+    updated_at: '2026-11-16T10:48:14.806966Z'
+  opening_revision_001:
+    path: 章节/第001章/正文修订稿.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - opening_draft_001
+    - opening_plan_001
+    - writing_style
+    sha256: 4dac466ba264cb9eeab4d81f5abdc918311d9d32c1dad18e341f6e5cce410601
+    approval: not_required
+    updated_at: '2026-11-16T10:48:14.808064Z'
+  opening_review_001:
+    path: 章节/第001章/审校记录.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - opening_draft_001
+    - opening_revision_001
+    - opening_plan_001
+    - writing_style
+    sha256: 7c57ede852b19f90aae382b2340f478e67bcc281f4d1bfd7644056310b84c0ff
+    approval: not_required
+    updated_at: '2026-11-16T10:48:14.808265Z'
+  opening_repair_report:
+    path: 创作记录/开篇修订报告.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - opening_window
+    - writing_style
+    - opening_review_001
+    sha256: 75c0a6e81b593535818a8edc61e5d4e37cbe7e72e11126013134ab77d679c196
+    approval: not_required
+    updated_at: '2026-11-16T11:33:39.908563+00:00'
+  system_trial_initial_001:
+    path: 章节/第001章/系统初稿.md
+    status: ready
+    source: imported
+    protected: true
+    depends_on:
+    - opening_plan_001
+    - writing_style
+    sha256: 28a4f442ab2e7cf88b5d44a8b7a02cf5b2da4b27ed213c525049a2834443b1dc
+    approval: not_required
+    updated_at: '2026-11-16T11:33:39.908563+00:00'
+  system_trial_final_001:
+    path: 章节/第001章/系统定稿.md
+    status: ready
+    source: imported
+    protected: true
+    depends_on:
+    - system_trial_initial_001
+    - opening_plan_001
+    - writing_style
+    sha256: e1baca1ecdddbd7f91a44d1c0d0c272fef26a04d1f63473693032edd10612fdb
+    approval: not_required
+    updated_at: '2026-11-16T11:33:39.908563+00:00'
+  system_trial_report:
+    path: 创作记录/系统试写报告.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - system_trial_initial_001
+    - system_trial_final_001
+    - assistant_opening_transfer
+    sha256: 4b02ac6906ea8219b0428fe67f4bd623a6ef113d70835207adfbac3385dc3581
+    approval: not_required
+    updated_at: '2026-11-16T11:33:39.908563+00:00'
+  system_trial_20261117_probe_initial:
+    path: 创作记录/系统试写-2026-11-17/第1次诊断/第001章-首次模型稿.txt
+    status: ready
+    source: imported
+    protected: true
+    depends_on:
+    - opening_plan_001
+    - writing_style
+    sha256: cee5216663a77a30163926061c8b2bf5e6573b8f2465e5e021dadc9bf5fc4408
+    approval: not_required
+    updated_at: '2026-11-17T01:47:16.140489+00:00'
+  system_trial_20261117_probe_final:
+    path: 创作记录/系统试写-2026-11-17/第1次诊断/第001章-最终正文.txt
+    status: ready
+    source: imported
+    protected: true
+    depends_on:
+    - system_trial_20261117_probe_initial
+    sha256: 57a46ec92bc3dcf7a927e53aea71f379e1663ac69abd61e4e4058b78e55e0141
+    approval: not_required
+    updated_at: '2026-11-17T01:47:16.140489+00:00'
+  system_trial_20261117_initial:
+    path: 章节/第001章/系统初稿-2026-11-17.md
+    status: ready
+    source: imported
+    protected: true
+    depends_on:
+    - opening_plan_001
+    - writing_style
+    sha256: a459d1bc0e6cbf93027ffeb994c3b3424aee9e722343dcaf64aee2bf9b5eb761
+    approval: not_required
+    updated_at: '2026-11-17T01:47:16.140489+00:00'
+  system_trial_20261117_final:
+    path: 章节/第001章/系统定稿-2026-11-17.md
+    status: ready
+    source: imported
+    protected: true
+    depends_on:
+    - system_trial_20261117_initial
+    - opening_plan_001
+    - writing_style
+    sha256: a459d1bc0e6cbf93027ffeb994c3b3424aee9e722343dcaf64aee2bf9b5eb761
+    approval: not_required
+    updated_at: '2026-11-17T01:47:16.140489+00:00'
+  system_trial_20261117_report:
+    path: 创作记录/系统试写报告-2026-11-17.md
+    status: ready
+    source: ai_generated
+    protected: false
+    depends_on:
+    - system_trial_20261117_final
+    - system_trial_20261117_probe_final
+    - assistant_opening_transfer
+    sha256: 5cbbda907dc56e93fd6cb1b5c21d8f9ba74dbf5dddcf1344caac39ff13d688d6
+    approval: not_required
+    updated_at: '2026-11-17T01:47:16.140489+00:00'
+continuity:
+  baseline_chapter: null
+  last_committed_chapter: null
+  recovery_path: 创作记录/恢复记录.md
+  quality_debt_open_count: 0
+usage:
+  ledger_path: 创作记录/用量明细.jsonl
+  summary_path: 创作记录/用量汇总.json
+  exact_tokens: 287638
+  estimated_tokens: 0
+  unavailable_events: 16
+next_action:
+  type: produce_artifact
+  target: chapter_001_plan
+  reason: 第 1 章下一生产步骤：chapter_plan
+  requires_approval: false

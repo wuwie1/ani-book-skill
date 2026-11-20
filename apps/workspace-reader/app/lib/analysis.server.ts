@@ -82,13 +82,15 @@ export async function getNovelReferences(workspace: Workspace, sources: Workspac
   const details = new Map<string, AnalysisDetails>();
   const normalize = (value: string) => process.platform === 'win32' ? path.normalize(value).toLowerCase() : path.normalize(value);
   let directory: string;
-  try { directory = await realpath(path.join(workspace.root, 'context-packages')); if (!isInside(workspace.root, directory)) return []; }
+  const relative = workspace.chineseFilenames ? '上下文' : 'context-packages';
+  const filename = workspace.chineseFilenames ? /^第(\d+)章-拆书参考\.yaml$/ : /^chapter-(\d+)\.references\.yaml$/;
+  try { directory = await realpath(path.join(workspace.root, relative)); if (!isInside(workspace.root, directory)) return []; }
   catch { return []; }
   for (const entry of await readdir(directory, { withFileTypes: true })) {
-    const chapter = /^chapter-(\d+)\.references\.yaml$/.exec(entry.name)?.[1];
+    const chapter = filename.exec(entry.name)?.[1];
     if (!chapter || !entry.isFile() || entry.isSymbolicLink()) continue;
     try {
-      const selection = object(parse(await readFile(await safeFile(workspace.root, `context-packages/${entry.name}`), 'utf8')));
+      const selection = object(parse(await readFile(await safeFile(workspace.root, `${relative}/${entry.name}`), 'utf8')));
       const validChapter = selection.schema_version === 1 && selection.chapter === Number(chapter) && Number(chapter) > 0;
       if (!validChapter || !Array.isArray(selection.items) || selection.items.length === 0) throw new Error('invalid reference selection');
       for (const raw of Array.isArray(selection.items) ? selection.items : []) {

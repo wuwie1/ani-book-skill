@@ -24,6 +24,8 @@ from typing import Any, Iterable
 
 import yaml
 
+from workspace_paths import book_path
+
 
 STORE_RELATIVE = Path("continuity/data")
 INDEX_RELATIVE = Path("continuity/index.sqlite3")
@@ -179,7 +181,7 @@ def migrate_resources(path: Path) -> list[dict[str, Any]]:
 
 
 def migrate_characters(workspace: Path) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
-    roster = workspace / "characters/character-roster.md"
+    roster = book_path(workspace, "characters/character-roster.md")
     if not roster.is_file():
         return [], []
     tables = parse_markdown_tables(roster)
@@ -225,8 +227,9 @@ def migrate_baseline(path: Path, last_committed: str) -> dict[str, Any]:
 
 
 def store_paths(workspace: Path) -> dict[str, Path]:
-    root = workspace / STORE_RELATIVE
-    return {"root": root, "manifest": root / "manifest.yaml", "baseline": root / "baseline.yaml", **{key: root / name for key, name in DOMAIN_FILES.items()}}
+    files = {"manifest": "manifest.yaml", "baseline": "baseline.yaml", **DOMAIN_FILES}
+    return {"root": book_path(workspace, STORE_RELATIVE),
+            **{key: book_path(workspace, STORE_RELATIVE / name) for key, name in files.items()}}
 
 
 def make_manifest(last_committed: str) -> dict[str, Any]:
@@ -336,8 +339,8 @@ def markdown_table(headers: list[str], rows: Iterable[list[str]]) -> str:
     return "\n".join(output) + "\n"
 
 
-def generated_header(manifest: dict[str, Any]) -> str:
-    return f"<!-- generated-from: continuity/data revision {manifest['revision']}; do not edit this view directly -->\n\n"
+def generated_header(manifest: dict[str, Any], source: str = "continuity/data") -> str:
+    return f"<!-- generated-from: {source} revision {manifest['revision']}; do not edit this view directly -->\n\n"
 
 
 def render_views(workspace: Path, store: dict[str, Any] | None = None) -> list[Path]:
@@ -346,7 +349,7 @@ def render_views(workspace: Path, store: dict[str, Any] | None = None) -> list[P
     if errors:
         raise ValueError("cannot render invalid store: " + "; ".join(errors))
     manifest = store["manifest"]
-    header = generated_header(manifest)
+    header = generated_header(manifest, book_path(workspace, STORE_RELATIVE).relative_to(workspace).as_posix())
     baseline = store["baseline"]
     baseline_header = ""
     if baseline.get("source_path") and baseline.get("source_hash"):
@@ -355,25 +358,25 @@ def render_views(workspace: Path, store: dict[str, Any] | None = None) -> list[P
     baseline_text += f"- 基线章节：`{baseline['baseline_chapter']}`\n"
     baseline_text += f"- 最后稳定章节：`{manifest['last_committed_chapter']}`\n\n## 已确认状态\n\n"
     baseline_text += "\n".join(f"- {item}" for item in baseline.get("confirmed_state", [])) + "\n"
-    paths = [workspace / "continuity/baseline.md"]
+    paths = [book_path(workspace, "continuity/baseline.md")]
     atomic_write_text(paths[0], baseline_text)
     fact_rows = [[item["id"], item["summary"], item["introduced_in"], item["evidence"]["text"], "、".join(item.get("characters", [])), "；".join(filter(None, [str(item.get("status", "")), str(item.get("constraints", ""))]))] for item in store["facts"]]
-    fact_path = workspace / "continuity/fact-ledger.md"
+    fact_path = book_path(workspace, "continuity/fact-ledger.md")
     atomic_write_text(fact_path, header + "# 事实账本\n\n" + markdown_table(["ID", "稳定事实", "发生章节", "证据", "涉及角色", "状态与后续约束"], fact_rows))
     paths.append(fact_path)
     payoff_rows = [[item["id"], item["summary"], item["evidence"]["text"], item["introduced_in"], item.get("target_window", ""), item.get("status", ""), item.get("latest_progress", ""), item.get("risks_next_window", "")] for item in store["payoffs"]]
-    payoff_path = workspace / "continuity/payoff-ledger.md"
+    payoff_path = book_path(workspace, "continuity/payoff-ledger.md")
     atomic_write_text(payoff_path, header + "# 伏笔与承诺账本\n\n" + markdown_table(["ID", "承诺/伏笔", "来源", "首现", "目标窗口", "当前状态", "最近推进", "风险与下次窗口"], payoff_rows))
     paths.append(payoff_path)
     resource_rows = [[item["id"], item["summary"], item.get("holder", ""), item.get("visibility_state", ""), item["introduced_in"], item.get("usage_constraints", "")] for item in store["resources"]]
-    resource_path = workspace / "continuity/resource-ledger.md"
+    resource_path = book_path(workspace, "continuity/resource-ledger.md")
     atomic_write_text(resource_path, header + "# 资源账本\n\n" + markdown_table(["ID", "资源", "持有人/归属", "可见性与状态", "来源", "使用窗口与禁止误用"], resource_rows))
     paths.append(resource_path)
     return paths
 
 
 def checkpoint_path(workspace: Path, chapter: str) -> Path:
-    return workspace / STORE_RELATIVE / "checkpoints" / f"checkpoint-{chapter_number(chapter):03d}.yaml"
+    return book_path(workspace, STORE_RELATIVE / "checkpoints" / f"checkpoint-{chapter_number(chapter):03d}.yaml")
 
 
 def create_checkpoint(workspace: Path, chapter: str, reason: str, store: dict[str, Any] | None = None) -> Path:
@@ -412,7 +415,7 @@ def build_index(workspace: Path, store: dict[str, Any] | None = None) -> dict[st
     errors = validate_store(workspace, store)
     if errors:
         raise ValueError("cannot index invalid store: " + "; ".join(errors))
-    index = workspace / INDEX_RELATIVE
+    index = book_path(workspace, INDEX_RELATIVE)
     index.parent.mkdir(parents=True, exist_ok=True)
     descriptor, temporary_name = tempfile.mkstemp(prefix=".continuity-index-", suffix=".sqlite3", dir=index.parent)
     os.close(descriptor)
@@ -464,7 +467,7 @@ def build_index(workspace: Path, store: dict[str, Any] | None = None) -> dict[st
 
 
 def index_revision(workspace: Path) -> int | None:
-    index = workspace / INDEX_RELATIVE
+    index = book_path(workspace, INDEX_RELATIVE)
     if not index.is_file():
         return None
     try:
@@ -479,7 +482,7 @@ def index_revision(workspace: Path) -> int | None:
 
 
 def update_state_for_store(workspace: Path, store: dict[str, Any], index_status: str) -> None:
-    path = workspace / "novel-state.yaml"
+    path = book_path(workspace, "novel-state.yaml")
     state = read_yaml(path)
     if not isinstance(state, dict):
         raise ValueError("novel-state.yaml must be a mapping")
@@ -489,10 +492,10 @@ def update_state_for_store(workspace: Path, store: dict[str, Any], index_status:
     continuity["last_committed_chapter"] = store["manifest"]["last_committed_chapter"]
     continuity["structured_store"] = {
         "authority": "yaml",
-        "path": STORE_RELATIVE.as_posix(),
+        "path": book_path(workspace, STORE_RELATIVE).relative_to(workspace).as_posix(),
         "schema_version": STORE_VERSION,
         "revision": store["manifest"]["revision"],
-        "index_path": INDEX_RELATIVE.as_posix(),
+        "index_path": book_path(workspace, INDEX_RELATIVE).relative_to(workspace).as_posix(),
         "index_status": index_status,
         "indexed_revision": store["manifest"]["revision"] if index_status == "current" else None,
     }
@@ -500,9 +503,9 @@ def update_state_for_store(workspace: Path, store: dict[str, Any], index_status:
 
 
 def backup_legacy_views(workspace: Path) -> list[Path]:
-    sources = [workspace / relative for relative in ("continuity/baseline.md", "continuity/fact-ledger.md", "continuity/payoff-ledger.md", "continuity/resource-ledger.md")]
+    sources = [book_path(workspace, relative) for relative in ("continuity/baseline.md", "continuity/fact-ledger.md", "continuity/payoff-ledger.md", "continuity/resource-ledger.md")]
     stamp = datetime.now().strftime("%Y%m%d-%H%M%S")
-    destination = workspace / "continuity/legacy-markdown" / stamp
+    destination = book_path(workspace, "continuity/legacy-markdown") / stamp
     copied: list[Path] = []
     for source in sources:
         if source.is_file():
@@ -514,7 +517,7 @@ def backup_legacy_views(workspace: Path) -> list[Path]:
 
 
 def migrate_workspace(workspace: Path, dry_run: bool = False) -> dict[str, Any]:
-    state_path = workspace / "novel-state.yaml"
+    state_path = book_path(workspace, "novel-state.yaml")
     if not state_path.is_file():
         raise ValueError("missing novel-state.yaml")
     state = read_yaml(state_path)
@@ -526,38 +529,35 @@ def migrate_workspace(workspace: Path, dry_run: bool = False) -> dict[str, Any]:
     paths = store_paths(workspace)
     if paths["root"].exists():
         raise ValueError("continuity/data already exists; migration refuses to overwrite it")
-    required = [workspace / relative for relative in ("continuity/baseline.md", "continuity/fact-ledger.md", "continuity/payoff-ledger.md", "continuity/resource-ledger.md")]
+    required = [book_path(workspace, relative) for relative in ("continuity/baseline.md", "continuity/fact-ledger.md", "continuity/payoff-ledger.md", "continuity/resource-ledger.md")]
     missing = [str(item.relative_to(workspace)) for item in required if not item.is_file()]
     if missing:
         raise ValueError("migration inputs missing: " + ", ".join(missing))
     characters, relationships = migrate_characters(workspace)
     data = {
         "manifest": make_manifest(last_committed),
-        "baseline": migrate_baseline(workspace / "continuity/baseline.md", last_committed),
-        "facts": migrate_facts(workspace / "continuity/fact-ledger.md"),
-        "payoffs": migrate_payoffs(workspace / "continuity/payoff-ledger.md"),
-        "resources": migrate_resources(workspace / "continuity/resource-ledger.md"),
+        "baseline": migrate_baseline(book_path(workspace, "continuity/baseline.md"), last_committed),
+        "facts": migrate_facts(book_path(workspace, "continuity/fact-ledger.md")),
+        "payoffs": migrate_payoffs(book_path(workspace, "continuity/payoff-ledger.md")),
+        "resources": migrate_resources(book_path(workspace, "continuity/resource-ledger.md")),
         "characters": characters,
         "relationships": relationships,
         "asset_links": [],
     }
-    temporary_root = Path(tempfile.mkdtemp(prefix="continuity-store-", dir=workspace / "continuity"))
+    temporary_root = Path(tempfile.mkdtemp(prefix="continuity-store-", dir=book_path(workspace, "continuity")))
     try:
-        staged_workspace = temporary_root.parent.parent
-        staged_data = temporary_root / "data"
+        staged_data = temporary_root / paths["root"].name
         staged_data.mkdir()
-        staged_paths = {"root": staged_data, "manifest": staged_data / "manifest.yaml", "baseline": staged_data / "baseline.yaml", **{key: staged_data / name for key, name in DOMAIN_FILES.items()}}
-        for key, path in staged_paths.items():
+        for key, path in paths.items():
             if key != "root":
-                write_yaml(path, data[key])
+                write_yaml(staged_data / path.name, data[key])
         # Validate a staging object directly; it uses the same schema rules as a committed store.
-        validation_workspace = workspace
         errors = validate_store_from_data(data)
         if errors:
             raise ValueError("migration validation failed: " + "; ".join(errors))
         if dry_run:
             return {"dry_run": True, "last_committed_chapter": last_committed, "facts": len(data["facts"]), "payoffs": len(data["payoffs"]), "resources": len(data["resources"]), "characters": len(characters), "relationships": len(relationships)}
-        state_backup = state_path.with_name(f"novel-state.yaml.bak.{datetime.now():%Y%m%d-%H%M%S-%f}")
+        state_backup = state_path.with_name(f"{state_path.name}.bak.{datetime.now():%Y%m%d-%H%M%S-%f}")
         shutil.copy2(state_path, state_backup)
         paths["root"].parent.mkdir(parents=True, exist_ok=True)
         os.replace(staged_data, paths["root"])
@@ -590,7 +590,7 @@ def index_candidate_ids(workspace: Path, target: int, revision: int) -> set[str]
     if index_revision(workspace) != revision:
         return None
     try:
-        connection = sqlite3.connect(workspace / INDEX_RELATIVE)
+        connection = sqlite3.connect(book_path(workspace, INDEX_RELATIVE))
         try:
             rows = connection.execute("SELECT entry_id FROM entries WHERE introduced_chapter IS NULL OR introduced_chapter <= ?", (target,)).fetchall()
             return {str(row[0]) for row in rows}
@@ -636,13 +636,13 @@ def validate_workspace(workspace: Path) -> tuple[list[str], list[str]]:
     """Return structural errors and stale derived-artifact messages without writing."""
     errors: list[str] = []
     stale: list[str] = []
-    state_path = workspace / "novel-state.yaml"
+    state_path = book_path(workspace, "novel-state.yaml")
     if not state_path.is_file():
         return ["missing novel-state.yaml"], stale
     state = read_yaml(state_path)
     if not isinstance(state, dict):
         return ["novel-state.yaml must be a mapping"], stale
-    if (workspace / STORE_RELATIVE).is_dir():
+    if (book_path(workspace, STORE_RELATIVE)).is_dir():
         store_errors = validate_store(workspace)
         errors.extend(store_errors)
         if not store_errors:

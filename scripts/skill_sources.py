@@ -18,6 +18,8 @@ from typing import Any
 
 import yaml
 
+from workspace_paths import book_path
+
 
 CONFIG_RELATIVE = Path("production/skill-sources.yaml")
 SCHEMA_VERSION = 1
@@ -47,7 +49,7 @@ def read_yaml(path: Path) -> Any:
 
 
 def config_path(workspace: Path) -> Path:
-    return workspace / CONFIG_RELATIVE
+    return book_path(workspace, CONFIG_RELATIVE)
 
 
 def _is_safe_repo(value: Any) -> bool:
@@ -174,7 +176,7 @@ def source_plan(source: dict[str, Any], workspace: Path) -> dict[str, Any]:
         "install_ref": install_ref,
         "phase": phase,
         "approval": source.get("approval", "pending"),
-        "candidate_directory": str((workspace / "production/remote-skill-candidates").resolve()),
+        "candidate_directory": str(book_path(workspace, "production/remote-skill-candidates").resolve()),
         "github_tree_url": f"https://github.com/{source['repo']}/tree/{install_ref}/{source['path']}",
         "max_bytes": source.get("max_bytes", 262144),
         "requires_user_confirmation": True,
@@ -182,7 +184,7 @@ def source_plan(source: dict[str, Any], workspace: Path) -> dict[str, Any]:
 
 
 def candidate_snapshot(workspace: Path, source: dict[str, Any]) -> dict[str, Any]:
-    base = workspace / "production/remote-skill-candidates"
+    base = book_path(workspace, "production/remote-skill-candidates")
     name = source.get("installed_skill") or PurePosixPath(source["path"]).name
     if not _is_safe_skill_name(name):
         raise ValueError("candidate directory must be a single name")

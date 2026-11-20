@@ -1,0 +1,41 @@
+{
+  "registeredUtc": "2026-11-19T01:37:26.539647+00:00",
+  "baseline": "简短任务＋本地分镜（04、02）",
+  "route": "assistant /api/chat",
+  "requestSha256": "345fbe1f8be5b57e404764a2155b0f5001b2457ff7af73aff143ae89288d7bba",
+  "protected": {
+    "chapters/.DS_Store": "f6128375529fff55b09a34cb120a3d47b3906a910582d9110b999697a663ce08",
+    "chapters/chapter-001/context-package.md": "4ab51351745f1093b28b46677de5a1ebc9b8c3242d05334d6f5f910d19ff9542",
+    "chapters/chapter-001/draft-humanized.md": "4dac466ba264cb9eeab4d81f5abdc918311d9d32c1dad18e341f6e5cce410601",
+    "chapters/chapter-001/draft-system-2026-11-17-initial.md": "a459d1bc0e6cbf93027ffeb994c3b3424aee9e722343dcaf64aee2bf9b5eb761",
+    "chapters/chapter-001/draft-system-2026-11-17.md": "a459d1bc0e6cbf93027ffeb994c3b3424aee9e722343dcaf64aee2bf9b5eb761",
+    "chapters/chapter-001/draft-system-initial.md": "28a4f442ab2e7cf88b5d44a8b7a02cf5b2da4b27ed213c525049a2834443b1dc",
+    "chapters/chapter-001/draft-system.md": "e1baca1ecdddbd7f91a44d1c0d0c272fef26a04d1f63473693032edd10612fdb",
+    "chapters/chapter-001/draft.md": "ec59f6d4aa12896ba8dc45d5a5c013c7ffff36c8fd56e73b91479fc1a791976e",
+    "chapters/chapter-001/plan.md": "9ebf7650fc8c8c55e528282873a9a56bf98f55ca101ea0fb3e4ee31f180475c0",
+    "chapters/chapter-001/review.md": "9473a1eb3953b2830b2311881ac6e8fa87c505c202d0746301200f6088f92516",
+    "chapters/chapter-002/plan.md": "304c645d7f99b9298f778e171f50d39c81c8b660d47b3b77ced9805914f77ddd",
+    "chapters/chapter-003/plan.md": "8e2b5c44dd14a7193d2cbaf185a807623229b91a47a050e1f477cc5da9385180",
+    "writing-style.md": "af2011d51f467ec3dbbf6b998dfe348f4d3bb75295d22fc8e927349c5145f5e0",
+    "novel-brief.md": "7ad620c5a478d2bef79fd44289dc8677bd0e098f8cce89cb7c86297f9b31812c",
+    "novel-state.yaml": "9bdd65e7f991e9d3dc364493d90536c43ecf06e03beb118ca1310bdb9c81bf9e",
+    "production/出生场景盲读-20261118/盲读稿.md": "76726cda2ffb3b99c2cf1d37de5c3ae33d28a852369fe9514f2265fea6bb6a6d",
+    "production/出生场景盲读-20261118/盲读反馈与揭盲.md": "58111d5c9f7c3a33408fd2104d0452581f1c965639a0bae11fb0db6ddae41541"
+  },
+  "length": {
+    "min": 2210,
+    "target": 2600,
+    "max": 2990,
+    "method": "去空白含标点"
+  },
+  "firstScreen": "用首次出现成人加力和孩子反而更喘不上气的实际位置，与读者在01第133字符开始的弃读句对照。这里只是本书试验参照点。",
+  "checks": [
+    "具体学生念头与下一动作相邻",
+    "他自己争得一口气，再由祖母和医者调整护生，母亲确认呼吸，脱险后父兄探视，最终找回气息方向并睡去",
+    "人物知情有来源，陆峥为淮北王、哥哥八岁",
+    "末次入睡后还有哪些句子，逐字数篇幅"
+  ],
+  "pair": "在同一段系统正文中保留或移去那句学生心声。两段其余正文逐字相同。只在各自能独立读懂时交付，不当作两次独立生成。",
+  "originalHasThoughtAt": "乙",
+  "sampling": "取应用第一次完整返回。发现局部硬错误可保留原返回并独立记录最小修订，逐字说明来源。"
+}

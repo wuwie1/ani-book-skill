@@ -34,6 +34,8 @@ When the user supplies an initial idea or selects one opening seed and still nee
 
 Use Markdown for creative artifacts and a small `novel-state.yaml` file for progress. In a legacy workspace, keep continuity ledgers as readable Markdown. In a migrated workspace, YAML is the sole continuity authority and Markdown ledgers are generated read-only views; SQLite is a disposable local index. Do not require JSON unless the user explicitly requests machine integration or export.
 
+Follow each novel's file naming convention throughout production. A workspace with `小说状态.yaml` uses Chinese directory and file names. Read the registered artifact paths there and use Chinese names for new material, including character profiles, chapter plans, drafts, trial records and exports. For example, use `人物/档案/<姓名>.md` and `章节/第001章/正文初稿.md`. Keep stable IDs, zero-padded numbers, dates and file extensions. The English workspace paths in examples have Chinese equivalents in [the artifact contract](references/artifact-contracts.md#中文文件命名). To initialize a novel with this convention, use `novelctl.py init --filename-language zh`.
+
 ## Choose Persistence Mode
 
 Choose one mode before producing files:
@@ -88,7 +90,7 @@ Apply the progressive-confirmation contract in [novel-brief.md](references/novel
 
 When a workspace exists:
 
-1. Locate and read `novel-state.yaml`, `analysis-state.yaml`, or `trend-state.yaml` first according to the route.
+1. Locate and read the novel's `小说状态.yaml` or `novel-state.yaml`, the analysis's `analysis-state.yaml`, or the trend's `trend-state.yaml` first according to the route.
 2. Read only the artifacts required by the current route.
 3. Treat user-edited files and existing prose as protected unless the user explicitly authorizes replacement.
 4. Compare the current artifact with its upstream dependencies before extending it.

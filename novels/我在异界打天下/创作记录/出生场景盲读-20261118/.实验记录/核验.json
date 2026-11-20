@@ -1,0 +1,54 @@
+{
+  "verifiedUtc": "2026-11-18T09:15:21.597669+00:00",
+  "deliverySha256": "76726cda2ffb3b99c2cf1d37de5c3ae33d28a852369fe9514f2265fea6bb6a6d",
+  "chaptersLocalUnchanged": 12,
+  "chaptersOnlineUnchanged": 60,
+  "physicalResponses": {
+    "inside": 6
+  },
+  "samples": [
+    {
+      "blind": "01",
+      "line": 5,
+      "characters": 2632,
+      "paragraphs": 162,
+      "sourceSha256": "ca6eb73bcd022576ae3954b58a8e9db5b98a107fed860aaa59712167f0f6fbad"
+    },
+    {
+      "blind": "02",
+      "line": 331,
+      "characters": 2563,
+      "paragraphs": 74,
+      "sourceSha256": "dd595d411fe108fdb413871c780ca0c6a423de08500f7dcc04ab0c503d356e86"
+    },
+    {
+      "blind": "03",
+      "line": 481,
+      "characters": 2887,
+      "paragraphs": 92,
+      "sourceSha256": "e0b09370ce1a3610f483d124ad982458ee3f57749b41a5dac8fa8f5ad85cb26b"
+    },
+    {
+      "blind": "04",
+      "line": 667,
+      "characters": 2862,
+      "paragraphs": 74,
+      "sourceSha256": "8395763246023666912742d4c7fca714c09d0fc1655e70b2cf103d8d6b14819c"
+    },
+    {
+      "blind": "05",
+      "line": 817,
+      "characters": 2771,
+      "paragraphs": 92,
+      "sourceSha256": "65f1d42cff559eb9c0c7c2f4411685e00f4cce1559dc89c1998ca50e0e99bbbb"
+    },
+    {
+      "blind": "06",
+      "line": 1003,
+      "characters": 2583,
+      "paragraphs": 108,
+      "sourceSha256": "9c23889781c2c21426e37ebc8c2f7a0b816008e07a331d5a313f1ad60f2bd979"
+    }
+  ],
+  "display": "原始返回存档；正文只统一段落间距、移除独立章标题，数字为随机盲读号。"
+}

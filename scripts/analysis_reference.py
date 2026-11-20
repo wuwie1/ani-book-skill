@@ -13,6 +13,8 @@ from typing import Any
 
 import yaml
 
+from workspace_paths import book_path
+
 
 def digest(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
@@ -139,7 +141,7 @@ def inspect(root: Path) -> dict[str, Any]:
 def selection_path(workspace: Path, chapter: int) -> Path:
     if type(chapter) is not int or chapter < 1:
         raise ValueError("chapter must be a positive integer")
-    return workspace / "context-packages" / f"chapter-{chapter:03d}.references.yaml"
+    return book_path(workspace, f"context-packages/chapter-{chapter:03d}.references.yaml")
 
 
 def validate_selection(workspace: Path, chapter: int) -> list[dict[str, Any]]:

@@ -11,6 +11,7 @@ export type { WorkspaceKind, DocumentInfo, Workspace, Catalog } from './model';
 const repoRoot = path.resolve(process.cwd(), '../..');
 const sort = new Intl.Collator('zh-CN', { numeric: true });
 const ignored = new Set(['.git', 'node_modules', '.reader', '.reader-cache']);
+const novelStates = ['小说状态.yaml', 'novel-state.yaml'];
 const labels: Record<string, string> = {
   'novel-brief': '作品简报', 'story-bible': '故事主线', 'world-bible': '世界设定',
   plan: '章节计划', draft: '初稿', 'draft-humanized': '修订正文', review: '审校意见',
@@ -18,6 +19,7 @@ const labels: Record<string, string> = {
   'character-roster': '人物总览', 'volume-strategy': '分卷策略',
   'source-manifest': '来源与范围', 'fact-ledger': '事实台账',
   'payoff-ledger': '伏笔台账', 'resource-ledger': '资源台账',
+  章节计划: '章节计划', 正文初稿: '初稿', 正文修订稿: '修订正文', 审校记录: '审校意见', 上下文包: '章节上下文',
 };
 const groupLabels: Record<string, string> = {
   chapters: '章节', characters: '人物', volumes: '分卷规划', continuity: '连续性',
@@ -25,6 +27,8 @@ const groupLabels: Record<string, string> = {
   source: '来源资料', segments: '分段笔记', notes: '分段笔记', dimensions: '专项分析',
   evidence: '证据', patterns: '机制卡', 'pattern-cards': '机制卡',
   'mechanism-cards': '机制卡', sections: '专项分析',
+  章节: '章节', 人物: '人物', 分卷: '分卷规划', 连续性: '连续性',
+  创作记录: '生产与审校', 上下文: '上下文', 导出: '导出资料',
 };
 const actionLabels: Record<string, string> = {
   novel_brief: '完善作品简报', story_bible: '完善故事主线', world_bible: '完善世界设定',
@@ -52,7 +56,7 @@ export function documentGroup(relative: string): string {
 export function documentTitle(relative: string, content: string): string {
   const filename = path.posix.basename(relative, '.md');
   const label = labels[filename];
-  const chapter = /(?:^|\/)chapter-(\d+)(?:\/|\.)/.exec(relative);
+  const chapter = /(?:^|\/)chapter-(\d+)(?:\/|\.)/.exec(relative) ?? /(?:^|\/)第(\d+)章\//.exec(relative);
   if (chapter && label) return `第 ${Number(chapter[1])} 章 · ${label}`;
   // Ignore headings inside YAML frontmatter and fenced examples.
   const body = content.replace(/^\uFEFF/, '').replace(/^---\r?\n[\s\S]*?\r?\n---(?:\r?\n|$)/, '');
@@ -88,19 +92,22 @@ function object(value: unknown): Record<string, unknown> {
 }
 
 async function stateAt(root: string, kind: WorkspaceKind, warnings: string[]) {
-  for (const filename of kind === 'novel' ? ['novel-state.yaml'] : ['analysis-state.yaml', 'analysis-manifest.yaml']) {
-    try { return object(parse(await readFile(await safeFile(root, filename), 'utf8'))); }
+  for (const filename of kind === 'novel' ? novelStates : ['analysis-state.yaml', 'analysis-manifest.yaml']) {
+    try {
+      const state = object(parse(await readFile(await safeFile(root, filename), 'utf8')));
+      return { state, chineseFilenames: filename === '小说状态.yaml' };
+    }
     catch (error) {
       if ((error as NodeJS.ErrnoException).code !== 'ENOENT') warnings.push(`${filename} 无法读取，状态暂不可用。`);
     }
   }
-  return {};
+  return { state: object({}), chineseFilenames: false };
 }
 
 async function scanWorkspace(root: string, kind: WorkspaceKind): Promise<Workspace> {
   root = await realpath(root);
   const warnings: string[] = [];
-  const state = await stateAt(root, kind, warnings);
+  const { state, chineseFilenames } = await stateAt(root, kind, warnings);
   const artifactMap = new Map<string, Record<string, unknown>>();
   for (const raw of Object.values(object(state.artifacts))) {
     const artifact = object(raw);
@@ -139,7 +146,7 @@ async function scanWorkspace(root: string, kind: WorkspaceKind): Promise<Workspa
   const action = object(state.next_action);
   const title = typeof novel.title === 'string' ? novel.title : typeof analysis.title === 'string' ? analysis.title : path.basename(root);
   return {
-    id: createHash('sha256').update(root).digest('hex').slice(0, 16), title, kind, root, documents, warnings,
+    id: createHash('sha256').update(root).digest('hex').slice(0, 16), title, kind, root, documents, warnings, chineseFilenames,
     revision: createHash('sha256').update(JSON.stringify([state, documents])).digest('hex'),
     updatedAt: documents.reduce((latest, doc) => doc.updatedAt > latest ? doc.updatedAt : latest, ''),
     stage: typeof novel.current_stage === 'string' ? novel.current_stage : undefined,
@@ -164,8 +171,9 @@ export async function getCatalog(roots = configuredRoots()): Promise<Catalog> {
       const root = await realpath(input);
       const entries = await readdir(root, { withFileTypes: true });
       const names = new Set(entries.map(entry => entry.name));
-      if (names.has('novel-state.yaml') || names.has('analysis-state.yaml') || names.has('analysis-manifest.yaml') || names.has('source-manifest.md')) {
-        discovered.set(root, names.has('novel-state.yaml') ? 'novel' : 'analysis');
+      const novel = novelStates.some(name => names.has(name));
+      if (novel || names.has('analysis-state.yaml') || names.has('analysis-manifest.yaml') || names.has('source-manifest.md')) {
+        discovered.set(root, novel ? 'novel' : 'analysis');
         continue;
       }
       for (const [category, kind] of [['novels', 'novel'], ['analyses', 'analysis']] as const) {

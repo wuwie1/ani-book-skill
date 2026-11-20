@@ -20,6 +20,7 @@ from typing import Any
 import yaml
 
 import continuity_store
+from workspace_paths import book_path, uses_chinese_names
 
 
 SCHEMA_VERSION = 1
@@ -321,19 +322,19 @@ def set_universe_delegation(library: Path, enabled: bool) -> dict[str, Any]:
 
 
 def require_v3_workspace(workspace: Path) -> dict[str, Any]:
-    state_path = workspace / "novel-state.yaml"
+    state_path = book_path(workspace, "novel-state.yaml")
     if not state_path.is_file():
         raise ValueError("workspace is missing novel-state.yaml")
     state = read_yaml(state_path)
     if not isinstance(state, dict) or state.get("schema_version") != 3:
         raise ValueError("cross-book assets require schema v3; run novelctl.py migrate first")
-    if not (workspace / continuity_store.STORE_RELATIVE).is_dir():
+    if not book_path(workspace, continuity_store.STORE_RELATIVE).is_dir():
         raise ValueError("cross-book assets require continuity/data; migrate structured continuity first")
     return state
 
 
 def asset_links_path(workspace: Path) -> Path:
-    return workspace / continuity_store.STORE_RELATIVE / "asset-links.yaml"
+    return book_path(workspace, continuity_store.STORE_RELATIVE / "asset-links.yaml")
 
 
 def ensure_asset_links(workspace: Path) -> None:
@@ -367,7 +368,7 @@ def refresh_continuity_index(workspace: Path) -> None:
 def write_links(workspace: Path, links: list[dict[str, Any]]) -> None:
     require_v3_workspace(workspace)
     write_yaml(asset_links_path(workspace), links)
-    manifest_path = workspace / continuity_store.STORE_RELATIVE / "manifest.yaml"
+    manifest_path = book_path(workspace, continuity_store.STORE_RELATIVE / "manifest.yaml")
     manifest = read_yaml(manifest_path)
     if not isinstance(manifest, dict) or not isinstance(manifest.get("revision"), int):
         raise ValueError("continuity manifest is invalid")
@@ -378,7 +379,8 @@ def write_links(workspace: Path, links: list[dict[str, Any]]) -> None:
 
 
 def local_asset_path(workspace: Path, asset_id: str) -> Path:
-    return workspace / WORKSPACE_ASSETS / f"{asset_id}.yaml"
+    name = f"素材-{asset_id}.yaml" if uses_chinese_names(workspace) else f"{asset_id}.yaml"
+    return book_path(workspace, WORKSPACE_ASSETS) / name
 
 
 def workspace_relative(workspace: Path, value: str) -> Path:
@@ -396,11 +398,11 @@ def workspace_relative(workspace: Path, value: str) -> Path:
 def default_selection_path(workspace: Path, chapter: int) -> Path:
     if chapter < 1:
         raise ValueError("chapter must be positive")
-    return workspace / "context-packages" / f"chapter-{chapter:03d}.assets.yaml"
+    return book_path(workspace, f"context-packages/chapter-{chapter:03d}.assets.yaml")
 
 
 def selection_chapter(selection_path: Path) -> int:
-    matched = SELECTION_NAME.fullmatch(selection_path.name)
+    matched = SELECTION_NAME.fullmatch(selection_path.name) or re.fullmatch(r"第(\d{3,})章-素材选择\.yaml", selection_path.name)
     if not matched:
         raise ValueError("asset selection must be named context-packages/chapter-XXX.assets.yaml")
     return int(matched.group(1))
@@ -417,7 +419,7 @@ def read_selection(workspace: Path, selection_path: Path) -> dict[str, Any]:
         relative = resolved.relative_to(workspace.resolve())
     except ValueError as error:
         raise ValueError("asset selection must be inside the novel workspace") from error
-    if relative.parent.as_posix() != "context-packages":
+    if resolved.parent != book_path(workspace.resolve(), "context-packages"):
         raise ValueError("asset selection must be stored under context-packages/")
     selection_chapter(resolved)
     if not resolved.is_file():
@@ -523,7 +525,7 @@ def render_selection_context(library: Path, workspace: Path, selection_path: Pat
 def verify_candidate_source(workspace: Path, candidate_path: Path) -> dict[str, Any]:
     require_v3_workspace(workspace)
     resolved = candidate_path.resolve()
-    staging_root = (workspace / "production" / "asset-candidates").resolve()
+    staging_root = book_path(workspace, "production/asset-candidates").resolve()
     try:
         resolved.relative_to(staging_root)
     except ValueError as error:
@@ -543,12 +545,12 @@ def verify_candidate_source(workspace: Path, candidate_path: Path) -> dict[str, 
     if source_chapter is None or committed_chapter is None or source_chapter > committed_chapter:
         raise ValueError("asset candidate source chapter is not committed")
     expected_stage = f"chapter-{source_chapter:03d}"
-    if resolved.parent.name != expected_stage:
+    if resolved.parent.name != book_path(workspace, expected_stage).name:
         raise ValueError("asset candidate staging directory must match its source chapter")
     artifact = workspace_relative(workspace, str(source["artifact"]))
     expected_chapter_dir = Path("chapters") / expected_stage
     try:
-        artifact.relative_to(workspace / expected_chapter_dir)
+        artifact.relative_to(book_path(workspace, expected_chapter_dir))
     except ValueError as error:
         raise ValueError("asset candidate source artifact must belong to its source chapter") from error
     if not artifact.is_file() or sha256(artifact) != source["artifact_sha256"]:
@@ -790,8 +792,9 @@ def candidate_impact(library: Path, candidate_path: Path, workspaces: list[Path]
             for link in links if link.get("asset_id") in affected_ids
         ]
         selections: list[dict[str, Any]] = []
-        selection_root = resolved / "context-packages"
-        selection_paths = sorted(selection_root.glob("chapter-*.assets.yaml")) if selection_root.is_dir() else []
+        selection_root = book_path(resolved, "context-packages")
+        pattern = "第*章-素材选择.yaml" if uses_chinese_names(resolved) else "chapter-*.assets.yaml"
+        selection_paths = sorted(selection_root.glob(pattern)) if selection_root.is_dir() else []
         for path in selection_paths:
             value = read_yaml(path)
             chosen = value.get("assets", []) if isinstance(value, dict) else []
@@ -919,11 +922,11 @@ def build_workspace_graph(library: Path, workspace: Path) -> dict[str, Any]:
         edges.append({"id": f"EDGE-{relation['id']}", "source": f"BOOK:{relation['character_a']}", "target": f"BOOK:{relation['character_b']}", "relation": "related_to", "evidence": str(relation.get("constraints", relation["id"])), "source_refs": [relation.get("evidence", {})], "version": revision, "confidence": 1.0, "status": "active"})
     node_ids = {node["id"] for node in nodes}
     edges = [edge for edge in edges if edge["source"] in node_ids and edge["target"] in node_ids]
-    nodes_path = workspace / WORKSPACE_GRAPH / "nodes.jsonl"
-    edges_path = workspace / WORKSPACE_GRAPH / "edges.jsonl"
+    nodes_path = book_path(workspace, WORKSPACE_GRAPH / "nodes.jsonl")
+    edges_path = book_path(workspace, WORKSPACE_GRAPH / "edges.jsonl")
     write_jsonl(nodes_path, nodes)
     write_jsonl(edges_path, edges)
-    return build_sqlite(nodes, edges, workspace / WORKSPACE_INDEX)
+    return build_sqlite(nodes, edges, book_path(workspace, WORKSPACE_INDEX))
 
 
 def graph_neighbors(graph_root: Path, node: str, depth: int) -> dict[str, Any]:

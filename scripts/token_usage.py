@@ -15,6 +15,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from workspace_paths import book_path
+
 
 # CLI output can include an absolute workspace path. On Windows that path can
 # contain non-ASCII account names, so use UTF-8 even when the inherited console
@@ -109,7 +111,11 @@ def validate_record(record: dict[str, Any]) -> list[str]:
 
 
 def usage_path(workspace: Path) -> Path:
-    return workspace / "production" / "token-usage.jsonl"
+    return book_path(workspace, "production/token-usage.jsonl")
+
+
+def summary_path(workspace: Path) -> Path:
+    return book_path(workspace, "production/token-summary.json")
 
 
 def atomic_write_json(path: Path, value: Any) -> None:
@@ -158,6 +164,7 @@ def command_record(args: argparse.Namespace) -> int:
     total = args.total_tokens
     if total is None and args.input_tokens is not None and args.output_tokens is not None:
         total = args.input_tokens + args.output_tokens
+    artifact = relative_artifact(args.artifact)
     record = {
         "schema_version": SCHEMA_VERSION,
         "event_id": str(uuid.uuid4()),
@@ -170,7 +177,7 @@ def command_record(args: argparse.Namespace) -> int:
         "model": args.model,
         "run_id": args.run_id,
         "request_id": args.request_id,
-        "artifact": relative_artifact(args.artifact),
+        "artifact": book_path(workspace, artifact).relative_to(workspace).as_posix() if artifact else None,
         "input_tokens": args.input_tokens,
         "cached_input_tokens": args.cached_input_tokens,
         "output_tokens": args.output_tokens,
@@ -249,9 +256,9 @@ def command_summarize(args: argparse.Namespace) -> int:
         raise ValueError("; ".join(errors))
     summary = build_summary(records)
     if args.write:
-        summary_path = workspace / "production" / "token-summary.json"
-        atomic_write_json(summary_path, summary)
-        summary["written_to"] = str(summary_path)
+        destination = summary_path(workspace)
+        atomic_write_json(destination, summary)
+        summary["written_to"] = str(destination)
     print(json.dumps(summary, ensure_ascii=False, indent=2))
     return 0
 
