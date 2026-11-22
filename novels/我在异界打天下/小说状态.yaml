@@ -10,7 +10,7 @@ opening_choices:
   status: confirmed
   channel: 男频
   publication_format: 番茄小说；连载创作，具体发布与合同另行办理
-  primary_reader_reward: 强者反差、主动破局，个人优势转化为势力与诸天争霸
+  primary_reader_reward: 东方山海玄幻爽文。少年陆昊以灵压收服九阶龙马，从临川经营起家，将个人实力与多族势力的积累带入诸天争霸。
 director:
   mode: milestone_approval
   status: idle
@@ -26,9 +26,9 @@ artifacts:
     source: ai_generated
     protected: false
     depends_on: []
-    sha256: 7db08deb3bdfafcb2afb20846594d7951a24226439fa0ab27d71878e3c3323da
+    sha256: 3a7ec4da04b52185efc5b771174fe0d0e43f6d046a903123deda6f8b5c34cbb7
     approval: delegated
-    updated_at: '2026-11-18T03:58:31.727294+00:00'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   story_bible:
     path: 故事主线.md
     status: ready
@@ -36,9 +36,9 @@ artifacts:
     protected: false
     depends_on:
     - novel_brief
-    sha256: 367ea16b61365bab5e035f2491b64d4f5623b219815b9f7d1b07c2c5c8fd866b
+    sha256: 86bfb052b2c5be3edfe6527ba0fe03efc293b888ed3b526e3483e31430d5381a
     approval: delegated
-    updated_at: '2026-11-18T03:11:54.002103+00:00'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   world_bible:
     path: 世界设定.md
     status: ready
@@ -47,9 +47,9 @@ artifacts:
     depends_on:
     - novel_brief
     - story_bible
-    sha256: 9ca1494c5b7822feab8840573e2cd5733a93e1bc9b2f789faebb05b89689e2a7
+    sha256: 7ef2dbcf3c8f953da8b301adaebdb3e980cfbf9708d20f53b04dcc1d48bac429
     approval: not_required
-    updated_at: '2026-11-18T03:11:54.002482+00:00'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   character_roster:
     path: 人物/人物总览.md
     status: ready
@@ -63,9 +63,9 @@ artifacts:
     - character_zhou_younian
     - character_shi_changgeng
     - character_du_kui
-    sha256: f1e7da49b079f58872a063957c0981498041acf3997303dae8ade1a9f27a040d
+    sha256: 75bdd2f791eb156a3990a254dd5c5b823fd0ce00073d14062b3ae06d4aa9860f
     approval: not_required
-    updated_at: '2026-11-18T03:58:31.727294+00:00'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   volume_strategy:
     path: 分卷/分卷规划.md
     status: ready
@@ -76,9 +76,9 @@ artifacts:
     - story_bible
     - world_bible
     - character_roster
-    sha256: 89180c2525b24f3a6cb73586713f99c4374615512e8aeab8944597fac749c7f8
+    sha256: 8d938efbf880ff26702ee214cb87825194443be6d7263b694fed0593ccc3f00c
     approval: delegated
-    updated_at: '2026-11-18T03:58:31.727294+00:00'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   volume_01_skeleton:
     path: 分卷/第01卷-卷纲.md
     status: ready
@@ -87,9 +87,9 @@ artifacts:
     depends_on:
     - volume_strategy
     - character_roster
-    sha256: a13c4673a2dbdb6ce28fe3a4878fdd16f1c492c4f925b86a02b7859d93dc9068
+    sha256: 2c77e9b7010d461264fbc5752ffd40b94566b7a6478736b4f6e1b72d364ff600
     approval: not_required
-    updated_at: '2026-11-18T03:58:31.727294+00:00'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   volume_01_beat_sheet:
     path: 分卷/第01卷-节奏表.md
     status: ready
@@ -97,9 +97,9 @@ artifacts:
     protected: false
     depends_on:
     - volume_01_skeleton
-    sha256: 31cec85a0b319a514a49311a58dbabe62f262ef0db0556f077de0619b2a21675
+    sha256: 5e6e44510a1f050761c400e2567324e8daa81babd1235552b22d0e05a0b75022
     approval: not_required
-    updated_at: '2026-11-18T03:58:31.727294+00:00'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   writing_style:
     path: 写作风格.md
     status: ready
@@ -109,9 +109,9 @@ artifacts:
     - novel_brief
     - story_bible
     - reference_use
-    sha256: 148daafb58ed6cbb9c2c732391ddf3bed03d04ef5101267e59e6216a22cccf81
+    sha256: a2bcb69878bf263db265f040d78df67e4bcb55db1fe5723a2808841655e9dce6
     approval: not_required
-    updated_at: '2026-11-16T10:35:53.026600Z'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   design_package:
     path: 创作记录/设定审查.md
     status: ready
@@ -136,9 +136,9 @@ artifacts:
     - character_qi_lie
     - character_shen_lingyi
     - character_xu_wenying
-    sha256: f1d9f441f87a1aecb8cf9eedfa2ad6036fcc2f1f0afddd6558e29f58ea2d57c4
+    sha256: 77d3a3aaf19eb06fbee108f08bf1d6a06115e1de2d962861b149c417328ef25c
     approval: not_required
-    updated_at: '2026-11-18T03:58:31.727294+00:00'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   reference_use:
     path: 创作记录/参考机制使用说明.md
     status: ready
@@ -146,9 +146,9 @@ artifacts:
     protected: false
     depends_on:
     - novel_brief
-    sha256: d6c824dd7b6a7ace7874b834ff611d62bd8e1e6b2e49b7dc756be11a4eb491ae
+    sha256: 7936e1498cc5600612044f3e59d54bccc3a5990e14ecc14a8aaed266da71e327
     approval: not_required
-    updated_at: '2026-11-18T03:11:54.003779+00:00'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   world_combat:
     path: 修行与战斗.md
     status: ready
@@ -158,9 +158,9 @@ artifacts:
     - world_bible
     - volume_strategy
     - character_roster
-    sha256: 9c5b6e5d273bc6e930bce39cc5845e9c60c06be945fd54e4c23b51562bf052ca
+    sha256: 9fa1e73835701f1519f0452f230f348465176f3768445b0c5d123829d4426c5e
     approval: not_required
-    updated_at: '2026-11-18T03:58:31.727294+00:00'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   package_index:
     path: 作品导览.md
     status: ready
@@ -172,9 +172,9 @@ artifacts:
     - design_package
     - volume_01_chapter_outline
     - volume_01_outline_review
-    sha256: c1d3765dcbe5494d979adac91f96eaf462cc4036e0350e8040aa434d9bd3de6c
+    sha256: 32fe1a188e59d88ed76dc728ec45f565565ac76793739e46e85f502034ea5931
     approval: not_required
-    updated_at: '2026-11-18T03:58:31.727294+00:00'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   character_cheng_jianqiu:
     path: 人物/档案/程见秋.md
     status: ready
@@ -184,9 +184,9 @@ artifacts:
     - novel_brief
     - story_bible
     - world_bible
-    sha256: 1216aa1a56eb9b1859058546dac3e0c34076c0732cba3976772f1eb6896171ff
+    sha256: a5202c8d5b9d9199613d53817fae55bc6f97a945eb9c17d878c2f5db4a1caaa7
     approval: not_required
-    updated_at: '2026-11-16T10:35:53.026687Z'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   character_chi_heng:
     path: 人物/档案/赤衡.md
     status: ready
@@ -220,9 +220,9 @@ artifacts:
     - novel_brief
     - story_bible
     - world_bible
-    sha256: ba53f91373933296e005d5aa95ab7c70bdc3db1f3a3c0151c65635de1c3bf547
+    sha256: 3089fcd4b96716140de9e171f0844da56ede0022ad8df31a7845368c2deeeec6
     approval: not_required
-    updated_at: '2026-11-18T03:11:54.005690+00:00'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   character_lu_jingheng:
     path: 人物/档案/陆景珩.md
     status: ready
@@ -280,9 +280,9 @@ artifacts:
     - novel_brief
     - story_bible
     - world_bible
-    sha256: 419c07375661fb97266ddd0c4b4128a0b2d8b988a4d44459c596316a0d78b7a8
+    sha256: 6b0b308f45f51f7c30d6fce7e61b261baa7da9d630190f2aff3874bc7b676773
     approval: not_required
-    updated_at: '2026-11-16T10:35:53.026915Z'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   character_xu_wenying:
     path: 人物/档案/许文瑛.md
     status: ready
@@ -292,9 +292,9 @@ artifacts:
     - novel_brief
     - story_bible
     - world_bible
-    sha256: 281205b70078fac9ce93dfe812ecf9d7363914fff350d88a2050eec8d7ca16a2
+    sha256: c40a7ee1edd587824bbc6f161681243ecb15a96b81d7ec2145e0bcb88c4374d7
     approval: not_required
-    updated_at: '2026-11-16T10:35:53.026950Z'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   volume_01_chapter_outline:
     path: 分卷/第01卷-逐章细纲.md
     status: ready
@@ -326,9 +326,9 @@ artifacts:
     - opening_plan_001
     - opening_plan_002
     - opening_plan_003
-    sha256: 1b909b33fc349018b32c1c623826d25a96ff413c1990b1fa4d8188213744d0dd
+    sha256: 37a2f2662f91c4f65d4e06909c27cae3139a8d09d74c431de4a5b891f1e51273
     approval: not_required
-    updated_at: '2026-11-18T03:58:31.727294+00:00'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   character_tao_shoucheng:
     path: 人物/档案/陶守诚.md
     status: ready
@@ -338,9 +338,9 @@ artifacts:
     - novel_brief
     - story_bible
     - world_bible
-    sha256: 7c4919b60fc7f8be78f72dfe0984e2edcd8bbfb57758cd52e9a1b312f5f8982b
+    sha256: 6442f6b206cbb2340ca4276e7866316356cc8b57a9ec3f43731464e33ebf58b8
     approval: not_required
-    updated_at: '2026-11-18T03:58:31.727294+00:00'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   character_zhou_younian:
     path: 人物/档案/周有年.md
     status: ready
@@ -374,9 +374,9 @@ artifacts:
     - novel_brief
     - story_bible
     - world_bible
-    sha256: 0a5f7e47283998ab16aca3a2be273971b61db9907ca4e6a3f3807b55f28a03e9
+    sha256: b9425ad911c6996884ac10d23d6bee024802980c5ea9c308ab2fe77ad21506e4
     approval: not_required
-    updated_at: '2026-11-18T03:58:31.727294+00:00'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   volume_01_outline_review:
     path: 创作记录/第01卷-细纲审查.md
     status: ready
@@ -386,9 +386,9 @@ artifacts:
     - volume_01_chapter_outline
     - character_roster
     - writing_style
-    sha256: c2a551202015f340f9b91b6a03a0305374fadb64bfd064b2cf055e00777a1845
+    sha256: 5acddbe0c31639e753eb09257b0f7663e93cfbb88a18484eb41b2aa4c8b683d3
     approval: not_required
-    updated_at: '2026-11-18T03:58:31.727294+00:00'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   opening_window:
     path: 分卷/第01卷-开篇细纲.md
     status: ready
@@ -400,9 +400,9 @@ artifacts:
     - world_bible
     - character_roster
     - writing_style
-    sha256: 1b9ce753f8903f0a4b26f3376161d551df0d3240364893ae10fb2d1151c2ac51
+    sha256: d296bde70019ca6e52ef8b37d97dfff40225fd9653be0c25e9a5c07ddce0a61a
     approval: delegated
-    updated_at: '2026-11-18T03:58:31.727294+00:00'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   opening_plan_001:
     path: 章节/第001章/章节计划.md
     status: ready
@@ -413,9 +413,9 @@ artifacts:
     - writing_style
     - world_bible
     - character_roster
-    sha256: 7eca0313151d341a4f4da12f3e20f5ce73ee853e538c416c178bc65b67aab147
+    sha256: 20278d0fd78ffd433e74926e2a6ec15d353d3340b4ee4c9930bd82a6b36c8bf9
     approval: delegated
-    updated_at: '2026-11-16T10:35:53.027459Z'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   opening_plan_002:
     path: 章节/第002章/章节计划.md
     status: ready
@@ -426,9 +426,9 @@ artifacts:
     - writing_style
     - world_bible
     - character_roster
-    sha256: 7b343f70766ef59a5dc3e9ed89f22e6511796c99019dd5db912bae9e2498a950
+    sha256: 3eaaddab692cf8d7b8ba5e734d0ed4cadeb17d792d283f940df7c5ddf1d8a1c7
     approval: delegated
-    updated_at: '2026-11-18T03:11:54.008792+00:00'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   opening_plan_003:
     path: 章节/第003章/章节计划.md
     status: ready
@@ -439,9 +439,9 @@ artifacts:
     - writing_style
     - world_bible
     - character_roster
-    sha256: 2a01f5766bde602a3c4749c4839afee083a3f05f8b45b5cc0ddca7494ac7a540
+    sha256: 5809bbc2c94a026da33a3c461c45c615aa2d8e7dab578ceeea6d583e059aa209
     approval: delegated
-    updated_at: '2026-11-18T03:58:31.727294+00:00'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   opening_context_001:
     path: 章节/第001章/上下文包.md
     status: ready
@@ -452,9 +452,9 @@ artifacts:
     - writing_style
     - world_bible
     - character_roster
-    sha256: ea9547cfb8f8d13f5a3132aaacdbb4b4835552367f7052c62072103c8e82d4b8
+    sha256: 07ff95695db879905dce37faa3f5bbd48c7077befa55e2e0e375826c0e939265
     approval: delegated
-    updated_at: '2026-11-18T03:58:31.727294+00:00'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   assistant_opening_transfer:
     path: 创作记录/写作助手开篇配置-第2版.json
     status: ready
@@ -463,12 +463,12 @@ artifacts:
     depends_on:
     - opening_window
     - writing_style
-    sha256: 5a0372a1aed6171d5816f04d29204b7db1af46e6279ad708e8592b0f0b0665ab
+    sha256: 6195bb1636c7b6d7ce9e84d81914e0abd9ba1df6bd36bda9db1d483e3dbc6e0e
     approval: delegated
-    updated_at: '2026-11-16T10:35:53.027602Z'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   opening_draft_001:
     path: 章节/第001章/正文初稿.md
-    status: ready
+    status: stale
     source: imported
     protected: false
     depends_on:
@@ -477,10 +477,10 @@ artifacts:
     - writing_style
     sha256: ec59f6d4aa12896ba8dc45d5a5c013c7ffff36c8fd56e73b91479fc1a791976e
     approval: not_required
-    updated_at: '2026-11-16T10:48:14.806966Z'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   opening_revision_001:
     path: 章节/第001章/正文修订稿.md
-    status: ready
+    status: stale
     source: ai_generated
     protected: false
     depends_on:
@@ -489,10 +489,10 @@ artifacts:
     - writing_style
     sha256: 4dac466ba264cb9eeab4d81f5abdc918311d9d32c1dad18e341f6e5cce410601
     approval: not_required
-    updated_at: '2026-11-16T10:48:14.808064Z'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   opening_review_001:
     path: 章节/第001章/审校记录.md
-    status: ready
+    status: stale
     source: ai_generated
     protected: false
     depends_on:
@@ -502,10 +502,10 @@ artifacts:
     - writing_style
     sha256: 7c57ede852b19f90aae382b2340f478e67bcc281f4d1bfd7644056310b84c0ff
     approval: not_required
-    updated_at: '2026-11-16T10:48:14.808265Z'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   opening_repair_report:
     path: 创作记录/开篇修订报告.md
-    status: ready
+    status: stale
     source: ai_generated
     protected: false
     depends_on:
@@ -514,7 +514,7 @@ artifacts:
     - opening_review_001
     sha256: 75c0a6e81b593535818a8edc61e5d4e37cbe7e72e11126013134ab77d679c196
     approval: not_required
-    updated_at: '2026-11-16T11:33:39.908563+00:00'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   system_trial_initial_001:
     path: 章节/第001章/系统初稿.md
     status: ready
@@ -540,7 +540,7 @@ artifacts:
     updated_at: '2026-11-16T11:33:39.908563+00:00'
   system_trial_report:
     path: 创作记录/系统试写报告.md
-    status: ready
+    status: stale
     source: ai_generated
     protected: false
     depends_on:
@@ -549,7 +549,7 @@ artifacts:
     - assistant_opening_transfer
     sha256: 4b02ac6906ea8219b0428fe67f4bd623a6ef113d70835207adfbac3385dc3581
     approval: not_required
-    updated_at: '2026-11-16T11:33:39.908563+00:00'
+    updated_at: '2026-11-22T09:50:12.697109Z'
   system_trial_20261117_probe_initial:
     path: 创作记录/系统试写-2026-11-17/第1次诊断/第001章-首次模型稿.txt
     status: ready
@@ -596,7 +596,7 @@ artifacts:
     updated_at: '2026-11-17T01:47:16.140489+00:00'
   system_trial_20261117_report:
     path: 创作记录/系统试写报告-2026-11-17.md
-    status: ready
+    status: stale
     source: ai_generated
     protected: false
     depends_on:
@@ -605,7 +605,7 @@ artifacts:
     - assistant_opening_transfer
     sha256: 5cbbda907dc56e93fd6cb1b5c21d8f9ba74dbf5dddcf1344caac39ff13d688d6
     approval: not_required
-    updated_at: '2026-11-17T01:47:16.140489+00:00'
+    updated_at: '2026-11-22T09:50:12.697109Z'
 continuity:
   baseline_chapter: null
   last_committed_chapter: null
@@ -616,11 +616,9 @@ usage:
   summary_path: 创作记录/用量汇总.json
   exact_tokens: 287638
   estimated_tokens: 0
-  unavailable_events: 16
+  unavailable_events: 17
 next_action:
-  type: select_trial_plan
-  target: chapter_001_plan
-  reason: 第 1 章已有试写计划《章节/第001章/章节计划.md》。正式生产前选用此版或另拟计划。
-  requires_approval: true
-  candidate: opening_plan_001
-  path: 章节/第001章/章节计划.md
+  type: refresh_artifact
+  target: opening_draft_001
+  reason: 首个 stale 产物：opening_draft_001
+  requires_approval: false
