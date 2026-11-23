@@ -1,9 +1,0 @@
-{
-  "approvedGoalRetainedAfterFinalization": true,
-  "approvedGoalInPlanner": true,
-  "oldSummaryNotInPlanner": true,
-  "oldSourceNotInPlanner": true,
-  "conflictingRuleNotInPlanner": true,
-  "chapterTwoThreeUnchanged": true,
-  "oldAndProbeSnapshotsVerified": true
-}

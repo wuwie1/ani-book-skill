@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1520" height="1020" viewBox="0 0 1520 1020" role="img" aria-labelledby="title desc">
+  <title id="title">七港泊位与隐城水脉</title>
+  <desc id="desc">作者拟绘的两幅独立详图。上图从朔河下游读向海面，标明七港以及羽民听风屿。下图标明受控井道、分水室、居民汲水池和通往地底旧城的高廊，地表井址待定。</desc>
+  <defs>
+    <style>
+      text{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;fill:#263e39}
+      .song{font-family:"Songti SC",STSong,"Noto Serif CJK SC",serif;font-weight:700}
+      .harbor{font-family:"Songti SC",STSong,"Noto Serif CJK SC",serif;font-size:28px;font-weight:700}
+      .caption{font-size:18px;fill:#51665d}
+      .sub{font-size:19px;font-weight:600}
+      .pale{fill:#f8f1dd}
+      .dim{fill:#c0d0bf;font-size:18px}
+    </style>
+    <pattern id="waves" width="83" height="26" patternUnits="userSpaceOnUse"><path d="M6 15q8-5 16 0t16 0m19-6q5-3 11 0" stroke="#7aa99a" fill="none" opacity=".65"/></pattern>
+    <pattern id="rock" width="89" height="51" patternUnits="userSpaceOnUse"><path d="m1 31 18-8 11 3 17-9m-1 21 28-14m-60 20 17-8" stroke="#547169" fill="none" opacity=".47"/></pattern>
+    <g id="port"><circle r="7" fill="#fff4d5" stroke="#8c5c40" stroke-width="3"/><circle r="2" fill="#8c5c40"/></g>
+    <g id="isle"><path d="M-47 6q12-6 22-5l13-15 9 9 11-19 17 19 17 7-12 5h-69Z" fill="#c0c198" stroke="#638574" stroke-width="2"/><path d="m9-23 5 18m-26-9 2 7" fill="none" stroke="#698374"/></g>
+  </defs>
+  <rect width="1520" height="1020" fill="#f5f0e2"/>
+  <rect x="23" y="23" width="1474" height="974" fill="none" stroke="#b2a58a"/>
+  <text x="66" y="69" font-size="18" letter-spacing="3" style="fill:#805a45">我在异界打天下　／　武元大陆舆图</text>
+  <text x="63" y="127" class="song" font-size="52">七港泊位与隐城水脉</text>
+  <text x="1451" y="118" class="caption" text-anchor="end">作者拟绘　·　卷五、卷六</text>
+  <path d="M66 151h1388" stroke="#b2a58a"/>
+  <text x="66" y="197" class="song" font-size="30">七港泊位图</text>
+  <text x="1452" y="194" text-anchor="end" class="caption">左起为朔河下游，右至外海</text>
+  <!-- Inshore channel broadens into the estuary. Its outward route branches from the repair dock. -->
+  <defs><path id="sea" d="M66 302C195 299 282 325 388 320S572 298 666 300s108-34 155-25 77 32 132 4 87-15 143-36 103-14 138-21h219v275h-288c-114 0-158-28-226-36s-111-29-163-45-122-17-201-29-128-27-215-29-171-22-294-14Z"/></defs>
+  <use href="#sea" fill="#c3ddd0" stroke="#79a296" stroke-width="2"/>
+  <use href="#sea" fill="url(#waves)"/>
+  <g fill="none" stroke="#9a7754" stroke-width="1.6"><path d="M225 270v40m240-40v46m235-48v29m259-25v8M290 349v64m229-45v47m268-19v51"/></g>
+  <use href="#port" x="225" y="310"/><use href="#port" x="465" y="316"/><use href="#port" x="700" y="297"/><use href="#port" x="959" y="280"/>
+  <use href="#port" x="290" y="349"/><use href="#port" x="519" y="368"/><use href="#port" x="787" y="396"/>
+  <g text-anchor="middle">
+    <text x="225" y="238" class="harbor">芦秤埠</text><text x="225" y="263" class="caption">河船过秤</text>
+    <text x="465" y="238" class="harbor">双桅泊</text><text x="465" y="263" class="caption">拼货换班</text>
+    <text x="700" y="238" class="harbor">白蛎湾</text><text x="700" y="263" class="caption">浅船候潮</text>
+    <text x="959" y="238" class="harbor">背风澳</text><text x="959" y="263" class="caption">风暴避泊</text>
+    <text x="290" y="448" class="harbor">石廒港</text><text x="290" y="476" class="caption">粮船卸仓</text>
+    <text x="519" y="448" class="harbor">青瓮浦</text><text x="519" y="476" class="caption">淡水装船</text>
+    <text x="787" y="474" class="harbor">潮生坞</text><text x="787" y="500" class="caption">修船换舵</text>
+  </g>
+  <path d="M800 393Q886 374 902 348T958 289" stroke="#3c7467" stroke-width="3" stroke-dasharray="9 7" fill="none"/>
+  <path d="M800 397Q940 429 1079 392t155-29" stroke="#9d623f" stroke-width="3" stroke-dasharray="2 9" stroke-linecap="round" fill="none"/>
+  <use href="#isle" x="1275" y="356"/>
+  <path d="M1280 336v-31m0 1 17 3-17 6" fill="#9e603e" stroke="#79543c" stroke-width="2"/>
+  <text x="1276" y="398" text-anchor="middle" class="harbor">听风屿</text>
+  <text x="1276" y="428" text-anchor="middle" class="caption">羽民测风、候领航人</text>
+  <path d="M79 539h60" stroke="#3c7467" stroke-width="3" stroke-dasharray="9 7"/>
+  <text x="151" y="546" class="caption">近岸旧路 · 可进背风澳</text>
+  <path d="M488 539h60" stroke="#9d623f" stroke-width="3" stroke-dasharray="2 9" stroke-linecap="round"/>
+  <text x="562" y="546" class="caption">外礁候选线 · 经听风屿，须另约领航与返程</text>
+  <text x="1453" y="546" text-anchor="end" class="caption">岛屿在七港之外</text>
+  <rect x="66" y="584" width="1388" height="343" rx="3" fill="#293f3f"/>
+  <rect x="66" y="584" width="1388" height="343" rx="3" fill="url(#rock)"/>
+  <text x="91" y="632" class="song pale" font-size="30">隐城井道剖面</text>
+  <text x="1420" y="630" class="dim" text-anchor="end">另取地下尺度　·　地表井址待勘</text>
+  <path d="M92 687q80-13 148-6t161 1 178 3" stroke="#99a38c" stroke-width="3" fill="none"/>
+  <path d="M255 686v104l102 9 112-33 131 5 127-30 150 5 134-17h183" stroke="#dcc7a0" stroke-width="6" fill="none" stroke-linejoin="round"/>
+  <path d="M468 767l51 63" stroke="#dcc7a0" stroke-width="4" fill="none"/>
+  <path d="M235 672h42m-35 0 5-16h16l6 16" fill="none" stroke="#dcc7a0" stroke-width="3"/>
+  <path d="M112 856q84-30 169-11t160 0 109-10 188 31 197-7 122 4" stroke="#7cbab1" stroke-width="7" fill="none"/>
+  <path d="M517 836q98-32 178-18t140 11" stroke="#7cbab1" stroke-width="4" fill="none"/>
+  <ellipse cx="870" cy="831" rx="38" ry="9" fill="#79b9ad"/>
+  <g fill="#293f3f" stroke="#e5cfac" stroke-width="3"><circle cx="255" cy="790" r="7"/><circle cx="519" cy="830" r="7"/><circle cx="730" cy="741" r="7"/><circle cx="1191" cy="729" r="7"/></g>
+  <text x="303" y="663" class="pale sub">受控井口</text><text x="290" y="743" class="dim">验灯、系绳</text>
+  <text x="532" y="811" class="pale sub">分水室</text><text x="858" y="808" class="dim" text-anchor="middle">居民汲水池</text>
+  <text x="736" y="714" class="pale sub" text-anchor="middle">高廊</text>
+  <text x="1191" y="706" class="song pale" font-size="28" text-anchor="middle">地底旧城</text>
+  <text x="1191" y="775" class="dim" text-anchor="middle">高台住区与档案库</text>
+  <path d="M98 897h53m260 0h53" stroke="#dcc7a0" stroke-width="5"/><path d="M411 897h53" stroke="#7cbab1" stroke-width="6"/>
+  <text x="164" y="904" class="dim">人行道与返井路线</text><text x="479" y="904" class="dim">地下水脉</text>
+  <text x="1418" y="904" class="dim" text-anchor="end">墨鼠修复分水室后，各井镇见证开库。</text>
+  <text x="66" y="964" class="caption">七港、羽民岛聚、受控井道与旧城见作品设定。各泊位名称、井下支路与外礁走向为本版拟绘。</text>
+</svg>

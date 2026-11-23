@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 920" role="img" aria-labelledby="title desc">
+  <title id="title">朔河州行程与武元界内外</title>
+  <desc id="desc">上图为首卷行程示意。靖原城至南渡仓约一时辰。由南渡仓顺水至回澜渡约半日，走陆路至石梁哨一日。下图分列同界地底、地表与海疆，以及界外诸天的准入条件。</desc>
+  <defs>
+    <pattern id="waves" width="55" height="15" patternUnits="userSpaceOnUse"><path d="M3 8q7 -4 15 0t15 0" fill="none" stroke="#90b7ae" stroke-width="1"/></pattern>
+    <pattern id="ridges" width="54" height="27" patternUnits="userSpaceOnUse"><path d="m1 24 11-14 8 10 9-15 16 19m-18-16 3 12" fill="none" stroke="#b8ab8b" stroke-width="1.2"/></pattern>
+    <symbol id="city" viewBox="-20 -20 40 40"><path d="M-16 13V-7h4v4h5v-4h5v4h4v-4h5v4h5v-4h4v20H5V5H-5v8Z" fill="currentColor"/><path d="M-19 15h38" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="boat" viewBox="-24 -20 48 40"><path d="M-20 8h40l-7 7h-25Z" fill="currentColor"/><path d="M0 8v-25L-14 3h12m7-17L17 4H5" fill="currentColor"/></symbol>
+    <symbol id="post" viewBox="-20 -20 40 40"><path d="M-13 15h26M-10 14l2-21H8l2 21M-14-7h28L0-16Z" fill="none" stroke="currentColor" stroke-width="3"/><path d="M-3 13V4h6v9Z" fill="currentColor"/></symbol>
+    <style>
+      text{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;fill:#263e39}
+      .song{font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;font-weight:700}
+      .note{font-size:19px;fill:#51645b}
+      .node{font-size:33px}
+      .tag{font-size:21px;font-weight:600}
+      .fine{font-size:18px;fill:#58665c}
+    </style>
+  </defs>
+  <rect width="1440" height="920" fill="#f6f1e4"/>
+  <rect x="18" y="18" width="1404" height="884" rx="2" fill="none" stroke="#ac9f82"/>
+  <path d="M58 134h1324M58 576h1324M58 835h1324" stroke="#b7ac94"/>
+  <text x="66" y="65" font-size="18" fill="#81543d" letter-spacing="4">我在异界打天下　／　世界地图附图</text>
+  <text x="64" y="116" class="song" font-size="47">朔河州行程与武元界内外</text>
+  <text x="1374" y="108" text-anchor="end" class="note">作者用图　·　开篇时点</text>
+  <text x="66" y="182" class="song" font-size="31">南渡仓分路</text>
+  <text x="1374" y="179" text-anchor="end" class="note">线段表示行程，长度和朝向仅供排图</text>
+  <!-- The land road and the river split at the same depot. -->
+  <path d="M572 383C690 380 704 345 802 369S944 439 1046 430s156-25 233 6" fill="none" stroke="#dbe7da" stroke-width="57" stroke-linecap="round"/>
+  <path d="M572 383C690 380 704 345 802 369S944 439 1046 430s156-25 233 6" fill="none" stroke="url(#waves)" stroke-width="53" stroke-linecap="round"/>
+  <path d="M161 377C323 377 408 350 572 383M572 383C672 370 703 295 799 283S990 263 1065 261" fill="none" stroke="#8a664c" stroke-width="4.5" stroke-dasharray="10 7" stroke-linecap="round"/>
+  <path d="M584 383C690 380 704 345 802 369S944 439 1054 430" fill="none" stroke="#287874" stroke-width="4.5"/>
+  <path d="m684 377 14-7-15-1m145 11 15 1-10-11m146 59 15-4-12-5" fill="#287874"/>
+  <path d="M1163 284c43-58 110-98 183-60v61Z" fill="url(#ridges)" opacity=".8"/>
+  <g transform="translate(161 377)"><circle r="33" fill="#f6f1e4" stroke="#775644" stroke-width="2.5"/><use href="#city" x="-21" y="-21" width="42" height="42" color="#775644"/></g>
+  <g transform="translate(572 383)"><circle r="32" fill="#f6f1e4" stroke="#385e55" stroke-width="2.5"/><use href="#boat" x="-21" y="-21" width="42" height="42" color="#385e55"/></g>
+  <g transform="translate(1065 261)"><circle r="29" fill="#f6f1e4" stroke="#775644" stroke-width="2.5"/><use href="#post" x="-18" y="-18" width="36" height="36" color="#775644"/></g>
+  <g transform="translate(1065 430)"><circle r="29" fill="#f6f1e4" stroke="#287874" stroke-width="2.5"/><use href="#boat" x="-19" y="-19" width="38" height="38" color="#287874"/></g>
+  <text x="161" y="308" text-anchor="middle" class="song node">靖原城</text>
+  <text x="161" y="338" text-anchor="middle" class="fine">淮北王府驻地</text>
+  <text x="572" y="458" text-anchor="middle" class="song node">南渡仓</text>
+  <text x="572" y="489" text-anchor="middle" class="fine">凭单在此交接，水陆在此分路</text>
+  <text x="365" y="343" text-anchor="middle" class="tag">约一时辰</text>
+  <text x="841" y="249" text-anchor="middle" class="tag" style="fill:#775644">陆路一日</text>
+  <text x="803" y="442" text-anchor="middle" class="tag" style="fill:#226b67">顺水约半日</text>
+  <text x="1118" y="255" class="song node">石梁哨</text>
+  <text x="1118" y="318" class="fine">换灯、夜巡、担架过弯</text>
+  <text x="1118" y="410" class="song node">回澜渡</text>
+  <text x="1118" y="483" class="fine">货船靠泊，船工换手</text>
+  <rect x="66" y="521" width="6" height="28" fill="#997952"/>
+  <text x="88" y="543" class="note">卷末的小渡场另有其地。陆昊交出钥匙后才领临川试治令，小渡场与临川旧渡分记。</text>
+  <text x="66" y="626" class="song" font-size="31">从井道到界海</text>
+  <text x="1374" y="623" text-anchor="end" class="note">按空间归属分列</text>
+  <path d="M487 662v139m465-139v139" stroke="#c8bda5"/>
+  <g transform="translate(66 675)">
+    <text class="tag" style="fill:#846343">武元界内　／　深层地底</text>
+    <text y="42" class="song" font-size="29">受控井道 → 地底旧城</text>
+    <text y="80" class="note">井道有自己的水脉与岔路。</text>
+    <text y="110" class="note">入井前要能照明、换气和返程。</text>
+  </g>
+  <g transform="translate(519 675)">
+    <text class="tag" style="fill:#226b67">武元界内　／　地表海疆</text>
+    <text y="42" class="song" font-size="29">朔河下游 → 七港 → 海疆</text>
+    <text y="80" class="note">七港可整船、补水、候潮。</text>
+    <text y="110" class="note">岛上羽民、水下海国、龙族水府各有主人。</text>
+  </g>
+  <g transform="translate(980 675)">
+    <text class="tag" style="fill:#735c76">武元界外　／　界海与诸界</text>
+    <text y="42" class="song" font-size="29">邻界洞天与玄穹天庭</text>
+    <text y="80" class="note">通天渡须核对坐标、备齐两端阵基，</text>
+    <text y="110" class="note">等供能足够且界潮窗口稳定才能通行。</text>
+  </g>
+  <text x="66" y="873" class="fine">图据《世界设定》《第01卷-卷纲》《第01卷-逐章细纲》及《分卷规划》。</text>
+  <text x="1374" y="873" text-anchor="end" class="fine">朔河州　·　行程附记</text>
+</svg>

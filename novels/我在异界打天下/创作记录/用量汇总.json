@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T09:50:12.700761Z",
+  "generated_at": "2026-11-23T11:11:54.898215Z",
   "totals": {
-    "events": 49,
-    "succeeded": 46,
+    "events": 51,
+    "succeeded": 48,
     "failed": 0,
     "partial": 3,
     "exact_events": 32,
     "exact_tokens": 287638,
     "estimated_events": 0,
     "estimated_tokens": 0,
-    "unavailable_events": 17
+    "unavailable_events": 19
   },
   "by_step": {
     "assistant_system_trial.chapter_acceptance": {
@@ -310,6 +310,28 @@
       "estimated_tokens": 0,
       "unavailable_events": 2
     },
+    "novel.story_consistency_review": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
+    },
+    "novel.story_replan": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
+    },
     "novel.timeline_extraction": {
       "events": 1,
       "succeeded": 1,
@@ -423,15 +445,15 @@
       "unavailable_events": 0
     },
     "unknown": {
-      "events": 14,
-      "succeeded": 13,
+      "events": 16,
+      "succeeded": 15,
       "failed": 0,
       "partial": 1,
       "exact_events": 0,
       "exact_tokens": 0,
       "estimated_events": 0,
       "estimated_tokens": 0,
-      "unavailable_events": 14
+      "unavailable_events": 16
     }
   }
 }
