@@ -1,5 +1,11 @@
 # Repository Guidance
 
+## 对话约定
+
+- “web 系统”指本地项目 `/Users/likai/go/src/write/assistant`。
+- “服务器服务”指该项目通过 `make ssh_server` 连接的远端 Web 和 API 服务。SSH 地址为 `root@152.136.155.200`，服务部署目录为 `/data/write/AI-Novel-Writing-Assistant`。
+- 部署及重启参考该项目的 `make server_update`。排查问题时，可在远端部署目录查看 `logs/server.log` 和 `logs/nginx-error.log`。
+
 ## Product Boundary
 
 - Keep this repository a Codex-native Skill project. Codex is the only creative generation and judgment engine; do not add model-provider SDKs, a web API, a database authority, or a custom agent runtime.
