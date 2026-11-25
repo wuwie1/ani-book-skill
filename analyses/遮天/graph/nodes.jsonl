@@ -1,0 +1,44 @@
+{"id": "C-YE-FAN", "type": "character", "label": "叶凡", "confidence": "high", "source_refs": ["segment-011", "segment-116", "segment-326", "segment-613", "segment-623"], "aliases": ["古风", "叶天帝", "荒古圣体"]}
+{"id": "C-PANG-BO", "type": "character", "label": "庞博", "confidence": "high", "source_refs": ["segment-011", "segment-264", "segment-335", "segment-475"]}
+{"id": "C-WU-QING-FENG", "type": "character", "label": "吴清风", "confidence": "high", "source_refs": ["segment-011", "segment-012", "segment-036", "segment-616"]}
+{"id": "C-YE-TONG", "type": "character", "label": "叶瞳", "confidence": "high", "source_refs": ["segment-254", "segment-256", "segment-510", "segment-511", "segment-556", "segment-620"], "aliases": ["曈曈", "曈曈（幼名）"]}
+{"id": "C-JIANG-TAI-XU", "type": "character", "label": "姜太虚", "confidence": "high", "source_refs": ["segment-065", "segment-133", "segment-135", "segment-138", "segment-142", "segment-547"], "aliases": ["太虚神王", "绝代神王"]}
+{"id": "C-CAI-YUN", "type": "character", "label": "彩云仙子", "confidence": "high", "source_refs": ["segment-135", "segment-136"], "aliases": ["彩云"]}
+{"id": "C-JIANG-TING-TING", "type": "character", "label": "姜婷婷", "confidence": "high", "source_refs": ["segment-025", "segment-121", "segment-122", "segment-467", "segment-620"], "aliases": ["小婷婷", "婷婷"]}
+{"id": "C-JI-ZI-YUE", "type": "character", "label": "姬紫月", "confidence": "high", "source_refs": ["segment-040", "segment-051", "segment-238", "segment-535", "segment-605"], "aliases": ["紫月"]}
+{"id": "C-XU-QIONG", "type": "character", "label": "许琼", "confidence": "high", "source_refs": ["segment-326", "segment-354"]}
+{"id": "C-YE-PARENTS", "type": "character", "label": "叶凡的父母", "confidence": "high", "source_refs": ["segment-022", "segment-325", "segment-326"], "aliases": ["叶凡父母", "两老", "二老"]}
+{"id": "C-HEI-HUANG", "type": "character", "label": "黑皇", "confidence": "high", "source_refs": ["segment-120", "segment-142", "segment-537", "segment-623"], "aliases": ["大黑狗", "小黑"]}
+{"id": "C-YANG-XI", "type": "character", "label": "杨熙", "confidence": "high", "source_refs": ["segment-456", "segment-457", "segment-556"]}
+{"id": "C-XIAO-SONG", "type": "character", "label": "小松", "confidence": "high", "source_refs": ["segment-327", "segment-354", "segment-355", "segment-622", "segment-623"], "aliases": ["紫色松鼠"]}
+{"id": "C-HEN-REN", "type": "character", "label": "狠人大帝", "confidence": "high", "source_refs": ["segment-623"], "aliases": ["女帝"]}
+{"id": "C-WU-SHI", "type": "character", "label": "无始大帝", "confidence": "high", "source_refs": ["segment-537", "segment-582", "segment-583", "segment-623"], "aliases": ["无始"]}
+{"id": "C-DUAN-DE", "type": "character", "label": "段德", "confidence": "high", "source_refs": ["segment-616", "segment-623"], "aliases": ["冥皇", "曹雨生"], "attributes": {"scope": "渡劫天尊曹雨生、冥皇与段德同肉身而元神有别。"}}
+{"id": "C-DI-ZUN", "type": "character", "label": "帝尊", "confidence": "high", "source_refs": ["segment-602", "segment-623"]}
+{"id": "C-AN-MIAO-YI", "type": "character", "label": "安妙依", "confidence": "high", "source_refs": ["segment-272", "segment-518", "segment-583"]}
+{"id": "C-KOU-XIAO-XIAO", "type": "character", "label": "寇晓晓", "confidence": "high", "source_refs": ["segment-620", "segment-623"]}
+{"id": "ITEM-LONG-COFFIN", "type": "artifact", "label": "九龙拉棺", "confidence": "high", "source_refs": ["segment-001", "segment-002", "segment-006", "segment-007", "segment-623"], "aliases": ["青铜巨棺", "青铜古棺"]}
+{"id": "ITEM-COFFIN-WORLD", "type": "world", "label": "内棺小世界", "confidence": "high", "source_refs": ["segment-623"], "aliases": ["棺中小世界", "补仙域小世界"]}
+{"id": "ITEM-YE-DING", "type": "artifact", "label": "万物母气鼎", "confidence": "high", "source_refs": ["segment-041", "segment-054", "segment-439", "segment-479", "segment-623"], "aliases": ["母气鼎", "叶凡的鼎"]}
+{"id": "ITEM-IMMORTAL-DING", "type": "artifact", "label": "成仙鼎", "confidence": "high", "source_refs": ["segment-602", "segment-605"], "aliases": ["帝尊绿鼎", "绿鼎"]}
+{"id": "ITEM-WU-SHI-BELL", "type": "artifact", "label": "无始钟", "confidence": "high", "source_refs": ["segment-066", "segment-279", "segment-537", "segment-582", "segment-583"]}
+{"id": "ITEM-DOU", "type": "technique", "label": "斗字秘", "confidence": "high", "source_refs": ["segment-065", "segment-066", "segment-121", "segment-133"], "aliases": ["斗战圣法", "斗战圣诀"]}
+{"id": "ITEM-DRAGON-MEDICINE", "type": "resource", "label": "真龙神药", "confidence": "high", "source_refs": ["segment-125", "segment-133", "segment-134", "segment-256"], "aliases": ["龙药"]}
+{"id": "ITEM-HUADAO-FLOWER", "type": "resource", "label": "合道花", "confidence": "high", "source_refs": ["segment-622", "segment-623"]}
+{"id": "ITEM-GOD-SOURCE", "type": "resource", "label": "神源", "confidence": "high", "source_refs": ["segment-119", "segment-120", "segment-121", "segment-623"]}
+{"id": "ITEM-FAIRY-INSTRUMENT", "type": "artifact", "label": "仙玲珑", "confidence": "high", "source_refs": ["segment-119", "segment-620", "segment-623"]}
+{"id": "SITE-EARTH", "type": "place", "label": "地球", "confidence": "high", "source_refs": ["segment-002", "segment-325", "segment-326", "segment-335", "segment-355"], "aliases": ["故乡"]}
+{"id": "SITE-BEI-DOU", "type": "place", "label": "北斗", "confidence": "high", "source_refs": ["segment-007", "segment-264", "segment-355", "segment-542"], "aliases": ["北斗生命星", "葬帝星"]}
+{"id": "SITE-ZI-SHAN", "type": "place", "label": "紫山", "confidence": "high", "source_refs": ["segment-065", "segment-066", "segment-116", "segment-132", "segment-537"]}
+{"id": "SITE-HUA-LONG-POOL", "type": "place", "label": "化龙池", "confidence": "high", "source_refs": ["segment-133", "segment-134", "segment-135"]}
+{"id": "SITE-DRAGON-NEST", "type": "place", "label": "万龙巢", "confidence": "high", "source_refs": ["segment-124", "segment-125"]}
+{"id": "SITE-OTHER-WORLD", "type": "world", "label": "奇异世界", "confidence": "high", "source_refs": ["segment-623"], "aliases": ["无始所处世界"]}
+{"id": "SITE-IMMORTAL-REALM", "type": "world", "label": "仙域", "confidence": "high", "source_refs": ["segment-605", "segment-623"], "aliases": ["真正的仙域"]}
+{"id": "EVENT-FOUR-POLES", "type": "event", "label": "圣体突破四极", "confidence": "high", "source_refs": ["segment-138", "segment-141", "segment-142", "segment-145"], "aliases": ["四极断路", "四极劫", "先天道图"]}
+{"id": "EVENT-BEI-DOU-ROAD", "type": "event", "label": "北斗成仙路开启与失败", "confidence": "high", "source_refs": ["segment-542"], "aliases": ["北斗仙路", "佛国尝试"]}
+{"id": "EVENT-FEI-XIAN-ROAD", "type": "event", "label": "飞仙星成仙路", "confidence": "high", "source_refs": ["segment-605"], "aliases": ["飞仙星仙门"]}
+{"id": "EVENT-OPEN-GATE", "type": "event", "label": "天庭举众过门", "confidence": "high", "source_refs": ["segment-623"], "aliases": ["四仙开门", "暮年天兵出源"]}
+{"id": "ORG-TIAN-TING", "type": "organization", "label": "天庭", "confidence": "high", "source_refs": ["segment-412", "segment-416", "segment-591", "segment-605", "segment-623"], "aliases": ["叶凡的天庭"], "attributes": {"scope": "此节点只指叶凡所统领的天庭。"}}
+{"id": "PROM-HOME", "type": "promise", "label": "赶在父母仍在时回家", "confidence": "high", "source_refs": ["segment-022", "segment-264", "segment-325", "segment-326"], "aliases": ["归乡愿", "返乡承诺"]}
+{"id": "PROM-MIAO-YI", "type": "promise", "label": "来世要认出安妙依", "confidence": "high", "source_refs": ["segment-518", "segment-583", "segment-620", "segment-623"], "aliases": ["妙依来世之约"]}
+{"id": "ITEM-WU-SHI-BELL-SPIRIT", "type": "character", "label": "无始钟钟魂", "aliases": ["钟魂", "钟内神祇"], "confidence": "high", "source_refs": ["segment-537", "segment-583"]}

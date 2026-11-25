@@ -1,0 +1,122 @@
+schema_version: 1
+analysis:
+  title: 遮天
+  profile: standard
+  status: complete
+core_model:
+  status: ready
+  reader_promise: 看叶凡从需要他人护道走到能为众人开路，古史与岁月不断检验他究竟能带谁同行。
+  subject_matter_or_fantasy: 凡人追索古史、突破圣体断路，最终获得为他人开路的能力。
+  psychological_progression: 目击惊异、亲历验证、受人护持、承担风险、兑现同行
+  relationship_structure: 叶凡、甘愿为他付代价的人、后来要由他保护的人；同伴有各自的意愿和寿命。
+  gates_and_costs:
+  - 信息与见证
+  - 天地规则与道伤
+  - 寿命与失约
+  - 同伴能否同行
+source:
+  kind: local_file
+  ref: /Users/likai/go/src/write/ani-book-skill/novels/遮天.txt
+  snapshot: source/遮天.txt
+  fingerprint: sha256:02c930de1e948c06e4225dea5b6b7d5f7404c00f77f81ef818e3460a531fa908
+  scope: 用户确认全文逐段拆，含附文的来源类型核对。
+  coverage: full
+  read_scope: 第 001–623 段，Unicode [0,7344433)，从首行到 L160948；含附文的 6,391,330 个非空白字符。
+  remaining_scope: 无。书中去向未明者另见 uncertainty-ledger.md。
+artifacts:
+  overall_review:
+    path: book-analysis-review.md
+    status: ready
+  overview:
+    path: sections/overview.md
+    status: ready
+  plot_structure:
+    path: sections/plot-structure.md
+    status: ready
+  timeline:
+    path: sections/timeline.md
+    status: ready
+  character_system:
+    path: sections/character-system.md
+    status: ready
+  worldbuilding:
+    path: sections/worldbuilding.md
+    status: ready
+  themes:
+    path: sections/themes.md
+    status: ready
+  style_technique:
+    path: sections/style-technique.md
+    status: ready
+  market_highlights:
+    path: sections/market-highlights.md
+    status: ready
+  evidence:
+    path: evidence-ledger.md
+    status: ready
+  unresolved:
+    path: uncertainty-ledger.md
+    status: ready
+  patterns:
+    path: pattern-cards.md
+    status: ready
+  foreshadowing:
+    path: promise-final-audit.md
+    status: ready
+  coverage:
+    path: coverage-map.md
+    status: ready
+  batches:
+    path: batch-plan.md
+    status: ready
+  source_review:
+    path: source-quality-review.md
+    status: ready
+  graph_nodes:
+    path: graph/nodes.jsonl
+    status: ready
+  graph_edges:
+    path: graph/edges.jsonl
+    status: ready
+  retrieval:
+    path: retrieval/analysis-index.sqlite3
+    status: ready
+  production_usage:
+    path: production/token-usage-review.md
+    status: ready
+character_sync:
+  status: 'off'
+  targets: []
+analysis_lens:
+  path: analysis-lens.md
+  status: ready
+confirmation:
+  date: '2026-11-24'
+  scope_and_lens: 按推荐方向，全文逐段拆
+  character_handling: 人物进入关系总表
+progress:
+  planned_segments: 623
+  planned_batches: 63
+  completed_segments: 623
+  completed_batches: 63
+  formal_non_whitespace_chars: 6391330
+  last_segment: segment-623
+  last_batch: A63
+  completed_stages: 13
+  topic_sections: 8
+  catalog_units: 1835
+  semantic_union_non_whitespace_chars: 6391330
+next_action:
+  type: review_completed_analysis
+  target: book-analysis-review.md
+execution_request:
+  owner: Codex 主会话
+  delegated_model: gpt-6.2-sol
+  subagents: 3
+  authority: 用户确认使用 Codex 子代理
+  phase: completed_analysis
+final_review:
+  status: ready
+  path: book-analysis-review.md
+  validation: final-validation.json
+  review_policy: 供用户整体审核

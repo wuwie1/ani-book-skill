@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-24T09:39:50.266873Z",
+  "totals": {
+    "events": 265,
+    "succeeded": 263,
+    "failed": 2,
+    "partial": 0,
+    "exact_events": 0,
+    "exact_tokens": 0,
+    "estimated_events": 0,
+    "estimated_tokens": 0,
+    "unavailable_events": 265
+  },
+  "by_step": {
+    "analysis.analysis_evidence": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
+    },
+    "analysis.analysis_graph": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
+    },
+    "analysis.analysis_lens": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
+    },
+    "analysis.analysis_promise_audit": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
+    },
+    "analysis.analysis_review": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
+    },
+    "analysis.analysis_segment_notes": {
+      "events": 258,
+      "succeeded": 256,
+      "failed": 2,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 258
+    },
+    "analysis.analysis_uncertainty": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
+    },
+    "analysis.pattern_cards": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
+    }
+  },
+  "by_model": {
+    "gpt-6.2-sol": {
+      "events": 233,
+      "succeeded": 231,
+      "failed": 2,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 233
+    },
+    "unknown": {
+      "events": 32,
+      "succeeded": 32,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 32
+    }
+  }
+}

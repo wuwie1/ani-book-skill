@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "validated_at": "2026-11-24T09:42:32.332744+00:00",
+  "scope": "本地全文与其拆书工作区；机器验证坐标、引用、导航和检索，各项文学判断留有回读证据。",
+  "source": {
+    "original_matches_snapshot": true,
+    "snapshot_read_only": true,
+    "sha256": "02c930de1e948c06e4225dea5b6b7d5f7404c00f77f81ef818e3460a531fa908",
+    "bytes": 20058431,
+    "unicode_chars": 7344433,
+    "non_whitespace_chars": 6391330,
+    "lines": 160948,
+    "offsets": "Unicode, original newlines, [start,end)",
+    "unit_kinds": {
+      "front_matter": 1,
+      "numbered_heading": 1821,
+      "author_notice": 10,
+      "unnumbered_text": 1,
+      "afterword": 1,
+      "footer": 1
+    },
+    "catalog_units": 1835
+  },
+  "coverage": {
+    "range": [
+      0,
+      7344433
+    ],
+    "contiguous": true,
+    "segmented_notes": 623,
+    "narrative_unit_rows": 1822,
+    "non_narrative_units_accounted_for": 13,
+    "completed_batches": 63,
+    "stage_reviews": 13,
+    "topic_sections": 8,
+    "every_heading_matches_source": true,
+    "every_note_lists_its_chapter_locations": true,
+    "preview_windows": 8,
+    "preview_spans": 16,
+    "preview_non_whitespace_chars": 12694,
+    "preview_overlap_counted_once": true
+  },
+  "evidence": {
+    "defined_claims": 640,
+    "segment_claims": 623,
+    "cross_segment_claims": 17,
+    "unresolved_claim_references": [],
+    "important_promises": 18,
+    "writing_patterns": 8,
+    "uncertainty_records": 11
+  },
+  "navigation": {
+    "markdown_files_checked": 720,
+    "local_link_occurrences_checked": 5469,
+    "broken_links": [],
+    "all_623_notes_listed_in_order": true
+  },
+  "retrieval": {
+    "integrity": "ok",
+    "foreign_keys": "ok",
+    "source_files_indexed": 0,
+    "distinct_indexed_markdown_files": 649,
+    "chunks": 1973,
+    "indexed_notes": 623,
+    "indexed_sections": 21,
+    "nodes": 44,
+    "edges": 60,
+    "unresolved_graph_endpoints": [],
+    "unresolved_graph_evidence": [],
+    "probes": [
+      "第935章＋叶凡＋许琼 → segment-326",
+      "庞博 → 叶凡 → 叶瞳",
+      "九龙拉棺 → 内棺小世界 → 仙域"
+    ]
+  },
+  "production": {
+    "ledger_records": 265,
+    "precise_or_estimated_token_usage_available": false,
+    "usage_full_host_call_history_available": false,
+    "retry_entries_in_local_ledger": 2,
+    "repository_unit_tests": 83,
+    "unit_tests_passed": true
+  },
+  "review": {
+    "analysis_state": "complete",
+    "worker_reading": "001–056 主会话；其余由三位 Codex 子代理分段完成。",
+    "human_approval": "供用户审核"
+  }
+}

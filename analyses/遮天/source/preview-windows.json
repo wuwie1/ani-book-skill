@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "source_sha256": "02c930de1e948c06e4225dea5b6b7d5f7404c00f77f81ef818e3460a531fa908",
+  "decoding": "utf-8-sig",
+  "offset_unit": "unicode_character",
+  "end_exclusive": true,
+  "line_numbers": "1-based inclusive",
+  "newline": "original (CRLF)",
+  "scope": "evidence_cited_in_lens_only",
+  "windows": [
+    {
+      "id": "P01",
+      "topic": "地球两次目击",
+      "spans": [
+        {
+          "unit": 1,
+          "title": "第一章 星空中的青铜巨棺",
+          "line_start": 8,
+          "line_end": 66,
+          "start": 236,
+          "end": 2627,
+          "non_whitespace_chars": 2044
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "topic": "从乘客到听见棺音",
+      "spans": [
+        {
+          "unit": 8,
+          "title": "第八章 星空古路",
+          "line_start": 393,
+          "line_end": 403,
+          "start": 18046,
+          "end": 18487,
+          "non_whitespace_chars": 378
+        },
+        {
+          "unit": 8,
+          "title": "第八章 星空古路",
+          "line_start": 456,
+          "line_end": 469,
+          "start": 20878,
+          "end": 21604,
+          "non_whitespace_chars": 646
+        },
+        {
+          "unit": 25,
+          "title": "第二十五章 神音如钟",
+          "line_start": 1517,
+          "line_end": 1528,
+          "start": 75999,
+          "end": 76599,
+          "non_whitespace_chars": 528
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "topic": "神王醒来的代价",
+      "spans": [
+        {
+          "unit": 390,
+          "title": "第三百九十二章 姜太虚复生",
+          "line_start": 33012,
+          "line_end": 33026,
+          "start": 1574492,
+          "end": 1575101,
+          "non_whitespace_chars": 519
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "topic": "公开冲关与迟到的诊断",
+      "spans": [
+        {
+          "unit": 412,
+          "title": "第四百一十二章 逆天接续断路",
+          "line_start": 35060,
+          "line_end": 35073,
+          "start": 1656695,
+          "end": 1657285,
+          "non_whitespace_chars": 509
+        },
+        {
+          "unit": 412,
+          "title": "第四百一十二章 逆天接续断路",
+          "line_start": 35172,
+          "line_end": 35191,
+          "start": 1660998,
+          "end": 1661700,
+          "non_whitespace_chars": 582
+        },
+        {
+          "unit": 420,
+          "title": "第四百二十章 终未逆天",
+          "line_start": 35974,
+          "line_end": 36001,
+          "start": 1693361,
+          "end": 1694544,
+          "non_whitespace_chars": 1015
+        }
+      ]
+    },
+    {
+      "id": "P05",
+      "topic": "许琼告知父母去世",
+      "spans": [
+        {
+          "unit": 946,
+          "title": "第九百三十五章 无法承受的结局",
+          "line_start": 85083,
+          "line_end": 85102,
+          "start": 3855033,
+          "end": 3855972,
+          "non_whitespace_chars": 819
+        },
+        {
+          "unit": 947,
+          "title": "第九百三十六章 转世成空",
+          "line_start": 85104,
+          "line_end": 85118,
+          "start": 3855974,
+          "end": 3856683,
+          "non_whitespace_chars": 622
+        }
+      ]
+    },
+    {
+      "id": "P06",
+      "topic": "动乱中的选择",
+      "spans": [
+        {
+          "unit": 1597,
+          "title": "第一千五百八十七章 黑暗动乱",
+          "line_start": 140327,
+          "line_end": 140345,
+          "start": 6409848,
+          "end": 6410736,
+          "non_whitespace_chars": 777
+        },
+        {
+          "unit": 1607,
+          "title": "第一千五百九十七章 应尽的力",
+          "line_start": 141231,
+          "line_end": 141253,
+          "start": 6453148,
+          "end": 6454258,
+          "non_whitespace_chars": 972
+        },
+        {
+          "unit": 1608,
+          "title": "第一千五百九十八章 圣体",
+          "line_start": 141255,
+          "line_end": 141269,
+          "start": 6454260,
+          "end": 6455019,
+          "non_whitespace_chars": 672
+        }
+      ]
+    },
+    {
+      "id": "P07",
+      "topic": "铜棺再开",
+      "spans": [
+        {
+          "unit": 1831,
+          "title": "第一千八百二十一章 九龙拉棺",
+          "line_start": 160678,
+          "line_end": 160701,
+          "start": 7333013,
+          "end": 7334004,
+          "non_whitespace_chars": 847
+        }
+      ]
+    },
+    {
+      "id": "P08",
+      "topic": "唤醒旧部与合力开门",
+      "spans": [
+        {
+          "unit": 1832,
+          "title": "第一千八百二十二章 遮天大结局",
+          "line_start": 160754,
+          "line_end": 160773,
+          "start": 7336320,
+          "end": 7337339,
+          "non_whitespace_chars": 902
+        },
+        {
+          "unit": 1832,
+          "title": "第一千八百二十二章 遮天大结局",
+          "line_start": 160899,
+          "line_end": 160925,
+          "start": 7342417,
+          "end": 7343441,
+          "non_whitespace_chars": 862
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{"id": "EDGE-001", "source": "C-PANG-BO", "relation": "为其争取随行求学", "target": "C-YE-FAN", "confidence": "high", "evidence": ["CLAIM-0011"], "attributes": {"scope": "庞博以自身去留争取带叶凡，叶凡选择以客人身份入洞天"}}
+{"id": "EDGE-002", "source": "C-WU-QING-FENG", "relation": "给玉牌准其旁听", "target": "C-YE-FAN", "confidence": "high", "evidence": ["CLAIM-0012"], "attributes": {"scope": "牌由吴清风所给"}}
+{"id": "EDGE-003", "source": "C-YE-FAN", "relation": "赠神泉", "target": "C-WU-QING-FENG", "confidence": "high", "evidence": ["CLAIM-0036"]}
+{"id": "EDGE-004", "source": "C-YE-FAN", "relation": "收徒并教轮海", "target": "C-YE-TONG", "confidence": "high", "evidence": ["CLAIM-0256"], "attributes": {"scope": "孩子先主动求学，再获调养和授字"}}
+{"id": "EDGE-005", "source": "C-YE-FAN", "relation": "接过追杀与营救", "target": "C-YE-TONG", "confidence": "high", "evidence": ["CLAIM-0510", "CLAIM-0511"], "attributes": {"scope": "先以性命时限决定救援次序"}}
+{"id": "EDGE-006", "source": "C-YE-TONG", "relation": "代师迎战", "target": "C-YE-FAN", "confidence": "high", "evidence": ["CLAIM-0556"], "attributes": {"scope": "与杨熙、花花分别接住对手"}}
+{"id": "EDGE-007", "source": "C-YE-FAN", "relation": "助返祖后裔踏入修行", "target": "C-YANG-XI", "confidence": "high", "evidence": ["CLAIM-0456", "CLAIM-0457"], "attributes": {"scope": "先听孩子说为何要修炼，再用小源阵助其自开苦海。"}}
+{"id": "EDGE-008", "source": "C-YANG-XI", "relation": "自请代师战霸王", "target": "C-YE-FAN", "confidence": "high", "evidence": ["CLAIM-0556"]}
+{"id": "EDGE-009", "source": "C-JIANG-TAI-XU", "relation": "在紫山隔壁传法", "target": "C-YE-FAN", "confidence": "high", "evidence": ["CLAIM-0065", "CLAIM-0066"]}
+{"id": "EDGE-010", "source": "SITE-ZI-SHAN", "relation": "曾困住", "target": "C-JIANG-TAI-XU", "confidence": "high", "evidence": ["CLAIM-0065", "CLAIM-0121", "CLAIM-0132"]}
+{"id": "EDGE-011", "source": "C-JIANG-TAI-XU", "relation": "传下", "target": "ITEM-DOU", "confidence": "high", "evidence": ["CLAIM-0065", "CLAIM-0066"]}
+{"id": "EDGE-012", "source": "C-YE-FAN", "relation": "递图与传法印记求援", "target": "C-JIANG-TAI-XU", "confidence": "high", "evidence": ["CLAIM-0121"], "attributes": {"scope": "雇五人分别送信，最终救出须由诸方合攻"}}
+{"id": "EDGE-013", "source": "ITEM-DRAGON-MEDICINE", "relation": "取出部分药性于", "target": "SITE-DRAGON-NEST", "confidence": "high", "evidence": ["CLAIM-0125"], "attributes": {"scope": "只得龙珠与九滴液，主株遁去"}}
+{"id": "EDGE-014", "source": "C-YE-FAN", "relation": "递泉和药还传法恩", "target": "C-JIANG-TAI-XU", "confidence": "high", "evidence": ["CLAIM-0133", "CLAIM-0134"]}
+{"id": "EDGE-015", "source": "ITEM-DRAGON-MEDICINE", "relation": "投入救治", "target": "SITE-HUA-LONG-POOL", "confidence": "high", "evidence": ["CLAIM-0133", "CLAIM-0134"]}
+{"id": "EDGE-016", "source": "C-CAI-YUN", "relation": "以末寿争取复苏时间", "target": "C-JIANG-TAI-XU", "confidence": "high", "evidence": ["CLAIM-0135"]}
+{"id": "EDGE-017", "source": "C-JIANG-TAI-XU", "relation": "仅复容颜未复神魂", "target": "C-CAI-YUN", "confidence": "high", "evidence": ["CLAIM-0136"]}
+{"id": "EDGE-018", "source": "C-JIANG-TAI-XU", "relation": "以心血接续断路", "target": "EVENT-FOUR-POLES", "confidence": "high", "evidence": ["CLAIM-0138", "CLAIM-0142"], "attributes": {"scope": "四极、道图去除和本源伤痊愈分开"}}
+{"id": "EDGE-019", "source": "EVENT-FOUR-POLES", "relation": "仍留本源伤于", "target": "C-YE-FAN", "confidence": "high", "evidence": ["CLAIM-0142", "CLAIM-0145"]}
+{"id": "EDGE-020", "source": "C-JIANG-TING-TING", "relation": "亲抄四极卷赠予", "target": "C-YE-FAN", "confidence": "high", "evidence": ["CLAIM-0122"], "attributes": {"scope": "叶凡记下即焚纸"}}
+{"id": "EDGE-021", "source": "C-YE-FAN", "relation": "以源养护并教祭器", "target": "C-JIANG-TING-TING", "confidence": "high", "evidence": ["CLAIM-0122"]}
+{"id": "EDGE-022", "source": "C-JI-ZI-YUE", "relation": "传大虚空术救命", "target": "C-YE-FAN", "confidence": "high", "evidence": ["CLAIM-0051"]}
+{"id": "EDGE-023", "source": "C-XU-QIONG", "relation": "接来照料", "target": "C-YE-PARENTS", "confidence": "high", "evidence": ["CLAIM-0326"]}
+{"id": "EDGE-024", "source": "C-XU-QIONG", "relation": "引见父母最后住处", "target": "C-YE-FAN", "confidence": "high", "evidence": ["CLAIM-0326"]}
+{"id": "EDGE-025", "source": "C-YE-FAN", "relation": "立下", "target": "PROM-HOME", "confidence": "high", "evidence": ["CLAIM-0022"]}
+{"id": "EDGE-026", "source": "PROM-HOME", "relation": "抵达地球", "target": "SITE-EARTH", "confidence": "high", "evidence": ["CLAIM-0325", "CLAIM-0326"], "attributes": {"scope": "地点兑现，照护愿望落空"}}
+{"id": "EDGE-027", "source": "PROM-HOME", "relation": "未赶上", "target": "C-YE-PARENTS", "confidence": "high", "evidence": ["CLAIM-0326"], "attributes": {"scope": "叶凡返乡时二老已于三年前相继过世"}}
+{"id": "EDGE-028", "source": "C-PANG-BO", "relation": "用分路保留回乡机会", "target": "PROM-HOME", "confidence": "high", "evidence": ["CLAIM-0264"], "attributes": {"scope": "争取至少一人活下照顾两家的父母"}}
+{"id": "EDGE-029", "source": "ITEM-LONG-COFFIN", "relation": "运同学抵达", "target": "SITE-BEI-DOU", "confidence": "high", "evidence": ["CLAIM-0002", "CLAIM-0007"]}
+{"id": "EDGE-030", "source": "ITEM-LONG-COFFIN", "relation": "出发自", "target": "SITE-EARTH", "confidence": "high", "evidence": ["CLAIM-0001", "CLAIM-0002"], "attributes": {"scope": "此边只记当代由泰山出发"}}
+{"id": "EDGE-031", "source": "ITEM-LONG-COFFIN", "relation": "内棺含有", "target": "ITEM-COFFIN-WORLD", "confidence": "high", "evidence": ["CLAIM-0623"]}
+{"id": "EDGE-032", "source": "ITEM-COFFIN-WORLD", "relation": "古人预备用以修补", "target": "SITE-IMMORTAL-REALM", "confidence": "high", "evidence": ["CLAIM-0623"], "attributes": {"scope": "用途被确认，修补工程未在结局完成"}}
+{"id": "EDGE-033", "source": "C-HEN-REN", "relation": "参与打开内棺确认用途", "target": "ITEM-COFFIN-WORLD", "confidence": "high", "evidence": ["CLAIM-0623"]}
+{"id": "EDGE-034", "source": "C-HEN-REN", "relation": "藏入内棺", "target": "ITEM-HUADAO-FLOWER", "confidence": "high", "evidence": ["CLAIM-0623"]}
+{"id": "EDGE-035", "source": "ITEM-HUADAO-FLOWER", "relation": "助其恢复", "target": "C-XIAO-SONG", "confidence": "high", "evidence": ["CLAIM-0622", "CLAIM-0623"], "attributes": {"scope": "先靠真灵与药血恢复幼形，再得花复归"}}
+{"id": "EDGE-036", "source": "C-YE-FAN", "relation": "收为弟子", "target": "C-XIAO-SONG", "confidence": "high", "evidence": ["CLAIM-0327"]}
+{"id": "EDGE-037", "source": "C-XIAO-SONG", "relation": "在首次离地时留下", "target": "SITE-EARTH", "confidence": "high", "evidence": ["CLAIM-0354", "CLAIM-0355"]}
+{"id": "EDGE-038", "source": "C-HEI-HUANG", "relation": "追寻遗影", "target": "C-WU-SHI", "confidence": "high", "evidence": ["CLAIM-0537"], "attributes": {"scope": "旧影可以唤名，不能将黑皇带走"}}
+{"id": "EDGE-039", "source": "ITEM-WU-SHI-BELL", "relation": "以器灵显现", "target": "ITEM-WU-SHI-BELL-SPIRIT", "confidence": "high", "evidence": ["CLAIM-0537", "CLAIM-0583"], "attributes": {"scope": "器灵的行为不能当成无始本人到场。"}}
+{"id": "EDGE-040", "source": "C-WU-SHI", "relation": "最终亲身交战于", "target": "SITE-OTHER-WORLD", "confidence": "high", "evidence": ["CLAIM-0623"]}
+{"id": "EDGE-041", "source": "SITE-OTHER-WORLD", "relation": "众人随后另开真门前往", "target": "SITE-IMMORTAL-REALM", "confidence": "high", "evidence": ["CLAIM-0623"], "attributes": {"scope": "是举众通过的前一站，亦有不死物质，与内棺小世界各有用处"}}
+{"id": "EDGE-042", "source": "C-DUAN-DE", "relation": "九印合一守住人界并参与开门", "target": "EVENT-OPEN-GATE", "confidence": "high", "evidence": ["CLAIM-0623"]}
+{"id": "EDGE-043", "source": "C-HEN-REN", "relation": "守第一条通道断点并参与开真门", "target": "EVENT-OPEN-GATE", "confidence": "high", "evidence": ["CLAIM-0623"]}
+{"id": "EDGE-044", "source": "C-WU-SHI", "relation": "与另三位红尘仙开真门", "target": "EVENT-OPEN-GATE", "confidence": "high", "evidence": ["CLAIM-0623"]}
+{"id": "EDGE-045", "source": "EVENT-OPEN-GATE", "relation": "护送暮年天兵", "target": "SITE-IMMORTAL-REALM", "confidence": "high", "evidence": ["CLAIM-0623"]}
+{"id": "EDGE-046", "source": "EVENT-OPEN-GATE", "relation": "先经", "target": "SITE-OTHER-WORLD", "confidence": "high", "evidence": ["CLAIM-0623"]}
+{"id": "EDGE-047", "source": "ITEM-GOD-SOURCE", "relation": "封存暮年天兵至", "target": "EVENT-OPEN-GATE", "confidence": "high", "evidence": ["CLAIM-0623"]}
+{"id": "EDGE-048", "source": "ORG-TIAN-TING", "relation": "撤出旧址保住后辈", "target": "SITE-BEI-DOU", "confidence": "high", "evidence": ["CLAIM-0412", "CLAIM-0416"], "attributes": {"scope": "此处指北斗天之村，原小世界焚毁，后另开村界"}}
+{"id": "EDGE-049", "source": "C-YE-FAN", "relation": "自炼并与之共渡", "target": "ITEM-YE-DING", "confidence": "high", "evidence": ["CLAIM-0041", "CLAIM-0054", "CLAIM-0439", "CLAIM-0479", "CLAIM-0623"]}
+{"id": "EDGE-050", "source": "C-DI-ZUN", "relation": "旧阵促鼎重铸", "target": "ITEM-IMMORTAL-DING", "confidence": "high", "evidence": ["CLAIM-0602"]}
+{"id": "EDGE-051", "source": "C-DI-ZUN", "relation": "企图把它一并炼化", "target": "SITE-OTHER-WORLD", "confidence": "high", "evidence": ["CLAIM-0623"]}
+{"id": "EDGE-052", "source": "EVENT-BEI-DOU-ROAD", "relation": "发生于", "target": "SITE-BEI-DOU", "confidence": "high", "evidence": ["CLAIM-0542"], "attributes": {"scope": "此番至尊闯关及举佛国均未能通过"}}
+{"id": "EDGE-053", "source": "EVENT-FEI-XIAN-ROAD", "relation": "送母女先至", "target": "SITE-IMMORTAL-REALM", "confidence": "high", "evidence": ["CLAIM-0605"]}
+{"id": "EDGE-054", "source": "C-JI-ZI-YUE", "relation": "与女儿先过", "target": "EVENT-FEI-XIAN-ROAD", "confidence": "high", "evidence": ["CLAIM-0605"]}
+{"id": "EDGE-055", "source": "C-YE-FAN", "relation": "念及其承诺而留下", "target": "ORG-TIAN-TING", "confidence": "high", "evidence": ["CLAIM-0605"]}
+{"id": "EDGE-056", "source": "C-AN-MIAO-YI", "relation": "留下嘱托", "target": "PROM-MIAO-YI", "confidence": "high", "evidence": ["CLAIM-0583"]}
+{"id": "EDGE-057", "source": "PROM-MIAO-YI", "relation": "在相似者身上获得回声", "target": "C-KOU-XIAO-XIAO", "confidence": "medium", "evidence": ["CLAIM-0620", "CLAIM-0623"], "attributes": {"scope": "未确认与安妙依为同一元神"}}
+{"id": "EDGE-058", "source": "C-YE-FAN", "relation": "赠给寇晓晓", "target": "ITEM-FAIRY-INSTRUMENT", "confidence": "high", "evidence": ["CLAIM-0620"]}
+{"id": "EDGE-059", "source": "C-KOU-XIAO-XIAO", "relation": "末章持有", "target": "ITEM-FAIRY-INSTRUMENT", "confidence": "high", "evidence": ["CLAIM-0623"]}
+{"id": "EDGE-060", "source": "ITEM-WU-SHI-BELL", "relation": "在紫山发声", "target": "SITE-ZI-SHAN", "confidence": "high", "evidence": ["CLAIM-0066", "CLAIM-0279"]}
