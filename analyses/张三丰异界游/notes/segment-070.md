@@ -1,6 +1,6 @@
 # segment-070｜亡国者用组织残余求公道，替天行道成为新承诺而非已成结果
 
-<!-- retrieval-meta: {"chapter_start":232,"chapter_end":234,"dimensions":["plot","character","worldbuilding"],"characters":["张三丰","丽芙倪","爱莲娜","罗纳多"]} -->
+<!-- retrieval-meta: {"chapter_start":231,"chapter_end":233,"dimensions":["plot","character","worldbuilding"],"characters":["张三丰","丽芙倪","爱莲娜","罗纳多"]} -->
 
 ordinal232–234；原231《亡国公主》—233《夜闯豪宅》；[702734,711961)，8598非空字符；707234分显示完整章末，停在罗纳多与爱莲娜重逢/主角入屋，尚未父女安排结果。
 

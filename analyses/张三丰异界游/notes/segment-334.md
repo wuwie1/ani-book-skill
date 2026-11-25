@@ -1,5 +1,7 @@
 # segment-334｜师祖旧缘与卧底实绩促正式结盟，母神底牌推翻轻易全灭预期
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧","圣天使"],"chapter_start":768,"chapter_end":769} -->
+
 ## 来源
 
 ordinal777–778，原768《结盟泰坦》、769《神圣天使》；[3341795,3350156)，7947非空。raw.decode4400＋3961连续完整至主角提多位面反抗可人海对神圣；母神最终同意尚未读。继续并行异界外交线。

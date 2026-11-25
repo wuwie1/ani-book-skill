@@ -1,5 +1,5 @@
 # segment-008｜撤到安全处、让出行动权与复仇收束
-<!-- retrieval-meta: {"chapter_start": 1400, "chapter_end": 1403, "dimensions": ["style", "character", "cliffhanger", "progression"]} -->
+<!-- retrieval-meta: {"chapter_start":1400,"chapter_end":1403,"dimensions":["style","character","cliffhanger","progression"],"characters":["林七夜","安卿鱼","王晴","霍去病","唐雨生","月槐"]} -->
 
 状态：ready；B03正式样本B03-W02。原第1400–1403章，catalog ordinal 1399–1402，[3463307,3472756)，8109非空字符；各章完整读至末尾。固定快照SHA-256：7657e4a174a1a8e6382e739ce3b4c4464cd486d9e9419371bce10d46cc10a9bc。
 

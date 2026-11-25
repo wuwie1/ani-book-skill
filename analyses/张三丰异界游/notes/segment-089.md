@@ -1,6 +1,6 @@
 # segment-089｜量身简法兑现险胜，主角以平民受害启动离间的重大反例
 
-<!-- retrieval-meta: {"chapter_start":281,"chapter_end":282,"dimensions":["plot","progression","character"],"characters":["张三丰","龙啸天","桥卡什","天杀","西思尔","卡特二王子"]} -->
+<!-- retrieval-meta: {"chapter_start":280,"chapter_end":281,"dimensions":["plot","progression","character"],"characters":["张三丰","龙啸天","桥卡什","天杀","西思尔","卡特二王子"]} -->
 
 ordinal281–282；原280《鬼魅剑圣》—281《惊险一战》；[893277,903954)，10203非空字符。897877、902477三显示完整，末第二场卡特先报马赫、汉人选未定/未打。
 

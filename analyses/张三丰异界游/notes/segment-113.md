@@ -1,6 +1,6 @@
 # segment-113｜信息隐藏与共同防御搭便车，兽人空运协同打破卫城
 
-<!-- retrieval-meta: {"chapter_start":329,"chapter_end":330,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","祖母","枭袅","烈焰比蒙","罗福德","力提纱","海伦"]} -->
+<!-- retrieval-meta: {"chapter_start":327,"chapter_end":328,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","祖母","枭袅","烈焰比蒙","罗福德","力提纱","海伦"]} -->
 
 ordinal329–330；原327《兽人之怒》—328《兽人报复》；[1148515,1159005)，9888非空字符。1148515/1153115/1157715三显示完整，末四座外围卫城被毁/主角分析仍无后续防御新措施。
 

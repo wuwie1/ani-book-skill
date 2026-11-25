@@ -1,5 +1,7 @@
 # segment-249｜把有限出手机会排成连续反击
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["西亚"],"chapter_start":597,"chapter_end":598} -->
+
 - 来源：固定快照ordinal604–605，原597《各显奇某》、598《阴人的公主》。Unicode[2531629,2540005)，8046非空字符。两次连续显示全段至西亚原定炮灰耗八成魔力、预备队尚未出动的章末。
 - 仅本段连续证据，B透镜；人物卡off。数字与前章不一致处保留口径，不另造精确统计。
 

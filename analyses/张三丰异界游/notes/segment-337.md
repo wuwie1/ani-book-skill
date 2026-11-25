@@ -1,5 +1,7 @@
 # segment-337｜地图拆空间设施引军，围而不攻先清补给，招降回报与毁城矛盾实显
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰"],"chapter_start":774,"chapter_end":775} -->
+
 ## 来源
 
 ordinal783–784，原774《彻底翻脸》、775《清空神界》；[3367197,3375733)，8102非空。raw.decode4400＋4136连续完整至二指挥研究为何空间不能逃、最后战将来；尚未正式决战击杀。

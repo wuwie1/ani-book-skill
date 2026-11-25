@@ -1,5 +1,7 @@
 # segment-270｜训练收益与信心损伤同账，盟使不是可随意误导的陌生人
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧"],"chapter_start":639,"chapter_end":640} -->
+
 - 固定快照ordinal646–647；原639《出现情敌》、640《可糗大拉》。[2732316,2741831)，9053非空字符；三次连续显示完整至主角拟进一步敲诈的章末。B透镜，角色卡off。
 
 ## 对练与装备兑现

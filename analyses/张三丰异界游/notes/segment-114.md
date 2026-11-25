@@ -1,6 +1,6 @@
 # segment-114｜堡垒腐败压低防御时窗，谈判使联军利益公开分裂
 
-<!-- retrieval-meta: {"chapter_start":331,"chapter_end":332,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","七公主","祖母","烈焰比蒙","琉廊雾师","欧阳若兰"]} -->
+<!-- retrieval-meta: {"chapter_start":329,"chapter_end":330,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","七公主","祖母","烈焰比蒙","琉廊雾师","欧阳若兰"]} -->
 
 ordinal331–332；原329《比蒙巨兽》—330《兽人条件》；[1159005,1170489)，10930非空字符。1159005/1163605/1168205三显示完整，末七公主向主角询旧避难承诺，回应尚未读。
 

@@ -1,9 +1,7 @@
-# 抽样分析完成后的恢复点
+# 《我在精神病院学斩神》阅读与复核入口
 
-2026-11-12：用户已接受B01，并明确授权原GPT-6.1 Sol(priority) Agent连续完成B02–B04及抽样综合。四批12窗、56个章级来源单元、125812唯一非空来源字符；正式notes覆盖等于唯一已读，无游离定位窗。coverage保持sampled，analysis.status=complete仅指批准抽样任务完成，不代表全文。
+首轮正式写法分析有 4 批、12 窗、56 个章级单元，共 125,812 个非空字符，均有对应笔记。2026-11-24 又为核对后段结论查阅 7 处摘段，共 3,822 个非空字符。原先的首批验收及另外三批的完成记录仍按各自的阅读范围理解。[总评](book-analysis-review.md) · [实际覆盖与余下范围](coverage-map.md)
 
-唯一下一步：review_completed_analysis → book-analysis-review.md，等待父Agent统一汇总给用户。不得自动进入新书设计、迁移合同或继续扩读。人物卡字符串off；Skill/原文快照/应用代码/数据库未改。
+按章或人物查单段用[抽样目录](sample-plan.md)。按写法查结论用[证据账本](evidence-ledger.md)和[未决清单](uncertainty-ledger.md)。对号回原文时以[正式样本与补证登记](sampling-register.yaml)为准，它记录样本号、原章号、目录序号、字符区间和行号。整书候选分区另有编号。
 
-恢复先读state、book-analysis-review、透镜、sample-plan及coverage；追问用notes/CLAIM/图谱/全文检索定位，不重读整本。42条CLAIM、7张抽象方法候选、12份notes和两个跨阶段小节已保存。B01小节历史保留。局部前情与终页未写出的内容见uncertainty-ledger，不补成事实。
-
-每次重建索引前均将已有派生SQLite改名保存并核对尺寸；默认索引只含分析产物，不含source原文。token usage宿主未提供则保留unavailable/runtime_usage_not_exposed，模型gpt-6.1-sol；不以字数推算账单。最终验证结果附在book-analysis-review文末。
+校验状态、当前检索与已保留的索引版本见[机器复核结果](final-validation.json)。首轮阅读的模型与本次复核的模型分别登记在[工作区状态](analysis-state.yaml)。

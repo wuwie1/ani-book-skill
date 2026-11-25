@@ -1,5 +1,7 @@
 # segment-314｜技术互换形成军工规模，减产协议与劳动力转移并行
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰"],"chapter_start":728,"chapter_end":729} -->
+
 ## 来源与边界
 
 ordinal737–738，原728《平静的发展》、729《大发战争财》；[3168704,3178128)，9030非空。以raw.decode('utf-8-sig')偏移完整阅读，保留CRLF；末尾蓝卡离去，拍卖约在下月，尚未成交。恢复时误用普通文本读取产生换行归一化偏移的临时显示不计覆盖；本笔记按原始解码范围核对。

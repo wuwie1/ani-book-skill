@@ -1,5 +1,7 @@
 # segment-285｜口头位面赔偿不等于到手，高森兑现与巴存活后揭
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","耶哈德"],"chapter_start":669,"chapter_end":670} -->
+
 ## 来源
 
 [2882491,2893024)，9911非空；目录ordinal676–677，原669《意外之喜》、670《赤子之心》。三个连续显示完整到梅勒否认地狱间接通路、主角发怒的章末。未预读后续答案。

@@ -1,6 +1,6 @@
 # segment-103｜私斩主帅换军心亦失法权，资源适配转赠与家族威慑
 
-<!-- retrieval-meta: {"chapter_start":309,"chapter_end":310,"dimensions":["plot","progression","character","worldbuilding"],"characters":["张三丰","石原大狼","天杀","玫儿","香香","龙啸天","龙啸云"]} -->
+<!-- retrieval-meta: {"chapter_start":307,"chapter_end":308,"dimensions":["plot","progression","character","worldbuilding"],"characters":["张三丰","石原大狼","天杀","玫儿","香香","龙啸天","龙啸云"]} -->
 
 ordinal309–310；原307《怒斩恶狼》—308《怂恿造反》；[1041607,1053077)，10752非空字符。1041607/1046207/1050807三显示完整，章末父叔只答保人/拒反，国王未实际裁决。
 

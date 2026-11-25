@@ -1,6 +1,6 @@
 # segment-074｜不完整军图转动员，家主令补齐跨军团指挥权
 
-<!-- retrieval-meta: {"chapter_start":244,"chapter_end":246,"dimensions":["plot","resources","worldbuilding"],"characters":["张三丰","天杀","龙家祖父","龙啸天","克里","卡尔"]} -->
+<!-- retrieval-meta: {"chapter_start":243,"chapter_end":245,"dimensions":["plot","resources","worldbuilding"],"characters":["张三丰","天杀","龙家祖父","龙啸天","克里","卡尔"]} -->
 
 ordinal244–246；原243《战争原由》—245《终掌青龙》；[740021,749625)，9087非空字符。744621分显示，完整章末：主角获金龙令拟明日赶前线，未抵青龙城/尚未主战。
 

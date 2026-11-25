@@ -1,5 +1,7 @@
 # segment-271｜不对称赌约夺取联络者，再以盟友存续瓶颈打开跨界谈判
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧"],"chapter_start":641,"chapter_end":642} -->
+
 - 固定快照ordinal648–649；原641《敢和我赌》、642《四处联络》。[2741831,2752288)，9915非空字符；三次连续显示完整至主角向虫族介绍毒龙太子的章末。B透镜，人物卡off。
 
 ## 赌约与资源实收

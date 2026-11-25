@@ -1,5 +1,7 @@
 # segment-280｜小队程序应对装填空档，育才回报来自盟约宠物与合术分工
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧"],"chapter_start":659,"chapter_end":660} -->
+
 - 固定快照ordinal666–667；原659《杀手之蜂》、660《公主的处女战》。[2831732,2842073)，9967非空字符；三次连续显示完整至复合钻为何能秒六翼的解释章末。B透镜，人物卡off。
 
 ## 401小队的三种情境

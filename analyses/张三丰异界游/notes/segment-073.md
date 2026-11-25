@@ -1,6 +1,6 @@
 # segment-073｜对峙靠组织援军收束，空间门与刺客均不能无条件完成运输侦报
 
-<!-- retrieval-meta: {"chapter_start":241,"chapter_end":243,"dimensions":["plot","worldbuilding","resources"],"characters":["张三丰","仙雅","米拉索","天杀","卡秋沙","罗纳多"]} -->
+<!-- retrieval-meta: {"chapter_start":240,"chapter_end":242,"dimensions":["plot","worldbuilding","resources"],"characters":["张三丰","仙雅","米拉索","天杀","卡秋沙","罗纳多"]} -->
 
 ordinal241–243；原240《风云变幻》—242《最终结果》；[730768,740021)，8876非空字符。735368分显示完整章末，止于天杀拒潜军部/王宫、主角欲自行取计划，未动手。
 

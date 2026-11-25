@@ -1,5 +1,7 @@
 # segment-388｜军团歼灭后的顶级瓶颈
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","盘古","祝融"],"chapter_start":887,"chapter_end":887} -->
+
 正式完整阅读：ordinal898，原887《上古大神之战》，[3857742,3863071)，5142非空；两显示完整至章末敌仍有把握的解释。
 
 ## 事实、选择和状态

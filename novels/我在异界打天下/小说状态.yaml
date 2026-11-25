@@ -5,7 +5,7 @@ workspace:
 novel:
   title: 我在异界打天下
   mode: original
-  current_stage: opening_trial
+  current_stage: opening_revision
 opening_choices:
   status: confirmed
   channel: 男频
@@ -14,7 +14,7 @@ opening_choices:
 director:
   mode: milestone_approval
   status: idle
-  run_id: 65ecb8a9-f9af-4b7a-a02e-118ff70203bc
+  run_id: opening-freshman-20261124
   current_step: null
   current_target: null
   requested_range: null
@@ -26,9 +26,9 @@ artifacts:
     source: ai_generated
     protected: false
     depends_on: []
-    sha256: f9581aa7606b195721ccf9f0fb94583c6c8cd65945ab692bc06d6321c7ddc3d6
+    sha256: 027db32e16af4e648635d6649bdb59db1c9b486ec9f075713a515e46900d11cf
     approval: delegated
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:37.076057Z'
   story_bible:
     path: 故事主线.md
     status: ready
@@ -36,9 +36,9 @@ artifacts:
     protected: false
     depends_on:
     - novel_brief
-    sha256: b700796fb887b0235e672d13ba002310baf25c5a799c6afbe7599c01426b66f6
+    sha256: 07cd8f6f078af0711ff8b5a4044a735ebdc2c07abb4ca9be166e077ae14f4fea
     approval: delegated
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:37.265962Z'
   world_bible:
     path: 世界设定.md
     status: ready
@@ -47,9 +47,9 @@ artifacts:
     depends_on:
     - novel_brief
     - story_bible
-    sha256: 267fc0464038a90b417dbc95216c9cf9e09469cd52b980f76e5db4147dd6b50a
+    sha256: 39c3947c9d0d7eac0653faab3e019c4ca5b6c972002229bfda3b64b5bd7d7930
     approval: not_required
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:37.456969Z'
   character_roster:
     path: 人物/人物总览.md
     status: ready
@@ -65,9 +65,9 @@ artifacts:
     - character_du_kui
     - character_qi_yuan
     - character_lu_yanchuan
-    sha256: c5d0a140b954213758d4e03034162a263bc88fcf21fd65b77485bc7e4e175862
+    sha256: 445cdd1a81f11fae69fd47238ef881350117db7b818d07c8324e62a94fd0857d
     approval: not_required
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:41.010212Z'
   volume_strategy:
     path: 分卷/分卷规划.md
     status: ready
@@ -80,9 +80,9 @@ artifacts:
     - character_roster
     - character_qi_yuan
     - character_lu_yanchuan
-    sha256: 24a5b3cea8ff6715448378d2c389d9849d025d87c6bc344a03c35218692a0d6b
+    sha256: cf04b8fda9081d043948bb94ebe1231db2659918b48851cd49ec8b6fcd59545b
     approval: delegated
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:41.204209Z'
   volume_01_skeleton:
     path: 分卷/第01卷-卷纲.md
     status: ready
@@ -91,9 +91,9 @@ artifacts:
     depends_on:
     - volume_strategy
     - character_roster
-    sha256: fe035b766a749db6b6b31c590b315976a6f5ee37904d2dade261b95ea2942ff9
+    sha256: e9f0410542ec546bf6ada95cd0165e16d118726ebcc65ff0dbc8720f1d0d7344
     approval: not_required
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:41.405942Z'
   volume_01_beat_sheet:
     path: 分卷/第01卷-节奏表.md
     status: ready
@@ -101,9 +101,9 @@ artifacts:
     protected: false
     depends_on:
     - volume_01_skeleton
-    sha256: 118697c6e6fee54f02196b33715d185681abdf781443c048ad72d70c5bcbaa0c
+    sha256: b15104a48c7a6c7c8dbad7c5b3c6ecd30f46549fcc4decd35e34a8578cd86728
     approval: not_required
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:41.630385Z'
   writing_style:
     path: 写作风格.md
     status: ready
@@ -113,9 +113,9 @@ artifacts:
     - novel_brief
     - story_bible
     - reference_use
-    sha256: 4a28c04a9fb2788103c5be4e0cf4302991935f34d48e2d106c8478acfefef1c0
+    sha256: c24fc9a52cc51decc1b9ba88e12f2d9bcce69f4e5f179d9f46d0db76c4845df5
     approval: not_required
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:37.845375Z'
   design_package:
     path: 创作记录/设定审查.md
     status: ready
@@ -142,9 +142,9 @@ artifacts:
     - character_xu_wenying
     - character_qi_yuan
     - character_lu_yanchuan
-    sha256: 96b1b811cf5dab2bcc01ec7b24ea5a54faa0276777718bc49fbc321ab34c4877
+    sha256: 27583ad6f426d9b9cb183999910a4cd379e49cf3197cdde35162a28954f9f3dc
     approval: not_required
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:42.259723Z'
   reference_use:
     path: 创作记录/参考机制使用说明.md
     status: ready
@@ -152,9 +152,9 @@ artifacts:
     protected: false
     depends_on:
     - novel_brief
-    sha256: 0bf6058d54a8e942f19c3771c2cba2cd2e8d55e138dd49a1f660d7f9030e95e5
+    sha256: b161db693fcf0b37be30a6b3733a4598b68d2105a8e7f82ed979f10d5485226d
     approval: not_required
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:37.648702Z'
   world_combat:
     path: 修行与战斗.md
     status: ready
@@ -166,7 +166,7 @@ artifacts:
     - character_roster
     sha256: acfafad6293ebefba984d8c95d9c620dedc4687a2f9a7538141c81745846b7ae
     approval: not_required
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:41.857893Z'
   package_index:
     path: 作品导览.md
     status: ready
@@ -180,9 +180,9 @@ artifacts:
     - volume_01_outline_review
     - world_atlas
     - world_trade_atlas
-    sha256: 5da3a5827567ff1e8734ab646598b55696f31ba2919c10cf7f4d4f95df87e13b
+    sha256: 8c0b457dbaeaa7d8fb31e02db7c2cf68a009bc20350f464313bc0307d610e566
     approval: not_required
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:44.261503Z'
   character_cheng_jianqiu:
     path: 人物/档案/程见秋.md
     status: ready
@@ -194,7 +194,7 @@ artifacts:
     - world_bible
     sha256: a5202c8d5b9d9199613d53817fae55bc6f97a945eb9c17d878c2f5db4a1caaa7
     approval: not_required
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:38.046045Z'
   character_chi_heng:
     path: 人物/档案/赤衡.md
     status: ready
@@ -206,7 +206,7 @@ artifacts:
     - world_bible
     sha256: 1fcac96c3e81a72674f8682b1a69eeb2b5bb0f1d764497c9d9907da665f63379
     approval: not_required
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:38.258361Z'
   character_han_jingshan:
     path: 人物/档案/韩敬山.md
     status: ready
@@ -216,9 +216,9 @@ artifacts:
     - novel_brief
     - story_bible
     - world_bible
-    sha256: 0740f325abb832869668471350332c6cde26562b2220f369a615190ff1eec030
+    sha256: 37be8a57f679203adaf812ae6b219c40b2c0a24df15e8f40cad1e033efe20eb1
     approval: not_required
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:38.452091Z'
   character_lu_hao:
     path: 人物/档案/陆昊.md
     status: ready
@@ -228,9 +228,9 @@ artifacts:
     - novel_brief
     - story_bible
     - world_bible
-    sha256: b1c9fe67cfa555bac6dadb7f0d65cf0ba38648bd297e9b439a6a7ea3119c5d32
+    sha256: 7561d8c027b38f41392843f8ff6c224a0eb90205f7143eb3a61e86456823d095
     approval: not_required
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:38.647583Z'
   character_lu_jingheng:
     path: 人物/档案/陆景珩.md
     status: ready
@@ -242,7 +242,7 @@ artifacts:
     - world_bible
     sha256: 1a52dc3d07b8c40634b31a6192f2498e9e3d4f5e09cf5a2330a16e752a829e03
     approval: not_required
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:38.842172Z'
   character_lu_yanshan:
     path: 人物/档案/陆砚山.md
     status: ready
@@ -255,7 +255,7 @@ artifacts:
     - character_lu_yanchuan
     sha256: 24894b67ba5c6a6e47866e4b76c2542dd9b1081c68b4d121421d01fe45716f20
     approval: not_required
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:42.052425Z'
   character_lu_zheng:
     path: 人物/档案/陆峥.md
     status: ready
@@ -267,7 +267,7 @@ artifacts:
     - world_bible
     sha256: 699563235d252b4983bd49c306c3baf9db7af70fd1b45d98be0d44264825cd21
     approval: not_required
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:39.034739Z'
   character_qi_lie:
     path: 人物/档案/祁烈.md
     status: ready
@@ -279,7 +279,7 @@ artifacts:
     - world_bible
     sha256: 884dfa81068d972bfcaf38b306b9d2dca34c7f3eaac93d1c6c3a56f5c467a9fe
     approval: not_required
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:39.240925Z'
   character_shen_lingyi:
     path: 人物/档案/沈令仪.md
     status: ready
@@ -289,9 +289,9 @@ artifacts:
     - novel_brief
     - story_bible
     - world_bible
-    sha256: 78deb733b2a8d4d65dcfdda514b34c7243d959cc853b72f573c75bb55500ebf8
+    sha256: 5567d851623410b535c616916a93046709dca042d69f24d8c5f1f05aac8838cf
     approval: not_required
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:39.435326Z'
   character_xu_wenying:
     path: 人物/档案/许文瑛.md
     status: ready
@@ -303,7 +303,7 @@ artifacts:
     - world_bible
     sha256: 5bd803344d945a6533aab87fa6c2dfe21415b733a393be2b2c9e3e40f21613df
     approval: not_required
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:39.628584Z'
   volume_01_chapter_outline:
     path: 分卷/第01卷-逐章细纲.md
     status: ready
@@ -335,9 +335,9 @@ artifacts:
     - opening_plan_001
     - opening_plan_002
     - opening_plan_003
-    sha256: ec3aa00a47ff346ddb5cf3dc7bdfdd5ba8f8b62e22dc3146c71f7d9bdc63e0f5
+    sha256: abebd0165c5f4bbaef75d00f871807fe47b8b67faf2c01781a7362ad8f53781c
     approval: not_required
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:43.258148Z'
   character_tao_shoucheng:
     path: 人物/档案/陶守诚.md
     status: ready
@@ -349,7 +349,7 @@ artifacts:
     - world_bible
     sha256: 7288a353d2c48d5622795602b30586ede85dd0ac6b5843dcd8ed5fe714460fb9
     approval: not_required
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:39.828051Z'
   character_zhou_younian:
     path: 人物/档案/周有年.md
     status: ready
@@ -361,7 +361,7 @@ artifacts:
     - world_bible
     sha256: a5eef54e0540b1118d31333014a8c17e23f2966e02a1ce6cc3a2f47c150e7e8e
     approval: not_required
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:40.029759Z'
   character_shi_changgeng:
     path: 人物/档案/石长庚.md
     status: ready
@@ -373,7 +373,7 @@ artifacts:
     - world_bible
     sha256: 79c6e0696b0455c2d28e857f5695708002e716ef6dd6c4a85ae16686bfb62797
     approval: not_required
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:40.229840Z'
   character_du_kui:
     path: 人物/档案/杜魁.md
     status: ready
@@ -385,7 +385,7 @@ artifacts:
     - world_bible
     sha256: b9425ad911c6996884ac10d23d6bee024802980c5ea9c308ab2fe77ad21506e4
     approval: not_required
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:40.431729Z'
   volume_01_outline_review:
     path: 创作记录/第01卷-细纲审查.md
     status: ready
@@ -395,9 +395,9 @@ artifacts:
     - volume_01_chapter_outline
     - character_roster
     - writing_style
-    sha256: 87886a54f6689e282fce0d90de0306d2d9d0bb99a857bd0c4c37224c7fedd498
+    sha256: 3c1f905c1e192a9ced1b9bea704f522a8d1940cc755d894a24edcbf16dd37af8
     approval: not_required
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:43.464376Z'
   opening_window:
     path: 分卷/第01卷-开篇细纲.md
     status: ready
@@ -409,9 +409,9 @@ artifacts:
     - world_bible
     - character_roster
     - writing_style
-    sha256: d3c5cbf42724a880de13effb9668bcf679070759ffdc29a4de143ff757a5211e
+    sha256: 2ce6a623f21f1eb194d8ee8f4861d308953de41a5ea1e8ab915405746f1e0689
     approval: delegated
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:42.467023Z'
   opening_plan_001:
     path: 章节/第001章/章节计划.md
     status: ready
@@ -423,9 +423,9 @@ artifacts:
     - world_bible
     - character_roster
     - character_qi_yuan
-    sha256: a3c487d3a804a284743f11d1dc8c04c634ee55781766c7dbe1066f94c78f3ba0
+    sha256: 0db9aa75e8933fd70fc72e3d3530856aff5fc27bf38028eb054327b340691c44
     approval: delegated
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:42.669962Z'
   opening_plan_002:
     path: 章节/第002章/章节计划.md
     status: ready
@@ -436,9 +436,9 @@ artifacts:
     - writing_style
     - world_bible
     - character_roster
-    sha256: 18a6c58fe73ffd59ee2680b54b12e2a18f1e9c1f1ecdca446b5775903c8b09a0
+    sha256: 899947b8d660026fcda547876ecbd649be0c519da7fb3eea4b668ffc16515b47
     approval: delegated
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:42.866816Z'
   opening_plan_003:
     path: 章节/第003章/章节计划.md
     status: ready
@@ -449,9 +449,9 @@ artifacts:
     - writing_style
     - world_bible
     - character_roster
-    sha256: 1f4ce15d780c01500d8a52238b4855f3357bce558e8339653b54040bcf0b5ba4
+    sha256: 49e3266726691d666196fe330b25a419c0be664a73497a0c471a5758e44685cf
     approval: delegated
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:43.060341Z'
   opening_context_001:
     path: 章节/第001章/上下文包.md
     status: ready
@@ -462,9 +462,9 @@ artifacts:
     - writing_style
     - world_bible
     - character_roster
-    sha256: 8cb7d98dbf15c90deb39fbb13f8a9842e1cc7091fc1aeae252a9994bfdd4e51e
+    sha256: 0176e702e7e72ff7c9c4a4efd4fbe33ee0b69beb44d8a070380ecae925545fc2
     approval: delegated
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:43.678901Z'
   character_qi_yuan:
     path: 人物/档案/齐源.md
     status: ready
@@ -474,11 +474,11 @@ artifacts:
     - novel_brief
     - story_bible
     - world_bible
-    sha256: 92678fe858787fe28636cc29117a56f5233e1de624c516919a3a996482a54742
+    sha256: ffe82f320e879413664bccba9c7949ab3b026df877146011c56ab3476dc8e890
     approval: not_required
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:40.624573Z'
   world_atlas:
-    path: 创作记录/世界地图/世界地图说明.md
+    path: map/图册/世界地图说明.md
     status: ready
     source: ai_generated
     protected: false
@@ -488,9 +488,9 @@ artifacts:
     - volume_01_skeleton
     sha256: 822c0fc1c60a0b0423e5c1f1c62f60bff0e3996703a2e321cb9439cc610906e5
     approval: delegated
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:43.870614Z'
   world_trade_atlas:
-    path: 创作记录/世界地图/山川与商路图志.md
+    path: map/图册/山川与商路图志.md
     status: ready
     source: ai_generated
     protected: false
@@ -500,7 +500,7 @@ artifacts:
     - volume_01_skeleton
     sha256: 25ee7f17ff8d507892d5c0dbb9e14db89e7d2e27fa784334a0e4df6ef19bef39
     approval: delegated
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:44.068434Z'
   character_lu_yanchuan:
     path: 人物/档案/陆砚川.md
     status: ready
@@ -512,7 +512,7 @@ artifacts:
     - world_bible
     sha256: 3d8d347eafec4730501062e4f039d38830108796da6aea0d79ed8f87dbc50439
     approval: not_required
-    updated_at: '2026-11-24T03:10:58.773465Z'
+    updated_at: '2026-11-24T11:06:40.817366Z'
 continuity:
   baseline_chapter: null
   last_committed_chapter: null
@@ -523,7 +523,7 @@ usage:
   summary_path: 创作记录/用量汇总.json
   exact_tokens: 287638
   estimated_tokens: 0
-  unavailable_events: 20
+  unavailable_events: 118
 next_action:
   type: select_trial_plan
   target: chapter_001_plan

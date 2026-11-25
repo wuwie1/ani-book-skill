@@ -1,5 +1,7 @@
 # segment-332｜献祭换短时停时却被外援打断，城防受损转成佛道联合改造
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","七公主"],"chapter_start":764,"chapter_end":765} -->
+
 ## 来源
 
 ordinal773–774，原764《大战结局》、765《佛道联手》；[3324840,3333364)，8110非空。raw.decode4400＋4124连续完整至小绿同意改城，改造未开始完成。

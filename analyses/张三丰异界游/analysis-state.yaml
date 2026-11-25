@@ -1,31 +1,78 @@
 schema_version: 1
 analysis:
-  title: "张三丰异界游"
+  title: 张三丰异界游
   profile: standard
   status: complete
 core_model:
   status: ready
-  reader_promise: "跨体系知识与异质资源不断转化、组织，积累成可扩张的战力与势力"
-  subject_matter_or_fantasy: "跨体系优势转译、资源经营与势力积累"
-  psychological_progression: "识别差异—验证用途—转换资源—组织合作—扩展行动范围"
-  relationship_structure: "家族庇护与制度入口；伙伴和交易方自主选择；亲密关系保留为动机与成本"
-  gates_and_costs: [肉身修为, 法宝调用, 知识保密, 材料货币, 人力工序, 身份许可, 交易信任]
+  reader_promise: 跨体系知识与异质资源不断转化、组织，积累成可扩张的战力与势力
+  subject_matter_or_fantasy: 跨体系优势转译、资源经营与势力积累
+  psychological_progression: 识别差异—验证用途—转换资源—组织合作—扩展行动范围
+  relationship_structure: 家族庇护与制度入口；伙伴和交易方自主选择；亲密关系保留为动机与成本
+  gates_and_costs:
+  - 肉身修为
+  - 法宝调用
+  - 知识保密
+  - 材料货币
+  - 人力工序
+  - 身份许可
+  - 交易信任
 source:
   kind: local_file
-  ref: "/Users/likai/go/src/write/assistant/novels/张三丰异界游.txt"
-  snapshot: "source/张三丰异界游.txt"
-  fingerprint: "sha256:97b73749544e3029028de13d4c489e60b0a2bbfd1711427cb2da63f7768fa115"
+  ref: /Users/likai/go/src/write/ani-book-skill/novels/张三丰异界游.txt
+  snapshot: source/张三丰异界游.txt
+  fingerprint: sha256:97b73749544e3029028de13d4c489e60b0a2bbfd1711427cb2da63f7768fa115
   coverage: full
-  scope: "以本文件全文为目标，分批分析结构、设定与重要伏笔"
-  read_scope: "正式notes [0,3877521)，3682989非空字符；离散预读见coverage-map；语义并集3682989"
-  remaining_scope: "none（固定本地全文已正式notes覆盖；未决为文本无充分答案，非未读）"
+  scope: 以本文件全文为目标，分批分析结构、设定与重要伏笔
+  read_scope: 正式notes [0,3877521)，3682989非空字符；离散预读见coverage-map；语义并集3682989
+  remaining_scope: none（固定本地全文已正式notes覆盖；未决为文本无充分答案，非未读）
+  registered_ref: /Users/likai/go/src/write/assistant/novels/张三丰异界游.txt
 artifacts:
   overview:
     path: sections/overview.md
     status: ready
-    scope: "full local file；历史A01见history/A01"
+    scope: full local file；历史A01见history/A01
+  plot_structure:
+    path: sections/plot-structure.md
+    status: ready
+  timeline:
+    path: sections/timeline.md
+    status: ready
+  character_system:
+    path: sections/character-system.md
+    status: ready
+  worldbuilding:
+    path: sections/worldbuilding.md
+    status: ready
+  themes:
+    path: sections/themes.md
+    status: ready
+  style_technique:
+    path: sections/style-technique.md
+    status: ready
+  market_highlights:
+    path: sections/market-highlights.md
+    status: ready
+  evidence:
+    path: evidence-ledger.md
+    status: ready
+  uncertainty:
+    path: uncertainty-ledger.md
+    status: ready
+  foreshadowing:
+    path: promise-final-audit.md
+    status: ready
+  patterns:
+    path: pattern-cards.md
+    status: ready
+  batches:
+    path: batch-plan.md
+    status: ready
+  coverage:
+    path: coverage-map.md
+    status: ready
 character_sync:
-  status: "off"
+  status: 'off'
   targets: []
 analysis_lens:
   path: analysis-lens.md
@@ -38,13 +85,11 @@ execution_request:
 next_action:
   type: review_completed_analysis
   target: book-analysis-review.md
-
 confirmation:
-  date: "2026-11-12"
+  date: '2026-11-12'
   lens_choice: B
-  character_cards: "off"
+  character_cards: 'off'
   first_batch: A01
-
 first_batch:
   id: A01
   status: ready
@@ -53,22 +98,24 @@ first_batch:
   formal_non_whitespace_chars: 60468
   semantic_union_non_whitespace_chars: 87003
   review_path: batch-A01-review.md
-
 continuation_authorization:
-  date: "2026-11-12"
-  scope: "A02–A40及全书综合"
-  review_policy: "全部完成后统一审核"
-  original_novel_design: "not_authorized"
-
+  date: '2026-11-12'
+  scope: A02–A40及全书综合
+  review_policy: 全部完成后统一审核
+  original_novel_design: not_authorized
 progress:
   completed_segments: 390
   last_segment: segment-390
   formal_non_whitespace_chars: 3682989
   semantic_union_non_whitespace_chars: 3682989
   current_batch: A40
-
 final_review:
   status: ready
   path: book-analysis-review.md
   validation: final-validation.json
-  review_policy: "等待用户整体审核；不自动授权新书设计"
+  review_policy: 等待用户整体审核；不自动授权新书设计
+quality_review:
+  date: '2026-11-24'
+  status: ready
+  delegated_model: gpt-6.2-sol
+  validation: final-validation.json

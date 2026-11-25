@@ -1,5 +1,7 @@
 # segment-282｜比特复仇闭环与力量分享危机，八臂敌人否定惯用解法
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰"],"chapter_start":663,"chapter_end":664} -->
+
 ## 来源
 
 [2852332,2862707)，9905非空字符，目录ordinal670–671，原663《大嚼比特》、664《变态怪物》。三个连续窗口完整阅读至八臂拳墙使主角无法借力的章末。B透镜，正式覆盖仅截至此段。

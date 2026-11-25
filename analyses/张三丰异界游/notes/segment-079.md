@@ -1,6 +1,6 @@
 # segment-079｜龙鳞换完整战利与投降，林火计划的成本与自我开脱并存
 
-<!-- retrieval-meta: {"chapter_start":259,"chapter_end":261,"dimensions":["plot","resources","character"],"characters":["张三丰","克丽丝提娜","塔塔亚克","格西里","卡巴特","石虎","福特曼"]} -->
+<!-- retrieval-meta: {"chapter_start":258,"chapter_end":260,"dimensions":["plot","resources","character"],"characters":["张三丰","克丽丝提娜","塔塔亚克","格西里","卡巴特","石虎","福特曼"]} -->
 
 ordinal259–261；原258《青龙之怒（10）》—260《青龙之怒（12）》；[789903,799916)，9608非空字符。794503、799103三显示连续完整；章末蛇吻主力覆灭统计/格西里仍逃未抓。
 

@@ -33,7 +33,7 @@ id_ed25519
 *.bak.*
 
 !novels/.gitkeep
-analyses/**
+analyses/
 !analyses/.gitkeep
 
 # Explicitly authorized analysis results; raw books and caches stay local.

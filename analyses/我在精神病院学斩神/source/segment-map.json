@@ -10,8 +10,13 @@
       "start": 0,
       "end": 12370,
       "non_whitespace_chars": 10407,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "partly_covered_by_formal_samples",
+      "note_status": "mapped_to_sample_notes",
+      "line_start": 1,
+      "line_end": 671,
+      "matching_sample_notes": [
+        "notes/segment-001.md"
+      ]
     },
     {
       "id": "segment-002",
@@ -20,8 +25,13 @@
       "start": 12370,
       "end": 25940,
       "non_whitespace_chars": 11163,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "covered_by_formal_samples",
+      "note_status": "mapped_to_sample_notes",
+      "line_start": 672,
+      "line_end": 1485,
+      "matching_sample_notes": [
+        "notes/segment-002.md"
+      ]
     },
     {
       "id": "segment-003",
@@ -30,8 +40,13 @@
       "start": 25940,
       "end": 37382,
       "non_whitespace_chars": 9286,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "partly_covered_by_formal_samples",
+      "note_status": "mapped_to_sample_notes",
+      "line_start": 1486,
+      "line_end": 2213,
+      "matching_sample_notes": [
+        "notes/segment-002.md"
+      ]
     },
     {
       "id": "segment-004",
@@ -40,8 +55,10 @@
       "start": 37382,
       "end": 50556,
       "non_whitespace_chars": 11019,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 2214,
+      "line_end": 2943
     },
     {
       "id": "segment-005",
@@ -50,8 +67,10 @@
       "start": 50556,
       "end": 61310,
       "non_whitespace_chars": 8880,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 2944,
+      "line_end": 3577
     },
     {
       "id": "segment-006",
@@ -60,8 +79,10 @@
       "start": 61310,
       "end": 74756,
       "non_whitespace_chars": 10973,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 3578,
+      "line_end": 4413
     },
     {
       "id": "segment-007",
@@ -70,8 +91,10 @@
       "start": 74756,
       "end": 87906,
       "non_whitespace_chars": 10845,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 4414,
+      "line_end": 5193
     },
     {
       "id": "segment-008",
@@ -80,8 +103,10 @@
       "start": 87906,
       "end": 101357,
       "non_whitespace_chars": 10876,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 5194,
+      "line_end": 6063
     },
     {
       "id": "segment-009",
@@ -90,8 +115,10 @@
       "start": 101357,
       "end": 114905,
       "non_whitespace_chars": 11009,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 6064,
+      "line_end": 6921
     },
     {
       "id": "segment-010",
@@ -100,8 +127,10 @@
       "start": 114905,
       "end": 125817,
       "non_whitespace_chars": 9026,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 6922,
+      "line_end": 7559
     },
     {
       "id": "segment-011",
@@ -110,8 +139,10 @@
       "start": 125817,
       "end": 138922,
       "non_whitespace_chars": 10584,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 7560,
+      "line_end": 8411
     },
     {
       "id": "segment-012",
@@ -120,8 +151,10 @@
       "start": 138922,
       "end": 151871,
       "non_whitespace_chars": 10836,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 8412,
+      "line_end": 9127
     },
     {
       "id": "segment-013",
@@ -130,8 +163,10 @@
       "start": 151871,
       "end": 165234,
       "non_whitespace_chars": 10992,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 9128,
+      "line_end": 9929
     },
     {
       "id": "segment-014",
@@ -140,8 +175,10 @@
       "start": 165234,
       "end": 177737,
       "non_whitespace_chars": 10378,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 9930,
+      "line_end": 10649
     },
     {
       "id": "segment-015",
@@ -150,8 +187,10 @@
       "start": 177737,
       "end": 191040,
       "non_whitespace_chars": 10962,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 10650,
+      "line_end": 11441
     },
     {
       "id": "segment-016",
@@ -160,8 +199,10 @@
       "start": 191040,
       "end": 203785,
       "non_whitespace_chars": 10536,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 11442,
+      "line_end": 12189
     },
     {
       "id": "segment-017",
@@ -170,8 +211,10 @@
       "start": 203785,
       "end": 216216,
       "non_whitespace_chars": 10342,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 12190,
+      "line_end": 12897
     },
     {
       "id": "segment-018",
@@ -180,8 +223,10 @@
       "start": 216216,
       "end": 229040,
       "non_whitespace_chars": 10501,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 12898,
+      "line_end": 13683
     },
     {
       "id": "segment-019",
@@ -190,8 +235,10 @@
       "start": 229040,
       "end": 242062,
       "non_whitespace_chars": 10807,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 13684,
+      "line_end": 14433
     },
     {
       "id": "segment-020",
@@ -200,8 +247,10 @@
       "start": 242062,
       "end": 255043,
       "non_whitespace_chars": 10634,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 14434,
+      "line_end": 15227
     },
     {
       "id": "segment-021",
@@ -210,8 +259,13 @@
       "start": 255043,
       "end": 267802,
       "non_whitespace_chars": 10514,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "partly_covered_by_formal_samples",
+      "note_status": "mapped_to_sample_notes",
+      "line_start": 15228,
+      "line_end": 15987,
+      "matching_sample_notes": [
+        "notes/segment-003.md"
+      ]
     },
     {
       "id": "segment-022",
@@ -220,8 +274,13 @@
       "start": 267802,
       "end": 281167,
       "non_whitespace_chars": 10898,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "partly_covered_by_formal_samples",
+      "note_status": "mapped_to_sample_notes",
+      "line_start": 15988,
+      "line_end": 16821,
+      "matching_sample_notes": [
+        "notes/segment-003.md"
+      ]
     },
     {
       "id": "segment-023",
@@ -230,8 +289,10 @@
       "start": 281167,
       "end": 293801,
       "non_whitespace_chars": 10413,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 16822,
+      "line_end": 17573
     },
     {
       "id": "segment-024",
@@ -240,8 +301,10 @@
       "start": 293801,
       "end": 306797,
       "non_whitespace_chars": 10823,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 17574,
+      "line_end": 18309
     },
     {
       "id": "segment-025",
@@ -250,8 +313,10 @@
       "start": 306797,
       "end": 320053,
       "non_whitespace_chars": 11035,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 18310,
+      "line_end": 19061
     },
     {
       "id": "segment-026",
@@ -260,8 +325,10 @@
       "start": 320053,
       "end": 332741,
       "non_whitespace_chars": 10647,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 19062,
+      "line_end": 19753
     },
     {
       "id": "segment-027",
@@ -270,8 +337,10 @@
       "start": 332741,
       "end": 345764,
       "non_whitespace_chars": 11048,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 19754,
+      "line_end": 20423
     },
     {
       "id": "segment-028",
@@ -280,8 +349,10 @@
       "start": 345764,
       "end": 358717,
       "non_whitespace_chars": 10912,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 20424,
+      "line_end": 21115
     },
     {
       "id": "segment-029",
@@ -290,8 +361,10 @@
       "start": 358717,
       "end": 371083,
       "non_whitespace_chars": 10541,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 21116,
+      "line_end": 21735
     },
     {
       "id": "segment-030",
@@ -300,8 +373,10 @@
       "start": 371083,
       "end": 383548,
       "non_whitespace_chars": 10556,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 21736,
+      "line_end": 22383
     },
     {
       "id": "segment-031",
@@ -310,8 +385,10 @@
       "start": 383548,
       "end": 395988,
       "non_whitespace_chars": 10591,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 22384,
+      "line_end": 23011
     },
     {
       "id": "segment-032",
@@ -320,8 +397,10 @@
       "start": 395988,
       "end": 408182,
       "non_whitespace_chars": 10183,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 23012,
+      "line_end": 23693
     },
     {
       "id": "segment-033",
@@ -330,8 +409,10 @@
       "start": 408182,
       "end": 420482,
       "non_whitespace_chars": 10451,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 23694,
+      "line_end": 24321
     },
     {
       "id": "segment-034",
@@ -340,8 +421,10 @@
       "start": 420482,
       "end": 432411,
       "non_whitespace_chars": 10314,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 24322,
+      "line_end": 24871
     },
     {
       "id": "segment-035",
@@ -350,8 +433,10 @@
       "start": 432411,
       "end": 444418,
       "non_whitespace_chars": 10296,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 24872,
+      "line_end": 25453
     },
     {
       "id": "segment-036",
@@ -360,8 +445,10 @@
       "start": 444418,
       "end": 456606,
       "non_whitespace_chars": 10357,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 25454,
+      "line_end": 26075
     },
     {
       "id": "segment-037",
@@ -370,8 +457,10 @@
       "start": 456606,
       "end": 469130,
       "non_whitespace_chars": 10753,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 26076,
+      "line_end": 26677
     },
     {
       "id": "segment-038",
@@ -380,8 +469,10 @@
       "start": 469130,
       "end": 481249,
       "non_whitespace_chars": 10456,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 26678,
+      "line_end": 27243
     },
     {
       "id": "segment-039",
@@ -390,8 +481,10 @@
       "start": 481249,
       "end": 493536,
       "non_whitespace_chars": 10570,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 27244,
+      "line_end": 27827
     },
     {
       "id": "segment-040",
@@ -400,8 +493,10 @@
       "start": 493536,
       "end": 505994,
       "non_whitespace_chars": 10675,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 27828,
+      "line_end": 28433
     },
     {
       "id": "segment-041",
@@ -410,8 +505,10 @@
       "start": 505994,
       "end": 518013,
       "non_whitespace_chars": 10362,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 28434,
+      "line_end": 28997
     },
     {
       "id": "segment-042",
@@ -420,8 +517,10 @@
       "start": 518013,
       "end": 530395,
       "non_whitespace_chars": 10569,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 28998,
+      "line_end": 29613
     },
     {
       "id": "segment-043",
@@ -430,8 +529,10 @@
       "start": 530395,
       "end": 541828,
       "non_whitespace_chars": 9612,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 29614,
+      "line_end": 30227
     },
     {
       "id": "segment-044",
@@ -440,8 +541,10 @@
       "start": 541828,
       "end": 554770,
       "non_whitespace_chars": 10823,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 30228,
+      "line_end": 30945
     },
     {
       "id": "segment-045",
@@ -450,8 +553,10 @@
       "start": 554770,
       "end": 567026,
       "non_whitespace_chars": 10389,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 30946,
+      "line_end": 31579
     },
     {
       "id": "segment-046",
@@ -460,8 +565,10 @@
       "start": 567026,
       "end": 579097,
       "non_whitespace_chars": 10384,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 31580,
+      "line_end": 32153
     },
     {
       "id": "segment-047",
@@ -470,8 +577,10 @@
       "start": 579097,
       "end": 591327,
       "non_whitespace_chars": 10543,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 32154,
+      "line_end": 32727
     },
     {
       "id": "segment-048",
@@ -480,8 +589,10 @@
       "start": 591327,
       "end": 603404,
       "non_whitespace_chars": 10462,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 32728,
+      "line_end": 33277
     },
     {
       "id": "segment-049",
@@ -490,8 +601,10 @@
       "start": 603404,
       "end": 615617,
       "non_whitespace_chars": 10394,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 33278,
+      "line_end": 33895
     },
     {
       "id": "segment-050",
@@ -500,8 +613,10 @@
       "start": 615617,
       "end": 627840,
       "non_whitespace_chars": 10260,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 33896,
+      "line_end": 34561
     },
     {
       "id": "segment-051",
@@ -510,8 +625,10 @@
       "start": 627840,
       "end": 640039,
       "non_whitespace_chars": 10368,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 34562,
+      "line_end": 35183
     },
     {
       "id": "segment-052",
@@ -520,8 +637,10 @@
       "start": 640039,
       "end": 652662,
       "non_whitespace_chars": 10660,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 35184,
+      "line_end": 35849
     },
     {
       "id": "segment-053",
@@ -530,8 +649,10 @@
       "start": 652662,
       "end": 665209,
       "non_whitespace_chars": 10326,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 35850,
+      "line_end": 36601
     },
     {
       "id": "segment-054",
@@ -540,8 +661,10 @@
       "start": 665209,
       "end": 676325,
       "non_whitespace_chars": 9416,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 36602,
+      "line_end": 37177
     },
     {
       "id": "segment-055",
@@ -550,8 +673,10 @@
       "start": 676325,
       "end": 688908,
       "non_whitespace_chars": 10584,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 37178,
+      "line_end": 37855
     },
     {
       "id": "segment-056",
@@ -560,8 +685,10 @@
       "start": 688908,
       "end": 701474,
       "non_whitespace_chars": 10741,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 37856,
+      "line_end": 38475
     },
     {
       "id": "segment-057",
@@ -570,8 +697,10 @@
       "start": 701474,
       "end": 713087,
       "non_whitespace_chars": 9794,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 38476,
+      "line_end": 39093
     },
     {
       "id": "segment-058",
@@ -580,8 +709,10 @@
       "start": 713087,
       "end": 725323,
       "non_whitespace_chars": 10369,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 39094,
+      "line_end": 39727
     },
     {
       "id": "segment-059",
@@ -590,8 +721,10 @@
       "start": 725323,
       "end": 737271,
       "non_whitespace_chars": 10303,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 39728,
+      "line_end": 40287
     },
     {
       "id": "segment-060",
@@ -600,8 +733,10 @@
       "start": 737271,
       "end": 749388,
       "non_whitespace_chars": 10340,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 40288,
+      "line_end": 40891
     },
     {
       "id": "segment-061",
@@ -610,8 +745,10 @@
       "start": 749388,
       "end": 761557,
       "non_whitespace_chars": 10242,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 40892,
+      "line_end": 41545
     },
     {
       "id": "segment-062",
@@ -620,8 +757,13 @@
       "start": 761557,
       "end": 773773,
       "non_whitespace_chars": 10427,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "partly_covered_by_formal_samples",
+      "note_status": "mapped_to_sample_notes",
+      "line_start": 41546,
+      "line_end": 42153,
+      "matching_sample_notes": [
+        "notes/segment-005.md"
+      ]
     },
     {
       "id": "segment-063",
@@ -630,8 +772,10 @@
       "start": 773773,
       "end": 785729,
       "non_whitespace_chars": 10269,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 42154,
+      "line_end": 42727
     },
     {
       "id": "segment-064",
@@ -640,8 +784,10 @@
       "start": 785729,
       "end": 797897,
       "non_whitespace_chars": 10253,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 42728,
+      "line_end": 43377
     },
     {
       "id": "segment-065",
@@ -650,8 +796,10 @@
       "start": 797897,
       "end": 810002,
       "non_whitespace_chars": 10418,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 43378,
+      "line_end": 43951
     },
     {
       "id": "segment-066",
@@ -660,8 +808,10 @@
       "start": 810002,
       "end": 821788,
       "non_whitespace_chars": 10189,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 43952,
+      "line_end": 44495
     },
     {
       "id": "segment-067",
@@ -670,8 +820,10 @@
       "start": 821788,
       "end": 833852,
       "non_whitespace_chars": 10389,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 44496,
+      "line_end": 45065
     },
     {
       "id": "segment-068",
@@ -680,8 +832,10 @@
       "start": 833852,
       "end": 845970,
       "non_whitespace_chars": 10263,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 45066,
+      "line_end": 45695
     },
     {
       "id": "segment-069",
@@ -690,8 +844,10 @@
       "start": 845970,
       "end": 858055,
       "non_whitespace_chars": 10182,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 45696,
+      "line_end": 46341
     },
     {
       "id": "segment-070",
@@ -700,8 +856,10 @@
       "start": 858055,
       "end": 869612,
       "non_whitespace_chars": 10038,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 46342,
+      "line_end": 46859
     },
     {
       "id": "segment-071",
@@ -710,8 +868,10 @@
       "start": 869612,
       "end": 881565,
       "non_whitespace_chars": 10218,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 46860,
+      "line_end": 47449
     },
     {
       "id": "segment-072",
@@ -720,8 +880,10 @@
       "start": 881565,
       "end": 893698,
       "non_whitespace_chars": 10290,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 47450,
+      "line_end": 48075
     },
     {
       "id": "segment-073",
@@ -730,8 +892,10 @@
       "start": 893698,
       "end": 905317,
       "non_whitespace_chars": 10094,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 48076,
+      "line_end": 48595
     },
     {
       "id": "segment-074",
@@ -740,8 +904,10 @@
       "start": 905317,
       "end": 917455,
       "non_whitespace_chars": 10409,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 48596,
+      "line_end": 49183
     },
     {
       "id": "segment-075",
@@ -750,8 +916,10 @@
       "start": 917455,
       "end": 929371,
       "non_whitespace_chars": 10199,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 49184,
+      "line_end": 49767
     },
     {
       "id": "segment-076",
@@ -760,8 +928,10 @@
       "start": 929371,
       "end": 941674,
       "non_whitespace_chars": 10580,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 49768,
+      "line_end": 50353
     },
     {
       "id": "segment-077",
@@ -770,8 +940,10 @@
       "start": 941674,
       "end": 953895,
       "non_whitespace_chars": 10426,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 50354,
+      "line_end": 50963
     },
     {
       "id": "segment-078",
@@ -780,8 +952,10 @@
       "start": 953895,
       "end": 966340,
       "non_whitespace_chars": 10638,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 50964,
+      "line_end": 51577
     },
     {
       "id": "segment-079",
@@ -790,8 +964,10 @@
       "start": 966340,
       "end": 978385,
       "non_whitespace_chars": 10460,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 51578,
+      "line_end": 52117
     },
     {
       "id": "segment-080",
@@ -800,8 +976,10 @@
       "start": 978385,
       "end": 990627,
       "non_whitespace_chars": 10495,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 52118,
+      "line_end": 52711
     },
     {
       "id": "segment-081",
@@ -810,8 +988,10 @@
       "start": 990627,
       "end": 1002700,
       "non_whitespace_chars": 10404,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 52712,
+      "line_end": 53279
     },
     {
       "id": "segment-082",
@@ -820,8 +1000,10 @@
       "start": 1002700,
       "end": 1014965,
       "non_whitespace_chars": 10644,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 53280,
+      "line_end": 53831
     },
     {
       "id": "segment-083",
@@ -830,8 +1012,10 @@
       "start": 1014965,
       "end": 1027412,
       "non_whitespace_chars": 10568,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 53832,
+      "line_end": 54469
     },
     {
       "id": "segment-084",
@@ -840,8 +1024,10 @@
       "start": 1027412,
       "end": 1039674,
       "non_whitespace_chars": 10461,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 54470,
+      "line_end": 55081
     },
     {
       "id": "segment-085",
@@ -850,8 +1036,10 @@
       "start": 1039674,
       "end": 1051586,
       "non_whitespace_chars": 10357,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 55082,
+      "line_end": 55611
     },
     {
       "id": "segment-086",
@@ -860,8 +1048,10 @@
       "start": 1051586,
       "end": 1063635,
       "non_whitespace_chars": 10404,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 55612,
+      "line_end": 56171
     },
     {
       "id": "segment-087",
@@ -870,8 +1060,10 @@
       "start": 1063635,
       "end": 1074138,
       "non_whitespace_chars": 9037,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 56172,
+      "line_end": 56669
     },
     {
       "id": "segment-088",
@@ -880,8 +1072,10 @@
       "start": 1074138,
       "end": 1087006,
       "non_whitespace_chars": 10977,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 56670,
+      "line_end": 57311
     },
     {
       "id": "segment-089",
@@ -890,8 +1084,10 @@
       "start": 1087006,
       "end": 1100067,
       "non_whitespace_chars": 11110,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 57312,
+      "line_end": 57973
     },
     {
       "id": "segment-090",
@@ -900,8 +1096,10 @@
       "start": 1100067,
       "end": 1112177,
       "non_whitespace_chars": 10441,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 57974,
+      "line_end": 58541
     },
     {
       "id": "segment-091",
@@ -910,8 +1108,10 @@
       "start": 1112177,
       "end": 1124133,
       "non_whitespace_chars": 10341,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 58542,
+      "line_end": 59091
     },
     {
       "id": "segment-092",
@@ -920,8 +1120,10 @@
       "start": 1124133,
       "end": 1136264,
       "non_whitespace_chars": 10294,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 59092,
+      "line_end": 59715
     },
     {
       "id": "segment-093",
@@ -930,8 +1132,10 @@
       "start": 1136264,
       "end": 1148717,
       "non_whitespace_chars": 10424,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 59716,
+      "line_end": 60403
     },
     {
       "id": "segment-094",
@@ -940,8 +1144,10 @@
       "start": 1148717,
       "end": 1161043,
       "non_whitespace_chars": 10375,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 60404,
+      "line_end": 61065
     },
     {
       "id": "segment-095",
@@ -950,8 +1156,10 @@
       "start": 1161043,
       "end": 1173062,
       "non_whitespace_chars": 10266,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 61066,
+      "line_end": 61661
     },
     {
       "id": "segment-096",
@@ -960,8 +1168,10 @@
       "start": 1173062,
       "end": 1184941,
       "non_whitespace_chars": 10294,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 61662,
+      "line_end": 62201
     },
     {
       "id": "segment-097",
@@ -970,8 +1180,10 @@
       "start": 1184941,
       "end": 1197185,
       "non_whitespace_chars": 10455,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 62202,
+      "line_end": 62809
     },
     {
       "id": "segment-098",
@@ -980,8 +1192,10 @@
       "start": 1197185,
       "end": 1209309,
       "non_whitespace_chars": 10269,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 62810,
+      "line_end": 63439
     },
     {
       "id": "segment-099",
@@ -990,8 +1204,10 @@
       "start": 1209309,
       "end": 1221850,
       "non_whitespace_chars": 10650,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 63440,
+      "line_end": 64081
     },
     {
       "id": "segment-100",
@@ -1000,8 +1216,10 @@
       "start": 1221850,
       "end": 1234551,
       "non_whitespace_chars": 10552,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 64082,
+      "line_end": 64809
     },
     {
       "id": "segment-101",
@@ -1010,8 +1228,10 @@
       "start": 1234551,
       "end": 1247332,
       "non_whitespace_chars": 10452,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 64810,
+      "line_end": 65597
     },
     {
       "id": "segment-102",
@@ -1020,8 +1240,13 @@
       "start": 1247332,
       "end": 1260125,
       "non_whitespace_chars": 10590,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "partly_covered_by_formal_samples",
+      "note_status": "mapped_to_sample_notes",
+      "line_start": 65598,
+      "line_end": 66343,
+      "matching_sample_notes": [
+        "notes/segment-004.md"
+      ]
     },
     {
       "id": "segment-103",
@@ -1030,8 +1255,13 @@
       "start": 1260125,
       "end": 1272764,
       "non_whitespace_chars": 10526,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "covered_by_formal_samples",
+      "note_status": "mapped_to_sample_notes",
+      "line_start": 66344,
+      "line_end": 67059,
+      "matching_sample_notes": [
+        "notes/segment-004.md"
+      ]
     },
     {
       "id": "segment-104",
@@ -1040,8 +1270,10 @@
       "start": 1272764,
       "end": 1285725,
       "non_whitespace_chars": 10740,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 67060,
+      "line_end": 67811
     },
     {
       "id": "segment-105",
@@ -1050,8 +1282,10 @@
       "start": 1285725,
       "end": 1298104,
       "non_whitespace_chars": 10368,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 67812,
+      "line_end": 68493
     },
     {
       "id": "segment-106",
@@ -1060,8 +1294,10 @@
       "start": 1298104,
       "end": 1310441,
       "non_whitespace_chars": 10338,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 68494,
+      "line_end": 69171
     },
     {
       "id": "segment-107",
@@ -1070,8 +1306,10 @@
       "start": 1310441,
       "end": 1323215,
       "non_whitespace_chars": 10727,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 69172,
+      "line_end": 69865
     },
     {
       "id": "segment-108",
@@ -1080,8 +1318,10 @@
       "start": 1323215,
       "end": 1335858,
       "non_whitespace_chars": 10590,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 69866,
+      "line_end": 70561
     },
     {
       "id": "segment-109",
@@ -1090,8 +1330,10 @@
       "start": 1335858,
       "end": 1346162,
       "non_whitespace_chars": 8472,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 70562,
+      "line_end": 71181
     },
     {
       "id": "segment-110",
@@ -1100,8 +1342,10 @@
       "start": 1346162,
       "end": 1358976,
       "non_whitespace_chars": 10543,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 71182,
+      "line_end": 71945
     },
     {
       "id": "segment-111",
@@ -1110,8 +1354,10 @@
       "start": 1358976,
       "end": 1372204,
       "non_whitespace_chars": 10797,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 71946,
+      "line_end": 72767
     },
     {
       "id": "segment-112",
@@ -1120,8 +1366,10 @@
       "start": 1372204,
       "end": 1385339,
       "non_whitespace_chars": 10584,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 72768,
+      "line_end": 73629
     },
     {
       "id": "segment-113",
@@ -1130,8 +1378,10 @@
       "start": 1385339,
       "end": 1398163,
       "non_whitespace_chars": 10621,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 73630,
+      "line_end": 74375
     },
     {
       "id": "segment-114",
@@ -1140,8 +1390,10 @@
       "start": 1398163,
       "end": 1410243,
       "non_whitespace_chars": 10321,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 74376,
+      "line_end": 74973
     },
     {
       "id": "segment-115",
@@ -1150,8 +1402,10 @@
       "start": 1410243,
       "end": 1422728,
       "non_whitespace_chars": 10396,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 74974,
+      "line_end": 75681
     },
     {
       "id": "segment-116",
@@ -1160,8 +1414,10 @@
       "start": 1422728,
       "end": 1435167,
       "non_whitespace_chars": 10434,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 75682,
+      "line_end": 76361
     },
     {
       "id": "segment-117",
@@ -1170,8 +1426,10 @@
       "start": 1435167,
       "end": 1448085,
       "non_whitespace_chars": 10987,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 76362,
+      "line_end": 76995
     },
     {
       "id": "segment-118",
@@ -1180,8 +1438,10 @@
       "start": 1448085,
       "end": 1460894,
       "non_whitespace_chars": 10522,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 76996,
+      "line_end": 77769
     },
     {
       "id": "segment-119",
@@ -1190,8 +1450,10 @@
       "start": 1460894,
       "end": 1473455,
       "non_whitespace_chars": 10406,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 77770,
+      "line_end": 78499
     },
     {
       "id": "segment-120",
@@ -1200,8 +1462,10 @@
       "start": 1473455,
       "end": 1484825,
       "non_whitespace_chars": 9533,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 78500,
+      "line_end": 79123
     },
     {
       "id": "segment-121",
@@ -1210,8 +1474,10 @@
       "start": 1484825,
       "end": 1497035,
       "non_whitespace_chars": 10187,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 79124,
+      "line_end": 79809
     },
     {
       "id": "segment-122",
@@ -1220,8 +1486,10 @@
       "start": 1497035,
       "end": 1509164,
       "non_whitespace_chars": 10280,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 79810,
+      "line_end": 80437
     },
     {
       "id": "segment-123",
@@ -1230,8 +1498,10 @@
       "start": 1509164,
       "end": 1521431,
       "non_whitespace_chars": 10562,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 80438,
+      "line_end": 81017
     },
     {
       "id": "segment-124",
@@ -1240,8 +1510,10 @@
       "start": 1521431,
       "end": 1533675,
       "non_whitespace_chars": 10389,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 81018,
+      "line_end": 81647
     },
     {
       "id": "segment-125",
@@ -1250,8 +1522,10 @@
       "start": 1533675,
       "end": 1545513,
       "non_whitespace_chars": 10133,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 81648,
+      "line_end": 82227
     },
     {
       "id": "segment-126",
@@ -1260,8 +1534,10 @@
       "start": 1545513,
       "end": 1557444,
       "non_whitespace_chars": 10178,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 82228,
+      "line_end": 82823
     },
     {
       "id": "segment-127",
@@ -1270,8 +1546,10 @@
       "start": 1557444,
       "end": 1569661,
       "non_whitespace_chars": 10458,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 82824,
+      "line_end": 83421
     },
     {
       "id": "segment-128",
@@ -1280,8 +1558,10 @@
       "start": 1569661,
       "end": 1581654,
       "non_whitespace_chars": 10360,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 83422,
+      "line_end": 83977
     },
     {
       "id": "segment-129",
@@ -1290,8 +1570,10 @@
       "start": 1581654,
       "end": 1593738,
       "non_whitespace_chars": 10325,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 83978,
+      "line_end": 84575
     },
     {
       "id": "segment-130",
@@ -1300,8 +1582,10 @@
       "start": 1593738,
       "end": 1605775,
       "non_whitespace_chars": 10254,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 84576,
+      "line_end": 85181
     },
     {
       "id": "segment-131",
@@ -1310,8 +1594,10 @@
       "start": 1605775,
       "end": 1618088,
       "non_whitespace_chars": 10386,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 85182,
+      "line_end": 85835
     },
     {
       "id": "segment-132",
@@ -1320,8 +1606,10 @@
       "start": 1618088,
       "end": 1630292,
       "non_whitespace_chars": 10307,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 85836,
+      "line_end": 86479
     },
     {
       "id": "segment-133",
@@ -1330,8 +1618,10 @@
       "start": 1630292,
       "end": 1642869,
       "non_whitespace_chars": 10788,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 86480,
+      "line_end": 87087
     },
     {
       "id": "segment-134",
@@ -1340,8 +1630,10 @@
       "start": 1642869,
       "end": 1655253,
       "non_whitespace_chars": 10601,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 87088,
+      "line_end": 87693
     },
     {
       "id": "segment-135",
@@ -1350,8 +1642,10 @@
       "start": 1655253,
       "end": 1667219,
       "non_whitespace_chars": 10273,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 87694,
+      "line_end": 88269
     },
     {
       "id": "segment-136",
@@ -1360,8 +1654,10 @@
       "start": 1667219,
       "end": 1679608,
       "non_whitespace_chars": 10558,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 88270,
+      "line_end": 88891
     },
     {
       "id": "segment-137",
@@ -1370,8 +1666,10 @@
       "start": 1679608,
       "end": 1691945,
       "non_whitespace_chars": 10416,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 88892,
+      "line_end": 89543
     },
     {
       "id": "segment-138",
@@ -1380,8 +1678,10 @@
       "start": 1691945,
       "end": 1704093,
       "non_whitespace_chars": 10401,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 89544,
+      "line_end": 90137
     },
     {
       "id": "segment-139",
@@ -1390,8 +1690,10 @@
       "start": 1704093,
       "end": 1716180,
       "non_whitespace_chars": 10400,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 90138,
+      "line_end": 90711
     },
     {
       "id": "segment-140",
@@ -1400,8 +1702,10 @@
       "start": 1716180,
       "end": 1728193,
       "non_whitespace_chars": 10422,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 90712,
+      "line_end": 91253
     },
     {
       "id": "segment-141",
@@ -1410,8 +1714,10 @@
       "start": 1728193,
       "end": 1740203,
       "non_whitespace_chars": 10281,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 91254,
+      "line_end": 91841
     },
     {
       "id": "segment-142",
@@ -1420,8 +1726,13 @@
       "start": 1740203,
       "end": 1752657,
       "non_whitespace_chars": 10551,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "partly_covered_by_formal_samples",
+      "note_status": "mapped_to_sample_notes",
+      "line_start": 91842,
+      "line_end": 92487,
+      "matching_sample_notes": [
+        "notes/segment-006.md"
+      ]
     },
     {
       "id": "segment-143",
@@ -1430,8 +1741,13 @@
       "start": 1752657,
       "end": 1764524,
       "non_whitespace_chars": 10282,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "partly_covered_by_formal_samples",
+      "note_status": "mapped_to_sample_notes",
+      "line_start": 92488,
+      "line_end": 93027,
+      "matching_sample_notes": [
+        "notes/segment-006.md"
+      ]
     },
     {
       "id": "segment-144",
@@ -1440,8 +1756,10 @@
       "start": 1764524,
       "end": 1776386,
       "non_whitespace_chars": 10313,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 93028,
+      "line_end": 93555
     },
     {
       "id": "segment-145",
@@ -1450,8 +1768,10 @@
       "start": 1776386,
       "end": 1788309,
       "non_whitespace_chars": 10374,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 93556,
+      "line_end": 94083
     },
     {
       "id": "segment-146",
@@ -1460,8 +1780,10 @@
       "start": 1788309,
       "end": 1800239,
       "non_whitespace_chars": 10315,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 94084,
+      "line_end": 94633
     },
     {
       "id": "segment-147",
@@ -1470,8 +1792,10 @@
       "start": 1800239,
       "end": 1812055,
       "non_whitespace_chars": 10327,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 94634,
+      "line_end": 95141
     },
     {
       "id": "segment-148",
@@ -1480,8 +1804,10 @@
       "start": 1812055,
       "end": 1824068,
       "non_whitespace_chars": 10326,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 95142,
+      "line_end": 95715
     },
     {
       "id": "segment-149",
@@ -1490,8 +1816,10 @@
       "start": 1824068,
       "end": 1836976,
       "non_whitespace_chars": 10675,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 95716,
+      "line_end": 96471
     },
     {
       "id": "segment-150",
@@ -1500,8 +1828,10 @@
       "start": 1836976,
       "end": 1849353,
       "non_whitespace_chars": 10300,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 96472,
+      "line_end": 97175
     },
     {
       "id": "segment-151",
@@ -1510,8 +1840,10 @@
       "start": 1849353,
       "end": 1862034,
       "non_whitespace_chars": 10442,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 97176,
+      "line_end": 97933
     },
     {
       "id": "segment-152",
@@ -1520,8 +1852,10 @@
       "start": 1862034,
       "end": 1874508,
       "non_whitespace_chars": 10247,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 97934,
+      "line_end": 98687
     },
     {
       "id": "segment-153",
@@ -1530,8 +1864,10 @@
       "start": 1874508,
       "end": 1886630,
       "non_whitespace_chars": 10261,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 98688,
+      "line_end": 99319
     },
     {
       "id": "segment-154",
@@ -1540,8 +1876,10 @@
       "start": 1886630,
       "end": 1899019,
       "non_whitespace_chars": 10486,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 99320,
+      "line_end": 99965
     },
     {
       "id": "segment-155",
@@ -1550,8 +1888,10 @@
       "start": 1899019,
       "end": 1911077,
       "non_whitespace_chars": 10203,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 99966,
+      "line_end": 100595
     },
     {
       "id": "segment-156",
@@ -1560,8 +1900,10 @@
       "start": 1911077,
       "end": 1923291,
       "non_whitespace_chars": 10251,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 100596,
+      "line_end": 101261
     },
     {
       "id": "segment-157",
@@ -1570,8 +1912,10 @@
       "start": 1923291,
       "end": 1935411,
       "non_whitespace_chars": 10283,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 101262,
+      "line_end": 101885
     },
     {
       "id": "segment-158",
@@ -1580,8 +1924,10 @@
       "start": 1935411,
       "end": 1947570,
       "non_whitespace_chars": 10406,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 101886,
+      "line_end": 102481
     },
     {
       "id": "segment-159",
@@ -1590,8 +1936,10 @@
       "start": 1947570,
       "end": 1959301,
       "non_whitespace_chars": 10212,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 102482,
+      "line_end": 102999
     },
     {
       "id": "segment-160",
@@ -1600,8 +1948,10 @@
       "start": 1959301,
       "end": 1971065,
       "non_whitespace_chars": 10245,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 103000,
+      "line_end": 103517
     },
     {
       "id": "segment-161",
@@ -1610,8 +1960,10 @@
       "start": 1971065,
       "end": 1982795,
       "non_whitespace_chars": 10146,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 103518,
+      "line_end": 104057
     },
     {
       "id": "segment-162",
@@ -1620,8 +1972,10 @@
       "start": 1982795,
       "end": 1995631,
       "non_whitespace_chars": 11282,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 104058,
+      "line_end": 104553
     },
     {
       "id": "segment-163",
@@ -1630,8 +1984,10 @@
       "start": 1995631,
       "end": 2007961,
       "non_whitespace_chars": 10565,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 104554,
+      "line_end": 105153
     },
     {
       "id": "segment-164",
@@ -1640,8 +1996,10 @@
       "start": 2007961,
       "end": 2020012,
       "non_whitespace_chars": 10196,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 105154,
+      "line_end": 105783
     },
     {
       "id": "segment-165",
@@ -1650,8 +2008,10 @@
       "start": 2020012,
       "end": 2032280,
       "non_whitespace_chars": 10356,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 105784,
+      "line_end": 106431
     },
     {
       "id": "segment-166",
@@ -1660,8 +2020,10 @@
       "start": 2032280,
       "end": 2044975,
       "non_whitespace_chars": 10749,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 106432,
+      "line_end": 107091
     },
     {
       "id": "segment-167",
@@ -1670,8 +2032,10 @@
       "start": 2044975,
       "end": 2057119,
       "non_whitespace_chars": 10288,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 107092,
+      "line_end": 107721
     },
     {
       "id": "segment-168",
@@ -1680,8 +2044,10 @@
       "start": 2057119,
       "end": 2069278,
       "non_whitespace_chars": 10364,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 107722,
+      "line_end": 108331
     },
     {
       "id": "segment-169",
@@ -1690,8 +2056,10 @@
       "start": 2069278,
       "end": 2081392,
       "non_whitespace_chars": 10295,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 108332,
+      "line_end": 108949
     },
     {
       "id": "segment-170",
@@ -1700,8 +2068,10 @@
       "start": 2081392,
       "end": 2093726,
       "non_whitespace_chars": 10468,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 108950,
+      "line_end": 109581
     },
     {
       "id": "segment-171",
@@ -1710,8 +2080,10 @@
       "start": 2093726,
       "end": 2105574,
       "non_whitespace_chars": 10143,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 109582,
+      "line_end": 110161
     },
     {
       "id": "segment-172",
@@ -1720,8 +2092,10 @@
       "start": 2105574,
       "end": 2117707,
       "non_whitespace_chars": 10278,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 110162,
+      "line_end": 110791
     },
     {
       "id": "segment-173",
@@ -1730,8 +2104,10 @@
       "start": 2117707,
       "end": 2129500,
       "non_whitespace_chars": 10184,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 110792,
+      "line_end": 111339
     },
     {
       "id": "segment-174",
@@ -1740,8 +2116,10 @@
       "start": 2129500,
       "end": 2142062,
       "non_whitespace_chars": 10508,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 111340,
+      "line_end": 112035
     },
     {
       "id": "segment-175",
@@ -1750,8 +2128,10 @@
       "start": 2142062,
       "end": 2153843,
       "non_whitespace_chars": 10178,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 112036,
+      "line_end": 112581
     },
     {
       "id": "segment-176",
@@ -1760,8 +2140,10 @@
       "start": 2153843,
       "end": 2165798,
       "non_whitespace_chars": 10214,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 112582,
+      "line_end": 113173
     },
     {
       "id": "segment-177",
@@ -1770,8 +2152,10 @@
       "start": 2165798,
       "end": 2177932,
       "non_whitespace_chars": 10327,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 113174,
+      "line_end": 113787
     },
     {
       "id": "segment-178",
@@ -1780,8 +2164,10 @@
       "start": 2177932,
       "end": 2189996,
       "non_whitespace_chars": 10396,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 113788,
+      "line_end": 114355
     },
     {
       "id": "segment-179",
@@ -1790,8 +2176,10 @@
       "start": 2189996,
       "end": 2201968,
       "non_whitespace_chars": 10363,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 114356,
+      "line_end": 114903
     },
     {
       "id": "segment-180",
@@ -1800,8 +2188,10 @@
       "start": 2201968,
       "end": 2213962,
       "non_whitespace_chars": 10295,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 114904,
+      "line_end": 115481
     },
     {
       "id": "segment-181",
@@ -1810,8 +2200,10 @@
       "start": 2213962,
       "end": 2225187,
       "non_whitespace_chars": 9705,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 115482,
+      "line_end": 115997
     },
     {
       "id": "segment-182",
@@ -1820,8 +2212,10 @@
       "start": 2225187,
       "end": 2235643,
       "non_whitespace_chars": 9026,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 115998,
+      "line_end": 116483
     },
     {
       "id": "segment-183",
@@ -1830,8 +2224,10 @@
       "start": 2235643,
       "end": 2248020,
       "non_whitespace_chars": 10402,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 116484,
+      "line_end": 117153
     },
     {
       "id": "segment-184",
@@ -1840,8 +2236,10 @@
       "start": 2248020,
       "end": 2259864,
       "non_whitespace_chars": 10282,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 117154,
+      "line_end": 117683
     },
     {
       "id": "segment-185",
@@ -1850,8 +2248,10 @@
       "start": 2259864,
       "end": 2272046,
       "non_whitespace_chars": 10578,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 117684,
+      "line_end": 118227
     },
     {
       "id": "segment-186",
@@ -1860,8 +2260,10 @@
       "start": 2272046,
       "end": 2283997,
       "non_whitespace_chars": 10186,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 118228,
+      "line_end": 118827
     },
     {
       "id": "segment-187",
@@ -1870,8 +2272,10 @@
       "start": 2283997,
       "end": 2296016,
       "non_whitespace_chars": 10290,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 118828,
+      "line_end": 119415
     },
     {
       "id": "segment-188",
@@ -1880,8 +2284,10 @@
       "start": 2296016,
       "end": 2308357,
       "non_whitespace_chars": 10510,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 119416,
+      "line_end": 120037
     },
     {
       "id": "segment-189",
@@ -1890,8 +2296,10 @@
       "start": 2308357,
       "end": 2320769,
       "non_whitespace_chars": 10623,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 120038,
+      "line_end": 120645
     },
     {
       "id": "segment-190",
@@ -1900,8 +2308,10 @@
       "start": 2320769,
       "end": 2332864,
       "non_whitespace_chars": 10281,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 120646,
+      "line_end": 121261
     },
     {
       "id": "segment-191",
@@ -1910,8 +2320,10 @@
       "start": 2332864,
       "end": 2344769,
       "non_whitespace_chars": 10188,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 121262,
+      "line_end": 121845
     },
     {
       "id": "segment-192",
@@ -1920,8 +2332,10 @@
       "start": 2344769,
       "end": 2356942,
       "non_whitespace_chars": 10360,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 121846,
+      "line_end": 122461
     },
     {
       "id": "segment-193",
@@ -1930,8 +2344,10 @@
       "start": 2356942,
       "end": 2369091,
       "non_whitespace_chars": 10384,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 122462,
+      "line_end": 123061
     },
     {
       "id": "segment-194",
@@ -1940,8 +2356,10 @@
       "start": 2369091,
       "end": 2381077,
       "non_whitespace_chars": 10215,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 123062,
+      "line_end": 123663
     },
     {
       "id": "segment-195",
@@ -1950,8 +2368,10 @@
       "start": 2381077,
       "end": 2392938,
       "non_whitespace_chars": 10162,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 123664,
+      "line_end": 124241
     },
     {
       "id": "segment-196",
@@ -1960,8 +2380,10 @@
       "start": 2392938,
       "end": 2405163,
       "non_whitespace_chars": 10400,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 124242,
+      "line_end": 124861
     },
     {
       "id": "segment-197",
@@ -1970,8 +2392,10 @@
       "start": 2405163,
       "end": 2417484,
       "non_whitespace_chars": 10478,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 124862,
+      "line_end": 125487
     },
     {
       "id": "segment-198",
@@ -1980,8 +2404,10 @@
       "start": 2417484,
       "end": 2429523,
       "non_whitespace_chars": 10196,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 125488,
+      "line_end": 126113
     },
     {
       "id": "segment-199",
@@ -1990,8 +2416,10 @@
       "start": 2429523,
       "end": 2441533,
       "non_whitespace_chars": 10155,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 126114,
+      "line_end": 126743
     },
     {
       "id": "segment-200",
@@ -2000,8 +2428,10 @@
       "start": 2441533,
       "end": 2452464,
       "non_whitespace_chars": 9291,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 126744,
+      "line_end": 127299
     },
     {
       "id": "segment-201",
@@ -2010,8 +2440,10 @@
       "start": 2452464,
       "end": 2465027,
       "non_whitespace_chars": 10332,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 127300,
+      "line_end": 128033
     },
     {
       "id": "segment-202",
@@ -2020,8 +2452,10 @@
       "start": 2465027,
       "end": 2477244,
       "non_whitespace_chars": 10242,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 128034,
+      "line_end": 128703
     },
     {
       "id": "segment-203",
@@ -2030,8 +2464,10 @@
       "start": 2477244,
       "end": 2489324,
       "non_whitespace_chars": 10219,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 128704,
+      "line_end": 129335
     },
     {
       "id": "segment-204",
@@ -2040,8 +2476,10 @@
       "start": 2489324,
       "end": 2501358,
       "non_whitespace_chars": 10167,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 129336,
+      "line_end": 129969
     },
     {
       "id": "segment-205",
@@ -2050,8 +2488,10 @@
       "start": 2501358,
       "end": 2513511,
       "non_whitespace_chars": 10358,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 129970,
+      "line_end": 130579
     },
     {
       "id": "segment-206",
@@ -2060,8 +2500,10 @@
       "start": 2513511,
       "end": 2526495,
       "non_whitespace_chars": 10691,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 130580,
+      "line_end": 131355
     },
     {
       "id": "segment-207",
@@ -2070,8 +2512,10 @@
       "start": 2526495,
       "end": 2538517,
       "non_whitespace_chars": 10083,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 131356,
+      "line_end": 132013
     },
     {
       "id": "segment-208",
@@ -2080,8 +2524,10 @@
       "start": 2538517,
       "end": 2550674,
       "non_whitespace_chars": 10254,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 132014,
+      "line_end": 132659
     },
     {
       "id": "segment-209",
@@ -2090,8 +2536,10 @@
       "start": 2550674,
       "end": 2562430,
       "non_whitespace_chars": 10099,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 132660,
+      "line_end": 133223
     },
     {
       "id": "segment-210",
@@ -2100,8 +2548,10 @@
       "start": 2562430,
       "end": 2574401,
       "non_whitespace_chars": 10248,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 133224,
+      "line_end": 133809
     },
     {
       "id": "segment-211",
@@ -2110,8 +2560,10 @@
       "start": 2574401,
       "end": 2586843,
       "non_whitespace_chars": 10497,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 133810,
+      "line_end": 134469
     },
     {
       "id": "segment-212",
@@ -2120,8 +2572,10 @@
       "start": 2586843,
       "end": 2599083,
       "non_whitespace_chars": 10259,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 134470,
+      "line_end": 135141
     },
     {
       "id": "segment-213",
@@ -2130,8 +2584,10 @@
       "start": 2599083,
       "end": 2611439,
       "non_whitespace_chars": 10351,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 135142,
+      "line_end": 135821
     },
     {
       "id": "segment-214",
@@ -2140,8 +2596,10 @@
       "start": 2611439,
       "end": 2623628,
       "non_whitespace_chars": 10304,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 135822,
+      "line_end": 136461
     },
     {
       "id": "segment-215",
@@ -2150,8 +2608,10 @@
       "start": 2623628,
       "end": 2635708,
       "non_whitespace_chars": 10225,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 136462,
+      "line_end": 137091
     },
     {
       "id": "segment-216",
@@ -2160,8 +2620,10 @@
       "start": 2635708,
       "end": 2647826,
       "non_whitespace_chars": 10449,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 137092,
+      "line_end": 137659
     },
     {
       "id": "segment-217",
@@ -2170,8 +2632,10 @@
       "start": 2647826,
       "end": 2659462,
       "non_whitespace_chars": 10075,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 137660,
+      "line_end": 138191
     },
     {
       "id": "segment-218",
@@ -2180,8 +2644,10 @@
       "start": 2659462,
       "end": 2671787,
       "non_whitespace_chars": 10596,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 138192,
+      "line_end": 138779
     },
     {
       "id": "segment-219",
@@ -2190,8 +2656,10 @@
       "start": 2671787,
       "end": 2683811,
       "non_whitespace_chars": 10343,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 138780,
+      "line_end": 139351
     },
     {
       "id": "segment-220",
@@ -2200,8 +2668,10 @@
       "start": 2683811,
       "end": 2696078,
       "non_whitespace_chars": 10544,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 139352,
+      "line_end": 139937
     },
     {
       "id": "segment-221",
@@ -2210,8 +2680,10 @@
       "start": 2696078,
       "end": 2708080,
       "non_whitespace_chars": 10345,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 139938,
+      "line_end": 140501
     },
     {
       "id": "segment-222",
@@ -2220,8 +2692,10 @@
       "start": 2708080,
       "end": 2720233,
       "non_whitespace_chars": 10472,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 140502,
+      "line_end": 141073
     },
     {
       "id": "segment-223",
@@ -2230,8 +2704,10 @@
       "start": 2720233,
       "end": 2732252,
       "non_whitespace_chars": 10188,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 141074,
+      "line_end": 141695
     },
     {
       "id": "segment-224",
@@ -2240,8 +2716,10 @@
       "start": 2732252,
       "end": 2744363,
       "non_whitespace_chars": 10220,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 141696,
+      "line_end": 142337
     },
     {
       "id": "segment-225",
@@ -2250,8 +2728,10 @@
       "start": 2744363,
       "end": 2756397,
       "non_whitespace_chars": 10089,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 142338,
+      "line_end": 142997
     },
     {
       "id": "segment-226",
@@ -2260,8 +2740,10 @@
       "start": 2756397,
       "end": 2768846,
       "non_whitespace_chars": 10384,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 142998,
+      "line_end": 143697
     },
     {
       "id": "segment-227",
@@ -2270,8 +2752,10 @@
       "start": 2768846,
       "end": 2780535,
       "non_whitespace_chars": 10170,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 143698,
+      "line_end": 144215
     },
     {
       "id": "segment-228",
@@ -2280,8 +2764,10 @@
       "start": 2780535,
       "end": 2792374,
       "non_whitespace_chars": 10272,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 144216,
+      "line_end": 144749
     },
     {
       "id": "segment-229",
@@ -2290,8 +2776,10 @@
       "start": 2792374,
       "end": 2803978,
       "non_whitespace_chars": 10151,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 144750,
+      "line_end": 145245
     },
     {
       "id": "segment-230",
@@ -2300,8 +2788,10 @@
       "start": 2803978,
       "end": 2816011,
       "non_whitespace_chars": 10418,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 145246,
+      "line_end": 145795
     },
     {
       "id": "segment-231",
@@ -2310,8 +2800,10 @@
       "start": 2816011,
       "end": 2827899,
       "non_whitespace_chars": 10189,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 145796,
+      "line_end": 146373
     },
     {
       "id": "segment-232",
@@ -2320,8 +2812,10 @@
       "start": 2827899,
       "end": 2840013,
       "non_whitespace_chars": 10337,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 146374,
+      "line_end": 146977
     },
     {
       "id": "segment-233",
@@ -2330,8 +2824,10 @@
       "start": 2840013,
       "end": 2852718,
       "non_whitespace_chars": 10730,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 146978,
+      "line_end": 147647
     },
     {
       "id": "segment-234",
@@ -2340,8 +2836,10 @@
       "start": 2852718,
       "end": 2864976,
       "non_whitespace_chars": 10379,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 147648,
+      "line_end": 148285
     },
     {
       "id": "segment-235",
@@ -2350,8 +2848,10 @@
       "start": 2864976,
       "end": 2877175,
       "non_whitespace_chars": 10116,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 148286,
+      "line_end": 148991
     },
     {
       "id": "segment-236",
@@ -2360,8 +2860,10 @@
       "start": 2877175,
       "end": 2889613,
       "non_whitespace_chars": 10403,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 148992,
+      "line_end": 149681
     },
     {
       "id": "segment-237",
@@ -2370,8 +2872,10 @@
       "start": 2889613,
       "end": 2902151,
       "non_whitespace_chars": 10545,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 149682,
+      "line_end": 150357
     },
     {
       "id": "segment-238",
@@ -2380,8 +2884,10 @@
       "start": 2902151,
       "end": 2912873,
       "non_whitespace_chars": 9238,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 150358,
+      "line_end": 150861
     },
     {
       "id": "segment-239",
@@ -2390,8 +2896,10 @@
       "start": 2912873,
       "end": 2925426,
       "non_whitespace_chars": 10460,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 150862,
+      "line_end": 151567
     },
     {
       "id": "segment-240",
@@ -2400,8 +2908,10 @@
       "start": 2925426,
       "end": 2937831,
       "non_whitespace_chars": 10424,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 151568,
+      "line_end": 152239
     },
     {
       "id": "segment-241",
@@ -2410,8 +2920,10 @@
       "start": 2937831,
       "end": 2950065,
       "non_whitespace_chars": 10571,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 152240,
+      "line_end": 152805
     },
     {
       "id": "segment-242",
@@ -2420,8 +2932,10 @@
       "start": 2950065,
       "end": 2962370,
       "non_whitespace_chars": 10420,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 152806,
+      "line_end": 153445
     },
     {
       "id": "segment-243",
@@ -2430,8 +2944,10 @@
       "start": 2962370,
       "end": 2974947,
       "non_whitespace_chars": 10512,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 153446,
+      "line_end": 154145
     },
     {
       "id": "segment-244",
@@ -2440,8 +2956,13 @@
       "start": 2974947,
       "end": 2987490,
       "non_whitespace_chars": 10616,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "partly_covered_by_formal_samples",
+      "note_status": "mapped_to_sample_notes",
+      "line_start": 154146,
+      "line_end": 154799,
+      "matching_sample_notes": [
+        "notes/segment-007.md"
+      ]
     },
     {
       "id": "segment-245",
@@ -2450,8 +2971,10 @@
       "start": 2987490,
       "end": 2999976,
       "non_whitespace_chars": 10481,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 154800,
+      "line_end": 155479
     },
     {
       "id": "segment-246",
@@ -2460,8 +2983,10 @@
       "start": 2999976,
       "end": 3012825,
       "non_whitespace_chars": 10760,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 155480,
+      "line_end": 156187
     },
     {
       "id": "segment-247",
@@ -2470,8 +2995,10 @@
       "start": 3012825,
       "end": 3025153,
       "non_whitespace_chars": 10131,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 156188,
+      "line_end": 156931
     },
     {
       "id": "segment-248",
@@ -2480,8 +3007,10 @@
       "start": 3025153,
       "end": 3037630,
       "non_whitespace_chars": 10532,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 156932,
+      "line_end": 157591
     },
     {
       "id": "segment-249",
@@ -2490,8 +3019,10 @@
       "start": 3037630,
       "end": 3049705,
       "non_whitespace_chars": 10334,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 157592,
+      "line_end": 158183
     },
     {
       "id": "segment-250",
@@ -2500,8 +3031,10 @@
       "start": 3049705,
       "end": 3062003,
       "non_whitespace_chars": 10413,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 158184,
+      "line_end": 158823
     },
     {
       "id": "segment-251",
@@ -2510,8 +3043,10 @@
       "start": 3062003,
       "end": 3074791,
       "non_whitespace_chars": 10731,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 158824,
+      "line_end": 159515
     },
     {
       "id": "segment-252",
@@ -2520,8 +3055,10 @@
       "start": 3074791,
       "end": 3087150,
       "non_whitespace_chars": 10366,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 159516,
+      "line_end": 160191
     },
     {
       "id": "segment-253",
@@ -2530,8 +3067,10 @@
       "start": 3087150,
       "end": 3099540,
       "non_whitespace_chars": 10307,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 160192,
+      "line_end": 160893
     },
     {
       "id": "segment-254",
@@ -2540,8 +3079,10 @@
       "start": 3099540,
       "end": 3112187,
       "non_whitespace_chars": 10564,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 160894,
+      "line_end": 161599
     },
     {
       "id": "segment-255",
@@ -2550,8 +3091,10 @@
       "start": 3112187,
       "end": 3123221,
       "non_whitespace_chars": 9199,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 161600,
+      "line_end": 162203
     },
     {
       "id": "segment-256",
@@ -2560,8 +3103,10 @@
       "start": 3123221,
       "end": 3135318,
       "non_whitespace_chars": 10218,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 162204,
+      "line_end": 162841
     },
     {
       "id": "segment-257",
@@ -2570,8 +3115,10 @@
       "start": 3135318,
       "end": 3147133,
       "non_whitespace_chars": 10266,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 162842,
+      "line_end": 163369
     },
     {
       "id": "segment-258",
@@ -2580,8 +3127,10 @@
       "start": 3147133,
       "end": 3158999,
       "non_whitespace_chars": 10059,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 163370,
+      "line_end": 163983
     },
     {
       "id": "segment-259",
@@ -2590,8 +3139,10 @@
       "start": 3158999,
       "end": 3170803,
       "non_whitespace_chars": 10195,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 163984,
+      "line_end": 164531
     },
     {
       "id": "segment-260",
@@ -2600,8 +3151,10 @@
       "start": 3170803,
       "end": 3182565,
       "non_whitespace_chars": 10135,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 164532,
+      "line_end": 165085
     },
     {
       "id": "segment-261",
@@ -2610,8 +3163,10 @@
       "start": 3182565,
       "end": 3194168,
       "non_whitespace_chars": 9880,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 165086,
+      "line_end": 165671
     },
     {
       "id": "segment-262",
@@ -2620,8 +3175,10 @@
       "start": 3194168,
       "end": 3204816,
       "non_whitespace_chars": 9050,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 165672,
+      "line_end": 166213
     },
     {
       "id": "segment-263",
@@ -2630,8 +3187,10 @@
       "start": 3204816,
       "end": 3216651,
       "non_whitespace_chars": 10040,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 166214,
+      "line_end": 166823
     },
     {
       "id": "segment-264",
@@ -2640,8 +3199,10 @@
       "start": 3216651,
       "end": 3228934,
       "non_whitespace_chars": 10452,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 166824,
+      "line_end": 167445
     },
     {
       "id": "segment-265",
@@ -2650,8 +3211,10 @@
       "start": 3228934,
       "end": 3241150,
       "non_whitespace_chars": 10427,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 167446,
+      "line_end": 168053
     },
     {
       "id": "segment-266",
@@ -2660,8 +3223,10 @@
       "start": 3241150,
       "end": 3253515,
       "non_whitespace_chars": 10492,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 168054,
+      "line_end": 168689
     },
     {
       "id": "segment-267",
@@ -2670,8 +3235,10 @@
       "start": 3253515,
       "end": 3265635,
       "non_whitespace_chars": 10427,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 168690,
+      "line_end": 169265
     },
     {
       "id": "segment-268",
@@ -2680,8 +3247,10 @@
       "start": 3265635,
       "end": 3277697,
       "non_whitespace_chars": 10255,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 169266,
+      "line_end": 169879
     },
     {
       "id": "segment-269",
@@ -2690,8 +3259,10 @@
       "start": 3277697,
       "end": 3289225,
       "non_whitespace_chars": 9961,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 169880,
+      "line_end": 170413
     },
     {
       "id": "segment-270",
@@ -2700,8 +3271,10 @@
       "start": 3289225,
       "end": 3300941,
       "non_whitespace_chars": 9879,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 170414,
+      "line_end": 171037
     },
     {
       "id": "segment-271",
@@ -2710,8 +3283,10 @@
       "start": 3300941,
       "end": 3312422,
       "non_whitespace_chars": 9806,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 171038,
+      "line_end": 171607
     },
     {
       "id": "segment-272",
@@ -2720,8 +3295,10 @@
       "start": 3312422,
       "end": 3323841,
       "non_whitespace_chars": 9732,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 171608,
+      "line_end": 172181
     },
     {
       "id": "segment-273",
@@ -2730,8 +3307,10 @@
       "start": 3323841,
       "end": 3335303,
       "non_whitespace_chars": 9739,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 172182,
+      "line_end": 172767
     },
     {
       "id": "segment-274",
@@ -2740,8 +3319,10 @@
       "start": 3335303,
       "end": 3346933,
       "non_whitespace_chars": 9853,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 172768,
+      "line_end": 173371
     },
     {
       "id": "segment-275",
@@ -2750,8 +3331,10 @@
       "start": 3346933,
       "end": 3359236,
       "non_whitespace_chars": 10322,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 173372,
+      "line_end": 174043
     },
     {
       "id": "segment-276",
@@ -2760,8 +3343,10 @@
       "start": 3359236,
       "end": 3370998,
       "non_whitespace_chars": 10033,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 174044,
+      "line_end": 174631
     },
     {
       "id": "segment-277",
@@ -2770,8 +3355,10 @@
       "start": 3370998,
       "end": 3383722,
       "non_whitespace_chars": 10671,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 174632,
+      "line_end": 175327
     },
     {
       "id": "segment-278",
@@ -2780,8 +3367,10 @@
       "start": 3383722,
       "end": 3395956,
       "non_whitespace_chars": 10415,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 175328,
+      "line_end": 175945
     },
     {
       "id": "segment-279",
@@ -2790,8 +3379,10 @@
       "start": 3395956,
       "end": 3408247,
       "non_whitespace_chars": 10370,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 175946,
+      "line_end": 176597
     },
     {
       "id": "segment-280",
@@ -2800,8 +3391,10 @@
       "start": 3408247,
       "end": 3420224,
       "non_whitespace_chars": 10332,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 176598,
+      "line_end": 177157
     },
     {
       "id": "segment-281",
@@ -2810,8 +3403,10 @@
       "start": 3420224,
       "end": 3432266,
       "non_whitespace_chars": 10337,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 177158,
+      "line_end": 177737
     },
     {
       "id": "segment-282",
@@ -2820,8 +3415,10 @@
       "start": 3432266,
       "end": 3444323,
       "non_whitespace_chars": 10226,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 177738,
+      "line_end": 178359
     },
     {
       "id": "segment-283",
@@ -2830,8 +3427,10 @@
       "start": 3444323,
       "end": 3456209,
       "non_whitespace_chars": 10139,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 178360,
+      "line_end": 178953
     },
     {
       "id": "segment-284",
@@ -2840,8 +3439,13 @@
       "start": 3456209,
       "end": 3468078,
       "non_whitespace_chars": 10278,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "partly_covered_by_formal_samples",
+      "note_status": "mapped_to_sample_notes",
+      "line_start": 178954,
+      "line_end": 179495,
+      "matching_sample_notes": [
+        "notes/segment-008.md"
+      ]
     },
     {
       "id": "segment-285",
@@ -2850,8 +3454,13 @@
       "start": 3468078,
       "end": 3479853,
       "non_whitespace_chars": 10076,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "partly_covered_by_formal_samples",
+      "note_status": "mapped_to_sample_notes",
+      "line_start": 179496,
+      "line_end": 180073,
+      "matching_sample_notes": [
+        "notes/segment-008.md"
+      ]
     },
     {
       "id": "segment-286",
@@ -2860,8 +3469,10 @@
       "start": 3479853,
       "end": 3491757,
       "non_whitespace_chars": 10181,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 180074,
+      "line_end": 180659
     },
     {
       "id": "segment-287",
@@ -2870,8 +3481,10 @@
       "start": 3491757,
       "end": 3503767,
       "non_whitespace_chars": 10395,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 180660,
+      "line_end": 181209
     },
     {
       "id": "segment-288",
@@ -2880,8 +3493,10 @@
       "start": 3503767,
       "end": 3515876,
       "non_whitespace_chars": 10374,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 181210,
+      "line_end": 181799
     },
     {
       "id": "segment-289",
@@ -2890,8 +3505,10 @@
       "start": 3515876,
       "end": 3528339,
       "non_whitespace_chars": 10616,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 181800,
+      "line_end": 182405
     },
     {
       "id": "segment-290",
@@ -2900,8 +3517,10 @@
       "start": 3528339,
       "end": 3539930,
       "non_whitespace_chars": 10006,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 182406,
+      "line_end": 182945
     },
     {
       "id": "segment-291",
@@ -2910,8 +3529,10 @@
       "start": 3539930,
       "end": 3551429,
       "non_whitespace_chars": 10016,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 182946,
+      "line_end": 183451
     },
     {
       "id": "segment-292",
@@ -2920,8 +3541,10 @@
       "start": 3551429,
       "end": 3563202,
       "non_whitespace_chars": 10146,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 183452,
+      "line_end": 184005
     },
     {
       "id": "segment-293",
@@ -2930,8 +3553,10 @@
       "start": 3563202,
       "end": 3575017,
       "non_whitespace_chars": 10236,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 184006,
+      "line_end": 184543
     },
     {
       "id": "segment-294",
@@ -2940,8 +3565,10 @@
       "start": 3575017,
       "end": 3586384,
       "non_whitespace_chars": 10070,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 184544,
+      "line_end": 184987
     },
     {
       "id": "segment-295",
@@ -2950,8 +3577,10 @@
       "start": 3586384,
       "end": 3597985,
       "non_whitespace_chars": 10130,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 184988,
+      "line_end": 185489
     },
     {
       "id": "segment-296",
@@ -2960,8 +3589,10 @@
       "start": 3597985,
       "end": 3609874,
       "non_whitespace_chars": 10178,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 185490,
+      "line_end": 186071
     },
     {
       "id": "segment-297",
@@ -2970,8 +3601,10 @@
       "start": 3609874,
       "end": 3621500,
       "non_whitespace_chars": 10047,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 186072,
+      "line_end": 186609
     },
     {
       "id": "segment-298",
@@ -2980,8 +3613,10 @@
       "start": 3621500,
       "end": 3633474,
       "non_whitespace_chars": 10239,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 186610,
+      "line_end": 187199
     },
     {
       "id": "segment-299",
@@ -2990,8 +3625,10 @@
       "start": 3633474,
       "end": 3645202,
       "non_whitespace_chars": 10221,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 187200,
+      "line_end": 187713
     },
     {
       "id": "segment-300",
@@ -3000,8 +3637,10 @@
       "start": 3645202,
       "end": 3656913,
       "non_whitespace_chars": 10258,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 187714,
+      "line_end": 188209
     },
     {
       "id": "segment-301",
@@ -3010,8 +3649,10 @@
       "start": 3656913,
       "end": 3668560,
       "non_whitespace_chars": 10182,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 188210,
+      "line_end": 188709
     },
     {
       "id": "segment-302",
@@ -3020,8 +3661,10 @@
       "start": 3668560,
       "end": 3680467,
       "non_whitespace_chars": 10304,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 188710,
+      "line_end": 189255
     },
     {
       "id": "segment-303",
@@ -3030,8 +3673,10 @@
       "start": 3680467,
       "end": 3692346,
       "non_whitespace_chars": 10192,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 189256,
+      "line_end": 189829
     },
     {
       "id": "segment-304",
@@ -3040,8 +3685,10 @@
       "start": 3692346,
       "end": 3704258,
       "non_whitespace_chars": 10333,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 189830,
+      "line_end": 190367
     },
     {
       "id": "segment-305",
@@ -3050,8 +3697,10 @@
       "start": 3704258,
       "end": 3716158,
       "non_whitespace_chars": 10261,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 190368,
+      "line_end": 190925
     },
     {
       "id": "segment-306",
@@ -3060,8 +3709,10 @@
       "start": 3716158,
       "end": 3728349,
       "non_whitespace_chars": 10507,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 190926,
+      "line_end": 191497
     },
     {
       "id": "segment-307",
@@ -3070,8 +3721,10 @@
       "start": 3728349,
       "end": 3740629,
       "non_whitespace_chars": 10411,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 191498,
+      "line_end": 192131
     },
     {
       "id": "segment-308",
@@ -3080,8 +3733,10 @@
       "start": 3740629,
       "end": 3753478,
       "non_whitespace_chars": 10753,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 192132,
+      "line_end": 192839
     },
     {
       "id": "segment-309",
@@ -3090,8 +3745,10 @@
       "start": 3753478,
       "end": 3766873,
       "non_whitespace_chars": 11011,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 192840,
+      "line_end": 193643
     },
     {
       "id": "segment-310",
@@ -3100,8 +3757,10 @@
       "start": 3766873,
       "end": 3779757,
       "non_whitespace_chars": 10903,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 193644,
+      "line_end": 194315
     },
     {
       "id": "segment-311",
@@ -3110,8 +3769,10 @@
       "start": 3779757,
       "end": 3791815,
       "non_whitespace_chars": 10299,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 194316,
+      "line_end": 194913
     },
     {
       "id": "segment-312",
@@ -3120,8 +3781,10 @@
       "start": 3791815,
       "end": 3804085,
       "non_whitespace_chars": 10283,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 194914,
+      "line_end": 195587
     },
     {
       "id": "segment-313",
@@ -3130,8 +3793,10 @@
       "start": 3804085,
       "end": 3816167,
       "non_whitespace_chars": 10311,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 195588,
+      "line_end": 196189
     },
     {
       "id": "segment-314",
@@ -3140,8 +3805,10 @@
       "start": 3816167,
       "end": 3827959,
       "non_whitespace_chars": 10213,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 196190,
+      "line_end": 196727
     },
     {
       "id": "segment-315",
@@ -3150,8 +3817,10 @@
       "start": 3827959,
       "end": 3839385,
       "non_whitespace_chars": 9588,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 196728,
+      "line_end": 197349
     },
     {
       "id": "segment-316",
@@ -3160,8 +3829,10 @@
       "start": 3839385,
       "end": 3851430,
       "non_whitespace_chars": 10424,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 197350,
+      "line_end": 197901
     },
     {
       "id": "segment-317",
@@ -3170,8 +3841,10 @@
       "start": 3851430,
       "end": 3863640,
       "non_whitespace_chars": 10505,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 197902,
+      "line_end": 198481
     },
     {
       "id": "segment-318",
@@ -3180,8 +3853,10 @@
       "start": 3863640,
       "end": 3874214,
       "non_whitespace_chars": 9012,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 198482,
+      "line_end": 199011
     },
     {
       "id": "segment-319",
@@ -3190,8 +3865,10 @@
       "start": 3874214,
       "end": 3887090,
       "non_whitespace_chars": 10912,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 199012,
+      "line_end": 199677
     },
     {
       "id": "segment-320",
@@ -3200,8 +3877,10 @@
       "start": 3887090,
       "end": 3899154,
       "non_whitespace_chars": 10221,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 199678,
+      "line_end": 200303
     },
     {
       "id": "segment-321",
@@ -3210,8 +3889,10 @@
       "start": 3899154,
       "end": 3911033,
       "non_whitespace_chars": 10420,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 200304,
+      "line_end": 200801
     },
     {
       "id": "segment-322",
@@ -3220,8 +3901,10 @@
       "start": 3911033,
       "end": 3922848,
       "non_whitespace_chars": 10104,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 200802,
+      "line_end": 201383
     },
     {
       "id": "segment-323",
@@ -3230,8 +3913,10 @@
       "start": 3922848,
       "end": 3935340,
       "non_whitespace_chars": 10523,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 201384,
+      "line_end": 202051
     },
     {
       "id": "segment-324",
@@ -3240,8 +3925,10 @@
       "start": 3935340,
       "end": 3947486,
       "non_whitespace_chars": 10549,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 202052,
+      "line_end": 202595
     },
     {
       "id": "segment-325",
@@ -3250,8 +3937,13 @@
       "start": 3947486,
       "end": 3959360,
       "non_whitespace_chars": 10133,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "partly_covered_by_formal_samples",
+      "note_status": "mapped_to_sample_notes",
+      "line_start": 202596,
+      "line_end": 203187,
+      "matching_sample_notes": [
+        "notes/segment-009.md"
+      ]
     },
     {
       "id": "segment-326",
@@ -3260,8 +3952,13 @@
       "start": 3959360,
       "end": 3971349,
       "non_whitespace_chars": 10164,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "partly_covered_by_formal_samples",
+      "note_status": "mapped_to_sample_notes",
+      "line_start": 203188,
+      "line_end": 203807,
+      "matching_sample_notes": [
+        "notes/segment-009.md"
+      ]
     },
     {
       "id": "segment-327",
@@ -3270,8 +3967,10 @@
       "start": 3971349,
       "end": 3982207,
       "non_whitespace_chars": 9308,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 203808,
+      "line_end": 204333
     },
     {
       "id": "segment-328",
@@ -3280,8 +3979,10 @@
       "start": 3982207,
       "end": 3994082,
       "non_whitespace_chars": 10302,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 204334,
+      "line_end": 204869
     },
     {
       "id": "segment-329",
@@ -3290,8 +3991,10 @@
       "start": 3994082,
       "end": 4006045,
       "non_whitespace_chars": 10330,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 204870,
+      "line_end": 205425
     },
     {
       "id": "segment-330",
@@ -3300,8 +4003,10 @@
       "start": 4006045,
       "end": 4017947,
       "non_whitespace_chars": 10239,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 205426,
+      "line_end": 205991
     },
     {
       "id": "segment-331",
@@ -3310,8 +4015,10 @@
       "start": 4017947,
       "end": 4030083,
       "non_whitespace_chars": 10383,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 205992,
+      "line_end": 206587
     },
     {
       "id": "segment-332",
@@ -3320,8 +4027,10 @@
       "start": 4030083,
       "end": 4042044,
       "non_whitespace_chars": 10400,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 206588,
+      "line_end": 207119
     },
     {
       "id": "segment-333",
@@ -3330,8 +4039,10 @@
       "start": 4042044,
       "end": 4054047,
       "non_whitespace_chars": 10490,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 207120,
+      "line_end": 207635
     },
     {
       "id": "segment-334",
@@ -3340,8 +4051,10 @@
       "start": 4054047,
       "end": 4066046,
       "non_whitespace_chars": 10347,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 207636,
+      "line_end": 208197
     },
     {
       "id": "segment-335",
@@ -3350,8 +4063,10 @@
       "start": 4066046,
       "end": 4077983,
       "non_whitespace_chars": 10286,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 208198,
+      "line_end": 208759
     },
     {
       "id": "segment-336",
@@ -3360,8 +4075,10 @@
       "start": 4077983,
       "end": 4089785,
       "non_whitespace_chars": 10235,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 208760,
+      "line_end": 209293
     },
     {
       "id": "segment-337",
@@ -3370,8 +4087,10 @@
       "start": 4089785,
       "end": 4101648,
       "non_whitespace_chars": 10416,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 209294,
+      "line_end": 209787
     },
     {
       "id": "segment-338",
@@ -3380,8 +4099,10 @@
       "start": 4101648,
       "end": 4113658,
       "non_whitespace_chars": 10473,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 209788,
+      "line_end": 210311
     },
     {
       "id": "segment-339",
@@ -3390,8 +4111,10 @@
       "start": 4113658,
       "end": 4125835,
       "non_whitespace_chars": 10556,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 210312,
+      "line_end": 210863
     },
     {
       "id": "segment-340",
@@ -3400,8 +4123,10 @@
       "start": 4125835,
       "end": 4137735,
       "non_whitespace_chars": 10279,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 210864,
+      "line_end": 211415
     },
     {
       "id": "segment-341",
@@ -3410,8 +4135,10 @@
       "start": 4137735,
       "end": 4149937,
       "non_whitespace_chars": 10365,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 211416,
+      "line_end": 212039
     },
     {
       "id": "segment-342",
@@ -3420,8 +4147,10 @@
       "start": 4149937,
       "end": 4161941,
       "non_whitespace_chars": 10197,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 212040,
+      "line_end": 212653
     },
     {
       "id": "segment-343",
@@ -3430,8 +4159,10 @@
       "start": 4161941,
       "end": 4174238,
       "non_whitespace_chars": 10412,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 212654,
+      "line_end": 213293
     },
     {
       "id": "segment-344",
@@ -3440,8 +4171,10 @@
       "start": 4174238,
       "end": 4186414,
       "non_whitespace_chars": 10381,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 213294,
+      "line_end": 213903
     },
     {
       "id": "segment-345",
@@ -3450,8 +4183,10 @@
       "start": 4186414,
       "end": 4198599,
       "non_whitespace_chars": 10504,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 213904,
+      "line_end": 214475
     },
     {
       "id": "segment-346",
@@ -3460,8 +4195,10 @@
       "start": 4198599,
       "end": 4210604,
       "non_whitespace_chars": 10324,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 214476,
+      "line_end": 215047
     },
     {
       "id": "segment-347",
@@ -3470,8 +4207,10 @@
       "start": 4210604,
       "end": 4222502,
       "non_whitespace_chars": 10163,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 215048,
+      "line_end": 215637
     },
     {
       "id": "segment-348",
@@ -3480,8 +4219,10 @@
       "start": 4222502,
       "end": 4234718,
       "non_whitespace_chars": 10403,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 215638,
+      "line_end": 216253
     },
     {
       "id": "segment-349",
@@ -3490,8 +4231,10 @@
       "start": 4234718,
       "end": 4246773,
       "non_whitespace_chars": 10200,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 216254,
+      "line_end": 216883
     },
     {
       "id": "segment-350",
@@ -3500,8 +4243,10 @@
       "start": 4246773,
       "end": 4259039,
       "non_whitespace_chars": 10495,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 216884,
+      "line_end": 217485
     },
     {
       "id": "segment-351",
@@ -3510,8 +4255,10 @@
       "start": 4259039,
       "end": 4271680,
       "non_whitespace_chars": 10726,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 217486,
+      "line_end": 218135
     },
     {
       "id": "segment-352",
@@ -3520,8 +4267,10 @@
       "start": 4271680,
       "end": 4284181,
       "non_whitespace_chars": 10814,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 218136,
+      "line_end": 218709
     },
     {
       "id": "segment-353",
@@ -3530,8 +4279,10 @@
       "start": 4284181,
       "end": 4296445,
       "non_whitespace_chars": 10553,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 218710,
+      "line_end": 219291
     },
     {
       "id": "segment-354",
@@ -3540,8 +4291,10 @@
       "start": 4296445,
       "end": 4308385,
       "non_whitespace_chars": 10217,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 219292,
+      "line_end": 219877
     },
     {
       "id": "segment-355",
@@ -3550,8 +4303,10 @@
       "start": 4308385,
       "end": 4320572,
       "non_whitespace_chars": 10524,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 219878,
+      "line_end": 220443
     },
     {
       "id": "segment-356",
@@ -3560,8 +4315,10 @@
       "start": 4320572,
       "end": 4332629,
       "non_whitespace_chars": 10040,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 220444,
+      "line_end": 221127
     },
     {
       "id": "segment-357",
@@ -3570,8 +4327,10 @@
       "start": 4332629,
       "end": 4343997,
       "non_whitespace_chars": 9717,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 221128,
+      "line_end": 221689
     },
     {
       "id": "segment-358",
@@ -3580,8 +4339,10 @@
       "start": 4343997,
       "end": 4356271,
       "non_whitespace_chars": 10407,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 221690,
+      "line_end": 222323
     },
     {
       "id": "segment-359",
@@ -3590,8 +4351,10 @@
       "start": 4356271,
       "end": 4368066,
       "non_whitespace_chars": 9988,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 222324,
+      "line_end": 222937
     },
     {
       "id": "segment-360",
@@ -3600,8 +4363,10 @@
       "start": 4368066,
       "end": 4380155,
       "non_whitespace_chars": 10336,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 222938,
+      "line_end": 223533
     },
     {
       "id": "segment-361",
@@ -3610,8 +4375,10 @@
       "start": 4380155,
       "end": 4392257,
       "non_whitespace_chars": 10337,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 223534,
+      "line_end": 224133
     },
     {
       "id": "segment-362",
@@ -3620,8 +4387,10 @@
       "start": 4392257,
       "end": 4404804,
       "non_whitespace_chars": 10692,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 224134,
+      "line_end": 224763
     },
     {
       "id": "segment-363",
@@ -3630,8 +4399,10 @@
       "start": 4404804,
       "end": 4416939,
       "non_whitespace_chars": 10328,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 224764,
+      "line_end": 225377
     },
     {
       "id": "segment-364",
@@ -3640,8 +4411,10 @@
       "start": 4416939,
       "end": 4429484,
       "non_whitespace_chars": 10744,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 225378,
+      "line_end": 225989
     },
     {
       "id": "segment-365",
@@ -3650,8 +4423,10 @@
       "start": 4429484,
       "end": 4441366,
       "non_whitespace_chars": 10129,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 225990,
+      "line_end": 226585
     },
     {
       "id": "segment-366",
@@ -3660,8 +4435,13 @@
       "start": 4441366,
       "end": 4453384,
       "non_whitespace_chars": 10229,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "partly_covered_by_formal_samples",
+      "note_status": "mapped_to_sample_notes",
+      "line_start": 226586,
+      "line_end": 227193,
+      "matching_sample_notes": [
+        "notes/segment-011.md"
+      ]
     },
     {
       "id": "segment-367",
@@ -3670,8 +4450,10 @@
       "start": 4453384,
       "end": 4465192,
       "non_whitespace_chars": 10187,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 227194,
+      "line_end": 227745
     },
     {
       "id": "segment-368",
@@ -3680,8 +4462,10 @@
       "start": 4465192,
       "end": 4477383,
       "non_whitespace_chars": 10330,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 227746,
+      "line_end": 228377
     },
     {
       "id": "segment-369",
@@ -3690,8 +4474,10 @@
       "start": 4477383,
       "end": 4489590,
       "non_whitespace_chars": 10208,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 228378,
+      "line_end": 229055
     },
     {
       "id": "segment-370",
@@ -3700,8 +4486,10 @@
       "start": 4489590,
       "end": 4501745,
       "non_whitespace_chars": 10054,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 229056,
+      "line_end": 229767
     },
     {
       "id": "segment-371",
@@ -3710,8 +4498,10 @@
       "start": 4501745,
       "end": 4514269,
       "non_whitespace_chars": 10525,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 229768,
+      "line_end": 230445
     },
     {
       "id": "segment-372",
@@ -3720,8 +4510,10 @@
       "start": 4514269,
       "end": 4526618,
       "non_whitespace_chars": 10506,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 230446,
+      "line_end": 231071
     },
     {
       "id": "segment-373",
@@ -3730,8 +4522,10 @@
       "start": 4526618,
       "end": 4538600,
       "non_whitespace_chars": 10187,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 231072,
+      "line_end": 231681
     },
     {
       "id": "segment-374",
@@ -3740,8 +4534,10 @@
       "start": 4538600,
       "end": 4550570,
       "non_whitespace_chars": 10391,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 231682,
+      "line_end": 232219
     },
     {
       "id": "segment-375",
@@ -3750,8 +4546,10 @@
       "start": 4550570,
       "end": 4562639,
       "non_whitespace_chars": 10370,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 232220,
+      "line_end": 232797
     },
     {
       "id": "segment-376",
@@ -3760,8 +4558,10 @@
       "start": 4562639,
       "end": 4574433,
       "non_whitespace_chars": 10185,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 232798,
+      "line_end": 233345
     },
     {
       "id": "segment-377",
@@ -3770,8 +4570,10 @@
       "start": 4574433,
       "end": 4586419,
       "non_whitespace_chars": 10496,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 233346,
+      "line_end": 233853
     },
     {
       "id": "segment-378",
@@ -3780,8 +4582,10 @@
       "start": 4586419,
       "end": 4598262,
       "non_whitespace_chars": 10276,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 233854,
+      "line_end": 234387
     },
     {
       "id": "segment-379",
@@ -3790,8 +4594,10 @@
       "start": 4598262,
       "end": 4610321,
       "non_whitespace_chars": 10396,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 234388,
+      "line_end": 234953
     },
     {
       "id": "segment-380",
@@ -3800,8 +4606,10 @@
       "start": 4610321,
       "end": 4622466,
       "non_whitespace_chars": 10440,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 234954,
+      "line_end": 235533
     },
     {
       "id": "segment-381",
@@ -3810,8 +4618,10 @@
       "start": 4622466,
       "end": 4634364,
       "non_whitespace_chars": 10097,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 235534,
+      "line_end": 236145
     },
     {
       "id": "segment-382",
@@ -3820,8 +4630,10 @@
       "start": 4634364,
       "end": 4646348,
       "non_whitespace_chars": 10248,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 236146,
+      "line_end": 236735
     },
     {
       "id": "segment-383",
@@ -3830,8 +4642,10 @@
       "start": 4646348,
       "end": 4658659,
       "non_whitespace_chars": 10634,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 236736,
+      "line_end": 237305
     },
     {
       "id": "segment-384",
@@ -3840,8 +4654,10 @@
       "start": 4658659,
       "end": 4670745,
       "non_whitespace_chars": 10368,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 237306,
+      "line_end": 237889
     },
     {
       "id": "segment-385",
@@ -3850,8 +4666,10 @@
       "start": 4670745,
       "end": 4682546,
       "non_whitespace_chars": 10144,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 237890,
+      "line_end": 238453
     },
     {
       "id": "segment-386",
@@ -3860,8 +4678,10 @@
       "start": 4682546,
       "end": 4694263,
       "non_whitespace_chars": 10114,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 238454,
+      "line_end": 238999
     },
     {
       "id": "segment-387",
@@ -3870,8 +4690,10 @@
       "start": 4694263,
       "end": 4706354,
       "non_whitespace_chars": 10224,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 239000,
+      "line_end": 239633
     },
     {
       "id": "segment-388",
@@ -3880,8 +4702,10 @@
       "start": 4706354,
       "end": 4718292,
       "non_whitespace_chars": 10215,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 239634,
+      "line_end": 240219
     },
     {
       "id": "segment-389",
@@ -3890,8 +4714,10 @@
       "start": 4718292,
       "end": 4730173,
       "non_whitespace_chars": 10260,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 240220,
+      "line_end": 240771
     },
     {
       "id": "segment-390",
@@ -3900,8 +4726,10 @@
       "start": 4730173,
       "end": 4741891,
       "non_whitespace_chars": 10126,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 240772,
+      "line_end": 241313
     },
     {
       "id": "segment-391",
@@ -3910,8 +4738,10 @@
       "start": 4741891,
       "end": 4753590,
       "non_whitespace_chars": 10192,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 241314,
+      "line_end": 241827
     },
     {
       "id": "segment-392",
@@ -3920,8 +4750,10 @@
       "start": 4753590,
       "end": 4765298,
       "non_whitespace_chars": 10087,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 241828,
+      "line_end": 242379
     },
     {
       "id": "segment-393",
@@ -3930,8 +4762,10 @@
       "start": 4765298,
       "end": 4777149,
       "non_whitespace_chars": 10224,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 242380,
+      "line_end": 242933
     },
     {
       "id": "segment-394",
@@ -3940,8 +4774,10 @@
       "start": 4777149,
       "end": 4788915,
       "non_whitespace_chars": 9947,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 242934,
+      "line_end": 243551
     },
     {
       "id": "segment-395",
@@ -3950,8 +4786,10 @@
       "start": 4788915,
       "end": 4800981,
       "non_whitespace_chars": 10385,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 243552,
+      "line_end": 244123
     },
     {
       "id": "segment-396",
@@ -3960,8 +4798,10 @@
       "start": 4800981,
       "end": 4812865,
       "non_whitespace_chars": 10305,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 244124,
+      "line_end": 244661
     },
     {
       "id": "segment-397",
@@ -3970,8 +4810,10 @@
       "start": 4812865,
       "end": 4824808,
       "non_whitespace_chars": 10232,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 244662,
+      "line_end": 245243
     },
     {
       "id": "segment-398",
@@ -3980,8 +4822,10 @@
       "start": 4824808,
       "end": 4836348,
       "non_whitespace_chars": 10105,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 245244,
+      "line_end": 245733
     },
     {
       "id": "segment-399",
@@ -3990,8 +4834,10 @@
       "start": 4836348,
       "end": 4847947,
       "non_whitespace_chars": 10050,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 245734,
+      "line_end": 246261
     },
     {
       "id": "segment-400",
@@ -4000,8 +4846,10 @@
       "start": 4847947,
       "end": 4860120,
       "non_whitespace_chars": 10426,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 246262,
+      "line_end": 246855
     },
     {
       "id": "segment-401",
@@ -4010,8 +4858,10 @@
       "start": 4860120,
       "end": 4872459,
       "non_whitespace_chars": 10489,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 246856,
+      "line_end": 247483
     },
     {
       "id": "segment-402",
@@ -4020,8 +4870,10 @@
       "start": 4872459,
       "end": 4884309,
       "non_whitespace_chars": 10121,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 247484,
+      "line_end": 248071
     },
     {
       "id": "segment-403",
@@ -4030,8 +4882,10 @@
       "start": 4884309,
       "end": 4896011,
       "non_whitespace_chars": 10105,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 248072,
+      "line_end": 248615
     },
     {
       "id": "segment-404",
@@ -4040,8 +4894,10 @@
       "start": 4896011,
       "end": 4908025,
       "non_whitespace_chars": 10297,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 248616,
+      "line_end": 249199
     },
     {
       "id": "segment-405",
@@ -4050,8 +4906,10 @@
       "start": 4908025,
       "end": 4920370,
       "non_whitespace_chars": 10544,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 249200,
+      "line_end": 249811
     },
     {
       "id": "segment-406",
@@ -4060,8 +4918,13 @@
       "start": 4920370,
       "end": 4932113,
       "non_whitespace_chars": 10108,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "partly_covered_by_formal_samples",
+      "note_status": "mapped_to_sample_notes",
+      "line_start": 249812,
+      "line_end": 250367,
+      "matching_sample_notes": [
+        "notes/segment-010.md"
+      ]
     },
     {
       "id": "segment-407",
@@ -4070,8 +4933,13 @@
       "start": 4932113,
       "end": 4944098,
       "non_whitespace_chars": 10394,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "partly_covered_by_formal_samples",
+      "note_status": "mapped_to_sample_notes",
+      "line_start": 250368,
+      "line_end": 250909,
+      "matching_sample_notes": [
+        "notes/segment-010.md"
+      ]
     },
     {
       "id": "segment-408",
@@ -4080,8 +4948,10 @@
       "start": 4944098,
       "end": 4956202,
       "non_whitespace_chars": 10543,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 250910,
+      "line_end": 251441
     },
     {
       "id": "segment-409",
@@ -4090,8 +4960,10 @@
       "start": 4956202,
       "end": 4968921,
       "non_whitespace_chars": 10792,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "outside_formal_sample",
+      "note_status": "no_sample_overlap",
+      "line_start": 251442,
+      "line_end": 252095
     },
     {
       "id": "segment-410",
@@ -4100,8 +4972,13 @@
       "start": 4968921,
       "end": 4978299,
       "non_whitespace_chars": 7959,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "covered_by_formal_samples",
+      "note_status": "mapped_to_sample_notes",
+      "line_start": 252096,
+      "line_end": 252575,
+      "matching_sample_notes": [
+        "notes/segment-012.md"
+      ]
     },
     {
       "id": "segment-411",
@@ -4110,8 +4987,15 @@
       "start": 4978299,
       "end": 4985208,
       "non_whitespace_chars": 5876,
-      "read_status": "unread",
-      "note_status": "missing"
+      "read_status": "covered_by_formal_samples",
+      "note_status": "mapped_to_sample_notes",
+      "line_start": 252576,
+      "line_end": 252928,
+      "matching_sample_notes": [
+        "notes/segment-012.md"
+      ]
     }
-  ]
+  ],
+  "formal_coverage_authority": "../sampling-register.yaml",
+  "scope_note": "整文件候选分区与正式样本使用不同编号。单个候选段的覆盖字段按正式窗口字符交集计算，正式笔记路径在 matching_sample_notes。审计补证单独登记。"
 }

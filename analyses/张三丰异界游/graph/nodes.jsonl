@@ -115,7 +115,7 @@
 {"id": "RES-RESEARCHLAB", "type": "resource", "label": "首席炼金3000万预算与仿丹失败", "confidence": "high", "source_refs": ["segment-041"]}
 {"id": "CHAR-MEIER", "type": "character", "label": "涅槃卵孵魔公主悠丽雅/玫儿", "confidence": "high", "source_refs": ["segment-044"]}
 {"id": "EVENT-EGGHATCH", "type": "event", "label": "多源供魔与隐阵孵卵", "confidence": "high", "source_refs": ["segment-043"]}
-{"id": "CHAR-XIRUINA", "type": "character", "label": "失忆金翼西芮娜被认雅典娜", "confidence": "high", "source_refs": ["segment-046"]}
+{"id": "CHAR-XIRUINA", "type": "character", "label": "雅典娜（战争神格）", "confidence": "high", "source_refs": ["segment-046", "segment-201", "CLAIM-143", "CLAIM-628"], "aliases": ["西芮娜", "芮贝娜·雅典娜"]}
 {"id": "ITEM-TREERARE", "type": "resource", "label": "返盾三物：种子暗卵圣羽", "confidence": "high", "source_refs": ["segment-041"]}
 {"id": "segment-047", "type": "chapter", "label": "segment-047", "attributes": {"start": 484379, "end": 494386}, "confidence": "high", "source_refs": ["segment-047"]}
 {"id": "segment-048", "type": "chapter", "label": "segment-048", "attributes": {"start": 494386, "end": 504238}, "confidence": "high", "source_refs": ["segment-048"]}
@@ -755,3 +755,11 @@
 {"id": "FINAL-RELATIONS", "type": "mechanism", "label": "关系与自主选择", "confidence": "high", "source_refs": ["CLAIM-1398", "CLAIM-1403"]}
 {"id": "FINAL-NVWA", "type": "mechanism", "label": "女娲与失联第三分身明确后揭", "confidence": "high", "source_refs": ["CLAIM-1389", "CLAIM-1391"]}
 {"id": "FINAL-ANGELS", "type": "mechanism", "label": "神圣预置印记转生", "confidence": "high", "source_refs": ["CLAIM-1393"]}
+{"id": "CHAR-ZHANGSANFENG", "type": "character", "label": "张三丰", "confidence": "high", "source_refs": ["segment-001", "segment-004", "segment-389", "CLAIM-1405"], "aliases": ["龙青天", "三宝道人"]}
+{"id": "CHAR-YAHAD", "type": "character", "label": "耶哈德", "confidence": "high", "source_refs": ["segment-294", "segment-295", "segment-380", "CLAIM-986", "CLAIM-1344"]}
+{"id": "CHAR-YAHUA", "type": "character", "label": "耶和华", "confidence": "high", "source_refs": ["segment-326", "segment-373", "CLAIM-1109"]}
+{"id": "CHAR-YESU", "type": "character", "label": "耶稣", "confidence": "high", "source_refs": ["segment-326", "CLAIM-1109"], "aliases": ["耶酥"]}
+{"id": "CHAR-JESSICA", "type": "character", "label": "七公主（洁西卡·卡森）", "confidence": "high", "source_refs": ["segment-377", "segment-383", "segment-390", "CLAIM-1332", "CLAIM-1361"], "aliases": ["七公主", "洁西卡", "洁西卡·卡森"]}
+{"id": "EVENT-YAHADTECH", "type": "event", "label": "耶哈德留存灵魂补全融合技术", "confidence": "high", "source_refs": ["segment-380", "CLAIM-1344"]}
+{"id": "EVENT-THIRDBODYLOST", "type": "event", "label": "张三丰第三分身坠入天火井失联", "confidence": "high", "source_refs": ["segment-328", "CLAIM-1118", "CLAIM-1389"]}
+{"id": "EVENT-FINALSWORD", "type": "event", "label": "昊天剑全威斩灭吞噬之主，女娲与两分身牺牲", "confidence": "high", "source_refs": ["segment-389", "CLAIM-1391"]}

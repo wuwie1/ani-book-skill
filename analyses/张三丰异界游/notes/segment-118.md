@@ -1,6 +1,6 @@
 # segment-118｜魂器控制上限与光术反用，借神破盾迫主动刺雷
 
-<!-- retrieval-meta: {"chapter_start":339,"chapter_end":340,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","司克特","罗福德","力提纱","龙啸天","雅典娜","威娜","玫儿"]} -->
+<!-- retrieval-meta: {"chapter_start":337,"chapter_end":338,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","司克特","罗福德","力提纱","龙啸天","雅典娜","威娜","玫儿"]} -->
 
 ordinal339–340；原337《暗影幽魂》—338《神恩附体》；[1202128,1212423)，9853非空字符。1202128/1206728/1211328三显示完整，末主角雅顶雷接近、尚未杀雷兽；力提纱已被弩射死。
 

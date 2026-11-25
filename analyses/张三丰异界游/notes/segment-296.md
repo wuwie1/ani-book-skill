@@ -1,5 +1,7 @@
 # segment-296｜尸体权威与实物凭证完成接班，替罪风险转嫁盟友
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧"],"chapter_start":692,"chapter_end":693} -->
+
 ## 来源
 
 [2995520,3004920)，9066非空；ordinal700–701，原692《演戏过程》、693《被人抢了黑锅》。三连续窗口完整到主角逃出并欲集合攻天堂的章末。A30十段完，神界是否被占尚未发生。

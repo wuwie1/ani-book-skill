@@ -1,6 +1,6 @@
 # segment-097｜日常警报与容量管理，召唤媒介回收换第二轮阻援
 
-<!-- retrieval-meta: {"chapter_start":297,"chapter_end":298,"dimensions":["plot","worldbuilding","progression"],"characters":["张三丰","克里","玫儿","西思尔","拖克坛"]} -->
+<!-- retrieval-meta: {"chapter_start":295,"chapter_end":296,"dimensions":["plot","worldbuilding","progression"],"characters":["张三丰","克里","玫儿","西思尔","拖克坛"]} -->
 
 ordinal297–298；原295《地狱之火》—296《又来一个》；[976991,987875)，10434非空字符。976991/981591/986191三显示全读，末第二只地狱火起、敌又撤，城门仍未修闭/城内十万敌未结算。
 

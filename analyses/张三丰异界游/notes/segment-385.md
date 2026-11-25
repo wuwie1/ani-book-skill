@@ -1,5 +1,7 @@
 # segment-385｜兵种互补、储备上限与待兑现的借劫方案
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧","盘古","祝融"],"chapter_start":880,"chapter_end":881} -->
+
 正式完整阅读：ordinal891–892，原第880《激烈血战》、881《再试阴招》，Unicode[3827454,3837785)，9949非空字符。分三显示连续读完，末尾止于全套借来神器穿身；不把下一节天劫战果写入。
 
 ## 事件与状态事实

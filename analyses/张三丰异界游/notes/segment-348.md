@@ -1,5 +1,7 @@
 # segment-348｜自封记忆冒险过审升格，敌夺取“风神”人质进入母宫而伏局未收
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","雅典娜"],"chapter_start":797,"chapter_end":798} -->
+
 ## 来源
 
 ordinal806–807，原797《雅典娜的丰收》、798《计划开始》；[3465807,3474338)，8069非空。raw.decode4400＋4131完整至和拉烧伯腿逼母拆防枢；尚未读母决定/七高结局。

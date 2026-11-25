@@ -1,5 +1,7 @@
 # segment-328｜跨体系补能破禁救二师，雷库存分配与分身断后付真实风险
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧"],"chapter_start":756,"chapter_end":757} -->
+
 ## 来源
 
 ordinal765–766，原756《营救行动》、757《玉帝阴谋》；[3290907,3299320)，8047非空。raw.decode4400＋4013连续完整至师返家看见未揭场面。主角出征分身入井意识糊，不等全部分身/本源死亡。

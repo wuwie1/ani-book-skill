@@ -6,9 +6,9 @@
 
 | 正式笔记 | 原章号 / catalog ordinal | 字符区间 | 非空字符 | 样本责任 |
 | --- | --- | --- | ---: | --- |
-| [segment-001](/Users/likai/go/src/write/ani-book-skill/analyses/我在精神病院学斩神/notes/segment-001.md) | 1–4 / 1–4 | [173,12370) | 10248 | 日常/家庭/校园与观看位置 |
-| [segment-002](/Users/likai/go/src/write/ani-book-skill/analyses/我在精神病院学斩神/notes/segment-002.md) | 5–11 / 5–11 | [12370,31793) | 15938 | 善意压力测试、遇险/救援/归家、病院开门 |
-| [segment-003](/Users/likai/go/src/write/ani-book-skill/analyses/我在精神病院学斩神/notes/segment-003.md) | 100–104 / 100–104 | [262378,276073) | 11120 | 训练尾段支持/退出边界，生活与赠物对照 |
+| [segment-001](notes/segment-001.md) | 1–4 / 1–4 | [173,12370) | 10248 | 日常/家庭/校园与观看位置 |
+| [segment-002](notes/segment-002.md) | 5–11 / 5–11 | [12370,31793) | 15938 | 善意压力测试、遇险/救援/归家、病院开门 |
+| [segment-003](notes/segment-003.md) | 100–104 / 100–104 | [262378,276073) | 11120 | 训练尾段支持/退出边界，生活与赠物对照 |
 
 正式覆盖37306字符；本轮新增27058；累计唯一阅读62499。此前P02–P04预读25193没有正式笔记，不计B01完成。预算余额37501–137501。窗口均完整到章末，但第100章已在训练中途，不称完整训练或开篇1–104章全量。
 
@@ -26,10 +26,10 @@
 
 ## 产物与审核问题
 
-- [局部总览](/Users/likai/go/src/write/ani-book-skill/analyses/我在精神病院学斩神/sections/overview.md)；[写法分析](/Users/likai/go/src/write/ani-book-skill/analyses/我在精神病院学斩神/sections/style-technique.md)：是否足够具体地说明视角、对白、语言细节、信息释放、动作与节奏，而非只有主题？
-- [证据账本](/Users/likai/go/src/write/ani-book-skill/analyses/我在精神病院学斩神/evidence-ledger.md)；[未知清单](/Users/likai/go/src/write/ani-book-skill/analyses/我在精神病院学斩神/uncertainty-ledger.md)：每项解释能否回到动作与章末，反例是否保留？
-- [方法候选](/Users/likai/go/src/write/ani-book-skill/analyses/我在精神病院学斩神/pattern-cards.md)：只迁移组织机制，不带原句、可辨认桥段或原创新书情节。
-- [覆盖地图](/Users/likai/go/src/write/ani-book-skill/analyses/我在精神病院学斩神/coverage-map.md)；[后续抽样计划](/Users/likai/go/src/write/ani-book-skill/analyses/我在精神病院学斩神/sample-plan.md)：接受这三窗作为B01试拆，还是先修订笔记粒度/侧重？
+- [局部总览](sections/batch-B01-overview.md)；[写法分析](sections/batch-B01-style-technique.md)：是否足够具体地说明视角、对白、语言细节、信息释放、动作与节奏，而非只有主题？
+- [证据账本](evidence-ledger.md)；[未知清单](uncertainty-ledger.md)：每项解释能否回到动作与章末，反例是否保留？
+- [方法候选](pattern-cards.md)：只迁移组织机制，不带原句、可辨认桥段或原创新书情节。
+- [覆盖地图](coverage-map.md)；[后续抽样计划](sample-plan.md)：接受这三窗作为B01试拆，还是先修订笔记粒度/侧重？
 
 ## 已知缺口与自检
 

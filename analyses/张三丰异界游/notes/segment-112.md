@@ -1,6 +1,6 @@
 # segment-112｜从烧林诱栖到隐蔽同步施法，灭鹰七千的组织闭环
 
-<!-- retrieval-meta: {"chapter_start":327,"chapter_end":328,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","祖母","龙啸天","玫儿","雅典娜","克里","拖克坛","枭袅"]} -->
+<!-- retrieval-meta: {"chapter_start":325,"chapter_end":326,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","祖母","龙啸天","玫儿","雅典娜","克里","拖克坛","枭袅"]} -->
 
 ordinal327–328；原325《算计鸟人》—326《恐怖法术》；[1137906,1148515)，10019非空字符。1137906/1142506/1147106三显示完整。原326分配方位后突跳“恩！好消失”及提前重复一段雷击战果/议论缺词，后回布阵再完整施法，保留文本跳接/重复异常不删改，不把重复算两次攻击。
 

@@ -1,5 +1,7 @@
 # segment-298｜继承初成仍受地方派系与跨区主神制约，天堂攻坚开启
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧"],"chapter_start":696,"chapter_end":697} -->
+
 ## 来源
 
 [3014570,3023058)，8062非空；ordinal704–705，原696《神界夺权》、697《再战风云》。两连续窗口完整至树人撞壁受反震仍持续的章末。未读盾破/援到，勿用标题断最终占领。

@@ -1,6 +1,6 @@
 # segment-088｜决斗互拖争时间，有限匿息装备把暗夜任务转为内部煽动
 
-<!-- retrieval-meta: {"chapter_start":279,"chapter_end":280,"dimensions":["plot","resources","character"],"characters":["张三丰","西思尔","西亚","龙啸天","克里","扑里卡士"]} -->
+<!-- retrieval-meta: {"chapter_start":278,"chapter_end":279,"dimensions":["plot","resources","character"],"characters":["张三丰","西思尔","西亚","龙啸天","克里","扑里卡士"]} -->
 
 ordinal279–280；原278《三战之约》—279《各出奇谋》；[882677,893277)，10094非空字符。887277、891877三显示连续完整；末四条项链暗夜混营挑唆刚下任务，未读真正营乱。
 

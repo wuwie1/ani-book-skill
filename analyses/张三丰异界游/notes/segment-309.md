@@ -1,5 +1,7 @@
 # segment-309｜城市租借分权与交通主权，潜伏关系伪敌化招揽竞争者
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰"],"chapter_start":718,"chapter_end":719} -->
+
 ## 来源
 
 [3121345,3130942)，9099非空；ordinal727–728，原718《新建城市》、719《阴谋算计》。三连续窗完整至主角说可帮二近卫出气的章末。新城刚开工、请罪信未发回，正拍未开。

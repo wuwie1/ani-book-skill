@@ -1,6 +1,6 @@
 # segment-104｜聘礼与抢军资稳联盟，兽人组合迫另启教廷权限
 
-<!-- retrieval-meta: {"chapter_start":311,"chapter_end":312,"dimensions":["plot","worldbuilding","progression","character"],"characters":["张三丰","买买提","香香","尼古拉斯","七公主","里卡多","教皇","祖母"]} -->
+<!-- retrieval-meta: {"chapter_start":309,"chapter_end":310,"dimensions":["plot","worldbuilding","progression","character"],"characters":["张三丰","买买提","香香","尼古拉斯","七公主","里卡多","教皇","祖母"]} -->
 
 ordinal311–312；原309《兽人内幕》—310《强大敌人》；[1053077,1064597)，11078非空字符。1053077/1057677/1062277三显示完整，末祖母因卡秋沙毁书担心战神甲更无望，教廷求援信已到但出军未执行。
 

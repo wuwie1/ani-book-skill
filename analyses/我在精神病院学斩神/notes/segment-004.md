@@ -1,5 +1,5 @@
 # segment-004｜双线误认、协作破局与胜利后的更大风险
-<!-- retrieval-meta: {"chapter_start": 500, "chapter_end": 507, "dimensions": ["style", "character", "cliffhanger", "progression"]} -->
+<!-- retrieval-meta: {"chapter_start":500,"chapter_end":507,"dimensions":["style","character","cliffhanger","progression"],"characters":["安卿鱼","沈青竹","迦蓝","周平","呓语","第九席","林七夜"]} -->
 
 状态：ready；B02正式样本B02-W01。原第500–507章，catalog ordinal 500–507，[1252365,1272764)，16921非空字符；各章完整读至末尾。固定快照SHA-256：7657e4a174a1a8e6382e739ce3b4c4464cd486d9e9419371bce10d46cc10a9bc。
 

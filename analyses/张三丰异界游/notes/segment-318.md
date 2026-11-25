@@ -1,5 +1,7 @@
 # segment-318｜斩首破围转附属族倒戈，稳定故乡后传送落陷
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","盖次"],"chapter_start":736,"chapter_end":737} -->
+
 ## 来源
 
 ordinal745–746，原736《发威魔皇城》、737《又遭陷阱》；[3205289,3214744)，9057非空，raw.decode保留CRLF，两连续显示完整至陌生暗地被包围。尚不知设陷者、普里斯塔意图或实际目的地。

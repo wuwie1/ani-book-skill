@@ -1,6 +1,6 @@
 # segment-116｜兵种支援与洪水断后续，敌改破墙技又形成危机
 
-<!-- retrieval-meta: {"chapter_start":335,"chapter_end":336,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","祖母","卡拉","罗纳多","七公主","烈焰比蒙","罗福德","力提纱"]} -->
+<!-- retrieval-meta: {"chapter_start":333,"chapter_end":334,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","祖母","卡拉","罗纳多","七公主","烈焰比蒙","罗福德","力提纱"]} -->
 
 ordinal335–336；原333《血战不休》—334《战争践踏》；[1181057,1191564)，10093非空字符。1181057/1185657/1190257三显示全读，末牛头两波已震裂城墙/余八波待，诸圣刚赶救尚未阻止。
 

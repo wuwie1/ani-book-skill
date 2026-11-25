@@ -1,5 +1,7 @@
 # segment-283｜等待释放被占用神器，以援助关系承接十翼升级
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","耶哈德"],"chapter_start":665,"chapter_end":666} -->
+
 ## 来源与完整性
 
 正式区间[2862707,2873098)，9957非空字符；ordinal672–673，原665《一阴阴俩》、666《正主来临》。三次连续显示完整读至另两位十翼及四八翼到场，未跳读。以下不预支其后战果。

@@ -3,7 +3,7 @@
 {"id": "EDGE-003", "source": "EVENT-SCHOOL-FAIL", "relation": "contradicts", "target": "PAYOFF-WELCOME", "confidence": "medium", "evidence": ["CLAIM-004"], "attributes": {"scope": "第5–7章：接纳不代表可靠"}}
 {"id": "EDGE-004", "source": "EVENT-RETURN", "relation": "enables", "target": "PAYOFF-COST", "confidence": "medium", "evidence": ["CLAIM-009"], "attributes": {"scope": "第100章"}}
 {"id": "EDGE-005", "source": "PAYOFF-COST", "relation": "pays_off", "target": "PROMISE-A", "confidence": "medium", "evidence": ["CLAIM-009"], "attributes": {"scope": "第100章局部"}}
-{"id": "EDGE-006", "source": "RULE-SENSE", "relation": "blocks", "target": "EVENT-ACTION", "confidence": "medium", "evidence": ["CLAIM-006"], "attributes": {"scope": "第7–10章：强感知不消除肉体限制"}}
+{"id": "EDGE-006", "source": "RULE-SENSE", "relation": "constrains", "target": "EVENT-ACTION", "confidence": "medium", "evidence": ["CLAIM-006"], "attributes": {"scope": "第7–10章：强感知不消除肉体限制"}}
 {"id": "EDGE-007", "source": "EVENT-SAFE-EXIT", "relation": "enables", "target": "PAYOFF-BOUNDARY", "confidence": "medium", "evidence": ["CLAIM-010"], "attributes": {"scope": "第102–104章"}}
 {"id": "EDGE-008", "source": "PAYOFF-BOUNDARY", "relation": "pays_off", "target": "PROMISE-A", "confidence": "medium", "evidence": ["CLAIM-010"], "attributes": {"scope": "第102–104章局部"}}
 {"id": "EDGE-B02-001", "source": "B02-COOP", "relation": "pays_off", "target": "PROMISE-A", "confidence": "medium", "evidence": ["CLAIM-015"], "attributes": {"scope": "第500–507章局部协作，不等于全部悬疑都属归属"}}
@@ -13,3 +13,12 @@
 {"id": "EDGE-B04-RESPONSE", "source": "B04-RESPONSE", "relation": "pays_off", "target": "PROMISE-A", "confidence": "medium", "evidence": ["CLAIM-029"], "attributes": {"scope": "B04对应样本局部支持，不等于全书事实"}}
 {"id": "EDGE-B04-RESCUE", "source": "B04-RESCUE", "relation": "pays_off", "target": "PROMISE-A", "confidence": "medium", "evidence": ["CLAIM-032"], "attributes": {"scope": "B04对应样本局部支持，不等于全书事实"}}
 {"id": "EDGE-B04-RETURN", "source": "B04-RETURN", "relation": "pays_off", "target": "PROMISE-A", "confidence": "medium", "evidence": ["CLAIM-034"], "attributes": {"scope": "B04对应样本局部支持，不等于全书事实"}}
+{"id": "AUD-GATE-CUE", "source": "B02-GATE", "relation": "gives_testable_evidence_for", "target": "RULE-LIMITED-INFO", "confidence": "medium", "evidence": ["CLAIM-018", "CLAIM-040"], "attributes": {"scope": "第302章门禁能验证暗语，对吴通玄的保护或追杀仍属人物推断。"}}
+{"id": "AUD-WEI-MISREAD", "source": "CHAR-WEI-DONG", "relation": "misidentifies_in", "target": "B02-MISREAD", "confidence": "high", "evidence": ["CLAIM-021"], "attributes": {"scope": "第703章，卫冬把持刀的两人当作人圈土著。"}}
+{"id": "AUD-MISREAD-CUE", "source": "B02-MISREAD", "relation": "illustrates_limit_of", "target": "RULE-LIMITED-INFO", "confidence": "medium", "evidence": ["CLAIM-021", "CLAIM-036"], "attributes": {"scope": "读者可以拼合另一组的接应安排，卫冬没有掌握对方身份。"}}
+{"id": "AUD-MONK-HANDOVER", "source": "CHAR-SUMING", "relation": "dies_to_enable", "target": "EVENT-HANDOVER", "confidence": "high", "evidence": ["CLAIM-028"], "attributes": {"scope": "第2000–2001章，宿命死亡、既定之果归一、星币抹除的同伴记忆补全。"}}
+{"id": "AUD-HANDOVER-LIN", "source": "EVENT-HANDOVER", "relation": "restores_memory_to", "target": "CHAR-LIN-QIYE", "confidence": "high", "evidence": ["CLAIM-028"], "attributes": {"scope": "林七夜重新理解安卿鱼受门之钥压制的经历。"}}
+{"id": "AUD-AN-RETURNS", "source": "CHAR-AN-QINGYU", "relation": "arrives_in", "target": "EVENT-DOOR-IN-SPACE", "confidence": "high", "evidence": ["CLAIM-033", "CLAIM-035"], "attributes": {"scope": "第2019章穿过真理之门进入梦境；第2007章的临别承诺已有摘段复核。"}}
+{"id": "AUD-SPACE-LIN", "source": "EVENT-DOOR-IN-SPACE", "relation": "reaches", "target": "CHAR-LIN-QIYE", "confidence": "high", "evidence": ["CLAIM-033", "CLAIM-035"], "attributes": {"scope": "第2019章敲开星空，与林七夜相见。"}}
+{"id": "AUD-LIN-HOSPITAL", "source": "CHAR-LIN-QIYE", "relation": "leaves_as_recovered_patient", "target": "SITE-SIXTH-ROOM", "confidence": "high", "evidence": ["CLAIM-033", "CLAIM-035"], "attributes": {"scope": "第11章打不开第六病房，第2021章确认第六位病人离院。"}}
+{"id": "AUD-CANGNAN-RETURN", "source": "PAYOFF-CANGNAN", "relation": "contributes_to", "target": "B04-RETURN", "confidence": "high", "evidence": ["CLAIM-034", "CLAIM-040"], "attributes": {"scope": "沧南遇难者有单独的复归机制；最后在事务所说欢迎的人没有署名。"}}

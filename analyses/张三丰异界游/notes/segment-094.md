@@ -1,6 +1,6 @@
 # segment-094｜供给与协同才使空袭成立，意外风势放大战果
 
-<!-- retrieval-meta: {"chapter_start":291,"chapter_end":292,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","玫儿","香香","西思尔","莫缔哥拉"]} -->
+<!-- retrieval-meta: {"chapter_start":290,"chapter_end":291,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","玫儿","香香","西思尔","莫缔哥拉"]} -->
 
 ordinal291–292；原290《烈火焚江》—291《烈火焚江（续）》；[945537,955844)，9805非空字符。945537/950137/954737三显示完整，末主角与香香分房，无肉体婚姻兑现。
 

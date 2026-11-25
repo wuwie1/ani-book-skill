@@ -1,5 +1,7 @@
 # segment-342｜图纸共享仍难复制完整城，跨界回程兑现后却见七高联军升级
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧","七公主"],"chapter_start":784,"chapter_end":785} -->
+
 ## 来源
 
 ordinal793–794，原784《回家揍人》、785《决战神界》；[3409800,3420347)，9909非空。raw.decode4400＋4400＋1747字符完整至祥云车中熟悉男子主角心惊，**尚未给出姓名**，不提前揭车主/胜负。

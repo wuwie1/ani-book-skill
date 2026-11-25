@@ -1,5 +1,7 @@
 # segment-341｜蚩尤邀约被解为间接求援，双分身回程前留守安排暴露示弱成本
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧"],"chapter_start":782,"chapter_end":783} -->
+
 ## 来源
 
 ordinal791–792，原782《准备阴邪神》、783《再回道门》；[3401242,3409800)，7976非空。raw.decode4400＋4158完整至师拟讲当年鸿钧战神圣，未讲。并行信息于留身实返师门后汇合，但井内分身仍不知。

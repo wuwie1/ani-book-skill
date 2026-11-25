@@ -1,5 +1,7 @@
 # segment-325｜俘供引师门危讯，返乡复仇转跨战区救援协调
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧","耶和华"],"chapter_start":750,"chapter_end":751} -->
+
 ## 来源
 
 ordinal759–760，原750《师门危机》、751《道门大战》；[3265694,3274221)，8073非空。原始decode两显示完整至主角放城撞三清宫上空军，尚未看见师父/确认五高级来者现场。

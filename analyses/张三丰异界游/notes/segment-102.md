@@ -1,6 +1,6 @@
 # segment-102｜同盟暴力造成真血债，能力露底与夺行军记录争裁断权
 
-<!-- retrieval-meta: {"chapter_start":307,"chapter_end":308,"dimensions":["plot","progression","character"],"characters":["张三丰","石原大狼","石原少迈","戚刀","天杀","玫儿","香香"]} -->
+<!-- retrieval-meta: {"chapter_start":305,"chapter_end":306,"dimensions":["plot","progression","character"],"characters":["张三丰","石原大狼","石原少迈","戚刀","天杀","玫儿","香香"]} -->
 
 ordinal307–308；原305《再起波澜》—306《虎口擒狼》；[1031158,1041607)，10027非空字符。1031158/1035758/1040358三显示全读，末主角已擒大狼/高军官等玫儿找行军笔记，玄武亲卫外包未战终。
 

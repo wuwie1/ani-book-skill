@@ -1,5 +1,7 @@
 # segment-346｜情报官以真实代价换信任，假战成资源流而决战准备跨二十年
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧","七公主"],"chapter_start":793,"chapter_end":794} -->
+
 ## 来源
 
 ordinal802–803，原793《积极备战》、794《准备下套》；[3449034,3457314)，7942非空。raw.decode4400＋3880连续完整至雅向和拉递古封印图，解释未展开。时间明确到玉帝被逐第二十年，非前批数日连战。

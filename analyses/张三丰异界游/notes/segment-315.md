@@ -1,5 +1,7 @@
 # segment-315｜熟练骨工实租，忘忧回归后以原料与回收维持两边战耗
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧","七公主","仙雅","海伦","耶和华"],"chapter_start":730,"chapter_end":731} -->
+
 ## 来源
 
 ordinal739–740，原730《忘忧出关》、731《奸商忘忧》；[3178128,3187510)，9020非空。raw.decode保留CRLF，4400＋4982字符连续完整至一百闪电标枪成交章末；未用换行归一化偏移。

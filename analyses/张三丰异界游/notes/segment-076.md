@@ -1,6 +1,6 @@
 # segment-076｜三处分兵救出青龙，召唤代价令威慑表演代替本人施法
 
-<!-- retrieval-meta: {"chapter_start":250,"chapter_end":252,"dimensions":["plot","resources","progression"],"characters":["张三丰","克里","盖次","天杀","卡罗","冯修斯","塔塔亚克"]} -->
+<!-- retrieval-meta: {"chapter_start":249,"chapter_end":251,"dimensions":["plot","resources","progression"],"characters":["张三丰","克里","盖次","天杀","卡罗","冯修斯","塔塔亚克"]} -->
 
 ordinal250–252；原249《青龙之怒（1）》—251《青龙之怒（3）》；[759416,769821)，10004非空字符。764016、768616分三显示连续完整，章末是克里接假魔竭命，后续反计未执行。
 

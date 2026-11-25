@@ -1,6 +1,6 @@
 # segment-069｜合法声望动员毁路，伙伴观察可穿透易容保密
 
-<!-- retrieval-meta: {"chapter_start":229,"chapter_end":231,"dimensions":["plot","worldbuilding","character"],"characters":["玫儿","海伦","铁石","丽芙倪","张三丰","冯修斯"]} -->
+<!-- retrieval-meta: {"chapter_start":228,"chapter_end":230,"dimensions":["plot","worldbuilding","character"],"characters":["玫儿","海伦","铁石","丽芙倪","张三丰","冯修斯"]} -->
 
 ordinal229–231；原228《毁路运动》—230《战争前奏》；[693475,702734)，8894非空字符。698075分显示，完整章末在船上丽芙倪解释熊观察识人，未揭她自身身份。
 

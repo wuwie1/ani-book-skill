@@ -1,6 +1,6 @@
 # segment-093｜熊王越禁魔赢赌却不兑现和平，联姻取信反约束主角
 
-<!-- retrieval-meta: {"chapter_start":289,"chapter_end":290,"dimensions":["plot","progression","character","worldbuilding"],"characters":["张三丰","基脯洛夫","盖次","龙啸天","香香","买买提"]} -->
+<!-- retrieval-meta: {"chapter_start":288,"chapter_end":289,"dimensions":["plot","progression","character","worldbuilding"],"characters":["张三丰","基脯洛夫","盖次","龙啸天","香香","买买提"]} -->
 
 ordinal289–290；原288《战而胜之》—289《包办婚姻》；[935108,945537)，9923非空字符。935108/939708/944308三显示全读，章末父坚持已订婚，尚未双方成婚或银狐公开倒戈。
 

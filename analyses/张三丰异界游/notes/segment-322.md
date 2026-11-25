@@ -1,5 +1,7 @@
 # segment-322｜旧交情报有时滞，人间追敌把平民伤害暴露为主角阵营反例
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧"],"chapter_start":744,"chapter_end":745} -->
+
 ## 来源
 
 ordinal753–754，原744《人间变化》、745《兵发本能寺》；[3240210,3248681)，8125非空，原字节解码4400＋4071连续显示至主持以天照背书求保。尚未审出两目标去向。

@@ -1,5 +1,7 @@
 # segment-310｜匿名易物拍卖开场，公开伪冲突操控首件买家范围
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰"],"chapter_start":720,"chapter_end":721} -->
+
 ## 来源
 
 [3130942,3140287)，8891非空；ordinal729–730，原720《阴谋算计（续）》、721《拍卖盛会》。三窗连续完整至光明铠实交雅、拿回位面坐标的章末。首件拍成，其余十二件未读成交。

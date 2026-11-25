@@ -1,5 +1,7 @@
 # segment-277｜证词有胁迫来源而敌自认关键因果，丽的旧誓发生真实选择
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","耶哈德"],"chapter_start":653,"chapter_end":654} -->
+
 - 固定快照ordinal660–661；原653《丽若雅的抉择》、654《震撼的翡翠》。[2801373,2811926)，10079非空字符；三次连续显示完整至翠翠吞十将/勒德震惊章末。B透镜，人物卡off。
 
 ## 魔侵证词、承认与选择

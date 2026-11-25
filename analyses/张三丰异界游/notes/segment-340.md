@@ -1,5 +1,7 @@
 # segment-340｜加速情报传回师门战果，宗门分歧与黑暗阵营不等敌我定值
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","圣天使"],"chapter_start":780,"chapter_end":781} -->
+
 ## 来源
 
 ordinal789–790，原780《激烈战况》、781《鸟人阴谋》；[3392617,3401242)，8071非空。raw.decode4400＋4225完整至主角问蚩尤是否遭圣天使痛揍，具体事尚未听。

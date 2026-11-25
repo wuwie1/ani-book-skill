@@ -1,6 +1,6 @@
 # segment-085｜堵河被拆船运输绕过，雷达疲劳窗口使报复偷袭反入围
 
-<!-- retrieval-meta: {"chapter_start":273,"chapter_end":274,"dimensions":["plot","worldbuilding","progression"],"characters":["张三丰","龙啸天","天杀","西思尔","堤堤亚"]} -->
+<!-- retrieval-meta: {"chapter_start":272,"chapter_end":273,"dimensions":["plot","worldbuilding","progression"],"characters":["张三丰","龙啸天","天杀","西思尔","堤堤亚"]} -->
 
 ordinal273–274；原272《火中取栗》—273《谁算计谁》；[850647,861314)，10265非空字符。855247、859847三显示完整章末，父突击西思尔阵前刚开始，未开最终围解/胜负。
 

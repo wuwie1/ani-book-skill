@@ -1,5 +1,7 @@
 # segment-258｜盟友答应相助以后，真正门槛转为运输与材料提取
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰"],"chapter_start":615,"chapter_end":616} -->
+
 - 固定快照ordinal622–623，原615《火祖遗宝》、616《恐怖份子》。[2615159,2624512)，8867非空字符；三次连续显示完整至主角请求扶助烈火教众。B透镜，人物卡off。
 
 ## 事件事实与推进

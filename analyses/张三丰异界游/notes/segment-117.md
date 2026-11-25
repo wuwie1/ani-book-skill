@@ -1,6 +1,6 @@
 # segment-117｜亲族遗物换二十秒守城，控敌与风团接力逼雷兽登场
 
-<!-- retrieval-meta: {"chapter_start":337,"chapter_end":338,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","祖母","克里","米索拉","罗福德","力提纱","七公主","欧阳若兰"]} -->
+<!-- retrieval-meta: {"chapter_start":335,"chapter_end":336,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","祖母","克里","米索拉","罗福德","力提纱","七公主","欧阳若兰"]} -->
 
 ordinal337–338；原335《大预言术》—336《大傀儡术》；[1191564,1202128)，10194非空字符。1191564/1196164/1200764三显示完整，末三雷兽正式向主城走，尚未进攻/包雷赌未结。
 

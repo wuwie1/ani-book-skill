@@ -1,46 +1,52 @@
-# 连续阅读批次表
+# 《张三丰异界游》分批目录
 
-候选单元序号不是原作章号；实际标题见 chapter-catalog.json。A01 用户已接受；A02 十段完整 ready，见 batch-A02-review.md；A03十段ready，见batch-A03-review.md；A04十段ready，见batch-A04-review.md；A05十段ready，见batch-A05-review.md；首次阶段综合见sections/stage-A01-A05.md；A06十段ready，见batch-A06-review.md；A07十段ready，见batch-A07-review.md；A08十段ready，见batch-A08-review.md；A09/A10均十段ready，见各批完成记录；A06–A10阶段综合ready；A11十段ready，见batch-A11-review.md；A12十段ready，见batch-A12-review.md；A13十段ready，见batch-A13-review.md；A14十段ready，见batch-A14-review.md；A15十段ready，见batch-A15-review.md；A16十段ready，见batch-A16-review.md；A17十段ready，见batch-A17-review.md；A18十段ready，见batch-A18-review.md；A19–A40尚未开始。2026-11-12用户授权剩余全文完成后统一审核，不在批次间等待确认。批次权威状态见 source/batch-map.json；本文仅为范围计划。
+40 批、390 段均已完成，覆盖本地全文。首批 A01 已获用户确认，其余批次已汇入[全书总评](book-analysis-review.md)。原文有重号、跳号和合题，以下按目录单元排序，行号保留原文件换行。
 
-| 批次 | 工作片段 | 候选单元序号 | 非空字符数 |
-| --- | --- | --- | ---: |
-| A01 | segment-001–segment-006 | 0–21 | 60468 |
-| A02 | segment-007–segment-016 | 22–61 | 103017 |
-| A03 | segment-017–segment-026 | 62–98 | 98120 |
-| A04 | segment-027–segment-036 | 99–129 | 92314 |
-| A05 | segment-037–segment-046 | 130–163 | 97733 |
-| A06 | segment-047–segment-056 | 164–192 | 91131 |
-| A07 | segment-057–segment-066 | 193–222 | 87853 |
-| A08 | segment-067–segment-076 | 223–252 | 90479 |
-| A09 | segment-077–segment-086 | 253–276 | 98287 |
-| A10 | segment-087–segment-096 | 277–296 | 100111 |
-| A11 | segment-097–segment-106 | 297–316 | 103894 |
-| A12 | segment-107–segment-116 | 317–336 | 100431 |
-| A13 | segment-117–segment-126 | 337–356 | 103835 |
-| A14 | segment-127–segment-136 | 357–376 | 100309 |
-| A15 | segment-137–segment-146 | 377–397 | 100567 |
-| A16 | segment-147–segment-156 | 398–417 | 99446 |
-| A17 | segment-157–segment-166 | 418–437 | 100198 |
-| A18 | segment-167–segment-176 | 438–457 | 98511 |
-| A19 | segment-177–segment-186 | 458–477 | 97803 |
-| A20 | segment-187–segment-196 | 478–498 | 94355 |
-| A21 | segment-197–segment-206 | 499–518 | 94729 |
-| A22 | segment-207–segment-216 | 519–538 | 97724 |
-| A23 | segment-217–segment-226 | 539–559 | 95381 |
-| A24 | segment-227–segment-236 | 560–579 | 88849 |
-| A25 | segment-237–segment-246 | 580–599 | 89516 |
-| A26 | segment-247–segment-256 | 600–619 | 88571 |
-| A27 | segment-257–segment-266 | 620–639 | 94562 |
-| A28 | segment-267–segment-276 | 640–659 | 91992 |
-| A29 | segment-277–segment-286 | 660–679 | 97468 |
-| A30 | segment-287–segment-296 | 680–701 | 96861 |
-| A31 | segment-297–segment-306 | 702–722 | 92658 |
-| A32 | segment-307–segment-316 | 723–742 | 89053 |
-| A33 | segment-317–segment-326 | 743–762 | 82663 |
-| A34 | segment-327–segment-336 | 763–782 | 80436 |
-| A35 | segment-337–segment-346 | 783–803 | 85062 |
-| A36 | segment-347–segment-356 | 804–823 | 84849 |
-| A37 | segment-357–segment-366 | 824–847 | 95344 |
-| A38 | segment-367–segment-376 | 848–869 | 89750 |
-| A39 | segment-377–segment-386 | 870–895 | 101647 |
-| A40 | segment-387–segment-390 | 896–900 | 27012 |
+| 批次复盘 | 正式笔记 | 目录单元 | 快照行号 | 非空字符 |
+| --- | --- | --- | --- | ---: |
+| [A01](batch-A01-review.md) | [001](notes/segment-001.md) · [002](notes/segment-002.md) · [003](notes/segment-003.md) · [004](notes/segment-004.md) · [005](notes/segment-005.md) · [006](notes/segment-006.md) | 0–21 | 1–1,123 | 60,468 |
+| [A02](batch-A02-review.md) | [007](notes/segment-007.md) · [008](notes/segment-008.md) · [009](notes/segment-009.md) · [010](notes/segment-010.md) · [011](notes/segment-011.md) · [012](notes/segment-012.md) · [013](notes/segment-013.md) · [014](notes/segment-014.md) · [015](notes/segment-015.md) · [016](notes/segment-016.md) | 22–61 | 1,124–3,202 | 103,017 |
+| [A03](batch-A03-review.md) | [017](notes/segment-017.md) · [018](notes/segment-018.md) · [019](notes/segment-019.md) · [020](notes/segment-020.md) · [021](notes/segment-021.md) · [022](notes/segment-022.md) · [023](notes/segment-023.md) · [024](notes/segment-024.md) · [025](notes/segment-025.md) · [026](notes/segment-026.md) | 62–98 | 3,203–4,978 | 98,120 |
+| [A04](batch-A04-review.md) | [027](notes/segment-027.md) · [028](notes/segment-028.md) · [029](notes/segment-029.md) · [030](notes/segment-030.md) · [031](notes/segment-031.md) · [032](notes/segment-032.md) · [033](notes/segment-033.md) · [034](notes/segment-034.md) · [035](notes/segment-035.md) · [036](notes/segment-036.md) | 99–129 | 4,979–6,661 | 92,314 |
+| [A05](batch-A05-review.md) | [037](notes/segment-037.md) · [038](notes/segment-038.md) · [039](notes/segment-039.md) · [040](notes/segment-040.md) · [041](notes/segment-041.md) · [042](notes/segment-042.md) · [043](notes/segment-043.md) · [044](notes/segment-044.md) · [045](notes/segment-045.md) · [046](notes/segment-046.md) | 130–163 | 6,662–8,389 | 97,733 |
+| [A06](batch-A06-review.md) | [047](notes/segment-047.md) · [048](notes/segment-048.md) · [049](notes/segment-049.md) · [050](notes/segment-050.md) · [051](notes/segment-051.md) · [052](notes/segment-052.md) · [053](notes/segment-053.md) · [054](notes/segment-054.md) · [055](notes/segment-055.md) · [056](notes/segment-056.md) | 164–192 | 8,390–9,796 | 91,131 |
+| [A07](batch-A07-review.md) | [057](notes/segment-057.md) · [058](notes/segment-058.md) · [059](notes/segment-059.md) · [060](notes/segment-060.md) · [061](notes/segment-061.md) · [062](notes/segment-062.md) · [063](notes/segment-063.md) · [064](notes/segment-064.md) · [065](notes/segment-065.md) · [066](notes/segment-066.md) | 193–222 | 9,797–11,295 | 87,853 |
+| [A08](batch-A08-review.md) | [067](notes/segment-067.md) · [068](notes/segment-068.md) · [069](notes/segment-069.md) · [070](notes/segment-070.md) · [071](notes/segment-071.md) · [072](notes/segment-072.md) · [073](notes/segment-073.md) · [074](notes/segment-074.md) · [075](notes/segment-075.md) · [076](notes/segment-076.md) | 223–252 | 11,296–12,495 | 90,479 |
+| [A09](batch-A09-review.md) | [077](notes/segment-077.md) · [078](notes/segment-078.md) · [079](notes/segment-079.md) · [080](notes/segment-080.md) · [081](notes/segment-081.md) · [082](notes/segment-082.md) · [083](notes/segment-083.md) · [084](notes/segment-084.md) · [085](notes/segment-085.md) · [086](notes/segment-086.md) | 253–276 | 12,496–13,548 | 98,287 |
+| [A10](batch-A10-review.md) | [087](notes/segment-087.md) · [088](notes/segment-088.md) · [089](notes/segment-089.md) · [090](notes/segment-090.md) · [091](notes/segment-091.md) · [092](notes/segment-092.md) · [093](notes/segment-093.md) · [094](notes/segment-094.md) · [095](notes/segment-095.md) · [096](notes/segment-096.md) | 277–296 | 13,549–14,743 | 100,111 |
+| [A11](batch-A11-review.md) | [097](notes/segment-097.md) · [098](notes/segment-098.md) · [099](notes/segment-099.md) · [100](notes/segment-100.md) · [101](notes/segment-101.md) · [102](notes/segment-102.md) · [103](notes/segment-103.md) · [104](notes/segment-104.md) · [105](notes/segment-105.md) · [106](notes/segment-106.md) | 297–316 | 14,744–15,968 | 103,894 |
+| [A12](batch-A12-review.md) | [107](notes/segment-107.md) · [108](notes/segment-108.md) · [109](notes/segment-109.md) · [110](notes/segment-110.md) · [111](notes/segment-111.md) · [112](notes/segment-112.md) · [113](notes/segment-113.md) · [114](notes/segment-114.md) · [115](notes/segment-115.md) · [116](notes/segment-116.md) | 317–336 | 15,969–17,355 | 100,431 |
+| [A13](batch-A13-review.md) | [117](notes/segment-117.md) · [118](notes/segment-118.md) · [119](notes/segment-119.md) · [120](notes/segment-120.md) · [121](notes/segment-121.md) · [122](notes/segment-122.md) · [123](notes/segment-123.md) · [124](notes/segment-124.md) · [125](notes/segment-125.md) · [126](notes/segment-126.md) | 337–356 | 17,356–18,661 | 103,835 |
+| [A14](batch-A14-review.md) | [127](notes/segment-127.md) · [128](notes/segment-128.md) · [129](notes/segment-129.md) · [130](notes/segment-130.md) · [131](notes/segment-131.md) · [132](notes/segment-132.md) · [133](notes/segment-133.md) · [134](notes/segment-134.md) · [135](notes/segment-135.md) · [136](notes/segment-136.md) | 357–376 | 18,662–19,699 | 100,309 |
+| [A15](batch-A15-review.md) | [137](notes/segment-137.md) · [138](notes/segment-138.md) · [139](notes/segment-139.md) · [140](notes/segment-140.md) · [141](notes/segment-141.md) · [142](notes/segment-142.md) · [143](notes/segment-143.md) · [144](notes/segment-144.md) · [145](notes/segment-145.md) · [146](notes/segment-146.md) | 377–397 | 19,700–20,883 | 100,567 |
+| [A16](batch-A16-review.md) | [147](notes/segment-147.md) · [148](notes/segment-148.md) · [149](notes/segment-149.md) · [150](notes/segment-150.md) · [151](notes/segment-151.md) · [152](notes/segment-152.md) · [153](notes/segment-153.md) · [154](notes/segment-154.md) · [155](notes/segment-155.md) · [156](notes/segment-156.md) | 398–417 | 20,884–22,132 | 99,446 |
+| [A17](batch-A17-review.md) | [157](notes/segment-157.md) · [158](notes/segment-158.md) · [159](notes/segment-159.md) · [160](notes/segment-160.md) · [161](notes/segment-161.md) · [162](notes/segment-162.md) · [163](notes/segment-163.md) · [164](notes/segment-164.md) · [165](notes/segment-165.md) · [166](notes/segment-166.md) | 418–437 | 22,133–23,270 | 100,198 |
+| [A18](batch-A18-review.md) | [167](notes/segment-167.md) · [168](notes/segment-168.md) · [169](notes/segment-169.md) · [170](notes/segment-170.md) · [171](notes/segment-171.md) · [172](notes/segment-172.md) · [173](notes/segment-173.md) · [174](notes/segment-174.md) · [175](notes/segment-175.md) · [176](notes/segment-176.md) | 438–457 | 23,271–24,549 | 98,511 |
+| [A19](batch-A19-review.md) | [177](notes/segment-177.md) · [178](notes/segment-178.md) · [179](notes/segment-179.md) · [180](notes/segment-180.md) · [181](notes/segment-181.md) · [182](notes/segment-182.md) · [183](notes/segment-183.md) · [184](notes/segment-184.md) · [185](notes/segment-185.md) · [186](notes/segment-186.md) | 458–477 | 24,550–25,748 | 97,803 |
+| [A20](batch-A20-review.md) | [187](notes/segment-187.md) · [188](notes/segment-188.md) · [189](notes/segment-189.md) · [190](notes/segment-190.md) · [191](notes/segment-191.md) · [192](notes/segment-192.md) · [193](notes/segment-193.md) · [194](notes/segment-194.md) · [195](notes/segment-195.md) · [196](notes/segment-196.md) | 478–498 | 25,749–26,844 | 94,355 |
+| [A21](batch-A21-review.md) | [197](notes/segment-197.md) · [198](notes/segment-198.md) · [199](notes/segment-199.md) · [200](notes/segment-200.md) · [201](notes/segment-201.md) · [202](notes/segment-202.md) · [203](notes/segment-203.md) · [204](notes/segment-204.md) · [205](notes/segment-205.md) · [206](notes/segment-206.md) | 499–518 | 26,845–28,040 | 94,729 |
+| [A22](batch-A22-review.md) | [207](notes/segment-207.md) · [208](notes/segment-208.md) · [209](notes/segment-209.md) · [210](notes/segment-210.md) · [211](notes/segment-211.md) · [212](notes/segment-212.md) · [213](notes/segment-213.md) · [214](notes/segment-214.md) · [215](notes/segment-215.md) · [216](notes/segment-216.md) | 519–538 | 28,041–29,210 | 97,724 |
+| [A23](batch-A23-review.md) | [217](notes/segment-217.md) · [218](notes/segment-218.md) · [219](notes/segment-219.md) · [220](notes/segment-220.md) · [221](notes/segment-221.md) · [222](notes/segment-222.md) · [223](notes/segment-223.md) · [224](notes/segment-224.md) · [225](notes/segment-225.md) · [226](notes/segment-226.md) | 539–559 | 29,211–30,444 | 95,381 |
+| [A24](batch-A24-review.md) | [227](notes/segment-227.md) · [228](notes/segment-228.md) · [229](notes/segment-229.md) · [230](notes/segment-230.md) · [231](notes/segment-231.md) · [232](notes/segment-232.md) · [233](notes/segment-233.md) · [234](notes/segment-234.md) · [235](notes/segment-235.md) · [236](notes/segment-236.md) | 560–579 | 30,445–31,523 | 88,849 |
+| [A25](batch-A25-review.md) | [237](notes/segment-237.md) · [238](notes/segment-238.md) · [239](notes/segment-239.md) · [240](notes/segment-240.md) · [241](notes/segment-241.md) · [242](notes/segment-242.md) · [243](notes/segment-243.md) · [244](notes/segment-244.md) · [245](notes/segment-245.md) · [246](notes/segment-246.md) | 580–599 | 31,524–32,677 | 89,516 |
+| [A26](batch-A26-review.md) | [247](notes/segment-247.md) · [248](notes/segment-248.md) · [249](notes/segment-249.md) · [250](notes/segment-250.md) · [251](notes/segment-251.md) · [252](notes/segment-252.md) · [253](notes/segment-253.md) · [254](notes/segment-254.md) · [255](notes/segment-255.md) · [256](notes/segment-256.md) | 600–619 | 32,678–33,823 | 88,571 |
+| [A27](batch-A27-review.md) | [257](notes/segment-257.md) · [258](notes/segment-258.md) · [259](notes/segment-259.md) · [260](notes/segment-260.md) · [261](notes/segment-261.md) · [262](notes/segment-262.md) · [263](notes/segment-263.md) · [264](notes/segment-264.md) · [265](notes/segment-265.md) · [266](notes/segment-266.md) | 620–639 | 33,824–34,975 | 94,562 |
+| [A28](batch-A28-review.md) | [267](notes/segment-267.md) · [268](notes/segment-268.md) · [269](notes/segment-269.md) · [270](notes/segment-270.md) · [271](notes/segment-271.md) · [272](notes/segment-272.md) · [273](notes/segment-273.md) · [274](notes/segment-274.md) · [275](notes/segment-275.md) · [276](notes/segment-276.md) | 640–659 | 34,976–36,124 | 91,992 |
+| [A29](batch-A29-review.md) | [277](notes/segment-277.md) · [278](notes/segment-278.md) · [279](notes/segment-279.md) · [280](notes/segment-280.md) · [281](notes/segment-281.md) · [282](notes/segment-282.md) · [283](notes/segment-283.md) · [284](notes/segment-284.md) · [285](notes/segment-285.md) · [286](notes/segment-286.md) | 660–679 | 36,125–37,292 | 97,468 |
+| [A30](batch-A30-review.md) | [287](notes/segment-287.md) · [288](notes/segment-288.md) · [289](notes/segment-289.md) · [290](notes/segment-290.md) · [291](notes/segment-291.md) · [292](notes/segment-292.md) · [293](notes/segment-293.md) · [294](notes/segment-294.md) · [295](notes/segment-295.md) · [296](notes/segment-296.md) | 680–701 | 37,293–38,481 | 96,861 |
+| [A31](batch-A31-review.md) | [297](notes/segment-297.md) · [298](notes/segment-298.md) · [299](notes/segment-299.md) · [300](notes/segment-300.md) · [301](notes/segment-301.md) · [302](notes/segment-302.md) · [303](notes/segment-303.md) · [304](notes/segment-304.md) · [305](notes/segment-305.md) · [306](notes/segment-306.md) | 702–722 | 38,482–39,711 | 92,658 |
+| [A32](batch-A32-review.md) | [307](notes/segment-307.md) · [308](notes/segment-308.md) · [309](notes/segment-309.md) · [310](notes/segment-310.md) · [311](notes/segment-311.md) · [312](notes/segment-312.md) · [313](notes/segment-313.md) · [314](notes/segment-314.md) · [315](notes/segment-315.md) · [316](notes/segment-316.md) | 723–742 | 39,712–40,848 | 89,053 |
+| [A33](batch-A33-review.md) | [317](notes/segment-317.md) · [318](notes/segment-318.md) · [319](notes/segment-319.md) · [320](notes/segment-320.md) · [321](notes/segment-321.md) · [322](notes/segment-322.md) · [323](notes/segment-323.md) · [324](notes/segment-324.md) · [325](notes/segment-325.md) · [326](notes/segment-326.md) | 743–762 | 40,849–41,867 | 82,663 |
+| [A34](batch-A34-review.md) | [327](notes/segment-327.md) · [328](notes/segment-328.md) · [329](notes/segment-329.md) · [330](notes/segment-330.md) · [331](notes/segment-331.md) · [332](notes/segment-332.md) · [333](notes/segment-333.md) · [334](notes/segment-334.md) · [335](notes/segment-335.md) · [336](notes/segment-336.md) | 763–782 | 41,868–42,949 | 80,436 |
+| [A35](batch-A35-review.md) | [337](notes/segment-337.md) · [338](notes/segment-338.md) · [339](notes/segment-339.md) · [340](notes/segment-340.md) · [341](notes/segment-341.md) · [342](notes/segment-342.md) · [343](notes/segment-343.md) · [344](notes/segment-344.md) · [345](notes/segment-345.md) · [346](notes/segment-346.md) | 783–803 | 42,950–44,239 | 85,062 |
+| [A36](batch-A36-review.md) | [347](notes/segment-347.md) · [348](notes/segment-348.md) · [349](notes/segment-349.md) · [350](notes/segment-350.md) · [351](notes/segment-351.md) · [352](notes/segment-352.md) · [353](notes/segment-353.md) · [354](notes/segment-354.md) · [355](notes/segment-355.md) · [356](notes/segment-356.md) | 804–823 | 44,240–45,609 | 84,849 |
+| [A37](batch-A37-review.md) | [357](notes/segment-357.md) · [358](notes/segment-358.md) · [359](notes/segment-359.md) · [360](notes/segment-360.md) · [361](notes/segment-361.md) · [362](notes/segment-362.md) · [363](notes/segment-363.md) · [364](notes/segment-364.md) · [365](notes/segment-365.md) · [366](notes/segment-366.md) | 824–847 | 45,610–47,003 | 95,344 |
+| [A38](batch-A38-review.md) | [367](notes/segment-367.md) · [368](notes/segment-368.md) · [369](notes/segment-369.md) · [370](notes/segment-370.md) · [371](notes/segment-371.md) · [372](notes/segment-372.md) · [373](notes/segment-373.md) · [374](notes/segment-374.md) · [375](notes/segment-375.md) · [376](notes/segment-376.md) | 848–869 | 47,004–48,298 | 89,750 |
+| [A39](batch-A39-review.md) | [377](notes/segment-377.md) · [378](notes/segment-378.md) · [379](notes/segment-379.md) · [380](notes/segment-380.md) · [381](notes/segment-381.md) · [382](notes/segment-382.md) · [383](notes/segment-383.md) · [384](notes/segment-384.md) · [385](notes/segment-385.md) · [386](notes/segment-386.md) | 870–895 | 48,299–49,481 | 101,647 |
+| [A40](batch-A40-review.md) | [387](notes/segment-387.md) · [388](notes/segment-388.md) · [389](notes/segment-389.md) · [390](notes/segment-390.md) | 896–900 | 49,482–49,765 | 27,012 |
+
+五批一组的阶段复盘
+
+[A01–A05](sections/stage-A01-A05.md) · [A06–A10](sections/stage-A06-A10.md) · [A11–A15](sections/stage-A11-A15.md) · [A16–A20](sections/stage-A16-A20.md) · [A21–A25](sections/stage-A21-A25.md) · [A26–A30](sections/stage-A26-A30.md) · [A31–A35](sections/stage-A31-A35.md) · [A36–A40](sections/stage-A36-A40.md)
+
+[覆盖与原文偏移](coverage-map.md) · [章节目录](source/chapter-catalog.json) · [本地文本说明](source-quality-review.md)

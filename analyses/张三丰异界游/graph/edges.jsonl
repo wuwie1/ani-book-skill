@@ -1,4 +1,4 @@
-{"id": "EDGE-001", "source": "segment-001", "relation": "opens", "target": "PROM-001", "confidence": "high", "evidence": ["CLAIM-001"]}
+{"id": "EDGE-001", "source": "segment-001", "relation": "opens", "target": "PROM-001", "confidence": "high", "evidence": ["CLAIM-1405"]}
 {"id": "EDGE-002", "source": "KNOW-001", "relation": "enables", "target": "segment-001", "confidence": "medium", "evidence": ["CLAIM-002"]}
 {"id": "EDGE-003", "source": "KNOW-001", "relation": "enables", "target": "ITEM-RADAR", "confidence": "high", "evidence": ["CLAIM-003"]}
 {"id": "EDGE-004", "source": "RULE-SEAL", "relation": "blocks", "target": "segment-002", "confidence": "high", "evidence": ["CLAIM-004"]}
@@ -7,7 +7,7 @@
 {"id": "EDGE-007", "source": "RES-CORPSE", "relation": "opens", "target": "PROM-ALCHEMY", "confidence": "high", "evidence": ["CLAIM-007"]}
 {"id": "EDGE-008", "source": "CHAR-GAICI", "relation": "enables", "target": "RULE-PORTAL", "confidence": "high", "evidence": ["CLAIM-009"]}
 {"id": "EDGE-009", "source": "RULE-PORTAL", "relation": "enables", "target": "CHAR-DRAGON", "confidence": "high", "evidence": ["CLAIM-009"]}
-{"id": "EDGE-010", "source": "segment-004", "relation": "opens", "target": "PROM-STAFF", "confidence": "high", "evidence": ["segment-004/第十三节神器悬赏"]}
+{"id": "EDGE-010", "source": "segment-004", "relation": "opens", "target": "PROM-STAFF", "confidence": "high", "evidence": ["CLAIM-1406"]}
 {"id": "EDGE-011", "source": "ITEM-STAFF", "relation": "pays_off", "target": "PROM-STAFF", "confidence": "high", "evidence": ["CLAIM-012"]}
 {"id": "EDGE-012", "source": "ITEM-STAFF", "relation": "enables", "target": "RES-REWARD", "confidence": "high", "evidence": ["CLAIM-013"]}
 {"id": "EDGE-013", "source": "segment-005", "relation": "changes_state", "target": "CHAR-WEINA", "confidence": "high", "evidence": ["CLAIM-014"]}
@@ -75,7 +75,7 @@
 {"id": "EDGE-075", "source": "CHAR-KELI", "relation": "uses", "target": "RES-RESEARCHLAB", "confidence": "high", "evidence": ["CLAIM-134"]}
 {"id": "EDGE-076", "source": "ITEM-TREERARE", "relation": "enables", "target": "EVENT-EGGHATCH", "confidence": "high", "evidence": ["CLAIM-135"]}
 {"id": "EDGE-077", "source": "EVENT-EGGHATCH", "relation": "introduces", "target": "CHAR-MEIER", "confidence": "high", "evidence": ["CLAIM-138"]}
-{"id": "EDGE-078", "source": "PROM-XIANYASAINT", "relation": "fulfilled_by", "target": "CHAR-XIRUINA", "confidence": "high", "evidence": ["CLAIM-143"]}
+{"id": "EDGE-078", "source": "PROM-XIANYASAINT", "relation": "partially_fulfilled_by_guardian_contract_with", "target": "CHAR-XIRUINA", "confidence": "high", "evidence": ["CLAIM-143"]}
 {"id": "EDGE-079", "source": "PLACE-BORAZI", "relation": "supports", "target": "ORG-MULTIRACECORPS", "confidence": "high", "evidence": ["CLAIM-156"]}
 {"id": "EDGE-080", "source": "PLACE-BORAZI", "relation": "hosts", "target": "ORG-CHURCHLAND", "confidence": "high", "evidence": ["CLAIM-152"]}
 {"id": "EDGE-081", "source": "EVENT-POLITICALSPLIT", "relation": "opens", "target": "EVENT-PINGANRESCUE", "confidence": "high", "evidence": ["CLAIM-165"]}
@@ -337,11 +337,28 @@
 {"id": "EDGE-337", "source": "EVENT-SECONDREADMEMORY", "relation": "is_countered_without_unsealing_by", "target": "EVENT-MEMORYBACKUPS", "evidence": ["CLAIM-1215"], "confidence": "high"}
 {"id": "EDGE-338", "source": "EVENT-MEMORYBACKUPS", "relation": "retains_covert_link_despite", "target": "EVENT-COERCEDSEEDS", "evidence": ["CLAIM-1215"], "confidence": "high"}
 {"id": "EDGE-339", "source": "EVENT-COERCEDSEEDS", "relation": "coexists_with_crisis_response_in", "target": "EVENT-LIMITEDTECHSHARING", "evidence": ["CLAIM-1220"], "confidence": "high"}
-{"id": "EDGE-340", "source": "segment-380", "relation": "enables", "target": "FINAL-INTERFACES", "confidence": "high", "evidence": ["CLAIM-1344"]}
+{"id": "EDGE-340", "source": "segment-380", "relation": "records_technical_verification_in", "target": "EVENT-YAHADTECH", "confidence": "high", "evidence": ["CLAIM-1344"]}
 {"id": "EDGE-341", "source": "segment-387", "relation": "realizes", "target": "FINAL-INTERFACES", "confidence": "high", "evidence": ["CLAIM-1382"]}
 {"id": "EDGE-342", "source": "segment-387", "relation": "incurs", "target": "FINAL-COST", "confidence": "high", "evidence": ["CLAIM-1380"]}
 {"id": "EDGE-343", "source": "segment-389", "relation": "exposes_limit", "target": "FINAL-COST", "confidence": "high", "evidence": ["CLAIM-1388"]}
 {"id": "EDGE-344", "source": "segment-295", "relation": "supports", "target": "FINAL-RELATIONS", "confidence": "high", "evidence": ["CLAIM-1398"]}
 {"id": "EDGE-345", "source": "segment-389", "relation": "resolves", "target": "FINAL-NVWA", "confidence": "high", "evidence": ["CLAIM-1389"]}
-{"id": "EDGE-346", "source": "FINAL-NVWA", "relation": "enables", "target": "segment-389", "confidence": "high", "evidence": ["CLAIM-1391"]}
+{"id": "EDGE-346", "source": "FINAL-NVWA", "relation": "enables", "target": "EVENT-FINALSWORD", "confidence": "high", "evidence": ["CLAIM-1391"]}
 {"id": "EDGE-347", "source": "segment-390", "relation": "resolves", "target": "FINAL-ANGELS", "confidence": "high", "evidence": ["CLAIM-1393"]}
+{"id": "EDGE-348", "source": "CHAR-ZHANGSANFENG", "relation": "seeks", "target": "PROM-001", "confidence": "high", "evidence": ["CLAIM-1405"]}
+{"id": "EDGE-349", "source": "PROM-001", "relation": "pays_off_at", "target": "segment-201", "confidence": "high", "evidence": ["CLAIM-628"]}
+{"id": "EDGE-350", "source": "CHAR-XIRUINA", "relation": "reunites_with", "target": "CHAR-ZHANGSANFENG", "confidence": "high", "evidence": ["CLAIM-628"]}
+{"id": "EDGE-351", "source": "CHAR-ZHANGSANFENG", "relation": "loses_a_body_in", "target": "EVENT-THIRDBODYLOST", "confidence": "high", "evidence": ["CLAIM-1118", "CLAIM-1389"]}
+{"id": "EDGE-352", "source": "EVENT-THIRDBODYLOST", "relation": "is_explained_by", "target": "FINAL-NVWA", "confidence": "high", "evidence": ["CLAIM-1389"]}
+{"id": "EDGE-353", "source": "CHAR-ZHANGSANFENG", "relation": "performs", "target": "EVENT-FINALSWORD", "confidence": "high", "evidence": ["CLAIM-1391"]}
+{"id": "EDGE-354", "source": "CHAR-ZHANGSANFENG", "relation": "becomes_father_in", "target": "FINAL-ANGELS", "confidence": "high", "evidence": ["CLAIM-1393", "CLAIM-1394"]}
+{"id": "EDGE-355", "source": "CHAR-XIRUINA", "relation": "participates_in", "target": "FINAL-ANGELS", "confidence": "high", "evidence": ["CLAIM-1393"]}
+{"id": "EDGE-356", "source": "CHAR-JESSICA", "relation": "participates_in", "target": "FINAL-ANGELS", "confidence": "high", "evidence": ["CLAIM-1393"]}
+{"id": "EDGE-357", "source": "CHAR-JESSICA", "relation": "receives_invitation_in", "target": "segment-377", "confidence": "high", "evidence": ["CLAIM-1332"]}
+{"id": "EDGE-358", "source": "CHAR-JESSICA", "relation": "trains_and_commands_gods_angel_army_in", "target": "segment-383", "confidence": "high", "evidence": ["CLAIM-1361"]}
+{"id": "EDGE-359", "source": "CHAR-ZHANGSANFENG", "relation": "orders_rear_offensive_in", "target": "segment-387", "confidence": "high", "evidence": ["CLAIM-1379"]}
+{"id": "EDGE-360", "source": "CHAR-YAHAD", "relation": "survives_as_captive_soul_after", "target": "EVENT-GODHOODSEIZURE", "confidence": "high", "evidence": ["CLAIM-986"]}
+{"id": "EDGE-361", "source": "CHAR-YAHAD", "relation": "supplies_missing_knowledge_in", "target": "EVENT-YAHADTECH", "confidence": "high", "evidence": ["CLAIM-1344"]}
+{"id": "EDGE-362", "source": "CHAR-YAHUA", "relation": "loses_body_and_soul_in", "target": "EVENT-FATHERSONDEATH", "confidence": "high", "evidence": ["CLAIM-1109"]}
+{"id": "EDGE-363", "source": "CHAR-YESU", "relation": "loses_body_and_soul_in", "target": "EVENT-FATHERSONDEATH", "confidence": "high", "evidence": ["CLAIM-1109"]}
+{"id": "EDGE-364", "source": "CHAR-YAHUA", "relation": "father_of", "target": "CHAR-YESU", "confidence": "high", "evidence": ["CLAIM-1109"]}

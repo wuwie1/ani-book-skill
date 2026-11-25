@@ -1,5 +1,7 @@
 # segment-295｜夺格实成但战力未到顶级，资源分配支持潜伏选择
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧"],"chapter_start":690,"chapter_end":691} -->
+
 ## 来源
 
 [2986107,2995520)，8959非空；ordinal698–699，原690《终成正果》、691《分赃大会》。三窗连续读完至三害争辩正义/栽赃的章末。传位戏仅筹划，不能写执行成功。

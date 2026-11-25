@@ -1,6 +1,6 @@
 # segment-081｜地方交易与战利税收巩固占领，父咒净化终于兑现但权力代价未消
 
-<!-- retrieval-meta: {"chapter_start":265,"chapter_end":266,"dimensions":["plot","resources","worldbuilding"],"characters":["张三丰","龙家祖母","龙啸天","塔塔亚克","王管家"]} -->
+<!-- retrieval-meta: {"chapter_start":264,"chapter_end":265,"dimensions":["plot","resources","worldbuilding"],"characters":["张三丰","龙家祖母","龙啸天","塔塔亚克","王管家"]} -->
 
 ordinal265–266；原264《第九剑神》—265《土地改革》；[809389,819081)，9346非空字符。813989、818589三显示完整章末；实际两原节不误填三章。
 

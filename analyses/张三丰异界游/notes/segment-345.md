@@ -1,5 +1,7 @@
 # segment-345｜拟合敌利益诱定攻击线，四兽接收须威慑与解释而新卧底权限被限
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰"],"chapter_start":791,"chapter_end":792} -->
+
 ## 来源
 
 ordinal800–801，原791《再得宝物》、792《收服四兽》；[3440481,3449034)，8015非空。raw.decode4400＋4153连续完整至雅在新单位收残兵/前侦得机联络，尚未见具体敌会议计划。

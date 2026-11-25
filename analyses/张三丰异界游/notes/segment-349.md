@@ -1,5 +1,7 @@
 # segment-349｜母神伤为土傀儡后揭，固定能源剑阵隔七高使外军可歼却损耗极重
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧","七公主"],"chapter_start":799,"chapter_end":800} -->
+
 ## 来源
 
 ordinal808–809，原799《惊天大逆转》、800《大屠杀》；[3474338,3482864)，8140非空。raw.decode4400＋4126连续完整至拟放和拉让三强擒；尚未实际分出。

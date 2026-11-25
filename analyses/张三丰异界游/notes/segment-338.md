@@ -1,5 +1,7 @@
 # segment-338｜先牵强再围弱五小时终杀，胜后克制与按需分配并留重建账
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧"],"chapter_start":776,"chapter_end":777} -->
+
 ## 来源
 
 ordinal785–786，原776《击杀二獠》、777《收复神界》；[3375733,3384168)，7941非空。raw.decode4400＋4035连续完整至丽带龙军收空城/留万防后路，主角名下旧界天堂尚未受降。

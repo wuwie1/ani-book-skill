@@ -1,5 +1,7 @@
 # segment-331｜阵外救援与根基反制改局，求和未成后献祭牺牲层级显露
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰"],"chapter_start":762,"chapter_end":763} -->
+
 ## 来源
 
 ordinal771–772，原762《鸟人服了。》、763《天使献祭》；[3316422,3324840)，8032非空。原decode4400＋4018连续完整至三人献祭后和拉阻直接入阵，要求用绝招；绝招尚未发。

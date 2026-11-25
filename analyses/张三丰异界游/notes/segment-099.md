@@ -1,6 +1,6 @@
 # segment-099｜失信降族进入敌后勤计，正面对决只是拖延框架
 
-<!-- retrieval-meta: {"chapter_start":301,"chapter_end":302,"dimensions":["plot","progression","worldbuilding","character"],"characters":["西思尔","西亚","伯里","格拉纳","塔塔亚克","龙啸天","欧阳若兰"]} -->
+<!-- retrieval-meta: {"chapter_start":299,"chapter_end":300,"dimensions":["plot","progression","worldbuilding","character"],"characters":["西思尔","西亚","伯里","格拉纳","塔塔亚克","龙啸天","欧阳若兰"]} -->
 
 ordinal301–302；原299《决战在即》—300《大战暴发》；[998707,1010229)，11048非空字符。998707/1003307/1007907三显示全读，末主战青龙破首道步防、虎王尚有后手，未见三战场总果。
 

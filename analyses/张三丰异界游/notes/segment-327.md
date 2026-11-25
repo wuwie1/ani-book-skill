@@ -1,5 +1,7 @@
 # segment-327｜三成剑有一次接口损耗，救师推断转现场实证而通路仍险
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","七公主"],"chapter_start":754,"chapter_end":755} -->
+
 ## 来源
 
 ordinal763–764，原754《神界血战》、755《天火井边》；[3282533,3290907)，8020非空。raw.decode保留CRLF，4400＋3974完整至主角拟横穿天火井救二师尊，尚未入火。

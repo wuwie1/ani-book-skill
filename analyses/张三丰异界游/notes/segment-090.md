@@ -1,6 +1,6 @@
 # segment-090｜主动认输保留筹划时间，离间以真实屠杀升级
 
-<!-- retrieval-meta: {"chapter_start":283,"chapter_end":284,"dimensions":["plot","progression","character"],"characters":["张三丰","卡罗","马赫","西思尔","买买提","卡特二王子"]} -->
+<!-- retrieval-meta: {"chapter_start":282,"chapter_end":283,"dimensions":["plot","progression","character"],"characters":["张三丰","卡罗","马赫","西思尔","买买提","卡特二王子"]} -->
 
 ordinal283–284；原282《赢了输了。》—283《阴谋始末》；[903954,914276)，9816非空字符。分[903954,908554)、[908554,913154)、[913154,914276)完整显示，章末虎王得知银狐少主夫妇被杀后掌掴二王子，尚未处置争端。
 

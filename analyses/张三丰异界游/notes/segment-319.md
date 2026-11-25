@@ -1,5 +1,7 @@
 # segment-319｜城军初战兑现协同，消耗与空间封锁保留脱困难题
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧","七公主"],"chapter_start":738,"chapter_end":739} -->
+
 ## 来源
 
 ordinal747–748，原738《暗之神界》、739《一场大战》；[3214744,3223199)，8089非空。原始utf-8-sig解码，4400＋4055连续显示完整至阴谋神拟散播困讯、主角骂回应。敌军退不等己方已破空间。

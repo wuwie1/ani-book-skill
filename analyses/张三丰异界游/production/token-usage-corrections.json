@@ -8,9 +8,14 @@
       "reason": "pure_file_history_copy_misrecorded_by_artifact_saver"
     }
   ],
-  "raw_events": 508,
-  "effective_creative_events": 507,
+  "raw_events": 512,
+  "effective_creative_events": 511,
   "measurement": "unavailable",
   "reason": "runtime_usage_not_exposed",
-  "token_totals": null
+  "token_totals": null,
+  "first_publication": {
+    "raw_events": 508,
+    "effective_creative_events": 507
+  },
+  "last_checked_at": "2026-11-24T10:17:40.476949+00:00"
 }

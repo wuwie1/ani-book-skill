@@ -1,6 +1,6 @@
 # segment-111｜现场取证打破保密，先头胜利几乎耗尽三千精骑
 
-<!-- retrieval-meta: {"chapter_start":325,"chapter_end":326,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","祖母","龙啸天","葡金","仙雅","玫儿"]} -->
+<!-- retrieval-meta: {"chapter_start":323,"chapter_end":324,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","祖母","龙啸天","葡金","仙雅","玫儿"]} -->
 
 ordinal325–326；原323《祖母摊牌》—324《先锋之战》；[1127458,1137906)，9866非空字符。1127458/1132058/1136658三显示全读，末父杀葡金/三千对三千己仅几十回城，灭鹰计划仍准备未实施。
 

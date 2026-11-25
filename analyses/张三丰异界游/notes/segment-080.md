@@ -1,6 +1,6 @@
 # segment-080｜解放与身份网络兑现突城，战果再投资为占领体系与闪击窗口
 
-<!-- retrieval-meta: {"chapter_start":262,"chapter_end":264,"dimensions":["plot","resources","worldbuilding"],"characters":["张三丰","丽芙倪","塔塔亚克","克里","王管家"]} -->
+<!-- retrieval-meta: {"chapter_start":261,"chapter_end":263,"dimensions":["plot","resources","worldbuilding"],"characters":["张三丰","丽芙倪","塔塔亚克","克里","王管家"]} -->
 
 ordinal262–264；原261《伊卡攻略》—263《闪击卡特》；[799916,809389)，9180非空字符；804516、809116三显示完整，章末闪击十三省已发军令未读其结果。
 

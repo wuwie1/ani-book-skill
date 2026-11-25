@@ -1,5 +1,7 @@
 # segment-254｜情报权限上升后，战争目标仍需分清证据与猜测
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧","耶和华"],"chapter_start":607,"chapter_end":608} -->
+
 - 固定快照ordinal614–615；原607《秘密会谈》、608《战争谋划》。[2576658,2587088)，9876非空字符；三次连续显示含雅分身离场完整章末。B透镜，人物卡off。
 
 ## 事实与当前状态

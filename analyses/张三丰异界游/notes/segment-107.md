@@ -1,6 +1,6 @@
 # segment-107｜赌注争夺风险分包，情报义务与招揽仇敌的身份转换
 
-<!-- retrieval-meta: {"chapter_start":317,"chapter_end":318,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","祖母","七公主","欧阳若兰","达佳","卡尔","仙雅","拖克坛"]} -->
+<!-- retrieval-meta: {"chapter_start":315,"chapter_end":316,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","祖母","七公主","欧阳若兰","达佳","卡尔","仙雅","拖克坛"]} -->
 
 ordinal317–318；原315《阴谋算计》—316《堵截仇人》；[1085685,1096054)，9675非空字符。1085685/1090285/1094885三显示完整，末主角要求拖克坛当领地第三法师，尚未答应/签约或决斗。
 

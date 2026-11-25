@@ -1,5 +1,7 @@
 # segment-269｜保密对练是真受伤，士气话术和隐蔽工程线索并行
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","雅典娜"],"chapter_start":637,"chapter_end":638} -->
+
 - 固定快照ordinal644–645；原637《雅典娜的调教》、638《无比狼狈》。[2723836,2732316)，8006非空字符；两次连续显示完整至速达拉不知被弃棋的章末。B透镜，人物卡off。
 
 ## 决斗约定与信息不对称

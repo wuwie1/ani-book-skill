@@ -1,6 +1,6 @@
 # segment-068｜图书线索与地图相互校验，战略援助开始出现真实战果
 
-<!-- retrieval-meta: {"chapter_start":226,"chapter_end":228,"dimensions":["plot","resources","worldbuilding"],"characters":["张三丰","丽芙倪","海伦","铁石","瓦纳二王子"]} -->
+<!-- retrieval-meta: {"chapter_start":225,"chapter_end":227,"dimensions":["plot","resources","worldbuilding"],"characters":["张三丰","丽芙倪","海伦","铁石","瓦纳二王子"]} -->
 
 ordinal226–228；原225《失落城市》—227《压迫反抗》；[683976,693475)，9026非空字符。688576分显示，章末为几千武装小姑娘声名起，尚未本段明名/展示具体战法。
 

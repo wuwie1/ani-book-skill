@@ -1,6 +1,6 @@
 # segment-064｜庇护依赖派系制衡，佣兵网络提供高阶资源线索
 
-<!-- retrieval-meta: {"chapter_start":214,"chapter_end":216,"dimensions":["plot","worldbuilding","resources"],"characters":["张三丰","爱莲娜","龙家祖母","王管家","克里"]} -->
+<!-- retrieval-meta: {"chapter_start":213,"chapter_end":215,"dimensions":["plot","worldbuilding","resources"],"characters":["张三丰","爱莲娜","龙家祖母","王管家","克里"]} -->
 
 ordinal214–216；原213《远走他乡》—215《准备狩猎》；[646560,655907)，8734非空字符。651160分显示完整，章末仅相约狩猎未出发。
 

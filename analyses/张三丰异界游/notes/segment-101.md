@@ -1,6 +1,6 @@
 # segment-101｜战功制度迫提前杀敌，虎王末路与联合分配收束战役
 
-<!-- retrieval-meta: {"chapter_start":305,"chapter_end":306,"dimensions":["plot","progression","character"],"characters":["张三丰","西思尔","龙啸天","买买提","尼古拉斯","石原大狼","西亚"]} -->
+<!-- retrieval-meta: {"chapter_start":303,"chapter_end":304,"dimensions":["plot","progression","character"],"characters":["张三丰","西思尔","龙啸天","买买提","尼古拉斯","石原大狼","西亚"]} -->
 
 ordinal305–306；原303《最后一战》—304《虎王之缢》；[1020630,1031158)，10154非空字符。1020630/1025230/1029830三显示全读。标题“缢”原样保留，实际是父剑气震内脏后死亡，不记上吊；末玄武迟到仅见尸场、处置未定。
 

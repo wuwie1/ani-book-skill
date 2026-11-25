@@ -1,5 +1,7 @@
 # segment-274｜互保阵地遭到学习性破解，胜利交换仍受补充速度制约
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","克里"],"chapter_start":647,"chapter_end":648} -->
+
 - 固定快照ordinal654–655；原647《火山之战（2）》、648《火山之战（3）》。[2773154,2781604)，8148非空字符；两次连续显示完整到教皇军加入/重装野蛮人增加守方压力。B透镜，人物卡off。
 
 ## 第一轮试攻结算

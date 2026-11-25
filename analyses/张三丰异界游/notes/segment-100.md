@@ -1,6 +1,6 @@
 # segment-100｜真假命令与血缘骗局回揭，战略逆转仍受不降意志约束
 
-<!-- retrieval-meta: {"chapter_start":303,"chapter_end":304,"dimensions":["plot","progression","character"],"characters":["张三丰","卡拉","拖克坛","西思尔","西亚","买买提","龙啸天","尼古拉斯"]} -->
+<!-- retrieval-meta: {"chapter_start":301,"chapter_end":302,"dimensions":["plot","progression","character"],"characters":["张三丰","卡拉","拖克坛","西思尔","西亚","买买提","龙啸天","尼古拉斯"]} -->
 
 ordinal303–304；原301《惊天逆转》—302《连番大捷》；[1010229,1020630)，9975非空字符。1010229/1014829/1019429三显示完整，末水军被围/尼大军向主战，虎王步军未降未死。
 

@@ -1,5 +1,7 @@
 # segment-316｜城市竣工恢复小绿机动，分治留守后启程魔界
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧","七公主","仙雅","海伦","耶和华"],"chapter_start":732,"chapter_end":733} -->
+
 ## 来源
 
 ordinal741–742，原732《正式回家》、733《初到魔界》；[3187510,3195894)，8034非空。raw.decode('utf-8-sig')保留CRLF，两连续显示4400＋3984字符完整至发现冒烟村落章末。已启程但未回原神界、未问到魔界活人。

@@ -1,6 +1,6 @@
 # segment-063｜稀缺蜜的估价误差换古弩，护短权势并不保护普通受害者
 
-<!-- retrieval-meta: {"chapter_start":211,"chapter_end":213,"dimensions":["plot","resources","character"],"characters":["卡秋沙","龙家祖母","教皇","东尼","萨大木","爱莲娜"]} -->
+<!-- retrieval-meta: {"chapter_start":210,"chapter_end":212,"dimensions":["plot","resources","character"],"characters":["卡秋沙","龙家祖母","教皇","东尼","萨大木","爱莲娜"]} -->
 
 ordinal211–213；原210《宫中诡辩》—212《色狼下场》；[637258,646560)，8709非空字符。641958分显示，完整章末尚在爱莲娜救人伤塞文弟的回溯中。
 

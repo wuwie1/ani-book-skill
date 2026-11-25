@@ -1,5 +1,7 @@
 # segment-347｜古封印引出风神怨亲口供，内线考验与六高诱饵仍两层未明
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰"],"chapter_start":795,"chapter_end":796} -->
+
 ## 来源
 
 ordinal804–805，原795《封印的秘密》、796《伯鲁斯的阴谋》；[3457314,3465807)，7971非空。raw.decode4400＋4093连续完整至福格问母神可怕，未读计划兑现/风神真实性后揭。

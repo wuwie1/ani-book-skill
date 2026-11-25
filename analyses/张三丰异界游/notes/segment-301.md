@@ -1,5 +1,7 @@
 # segment-301｜母神外力隔战，忘忧可救使复仇转为交换
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧"],"chapter_start":702,"chapter_end":703} -->
+
 ## 来源
 
 [3041820,3051200)，8934非空；ordinal710–711，原702《峰回路转》、703《和平谈判》。三连续窗口完整到主角谎称赤雪遗失乱流的章末，和约尚未完成全部交割，忘忧尚未重塑。

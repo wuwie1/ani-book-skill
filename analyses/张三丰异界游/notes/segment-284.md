@@ -1,5 +1,7 @@
 # segment-284｜联盟后手夺回神战主动，军队展示转入赔偿争议
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","耶哈德"],"chapter_start":667,"chapter_end":668} -->
+
 ## 来源与完整性
 
 [2873098,2882491)，8959非空；目录ordinal674–675，原667《惊天逆转》、668《诸神交锋》。三窗连续完整阅读到赔偿争执章末。实际覆盖截至此段，不借后文补协议。

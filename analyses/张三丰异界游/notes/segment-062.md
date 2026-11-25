@@ -1,6 +1,6 @@
 # segment-062｜实权编制成为考核报酬，护店承诺触发宗教军团连锁冲突
 
-<!-- retrieval-meta: {"chapter_start":208,"chapter_end":210,"dimensions":["plot","worldbuilding","character"],"characters":["张三丰","爱莲娜","卡秋沙","塞文兄弟","马其纳","龙家祖母"]} -->
+<!-- retrieval-meta: {"chapter_start":207,"chapter_end":209,"dimensions":["plot","worldbuilding","character"],"characters":["张三丰","爱莲娜","卡秋沙","塞文兄弟","马其纳","龙家祖母"]} -->
 
 ordinal208–210，原207《他乡遇故》—209《圣山之乱》；[627932,637258)，8729非空字符；632532分显示，完整末尾停在东尼身世解释，尚未冲突裁决。
 

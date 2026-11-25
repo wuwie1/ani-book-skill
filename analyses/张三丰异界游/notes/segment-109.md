@@ -1,6 +1,6 @@
 # segment-109｜拒以翼人作消耗兑现平等，侦杀方案受习性反证
 
-<!-- retrieval-meta: {"chapter_start":321,"chapter_end":322,"dimensions":["plot","progression","character","worldbuilding"],"characters":["张三丰","祖母","七公主","拖克坛","玫儿","仙雅","雅典娜","香香"]} -->
+<!-- retrieval-meta: {"chapter_start":319,"chapter_end":320,"dimensions":["plot","progression","character","worldbuilding"],"characters":["张三丰","祖母","七公主","拖克坛","玫儿","仙雅","雅典娜","香香"]} -->
 
 ordinal321–322；原319《拒不调兵》—320《丛林遇险》；[1106414,1116990)，9970非空字符。1106414/1111014/1115614三显示完整，末忍者转捉观战三女/主角准备熊出，未结伏击/比赛。
 

@@ -488,5 +488,6 @@
     "completed_segments": "各批已正式完整阅读并有ready notes的片段数",
     "review_status": "A01 accepted；deferred_to_completed_analysis指用户已授权持续执行，常规批次不再暂停，最终全书统一审核",
     "completion_record": "本字段为批次完成记录路径；A01–A40均ready，历史记录保留原范围。"
-  }
+  },
+  "source_sha256": "97b73749544e3029028de13d4c489e60b0a2bbfd1711427cb2da63f7768fa115"
 }

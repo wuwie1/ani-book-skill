@@ -1,6 +1,6 @@
 # segment-092｜异体系机动与火性破防，误导信息又触发敌人适应
 
-<!-- retrieval-meta: {"chapter_start":287,"chapter_end":288,"dimensions":["progression","worldbuilding","plot"],"characters":["张三丰","基脯洛夫","盖次","克里","西思尔"]} -->
+<!-- retrieval-meta: {"chapter_start":286,"chapter_end":287,"dimensions":["progression","worldbuilding","plot"],"characters":["张三丰","基脯洛夫","盖次","克里","西思尔"]} -->
 
 ordinal287–288；原286《惊天一战》—287《被忽悠了。》；[924568,935108)，10134非空字符。分924568/929168/933768完整读到章末“俱焚”起招，未交代命中与赛果。
 

@@ -1,5 +1,7 @@
 # segment-336｜叛将契约换路线，卧底以忠诚表演夺传承而三强先断补能
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰"],"chapter_start":772,"chapter_end":773} -->
+
 ## 来源
 
 ordinal781–782，原772《合作愉快》、773《奇袭天堂》；[3358629,3367197)，8082非空。raw.decode4400＋4168完整至母神毁池/二指挥失补能绝望。**二人尚未被杀**，史丹利也未实际领位面。

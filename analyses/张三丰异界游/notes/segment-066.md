@@ -1,6 +1,6 @@
 # segment-066｜高阶捕兽转矿业守备，超额赏金购买未来发现网络
 
-<!-- retrieval-meta: {"chapter_start":220,"chapter_end":222,"dimensions":["plot","resources","worldbuilding"],"characters":["张三丰","盖次","克里","卡罗","仙雅","雅典娜","马其纳"]} -->
+<!-- retrieval-meta: {"chapter_start":219,"chapter_end":221,"dimensions":["plot","resources","worldbuilding"],"characters":["张三丰","盖次","克里","卡罗","仙雅","雅典娜","马其纳"]} -->
 
 ordinal220–222；原219《丰厚回报》—221《圣女测试》；[665184,674692)，9007非空字符；669784分显示完整，最后天使问谁来、未开打。
 

@@ -11,6 +11,8 @@ windows:
   start: 173
   end: 12370
   non_whitespace_chars: 10248
+  line_start: 11
+  line_end: 671
 - id: B01-W02
   batch: B01
   note: notes/segment-002.md
@@ -22,6 +24,8 @@ windows:
   start: 12370
   end: 31793
   non_whitespace_chars: 15938
+  line_start: 672
+  line_end: 1849
 - id: B01-W03
   batch: B01
   note: notes/segment-003.md
@@ -33,6 +37,8 @@ windows:
   start: 262378
   end: 276073
   non_whitespace_chars: 11120
+  line_start: 15632
+  line_end: 16501
 - id: B02-W01
   batch: B02
   note: notes/segment-004.md
@@ -44,6 +50,8 @@ windows:
   start: 1252365
   end: 1272764
   non_whitespace_chars: 16921
+  line_start: 65882
+  line_end: 67059
 - id: B02-W02
   batch: B02
   note: notes/segment-005.md
@@ -55,6 +63,8 @@ windows:
   start: 764050
   end: 773773
   non_whitespace_chars: 8299
+  line_start: 41670
+  line_end: 42153
 - id: B02-W03
   batch: B02
   note: notes/segment-006.md
@@ -66,6 +76,8 @@ windows:
   start: 1750275
   end: 1759792
   non_whitespace_chars: 8237
+  line_start: 92366
+  line_end: 92801
 - id: B03-W01
   batch: B03
   note: notes/segment-007.md
@@ -77,6 +89,8 @@ windows:
   start: 2977476
   end: 2987490
   non_whitespace_chars: 8524
+  line_start: 154294
+  line_end: 154799
 - id: B03-W02
   batch: B03
   note: notes/segment-008.md
@@ -88,6 +102,8 @@ windows:
   start: 3463307
   end: 3472756
   non_whitespace_chars: 8109
+  line_start: 179272
+  line_end: 179727
 - id: B03-W03
   batch: B03
   note: notes/segment-009.md
@@ -99,6 +115,8 @@ windows:
   start: 3954600
   end: 3964127
   non_whitespace_chars: 8217
+  line_start: 202974
+  line_end: 203419
 - id: B04-W01
   batch: B04
   note: notes/segment-010.md
@@ -110,6 +128,8 @@ windows:
   start: 4924928
   end: 4934577
   non_whitespace_chars: 8171
+  line_start: 249998
+  line_end: 250499
 - id: B04-W02
   batch: B04
   note: notes/segment-011.md
@@ -121,6 +141,8 @@ windows:
   start: 4443803
   end: 4453384
   non_whitespace_chars: 8193
+  line_start: 226722
+  line_end: 227193
 - id: B04-W03
   batch: B04
   note: notes/segment-012.md
@@ -132,3 +154,73 @@ windows:
   start: 4968921
   end: 4985208
   non_whitespace_chars: 13835
+  line_start: 252096
+  line_end: 252928
+review_excerpts:
+  date: '2026-11-24'
+  scope: 正式样本之外，仅按摘段核对。坐标左闭右开，行号含首尾。
+  non_whitespace_chars: 3822
+  excerpts:
+  - id: R01
+    chapter: 1804
+    ordinal: 1811
+    start: 4455080
+    end: 4455702
+    line_start: 227255
+    line_end: 227283
+    non_whitespace_chars: 537
+    topic: 夏思萌出笼、药效极限与拒绝精神永生
+  - id: R02
+    chapter: 2007
+    ordinal: 2015
+    start: 4941940
+    end: 4942160
+    line_start: 250813
+    line_end: 250821
+    non_whitespace_chars: 196
+    topic: 安卿鱼说明取代门之钥的意图
+  - id: R03
+    chapter: 2007
+    ordinal: 2015
+    start: 4942876
+    end: 4944098
+    line_start: 250853
+    line_end: 250909
+    non_whitespace_chars: 1049
+    topic: 曹渊拦退路，安卿鱼留下寻找林七夜的承诺
+  - id: R04
+    chapter: 2011
+    ordinal: 2019
+    start: 4952769
+    end: 4953695
+    line_start: 251285
+    line_end: 251329
+    non_whitespace_chars: 790
+    topic: 第五病房的宇宙残骸及阿撒托斯的治疗记录
+  - id: R05
+    chapter: 2013
+    ordinal: 2021
+    start: 4957192
+    end: 4957519
+    line_start: 251491
+    line_end: 251499
+    non_whitespace_chars: 299
+    topic: 回信记载循环同化的危险
+  - id: R06
+    chapter: 2013
+    ordinal: 2021
+    start: 4957708
+    end: 4958358
+    line_start: 251509
+    line_end: 251536
+    non_whitespace_chars: 566
+    topic: 圣约唤醒与教唆者计划
+  - id: R07
+    chapter: 2014
+    ordinal: 2022
+    start: 4959500
+    end: 4959957
+    line_start: 251585
+    line_end: 251609
+    non_whitespace_chars: 385
+    topic: 小男孩的身份与意志的存续

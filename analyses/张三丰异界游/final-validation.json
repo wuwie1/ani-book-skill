@@ -1,34 +1,125 @@
 {
   "status": "passed",
-  "checked_at": "2026-11-12T19:28:11.493122+00:00",
+  "checked_at": "2026-11-24T10:23:11.007940+00:00",
+  "review_date": "2026-11-24",
+  "review_type": "原目录与检索全量校验，文学判断按原文定点核查",
   "source_sha256": "97b73749544e3029028de13d4c489e60b0a2bbfd1711427cb2da63f7768fa115",
+  "source_ref": "/Users/likai/go/src/write/ani-book-skill/novels/张三丰异界游.txt",
+  "source_snapshot": "source/张三丰异界游.txt",
+  "exact_source_snapshot_match": true,
+  "snapshot_read_only": true,
   "decoded_chars": 3877521,
+  "source_non_whitespace_chars": 3682989,
+  "source_bytes": 11418097,
+  "source_lines": 49765,
+  "catalog_units": 901,
+  "all_catalog_offsets_and_headings_verified": true,
+  "coverage": "full",
+  "formal_note_files": 390,
   "formal_non_whitespace_chars": 3682989,
-  "semantic_union_non_whitespace_chars": 3682989,
+  "formal_note_positions_and_character_counts_checked": 390,
+  "printed_chapter_filters_checked": 390,
+  "batches_ready": 40,
+  "claim_definitions": 1406,
+  "claim_references_resolve": true,
+  "pattern_cards": 6,
+  "claim_refs_checked_markdown_files": 465,
+  "graph_nodes": 765,
+  "graph_edges": 364,
+  "graph_node_sources_edges_and_evidence_valid": true,
+  "final_local_links_checked": 1613,
+  "fragment_checks": 64,
+  "broken_links": [],
+  "absolute_workspace_md_links": 0,
+  "index_integrity": "ok",
+  "index_chunks": 2881,
+  "distinct_indexed_files": 411,
+  "all_current_chunk_fingerprints_match": true,
+  "source_excluded_from_index": true,
+  "archived_previous_index": "retrieval/analysis-index.20261113T032810234840.sqlite3",
+  "archive_size_verified": 36007936,
+  "archive_sha256": "c98ebd5a42efba0b7af88354f8212f7cdd386a2081e8caee0db0e91c3da09af6",
+  "search_checks": [
+    {
+      "query": "地狱之火",
+      "chapter": 295,
+      "character": null,
+      "notes": [
+        "notes/segment-097.md"
+      ]
+    },
+    {
+      "query": "坐骑",
+      "chapter": 814,
+      "character": null,
+      "notes": [
+        "notes/segment-355.md"
+      ]
+    }
+  ],
+  "graph_path_checks": [
+    {
+      "start": "龙青天",
+      "end": "segment-201",
+      "found": true,
+      "edge_ids": [
+        "EDGE-348",
+        "EDGE-349"
+      ]
+    },
+    {
+      "start": "七公主",
+      "end": "segment-383",
+      "found": true,
+      "edge_ids": [
+        "EDGE-358"
+      ]
+    },
+    {
+      "start": "耶哈德",
+      "end": "EVENT-YAHADTECH",
+      "found": true,
+      "edge_ids": [
+        "EDGE-361"
+      ]
+    },
+    {
+      "start": "耶哈德",
+      "end": "EVENT-FATHERSONDEATH",
+      "found": false,
+      "edge_ids": []
+    }
+  ],
+  "protected_files_hash_checked": 13,
+  "existing_documents_with_only_citation_repairs": [],
+  "token_ledger": "valid",
+  "raw_usage_events": 512,
+  "effective_creative_execution_records": 511,
+  "usage_measurement": "unavailable; work entries do not establish API request count or cost",
+  "unit_tests_passed": 83,
+  "human_review": "供用户审核",
   "segments": 390,
   "continuous_range": [
     0,
     3877521
   ],
-  "batches_ready": 40,
-  "claim_definitions": 1404,
-  "claim_refs_checked_markdown_files": 462,
-  "graph_nodes": 757,
-  "graph_edges": 347,
-  "graph_endpoints": "valid",
-  "final_local_links_checked": 20,
-  "source_excluded_from_index": true,
-  "index_chunks": 2874,
-  "archived_previous_index": "retrieval/analysis-index.20261113T032810234840.sqlite3",
-  "archive_size_verified": 36007936,
-  "a01_original_payload_preservation": "exact_match",
-  "token_ledger": "valid",
-  "raw_usage_events": 508,
-  "usage_correction": "production/token-usage-corrections.json",
-  "token_measurement": "unavailable",
+  "semantic_union_non_whitespace_chars": 3682989,
   "remaining_local_source": "none",
-  "independent_character_cards": "off",
-  "new_novel_design": "not_created",
-  "effective_creative_execution_records": 507,
-  "index_scope": "默认脚本收录notes/sections/characters及指定累计账本；根审核入口/终账通过文件链接访问，不宣称所有Markdown均入索引"
+  "stage_reviews": 8,
+  "topic_sections": 8,
+  "a01_original_payload_preservation": "exact_match",
+  "initial_validation_date": "2026-11-12T19:28:11.493122+00:00",
+  "chapter_metadata_repair": {
+    "no_meta": 272,
+    "no_chapter_before": 271,
+    "wrong_before": 58,
+    "incorrect_explicit_chapter": 58
+  },
+  "quality_review_cases": [
+    "七公主的训练与指挥，正式师承未证",
+    "先袭后方，第四天三防御星地表遭毁，再有诱饵星碎灭",
+    "耶哈德与耶和华、耶稣分人",
+    "女娲、第三分身、神圣天使的终局分别核对"
+  ],
+  "usage_correction": "production/token-usage-corrections.json"
 }

@@ -1,6 +1,6 @@
 # segment-065｜多族制造与佣兵侦查支撑捕兽，情报和材料回收各有损耗
 
-<!-- retrieval-meta: {"chapter_start":217,"chapter_end":219,"dimensions":["plot","resources","worldbuilding"],"characters":["张三丰","爱莲娜","奇瓦莫卫斯","哥司","克里","卡罗"]} -->
+<!-- retrieval-meta: {"chapter_start":216,"chapter_end":218,"dimensions":["plot","resources","worldbuilding"],"characters":["张三丰","爱莲娜","奇瓦莫卫斯","哥司","克里","卡罗"]} -->
 
 ordinal217–219，原216《铸造基地》—218《小小收获》；[655907,665184)，8692非空字符。660507分显示，完整章末：休整备明日狮战，五分钟绝招尚未展开。
 

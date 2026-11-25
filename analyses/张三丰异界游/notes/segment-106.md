@@ -1,6 +1,6 @@
 # segment-106｜联军按威胁分包与战损担保，人数不足转成质量承诺
 
-<!-- retrieval-meta: {"chapter_start":315,"chapter_end":316,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","祖母","仙雅","海伦","七公主","欧阳若兰","达佳","卡尔","武藏"]} -->
+<!-- retrieval-meta: {"chapter_start":313,"chapter_end":314,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","祖母","仙雅","海伦","七公主","欧阳若兰","达佳","卡尔","武藏"]} -->
 
 ordinal315–316；原313《高手汇聚》—314《战前会议》；[1074962,1085685)，10269非空字符。1074962/1079562/1084162三显示完整，末五方同意包高级兽兵，具体战斗/雷兽方案未实施。
 

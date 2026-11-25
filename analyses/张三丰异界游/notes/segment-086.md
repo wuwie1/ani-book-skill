@@ -1,6 +1,6 @@
 # segment-086｜替身骗掉神器射击窗口，银狐旧恩只换一次不参战
 
-<!-- retrieval-meta: {"chapter_start":275,"chapter_end":276,"dimensions":["plot","resources","character"],"characters":["张三丰","龙啸天","西思尔","托克坛","天杀","古尔提"]} -->
+<!-- retrieval-meta: {"chapter_start":274,"chapter_end":275,"dimensions":["plot","resources","character"],"characters":["张三丰","龙啸天","西思尔","托克坛","天杀","古尔提"]} -->
 
 ordinal275–276；原274《谁算计谁（续）》—275《谁算计谁（再续）》；[861314,872200)，10528非空字符。865914、870514三显示完整；章末古尔提退不围，二十万虎煌仍前堵、己援未来，尚未脱险。
 

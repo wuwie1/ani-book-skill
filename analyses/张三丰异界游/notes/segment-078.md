@@ -1,6 +1,6 @@
 # segment-078｜魔法标记落实追踪，光暗相克与恢复消耗闭合活捉链
 
-<!-- retrieval-meta: {"chapter_start":256,"chapter_end":258,"dimensions":["plot","progression","resources"],"characters":["张三丰","克里","天杀","丽芙倪","冯修斯","塔塔亚克"]} -->
+<!-- retrieval-meta: {"chapter_start":255,"chapter_end":257,"dimensions":["plot","progression","resources"],"characters":["张三丰","克里","天杀","丽芙倪","冯修斯","塔塔亚克"]} -->
 
 ordinal256–258；原255《青龙之怒（7）》—257《青龙之怒（9）》；[779972,789903)，9434非空字符。784572、789172三显示完整；末三十万援军受伪令开大道，尚未伏击结局/谷军尚未降。
 

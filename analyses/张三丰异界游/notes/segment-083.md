@@ -1,6 +1,6 @@
 # segment-083｜装备兑现扩大机动，统帅用资源分配绑定并约束不同军属
 
-<!-- retrieval-meta: {"chapter_start":269,"chapter_end":270,"dimensions":["resources","worldbuilding","character"],"characters":["张三丰","尼古拉斯","龙啸天","龙青云","石宁","丽芙倪"]} -->
+<!-- retrieval-meta: {"chapter_start":268,"chapter_end":269,"dimensions":["resources","worldbuilding","character"],"characters":["张三丰","尼古拉斯","龙啸天","龙青云","石宁","丽芙倪"]} -->
 
 ordinal269–270；原268《集体烧包》—269《战前谋划》；[829562,840244)，10172非空字符；834162、838762三显示完整章末，父获准攻最后中城但未打。
 

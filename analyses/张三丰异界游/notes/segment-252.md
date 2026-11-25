@@ -1,5 +1,7 @@
 # segment-252｜磁铁反制延伸到水下，联盟伏击只取得部分目标
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","西亚"],"chapter_start":603,"chapter_end":604} -->
+
 - 固定快照ordinal610–611；原603《西亚的反击》、604《无奈的结束》。[2557780,2567230)，9012非空字符；三次连续显示至整夜收网、三万敌逃与七最终收兵的完整章末。仅本段事实，B透镜，人物卡off。
 
 ## 事实、后揭与结果

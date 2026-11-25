@@ -1,6 +1,6 @@
 # segment-095｜军胜遭官僚腐败反噬，敌人以失败重整联盟
 
-<!-- retrieval-meta: {"chapter_start":293,"chapter_end":294,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","西思尔","西亚","尼古拉斯","丽芙倪","祖母"]} -->
+<!-- retrieval-meta: {"chapter_start":292,"chapter_end":292,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","西思尔","西亚","尼古拉斯","丽芙倪","祖母"]} -->
 
 ordinal293–294；原292《再生变化》—原又标292《虎王发威》，重复节号原样保留（目录ordinal不重复）；[955844,966499)，10245非空字符。955844/960444/965044三显示完整，末主角获三等公爵，担心龙家过盛遭忌；整官会还未召开。
 

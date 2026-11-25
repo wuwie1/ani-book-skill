@@ -1,5 +1,7 @@
 # segment-262｜人物纠正误读，家族以分流与传承保存再生产能力
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰"],"chapter_start":622,"chapter_end":623} -->
+
 - 固定快照ordinal629–630；原622《种马军团长》、623《妥善安排》。[2652952,2663640)，10182非空字符；三次连续显示到罗请求爱管理十五万/未来儿子领袖的完整章末。B透镜，人物卡off。
 
 ## 事实与人物选择

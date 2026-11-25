@@ -1,6 +1,6 @@
 # segment-077｜伤咒旧线定位，反间与诱退以伤兵生命支付时间成本
 
-<!-- retrieval-meta: {"chapter_start":253,"chapter_end":255,"dimensions":["plot","resources","character"],"characters":["张三丰","克里","龙啸天","冯修斯","丽芙倪","塔塔亚克"]} -->
+<!-- retrieval-meta: {"chapter_start":252,"chapter_end":254,"dimensions":["plot","resources","character"],"characters":["张三丰","克里","龙啸天","冯修斯","丽芙倪","塔塔亚克"]} -->
 
 ordinal253–255；原252《青龙之怒（4）》—254《青龙之怒（6）》；[769821,779972)，9706非空字符。774421、779021三显示连续完整；章末仅困谷并许丽芙倪处置机会，未捕冯/未解父咒。
 

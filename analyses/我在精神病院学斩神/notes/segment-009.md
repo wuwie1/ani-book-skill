@@ -1,5 +1,5 @@
 # segment-009｜从身边照顾到资源分配与亲近边界
-<!-- retrieval-meta: {"chapter_start": 1600, "chapter_end": 1603, "dimensions": ["style", "character", "cliffhanger", "progression"]} -->
+<!-- retrieval-meta: {"chapter_start":1600,"chapter_end":1603,"dimensions":["style","character","cliffhanger","progression"],"characters":["林七夜","沈青竹","夏思萌","乌泉","方沫"]} -->
 
 状态：ready；B03正式样本B03-W03。原第1600–1603章，catalog ordinal 1605–1608，[3954600,3964127)，8217非空字符；各章完整读至末尾。固定快照SHA-256：7657e4a174a1a8e6382e739ce3b4c4464cd486d9e9419371bce10d46cc10a9bc。
 

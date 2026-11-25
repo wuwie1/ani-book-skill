@@ -1,5 +1,7 @@
 # segment-335｜母神终允并送材料知识，卧底升格造危局逼原近卫转投
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧"],"chapter_start":770,"chapter_end":771} -->
+
 ## 来源
 
 ordinal779–780，原770《图谋鸟人》、771《勾引内奸》；[3350156,3358629)，7979非空。raw.decode4400＋4073连续完整至史丹利自认无退路，尚无新誓/任务条件及实际转投履行。

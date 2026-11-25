@@ -1,6 +1,6 @@
 # segment-061｜暗助打破公平表象，进入权力核心需忠诚且不能自由退出
 
-<!-- retrieval-meta: {"chapter_start":205,"chapter_end":207,"dimensions":["plot","worldbuilding","character"],"characters":["张三丰","龙啸天","龙家祖父","杰克","斯卡司","石原大雄","克蓝多"]} -->
+<!-- retrieval-meta: {"chapter_start":205,"chapter_end":206,"dimensions":["plot","worldbuilding","character"],"characters":["张三丰","龙啸天","龙家祖父","杰克","斯卡司","石原大雄","克蓝多"]} -->
 
 ordinal205–207；[618638,627932)，8685非空字符；原题205《找到组织》、206《组织成员》、再次206《大战庄园》。原节号重复保留，不能把末单元擅改为原207。623338分显示，完整末尾停在将指定五强挑战的威胁。
 

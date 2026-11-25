@@ -18,13 +18,15 @@ core_model:
   - 记忆与生命损失
 source:
   kind: local_file
-  ref: /Users/likai/go/src/write/assistant/novels/我在精神病院学斩神.txt
+  ref: /Users/likai/go/src/write/ani-book-skill/novels/我在精神病院学斩神.txt
   snapshot: source/我在精神病院学斩神.txt
   fingerprint: sha256:7657e4a174a1a8e6382e739ce3b4c4464cd486d9e9419371bce10d46cc10a9bc
   coverage: sampled
   scope: 跨阶段代表性场景抽样，初始目标约10–20万非空字符
-  read_scope: 累计唯一已读125812非空字符；正式notes覆盖125812字符；逐窗映射见sample-plan.md
+  read_scope: 首轮正式 12 窗、125812 个非空字符；另有 7 处审计摘段、3822 个非空字符，位置见 sampling-register.yaml。
   remaining_scope: '[0,173)、[31793,262378)、[276073,764050)、[773773,1252365)、[1272764,1750275)、[1759792,2977476)、[2987490,3463307)、[3472756,3954600)、[3964127,4443803)、[4453384,4924928)、[4934577,4968921)'
+  registered_ref: /Users/likai/go/src/write/assistant/novels/我在精神病院学斩神.txt
+  remaining_scope_kind: 正式样本以外的区间。其中另有本轮审计摘段。
 artifacts:
   overview:
     path: sections/overview.md
@@ -34,6 +36,18 @@ artifacts:
     status: ready
   pattern_candidates:
     path: pattern-cards.md
+    status: ready
+  sampling:
+    path: sampling-register.yaml
+    status: ready
+  coverage:
+    path: coverage-map.md
+    status: ready
+  evidence:
+    path: evidence-ledger.md
+    status: ready
+  uncertainty:
+    path: uncertainty-ledger.md
     status: ready
 character_sync:
   status: 'off'
@@ -65,6 +79,9 @@ sampled_progress:
   formal_non_whitespace_chars: 125812
   budget_remaining_to_upper: 74188
   completion_scope: 12_windows_56_chapter_units_not_full_text
+  review_excerpts: 7
+  review_excerpt_non_whitespace_chars: 3822
+  formal_and_review_union_non_whitespace_chars: 129634
 batch_B02:
   status: complete
   formal_non_whitespace_chars: 33457
@@ -86,3 +103,13 @@ batch_B04:
   - B04-W01
   - B04-W02
   - B04-W03
+final_review:
+  status: ready
+  path: book-analysis-review.md
+  validation: final-validation.json
+  scope: 既有跨阶段抽样与本次定点补证
+quality_review:
+  date: '2026-11-24'
+  status: ready
+  delegated_model: gpt-6.2-sol
+  validation: final-validation.json

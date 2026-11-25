@@ -1,6 +1,6 @@
 # segment-096｜胁迫官僚暂稳后方，组织训练兑现城市火力陷阱
 
-<!-- retrieval-meta: {"chapter_start":295,"chapter_end":296,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","尼古拉斯","西思尔","卡罗","龙啸天","天杀","拖克坛"]} -->
+<!-- retrieval-meta: {"chapter_start":293,"chapter_end":294,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","尼古拉斯","西思尔","卡罗","龙啸天","天杀","拖克坛"]} -->
 
 ordinal295–296；原293《软硬兼施》—294《午夜鏖战》；[966499,976991)，10030非空字符。966499/971099/975699三显示全读，末敌看见城内密集箭阵判中计，主战仍进行未分最终胜负。
 

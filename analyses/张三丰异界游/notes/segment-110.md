@@ -1,6 +1,6 @@
 # segment-110｜高防范围技屠弱，击杀剑神靠连续控场的短窗口
 
-<!-- retrieval-meta: {"chapter_start":323,"chapter_end":324,"dimensions":["plot","progression","character","worldbuilding"],"characters":["张三丰","盖次","雅典娜","玫儿","仙雅","香香","岛国首领"]} -->
+<!-- retrieval-meta: {"chapter_start":321,"chapter_end":322,"dimensions":["plot","progression","character","worldbuilding"],"characters":["张三丰","盖次","雅典娜","玫儿","仙雅","香香","岛国首领"]} -->
 
 ordinal323–324；原321《血战一场》—322《击杀剑神》；[1116990,1127458)，10022非空字符。1116990/1121590/1126190三显示完整，末祖母循巨动来场，解释/收尾未完。
 

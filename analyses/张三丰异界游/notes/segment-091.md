@@ -1,6 +1,6 @@
 # segment-091｜灭口补偿暂稳军心，幸存证人与异界援手改变选择
 
-<!-- retrieval-meta: {"chapter_start":285,"chapter_end":286,"dimensions":["plot","worldbuilding","progression"],"characters":["张三丰","西思尔","买买提","卡特二王子","基脯洛夫"]} -->
+<!-- retrieval-meta: {"chapter_start":284,"chapter_end":285,"dimensions":["plot","worldbuilding","progression"],"characters":["张三丰","西思尔","买买提","卡特二王子","基脯洛夫"]} -->
 
 ordinal285–286；原284《阴谋得逞》—285《冥神骑士》；[914276,924568)，9810非空字符，914276/918876/923476分显示全读，末双方问答尚未开战。
 

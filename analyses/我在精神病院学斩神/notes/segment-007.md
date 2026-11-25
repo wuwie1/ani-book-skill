@@ -1,5 +1,5 @@
 # segment-007｜病院守候与探索受阻的双重节奏
-<!-- retrieval-meta: {"chapter_start": 1200, "chapter_end": 1203, "dimensions": ["style", "character", "cliffhanger", "progression"]} -->
+<!-- retrieval-meta: {"chapter_start":1200,"chapter_end":1203,"dimensions":["style","character","cliffhanger","progression"],"characters":["林七夜","司小南","吉尔伽美什","孙悟空","布拉基"]} -->
 
 状态：ready；B03正式样本B03-W01。原第1200–1203章，catalog ordinal 1199–1202，[2977476,2987490)，8524非空字符；各章完整读至末尾。固定快照SHA-256：7657e4a174a1a8e6382e739ce3b4c4464cd486d9e9419371bce10d46cc10a9bc。
 

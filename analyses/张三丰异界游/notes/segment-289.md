@@ -1,5 +1,7 @@
 # segment-289｜四路按属性分工推进，地形资源转为军力与补给
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","耶哈德"],"chapter_start":678,"chapter_end":679} -->
+
 ## 来源
 
 [2925602,2935027)，8971非空，ordinal685–686，原678《自然女神的恐怖》、679《神界战争》。三个连续窗口完整至耶哈科称有办法但尚未说明的章末。只报告外围攻势，不断言天堂终局。

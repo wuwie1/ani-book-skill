@@ -1,6 +1,6 @@
 # segment-071｜亲缘庇护换政治情报，杀手归族愿望成为条件交换
 
-<!-- retrieval-meta: {"chapter_start":235,"chapter_end":237,"dimensions":["plot","character","resources"],"characters":["张三丰","罗纳多","爱莲娜","天杀","冯修斯"]} -->
+<!-- retrieval-meta: {"chapter_start":234,"chapter_end":236,"dimensions":["plot","character","resources"],"characters":["张三丰","罗纳多","爱莲娜","天杀","冯修斯"]} -->
 
 ordinal235–237，原234《真相大白》—236《协议达成》；[711961,721453)，8803非空字符；716561分显示，完整章末停在神器刺冯不死的疑问，尚未解释真身。
 

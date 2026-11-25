@@ -13,7 +13,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 1,
+      "line_end": 85
     },
     {
       "id": "segment-002",
@@ -25,7 +27,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 86,
+      "line_end": 246
     },
     {
       "id": "segment-003",
@@ -37,7 +41,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 247,
+      "line_end": 453
     },
     {
       "id": "segment-004",
@@ -49,7 +55,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 454,
+      "line_end": 683
     },
     {
       "id": "segment-005",
@@ -61,7 +69,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 684,
+      "line_end": 907
     },
     {
       "id": "segment-006",
@@ -73,7 +83,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 908,
+      "line_end": 1123
     },
     {
       "id": "segment-007",
@@ -85,7 +97,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 1124,
+      "line_end": 1364
     },
     {
       "id": "segment-008",
@@ -97,7 +111,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 1365,
+      "line_end": 1587
     },
     {
       "id": "segment-009",
@@ -109,7 +125,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 1588,
+      "line_end": 1785
     },
     {
       "id": "segment-010",
@@ -121,7 +139,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 1786,
+      "line_end": 1980
     },
     {
       "id": "segment-011",
@@ -133,7 +153,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 1981,
+      "line_end": 2195
     },
     {
       "id": "segment-012",
@@ -145,7 +167,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 2196,
+      "line_end": 2382
     },
     {
       "id": "segment-013",
@@ -157,7 +181,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 2383,
+      "line_end": 2582
     },
     {
       "id": "segment-014",
@@ -169,7 +195,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 2583,
+      "line_end": 2790
     },
     {
       "id": "segment-015",
@@ -181,7 +209,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 2791,
+      "line_end": 3006
     },
     {
       "id": "segment-016",
@@ -193,7 +223,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 3007,
+      "line_end": 3202
     },
     {
       "id": "segment-017",
@@ -205,7 +237,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 3203,
+      "line_end": 3381
     },
     {
       "id": "segment-018",
@@ -217,7 +251,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 3382,
+      "line_end": 3602
     },
     {
       "id": "segment-019",
@@ -229,7 +265,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 3603,
+      "line_end": 3764
     },
     {
       "id": "segment-020",
@@ -241,7 +279,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 3765,
+      "line_end": 3994
     },
     {
       "id": "segment-021",
@@ -253,7 +293,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 3995,
+      "line_end": 4129
     },
     {
       "id": "segment-022",
@@ -265,7 +307,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 4130,
+      "line_end": 4203
     },
     {
       "id": "segment-023",
@@ -277,7 +321,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 4204,
+      "line_end": 4295
     },
     {
       "id": "segment-024",
@@ -289,7 +335,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 4296,
+      "line_end": 4500
     },
     {
       "id": "segment-025",
@@ -301,7 +349,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 4501,
+      "line_end": 4725
     },
     {
       "id": "segment-026",
@@ -313,7 +363,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 4726,
+      "line_end": 4978
     },
     {
       "id": "segment-027",
@@ -325,7 +377,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 4979,
+      "line_end": 5101
     },
     {
       "id": "segment-028",
@@ -337,7 +391,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 5102,
+      "line_end": 5263
     },
     {
       "id": "segment-029",
@@ -349,7 +405,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 5264,
+      "line_end": 5463
     },
     {
       "id": "segment-030",
@@ -361,7 +419,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 5464,
+      "line_end": 5647
     },
     {
       "id": "segment-031",
@@ -373,7 +433,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 5648,
+      "line_end": 5794
     },
     {
       "id": "segment-032",
@@ -385,7 +447,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 5795,
+      "line_end": 5918
     },
     {
       "id": "segment-033",
@@ -397,7 +461,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 5919,
+      "line_end": 6096
     },
     {
       "id": "segment-034",
@@ -409,7 +475,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 6097,
+      "line_end": 6325
     },
     {
       "id": "segment-035",
@@ -421,7 +489,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 6326,
+      "line_end": 6450
     },
     {
       "id": "segment-036",
@@ -433,7 +503,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 6451,
+      "line_end": 6661
     },
     {
       "id": "segment-037",
@@ -445,7 +517,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 6662,
+      "line_end": 6789
     },
     {
       "id": "segment-038",
@@ -457,7 +531,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 6790,
+      "line_end": 6984
     },
     {
       "id": "segment-039",
@@ -469,7 +545,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 6985,
+      "line_end": 7192
     },
     {
       "id": "segment-040",
@@ -481,7 +559,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 7193,
+      "line_end": 7431
     },
     {
       "id": "segment-041",
@@ -493,7 +573,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 7432,
+      "line_end": 7662
     },
     {
       "id": "segment-042",
@@ -505,7 +587,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 7663,
+      "line_end": 7793
     },
     {
       "id": "segment-043",
@@ -517,7 +601,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 7794,
+      "line_end": 7926
     },
     {
       "id": "segment-044",
@@ -529,7 +615,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 7927,
+      "line_end": 8087
     },
     {
       "id": "segment-045",
@@ -541,7 +629,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 8088,
+      "line_end": 8235
     },
     {
       "id": "segment-046",
@@ -553,7 +643,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 8236,
+      "line_end": 8389
     },
     {
       "id": "segment-047",
@@ -565,7 +657,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 8390,
+      "line_end": 8572
     },
     {
       "id": "segment-048",
@@ -577,7 +671,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 8573,
+      "line_end": 8726
     },
     {
       "id": "segment-049",
@@ -589,7 +685,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 8727,
+      "line_end": 8845
     },
     {
       "id": "segment-050",
@@ -601,7 +699,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 8846,
+      "line_end": 9023
     },
     {
       "id": "segment-051",
@@ -613,7 +713,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 9024,
+      "line_end": 9173
     },
     {
       "id": "segment-052",
@@ -625,7 +727,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 9174,
+      "line_end": 9307
     },
     {
       "id": "segment-053",
@@ -637,7 +741,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 9308,
+      "line_end": 9431
     },
     {
       "id": "segment-054",
@@ -649,7 +755,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 9432,
+      "line_end": 9532
     },
     {
       "id": "segment-055",
@@ -661,7 +769,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 9533,
+      "line_end": 9652
     },
     {
       "id": "segment-056",
@@ -673,7 +783,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 9653,
+      "line_end": 9796
     },
     {
       "id": "segment-057",
@@ -685,7 +797,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 9797,
+      "line_end": 9917
     },
     {
       "id": "segment-058",
@@ -697,7 +811,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 9918,
+      "line_end": 10085
     },
     {
       "id": "segment-059",
@@ -709,7 +825,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 10086,
+      "line_end": 10245
     },
     {
       "id": "segment-060",
@@ -721,7 +839,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 10246,
+      "line_end": 10398
     },
     {
       "id": "segment-061",
@@ -733,7 +853,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 10399,
+      "line_end": 10554
     },
     {
       "id": "segment-062",
@@ -745,7 +867,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 10555,
+      "line_end": 10707
     },
     {
       "id": "segment-063",
@@ -757,7 +881,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 10708,
+      "line_end": 10859
     },
     {
       "id": "segment-064",
@@ -769,7 +895,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 10860,
+      "line_end": 11016
     },
     {
       "id": "segment-065",
@@ -781,7 +909,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 11017,
+      "line_end": 11166
     },
     {
       "id": "segment-066",
@@ -793,7 +923,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 11167,
+      "line_end": 11295
     },
     {
       "id": "segment-067",
@@ -805,7 +937,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 11296,
+      "line_end": 11410
     },
     {
       "id": "segment-068",
@@ -817,7 +951,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 11411,
+      "line_end": 11532
     },
     {
       "id": "segment-069",
@@ -829,7 +965,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 11533,
+      "line_end": 11627
     },
     {
       "id": "segment-070",
@@ -841,7 +979,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 11628,
+      "line_end": 11788
     },
     {
       "id": "segment-071",
@@ -853,7 +993,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 11789,
+      "line_end": 11964
     },
     {
       "id": "segment-072",
@@ -865,7 +1007,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 11965,
+      "line_end": 12051
     },
     {
       "id": "segment-073",
@@ -877,7 +1021,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 12052,
+      "line_end": 12149
     },
     {
       "id": "segment-074",
@@ -889,7 +1035,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 12150,
+      "line_end": 12282
     },
     {
       "id": "segment-075",
@@ -901,7 +1049,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 12283,
+      "line_end": 12391
     },
     {
       "id": "segment-076",
@@ -913,7 +1063,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 12392,
+      "line_end": 12495
     },
     {
       "id": "segment-077",
@@ -925,7 +1077,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 12496,
+      "line_end": 12610
     },
     {
       "id": "segment-078",
@@ -937,7 +1091,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 12611,
+      "line_end": 12738
     },
     {
       "id": "segment-079",
@@ -949,7 +1105,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 12739,
+      "line_end": 12843
     },
     {
       "id": "segment-080",
@@ -961,7 +1119,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 12844,
+      "line_end": 12920
     },
     {
       "id": "segment-081",
@@ -973,7 +1133,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 12921,
+      "line_end": 13009
     },
     {
       "id": "segment-082",
@@ -985,7 +1147,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 13010,
+      "line_end": 13136
     },
     {
       "id": "segment-083",
@@ -997,7 +1161,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 13137,
+      "line_end": 13266
     },
     {
       "id": "segment-084",
@@ -1009,7 +1175,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 13267,
+      "line_end": 13353
     },
     {
       "id": "segment-085",
@@ -1021,7 +1189,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 13354,
+      "line_end": 13456
     },
     {
       "id": "segment-086",
@@ -1033,7 +1203,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 13457,
+      "line_end": 13548
     },
     {
       "id": "segment-087",
@@ -1045,7 +1217,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 13549,
+      "line_end": 13657
     },
     {
       "id": "segment-088",
@@ -1057,7 +1231,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 13658,
+      "line_end": 13786
     },
     {
       "id": "segment-089",
@@ -1069,7 +1245,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 13787,
+      "line_end": 13907
     },
     {
       "id": "segment-090",
@@ -1081,7 +1259,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 13908,
+      "line_end": 14036
     },
     {
       "id": "segment-091",
@@ -1093,7 +1273,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 14037,
+      "line_end": 14159
     },
     {
       "id": "segment-092",
@@ -1105,7 +1287,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 14160,
+      "line_end": 14263
     },
     {
       "id": "segment-093",
@@ -1117,7 +1301,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 14264,
+      "line_end": 14392
     },
     {
       "id": "segment-094",
@@ -1129,7 +1315,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 14393,
+      "line_end": 14520
     },
     {
       "id": "segment-095",
@@ -1141,7 +1329,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 14521,
+      "line_end": 14625
     },
     {
       "id": "segment-096",
@@ -1153,7 +1343,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 14626,
+      "line_end": 14743
     },
     {
       "id": "segment-097",
@@ -1165,7 +1357,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 14744,
+      "line_end": 14858
     },
     {
       "id": "segment-098",
@@ -1177,7 +1371,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 14859,
+      "line_end": 14973
     },
     {
       "id": "segment-099",
@@ -1189,7 +1385,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 14974,
+      "line_end": 15094
     },
     {
       "id": "segment-100",
@@ -1201,7 +1399,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 15095,
+      "line_end": 15203
     },
     {
       "id": "segment-101",
@@ -1213,7 +1413,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 15204,
+      "line_end": 15299
     },
     {
       "id": "segment-102",
@@ -1225,7 +1427,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 15300,
+      "line_end": 15407
     },
     {
       "id": "segment-103",
@@ -1237,7 +1441,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 15408,
+      "line_end": 15589
     },
     {
       "id": "segment-104",
@@ -1249,7 +1455,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 15590,
+      "line_end": 15702
     },
     {
       "id": "segment-105",
@@ -1261,7 +1469,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 15703,
+      "line_end": 15852
     },
     {
       "id": "segment-106",
@@ -1273,7 +1483,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 15853,
+      "line_end": 15968
     },
     {
       "id": "segment-107",
@@ -1285,7 +1497,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 15969,
+      "line_end": 16144
     },
     {
       "id": "segment-108",
@@ -1297,7 +1511,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 16145,
+      "line_end": 16276
     },
     {
       "id": "segment-109",
@@ -1309,7 +1525,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 16277,
+      "line_end": 16430
     },
     {
       "id": "segment-110",
@@ -1321,7 +1539,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 16431,
+      "line_end": 16544
     },
     {
       "id": "segment-111",
@@ -1333,7 +1553,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 16545,
+      "line_end": 16692
     },
     {
       "id": "segment-112",
@@ -1345,7 +1567,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 16693,
+      "line_end": 16842
     },
     {
       "id": "segment-113",
@@ -1357,7 +1581,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 16843,
+      "line_end": 16995
     },
     {
       "id": "segment-114",
@@ -1369,7 +1595,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 16996,
+      "line_end": 17136
     },
     {
       "id": "segment-115",
@@ -1381,7 +1609,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 17137,
+      "line_end": 17249
     },
     {
       "id": "segment-116",
@@ -1393,7 +1623,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 17250,
+      "line_end": 17355
     },
     {
       "id": "segment-117",
@@ -1405,7 +1637,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 17356,
+      "line_end": 17450
     },
     {
       "id": "segment-118",
@@ -1417,7 +1651,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 17451,
+      "line_end": 17563
     },
     {
       "id": "segment-119",
@@ -1429,7 +1665,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 17564,
+      "line_end": 17665
     },
     {
       "id": "segment-120",
@@ -1441,7 +1679,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 17666,
+      "line_end": 17821
     },
     {
       "id": "segment-121",
@@ -1453,7 +1693,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 17822,
+      "line_end": 17956
     },
     {
       "id": "segment-122",
@@ -1465,7 +1707,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 17957,
+      "line_end": 18101
     },
     {
       "id": "segment-123",
@@ -1477,7 +1721,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 18102,
+      "line_end": 18238
     },
     {
       "id": "segment-124",
@@ -1489,7 +1735,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 18239,
+      "line_end": 18393
     },
     {
       "id": "segment-125",
@@ -1501,7 +1749,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 18394,
+      "line_end": 18520
     },
     {
       "id": "segment-126",
@@ -1513,7 +1763,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 18521,
+      "line_end": 18661
     },
     {
       "id": "segment-127",
@@ -1525,7 +1777,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 18662,
+      "line_end": 18763
     },
     {
       "id": "segment-128",
@@ -1537,7 +1791,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 18764,
+      "line_end": 18877
     },
     {
       "id": "segment-129",
@@ -1549,7 +1805,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 18878,
+      "line_end": 18969
     },
     {
       "id": "segment-130",
@@ -1561,7 +1819,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 18970,
+      "line_end": 19075
     },
     {
       "id": "segment-131",
@@ -1573,7 +1833,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 19076,
+      "line_end": 19160
     },
     {
       "id": "segment-132",
@@ -1585,7 +1847,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 19161,
+      "line_end": 19256
     },
     {
       "id": "segment-133",
@@ -1597,7 +1861,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 19257,
+      "line_end": 19384
     },
     {
       "id": "segment-134",
@@ -1609,7 +1875,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 19385,
+      "line_end": 19474
     },
     {
       "id": "segment-135",
@@ -1621,7 +1889,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 19475,
+      "line_end": 19610
     },
     {
       "id": "segment-136",
@@ -1633,7 +1903,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 19611,
+      "line_end": 19699
     },
     {
       "id": "segment-137",
@@ -1645,7 +1917,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 19700,
+      "line_end": 19817
     },
     {
       "id": "segment-138",
@@ -1657,7 +1931,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 19818,
+      "line_end": 19932
     },
     {
       "id": "segment-139",
@@ -1669,7 +1945,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 19933,
+      "line_end": 20059
     },
     {
       "id": "segment-140",
@@ -1681,7 +1959,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 20060,
+      "line_end": 20160
     },
     {
       "id": "segment-141",
@@ -1693,7 +1973,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 20161,
+      "line_end": 20237
     },
     {
       "id": "segment-142",
@@ -1705,7 +1987,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 20238,
+      "line_end": 20376
     },
     {
       "id": "segment-143",
@@ -1717,7 +2001,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 20377,
+      "line_end": 20500
     },
     {
       "id": "segment-144",
@@ -1729,7 +2015,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 20501,
+      "line_end": 20631
     },
     {
       "id": "segment-145",
@@ -1741,7 +2029,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 20632,
+      "line_end": 20762
     },
     {
       "id": "segment-146",
@@ -1753,7 +2043,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 20763,
+      "line_end": 20883
     },
     {
       "id": "segment-147",
@@ -1765,7 +2057,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 20884,
+      "line_end": 21006
     },
     {
       "id": "segment-148",
@@ -1777,7 +2071,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 21007,
+      "line_end": 21130
     },
     {
       "id": "segment-149",
@@ -1789,7 +2085,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 21131,
+      "line_end": 21240
     },
     {
       "id": "segment-150",
@@ -1801,7 +2099,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 21241,
+      "line_end": 21388
     },
     {
       "id": "segment-151",
@@ -1813,7 +2113,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 21389,
+      "line_end": 21532
     },
     {
       "id": "segment-152",
@@ -1825,7 +2127,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 21533,
+      "line_end": 21659
     },
     {
       "id": "segment-153",
@@ -1837,7 +2141,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 21660,
+      "line_end": 21751
     },
     {
       "id": "segment-154",
@@ -1849,7 +2155,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 21752,
+      "line_end": 21880
     },
     {
       "id": "segment-155",
@@ -1861,7 +2169,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 21881,
+      "line_end": 22030
     },
     {
       "id": "segment-156",
@@ -1873,7 +2183,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 22031,
+      "line_end": 22132
     },
     {
       "id": "segment-157",
@@ -1885,7 +2197,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 22133,
+      "line_end": 22243
     },
     {
       "id": "segment-158",
@@ -1897,7 +2211,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 22244,
+      "line_end": 22342
     },
     {
       "id": "segment-159",
@@ -1909,7 +2225,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 22343,
+      "line_end": 22450
     },
     {
       "id": "segment-160",
@@ -1921,7 +2239,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 22451,
+      "line_end": 22551
     },
     {
       "id": "segment-161",
@@ -1933,7 +2253,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 22552,
+      "line_end": 22678
     },
     {
       "id": "segment-162",
@@ -1945,7 +2267,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 22679,
+      "line_end": 22809
     },
     {
       "id": "segment-163",
@@ -1957,7 +2281,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 22810,
+      "line_end": 22911
     },
     {
       "id": "segment-164",
@@ -1969,7 +2295,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 22912,
+      "line_end": 23041
     },
     {
       "id": "segment-165",
@@ -1981,7 +2309,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 23042,
+      "line_end": 23158
     },
     {
       "id": "segment-166",
@@ -1993,7 +2323,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 23159,
+      "line_end": 23270
     },
     {
       "id": "segment-167",
@@ -2005,7 +2337,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 23271,
+      "line_end": 23411
     },
     {
       "id": "segment-168",
@@ -2017,7 +2351,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 23412,
+      "line_end": 23521
     },
     {
       "id": "segment-169",
@@ -2029,7 +2365,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 23522,
+      "line_end": 23654
     },
     {
       "id": "segment-170",
@@ -2041,7 +2379,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 23655,
+      "line_end": 23785
     },
     {
       "id": "segment-171",
@@ -2053,7 +2393,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 23786,
+      "line_end": 23923
     },
     {
       "id": "segment-172",
@@ -2065,7 +2407,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 23924,
+      "line_end": 24070
     },
     {
       "id": "segment-173",
@@ -2077,7 +2421,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 24071,
+      "line_end": 24223
     },
     {
       "id": "segment-174",
@@ -2089,7 +2435,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 24224,
+      "line_end": 24314
     },
     {
       "id": "segment-175",
@@ -2101,7 +2449,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 24315,
+      "line_end": 24423
     },
     {
       "id": "segment-176",
@@ -2113,7 +2463,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 24424,
+      "line_end": 24549
     },
     {
       "id": "segment-177",
@@ -2125,7 +2477,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 24550,
+      "line_end": 24673
     },
     {
       "id": "segment-178",
@@ -2137,7 +2491,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 24674,
+      "line_end": 24799
     },
     {
       "id": "segment-179",
@@ -2149,7 +2505,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 24800,
+      "line_end": 24920
     },
     {
       "id": "segment-180",
@@ -2161,7 +2519,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 24921,
+      "line_end": 25049
     },
     {
       "id": "segment-181",
@@ -2173,7 +2533,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 25050,
+      "line_end": 25169
     },
     {
       "id": "segment-182",
@@ -2185,7 +2547,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 25170,
+      "line_end": 25285
     },
     {
       "id": "segment-183",
@@ -2197,7 +2561,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 25286,
+      "line_end": 25401
     },
     {
       "id": "segment-184",
@@ -2209,7 +2575,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 25402,
+      "line_end": 25522
     },
     {
       "id": "segment-185",
@@ -2221,7 +2589,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 25523,
+      "line_end": 25633
     },
     {
       "id": "segment-186",
@@ -2233,7 +2603,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 25634,
+      "line_end": 25748
     },
     {
       "id": "segment-187",
@@ -2245,7 +2617,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 25749,
+      "line_end": 25858
     },
     {
       "id": "segment-188",
@@ -2257,7 +2631,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 25859,
+      "line_end": 25955
     },
     {
       "id": "segment-189",
@@ -2269,7 +2645,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 25956,
+      "line_end": 26038
     },
     {
       "id": "segment-190",
@@ -2281,7 +2659,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 26039,
+      "line_end": 26147
     },
     {
       "id": "segment-191",
@@ -2293,7 +2673,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 26148,
+      "line_end": 26258
     },
     {
       "id": "segment-192",
@@ -2305,7 +2687,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 26259,
+      "line_end": 26375
     },
     {
       "id": "segment-193",
@@ -2317,7 +2701,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 26376,
+      "line_end": 26480
     },
     {
       "id": "segment-194",
@@ -2329,7 +2715,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 26481,
+      "line_end": 26584
     },
     {
       "id": "segment-195",
@@ -2341,7 +2729,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 26585,
+      "line_end": 26721
     },
     {
       "id": "segment-196",
@@ -2353,7 +2743,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 26722,
+      "line_end": 26844
     },
     {
       "id": "segment-197",
@@ -2365,7 +2757,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 26845,
+      "line_end": 26937
     },
     {
       "id": "segment-198",
@@ -2377,7 +2771,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 26938,
+      "line_end": 27062
     },
     {
       "id": "segment-199",
@@ -2389,7 +2785,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 27063,
+      "line_end": 27182
     },
     {
       "id": "segment-200",
@@ -2401,7 +2799,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 27183,
+      "line_end": 27296
     },
     {
       "id": "segment-201",
@@ -2413,7 +2813,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 27297,
+      "line_end": 27406
     },
     {
       "id": "segment-202",
@@ -2425,7 +2827,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 27407,
+      "line_end": 27505
     },
     {
       "id": "segment-203",
@@ -2437,7 +2841,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 27506,
+      "line_end": 27638
     },
     {
       "id": "segment-204",
@@ -2449,7 +2855,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 27639,
+      "line_end": 27780
     },
     {
       "id": "segment-205",
@@ -2461,7 +2869,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 27781,
+      "line_end": 27907
     },
     {
       "id": "segment-206",
@@ -2473,7 +2883,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 27908,
+      "line_end": 28040
     },
     {
       "id": "segment-207",
@@ -2485,7 +2897,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 28041,
+      "line_end": 28165
     },
     {
       "id": "segment-208",
@@ -2497,7 +2911,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 28166,
+      "line_end": 28302
     },
     {
       "id": "segment-209",
@@ -2509,7 +2925,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 28303,
+      "line_end": 28397
     },
     {
       "id": "segment-210",
@@ -2521,7 +2939,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 28398,
+      "line_end": 28505
     },
     {
       "id": "segment-211",
@@ -2533,7 +2953,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 28506,
+      "line_end": 28615
     },
     {
       "id": "segment-212",
@@ -2545,7 +2967,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 28616,
+      "line_end": 28721
     },
     {
       "id": "segment-213",
@@ -2557,7 +2981,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 28722,
+      "line_end": 28849
     },
     {
       "id": "segment-214",
@@ -2569,7 +2995,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 28850,
+      "line_end": 28952
     },
     {
       "id": "segment-215",
@@ -2581,7 +3009,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 28953,
+      "line_end": 29087
     },
     {
       "id": "segment-216",
@@ -2593,7 +3023,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 29088,
+      "line_end": 29210
     },
     {
       "id": "segment-217",
@@ -2605,7 +3037,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 29211,
+      "line_end": 29331
     },
     {
       "id": "segment-218",
@@ -2617,7 +3051,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 29332,
+      "line_end": 29447
     },
     {
       "id": "segment-219",
@@ -2629,7 +3065,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 29448,
+      "line_end": 29585
     },
     {
       "id": "segment-220",
@@ -2641,7 +3079,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 29586,
+      "line_end": 29693
     },
     {
       "id": "segment-221",
@@ -2653,7 +3093,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 29694,
+      "line_end": 29803
     },
     {
       "id": "segment-222",
@@ -2665,7 +3107,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 29804,
+      "line_end": 29933
     },
     {
       "id": "segment-223",
@@ -2677,7 +3121,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 29934,
+      "line_end": 30087
     },
     {
       "id": "segment-224",
@@ -2689,7 +3135,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 30088,
+      "line_end": 30214
     },
     {
       "id": "segment-225",
@@ -2701,7 +3149,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 30215,
+      "line_end": 30319
     },
     {
       "id": "segment-226",
@@ -2713,7 +3163,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 30320,
+      "line_end": 30444
     },
     {
       "id": "segment-227",
@@ -2725,7 +3177,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 30445,
+      "line_end": 30560
     },
     {
       "id": "segment-228",
@@ -2737,7 +3191,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 30561,
+      "line_end": 30645
     },
     {
       "id": "segment-229",
@@ -2749,7 +3205,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 30646,
+      "line_end": 30745
     },
     {
       "id": "segment-230",
@@ -2761,7 +3219,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 30746,
+      "line_end": 30839
     },
     {
       "id": "segment-231",
@@ -2773,7 +3233,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 30840,
+      "line_end": 30970
     },
     {
       "id": "segment-232",
@@ -2785,7 +3247,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 30971,
+      "line_end": 31091
     },
     {
       "id": "segment-233",
@@ -2797,7 +3261,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 31092,
+      "line_end": 31214
     },
     {
       "id": "segment-234",
@@ -2809,7 +3275,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 31215,
+      "line_end": 31316
     },
     {
       "id": "segment-235",
@@ -2821,7 +3289,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 31317,
+      "line_end": 31419
     },
     {
       "id": "segment-236",
@@ -2833,7 +3303,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 31420,
+      "line_end": 31523
     },
     {
       "id": "segment-237",
@@ -2845,7 +3317,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 31524,
+      "line_end": 31619
     },
     {
       "id": "segment-238",
@@ -2857,7 +3331,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 31620,
+      "line_end": 31716
     },
     {
       "id": "segment-239",
@@ -2869,7 +3345,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 31717,
+      "line_end": 31803
     },
     {
       "id": "segment-240",
@@ -2881,7 +3359,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 31804,
+      "line_end": 31913
     },
     {
       "id": "segment-241",
@@ -2893,7 +3373,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 31914,
+      "line_end": 32059
     },
     {
       "id": "segment-242",
@@ -2905,7 +3387,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 32060,
+      "line_end": 32175
     },
     {
       "id": "segment-243",
@@ -2917,7 +3401,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 32176,
+      "line_end": 32315
     },
     {
       "id": "segment-244",
@@ -2929,7 +3415,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 32316,
+      "line_end": 32426
     },
     {
       "id": "segment-245",
@@ -2941,7 +3429,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 32427,
+      "line_end": 32551
     },
     {
       "id": "segment-246",
@@ -2953,7 +3443,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 32552,
+      "line_end": 32677
     },
     {
       "id": "segment-247",
@@ -2965,7 +3457,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 32678,
+      "line_end": 32811
     },
     {
       "id": "segment-248",
@@ -2977,7 +3471,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 32812,
+      "line_end": 32930
     },
     {
       "id": "segment-249",
@@ -2989,7 +3485,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 32931,
+      "line_end": 33015
     },
     {
       "id": "segment-250",
@@ -3001,7 +3499,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 33016,
+      "line_end": 33116
     },
     {
       "id": "segment-251",
@@ -3013,7 +3513,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 33117,
+      "line_end": 33229
     },
     {
       "id": "segment-252",
@@ -3025,7 +3527,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 33230,
+      "line_end": 33341
     },
     {
       "id": "segment-253",
@@ -3037,7 +3541,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 33342,
+      "line_end": 33436
     },
     {
       "id": "segment-254",
@@ -3049,7 +3555,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 33437,
+      "line_end": 33577
     },
     {
       "id": "segment-255",
@@ -3061,7 +3569,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 33578,
+      "line_end": 33702
     },
     {
       "id": "segment-256",
@@ -3073,7 +3583,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 33703,
+      "line_end": 33823
     },
     {
       "id": "segment-257",
@@ -3085,7 +3597,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 33824,
+      "line_end": 33939
     },
     {
       "id": "segment-258",
@@ -3097,7 +3611,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 33940,
+      "line_end": 34063
     },
     {
       "id": "segment-259",
@@ -3109,7 +3625,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 34064,
+      "line_end": 34168
     },
     {
       "id": "segment-260",
@@ -3121,7 +3639,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 34169,
+      "line_end": 34278
     },
     {
       "id": "segment-261",
@@ -3133,7 +3653,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 34279,
+      "line_end": 34394
     },
     {
       "id": "segment-262",
@@ -3145,7 +3667,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 34395,
+      "line_end": 34523
     },
     {
       "id": "segment-263",
@@ -3157,7 +3681,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 34524,
+      "line_end": 34670
     },
     {
       "id": "segment-264",
@@ -3169,7 +3695,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 34671,
+      "line_end": 34766
     },
     {
       "id": "segment-265",
@@ -3181,7 +3709,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 34767,
+      "line_end": 34868
     },
     {
       "id": "segment-266",
@@ -3193,7 +3723,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 34869,
+      "line_end": 34975
     },
     {
       "id": "segment-267",
@@ -3205,7 +3737,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 34976,
+      "line_end": 35093
     },
     {
       "id": "segment-268",
@@ -3217,7 +3751,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 35094,
+      "line_end": 35218
     },
     {
       "id": "segment-269",
@@ -3229,7 +3765,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 35219,
+      "line_end": 35339
     },
     {
       "id": "segment-270",
@@ -3241,7 +3779,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 35340,
+      "line_end": 35457
     },
     {
       "id": "segment-271",
@@ -3253,7 +3793,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 35458,
+      "line_end": 35595
     },
     {
       "id": "segment-272",
@@ -3265,7 +3807,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 35596,
+      "line_end": 35713
     },
     {
       "id": "segment-273",
@@ -3277,7 +3821,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 35714,
+      "line_end": 35831
     },
     {
       "id": "segment-274",
@@ -3289,7 +3835,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 35832,
+      "line_end": 35909
     },
     {
       "id": "segment-275",
@@ -3301,7 +3849,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 35910,
+      "line_end": 36000
     },
     {
       "id": "segment-276",
@@ -3313,7 +3863,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 36001,
+      "line_end": 36124
     },
     {
       "id": "segment-277",
@@ -3325,7 +3877,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 36125,
+      "line_end": 36245
     },
     {
       "id": "segment-278",
@@ -3337,7 +3891,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 36246,
+      "line_end": 36368
     },
     {
       "id": "segment-279",
@@ -3349,7 +3905,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 36369,
+      "line_end": 36453
     },
     {
       "id": "segment-280",
@@ -3361,7 +3919,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 36454,
+      "line_end": 36549
     },
     {
       "id": "segment-281",
@@ -3373,7 +3933,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 36550,
+      "line_end": 36656
     },
     {
       "id": "segment-282",
@@ -3385,7 +3947,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 36657,
+      "line_end": 36776
     },
     {
       "id": "segment-283",
@@ -3397,7 +3961,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 36777,
+      "line_end": 36887
     },
     {
       "id": "segment-284",
@@ -3409,7 +3975,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 36888,
+      "line_end": 36998
     },
     {
       "id": "segment-285",
@@ -3421,7 +3989,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 36999,
+      "line_end": 37156
     },
     {
       "id": "segment-286",
@@ -3433,7 +4003,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 37157,
+      "line_end": 37292
     },
     {
       "id": "segment-287",
@@ -3445,7 +4017,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 37293,
+      "line_end": 37431
     },
     {
       "id": "segment-288",
@@ -3457,7 +4031,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 37432,
+      "line_end": 37608
     },
     {
       "id": "segment-289",
@@ -3469,7 +4045,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 37609,
+      "line_end": 37724
     },
     {
       "id": "segment-290",
@@ -3481,7 +4059,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 37725,
+      "line_end": 37837
     },
     {
       "id": "segment-291",
@@ -3493,7 +4073,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 37838,
+      "line_end": 37965
     },
     {
       "id": "segment-292",
@@ -3505,7 +4087,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 37966,
+      "line_end": 38087
     },
     {
       "id": "segment-293",
@@ -3517,7 +4101,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 38088,
+      "line_end": 38170
     },
     {
       "id": "segment-294",
@@ -3529,7 +4115,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 38171,
+      "line_end": 38279
     },
     {
       "id": "segment-295",
@@ -3541,7 +4129,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 38280,
+      "line_end": 38395
     },
     {
       "id": "segment-296",
@@ -3553,7 +4143,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 38396,
+      "line_end": 38481
     },
     {
       "id": "segment-297",
@@ -3565,7 +4157,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 38482,
+      "line_end": 38615
     },
     {
       "id": "segment-298",
@@ -3577,7 +4171,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 38616,
+      "line_end": 38724
     },
     {
       "id": "segment-299",
@@ -3589,7 +4185,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 38725,
+      "line_end": 38822
     },
     {
       "id": "segment-300",
@@ -3601,7 +4199,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 38823,
+      "line_end": 38912
     },
     {
       "id": "segment-301",
@@ -3613,7 +4213,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 38913,
+      "line_end": 39026
     },
     {
       "id": "segment-302",
@@ -3625,7 +4227,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 39027,
+      "line_end": 39183
     },
     {
       "id": "segment-303",
@@ -3637,7 +4241,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 39184,
+      "line_end": 39367
     },
     {
       "id": "segment-304",
@@ -3649,7 +4255,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 39368,
+      "line_end": 39490
     },
     {
       "id": "segment-305",
@@ -3661,7 +4269,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 39491,
+      "line_end": 39579
     },
     {
       "id": "segment-306",
@@ -3673,7 +4283,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 39580,
+      "line_end": 39711
     },
     {
       "id": "segment-307",
@@ -3685,7 +4297,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 39712,
+      "line_end": 39843
     },
     {
       "id": "segment-308",
@@ -3697,7 +4311,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 39844,
+      "line_end": 39944
     },
     {
       "id": "segment-309",
@@ -3709,7 +4325,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 39945,
+      "line_end": 40071
     },
     {
       "id": "segment-310",
@@ -3721,7 +4339,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 40072,
+      "line_end": 40187
     },
     {
       "id": "segment-311",
@@ -3733,7 +4353,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 40188,
+      "line_end": 40318
     },
     {
       "id": "segment-312",
@@ -3745,7 +4367,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 40319,
+      "line_end": 40465
     },
     {
       "id": "segment-313",
@@ -3757,7 +4381,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 40466,
+      "line_end": 40564
     },
     {
       "id": "segment-314",
@@ -3769,7 +4395,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 40565,
+      "line_end": 40665
     },
     {
       "id": "segment-315",
@@ -3781,7 +4409,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 40666,
+      "line_end": 40758
     },
     {
       "id": "segment-316",
@@ -3793,7 +4423,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 40759,
+      "line_end": 40848
     },
     {
       "id": "segment-317",
@@ -3805,7 +4437,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 40849,
+      "line_end": 40991
     },
     {
       "id": "segment-318",
@@ -3817,7 +4451,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 40992,
+      "line_end": 41093
     },
     {
       "id": "segment-319",
@@ -3829,7 +4465,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 41094,
+      "line_end": 41187
     },
     {
       "id": "segment-320",
@@ -3841,7 +4479,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 41188,
+      "line_end": 41287
     },
     {
       "id": "segment-321",
@@ -3853,7 +4493,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 41288,
+      "line_end": 41395
     },
     {
       "id": "segment-322",
@@ -3865,7 +4507,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 41396,
+      "line_end": 41484
     },
     {
       "id": "segment-323",
@@ -3877,7 +4521,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 41485,
+      "line_end": 41587
     },
     {
       "id": "segment-324",
@@ -3889,7 +4535,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 41588,
+      "line_end": 41676
     },
     {
       "id": "segment-325",
@@ -3901,7 +4549,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 41677,
+      "line_end": 41792
     },
     {
       "id": "segment-326",
@@ -3913,7 +4563,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 41793,
+      "line_end": 41867
     },
     {
       "id": "segment-327",
@@ -3925,7 +4577,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 41868,
+      "line_end": 41958
     },
     {
       "id": "segment-328",
@@ -3937,7 +4591,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 41959,
+      "line_end": 42052
     },
     {
       "id": "segment-329",
@@ -3949,7 +4605,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 42053,
+      "line_end": 42194
     },
     {
       "id": "segment-330",
@@ -3961,7 +4619,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 42195,
+      "line_end": 42281
     },
     {
       "id": "segment-331",
@@ -3973,7 +4633,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 42282,
+      "line_end": 42380
     },
     {
       "id": "segment-332",
@@ -3985,7 +4647,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 42381,
+      "line_end": 42486
     },
     {
       "id": "segment-333",
@@ -3997,7 +4661,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 42487,
+      "line_end": 42593
     },
     {
       "id": "segment-334",
@@ -4009,7 +4675,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 42594,
+      "line_end": 42699
     },
     {
       "id": "segment-335",
@@ -4021,7 +4689,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 42700,
+      "line_end": 42825
     },
     {
       "id": "segment-336",
@@ -4033,7 +4703,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 42826,
+      "line_end": 42949
     },
     {
       "id": "segment-337",
@@ -4045,7 +4717,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 42950,
+      "line_end": 43060
     },
     {
       "id": "segment-338",
@@ -4057,7 +4731,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 43061,
+      "line_end": 43186
     },
     {
       "id": "segment-339",
@@ -4069,7 +4745,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 43187,
+      "line_end": 43313
     },
     {
       "id": "segment-340",
@@ -4081,7 +4759,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 43314,
+      "line_end": 43454
     },
     {
       "id": "segment-341",
@@ -4093,7 +4773,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 43455,
+      "line_end": 43602
     },
     {
       "id": "segment-342",
@@ -4105,7 +4787,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 43603,
+      "line_end": 43764
     },
     {
       "id": "segment-343",
@@ -4117,7 +4801,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 43765,
+      "line_end": 43909
     },
     {
       "id": "segment-344",
@@ -4129,7 +4815,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 43910,
+      "line_end": 44015
     },
     {
       "id": "segment-345",
@@ -4141,7 +4829,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 44016,
+      "line_end": 44152
     },
     {
       "id": "segment-346",
@@ -4153,7 +4843,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 44153,
+      "line_end": 44239
     },
     {
       "id": "segment-347",
@@ -4165,7 +4857,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 44240,
+      "line_end": 44372
     },
     {
       "id": "segment-348",
@@ -4177,7 +4871,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 44373,
+      "line_end": 44490
     },
     {
       "id": "segment-349",
@@ -4189,7 +4885,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 44491,
+      "line_end": 44589
     },
     {
       "id": "segment-350",
@@ -4201,7 +4899,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 44590,
+      "line_end": 44711
     },
     {
       "id": "segment-351",
@@ -4213,7 +4913,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 44712,
+      "line_end": 44845
     },
     {
       "id": "segment-352",
@@ -4225,7 +4927,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 44846,
+      "line_end": 44999
     },
     {
       "id": "segment-353",
@@ -4237,7 +4941,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 45000,
+      "line_end": 45190
     },
     {
       "id": "segment-354",
@@ -4249,7 +4955,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 45191,
+      "line_end": 45330
     },
     {
       "id": "segment-355",
@@ -4261,7 +4969,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 45331,
+      "line_end": 45478
     },
     {
       "id": "segment-356",
@@ -4273,7 +4983,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 45479,
+      "line_end": 45609
     },
     {
       "id": "segment-357",
@@ -4285,7 +4997,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 45610,
+      "line_end": 45720
     },
     {
       "id": "segment-358",
@@ -4297,7 +5011,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 45721,
+      "line_end": 45879
     },
     {
       "id": "segment-359",
@@ -4309,7 +5025,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 45880,
+      "line_end": 46005
     },
     {
       "id": "segment-360",
@@ -4321,7 +5039,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 46006,
+      "line_end": 46121
     },
     {
       "id": "segment-361",
@@ -4333,7 +5053,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 46122,
+      "line_end": 46267
     },
     {
       "id": "segment-362",
@@ -4345,7 +5067,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 46268,
+      "line_end": 46406
     },
     {
       "id": "segment-363",
@@ -4357,7 +5081,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 46407,
+      "line_end": 46548
     },
     {
       "id": "segment-364",
@@ -4369,7 +5095,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 46549,
+      "line_end": 46706
     },
     {
       "id": "segment-365",
@@ -4381,7 +5109,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 46707,
+      "line_end": 46850
     },
     {
       "id": "segment-366",
@@ -4393,7 +5123,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 46851,
+      "line_end": 47003
     },
     {
       "id": "segment-367",
@@ -4405,7 +5137,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 47004,
+      "line_end": 47110
     },
     {
       "id": "segment-368",
@@ -4417,7 +5151,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 47111,
+      "line_end": 47221
     },
     {
       "id": "segment-369",
@@ -4429,7 +5165,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 47222,
+      "line_end": 47328
     },
     {
       "id": "segment-370",
@@ -4441,7 +5179,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 47329,
+      "line_end": 47473
     },
     {
       "id": "segment-371",
@@ -4453,7 +5193,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 47474,
+      "line_end": 47645
     },
     {
       "id": "segment-372",
@@ -4465,7 +5207,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 47646,
+      "line_end": 47768
     },
     {
       "id": "segment-373",
@@ -4477,7 +5221,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 47769,
+      "line_end": 47879
     },
     {
       "id": "segment-374",
@@ -4489,7 +5235,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 47880,
+      "line_end": 48007
     },
     {
       "id": "segment-375",
@@ -4501,7 +5249,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 48008,
+      "line_end": 48148
     },
     {
       "id": "segment-376",
@@ -4513,7 +5263,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 48149,
+      "line_end": 48298
     },
     {
       "id": "segment-377",
@@ -4525,7 +5277,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 48299,
+      "line_end": 48400
     },
     {
       "id": "segment-378",
@@ -4537,7 +5291,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 48401,
+      "line_end": 48567
     },
     {
       "id": "segment-379",
@@ -4549,7 +5305,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 48568,
+      "line_end": 48719
     },
     {
       "id": "segment-380",
@@ -4561,7 +5319,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 48720,
+      "line_end": 48828
     },
     {
       "id": "segment-381",
@@ -4573,7 +5333,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 48829,
+      "line_end": 48958
     },
     {
       "id": "segment-382",
@@ -4585,7 +5347,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 48959,
+      "line_end": 49039
     },
     {
       "id": "segment-383",
@@ -4597,7 +5361,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 49040,
+      "line_end": 49161
     },
     {
       "id": "segment-384",
@@ -4609,7 +5375,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 49162,
+      "line_end": 49264
     },
     {
       "id": "segment-385",
@@ -4621,7 +5389,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 49265,
+      "line_end": 49362
     },
     {
       "id": "segment-386",
@@ -4633,7 +5403,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 49363,
+      "line_end": 49481
     },
     {
       "id": "segment-387",
@@ -4645,7 +5417,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 49482,
+      "line_end": 49555
     },
     {
       "id": "segment-388",
@@ -4657,7 +5431,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 49556,
+      "line_end": 49603
     },
     {
       "id": "segment-389",
@@ -4669,7 +5445,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 49604,
+      "line_end": 49729
     },
     {
       "id": "segment-390",
@@ -4681,7 +5459,9 @@
       "read_status": "read_complete",
       "note_status": "ready",
       "read_purpose": "formal_notes",
-      "chapter_end_verified": true
+      "chapter_end_verified": true,
+      "line_start": 49730,
+      "line_end": 49765
     }
   ]
 }

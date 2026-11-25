@@ -1,5 +1,7 @@
 # segment-311｜拍卖后台作弊与工艺分层，泰坦合作产生百年供货义务
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰"],"chapter_start":722,"chapter_end":723} -->
+
 ## 来源
 
 [3140287,3149833)，9032非空；ordinal731–732，原722《暗做手脚》、723《喜获神怪》。三连续显示完整至囚禁所三小时重禁可能永久损雷雨的章末。神怪/工匠次日到仍承诺未到，雷未出牢。

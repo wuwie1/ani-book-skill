@@ -10,10 +10,19 @@
 {"id": "PAYOFF-BOUNDARY", "type": "payoff", "label": "同伴尊重安全边界并在营地回应", "confidence": "medium", "source_refs": ["segment-003"]}
 {"id": "B02-COOP", "type": "event", "label": "秘密协作改变局部行动条件", "confidence": "medium", "source_refs": ["segment-004"]}
 {"id": "B02-GATE", "type": "event", "label": "门禁通行检验梦中暗语", "confidence": "medium", "source_refs": ["segment-005"]}
-{"id": "B02-MISREAD", "type": "viewing_position", "label": "读者拼合接应者与潜伏者误认", "confidence": "medium", "source_refs": ["segment-006"]}
+{"id": "B02-MISREAD", "type": "viewing_position", "label": "卫冬将林七夜与雨宫晴辉误判为人圈土著", "confidence": "medium", "source_refs": ["segment-006"], "attributes": {"scope": "第701–703章；读者先见接应安排，林方只推断前面有人，具体误认出现在卫冬一方。"}}
 {"id": "B03-WATCH", "type": "event", "label": "失控时隔离干扰并留下陪伴", "confidence": "medium", "source_refs": ["segment-007"]}
 {"id": "B03-AGENCY", "type": "event", "label": "让受助者亲手完成因果", "confidence": "medium", "source_refs": ["segment-008"]}
 {"id": "B03-RESOURCE", "type": "event", "label": "让出队伍资源并分担压力", "confidence": "medium", "source_refs": ["segment-009"]}
 {"id": "B04-RESPONSE", "type": "event", "label": "伙伴在各地选择回应召唤", "confidence": "medium", "source_refs": ["segment-010"]}
 {"id": "B04-RESCUE", "type": "event", "label": "受困者自救与外部救援共同破笼", "confidence": "medium", "source_refs": ["segment-011"]}
 {"id": "B04-RETURN", "type": "payoff", "label": "巨大危机后回到家人与旧友", "confidence": "medium", "source_refs": ["segment-012"]}
+{"id": "CHAR-LIN-QIYE", "type": "character", "label": "林七夜", "confidence": "high", "source_refs": ["segment-001", "segment-002", "segment-005", "segment-006", "segment-010", "segment-012"]}
+{"id": "CHAR-AN-QINGYU", "type": "character", "label": "安卿鱼", "confidence": "high", "source_refs": ["segment-004", "segment-005", "segment-010", "segment-012"]}
+{"id": "CHAR-WEI-DONG", "type": "character", "label": "卫冬", "confidence": "high", "source_refs": ["segment-006"], "aliases": ["伞兵"]}
+{"id": "CHAR-SUMING", "type": "character", "label": "宿命和尚", "confidence": "high", "source_refs": ["segment-010"], "aliases": ["宿命"]}
+{"id": "RULE-LIMITED-INFO", "type": "pattern", "label": "只有能在现场验证的线索才改变人物当下的判断", "confidence": "medium", "source_refs": ["segment-005", "segment-006"]}
+{"id": "EVENT-HANDOVER", "type": "event", "label": "既定之果回归与伙伴记忆补回", "confidence": "high", "source_refs": ["segment-010"]}
+{"id": "SITE-SIXTH-ROOM", "type": "location", "label": "第六病房", "confidence": "high", "source_refs": ["segment-002", "segment-012"], "aliases": ["第六间病房"]}
+{"id": "PAYOFF-CANGNAN", "type": "payoff", "label": "沧南亡者依魂魄和人造肉身复归", "confidence": "high", "source_refs": ["segment-012"]}
+{"id": "EVENT-DOOR-IN-SPACE", "type": "event", "label": "安卿鱼跨层来寻林七夜", "confidence": "high", "source_refs": ["segment-012"], "attributes": {"scope": "第2019章到场。第2007章寻找承诺的独立摘段见 sampling-register.yaml 的 R03。"}}

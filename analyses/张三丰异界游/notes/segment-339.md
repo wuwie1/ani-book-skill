@@ -1,5 +1,7 @@
 # segment-339｜接城后按功能任人扩招实军，人口规模不补高级战力而新邻威胁出现
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧","耶哈德"],"chapter_start":778,"chapter_end":779} -->
+
 ## 来源
 
 ordinal787–788，原778《有人不服》、779《九狱魔族》；[3384168,3392617)，7951非空。raw.decode4400＋4049连续完整至九狱/明暗神族定义，蚩尤具体故事/来意尚未讲。

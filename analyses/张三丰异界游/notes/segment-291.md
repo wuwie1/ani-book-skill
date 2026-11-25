@@ -1,5 +1,7 @@
 # segment-291｜战功换行政权限，开放补能池使阵法规模化
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧","雅典娜","耶哈德"],"chapter_start":682,"chapter_end":683} -->
+
 ## 来源
 
 [2945352,2955728)，9874非空；ordinal689–690，原682《雅典娜领军》、683《诸神战争》。三连续窗口完整至三新顶级将火祖拉入战斗空间的章末，无越章结论。

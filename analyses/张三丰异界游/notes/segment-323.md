@@ -1,5 +1,7 @@
 # segment-323｜旧闻被现场反证，隐藏实力为锁逃路却遇多法器压力
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧"],"chapter_start":746,"chapter_end":747} -->
+
 ## 来源
 
 ordinal755–756，原746《关门打狗》、747《夫妻恶战》；[3248681,3257216)，8133非空。raw.decode保留CRLF、4400＋4135连续完整至主角需绫扇同防十余法器，仍僵持。

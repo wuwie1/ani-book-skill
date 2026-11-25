@@ -1,6 +1,6 @@
 # segment-082｜放人兼顾荣誉与离间，虎王复出推翻敌将不会获权的预判
 
-<!-- retrieval-meta: {"chapter_start":267,"chapter_end":268,"dimensions":["plot","character","worldbuilding"],"characters":["张三丰","蕊娜","买买提之子","天杀","西思尔"]} -->
+<!-- retrieval-meta: {"chapter_start":266,"chapter_end":267,"dimensions":["plot","character","worldbuilding"],"characters":["张三丰","蕊娜","买买提之子","天杀","西思尔"]} -->
 
 ordinal267–268；原266《香香公主》—267《虎王复出》；[819081,829562)，9983非空字符。823681、828281三显示完整章末，虎王旧部复集三十余万，双方尚未交战。
 

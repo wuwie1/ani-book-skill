@@ -1,6 +1,6 @@
 # segment-084｜双方反复学习拆招，谣言同时侵蚀占区与本国支持
 
-<!-- retrieval-meta: {"chapter_start":271,"chapter_end":272,"dimensions":["plot","worldbuilding","character"],"characters":["张三丰","西思尔","丽芙倪","龙啸天","天杀","玫儿"]} -->
+<!-- retrieval-meta: {"chapter_start":270,"chapter_end":271,"dimensions":["plot","worldbuilding","character"],"characters":["张三丰","西思尔","丽芙倪","龙啸天","天杀","玫儿"]} -->
 
 ordinal271–272；原270《激烈暗战》—271《啸天被阴》；[840244,850647)，10065非空字符。844844、849444三显示连续完整；末父与叔祖切磋正打，未出胜负。
 

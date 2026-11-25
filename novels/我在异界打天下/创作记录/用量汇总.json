@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T03:10:58.782522Z",
+  "generated_at": "2026-11-24T11:06:44.263086Z",
   "totals": {
-    "events": 52,
-    "succeeded": 49,
+    "events": 150,
+    "succeeded": 147,
     "failed": 0,
     "partial": 3,
     "exact_events": 32,
     "exact_tokens": 287638,
     "estimated_events": 0,
     "estimated_tokens": 0,
-    "unavailable_events": 20
+    "unavailable_events": 118
   },
   "by_step": {
     "assistant_system_trial.chapter_acceptance": {
@@ -299,6 +299,17 @@
       "estimated_tokens": 0,
       "unavailable_events": 1
     },
+    "novel.opening_revision": {
+      "events": 98,
+      "succeeded": 98,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 98
+    },
     "novel.story_bible": {
       "events": 2,
       "succeeded": 2,
@@ -445,15 +456,15 @@
       "unavailable_events": 0
     },
     "unknown": {
-      "events": 17,
-      "succeeded": 16,
+      "events": 115,
+      "succeeded": 114,
       "failed": 0,
       "partial": 1,
       "exact_events": 0,
       "exact_tokens": 0,
       "estimated_events": 0,
       "estimated_tokens": 0,
-      "unavailable_events": 17
+      "unavailable_events": 115
     }
   }
 }

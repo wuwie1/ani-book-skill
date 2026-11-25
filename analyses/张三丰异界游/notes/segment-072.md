@@ -1,6 +1,6 @@
 # segment-072｜以缓兵争外援，教廷追捕在派系保护与证据压制中受阻
 
-<!-- retrieval-meta: {"chapter_start":238,"chapter_end":240,"dimensions":["plot","character","worldbuilding"],"characters":["张三丰","天杀","罗纳多","龙家祖母","东尼","马赫"]} -->
+<!-- retrieval-meta: {"chapter_start":237,"chapter_end":239,"dimensions":["plot","character","worldbuilding"],"characters":["张三丰","天杀","罗纳多","龙家祖母","东尼","马赫"]} -->
 
 ordinal238–240；原237《街头激战》—239《城门风云》；[721453,730768)，8982非空字符。726053分显示完整章末，停在祖母/罗纳多二对三对峙，未开最终大战/放行。
 

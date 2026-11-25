@@ -1,5 +1,7 @@
 # segment-317｜玫的故乡危机改写借路行程，救援须留后防报复
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧","盖次"],"chapter_start":734,"chapter_end":735} -->
+
 ## 来源
 
 ordinal743–744，原734《被龌龊了。》、735《驰援魔皇》；[3195894,3205289)，8833非空，原始字节utf-8-sig解码，4400＋4995连续显示完整至魔皇城外密集围营，尚未硬闯。

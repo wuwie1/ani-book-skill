@@ -1,5 +1,7 @@
 # segment-266｜伪装集中斩三肉身，敌技术与情报成本仍在演变
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","西亚"],"chapter_start":631,"chapter_end":632} -->
+
 - 固定快照ordinal638–639；原631《阴杀三鸟人》、632《西亚的困惑》。[2695458,2704885)，9009非空字符；三次连续显示完整至西亚怀疑依天复仇的章末。A27末段，B透镜，人物卡off。
 
 ## 海战实绩与黑龙后揭

@@ -1,6 +1,6 @@
 # segment-115｜群众与教职保人，拖延外交换守城时间却未消风险
 
-<!-- retrieval-meta: {"chapter_start":333,"chapter_end":334,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","七公主","祖母","烈焰比蒙","欧阳若兰","琉廊雾师","罗纳多"]} -->
+<!-- retrieval-meta: {"chapter_start":331,"chapter_end":332,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","七公主","祖母","烈焰比蒙","欧阳若兰","琉廊雾师","罗纳多"]} -->
 
 ordinal333–334；原331《血战到底》—332《血战爆发》；[1170489,1181057)，10126非空字符。1170489/1175089/1179689三显示完整，末教廷狂信者/苦修上主城挡石肤半兽，第二天守城尚在打。
 

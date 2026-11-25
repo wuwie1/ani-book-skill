@@ -1,6 +1,6 @@
 # segment-087｜后援解围并非无损胜，双方战报重塑评价而防御继续升级
 
-<!-- retrieval-meta: {"chapter_start":277,"chapter_end":278,"dimensions":["plot","resources","worldbuilding"],"characters":["张三丰","西思尔","卡罗","龙啸天","麦哈特","卡特二王子"]} -->
+<!-- retrieval-meta: {"chapter_start":276,"chapter_end":277,"dimensions":["plot","resources","worldbuilding"],"characters":["张三丰","西思尔","卡罗","龙啸天","麦哈特","卡特二王子"]} -->
 
 ordinal277–278；原276《谁算计谁（终）》—277《大战序幕》；[872200,882677)，10051非空字符。876800、881400三显示完整；章末虎王约城外亭旧友会，尚未赴/未谈。
 

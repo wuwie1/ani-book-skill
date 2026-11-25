@@ -1,5 +1,7 @@
 # segment-305｜四劫连渡以外部能量续航，成长伴随千宝损毁
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧","七公主","耶和华"],"chapter_start":710,"chapter_end":711} -->
+
 ## 来源
 
 [3083209,3092783)，9228非空；ordinal719–720，原又710《连中四元》、711《作弊度劫》。原710连续重复，保ordinal/字符顺序。三连续窗口完整至七公主建议保留少量铁舰更新的章末。

@@ -1,6 +1,6 @@
 # segment-067｜互授道术改变测试结果，赏金宣传已扩散但新收益未到
 
-<!-- retrieval-meta: {"chapter_start":223,"chapter_end":225,"dimensions":["plot","progression","worldbuilding"],"characters":["雅典娜","仙雅","张三丰","爱莲娜","丽芙倪","堂娜"]} -->
+<!-- retrieval-meta: {"chapter_start":222,"chapter_end":224,"dimensions":["plot","progression","worldbuilding"],"characters":["雅典娜","仙雅","张三丰","爱莲娜","丽芙倪","堂娜"]} -->
 
 ordinal223–225；原222《女神显威》—224《大胆小队》；[674692,683976)，8839非空字符。679292分显示完整章末，停在学生讲主角父母传奇/主角内纠，不补下一段对话。
 

@@ -1,6 +1,6 @@
 # segment-108｜新法师归附要装备投入，鹰眼情报须过身份与可信度门槛
 
-<!-- retrieval-meta: {"chapter_start":319,"chapter_end":320,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","拖克坛","克里","祖母","烈焰比蒙","罗福德","力提纱"]} -->
+<!-- retrieval-meta: {"chapter_start":317,"chapter_end":318,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","拖克坛","克里","祖母","烈焰比蒙","罗福德","力提纱"]} -->
 
 ordinal319–320；原317《侦察敌情》—318《兽族高层》；[1096054,1106414)，9842非空字符。1096054/1100654/1105254三显示完整，末祖母接受拖后勤方略，尚未实施/未杀雷兽。
 

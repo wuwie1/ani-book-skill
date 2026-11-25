@@ -1,6 +1,6 @@
 # segment-098｜城战获胜付恢复账，制度撤权又冲击投降信用
 
-<!-- retrieval-meta: {"chapter_start":299,"chapter_end":300,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","克里","玫儿","西思尔","拖克坛","龙啸天","格拉纳"]} -->
+<!-- retrieval-meta: {"chapter_start":297,"chapter_end":298,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","克里","玫儿","西思尔","拖克坛","龙啸天","格拉纳"]} -->
 
 ordinal299–300；原297《惨烈战斗》—298《噩耗袭来》；[987875,998707)，10382非空字符。987875/992475/997075三显示全读，末主角已被撤职带回途中、父另震官，未达王都受审。
 

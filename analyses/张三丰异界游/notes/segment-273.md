@@ -1,5 +1,7 @@
 # segment-273｜守关撤退达成，主战场把夺舰目标锁进互保防御
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","西亚"],"chapter_start":645,"chapter_end":646} -->
+
 - 固定快照ordinal652–653；原645《大战序幕》、646《火山之战》。[2762718,2773154)，9974非空字符；三次连续显示完整到火龙炮首次齐发/爆炸的章末。B透镜，人物卡off。
 
 ## 北线完成局部任务

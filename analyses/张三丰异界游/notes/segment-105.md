@@ -1,6 +1,6 @@
 # segment-105｜教廷动员重排奖罪，高手转移换平衡与道路换堡
 
-<!-- retrieval-meta: {"chapter_start":313,"chapter_end":314,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","教皇","祖母","龙啸天","爷爷","石原小犬","海伦","铁石"]} -->
+<!-- retrieval-meta: {"chapter_start":311,"chapter_end":312,"dimensions":["plot","progression","worldbuilding","character"],"characters":["张三丰","教皇","祖母","龙啸天","爷爷","石原小犬","海伦","铁石"]} -->
 
 ordinal313–314；原311《出征兽人》—312《皆大欢喜》；[1064597,1074962)，9775非空字符。1064597/1069197/1073797三显示全读，末出白虎城赴铁炉堡，未与兽人交战。
 

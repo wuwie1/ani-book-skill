@@ -1,6 +1,6 @@
 # segment-075｜盟友复用失败教训获胜，主角自信护甲导致救援窗口再失
 
-<!-- retrieval-meta: {"chapter_start":247,"chapter_end":249,"dimensions":["plot","resources","worldbuilding"],"characters":["玫儿","铁石","张三丰","龙格亚","克里","龙啸天"]} -->
+<!-- retrieval-meta: {"chapter_start":246,"chapter_end":248,"dimensions":["plot","resources","worldbuilding"],"characters":["玫儿","铁石","张三丰","龙格亚","克里","龙啸天"]} -->
 
 ordinal247–249；原246《瓦纳大败》—248《父亲危急》；[749625,759416)，9370非空字符；754225分显示，完整章末：五万已围/父中咒生死未明，主角命突袭尚未救出。
 

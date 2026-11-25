@@ -1,5 +1,7 @@
 # segment-329｜真实损失推翻低伤猜测，舍城护人换师门永久阵投入
 
+<!-- retrieval-meta: {"dimensions":["plot","worldbuilding"],"characters":["张三丰","忘忧","七公主"],"chapter_start":758,"chapter_end":759} -->
+
 ## 来源
 
 ordinal767–768，原758《不死不休》、759《诛仙大阵》；[3299320,3308075)，8197非空。原始decode4400＋4355完整至师请诸女选宝武装，尚未逐件挑选/完成阵布。
