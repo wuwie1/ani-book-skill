@@ -1,13 +1,3 @@
-# Explicitly authorized analysis results; raw books and caches stay local.
-/analyses/**
-!/analyses/遮天/
-!/analyses/我在精神病院学斩神/
-!/analyses/张三丰异界游/
-!/analyses/*/**/
-!/analyses/*/**/*.md
-!/analyses/*/**/*.yaml
-!/analyses/*/**/*.json
-!/analyses/*/**/*.jsonl
 
 # Python
 __pycache__/
