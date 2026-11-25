@@ -1,0 +1,234 @@
+# 文笔样例登记：只记坐标，不存原文。正文由 scripts/style_exemplars.py 从本地快照读取。
+# status：candidate 待作者勾选；selected 作者选用；rejected 不用。
+schema_version: 1
+source:
+  title: 我在精神病院学斩神
+  snapshot: source/我在精神病院学斩神.txt
+  fingerprint: sha256:7657e4a174a1a8e6382e739ce3b4c4464cd486d9e9419371bce10d46cc10a9bc
+  decoding: utf-8-sig
+  offset_unit: unicode_character
+  end_exclusive: true
+policy:
+  text_storage: coordinates_only
+  max_chars: 1200
+  use: 读感校准。看句段长短、对白与叙述的比例、心理活动的口吻和出现位置、信息交代的快慢；不搬句子、比喻、专名、人物关系和情节。
+source_entities:
+  - name: 林七夜
+    aliases: [七夜, 小七, 林处]
+  - name: 阿诺
+  - name: 李医生
+  - name: 韩医生
+  - name: 蒋倩
+  - name: 李毅飞
+  - name: 汪绍
+  - name: 赵空城
+  - name: 杨晋
+    aliases: [阿晋]
+  - name: 小黑癞
+  - name: 炽天使
+    aliases: [米迦勒, 炽天使米迦勒]
+  - name: 鬼面人
+  - name: 鬼面王
+  - name: 阳光精神病院
+    aliases: [精神病院]
+  - name: 太上老君
+  - name: 月兔
+  - name: 安卿鱼
+  - name: 第三席
+  - name: 百里胖胖
+  - name: 迦蓝
+  - name: 九阴
+    aliases: ['【九阴】']
+  - name: 黄道十二宫
+  - name: 白羊
+    aliases: ['【白羊】']
+  - name: 天阙
+    aliases: ['【天阙】']
+  - name: 冰藤之蛇
+  - name: 禁墟
+  - name: 禁物
+  - name: 骑士
+    aliases: ['【骑士】', 上邪会第六特使]
+  - name: 圣裁骑士团
+    aliases: [骑士团]
+  - name: 吴湘南
+  - name: 卫冬
+    aliases: [伞兵]
+  - name: 北海道
+  - name: 人圈
+  - name: 吉尔伽美什
+  - name: 孙悟空
+  - name: 诸神精神病院
+    aliases: [病院]
+  - name: 夏思萌
+  - name: 童晟
+  - name: 左青
+    aliases: [左司令]
+  - name: 凤凰小队
+    aliases: ['【凤凰】小队', 凤凰]
+  - name: 守夜人
+  - name: 守夜人总部
+  - name: 乌托邦
+    aliases: ['【乌托邦】']
+  - name: 特殊行动处
+  - name: 人类天花板
+  - name: 人类天花板候选人
+  - name: 周平
+  - name: 陈夫子
+  - name: 关在
+  - name: 路无为
+  - name: 软中华
+exemplars:
+  - id: EX-001
+    status: candidate
+    scene_function: 旁人眼里起笔的亮相：一件说不通的小事吊住，路人七嘴八舌
+    locator: 第1章 黑缎缠目
+    span: [187, 1022]
+    learn:
+      - 三五个字的短段和拟声先落地，环境两句带过，第三段就有人发现异常
+      - 用一个具体的怪问题开口，同伴认真回答，再被问题的后半截噎住
+      - 路人各说一句，每句都带自己的判断，不排队惊叹
+    do_not_carry:
+      - 蒙眼、盲杖、扛油这组物件和过马路的桥段
+      - 四字一组的外貌概括句
+    evidence: [CLAIM-003, notes/segment-001.md, NAR-01]
+  - id: EX-003
+    status: candidate
+    scene_function: 归家的家常对白：絮叨里带出处境、花销和谁在照看谁
+    locator: 第1章 黑缎缠目
+    span: [2218, 2878]
+    learn:
+      - 长辈说话絮、心疼钱、话赶话，晚辈答得短而稳
+      - 一样东西先被看见，再被问价，再被擦一擦
+      - 主角轻描淡写带过实情，读者比家人多知道一层
+    do_not_carry:
+      - 油桶、补贴、复查医生这些具体物事
+    evidence: [CLAIM-001, notes/segment-001.md, NAR-04, NAR-05, STYLE-07]
+  - id: EX-004
+    status: candidate
+    scene_function: 一问一答越收越短，章末停在一个画面上
+    locator: 第1章 黑缎缠目
+    span: [3636, 4180]
+    learn:
+      - 对方话多、主角话少，沉默单独成段
+      - 对方递一个玩笑，主角用一句认真的话接住，气氛当场翻面
+      - 最要紧的画面说完就停，后面不解释
+    do_not_carry:
+      - 月亮、天使这个具体画面及其描写用词
+    evidence: [CLAIM-042, notes/segment-001.md, NAR-06, HOOK-04]
+  - id: EX-005
+    status: candidate
+    scene_function: 预想落空：先写众人反常的热情，原因晚一步到，情绪落在一个小动作上
+    locator: 第4章 生还日
+    span: [10548, 11424]
+    learn:
+      - 三个同学抢着指座带路，等人坐下，才让他在心里拿眼前的情形对照预想
+      - 众人的话各一行，用省略号行收住
+      - 原因由旁人一句话带出，主角不说感想，只有一个身体细节
+    do_not_carry:
+      - 鸡蛋、缎带湿润这两处具体细节
+      - 转学入班的桥段
+    evidence: [CLAIM-002, notes/segment-001.md, NAR-04, STYLE-07]
+  - id: EX-006
+    status: candidate
+    scene_function: 绝境里的心理活动：先算清退路，再骂出来，怒气变成下一步动作
+    locator: 第8章 祂的眼
+    span: [21531, 22300]
+    learn:
+      - 处境用一句短句钉死，再写情绪
+      - 内心独白口语化、分行、越说越短，带自嘲
+      - 情绪写足以后立刻接动作，不停在感受上
+    do_not_carry:
+      - 怪物、尸体的血腥描写
+      - 觉醒、睁眼这条能力线
+      - 原文的粗口
+    evidence: [CLAIM-005, CLAIM-006, notes/segment-002.md, STYLE-03, STYLE-05]
+  - id: EX-007
+    status: candidate
+    scene_function: 险情刚过的冷场对白：强者想要一句夸，主角不接茬，然后人跑了
+    locator: 第10章 月下直刀
+    span: [27358, 28257]
+    learn:
+      - 高压之后用一句不合时宜的问话把人拉回常人尺度
+      - 两三个字的拒绝，理由朴素，重复一遍更好笑
+      - 换到对方心里吐槽，心思飘远，回神才发现局面变了
+    do_not_carry:
+      - 问帅不帅这句原话和招募入队的桥段
+      - 原文的粗口
+    evidence: [CLAIM-008, notes/segment-002.md, NAR-02, NAR-03]
+  - id: EX-008
+    status: candidate
+    scene_function: 归家的静场：遮掩与察觉都藏在家常话里，章末停在一句话上
+    locator: 第10章 月下直刀
+    span: [28265, 29016]
+    learn:
+      - 对白全是作业、牛奶、晚安这类小事，没有一句谈刚发生的大事
+      - 遮掩用一个动作交代，不解释心情
+      - 视角留给被瞒的人，最后一句话改掉读者对他的判断
+    do_not_carry:
+      - 血腥味这句收尾和那条狗
+    evidence: [CLAIM-007, notes/segment-002.md, NAR-02, NAR-06, HOOK-04]
+  - id: EX-009
+    status: candidate
+    scene_function: 三名同伴接手同一场交锋，末尾转到对手心里，交代他看漏了什么。
+    locator: 第500章 噩梦空间（目录500，L65889–65923）
+    span: [1252442, 1253076]
+    learn:
+      - 先让对手击碎眼前的东西，再让观察者用一句对白指出能力依附在哪里。
+      - 第二个人先应声，隔两段才现身。写第三个人时，先交代对手肩头吃痛、来不及动，再写地面的人影。
+      - 最后先写对手退开站稳，再把他的疑问单放一段，这一轮就停在他认错的地方。
+    do_not_carry:
+      - 背黑棺踏冰藤、从蛇身飞出、持枪追击的出场顺序和道具搭配。
+      - 墨壳记录能力、羊角隔甲伤人和兵器名独立成行的报招方式。
+    evidence: [CLAIM-015, CLAIM-039, notes/segment-004.md]
+  - id: EX-010
+    status: candidate
+    scene_function: 赶路途中三人收到会合地点，商量装备怎么分，谈妥就折返开船。
+    locator: 第701章 深海之底（目录700，L92495–92521）
+    span: [1752687, 1753263]
+    learn:
+      - 从并排行走切到一声提示音，先写拿设备的人看见什么，再让身边的人开口问。
+      - 把目的地、距离、装备数量分在几轮问答里。两人接连表态，第二人才补自己用不上的理由。
+      - 留一段沉默，让提出数量问题的人亲口认领装备，下一段就把三人送回船上。
+    do_not_carry:
+      - 像素设备追红点、海底缺口、两套潜水设备和以肉身下潜的组合。
+      - 接应者的代号、地点以及三人进人圈的任务。
+    evidence: [CLAIM-021, CLAIM-036, notes/segment-006.md]
+  - id: EX-011
+    status: candidate
+    scene_function: 问话被病情打断，赶来的同伴接过看护，让问话的人腾出手继续查。
+    locator: 第1202章 王座与小马扎（目录1201，L154589–154617）
+    span: [2983455, 2983976]
+    learn:
+      - 答话的人刚要开口就僵住，先写他的手背和身边的响动，再给问话人一个退步和一行心声。
+      - 喊声传到正在做家务的人那里，只停一段写他们的反应，就让来帮忙的人入场。
+      - 来人先问发生了什么，再问信息有没有收获。回答里保留猜测，最后用一句交代谁留下。
+    do_not_carry:
+      - 锁在王座上的病人、头顶治疗进度条、宝库与病情相连的设定。
+      - 披残袈裟从二楼跃下接手看护的动作。
+    evidence: [CLAIM-022, CLAIM-041, notes/segment-007.md]
+  - id: EX-012
+    status: candidate
+    scene_function: 会议散场后，队员边走边安慰队长，直到车前才听见她真正介意的事。
+    locator: 第1603章 保释（目录1608，L203291–203313）
+    span: [3961738, 3962274]
+    learn:
+      - 队长开门先叹气，接着连排三段安慰，每段都换一个队员猜她为什么难过。
+      - 走到车旁才让她回头道歉，说到一半换段，把责怪自己的那一句单独留下。
+      - 先让一个有名字的队员扶人并答话，众人只附和半句，再以大家上车离开收束。
+    do_not_carry:
+      - 送香烟请假、给自己批假条、金披风鞠躬和总部商务车这组细节。
+    evidence: [CLAIM-027, CLAIM-037, CLAIM-041, notes/segment-009.md]
+  - id: EX-013
+    status: candidate
+    scene_function: 新任处长夜里独自翻档案，从他走进楼层到读懂一条履历，交代这份工作能接触到什么。
+    locator: 第1600章 来自汉代的神秘档案（目录1605，L202977–203003）
+    span: [3954619, 3955353]
+    learn:
+      - 用两个极短的段落分别交代时刻和地点，第三段才让人走进来，沿着他的路线从一排架子写到一张桌子。
+      - 把坐下的动作推迟几段。先看机器的新旧，再说它存着什么、谁有资格用，等他坐下才打开目录。
+      - 翻到人名后先列档案栏目，再挑一件小到出乎意料的私事。末段才写他从这一条看懂了什么。
+    do_not_carry:
+      - 深红斗篷、总部的米白旧电脑、仅限五人的权限和特殊行动处的职务组合。
+      - 人类天花板分级、档案里四人的名单，以及用小学暗恋对象给人物建模的细节。
+    evidence: [CLAIM-036, CLAIM-040, notes/segment-009.md]
