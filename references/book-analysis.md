@@ -75,6 +75,7 @@ analyses/<规范化名称>/
 ├── evidence-ledger.md
 ├── uncertainty-ledger.md
 ├── pattern-cards.md
+├── style-exemplars.yaml
 ├── characters/
 │   └── CHAR-001.md
 ├── graph/
@@ -86,6 +87,8 @@ analyses/<规范化名称>/
 ```
 
 冻结来源时，将用户提供的本地原文文件或章节目录复制到工作区 `source/`，保留原文件名，作为只读快照。网页来源在可保存的前提下同样放入 `source/`。检索索引不读取 `source/`。`analyses/` 默认不进入公开仓库，因此快照不得提交到公开 git。引用仍只保留短证据。
+
+`style-exemplars.yaml` 是可选文件。作者想借这本书的读感时，按[文笔样例](style-engine.md#文笔样例)登记已读范围内的少量片段：只记字符区间和用途，不抄原文，由 `scripts/style_exemplars.py validate` 核对来源指纹与区间。
 
 `source-manifest.md` 同时记录用户原路径与工作区内快照路径、类型、标题、作者或站点、访问日期、来源版本、指纹、授权说明和实际分析范围。续拆时优先读 `source/` 快照；快照缺失或指纹不一致时，再回到用户原路径并重新复制。
 
