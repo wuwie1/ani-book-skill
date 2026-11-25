@@ -1,0 +1,119 @@
+{
+  "status": "passed",
+  "checked_at": "2026-11-24T10:23:10.605007+00:00",
+  "review_date": "2026-11-24",
+  "review_type": "原目录与检索全量校验，文学判断按原文定点核查",
+  "source_sha256": "7657e4a174a1a8e6382e739ce3b4c4464cd486d9e9419371bce10d46cc10a9bc",
+  "source_ref": "/Users/likai/go/src/write/ani-book-skill/novels/我在精神病院学斩神.txt",
+  "source_snapshot": "source/我在精神病院学斩神.txt",
+  "exact_source_snapshot_match": true,
+  "snapshot_read_only": true,
+  "decoded_chars": 4985208,
+  "source_non_whitespace_chars": 4240232,
+  "source_bytes": 13374793,
+  "source_lines": 252928,
+  "catalog_units": 2030,
+  "all_catalog_offsets_and_headings_verified": true,
+  "coverage": "sampled",
+  "formal_note_files": 12,
+  "formal_non_whitespace_chars": 125812,
+  "formal_note_positions_and_character_counts_checked": 12,
+  "printed_chapter_filters_checked": 12,
+  "batches_ready": 4,
+  "claim_definitions": 42,
+  "claim_references_resolve": true,
+  "pattern_cards": 7,
+  "claim_refs_checked_markdown_files": 34,
+  "graph_nodes": 28,
+  "graph_edges": 24,
+  "graph_node_sources_edges_and_evidence_valid": true,
+  "final_local_links_checked": 110,
+  "fragment_checks": 15,
+  "broken_links": [],
+  "absolute_workspace_md_links": 0,
+  "index_integrity": "ok",
+  "index_chunks": 92,
+  "distinct_indexed_files": 21,
+  "all_current_chunk_fingerprints_match": true,
+  "source_excluded_from_index": true,
+  "archived_previous_index": "retrieval/analysis-index.20261124T181828964645.sqlite3",
+  "archive_size_verified": 1187840,
+  "archive_sha256": "a4a3f3100e94a02c71fb2d6d5684f8d65f730ec49a98b80d9c47e79c2eef5cbb",
+  "search_checks": [
+    {
+      "query": "卫冬",
+      "chapter": 703,
+      "character": "卫冬",
+      "notes": [
+        "notes/segment-006.md"
+      ]
+    },
+    {
+      "query": "安卿鱼",
+      "chapter": 2019,
+      "character": "安卿鱼",
+      "notes": [
+        "notes/segment-012.md"
+      ]
+    },
+    {
+      "query": "夏思萌",
+      "chapter": 1804,
+      "character": null,
+      "notes": []
+    }
+  ],
+  "graph_path_checks": [
+    {
+      "start": "安卿鱼",
+      "end": "林七夜",
+      "found": true,
+      "edge_ids": [
+        "AUD-AN-RETURNS",
+        "AUD-SPACE-LIN"
+      ]
+    },
+    {
+      "start": "卫冬",
+      "end": "RULE-LIMITED-INFO",
+      "found": true,
+      "edge_ids": [
+        "AUD-WEI-MISREAD",
+        "AUD-MISREAD-CUE"
+      ]
+    }
+  ],
+  "protected_files_hash_checked": 17,
+  "existing_documents_with_only_citation_repairs": [
+    "我在精神病院学斩神/production/首章反向验证-20261119/01-从全书到首章.md",
+    "我在精神病院学斩神/batch-B01-review.md"
+  ],
+  "token_ledger": "valid",
+  "raw_usage_events": 8,
+  "effective_creative_execution_records": 8,
+  "usage_measurement": "unavailable; work entries do not establish API request count or cost",
+  "unit_tests_passed": 83,
+  "human_review": "供用户审核",
+  "formal_windows": 12,
+  "formal_chapter_units": 56,
+  "samples_in_original_scope": 12,
+  "formal_coverage_percent": 2.9671,
+  "review_excerpts": 7,
+  "review_unique_non_whitespace_chars": 3822,
+  "review_excerpt_chapters": [
+    1804,
+    2007,
+    2011,
+    2013,
+    2014
+  ],
+  "formal_and_review_union_non_whitespace_chars": 129634,
+  "outside_formal_and_review_non_whitespace_chars": 4110598,
+  "review_excerpt_positions": "sampling-register.yaml#review_excerpts",
+  "quality_review_cases": [
+    "卫冬单方误认",
+    "宿命和尚交接既定之果与同伴记忆",
+    "寻找承诺与第六病房身份翻转",
+    "新宇宙中的延续与沧南复归的不同条件"
+  ]
+}
