@@ -3,11 +3,11 @@ analysis:
   title: 我在精神病院学斩神
   profile: standard
   status: complete
-  completion_scope: approved_cross_stage_sampled_analysis_not_full_book
+  completion_scope: 六卷全量阅读完成，419 份笔记覆盖冻结底本 2,030 个目录单元、4,240,232 个非空字符。
 core_model:
   status: ready
-  reader_promise: 用户确认的分析透镜A：异常者通过具体照顾与并肩行动获得归属，并把关系变为危机中的支点；不是全书事实定论
-  subject_matter_or_fantasy: 日常与神异交叠中受困者获得承认、参与抵抗；限样本推断
+  reader_promise: 用户确认的透镜 A：异常者通过具体照顾与并肩行动获得归属，并把关系变为危机中的支点。全书证据支持用这一透镜解释主要情绪回报，保留悬疑与行动的独立作用。
+  subject_matter_or_fantasy: 日常与神异交叠中，受困者获得承认并参与抵抗。
   psychological_progression: 疏离/好奇—看见照顾—担心失去—行动回应；检查反例，不强套每场景
   relationship_structure: 主角、家人、同伴、外部观看者与敌方；追踪各方知情位置和实际付出
   gates_and_costs:
@@ -21,25 +21,28 @@ source:
   ref: /Users/likai/go/src/write/ani-book-skill/novels/我在精神病院学斩神.txt
   snapshot: source/我在精神病院学斩神.txt
   fingerprint: sha256:7657e4a174a1a8e6382e739ce3b4c4464cd486d9e9419371bce10d46cc10a9bc
-  coverage: sampled
-  scope: 跨阶段代表性场景抽样，初始目标约10–20万非空字符
-  read_scope: 首轮正式 12 窗、125812 个非空字符；另有 7 处审计摘段、3822 个非空字符，位置见 sampling-register.yaml。
-  remaining_scope: '[0,173)、[31793,262378)、[276073,764050)、[773773,1252365)、[1272764,1750275)、[1759792,2977476)、[2987490,3463307)、[3472756,3954600)、[3964127,4443803)、[4453384,4924928)、[4934577,4968921)'
+  coverage: full
+  scope: 用户确认全文拆解，涵盖整个本地快照，附文与重复目录单列。
+  read_scope: 419 份正式笔记覆盖 2,030/2,030 个目录单元、4,240,232/4,240,232 个非空字符。
+  remaining_scope: none
   registered_ref: /Users/likai/go/src/write/assistant/novels/我在精神病院学斩神.txt
-  remaining_scope_kind: 正式样本以外的区间。其中另有本轮审计摘段。
+  reading_register: source/full-reading-register.json
 artifacts:
   overview:
     path: sections/overview.md
     status: ready
+    label: 总览
   style_technique:
     path: sections/style-technique.md
     status: ready
+    label: 语言与叙事技法
   pattern_candidates:
     path: pattern-cards.md
     status: ready
   sampling:
     path: sampling-register.yaml
     status: ready
+    scope: 历史抽样档案
   coverage:
     path: coverage-map.md
     status: ready
@@ -49,6 +52,42 @@ artifacts:
   uncertainty:
     path: uncertainty-ledger.md
     status: ready
+  plot_structure:
+    path: sections/plot-structure.md
+    status: ready
+    label: 情节结构
+  timeline:
+    path: sections/timeline.md
+    status: ready
+    label: 时间线
+  character_system:
+    path: sections/character-system.md
+    status: ready
+    label: 人物系统
+  worldbuilding:
+    path: sections/worldbuilding.md
+    status: ready
+    label: 世界设定
+  themes:
+    path: sections/themes.md
+    status: ready
+    label: 主题
+  market_highlights:
+    path: sections/market-highlights.md
+    status: ready
+    label: 市场亮点
+  navigation:
+    path: 六卷笔记目录.md
+    status: ready
+    label: 六卷笔记目录
+  foreshadowing:
+    path: promise-final-audit.md
+    status: ready
+    label: 伏笔与回收核查
+  reading_register:
+    path: source/full-reading-register.json
+    status: ready
+    label: 全量阅读登记
 character_sync:
   status: 'off'
   targets: []
@@ -56,10 +95,15 @@ analysis_lens:
   path: analysis-lens.md
   status: ready
 execution_request:
-  delegated_model: gpt-6.1-sol
-  service_tier_permission: priority_authorized_for_this_delegation
-  phase: sampled_analysis_complete
-  future_original_design_owner: parent_current_model
+  delegated_model: gpt-6.2-sol
+  phase: completed_analysis
+  delegations:
+  - model: gpt-6.2-sol
+    notes: segment-211–286
+  - model: gpt-6.2-sol
+    notes: segment-287–366
+  - model: gpt-6.2-sol
+    notes: segment-367–419
 next_action:
   type: review_completed_analysis
   target: book-analysis-review.md
@@ -107,9 +151,45 @@ final_review:
   status: ready
   path: book-analysis-review.md
   validation: final-validation.json
-  scope: 既有跨阶段抽样与本次定点补证
+  scope: 本地冻结底本六卷全量阅读与分析
 quality_review:
+  date: '2026-11-26'
+  status: ready
+  validation: final-validation.json
+  scope: 六卷正文、校勘、证据与检索复核
+full_analysis:
+  request_date: '2026-11-26'
+  status: complete
+  historical_formal_windows: 12
+  new_formal_segments: 407
+  source_units: 2030
+  total_non_whitespace_chars: 4240232
+  planned_new_segments: 407
+  formal_units: 2030
+  formal_non_whitespace_chars: 4240232
+  formal_notes: 419
+  coverage_basis: frozen_local_file
+  edition_notes: source/底本校勘.md
+  known_edition_issues:
+    merged_heading:
+    - 538
+    foreign_body:
+    - 1257
+    verified_missing_opening:
+    - 1510
+    repeated_other_chapter_body:
+    - 1517
+    - 1657
+  previous_sampled_validation: final-validation.json#previous_sampled_validation
+historical_execution_request:
+  delegated_model: gpt-6.1-sol
+  service_tier_permission: priority_authorized_for_this_delegation
+  phase: historical_sampled_analysis
+  future_original_design_owner: parent_current_model
+historical_quality_review:
   date: '2026-11-24'
   status: ready
   delegated_model: gpt-6.2-sol
   validation: final-validation.json
+  scope: 2026-11-24 历史抽样复核
+  archived_report: book-analysis-review-20261124.md

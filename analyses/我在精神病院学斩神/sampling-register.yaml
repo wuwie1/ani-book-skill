@@ -1,4 +1,6 @@
 schema_version: 1
+scope: historical_sampled_analysis_through_2026_11_24
+current_full_reading_register: source/full-reading-register.json
 windows:
 - id: B01-W01
   batch: B01

@@ -1,119 +1,364 @@
 {
   "status": "passed",
-  "checked_at": "2026-11-24T10:23:10.605007+00:00",
-  "review_date": "2026-11-24",
-  "review_type": "原目录与检索全量校验，文学判断按原文定点核查",
+  "checked_at": "2026-11-26T08:44:03.789313+00:00",
+  "review_date": "2026-11-26",
+  "coverage": "full",
+  "applies_to": "本地已冻结六卷；原版缺文、错号与串文区分见 source/底本校勘.md",
   "source_sha256": "7657e4a174a1a8e6382e739ce3b4c4464cd486d9e9419371bce10d46cc10a9bc",
   "source_ref": "/Users/likai/go/src/write/ani-book-skill/novels/我在精神病院学斩神.txt",
   "source_snapshot": "source/我在精神病院学斩神.txt",
   "exact_source_snapshot_match": true,
   "snapshot_read_only": true,
-  "decoded_chars": 4985208,
-  "source_non_whitespace_chars": 4240232,
   "source_bytes": 13374793,
+  "decoded_chars": 4985208,
   "source_lines": 252928,
+  "source_non_whitespace_chars": 4240232,
   "catalog_units": 2030,
   "all_catalog_offsets_and_headings_verified": true,
-  "coverage": "sampled",
-  "formal_note_files": 12,
-  "formal_non_whitespace_chars": 125812,
-  "formal_note_positions_and_character_counts_checked": 12,
-  "printed_chapter_filters_checked": 12,
-  "batches_ready": 4,
-  "claim_definitions": 42,
+  "full_candidate_partitions": 411,
+  "candidate_overlaps_verified": true,
+  "volumes": [
+    {
+      "name": "凡尘神域",
+      "ordinal_start": 0,
+      "ordinal_end": 274,
+      "units": 275,
+      "non_whitespace_chars": 589369
+    },
+    {
+      "name": "深红夜幕",
+      "ordinal_start": 275,
+      "ordinal_end": 588,
+      "units": 314,
+      "non_whitespace_chars": 660112
+    },
+    {
+      "name": "极恶都市",
+      "ordinal_start": 589,
+      "ordinal_end": 981,
+      "units": 393,
+      "non_whitespace_chars": 823491
+    },
+    {
+      "name": "神陨乐章",
+      "ordinal_start": 982,
+      "ordinal_end": 1357,
+      "units": 376,
+      "non_whitespace_chars": 776957
+    },
+    {
+      "name": "曾经的我们",
+      "ordinal_start": 1358,
+      "ordinal_end": 1762,
+      "units": 405,
+      "non_whitespace_chars": 834912
+    },
+    {
+      "name": "夜幕之下",
+      "ordinal_start": 1763,
+      "ordinal_end": 2029,
+      "units": 267,
+      "non_whitespace_chars": 555391
+    }
+  ],
+  "formal_note_files": 419,
+  "formal_chapter_units": 2030,
+  "formal_non_whitespace_chars": 4240232,
+  "formal_coverage_percent": 100.0,
+  "uncovered_local_ranges": [],
+  "retained_notes": 12,
+  "retained_note_files_byte_identical": true,
+  "new_notes": 407,
+  "new_units": 1974,
+  "new_non_whitespace_chars": 4114420,
+  "former_review_excerpts_within_full_coverage": 7,
+  "history_deduplicated": true,
+  "sections": [
+    "sections/overview.md",
+    "sections/plot-structure.md",
+    "sections/timeline.md",
+    "sections/character-system.md",
+    "sections/worldbuilding.md",
+    "sections/themes.md",
+    "sections/style-technique.md",
+    "sections/market-highlights.md"
+  ],
+  "structured_sections_valid": true,
+  "claim_definitions": 58,
+  "pattern_cards": 10,
+  "promise_audits": 9,
   "claim_references_resolve": true,
-  "pattern_cards": 7,
-  "claim_refs_checked_markdown_files": 34,
-  "graph_nodes": 28,
-  "graph_edges": 24,
-  "graph_node_sources_edges_and_evidence_valid": true,
-  "final_local_links_checked": 110,
-  "fragment_checks": 15,
+  "graph_nodes": 53,
+  "graph_edges": 51,
+  "graph_endpoints_and_evidence_verified": true,
+  "note_navigation_in_source_order": true,
+  "markdown_files_checked": 455,
+  "local_links_checked": 2811,
+  "markdown_fragments_checked": 14,
   "broken_links": [],
-  "absolute_workspace_md_links": 0,
-  "index_integrity": "ok",
-  "index_chunks": 92,
-  "distinct_indexed_files": 21,
-  "all_current_chunk_fingerprints_match": true,
   "source_excluded_from_index": true,
-  "archived_previous_index": "retrieval/analysis-index.20261124T181828964645.sqlite3",
-  "archive_size_verified": 1187840,
-  "archive_sha256": "a4a3f3100e94a02c71fb2d6d5684f8d65f730ec49a98b80d9c47e79c2eef5cbb",
+  "index_integrity": "ok",
+  "index_chunks": 518,
+  "distinct_indexed_files": 434,
+  "indexed_notes": 419,
+  "all_current_chunk_fingerprints_match": true,
+  "archived_previous_index": "retrieval/analysis-index.before-full-20261126.sqlite3",
+  "archive_size_verified": 1273856,
+  "archive_sha256": "b3e4943edbfc3c141322c151739ba4832fab9cad59cca8ea9b827a2b4b2b4140",
   "search_checks": [
     {
-      "query": "卫冬",
-      "chapter": 703,
-      "character": "卫冬",
+      "query": "袁罡",
+      "chapter": 537,
       "notes": [
-        "notes/segment-006.md"
+        "notes/segment-120.md"
       ]
     },
     {
-      "query": "安卿鱼",
-      "chapter": 2019,
-      "character": "安卿鱼",
+      "query": "八咫镜",
+      "chapter": 964,
       "notes": [
-        "notes/segment-012.md"
+        "notes/segment-206.md"
+      ]
+    },
+    {
+      "query": "绿色彼岸花",
+      "chapter": 239,
+      "notes": [
+        "notes/segment-060.md"
       ]
     },
     {
       "query": "夏思萌",
       "chapter": 1804,
-      "character": null,
-      "notes": []
+      "notes": [
+        "notes/segment-377.md"
+      ]
+    },
+    {
+      "query": "北方异变",
+      "chapter": 1949,
+      "notes": [
+        "notes/segment-406.md"
+      ]
+    },
+    {
+      "query": "第六病房",
+      "chapter": 2021,
+      "notes": [
+        "notes/segment-012.md"
+      ]
+    },
+    {
+      "query": "真理之门",
+      "chapter": 2007,
+      "notes": [
+        "notes/segment-417.md"
+      ]
+    },
+    {
+      "query": "哲学",
+      "chapter": 1516,
+      "notes": [
+        "notes/segment-317.md"
+      ]
     }
   ],
   "graph_path_checks": [
     {
-      "start": "安卿鱼",
-      "end": "林七夜",
+      "start": "CHAR-ZHAO-KONGCHENG",
+      "end": "PAYOFF-ZHAO-CYCLE",
       "found": true,
-      "edge_ids": [
-        "AUD-AN-RETURNS",
-        "AUD-SPACE-LIN"
+      "edges": [
+        "EDGE-025",
+        "EDGE-029"
       ]
     },
     {
-      "start": "卫冬",
-      "end": "RULE-LIMITED-INFO",
+      "start": "RULE-STAR-COIN",
+      "end": "EVENT-HANDOVER",
       "found": true,
-      "edge_ids": [
-        "AUD-WEI-MISREAD",
-        "AUD-MISREAD-CUE"
+      "edges": [
+        "EDGE-039"
+      ]
+    },
+    {
+      "start": "EVENT-SHELTER-PUBLIC",
+      "end": "EVENT-SHELTER-BREACH",
+      "found": true,
+      "edges": [
+        "EDGE-048"
       ]
     }
   ],
-  "protected_files_hash_checked": 17,
-  "existing_documents_with_only_citation_repairs": [
-    "我在精神病院学斩神/production/首章反向验证-20261119/01-从全书到首章.md",
-    "我在精神病院学斩神/batch-B01-review.md"
-  ],
-  "token_ledger": "valid",
-  "raw_usage_events": 8,
-  "effective_creative_execution_records": 8,
-  "usage_measurement": "unavailable; work entries do not establish API request count or cost",
-  "unit_tests_passed": 83,
-  "human_review": "供用户审核",
-  "formal_windows": 12,
-  "formal_chapter_units": 56,
-  "samples_in_original_scope": 12,
-  "formal_coverage_percent": 2.9671,
-  "review_excerpts": 7,
-  "review_unique_non_whitespace_chars": 3822,
-  "review_excerpt_chapters": [
-    1804,
-    2007,
-    2011,
-    2013,
-    2014
-  ],
-  "formal_and_review_union_non_whitespace_chars": 129634,
-  "outside_formal_and_review_non_whitespace_chars": 4110598,
-  "review_excerpt_positions": "sampling-register.yaml#review_excerpts",
-  "quality_review_cases": [
-    "卫冬单方误认",
-    "宿命和尚交接既定之果与同伴记忆",
-    "寻找承诺与第六病房身份翻转",
-    "新宇宙中的延续与沧南复归的不同条件"
-  ]
+  "style_exemplars_verified": 12,
+  "token_ledger": {
+    "valid": true,
+    "record_count": 12,
+    "errors": []
+  },
+  "execution_records_this_run": 4,
+  "delegated_model": "gpt-6.2-sol",
+  "delegated_workers": 3,
+  "usage_measurement": "unavailable/runtime_usage_not_exposed",
+  "unit_tests_passed": 100,
+  "compileall": "passed",
+  "skill_quick_validator": "passed",
+  "installed_mirror": "in_sync",
+  "edition_comparison": {
+    "merged_heading": [
+      538
+    ],
+    "foreign_body": [
+      1257
+    ],
+    "verified_missing_opening": [
+      1510
+    ],
+    "repeated_other_chapter_body": [
+      1517,
+      1657
+    ]
+  },
+  "external_previews_used_for_collation_only": true,
+  "previous_sampled_validation": {
+    "status": "passed",
+    "checked_at": "2026-11-24T10:23:10.605007+00:00",
+    "review_date": "2026-11-24",
+    "review_type": "原目录与检索全量校验，文学判断按原文定点核查",
+    "source_sha256": "7657e4a174a1a8e6382e739ce3b4c4464cd486d9e9419371bce10d46cc10a9bc",
+    "source_ref": "/Users/likai/go/src/write/ani-book-skill/novels/我在精神病院学斩神.txt",
+    "source_snapshot": "source/我在精神病院学斩神.txt",
+    "exact_source_snapshot_match": true,
+    "snapshot_read_only": true,
+    "decoded_chars": 4985208,
+    "source_non_whitespace_chars": 4240232,
+    "source_bytes": 13374793,
+    "source_lines": 252928,
+    "catalog_units": 2030,
+    "all_catalog_offsets_and_headings_verified": true,
+    "coverage": "sampled",
+    "formal_note_files": 12,
+    "formal_non_whitespace_chars": 125812,
+    "formal_note_positions_and_character_counts_checked": 12,
+    "printed_chapter_filters_checked": 12,
+    "batches_ready": 4,
+    "claim_definitions": 42,
+    "claim_references_resolve": true,
+    "pattern_cards": 7,
+    "claim_refs_checked_markdown_files": 34,
+    "graph_nodes": 28,
+    "graph_edges": 24,
+    "graph_node_sources_edges_and_evidence_valid": true,
+    "final_local_links_checked": 110,
+    "fragment_checks": 15,
+    "broken_links": [],
+    "absolute_workspace_md_links": 0,
+    "index_integrity": "ok",
+    "index_chunks": 92,
+    "distinct_indexed_files": 21,
+    "all_current_chunk_fingerprints_match": true,
+    "source_excluded_from_index": true,
+    "archived_previous_index": "retrieval/analysis-index.20261124T181828964645.sqlite3",
+    "archive_size_verified": 1187840,
+    "archive_sha256": "a4a3f3100e94a02c71fb2d6d5684f8d65f730ec49a98b80d9c47e79c2eef5cbb",
+    "search_checks": [
+      {
+        "query": "卫冬",
+        "chapter": 703,
+        "character": "卫冬",
+        "notes": [
+          "notes/segment-006.md"
+        ]
+      },
+      {
+        "query": "安卿鱼",
+        "chapter": 2019,
+        "character": "安卿鱼",
+        "notes": [
+          "notes/segment-012.md"
+        ]
+      },
+      {
+        "query": "夏思萌",
+        "chapter": 1804,
+        "character": null,
+        "notes": []
+      }
+    ],
+    "graph_path_checks": [
+      {
+        "start": "安卿鱼",
+        "end": "林七夜",
+        "found": true,
+        "edge_ids": [
+          "AUD-AN-RETURNS",
+          "AUD-SPACE-LIN"
+        ]
+      },
+      {
+        "start": "卫冬",
+        "end": "RULE-LIMITED-INFO",
+        "found": true,
+        "edge_ids": [
+          "AUD-WEI-MISREAD",
+          "AUD-MISREAD-CUE"
+        ]
+      }
+    ],
+    "protected_files_hash_checked": 17,
+    "existing_documents_with_only_citation_repairs": [
+      "我在精神病院学斩神/production/首章反向验证-20261119/01-从全书到首章.md",
+      "我在精神病院学斩神/batch-B01-review.md"
+    ],
+    "token_ledger": "valid",
+    "raw_usage_events": 8,
+    "effective_creative_execution_records": 8,
+    "usage_measurement": "unavailable; work entries do not establish API request count or cost",
+    "unit_tests_passed": 83,
+    "human_review": "供用户审核",
+    "formal_windows": 12,
+    "formal_chapter_units": 56,
+    "samples_in_original_scope": 12,
+    "formal_coverage_percent": 2.9671,
+    "review_excerpts": 7,
+    "review_unique_non_whitespace_chars": 3822,
+    "review_excerpt_chapters": [
+      1804,
+      2007,
+      2011,
+      2013,
+      2014
+    ],
+    "formal_and_review_union_non_whitespace_chars": 129634,
+    "outside_formal_and_review_non_whitespace_chars": 4110598,
+    "review_excerpt_positions": "sampling-register.yaml#review_excerpts",
+    "quality_review_cases": [
+      "卫冬单方误认",
+      "宿命和尚交接既定之果与同伴记忆",
+      "寻找承诺与第六病房身份翻转",
+      "新宇宙中的延续与沧南复归的不同条件"
+    ]
+  },
+  "printed_chapter_filters_checked": 419,
+  "chapter_filter_exceptions_with_original_headings": {
+    "segment-316": [
+      1507,
+      1511
+    ],
+    "segment-335": [
+      1598,
+      1599
+    ],
+    "segment-406": [
+      1948,
+      1952
+    ]
+  },
+  "review_excerpts_deduplicated_non_whitespace_chars": 3822,
+  "checked_official_catalog": "https://fanqienovel.com/page/6982529841564224526",
+  "checked_official_previews": {
+    "538": "https://fanqienovel.com/reader/7047390584285331981",
+    "1257": "https://fanqienovel.com/reader/7142121931515363854",
+    "1510": "https://fanqienovel.com/reader/7175890086448333368"
+  }
 }

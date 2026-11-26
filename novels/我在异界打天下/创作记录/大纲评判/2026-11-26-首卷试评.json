@@ -1,0 +1,338 @@
+{
+  "rubric": "outline-v1",
+  "book": "我在异界打天下",
+  "volume": 1,
+  "opening_choices": {
+    "status": "confirmed",
+    "channel": "男频",
+    "publication_format": "番茄小说；连载创作，具体发布与合同另行办理",
+    "primary_reader_reward": "强者反差、主动破局和逐步掌握实权的爽感，个人优势转化为伙伴、势力与诸天争霸"
+  },
+  "sources": {
+    "novel_brief": {
+      "path": "新书简报.md",
+      "status": "ready",
+      "sha256": "027db32e16af4e648635d6649bdb59db1c9b486ec9f075713a515e46900d11cf"
+    },
+    "story_bible": {
+      "path": "故事主线.md",
+      "status": "ready",
+      "sha256": "07cd8f6f078af0711ff8b5a4044a735ebdc2c07abb4ca9be166e077ae14f4fea"
+    },
+    "world_bible": {
+      "path": "世界设定.md",
+      "status": "ready",
+      "sha256": "39c3947c9d0d7eac0653faab3e019c4ca5b6c972002229bfda3b64b5bd7d7930"
+    },
+    "character_roster": {
+      "path": "人物/人物总览.md",
+      "status": "ready",
+      "sha256": "445cdd1a81f11fae69fd47238ef881350117db7b818d07c8324e62a94fd0857d"
+    },
+    "volume_strategy": {
+      "path": "分卷/分卷规划.md",
+      "status": "ready",
+      "sha256": "cf04b8fda9081d043948bb94ebe1231db2659918b48851cd49ec8b6fcd59545b"
+    },
+    "volume_01_skeleton": {
+      "path": "分卷/第01卷-卷纲.md",
+      "status": "ready",
+      "sha256": "e9f0410542ec546bf6ada95cd0165e16d118726ebcc65ff0dbc8720f1d0d7344"
+    },
+    "volume_01_beat_sheet": {
+      "path": "分卷/第01卷-节奏表.md",
+      "status": "ready",
+      "sha256": "b15104a48c7a6c7c8dbad7c5b3c6ecd30f46549fcc4decd35e34a8578cd86728"
+    },
+    "character_cheng_jianqiu": {
+      "path": "人物/档案/程见秋.md",
+      "status": "ready",
+      "sha256": "a5202c8d5b9d9199613d53817fae55bc6f97a945eb9c17d878c2f5db4a1caaa7"
+    },
+    "character_chi_heng": {
+      "path": "人物/档案/赤衡.md",
+      "status": "ready",
+      "sha256": "1fcac96c3e81a72674f8682b1a69eeb2b5bb0f1d764497c9d9907da665f63379"
+    },
+    "character_han_jingshan": {
+      "path": "人物/档案/韩敬山.md",
+      "status": "ready",
+      "sha256": "37be8a57f679203adaf812ae6b219c40b2c0a24df15e8f40cad1e033efe20eb1"
+    },
+    "character_lu_hao": {
+      "path": "人物/档案/陆昊.md",
+      "status": "ready",
+      "sha256": "7561d8c027b38f41392843f8ff6c224a0eb90205f7143eb3a61e86456823d095"
+    },
+    "character_lu_jingheng": {
+      "path": "人物/档案/陆景珩.md",
+      "status": "ready",
+      "sha256": "1a52dc3d07b8c40634b31a6192f2498e9e3d4f5e09cf5a2330a16e752a829e03"
+    },
+    "character_lu_yanshan": {
+      "path": "人物/档案/陆砚山.md",
+      "status": "ready",
+      "sha256": "24894b67ba5c6a6e47866e4b76c2542dd9b1081c68b4d121421d01fe45716f20"
+    },
+    "character_lu_zheng": {
+      "path": "人物/档案/陆峥.md",
+      "status": "ready",
+      "sha256": "699563235d252b4983bd49c306c3baf9db7af70fd1b45d98be0d44264825cd21"
+    },
+    "character_qi_lie": {
+      "path": "人物/档案/祁烈.md",
+      "status": "ready",
+      "sha256": "884dfa81068d972bfcaf38b306b9d2dca34c7f3eaac93d1c6c3a56f5c467a9fe"
+    },
+    "character_shen_lingyi": {
+      "path": "人物/档案/沈令仪.md",
+      "status": "ready",
+      "sha256": "5567d851623410b535c616916a93046709dca042d69f24d8c5f1f05aac8838cf"
+    },
+    "character_xu_wenying": {
+      "path": "人物/档案/许文瑛.md",
+      "status": "ready",
+      "sha256": "5bd803344d945a6533aab87fa6c2dfe21415b733a393be2b2c9e3e40f21613df"
+    },
+    "volume_01_chapter_outline": {
+      "path": "分卷/第01卷-逐章细纲.md",
+      "status": "ready",
+      "sha256": "abebd0165c5f4bbaef75d00f871807fe47b8b67faf2c01781a7362ad8f53781c"
+    },
+    "character_tao_shoucheng": {
+      "path": "人物/档案/陶守诚.md",
+      "status": "ready",
+      "sha256": "7288a353d2c48d5622795602b30586ede85dd0ac6b5843dcd8ed5fe714460fb9"
+    },
+    "character_zhou_younian": {
+      "path": "人物/档案/周有年.md",
+      "status": "ready",
+      "sha256": "a5eef54e0540b1118d31333014a8c17e23f2966e02a1ce6cc3a2f47c150e7e8e"
+    },
+    "character_shi_changgeng": {
+      "path": "人物/档案/石长庚.md",
+      "status": "ready",
+      "sha256": "79c6e0696b0455c2d28e857f5695708002e716ef6dd6c4a85ae16686bfb62797"
+    },
+    "character_du_kui": {
+      "path": "人物/档案/杜魁.md",
+      "status": "ready",
+      "sha256": "b9425ad911c6996884ac10d23d6bee024802980c5ea9c308ab2fe77ad21506e4"
+    },
+    "opening_window": {
+      "path": "分卷/第01卷-开篇细纲.md",
+      "status": "ready",
+      "sha256": "2ce6a623f21f1eb194d8ee8f4861d308953de41a5ea1e8ab915405746f1e0689"
+    },
+    "character_qi_yuan": {
+      "path": "人物/档案/齐源.md",
+      "status": "ready",
+      "sha256": "ffe82f320e879413664bccba9c7949ab3b026df877146011c56ab3476dc8e890"
+    },
+    "character_lu_yanchuan": {
+      "path": "人物/档案/陆砚川.md",
+      "status": "ready",
+      "sha256": "3d8d347eafec4730501062e4f039d38830108796da6aea0d79ed8f87dbc50439"
+    }
+  },
+  "judge": {
+    "host": "Codex",
+    "model": null,
+    "context": "separate"
+  },
+  "ratings": {
+    "卖点与读者承诺": {
+      "score": 4,
+      "evidence": [
+        {
+          "source": "novel_brief",
+          "line": 5,
+          "quote": "凭自己的本事争一处能做主的地"
+        },
+        {
+          "source": "novel_brief",
+          "line": 15,
+          "quote": "一场胜利怎样改变他的日子"
+        },
+        {
+          "source": "volume_01_chapter_outline",
+          "line": 111,
+          "quote": "只剩已经结清的收据等他看"
+        }
+      ],
+      "reason": "给这类读者的回报，是看到一项少年的本领最后变成别人也能依靠的事业。陆昊离开渡口三天，班船还能开，卷纲就给了检验这句话的办法。简报同时强调少年强者，两个卖点在开局由不同事件承担。",
+      "next_step": "可在简报的一句话卖点里保留一个具体尺度，例如谁肯在陆昊不在时照他的约定开船。"
+    },
+    "开篇牵引与首次兑现": {
+      "score": 3,
+      "evidence": [
+        {
+          "source": "opening_window",
+          "line": 7,
+          "quote": "信里写了什么没看到"
+        },
+        {
+          "source": "opening_window",
+          "line": 8,
+          "quote": "把旁听牌换成实做牌"
+        },
+        {
+          "source": "opening_window",
+          "line": 9,
+          "quote": "今夜谁在用它，没人答得上"
+        },
+        {
+          "source": "opening_window",
+          "line": 42,
+          "quote": "同车、撞车、舍物拉人、婴啼和卷七的相认都照旧"
+        }
+      ],
+      "reason": "首章的信足以引起好奇，杨硕在撞车时伸手拉齐源也立住了人。可读者若是为异界经营与少年破局而来，先被吊住的是地球上的感情悬念。第2章凝水护信赢得实做资格、第3章验晶牵出他人的安危，才第一次连续尝到这本书的主打回报。",
+      "next_step": "优先调第1章开篇细纲的重心。保留作者已定的表白、事故和舍信拉人，把杨硕解围、愿意担事写到首章最值得期待的位置，使第2章护住家书接得上他这个人。"
+    },
+    "故事发动机与冲突升级": {
+      "score": 5,
+      "evidence": [
+        {
+          "source": "volume_01_chapter_outline",
+          "line": 65,
+          "quote": "码头旁听的人也记住了外侧读数的位置"
+        },
+        {
+          "source": "volume_01_chapter_outline",
+          "line": 68,
+          "quote": "第26章演示过的那种标板"
+        },
+        {
+          "source": "volume_01_chapter_outline",
+          "line": 75,
+          "quote": "右前臂被回火灼伤"
+        },
+        {
+          "source": "volume_01_chapter_outline",
+          "line": 81,
+          "quote": "匠人独立挑出假件"
+        }
+      ],
+      "reason": "第26章公开验法，匠人得以接手，对手也有了可乘之机。第29章标板到了对手手里，第31章陆昊误判受伤。下一轮得靠别人也能执行的盲验才能破局。第二个难题确实从第一次成功里长出来。",
+      "next_step": ""
+    },
+    "人物选择与关系变化": {
+      "score": 4,
+      "evidence": [
+        {
+          "source": "volume_01_chapter_outline",
+          "line": 45,
+          "quote": "他亲手卸下工具箱"
+        },
+        {
+          "source": "volume_01_chapter_outline",
+          "line": 50,
+          "quote": "第11章留下的备用船用上了"
+        },
+        {
+          "source": "volume_01_chapter_outline",
+          "line": 67,
+          "quote": "又说想独立领一段航路"
+        }
+      ],
+      "reason": "程见秋要求给人留退路，陆昊原本想多带工具，最终卸箱。第16章备用船救回伤员，两个人互信的理由因此能看见。她自己想领航的愿望到第28章才明说，前段读者更容易先把她记成一个能干的帮手。",
+      "next_step": "可在第11章卷内任务中点明保住备用运力对程见秋自己意味着什么，给第28章的领航愿望一个来处。"
+    },
+    "世界规则与代价": {
+      "score": 5,
+      "evidence": [
+        {
+          "source": "world_bible",
+          "line": 45,
+          "quote": "欠渡工的金币仍须按约付清"
+        },
+        {
+          "source": "volume_01_chapter_outline",
+          "line": 107,
+          "quote": "他削减扩货位的预算"
+        },
+        {
+          "source": "volume_01_chapter_outline",
+          "line": 110,
+          "quote": "取消了暂养不起的第二个货位"
+        },
+        {
+          "source": "volume_01_chapter_outline",
+          "line": 112,
+          "quote": "主动撤去头季开新矿的设想"
+        }
+      ],
+      "reason": "拿到地盘也要用真金给工人结账。第53章为备用渡船减少扩货位预算，第56章取消第二个货位，第58章面对欠薪先撤开矿设想。资源限制实际改变了三次决定，王府身份也不能一次抹平成本。",
+      "next_step": ""
+    },
+    "期待管理与阶段回报": {
+      "score": 4,
+      "evidence": [
+        {
+          "source": "opening_window",
+          "line": 9,
+          "quote": "一箱昨天已经出库"
+        },
+        {
+          "source": "volume_01_chapter_outline",
+          "line": 35,
+          "quote": "昨夜喊哑的巡兵终于能回屋睡觉"
+        },
+        {
+          "source": "volume_01_chapter_outline",
+          "line": 37,
+          "quote": "两张都真"
+        },
+        {
+          "source": "volume_01_chapter_outline",
+          "line": 46,
+          "quote": "对上上一泊的装卸簿"
+        },
+        {
+          "source": "volume_01_chapter_outline",
+          "line": 47,
+          "quote": "灵压竟让兽蹄僵在半途"
+        }
+      ],
+      "reason": "第3章留下的一箱坏料，很快在第6章兑现为巡兵能睡、担架能过的具体回报。第8至12章接着从单据、副记、泊位和装卸簿取证，案情持续前进，但几次解题给目标读者的感受比较相近。到第13章少年救下车夫，情绪才明显换了一种。",
+      "next_step": "复看第8至12章节奏表，突出第11章卸下一箱工具给人留座的取舍，让这段查货过程中的情感回报也占有位置。"
+    },
+    "分卷递进与终局": {
+      "score": 5,
+      "evidence": [
+        {
+          "source": "volume_01_chapter_outline",
+          "line": 114,
+          "quote": "约好到临川先见等工钱的渡工"
+        },
+        {
+          "source": "volume_strategy",
+          "line": 39,
+          "quote": "陆昊到临川先见等工钱的渡工"
+        },
+        {
+          "source": "volume_strategy",
+          "line": 154,
+          "quote": "守渡会回铃报平安，盟军才切断军用节点"
+        },
+        {
+          "source": "volume_strategy",
+          "line": 158,
+          "quote": "不取消旧伤与失去的故乡"
+        }
+      ],
+      "reason": "第一卷靠能经营好一个渡场拿到试治令，第二卷开局兑现赴任前对渡工的承诺。全书末段把同一个问题放大到诸界，盟军须等末船回航再切断节点，也因此少了追击时间。一次守约怎样影响胜负，首尾都能辨认。",
+      "next_step": ""
+    }
+  },
+  "summary": {
+    "scored": 7,
+    "total": 7,
+    "mean": 4.29,
+    "needs_evidence": [],
+    "revise_first": [
+      "开篇牵引与首次兑现"
+    ]
+  }
+}

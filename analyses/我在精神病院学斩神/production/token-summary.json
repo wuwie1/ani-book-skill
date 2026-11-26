@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T10:17:40.478539Z",
+  "generated_at": "2026-11-26T08:40:30.499814Z",
   "totals": {
-    "events": 8,
-    "succeeded": 8,
+    "events": 12,
+    "succeeded": 12,
     "failed": 0,
     "partial": 0,
     "exact_events": 0,
     "exact_tokens": 0,
     "estimated_events": 0,
     "estimated_tokens": 0,
-    "unavailable_events": 8
+    "unavailable_events": 12
   },
   "by_step": {
     "analysis.analysis_coverage_review": {
@@ -100,6 +100,50 @@
       "estimated_events": 0,
       "estimated_tokens": 0,
       "unavailable_events": 1
+    },
+    "analysis.full_opening_and_synthesis": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
+    },
+    "analysis.full_volume_five": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
+    },
+    "analysis.full_volume_four": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
+    },
+    "analysis.full_volume_six": {
+      "events": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 1
     }
   },
   "by_model": {
@@ -115,17 +159,6 @@
       "unavailable_events": 3
     },
     "gpt-6.2-sol": {
-      "events": 1,
-      "succeeded": 1,
-      "failed": 0,
-      "partial": 0,
-      "exact_events": 0,
-      "exact_tokens": 0,
-      "estimated_events": 0,
-      "estimated_tokens": 0,
-      "unavailable_events": 1
-    },
-    "unknown": {
       "events": 4,
       "succeeded": 4,
       "failed": 0,
@@ -135,6 +168,17 @@
       "estimated_events": 0,
       "estimated_tokens": 0,
       "unavailable_events": 4
+    },
+    "unknown": {
+      "events": 5,
+      "succeeded": 5,
+      "failed": 0,
+      "partial": 0,
+      "exact_events": 0,
+      "exact_tokens": 0,
+      "estimated_events": 0,
+      "estimated_tokens": 0,
+      "unavailable_events": 5
     }
   }
 }

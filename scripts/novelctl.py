@@ -22,6 +22,7 @@ import yaml
 import asset_graph
 import analysis_reference
 import continuity_store
+import outline_evaluation
 import token_usage
 from workspace_paths import book_path, chinese_relative, uses_chinese_names
 
@@ -1526,6 +1527,22 @@ def add_workspace(parser: argparse.ArgumentParser) -> None:
     parser.add_argument("workspace", type=Path)
 
 
+def command_outline_review(args: argparse.Namespace) -> int:
+    workspace = args.workspace.resolve()
+    packet, lines = outline_evaluation.prepare(workspace, read_state(workspace), args.volume)
+    if args.review:
+        review = json.loads(args.review.read_text(encoding="utf-8-sig"))
+        result = outline_evaluation.verify_review(packet, lines, review)
+    else:
+        result = outline_evaluation.review_form(packet)
+    rendered = json.dumps(result, ensure_ascii=False, indent=2)
+    if args.output:
+        atomic_write_text(args.output, rendered + "\n", replace=False)
+    else:
+        print(rendered)
+    return 0
+
+
 def add_step_identity(parser: argparse.ArgumentParser) -> None:
     add_workspace(parser)
     parser.add_argument("--step", required=True)
@@ -1558,6 +1575,13 @@ def build_parser() -> argparse.ArgumentParser:
     add_workspace(status)
     status.add_argument("--format", choices=("json", "markdown"), default="json")
     status.set_defaults(handler=command_status)
+
+    outline = commands.add_parser("outline-review", help="prepare or verify an evidence-backed outline review")
+    add_workspace(outline)
+    outline.add_argument("--volume", type=int, default=1, help="review book-level planning and this volume")
+    outline.add_argument("--review", type=Path, help="verify a completed JSON assessment against current inputs")
+    outline.add_argument("--output", type=Path, help="create a new JSON file (default: stdout)")
+    outline.set_defaults(handler=command_outline_review)
 
     next_command = commands.add_parser("next", help="return the one deterministic next action")
     add_workspace(next_command)

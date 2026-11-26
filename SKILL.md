@@ -1,6 +1,6 @@
 ---
 name: produce-long-form-novel
-description: 中文长篇小说创作与拆书。用于看大纲、先审稿给建议、试写一段、续写当前试读、正式写章、修稿、开书与分卷规划、拆书和原创机制迁移、同人、榜单分析及定稿导出。适用于对话预览和本地 Markdown/YAML 小说工作区。
+description: 中文长篇小说创作与拆书。用于看大纲、评判网文大纲的追读吸引力、先审稿给建议、试写一段、续写当前试读、正式写章、修稿、开书与分卷规划、拆书和原创机制迁移、同人、榜单分析及定稿导出。适用于对话预览和本地 Markdown/YAML 小说工作区。
 ---
 
 # 长篇小说创作
@@ -35,6 +35,7 @@ Before the first production action in a task, compare the checked-out source wit
 
 - **新书与创意。** 明确没有想法时给恰好五条[开书种子](references/opening-seeds.md)。已有灵感、确需探索方向时给恰好两份不同的简报预览；已选方向或委托直接生产时沿用决定。没有明说“无想法”的模糊开书请求先谈频道、发布形态、题材或主要回报。其余选择按[简报与渐进确认](references/novel-brief.md)随里程碑展开。单独要书名或灵感时直接交付所求。
 - **卷纲、人物与世界。** 按[故事与卷规划](references/story-and-volume-planning.md)确定当前卷职责，保留作者固定的卷数、时间线和章末结果。涉及具体世界限制或角色状态时再读[世界设定](references/world-bible.md)或[人物档案](references/character-asset-layout.md)。
+- **大纲评判。** 作者要按维度评判网文架构、跑首版自动评判时，按[大纲评判 v1](references/outline-evaluation.md)取规划、逐项判断并校验报告。给出证据最充分的优点、最值得先修的位置和负责的规划环节。只问一个问题时直接回答该项。
 - **试写与正式写章。** 取[章节生产](references/chapter-production.md)中对应部分。短试读只展开本场视角、能改变局面的选择、必留事实和停笔位置，细节由写手发挥。正式章节先核对本章计划、上一稳定章尾和有效写法，按章内需要安排场景。正式多章由同一写手串行完成，一章验收且已提交连续性后才计划下一章。暂停的章节预热和子代理候选流程不进入生产。
 - **写法、审阅与修复。** 用[写法合同](references/style-engine.md)中的本书偏好指导表达，作者指定要某本已拆书的读感时按其中的文笔样例登记并对照，用[审校与最小修复](references/quality-and-repair.md)回看具体正文。完整章节及指定的对照修订按[中文表达修订](references/chinese-novel-humanization.md)保留有效原句和叙事余味。只有作者要求引入外部方法时才按[远端写法来源](references/remote-skill-sources.md)核验、锁定与确认。
 - **连续性。** 正式生产按[上下文取舍](references/context-and-continuity.md)和[连续性账本](references/continuity-ledgers.md)核对事实。已迁移的工作区遵循[结构化连续性](references/structured-continuity-store.md)。同一版正文审校通过后才回灌。涉及跨书资产或共享正史再读[跨书资产、版本锁定与发布权限](references/cross-book-asset-graph.md)。

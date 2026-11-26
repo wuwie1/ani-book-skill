@@ -1,16 +1,16 @@
 # 拆书分析成果
 
-本目录收录三部作品的拆书报告。点书名可读总评，右栏的目录可定位分段笔记或抽样窗口。全文范围以各书的本地底本为准，覆盖量按非空白字符统计。
+本目录收录三部作品的拆书报告。点书名可读总评，右栏的目录可定位分段笔记。全文范围以各书的本地底本为准，覆盖量按非空白字符统计。
 
 | 作品总评 | 正式覆盖 | 分析重点 | 笔记与校验 |
 | --- | --- | --- | --- |
 | [《张三丰异界游》](张三丰异界游/book-analysis-review.md) | 全文 · 40 批、390 段 · 3,682,989 字符 | 跨体系的知识怎样经由工艺、人力和制度，变成能长期使用的资源与兵力 | [分批目录](张三丰异界游/batch-plan.md) · [复核记录](张三丰异界游/final-validation.json) |
-| [《我在精神病院学斩神》](我在精神病院学斩神/book-analysis-review.md) | 跨阶段抽样 · 4 批、12 窗，含 56 个章级单元 · 125,812 字符 | 对白、动作和视角怎样让人感到被照顾，又怎样用人物间的信息差制造悬疑 | [抽样目录](我在精神病院学斩神/sample-plan.md) · [复核记录](我在精神病院学斩神/final-validation.json) |
+| [《我在精神病院学斩神》](我在精神病院学斩神/book-analysis-review.md) | 六卷全量 · 419 份笔记 · 2,030 个目录单元 · 4,240,232 个非空字符 | 对白、动作和视角怎样让人感到被照顾，又怎样用人物间的信息差制造悬疑 | [六卷笔记目录](我在精神病院学斩神/六卷笔记目录.md) · [复核记录](我在精神病院学斩神/final-validation.json) |
 | [《遮天》](遮天/book-analysis-review.md)（本地） | 全文 · 63 批、623 段 · 6,391,330 字符 | 叶凡怎样从受人护道走到为众人开路，古史如何揭晓，哪些故人终究没能等到他 | [分批目录](遮天/batch-plan.md) · [校验记录](遮天/final-validation.json) |
 
 2026-11-24 的复核校正了《张三丰异界游》58 份笔记的检索节号。遇到重号、合章或标题回跳，可用原题和目录单元定位。[底本说明](张三丰异界游/source-quality-review.md)
 
-《斩神》在正式样本之外另查了 7 处摘段，共 3,822 个非空白字符，用于核实夏思萌出笼后的处境、安卿鱼的承诺和第六病房的身份揭示。每处都登记了原章号、行号和字符区间。[样本与补证明细](我在精神病院学斩神/sampling-register.yaml)
+《斩神》保留早期 4 批、12 窗的抽样记录，覆盖 56 个章级单元、125,812 个非空字符，另有 7 处共 3,822 个非空字符的历史补证。2026-11-26 的全量阅读已处理这些位置。[样本与补证明细](我在精神病院学斩神/sampling-register.yaml)
 
 《遮天》的整套分析目前保存在本地工作区，这一行的链接可在含有 `analyses/遮天/` 的工作副本中打开。
 
@@ -20,9 +20,9 @@
 - **读者比人物多知道一点，会改变什么？** 《斩神》第 703 章里，读者已看过接应安排，卫冬却把林七夜与雨宫晴辉当成当地人。可以结合开篇的公共误读，看同一种视角安排怎样产生不同效果。[第 700–703 章笔记](我在精神病院学斩神/notes/segment-006.md) · [跨阶段写法比较](我在精神病院学斩神/sections/style-technique.md)
 - **一条伏笔跨过上千章，最后究竟回答了什么？** 从《遮天》的 13 份阶段复盘可以追踪人物选择，再从 18 条重要伏笔与承诺中核对答案。九龙拉棺的用途、两次仙门分别带谁过去，都能沿途回查。[人物关系总表](遮天/sections/character-system.md) · [伏笔回收表](遮天/promise-final-audit.md) · [未决与辨误](遮天/uncertainty-ledger.md)
 
-用于原创构思时，三本书分别提炼了 6、7、8 张机制卡。每张卡给出适用前提、读者回报和容易写坏的地方，可据此挑选与新故事有关的写法。[《张三丰》结构与设定](张三丰异界游/pattern-cards.md) · [《斩神》场景写法](我在精神病院学斩神/pattern-cards.md) · [《遮天》长线叙事](遮天/pattern-cards.md)
+用于原创构思时，三本书分别提炼了 6、10、8 张机制卡。每张卡给出适用前提、读者回报和容易写坏的地方，可据此挑选与新故事有关的写法。[《张三丰》结构与设定](张三丰异界游/pattern-cards.md) · [《斩神》场景写法](我在精神病院学斩神/pattern-cards.md) · [《遮天》长线叙事](遮天/pattern-cards.md)
 
-核对具体判断时，在书目录的 `evidence-ledger.md` 查 `CLAIM` 编号，按对应的分段笔记回到原文。两部全文分析可按分批目录顺读。《斩神》的正式笔记按样本编号，查某一章应从上表的抽样目录进入。
+核对具体判断时，在书目录的 `evidence-ledger.md` 查 `CLAIM` 编号，按对应的分段笔记回到原文。三部分析均可从上表进入对应目录顺读。《斩神》按底本顺序查章，跨卷笔记在第一次出现的位置列出。
 
 ## 在新会话中接续原创设计
 
@@ -32,11 +32,11 @@
 使用 $produce-long-form-novel，为已确认的现代架空都市项目做原创小说的设计预览。请用当前会话选定的模型完成设计，不使用子 Agent。
 
 从 ani-book-skill 仓库根目录读取 analyses/README.md，以及 analyses/张三丰异界游/ 和 analyses/我在精神病院学斩神/ 各自的 analysis-state.yaml、execution-brief.md、book-analysis-review.md、coverage-map.md、pattern-cards.md 和 uncertainty-ledger.md。
-然后读取《张三丰异界游》的 sections/overview.md、sections/plot-structure.md、sections/worldbuilding.md、sections/character-system.md 和 promise-final-audit.md；读取《我在精神病院学斩神》的 sections/overview.md 和 sections/style-technique.md。有具体疑问再沿 CLAIM 查 evidence-ledger.md 与相关分段笔记。
+然后读取《张三丰异界游》的 sections/overview.md、sections/plot-structure.md、sections/worldbuilding.md、sections/character-system.md 和 promise-final-audit.md；读取《我在精神病院学斩神》的 sections/overview.md、sections/style-technique.md 和 promise-final-audit.md，再按六卷笔记目录.md 查相关章节。有具体疑问再沿 CLAIM 查 evidence-ledger.md 与相关分段笔记。
 
 材料分工：
 - 《张三丰异界游》已完成本地全文分析，用于学习故事架构、设定运作和伏笔组织，重点是跨体系知识怎样转成资源、组织能力和势力积累。
-- 《我在精神病院学斩神》只完成跨阶段抽样，用于学习对白、行动、信息释放和节奏，重点是具体关照与并肩行动怎样带来情绪回报。不要把样本结论扩写成全书定论。
+- 《我在精神病院学斩神》已覆盖当前本地底本六卷，用于学习对白、行动、信息释放和节奏。按全量证据追踪具体关照与并肩行动怎样产生情绪回报，同时保留独立的悬疑和行动效果。第1257、1510、1517、1657章存在底本正文缺口或重录，回查以底本校勘为准。
 - 预览涉及跨阶段的承诺、失约或人物互相护持时，可查本地 analyses/遮天/promise-final-audit.md 和 analyses/遮天/sections/character-system.md。
 - 采用原创机制迁移：说明保留什么阅读回报、重建什么人物与因果、适用前提和代价。重建本书的人物、世界、事件及表达，不以改名换皮代替原创，也不直接模仿作者的独特文风。
 

@@ -15,6 +15,15 @@
 - Treat `SKILL.md`, `references/`, deterministic scripts, and local Markdown/YAML workspaces as the product surface.
 - Use `D:\code\AI-Novel-Writing-Assistant-v2` only as a read-only source of production ideas. Never create a runtime dependency on it.
 
+## 跨项目协作中的大纲评判
+
+| 职责 | 输入与交付 |
+| --- | --- |
+| 拆书分析 | 从已覆盖的参考文本提炼机制、反例和适用条件，保留证据位置。原创评判可用机制帮助提问，得分须由目标书自己的规划支持。 |
+| 原创规划 | 维护简报、故事主线、人物与世界、分卷和章纲。收到评判后，按作者选定或委托的范围修订对应材料，复核受影响的卷章。 |
+| 大纲评判 | Codex 依[大纲评判 v1](references/outline-evaluation.md)判断目标读者会期待什么、规划怎样兑现。Python 固定输入版本、核对引文、汇总分项。交付评判记录和优先修订位置，采纳决定归规划端和作者。 |
+| 跨仓交接 | `autocommand` 记录已选的本地规划、评判范围和 Web 采用的修订。`assistant` 在对应小说生成、保存和审校正文。查到规划已有约定而正文遗漏时，由 Web 核对绑定与章节任务。 |
+
 ## Data Safety
 
 - Use Chinese directory and file names for all future work in `novels/我在异界打天下/`. Follow the examples in its `作品导览.md` and the paths in `小说状态.yaml`. Keep chapter numbers, stable IDs and standard file extensions.

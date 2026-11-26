@@ -1,4 +1,4 @@
-{"id": "PROMISE-A", "type": "core_promise", "label": "具体关照与并肩行动产生归属", "attributes": {"status": "user_confirmed_analysis_lens_not_whole_book_fact"}, "confidence": "medium", "source_refs": ["segment-001"]}
+{"id": "PROMISE-A", "type": "core_promise", "label": "具体关照与并肩行动产生归属", "attributes": {"status": "user_confirmed_analysis_lens_checked_across_six_volumes"}, "confidence": "medium", "source_refs": ["segment-001", "segment-018", "segment-080", "segment-206", "segment-261", "segment-334", "segment-407", "segment-012"]}
 {"id": "EVENT-EGGS", "type": "event", "label": "姨妈送鸡蛋并请求照顾", "confidence": "high", "source_refs": ["segment-001"]}
 {"id": "PAYOFF-WELCOME", "type": "payoff", "label": "接纳被重新理解为有人预先付出", "confidence": "medium", "source_refs": ["segment-001"]}
 {"id": "EVENT-SCHOOL-FAIL", "type": "event", "label": "护送承诺在生存压力下失效", "confidence": "high", "source_refs": ["segment-002"]}
@@ -26,3 +26,28 @@
 {"id": "SITE-SIXTH-ROOM", "type": "location", "label": "第六病房", "confidence": "high", "source_refs": ["segment-002", "segment-012"], "aliases": ["第六间病房"]}
 {"id": "PAYOFF-CANGNAN", "type": "payoff", "label": "沧南亡者依魂魄和人造肉身复归", "confidence": "high", "source_refs": ["segment-012"]}
 {"id": "EVENT-DOOR-IN-SPACE", "type": "event", "label": "安卿鱼跨层来寻林七夜", "confidence": "high", "source_refs": ["segment-012"], "attributes": {"scope": "第2019章到场。第2007章寻找承诺的独立摘段见 sampling-register.yaml 的 R03。"}}
+{"id": "CHAR-ZHAO-KONGCHENG", "type": "character", "label": "赵空城", "confidence": "high", "source_refs": ["segment-002", "segment-039", "segment-063", "segment-229", "segment-397", "segment-012"]}
+{"id": "CHAR-ZHAO-ZHENGBIN", "type": "character", "label": "赵正斌", "confidence": "high", "source_refs": ["segment-397", "segment-399", "segment-407", "segment-012"]}
+{"id": "CHAR-NYX", "type": "character", "label": "倪克斯", "confidence": "high", "source_refs": ["segment-014", "segment-016", "segment-368", "segment-387", "segment-389", "segment-390"]}
+{"id": "SITE-PEACE-OFFICE", "type": "location", "label": "和平事务所", "confidence": "high", "source_refs": ["segment-396", "segment-397", "segment-012"]}
+{"id": "EVENT-ZHAO-SACRIFICE", "type": "event", "label": "赵空城以生命保护沧南居民", "confidence": "high", "source_refs": ["segment-018", "segment-063"]}
+{"id": "EVENT-EMPTY-SEAT", "type": "event", "label": "136小队年饭为赵空城留座", "confidence": "high", "source_refs": ["segment-039"]}
+{"id": "EVENT-ZHAO-MEMORIAL", "type": "event", "label": "赵正斌认出父亲与守夜人的联系", "confidence": "high", "source_refs": ["segment-397", "segment-012"]}
+{"id": "PAYOFF-ZHAO-CYCLE", "type": "payoff", "label": "从赵空城护住林七夜到林七夜挡在赵正斌面前", "confidence": "medium", "source_refs": ["segment-002", "segment-018", "segment-229", "segment-012"]}
+{"id": "EVENT-NYX-FIRST-CARE", "type": "event", "label": "倪克斯把瓶子认作孩子，林七夜承诺喂药", "confidence": "high", "source_refs": ["segment-014", "segment-016"]}
+{"id": "EVENT-NYX-RESCUE", "type": "event", "label": "林七夜救回倪克斯并交还奥林匹斯本源", "confidence": "high", "source_refs": ["segment-387", "segment-389", "segment-390"]}
+{"id": "EVENT-CHILD-SELF", "type": "event", "label": "孩子自称林七夜并迫使主角追问身份", "confidence": "high", "source_refs": ["segment-291", "segment-388", "segment-419"]}
+{"id": "EVENT-INSCRIBED-IDENTITY", "type": "event", "label": "第六病房刻字保存林七夜的人格记忆", "confidence": "high", "source_refs": ["segment-418", "segment-419"]}
+{"id": "RULE-STAR-COIN", "type": "world_rule", "label": "王之星币短暂具现熟悉的人并抹掉相关记忆", "confidence": "high", "source_refs": ["segment-408", "segment-409", "segment-413", "segment-415"]}
+{"id": "EVENT-AN-QINGYU-PLEDGE", "type": "event", "label": "安卿鱼入真理之门时承诺找到林七夜", "confidence": "high", "source_refs": ["segment-417"]}
+{"id": "EVENT-AN-QINGYU-CHESS", "type": "event", "label": "安卿鱼与林七夜以未完棋局传达信号", "confidence": "high", "source_refs": ["segment-381", "segment-390", "segment-406"]}
+{"id": "RULE-SPIRIT-BODY", "type": "world_rule", "label": "鸿蒙灵胎从承载主神打击到承载三条法则", "confidence": "high", "source_refs": ["segment-333", "segment-335", "segment-417"]}
+{"id": "EVENT-THREE-COVENANTS", "type": "event", "label": "克洛伊的圣约由东皇钟先后触发", "confidence": "high", "source_refs": ["segment-340", "segment-394", "segment-414", "segment-415"]}
+{"id": "EVENT-WUQUAN-BELL", "type": "event", "label": "乌泉用东皇钟护住沈青竹并击钟至死", "confidence": "high", "source_refs": ["segment-333", "segment-414"]}
+{"id": "EVENT-NIGHT-REUNION", "type": "event", "label": "六名夜幕队员从高维争取终结窗口", "confidence": "high", "source_refs": ["segment-419", "segment-012"]}
+{"id": "EVENT-AZATHOTH-RECONSTRUCTION", "type": "event", "label": "林七夜反复重建梦境并同化阿撒托斯", "confidence": "high", "source_refs": ["segment-418", "segment-419"]}
+{"id": "EVENT-HUNTING-FESTIVAL", "type": "event", "label": "猎神庆典保护新人并引奥林匹斯神明入境", "confidence": "high", "source_refs": ["segment-369", "segment-370"]}
+{"id": "EVENT-SHELTER-PUBLIC", "type": "event", "label": "直播见证守夜人、梦魇解除与民众疏散", "confidence": "high", "source_refs": ["segment-397", "segment-398", "segment-399", "segment-400"]}
+{"id": "EVENT-SHELTER-BREACH", "type": "event", "label": "北方遇袭揭开时间骗局与末矢的限制", "confidence": "high", "source_refs": ["segment-405", "segment-406", "segment-407"]}
+{"id": "EVENT-CHAOS-ENTICEMENT", "type": "event", "label": "恶魔小队与十二金仙代理人诱混沌入阵", "confidence": "high", "source_refs": ["segment-410", "segment-411", "segment-412"]}
+{"id": "PATTERN-KEEP-AGENCY", "type": "pattern", "label": "被救者的主动行动与援手合力出结果", "confidence": "medium", "source_refs": ["segment-373", "segment-374", "segment-378", "segment-011", "segment-012"]}
